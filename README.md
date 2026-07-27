@@ -15,14 +15,14 @@ follow them exactly.
   (Generator→Orchestrator contract), attempt events, lesson-exposure events
   (a sibling event type, not an attempt), and a stub lesson schema.
 - `content/fractions/` — the v1 fixture in YAML: the fractions skill graph
-  (12 nodes — the original 10-node §1.3 cluster plus a Stage 1-drafted
-  multiplication extension), 8 misconceptions (§2.4), one NCERT mapping
-  (§1.4). Still short of the §4 build-order target (25–40 nodes, ~15–20
-  misconceptions, two countries) — in progress.
+  (14 nodes — the original 10-node §1.3 cluster plus Stage 1-drafted
+  multiplication and division extensions), 12 misconceptions (§2.4), one
+  NCERT mapping (§1.4). Still short of the §4 build-order target (25–40
+  nodes, ~15–20 misconceptions, two countries) — in progress.
 - `content/templates/` — item templates: the §2.2 worked example (still
-  `FLAGGED_FOR_REGENERATION` by design, see below) plus 5 Stage 2-drafted
-  templates covering `FRAC.ADD.LIKE`, `FRAC.EQUIV`, `FRAC.SIMPLIFY`,
-  `NUM.LCM`, `FRAC.MULT.WHOLE`. Still short of the §4 target (~150–300
+  `FLAGGED_FOR_REGENERATION` by design, see below) plus 11 Stage 2-drafted
+  templates, one per skill for every skill except `NUM.MULT.TABLES` (a pure
+  fluency node) and `FRAC.MIXED.ADD`. Still short of the §4 target (~150–300
   templates, 5–15 per skill) — in progress.
 - `tools/graph_lint.py` — linter for skill-graph content directories.
 - `tools/stage1_draft.py` — Stage 1 drafting harness (see below).

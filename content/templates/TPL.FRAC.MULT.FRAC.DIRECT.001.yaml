@@ -1,0 +1,64 @@
+# Stage 2 drafted 2026-07-27 via tools/stage2_draft.py (second batch),
+# verified PASS by tools/item_verify.py; promoted after review.
+template_id: TPL.FRAC.MULT.FRAC.DIRECT.001
+skill_ids:
+- FRAC.MULT.FRAC
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- food
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  a:
+    type: int
+    range:
+    - 1
+    - 2
+  b:
+    type: int
+    range:
+    - 3
+    - 4
+  c:
+    type: int
+    range:
+    - 1
+    - 2
+  d:
+    type: int
+    range:
+    - 3
+    - 4
+constraints:
+- a < b
+- c < d
+localization_slots: []
+stem_i18n:
+  en-IN: What is {{a}}/{{b}} of {{c}}/{{d}}?
+answer: simplify((a*c) / (b*d))
+distractors:
+- expr: (a*d) / (b*c)
+  misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - 'Multiply the numerators together: {{a}} x {{c}}.'
+    - 'Multiply the denominators together: {{b}} x {{d}}.'
+    - Simplify if possible.
+hints_i18n:
+  en-IN:
+  - 'Multiply straight across: top times top, bottom times bottom.'
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: stage2-gen/0.1.0
+  reviewer: rishi
+  date: '2026-07-27'

@@ -1,0 +1,51 @@
+# Stage 2 drafted 2026-07-27 via tools/stage2_draft.py (second batch),
+# verified PASS by tools/item_verify.py; promoted after review.
+template_id: TPL.FRAC.UNIT.CMP.001
+skill_ids:
+- FRAC.UNIT
+question_type: mcq_4
+cognitive_level: recall
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- food
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  a:
+    type: int
+    range:
+    - 2
+    - 4
+  b:
+    type: int
+    range:
+    - 6
+    - 9
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: 'Which is bigger: 1/{{a}} or 1/{{b}}?'
+answer: 1/a
+distractors:
+- expr: 1/b
+  misconception_id: MISC.FRAC.BIGGER-DENOM
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Smaller denominator means the whole is cut into fewer, bigger pieces.
+    - 1/{{a}} has a smaller denominator than 1/{{b}}, so it is bigger.
+hints_i18n:
+  en-IN:
+  - A smaller denominator means bigger pieces.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: stage2-gen/0.1.0
+  reviewer: rishi
+  date: '2026-07-27'

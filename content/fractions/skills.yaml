@@ -108,7 +108,10 @@ skills:
     canonical_stage: 2
     prerequisites:
       - NUM.MULT.TABLES
-    misconceptions: []
+    # MISC.NUM.LCM-CONFUSED-WITH-GCF added 2026-07-27 (Stage 1 draft):
+    # diagnosed here (own core procedure).
+    misconceptions:
+      - MISC.NUM.LCM-CONFUSED-WITH-GCF
 
   - skill_id: FRAC.MIXED.ADD
     name: "Add and subtract mixed numbers"
@@ -119,7 +122,10 @@ skills:
     canonical_stage: 4
     prerequisites:
       - FRAC.ADD.UNLIKE
-    misconceptions: []
+    # MISC.FRAC.MIXED-NO-REGROUP added 2026-07-27 (Stage 1 draft):
+    # diagnosed here (own core procedure).
+    misconceptions:
+      - MISC.FRAC.MIXED-NO-REGROUP
 
   - skill_id: NUM.MULT.TABLES
     name: "Multiplication facts"
@@ -160,3 +166,32 @@ skills:
       - FRAC.MULT.WHOLE
     misconceptions:
       - MISC.FRAC.MULT-MAKES-BIGGER
+
+  # --- Stage 1 drafted 2026-07-27 via tools/stage1_draft.py (second batch),
+  # syllabus examples/ncert-fractions-excerpt.txt, promoted after review.
+  - skill_id: FRAC.DIV.WHOLE
+    name: "Divide a fraction by a whole number"
+    description: >
+      Divide a proper fraction by a whole number (e.g. 2/5 / 3), interpreting
+      the result as splitting the fraction into equal parts, expressing the
+      result in simplest form.
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 3
+    prerequisites:
+      - FRAC.MULT.WHOLE
+    misconceptions:
+      - MISC.FRAC.DIV-WHOLE-MULTIPLY
+
+  - skill_id: FRAC.DIV.FRAC
+    name: "Divide a fraction by a fraction"
+    description: >
+      Divide a proper fraction by another proper fraction (e.g. 1/2 / 1/3)
+      using the reciprocal-and-multiply method, expressing the result in
+      simplest form.
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 4
+    prerequisites:
+      - FRAC.DIV.WHOLE
+      - FRAC.MULT.FRAC
+    misconceptions:
+      - MISC.FRAC.DIV-WRONG-FLIP

@@ -112,13 +112,15 @@ def test_fixture_covers_expected_fractions_cluster() -> None:
 
 
 def test_fixture_covers_stage1_drafted_extension() -> None:
-    """The multiplication-of-fractions extension drafted via
+    """The multiplication- and division-of-fractions extensions drafted via
     tools/stage1_draft.py (2026-07-27, examples/ncert-fractions-excerpt.txt)
     and promoted into content/fractions/."""
     skills_data = yaml.safe_load((FIXTURE_DIR / "skills.yaml").read_text(encoding="utf-8"))
     nodes = {s["skill_id"]: s for s in skills_data["skills"]}
     assert nodes["FRAC.MULT.WHOLE"]["prerequisites"] == ["FRAC.PARTWHOLE", "NUM.MULT.TABLES"]
     assert nodes["FRAC.MULT.FRAC"]["prerequisites"] == ["FRAC.MULT.WHOLE"]
+    assert nodes["FRAC.DIV.WHOLE"]["prerequisites"] == ["FRAC.MULT.WHOLE"]
+    assert nodes["FRAC.DIV.FRAC"]["prerequisites"] == ["FRAC.DIV.WHOLE", "FRAC.MULT.FRAC"]
 
     misc_data = yaml.safe_load((FIXTURE_DIR / "misconceptions.yaml").read_text(encoding="utf-8"))
     targets = {m["misconception_id"]: m["remediation_target"] for m in misc_data["misconceptions"]}
@@ -126,6 +128,22 @@ def test_fixture_covers_stage1_drafted_extension() -> None:
     assert targets["MISC.FRAC.MULT-MAKES-BIGGER"] == "FRAC.PARTWHOLE"
     assert targets["MISC.FRAC.EQUIV-ADD-SAME"] == "FRAC.EQUIV"
     assert targets["MISC.FRAC.UNEQUAL-PARTS"] == "FRAC.PARTWHOLE"
+    assert targets["MISC.FRAC.DIV-WHOLE-MULTIPLY"] == "FRAC.DIV.WHOLE"
+    assert targets["MISC.FRAC.DIV-WRONG-FLIP"] == "FRAC.DIV.FRAC"
+    assert targets["MISC.NUM.LCM-CONFUSED-WITH-GCF"] == "NUM.LCM"
+    assert targets["MISC.FRAC.MIXED-NO-REGROUP"] == "FRAC.MIXED.ADD"
+
+    # Bidirectional consistency: a misconception diagnosed at its own
+    # remediation target must be listed on that skill's own misconceptions
+    # (unlike e.g. MISC.FRAC.ADD-ACROSS, diagnosed at FRAC.ADD.UNLIKE but
+    # remediated at the prerequisite FRAC.EQUIV — those don't need to match).
+    for misc_id, target in [
+        ("MISC.FRAC.DIV-WHOLE-MULTIPLY", "FRAC.DIV.WHOLE"),
+        ("MISC.FRAC.DIV-WRONG-FLIP", "FRAC.DIV.FRAC"),
+        ("MISC.NUM.LCM-CONFUSED-WITH-GCF", "NUM.LCM"),
+        ("MISC.FRAC.MIXED-NO-REGROUP", "FRAC.MIXED.ADD"),
+    ]:
+        assert misc_id in nodes[target]["misconceptions"]
 
 
 def test_fixture_covers_expected_misconceptions() -> None:

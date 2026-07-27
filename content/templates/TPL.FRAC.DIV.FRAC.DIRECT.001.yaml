@@ -1,0 +1,64 @@
+# Stage 2 drafted 2026-07-27 via tools/stage2_draft.py (second batch),
+# verified PASS by tools/item_verify.py; promoted after review.
+template_id: TPL.FRAC.DIV.FRAC.DIRECT.001
+skill_ids:
+- FRAC.DIV.FRAC
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: medium
+estimated_time_sec: 50
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- food
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  a:
+    type: int
+    range:
+    - 1
+    - 2
+  b:
+    type: int
+    range:
+    - 3
+    - 4
+  c:
+    type: int
+    range:
+    - 1
+    - 2
+  d:
+    type: int
+    range:
+    - 3
+    - 4
+constraints:
+- a < b
+- c < d
+localization_slots: []
+stem_i18n:
+  en-IN: What is {{a}}/{{b}} divided by {{c}}/{{d}}?
+answer: simplify((a*d) / (b*c))
+distractors:
+- expr: (b*c) / (a*d)
+  misconception_id: MISC.FRAC.DIV-WRONG-FLIP
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - 'Flip the second fraction to get its reciprocal: {{d}}/{{c}}.'
+    - 'Multiply: {{a}}/{{b}} x {{d}}/{{c}}.'
+    - Simplify if possible.
+hints_i18n:
+  en-IN:
+  - Flip the SECOND fraction and multiply.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: stage2-gen/0.1.0
+  reviewer: rishi
+  date: '2026-07-27'

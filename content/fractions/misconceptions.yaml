@@ -70,3 +70,38 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.UNEQUAL-PARTS.v1"
     parent_summary_i18n:
       en-IN: "{{name}} identifies fractions from a shape even when the parts aren't equal-sized, which changes what fraction is actually shown."
+
+  # --- Stage 1 drafted 2026-07-27 via tools/stage1_draft.py (second batch),
+  # covering the FRAC.DIV.* skills plus a backfill for NUM.LCM and
+  # FRAC.MIXED.ADD, which previously had none.
+  - misconception_id: MISC.FRAC.DIV-WHOLE-MULTIPLY
+    belief: "Dividing a fraction by a whole number means multiplying instead"
+    signature_error: "2/5 / 3 = 6/5 (multiplied the numerator by 3 instead of the denominator)"
+    remediation_target: FRAC.DIV.WHOLE
+    remediation_asset: "micro-explainers/MISC.FRAC.DIV-WHOLE-MULTIPLY.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} sometimes multiplies instead of dividing when dividing a fraction by a whole number."
+
+  - misconception_id: MISC.FRAC.DIV-WRONG-FLIP
+    belief: "Flip the first fraction instead of the second when dividing"
+    signature_error: "1/2 / 1/3 computed as 2/1 x 1/3 = 2/3 (should flip the second: 1/2 x 3/1 = 3/2)"
+    remediation_target: FRAC.DIV.FRAC
+    remediation_asset: "micro-explainers/MISC.FRAC.DIV-WRONG-FLIP.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} knows to flip a fraction and multiply when dividing, but sometimes flips the first fraction instead of the second."
+
+  - misconception_id: MISC.NUM.LCM-CONFUSED-WITH-GCF
+    belief: "Finds the greatest common factor instead of the lowest common multiple"
+    signature_error: "LCM(4, 6) computed as 2 (the GCF) instead of 12"
+    remediation_target: NUM.LCM
+    remediation_asset: "micro-explainers/MISC.NUM.LCM-CONFUSED-WITH-GCF.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} sometimes finds the greatest common factor of two numbers when asked for their lowest common multiple."
+
+  - misconception_id: MISC.FRAC.MIXED-NO-REGROUP
+    belief: "Add whole numbers and fraction parts separately, without regrouping an improper fraction result"
+    signature_error: "2 3/4 + 1 3/4 = 3 6/4 (should regroup to 4 2/4)"
+    remediation_target: FRAC.MIXED.ADD
+    remediation_asset: "micro-explainers/MISC.FRAC.MIXED-NO-REGROUP.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} adds the whole-number and fraction parts of mixed numbers correctly, but forgets to regroup when the fraction part adds up to more than one whole."
