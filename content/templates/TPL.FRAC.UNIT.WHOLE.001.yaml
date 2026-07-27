@@ -1,0 +1,52 @@
+# Stage 2 drafted 2026-07-27 via tools/stage2_draft.py (fourth batch),
+# verified PASS by tools/item_verify.py; promoted after review. Completes
+# certification-format coverage across the fractions cluster (student-model
+# doc §7).
+template_id: TPL.FRAC.UNIT.WHOLE.001
+skill_ids:
+- FRAC.UNIT
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- food
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  q:
+    type: int
+    range:
+    - 2
+    - 6
+  b:
+    type: int
+    range:
+    - 2
+    - 5
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: 1/{{b}} of a number is {{q}}. What is the number?
+answer: q * b
+distractors:
+- expr: q / b
+  misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - If 1/{{b}} of the number is {{q}}, the whole number is {{b}} times as much.
+hints_i18n:
+  en-IN:
+  - Multiply by the denominator to get back to the whole.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: stage2-gen/0.1.0
+  reviewer: rishi
+  date: '2026-07-27'

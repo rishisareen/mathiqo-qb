@@ -1,0 +1,50 @@
+# Stage 2 drafted 2026-07-27 via tools/stage2_draft.py (third batch),
+# verified PASS by tools/item_verify.py; promoted after review. Closes a
+# certification-format gap: numeric_entry is a low-guess format that can
+# certify mastery (student-model doc §7), unlike mcq_4.
+template_id: TPL.NUM.MULT.TABLES.DIRECT.001
+skill_ids:
+- NUM.MULT.TABLES
+question_type: numeric_entry
+cognitive_level: recall
+difficulty_prior: easy
+estimated_time_sec: 15
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- games
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  a:
+    type: int
+    range:
+    - 2
+    - 9
+  b:
+    type: int
+    range:
+    - 2
+    - 9
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: What is {{a}} x {{b}}?
+answer: a * b
+distractors: []
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Recall the multiplication fact for {{a}} and {{b}}.
+hints_i18n:
+  en-IN:
+  - Try skip-counting by {{a}}, {{b}} times.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: stage2-gen/0.1.0
+  reviewer: rishi
+  date: '2026-07-27'

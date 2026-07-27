@@ -20,10 +20,12 @@ follow them exactly.
   NCERT mapping (§1.4). Still short of the §4 build-order target (25–40
   nodes, ~15–20 misconceptions, two countries) — in progress.
 - `content/templates/` — item templates: the §2.2 worked example (still
-  `FLAGGED_FOR_REGENERATION` by design, see below) plus 11 Stage 2-drafted
-  templates, one per skill for every skill except `NUM.MULT.TABLES` (a pure
-  fluency node) and `FRAC.MIXED.ADD`. Still short of the §4 target (~150–300
-  templates, 5–15 per skill) — in progress.
+  `FLAGGED_FOR_REGENERATION` by design, see below) plus 22 Stage 2-drafted
+  templates. Every one of the 14 skills has at least one template in a
+  low-guess format (`numeric_entry`) — the only formats that can certify
+  mastery (student-model doc §7) — so certification is exercisable
+  end-to-end across the whole graph, not just diagnosis via MCQ. Still short
+  of the §4 target (~150–300 templates, 5–15 per skill) — in progress.
 - `tools/graph_lint.py` — linter for skill-graph content directories.
 - `tools/stage1_draft.py` — Stage 1 drafting harness (see below).
 - `tools/stage2_draft.py` — Stage 2 template-drafting harness (see below).
