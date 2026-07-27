@@ -40,6 +40,11 @@ class Attempt:
     a hint opened), and is this the last event of its session. Neither is
     computable from a single attempt in isolation — the caller (session
     runner, or log replay reading session boundaries) determines both.
+
+    `depth_served` is not used by apply_attempt itself — it is carried here
+    (schema §9) so callers (certification.py's maybe_certify, §7) don't need
+    a second attempt-shaped object just to learn what depth the
+    just-answered item was served at.
     """
 
     skill_ids: List[str]
@@ -53,6 +58,7 @@ class Attempt:
     context: str = "practice"  # placement / practice / review / probe / lesson (§9)
     misconception_id: Optional[str] = None
     event_id: str = ""
+    depth_served: Optional[float] = None  # the D-axis depth targeted (§2, §9)
 
 
 @dataclass
