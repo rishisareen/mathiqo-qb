@@ -1,10 +1,12 @@
 # Mathiqo
 
-Adaptive K-10 math question-bank platform. This repo currently holds the first
-authoring-side artifacts: the JSON Schemas that define the content contracts,
-the graph linter, and the v1 fractions fixture. The specification is the two
-design docs in the repo root (`mathiqo-qb-core-design.md`,
-mathiqo-student-model.md); schema field names follow them exactly.
+Adaptive K-10 math question-bank platform. This repo currently holds the
+authoring-side pipeline: the JSON Schemas that define the content contracts,
+the graph linter and verification gates, the Stage 1/2 AI-drafting harnesses,
+the v1 fractions fixture, and the beginnings of the serve-time student model.
+The specification is the two design docs in the repo root
+(`mathiqo-qb-core-design.md`, `mathiqo-student-model.md`); schema field names
+follow them exactly.
 
 ## Layout
 
@@ -12,14 +14,22 @@ mathiqo-student-model.md); schema field names follow them exactly.
   skill nodes, misconceptions, curriculum mappings, item records
   (Generator→Orchestrator contract), attempt events, lesson-exposure events
   (a sibling event type, not an attempt), and a stub lesson schema.
-- `content/fractions/` — the v1 fixture in YAML: the 10-node fractions
-  cluster (core doc §1.3), the 4 misconceptions (§2.4), one NCERT mapping (§1.4).
-- `content/templates/` — item templates; currently the §2.2 worked example
-  as the Stage 3 fixture.
+- `content/fractions/` — the v1 fixture in YAML: the fractions skill graph
+  (12 nodes — the original 10-node §1.3 cluster plus a Stage 1-drafted
+  multiplication extension), 8 misconceptions (§2.4), one NCERT mapping
+  (§1.4). Still short of the §4 build-order target (25–40 nodes, ~15–20
+  misconceptions, two countries) — in progress.
+- `content/templates/` — item templates: the §2.2 worked example (still
+  `FLAGGED_FOR_REGENERATION` by design, see below) plus 5 Stage 2-drafted
+  templates covering `FRAC.ADD.LIKE`, `FRAC.EQUIV`, `FRAC.SIMPLIFY`,
+  `NUM.LCM`, `FRAC.MULT.WHOLE`. Still short of the §4 target (~150–300
+  templates, 5–15 per skill) — in progress.
 - `tools/graph_lint.py` — linter for skill-graph content directories.
 - `tools/stage1_draft.py` — Stage 1 drafting harness (see below).
+- `tools/stage2_draft.py` — Stage 2 template-drafting harness (see below).
 - `tools/item_verify.py` — Stage 3 template verification gate (see below).
-- `prompts/stage1/` — prompt templates for the drafting harness.
+- `prompts/stage1/` — prompt templates for the Stage 1 drafting harness.
+- `prompts/stage2/` — prompt template for the Stage 2 drafting harness.
 - `orchestrator/` — the serve-time student model (student-model doc):
   `state.py` holds `SkillState`/`StudentModelStore` and the §7 certification
   status machine, `constants.py` collects the v1 placeholder tuning
@@ -88,6 +98,53 @@ error report. The harness never writes into `content/` — a human reviews and
 promotes accepted drafts into `content/` by hand, then re-runs
 `tools/graph_lint.py` on the merged result. `examples/ncert-fractions-excerpt.txt`
 is a placeholder; replace it with the real syllabus text before a genuine run.
+
+## Stage 2 drafting harness
+
+`tools/stage2_draft.py` automates Stage 2 of the content pipeline (core doc
+§3): for one skill, an LLM drafts item templates — stem, variables,
+constraints, answer, tagged distractors, solution steps, hints (§2.2) — and
+`tools/item_verify.py` is the trust gate every draft must pass. Unlike Stage
+1's binary lint result, `item_verify` has three verdicts; both `HARD_FAIL`
+and `FLAGGED_FOR_REGENERATION` bounce the draft back to the LLM, and a
+`FLAGGED` bounce carries the actual rejection/collision rate (and which
+distractor is colliding), not just a verdict, so a regeneration can narrow
+ranges or fix distractor logic instead of guessing blindly.
+
+The LLM drafts only the template's *content*; the harness fills in
+publishing scaffolding no author invents by hand — `template_version`,
+`bank_version`, `graph_version`, `tts`, the numeric `difficulty` scalar
+(derived from the authored `difficulty_prior` band), and `provenance`.
+`provenance.reviewer` records who ran the batch, not a completed Stage 4
+human review — that gate is separate and still manual; accepted drafts land
+in `staging/accepted/`, never in `content/templates/`.
+
+v1 scope restrictions this harness enforces beyond the bare item-record
+schema (core doc §4): `question_type` must be `mcq_4` or `numeric_entry`;
+`skill_ids` must be exactly the one skill being drafted for (single-skill
+items only, no exam-context multi-skill drafting here).
+
+Same two backends as Stage 1 (reused directly), except the cmd backend reads
+`STAGE2_LLM_CMD`:
+
+```sh
+# fully automatic, via a wired-up LLM CLI:
+export STAGE2_LLM_CMD="my-llm-cli --model xyz"
+python tools/stage2_draft.py --skill FRAC.ADD.UNLIKE \
+    --content-dir content/fractions --templates-dir content/templates \
+    --staging-dir staging/ --count 5 --reviewer your-name --backend cmd
+
+# human/agent-in-the-loop:
+python tools/stage2_draft.py ... --backend file --print-prompts
+# fill staging/response-1.yaml, response-2.yaml, ... then re-run without --print-prompts
+```
+
+Workflow: draft → verify-bounce loop → accepted drafts land in
+`staging/accepted/template-<n>.yaml` with a manifest (prompt hash, retries
+used, the full verify report); drafts that exhaust retries are quarantined
+in `staging/rejected/` with the error report. The harness never writes into
+`content/templates/` — a human reviews and promotes accepted drafts by hand,
+then re-runs `tools/item_verify.py` on the promoted result.
 
 ## Stage 3 verification harness
 

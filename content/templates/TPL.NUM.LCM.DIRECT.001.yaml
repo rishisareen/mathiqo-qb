@@ -1,0 +1,51 @@
+# Stage 2 drafted 2026-07-27 via tools/stage2_draft.py, verified PASS by
+# tools/item_verify.py; promoted after review.
+template_id: TPL.NUM.LCM.DIRECT.001
+skill_ids:
+- NUM.LCM
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- games
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  x:
+    type: int
+    range:
+    - 2
+    - 5
+  y:
+    type: int
+    range:
+    - 3
+    - 8
+constraints:
+- x < y
+localization_slots: []
+stem_i18n:
+  en-IN: What is the lowest common multiple of {{x}} and {{y}}?
+answer: lcm(x, y)
+distractors: []
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - List multiples of {{x}} and {{y}}.
+    - Find the smallest number that appears in both lists.
+hints_i18n:
+  en-IN:
+  - Try multiplying {{x}} and {{y}} together, then check if a smaller common multiple
+    exists.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: stage2-gen/0.1.0
+  reviewer: rishi
+  date: '2026-07-27'

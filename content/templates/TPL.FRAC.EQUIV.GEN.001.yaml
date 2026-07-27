@@ -1,0 +1,59 @@
+# Stage 2 drafted 2026-07-27 via tools/stage2_draft.py, verified PASS by
+# tools/item_verify.py; promoted after review.
+template_id: TPL.FRAC.EQUIV.GEN.001
+skill_ids:
+- FRAC.EQUIV
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- food
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  a:
+    type: int
+    range:
+    - 1
+    - 3
+  b:
+    type: int
+    range:
+    - 4
+    - 6
+  k:
+    type: int
+    range:
+    - 2
+    - 4
+constraints:
+- a < b
+localization_slots: []
+stem_i18n:
+  en-IN: Which fraction is equivalent to {{a}}/{{b}}?
+answer: simplify((a*k) / (b*k))
+distractors:
+- expr: (a + k) / (b + k)
+  misconception_id: MISC.FRAC.EQUIV-ADD-SAME
+- expr: (a*k) / b
+  misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Multiply both the numerator and denominator by the same number {{k}}.
+    - '{{a}} x {{k}} over {{b}} x {{k}}.'
+hints_i18n:
+  en-IN:
+  - Multiply top and bottom by the same number.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: stage2-gen/0.1.0
+  reviewer: rishi
+  date: '2026-07-27'

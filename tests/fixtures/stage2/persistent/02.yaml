@@ -1,0 +1,37 @@
+template_id: TPL.FRAC.ADD.UNLIKE.CMP.001
+skill_ids:
+  - FRAC.ADD.UNLIKE
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: "sixty"
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - sports
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  a: { type: int, range: [1, 2] }
+  b: { type: int, range: [2, 3] }
+  c: { type: int, range: [1, 2] }
+  d: { type: int, range: [4, 5] }
+constraints:
+  - "b != d"
+localization_slots:
+  - name1
+stem_i18n:
+  en-IN: "{{name1}} adds {{a}}/{{b}} and {{c}}/{{d}}. What is the sum?"
+answer: "simplify(a/b + c/d)"
+distractors:
+  - expr: "(a + c) / (b + d)"
+    misconception_id: MISC.FRAC.ADD-ACROSS
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Find a common denominator."
+      - "Add."
+      - "Simplify."
+hints_i18n:
+  en-IN:
+    - "Look at the denominators."

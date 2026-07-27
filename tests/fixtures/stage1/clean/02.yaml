@@ -1,8 +1,8 @@
 misconceptions:
-  - misconception_id: MISC.FRAC.MULT-WHOLE-BOTH
+  - misconception_id: MISC.ZZFIXTURE.MULT-WHOLE-BOTH
     belief: "Multiply top and bottom by the whole number"
     signature_error: "3 x 1/2 = 3/6 = 1/2 (value unchanged)"
-    remediation_target: FRAC.MULT.WHOLE
-    remediation_asset: "micro-explainers/MISC.FRAC.MULT-WHOLE-BOTH.v1"
+    remediation_target: ZZFIXTURE.MULT.WHOLE
+    remediation_asset: "micro-explainers/MISC.ZZFIXTURE.MULT-WHOLE-BOTH.v1"
     parent_summary_i18n:
       en-IN: "{{name}} multiplies both the top and bottom of the fraction by the whole number, so the value does not change."

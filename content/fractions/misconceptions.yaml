@@ -33,3 +33,40 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.BIGGER-DENOM.v1"
     parent_summary_i18n:
       en-IN: "{{name}} thinks a bigger bottom number means a bigger fraction — a larger denominator actually means smaller pieces."
+
+  # --- Stage 1 drafted 2026-07-27 via tools/stage1_draft.py; see skills.yaml
+  # for the same provenance note. MULT-WHOLE-BOTH and MULT-MAKES-BIGGER were
+  # drafted alongside the FRAC.MULT.* skills that reference them; EQUIV-ADD-
+  # SAME and UNEQUAL-PARTS backfill misconception coverage for FRAC.EQUIV and
+  # FRAC.PARTWHOLE, which previously had none.
+  - misconception_id: MISC.FRAC.MULT-WHOLE-BOTH
+    belief: "Multiply top and bottom by the whole number"
+    signature_error: "3 x 1/2 = 3/6 = 1/2 (value unchanged)"
+    remediation_target: FRAC.MULT.WHOLE
+    remediation_asset: "micro-explainers/MISC.FRAC.MULT-WHOLE-BOTH.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} multiplies both the top and bottom of the fraction by the whole number, so the value does not change."
+
+  - misconception_id: MISC.FRAC.MULT-MAKES-BIGGER
+    belief: "Multiplying always makes a number bigger"
+    signature_error: "1/2 x 1/3 is expected to be bigger than 1/2 (e.g. answered 5/6 instead of 1/6)"
+    remediation_target: FRAC.PARTWHOLE
+    remediation_asset: "micro-explainers/MISC.FRAC.MULT-MAKES-BIGGER.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} can multiply fractions correctly, but expects the answer to always be bigger, the way multiplying whole numbers grows the result."
+
+  - misconception_id: MISC.FRAC.EQUIV-ADD-SAME
+    belief: "Add the same number to top and bottom to get an equivalent fraction"
+    signature_error: "1/2 = 2/3 (added 1 to both the numerator and denominator)"
+    remediation_target: FRAC.EQUIV
+    remediation_asset: "micro-explainers/MISC.FRAC.EQUIV-ADD-SAME.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} tries to find equivalent fractions by adding the same number to the top and bottom, rather than multiplying both by the same factor."
+
+  - misconception_id: MISC.FRAC.UNEQUAL-PARTS
+    belief: "Any division into pieces counts as fraction parts, whether or not they are equal size"
+    signature_error: "A shape split into one big piece and two small pieces, with one small piece shaded, is read as 1/3"
+    remediation_target: FRAC.PARTWHOLE
+    remediation_asset: "micro-explainers/MISC.FRAC.UNEQUAL-PARTS.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} identifies fractions from a shape even when the parts aren't equal-sized, which changes what fraction is actually shown."

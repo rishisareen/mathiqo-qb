@@ -1,0 +1,46 @@
+template_id: TPL.FRAC.ADD.UNLIKE.WORD.002
+skill_ids:
+  - FRAC.ADD.UNLIKE
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 75
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - food
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  a: { type: int, range: [1, 8] }
+  b: { type: int, range: [3, 12] }
+  c: { type: int, range: [1, 8] }
+  d: { type: int, range: [3, 12] }
+constraints:
+  - "a < b"
+  - "c < d"
+  - "b != d"
+  - "gcd(b, d) == 1"
+  - "a/b + c/d < 1"
+localization_slots:
+  - name1
+  - name2
+stem_i18n:
+  en-IN: "{{name1}} ate {{a}}/{{b}} of a pie and {{name2}} ate {{c}}/{{d}} of the same pie. How much did they eat in all?"
+answer: "simplify((a*d + c*b) / (b*d))"
+distractors:
+  - expr: "(a + c) / (b + d)"
+    misconception_id: MISC.FRAC.ADD-ACROSS
+  - expr: "(a + c) / b"
+    misconception_id: MISC.FRAC.FIRST-DENOM
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Find the LCM of {{b}} and {{d}}."
+      - "Convert both fractions to that denominator."
+      - "Add the numerators."
+      - "Simplify if possible."
+hints_i18n:
+  en-IN:
+    - "Look at the denominators — are they the same?"
+    - "Rewrite both fractions with a common denominator first."

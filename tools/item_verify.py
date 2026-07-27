@@ -344,20 +344,36 @@ def check_slots(template: Mapping[str, object]) -> None:
 # Template loading and the exhaustive enumeration
 # ---------------------------------------------------------------------------
 
-def load_template(path: Path) -> dict:
-    """Load a template YAML and hard-fail unless it validates against the schema."""
-    data = yaml.safe_load(path.read_text(encoding="utf-8"))
-    if not isinstance(data, dict):
-        raise HardFail(f"{path}: top level must be a mapping")
-    schema = json.loads(ITEM_RECORD_SCHEMA.read_text(encoding="utf-8"))
-    validator = jsonschema.Draft202012Validator(schema)
+@lru_cache(maxsize=1)
+def _item_record_schema() -> dict:
+    return json.loads(ITEM_RECORD_SCHEMA.read_text(encoding="utf-8"))
+
+
+def validate_against_item_schema(data: dict, label: str) -> None:
+    """Hard-fail unless ``data`` validates against ``schemas/item-record.schema.json``.
+
+    Factored out of ``load_template`` so callers with an in-memory draft dict
+    — e.g. tools/stage2_draft.py, validating an LLM-drafted template before
+    ever writing it to disk — can reuse the same check ``load_template`` does
+    for a file. ``label`` identifies the subject in the error message (a
+    path for ``load_template``, a template_id or draft slot for a harness).
+    """
+    validator = jsonschema.Draft202012Validator(_item_record_schema())
     errors = sorted(validator.iter_errors(data), key=lambda e: list(e.path))
     if errors:
         details = "; ".join(
             f"{'/'.join(str(p) for p in e.absolute_path) or '<root>'}: {e.message}"
             for e in errors
         )
-        raise HardFail(f"{path}: schema violation(s): {details}")
+        raise HardFail(f"{label}: schema violation(s): {details}")
+
+
+def load_template(path: Path) -> dict:
+    """Load a template YAML and hard-fail unless it validates against the schema."""
+    data = yaml.safe_load(path.read_text(encoding="utf-8"))
+    if not isinstance(data, dict):
+        raise HardFail(f"{path}: top level must be a mapping")
+    validate_against_item_schema(data, str(path))
     return data
 
 

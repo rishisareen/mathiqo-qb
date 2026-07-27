@@ -76,12 +76,17 @@ class Backend(Protocol):
 
 
 class CmdBackend:
-    """Runs $STAGE1_LLM_CMD: prompt on stdin, YAML response on stdout."""
+    """Runs $<env_var>: prompt on stdin, YAML response on stdout.
 
-    def __init__(self) -> None:
-        cmd = os.environ.get("STAGE1_LLM_CMD")
+    env_var defaults to STAGE1_LLM_CMD for this module's own use; other
+    harnesses (tools/stage2_draft.py) reuse this class with their own env
+    var name rather than duplicating it.
+    """
+
+    def __init__(self, env_var: str = "STAGE1_LLM_CMD") -> None:
+        cmd = os.environ.get(env_var)
         if not cmd:
-            raise SystemExit("STAGE1_LLM_CMD is not set; required for --backend cmd")
+            raise SystemExit(f"{env_var} is not set; required for --backend cmd")
         self.cmd = shlex.split(cmd)
 
     def complete(self, prompt: str) -> str:

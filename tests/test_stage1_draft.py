@@ -67,7 +67,7 @@ def test_clean_draft_accepted_on_first_try(tmp_path: Path, monkeypatch: pytest.M
     assert rc == 0
     strand_yaml = staging / "accepted" / "strand.yaml"
     assert strand_yaml.is_file()
-    assert "FRAC.MULT.WHOLE" in strand_yaml.read_text(encoding="utf-8")
+    assert "ZZFIXTURE.MULT.WHOLE" in strand_yaml.read_text(encoding="utf-8")
 
     manifest = read_manifest(staging, "strand")
     assert manifest["retries_used"] == 0
@@ -204,8 +204,8 @@ def test_print_prompts_then_fill_then_resume_consumes_response_one(tmp_path: Pat
 
     strand_yaml = staging / "accepted" / "strand.yaml"
     assert strand_yaml.is_file(), "response-1.yaml (strand draft) was never consumed"
-    assert "FRAC.MULT.WHOLE" in strand_yaml.read_text(encoding="utf-8")
+    assert "ZZFIXTURE.MULT.WHOLE" in strand_yaml.read_text(encoding="utf-8")
     # The misconceptions prompt regenerated at resume time must reflect the
     # strand step's freshly accepted ids, not the ids known at print-prompts
     # time (before anything was accepted).
-    assert "FRAC.MULT.WHOLE" in (staging / "prompt-2.md").read_text(encoding="utf-8")
+    assert "ZZFIXTURE.MULT.WHOLE" in (staging / "prompt-2.md").read_text(encoding="utf-8")

@@ -69,9 +69,13 @@ def test_question_type_enum_matches_across_item_and_attempt_schemas() -> None:
 
 
 def test_fixture_covers_expected_fractions_cluster() -> None:
+    """The §1.3 mermaid diagram's original 10-node cluster must still be
+    present intact — a subset check, not exact equality, since Stage 1
+    drafting (tools/stage1_draft.py) has since extended the graph beyond
+    this worked example (see test_fixture_covers_stage1_drafted_extension)."""
     data = yaml.safe_load((FIXTURE_DIR / "skills.yaml").read_text(encoding="utf-8"))
     skill_ids = {s["skill_id"] for s in data["skills"]}
-    assert skill_ids == {
+    assert skill_ids >= {
         "FRAC.UNIT",
         "FRAC.PARTWHOLE",
         "FRAC.EQUIV",
@@ -84,7 +88,7 @@ def test_fixture_covers_expected_fractions_cluster() -> None:
         "NUM.MULT.TABLES",
     }
 
-    # Exactly the prerequisite edges of the §1.3 mermaid diagram.
+    # The prerequisite edges of the §1.3 mermaid diagram, still present.
     expected_edges = {
         ("FRAC.UNIT", "FRAC.PARTWHOLE"),
         ("FRAC.PARTWHOLE", "FRAC.EQUIV"),
@@ -104,15 +108,36 @@ def test_fixture_covers_expected_fractions_cluster() -> None:
         for node in data["skills"]
         for prereq in node["prerequisites"]
     }
-    assert actual_edges == expected_edges
+    assert actual_edges >= expected_edges
+
+
+def test_fixture_covers_stage1_drafted_extension() -> None:
+    """The multiplication-of-fractions extension drafted via
+    tools/stage1_draft.py (2026-07-27, examples/ncert-fractions-excerpt.txt)
+    and promoted into content/fractions/."""
+    skills_data = yaml.safe_load((FIXTURE_DIR / "skills.yaml").read_text(encoding="utf-8"))
+    nodes = {s["skill_id"]: s for s in skills_data["skills"]}
+    assert nodes["FRAC.MULT.WHOLE"]["prerequisites"] == ["FRAC.PARTWHOLE", "NUM.MULT.TABLES"]
+    assert nodes["FRAC.MULT.FRAC"]["prerequisites"] == ["FRAC.MULT.WHOLE"]
+
+    misc_data = yaml.safe_load((FIXTURE_DIR / "misconceptions.yaml").read_text(encoding="utf-8"))
+    targets = {m["misconception_id"]: m["remediation_target"] for m in misc_data["misconceptions"]}
+    assert targets["MISC.FRAC.MULT-WHOLE-BOTH"] == "FRAC.MULT.WHOLE"
+    assert targets["MISC.FRAC.MULT-MAKES-BIGGER"] == "FRAC.PARTWHOLE"
+    assert targets["MISC.FRAC.EQUIV-ADD-SAME"] == "FRAC.EQUIV"
+    assert targets["MISC.FRAC.UNEQUAL-PARTS"] == "FRAC.PARTWHOLE"
 
 
 def test_fixture_covers_expected_misconceptions() -> None:
+    """The original §2.4 registry table's four entries must still be
+    present intact — a subset check, since Stage 1 drafting has since
+    extended the registry (see test_fixture_covers_stage1_drafted_extension)."""
     data = yaml.safe_load((FIXTURE_DIR / "misconceptions.yaml").read_text(encoding="utf-8"))
     targets = {m["misconception_id"]: m["remediation_target"] for m in data["misconceptions"]}
-    assert targets == {
+    expected = {
         "MISC.FRAC.ADD-ACROSS": "FRAC.EQUIV",
         "MISC.FRAC.FIRST-DENOM": "FRAC.ADD.LIKE",
         "MISC.FRAC.NO-SIMPLIFY": "FRAC.SIMPLIFY",
         "MISC.FRAC.BIGGER-DENOM": "FRAC.UNIT",
     }
+    assert targets.items() >= expected.items()

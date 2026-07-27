@@ -6,10 +6,13 @@
 # with the doc authors.
 skills:
   - skill_id: FRAC.ADD.UNLIKE
-    name: "Add fractions with unlike denominators"
+    name: "Add and subtract fractions with unlike denominators"
     description: >
-      Add two proper fractions a/b + c/d where b != d,
-      expressing the result in simplest form.
+      Add or subtract two proper fractions a/b, c/d where b != d,
+      expressing the result in simplest form. Named "Add..." in the core
+      doc's §1.2 worked-example YAML, but the §1.3 diagram labels this node
+      "Add/subtract" — matching its sibling FRAC.ADD.LIKE, which already
+      covers both operations. We follow the diagram + sibling precedent here.
     strand: NUMBER.FRACTIONS
     canonical_stage: 3
     prerequisites:
@@ -41,7 +44,13 @@ skills:
     canonical_stage: 2
     prerequisites:
       - FRAC.UNIT
-    misconceptions: []
+    # MISC.FRAC.UNEQUAL-PARTS added 2026-07-27 (Stage 1 draft): diagnosed
+    # here, not just remediated here — unlike MISC.FRAC.MULT-MAKES-BIGGER
+    # (also remediation_target: FRAC.PARTWHOLE, but diagnosed one skill up
+    # at FRAC.MULT.FRAC), this misconception IS about FRAC.PARTWHOLE's own
+    # core procedure.
+    misconceptions:
+      - MISC.FRAC.UNEQUAL-PARTS
 
   - skill_id: FRAC.EQUIV
     name: "Equivalent fractions"
@@ -52,7 +61,10 @@ skills:
     prerequisites:
       - FRAC.PARTWHOLE
       - NUM.MULT.TABLES
-    misconceptions: []
+    # MISC.FRAC.EQUIV-ADD-SAME added 2026-07-27 (Stage 1 draft), same
+    # diagnosed-here reasoning as FRAC.PARTWHOLE above.
+    misconceptions:
+      - MISC.FRAC.EQUIV-ADD-SAME
 
   - skill_id: FRAC.CMP
     name: "Compare and order fractions"
@@ -117,3 +129,34 @@ skills:
     canonical_stage: 1
     prerequisites: []
     misconceptions: []
+
+  # --- Stage 1 drafted 2026-07-27 via tools/stage1_draft.py, syllabus
+  # examples/ncert-fractions-excerpt.txt (illustrative, not a real NCERT
+  # transcription), promoted after review; see staging manifest for
+  # provenance (prompt hash, accepted-at, lint output).
+  - skill_id: FRAC.MULT.WHOLE
+    name: "Multiply a fraction by a whole number"
+    description: >
+      Multiply a proper fraction by a whole number (e.g. 2/5 x 3),
+      interpreting the product as repeated addition of the fraction,
+      expressing the result in simplest form.
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 3
+    prerequisites:
+      - FRAC.PARTWHOLE
+      - NUM.MULT.TABLES
+    misconceptions:
+      - MISC.FRAC.MULT-WHOLE-BOTH
+
+  - skill_id: FRAC.MULT.FRAC
+    name: "Multiply a fraction by a fraction"
+    description: >
+      Multiply two proper fractions (e.g. 1/2 x 1/3), interpreting the
+      product as "a fraction of a fraction" via the area model, expressing
+      the result in simplest form.
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 4
+    prerequisites:
+      - FRAC.MULT.WHOLE
+    misconceptions:
+      - MISC.FRAC.MULT-MAKES-BIGGER

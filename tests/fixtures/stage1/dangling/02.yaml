@@ -1,10 +1,10 @@
 skills:
-  - skill_id: FRAC.MULT.WHOLE
+  - skill_id: ZZFIXTURE.MULT.WHOLE
     name: "Multiply a fraction by a whole number"
     description: >
       Multiply a fraction by a whole number, expressing the result
       in simplest form.
-    strand: NUMBER.FRACTIONS
+    strand: ZZFIXTURE
     canonical_stage: 3
     prerequisites:
       - FRAC.PARTWHOLE
