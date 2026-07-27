@@ -29,9 +29,18 @@ SCORE_HINT_ASSISTED: float = 0.5
 SCORE_WRONG: float = 0.0
 
 # Evidence weights (§3): multi-skill clean success is full score at half
-# weight; lesson attempts are full score at low weight.
+# weight; lesson attempts are full score at low weight; a single-skill
+# hint-assisted attempt also weighs half — same number as MULTI_SKILL_WEIGHT
+# by coincidence of the doc's placeholders, not by definition, so it gets
+# its own name.
 MULTI_SKILL_WEIGHT: float = 0.5
 LESSON_WEIGHT: float = 0.25
+HINT_ASSISTED_WEIGHT: float = 0.5
+
+# Engine identity (§9 engine_version): stamped into every attempt event so a
+# later scoring-rule change is visible in the log, not silently reinterpreted
+# on replay (KTD7).
+ENGINE_VERSION: str = "1.0.0"
 
 # MCQ guessing adjustment (§3): for 4-option MCQ, E′ = 0.25 + 0.75·E.
 MCQ4_QUESTION_TYPE: str = "mcq_4"
