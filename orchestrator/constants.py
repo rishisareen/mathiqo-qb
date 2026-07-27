@@ -95,3 +95,24 @@ REMEDIATION_DOSE_SIZE: int = 3
 # many attempts — that skill becomes the frontier (the starting practice
 # queue), even if it hasn't certified.
 PLACEMENT_FRONTIER_N: float = 3.0
+
+# --- U6: session runner (core doc §2.3, §5.2) --------------------------------
+# core doc §2.3: "If time-on-item exceeds ~1.5x the item's estimated_time_sec,
+# proactively offer hint 1." estimated_time_sec is a template-level field
+# (schemas/item-record.schema.json) that tools/bank_build.py does NOT copy
+# onto bank instances (schemas/item-instance.schema.json has no such
+# property) -- confirmed against both schemas. Extending the bank
+# builder/item-instance schema to carry it is out of this unit's scope (it
+# would require rebuilding U3's validation logic), so the session runner
+# falls back to this fixed default for every served instance's hint-offer
+# and timeout thresholds. A documented v1 limitation, not an oversight.
+DEFAULT_ESTIMATED_TIME_SEC: float = 60.0
+
+# core doc §2.3's "~1.5x" auto-hint-offer multiplier.
+HINT_AUTO_OFFER_MULTIPLIER: float = 1.5
+
+# v1 placeholder (same status as every other constant in this file, §10): an
+# unanswered item times out at this multiple of estimated_time_sec. Kept
+# comfortably above HINT_AUTO_OFFER_MULTIPLIER so the hint offer always has
+# a chance to fire before the timeout does.
+TIMEOUT_MULTIPLIER: float = 3.0
