@@ -1,0 +1,62 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/skill-node.schema.json",
+  "title": "Skill Node",
+  "description": "An atomic skill in the canonical skill graph (core design doc §1.2). A skill is atomic when a student can be meaningfully diagnosed as having it or not. Prerequisite edges point to conceptual prerequisites only (§1.2a); depth within a node is expressed on the difficulty scalar, not as edges.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "skill_id",
+    "name",
+    "description",
+    "strand",
+    "canonical_stage",
+    "prerequisites",
+    "misconceptions"
+  ],
+  "properties": {
+    "skill_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9]*(\\.[A-Z0-9][A-Z0-9-]*)*$",
+      "description": "Canonical dotted identifier, e.g. FRAC.ADD.UNLIKE. Built once; questions and mappings reference skills by this id."
+    },
+    "name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Short human-readable name, e.g. \"Add fractions with unlike denominators\"."
+    },
+    "description": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Precise definition of what the skill covers (§1.2)."
+    },
+    "strand": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9]*(\\.[A-Z0-9][A-Z0-9-]*)*$",
+      "description": "Top-level organization, e.g. NUMBER.FRACTIONS (§1.2). Placement and diagnosis walk per strand."
+    },
+    "canonical_stage": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Abstract ordering index, NOT a grade (§1.2). Grade placement lives in the country mapping layer (§1.4)."
+    },
+    "prerequisites": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9]*(\\.[A-Z0-9][A-Z0-9-]*)*$"
+      },
+      "uniqueItems": true,
+      "description": "Conceptual prerequisite skill_ids (§1.2a). A student is served this skill only once each prerequisite is certified at the depth the target item requires (§1.3, §2.3)."
+    },
+    "misconceptions": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^MISC\\.[A-Z0-9][A-Z0-9.-]*$"
+      },
+      "uniqueItems": true,
+      "description": "Known failure modes for this skill — references into the misconception registry (§2.4)."
+    }
+  }
+}

@@ -1,0 +1,119 @@
+# The v1 fractions cluster — 10 nodes transcribed from the core design doc §1.3.
+# Prerequisite edges follow the §1.3 mermaid diagram exactly.
+# NOTE: §1.2's worked-example YAML for FRAC.ADD.UNLIKE lists only three
+# prerequisites (EQUIV, ADD.LIKE, LCM), but the §1.3 diagram additionally shows
+# SIMPLIFY --> ADDUNLIKE. We follow the diagram here; flagged for reconciliation
+# with the doc authors.
+skills:
+  - skill_id: FRAC.ADD.UNLIKE
+    name: "Add fractions with unlike denominators"
+    description: >
+      Add two proper fractions a/b + c/d where b != d,
+      expressing the result in simplest form.
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 3
+    prerequisites:
+      - FRAC.EQUIV       # equivalent fractions
+      - FRAC.ADD.LIKE    # add with like denominators
+      - NUM.LCM          # lowest common multiple
+      - FRAC.SIMPLIFY    # §1.3 mermaid edge (see note above)
+    misconceptions:
+      - MISC.FRAC.ADD-ACROSS
+      - MISC.FRAC.FIRST-DENOM
+      - MISC.FRAC.NO-SIMPLIFY
+
+  - skill_id: FRAC.UNIT
+    name: "Understand unit fractions"
+    description: >
+      Recognise and reason about unit fractions (1/2, 1/3, 1/4 ...)
+      as one part of an equally divided whole.
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 1
+    prerequisites: []
+    misconceptions:
+      - MISC.FRAC.BIGGER-DENOM
+
+  - skill_id: FRAC.PARTWHOLE
+    name: "Fraction of a shape or set"
+    description: >
+      Identify and represent a fraction of a shape or of a set of objects.
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 2
+    prerequisites:
+      - FRAC.UNIT
+    misconceptions: []
+
+  - skill_id: FRAC.EQUIV
+    name: "Equivalent fractions"
+    description: >
+      Generate and recognise equivalent fractions (1/2 = 2/4 = 3/6).
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 2
+    prerequisites:
+      - FRAC.PARTWHOLE
+      - NUM.MULT.TABLES
+    misconceptions: []
+
+  - skill_id: FRAC.CMP
+    name: "Compare and order fractions"
+    description: >
+      Compare two fractions and order sets of fractions by size.
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 3
+    prerequisites:
+      - FRAC.EQUIV
+    misconceptions:
+      - MISC.FRAC.BIGGER-DENOM
+
+  - skill_id: FRAC.SIMPLIFY
+    name: "Reduce to simplest form"
+    description: >
+      Reduce a fraction to simplest (lowest) form by dividing numerator
+      and denominator by their greatest common divisor.
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 3
+    prerequisites:
+      - FRAC.EQUIV
+    misconceptions:
+      - MISC.FRAC.NO-SIMPLIFY
+
+  - skill_id: FRAC.ADD.LIKE
+    name: "Add and subtract fractions with like denominators"
+    description: >
+      Add or subtract two fractions that share a denominator by
+      combining the numerators.
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 3
+    prerequisites:
+      - FRAC.PARTWHOLE
+    misconceptions: []
+
+  - skill_id: NUM.LCM
+    name: "Lowest common multiple"
+    description: >
+      Find the lowest common multiple of two small whole numbers.
+    strand: NUMBER.ARITHMETIC
+    canonical_stage: 2
+    prerequisites:
+      - NUM.MULT.TABLES
+    misconceptions: []
+
+  - skill_id: FRAC.MIXED.ADD
+    name: "Add and subtract mixed numbers"
+    description: >
+      Add or subtract mixed numbers, converting between mixed and
+      improper forms as needed.
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 4
+    prerequisites:
+      - FRAC.ADD.UNLIKE
+    misconceptions: []
+
+  - skill_id: NUM.MULT.TABLES
+    name: "Multiplication facts"
+    description: >
+      Fluent recall of multiplication table facts.
+    strand: NUMBER.ARITHMETIC
+    canonical_stage: 1
+    prerequisites: []
+    misconceptions: []

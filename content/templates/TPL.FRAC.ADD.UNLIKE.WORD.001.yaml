@@ -1,0 +1,77 @@
+# Stage 3 verification fixture: the full template example from the core design
+# doc §2.2 (TPL.FRAC.ADD.UNLIKE.WORD.001), transcribed 1:1. Fields the
+# item-record schema requires *beyond* §2.2 (i18n wrappers, difficulty scalar,
+# version strings, tts, exam_contexts, provenance) are placeholder fills and
+# are marked as such at the bottom of the file.
+template_id: TPL.FRAC.ADD.UNLIKE.WORD.001
+skill_ids:
+  - FRAC.ADD.UNLIKE
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 75
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - food
+  - sharing
+accepted_answer_forms: "simplest form only (simplifying IS part of this skill; on skills where it isn't, equivalent forms are accepted)"
+
+variables:
+  a: { type: int, range: [1, 8] }
+  b: { type: int, range: [3, 12] }
+  c: { type: int, range: [1, 8] }
+  d: { type: int, range: [3, 12] }
+
+constraints:
+  - "a < b"
+  - "c < d"
+  - "b != d"
+  - "gcd(b, d) == 1"
+  - "a/b + c/d < 1"
+
+stem_i18n:
+  en-IN: "{{name1}} ate {{a}}/{{b}} of a {{food}} and {{name2}} ate {{c}}/{{d}} of the same {{food}}. What fraction of the {{food}} did they eat altogether?"
+localization_slots:
+  - name1
+  - name2
+  - food
+
+answer: "simplify((a*d + c*b) / (b*d))"
+
+distractors:
+  - expr: "(a + c) / (b + d)"
+    misconception_id: MISC.FRAC.ADD-ACROSS
+  - expr: "(a + c) / b"
+    misconception_id: MISC.FRAC.FIRST-DENOM
+  - expr: "(a*d + c*b) / (b*d)"
+    unsimplified: true
+    misconception_id: MISC.FRAC.NO-SIMPLIFY
+    only_if: "gcd(a*d + c*b, b*d) > 1"
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Find the LCM of {{b}} and {{d}}: it is {{lcm}}."
+      - "Convert: {{a}}/{{b}} = {{a2}}/{{lcm}} and {{c}}/{{d}} = {{c2}}/{{lcm}}."
+      - "Add the numerators: {{a2}}/{{lcm}} + {{c2}}/{{lcm}} = {{sum}}/{{lcm}}."
+      - "Simplify if possible: {{final}}."
+
+hints_i18n:
+  en-IN:
+    - "Can you add the fractions as they are? Look at the denominators."
+    - "Rewrite both fractions with the same denominator first."
+    - "What is the smallest number both {{b}} and {{d}} divide into?"
+
+# --- Placeholder fills beyond §2.2 (required by schemas/item-record.schema.json) ---
+difficulty: 0.5 # placeholder scalar in the medium band; Stage 6 IRT/Elo calibration moves it (§2.3)
+template_version: "1.0.0"
+bank_version: "2026.07-dev"
+graph_version: "1.0.0"
+tts: true
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "stage2-gen/0.1.0"
+  reviewer: "rishi"
+  date: "2026-07-26"

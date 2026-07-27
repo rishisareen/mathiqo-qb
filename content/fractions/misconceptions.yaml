@@ -1,0 +1,35 @@
+# Misconception registry entries for the fractions cluster, transcribed from
+# the core design doc §2.4 (registry table) with the two product-facing fields
+# §2.4 requires: remediation_asset and parent_summary_i18n.
+misconceptions:
+  - misconception_id: MISC.FRAC.ADD-ACROSS
+    belief: "Add tops, add bottoms"
+    signature_error: "1/2 + 1/3 = 2/5"
+    remediation_target: FRAC.EQUIV   # child doesn't see fractions as quantities
+    remediation_asset: "micro-explainers/MISC.FRAC.ADD-ACROSS.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} understands adding fractions, but tends to add the denominators when they don't match."
+
+  - misconception_id: MISC.FRAC.FIRST-DENOM
+    belief: "Keep the first denominator"
+    signature_error: "1/2 + 1/3 = 2/2"
+    remediation_target: FRAC.ADD.LIKE   # why like denominators are required
+    remediation_asset: "micro-explainers/MISC.FRAC.FIRST-DENOM.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} adds the numerators correctly, but keeps the first denominator instead of finding a common one."
+
+  - misconception_id: MISC.FRAC.NO-SIMPLIFY
+    belief: "Answer complete without reducing"
+    signature_error: "1/4 + 1/4 = 2/8"
+    remediation_target: FRAC.SIMPLIFY
+    remediation_asset: "micro-explainers/MISC.FRAC.NO-SIMPLIFY.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} can add the fractions, but often forgets to write the answer in simplest form."
+
+  - misconception_id: MISC.FRAC.BIGGER-DENOM
+    belief: "Bigger denominator = bigger fraction"
+    signature_error: "1/8 > 1/4 because 8 > 4"
+    remediation_target: FRAC.UNIT   # meaning of the denominator
+    remediation_asset: "micro-explainers/MISC.FRAC.BIGGER-DENOM.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} thinks a bigger bottom number means a bigger fraction — a larger denominator actually means smaller pieces."

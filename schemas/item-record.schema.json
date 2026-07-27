@@ -1,0 +1,288 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/item-record.schema.json",
+  "title": "Item Record",
+  "description": "The Generator → Orchestrator contract (core design doc §5.3): one item template with full metadata, i18n fields, render props, and Stage 5 provenance. Templates are parameterized item models (§2.1–2.2); the Orchestrator never constructs mathematics, it only selects (§5.1).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "template_id",
+    "template_version",
+    "bank_version",
+    "graph_version",
+    "skill_ids",
+    "question_type",
+    "cognitive_level",
+    "difficulty",
+    "estimated_time_sec",
+    "calculator_allowed",
+    "diagram_required",
+    "variables",
+    "constraints",
+    "stem_i18n",
+    "localization_slots",
+    "answer",
+    "distractors",
+    "solution_steps_i18n",
+    "hints_i18n",
+    "tts",
+    "context_tags",
+    "exam_contexts",
+    "provenance"
+  ],
+  "properties": {
+    "template_id": {
+      "type": "string",
+      "pattern": "^TPL\\.[A-Z0-9][A-Z0-9.-]*$",
+      "description": "Template identifier, e.g. TPL.FRAC.ADD.UNLIKE.WORD.001 (§2.2)."
+    },
+    "template_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Version of this template; carried on every attempt event so any answer traces to the exact content that produced it (§5.3)."
+    },
+    "bank_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Version of the atomic bank build this record ships in (§3 Stage 5, §5.3). Banks are never patched in place."
+    },
+    "graph_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Version of the canonical skill graph this record was authored against (§5.3); mastery records carry the same stamp for migration correctness (student-model doc §8)."
+    },
+    "skill_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9]*(\\.[A-Z0-9][A-Z0-9-]*)*$"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Canonical skills this item measures. An array because exam-context (Olympiad-style) templates deliberately span two nodes (§2.10)."
+    },
+    "question_type": {
+      "type": "string",
+      "enum": [
+        "mcq_4",
+        "numeric_entry",
+        "fill_in_blank",
+        "true_false",
+        "multi_select",
+        "match_the_following",
+        "arrange_in_order",
+        "identify_the_mistake",
+        "visual_counting",
+        "drag_and_drop",
+        "pattern_completion"
+      ],
+      "description": "The §2.7 type taxonomy. MCQ is the diagnostic workhorse; low-guess formats (numeric_entry, drag_and_drop, visual_counting) certify mastery (§2.3). Keep this enum in sync with attempt-event.schema.json's question_type — the served item's type is copied verbatim onto its attempt event."
+    },
+    "cognitive_level": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Cognitive demand of the item, e.g. \"application\" (§2.2). Word problems sit higher on the depth axis with cognitive_level: application (§1.2a)."
+    },
+    "difficulty": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Continuous difficulty D ∈ [0,1] — the actual data model (§2.3). Empirical calibration (Stage 6 IRT/Elo) moves this value smoothly."
+    },
+    "difficulty_prior": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard"],
+      "description": "The E/M/H authoring label — a named band over the difficulty scalar, stored as difficulty_prior (§2.2–2.3). Authoring interface and UI label only, never the data model."
+    },
+    "estimated_time_sec": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "Expected time on item; at ~1.5× this value the engine proactively offers hint 1 (§2.3)."
+    },
+    "calculator_allowed": {
+      "type": "boolean"
+    },
+    "diagram_required": {
+      "type": "boolean"
+    },
+    "accepted_answer_forms": {
+      "type": "string",
+      "description": "Which answer forms are accepted, e.g. \"simplest form only\" (§2.2)."
+    },
+    "variables": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["type"],
+        "properties": {
+          "type": {
+            "type": "string",
+            "enum": ["int", "float", "string"]
+          },
+          "range": {
+            "type": "array",
+            "items": { "type": "number" },
+            "minItems": 2,
+            "maxItems": 2,
+            "description": "Inclusive [min, max] for numeric variables (§2.2)."
+          },
+          "values": {
+            "type": "array",
+            "items": { "type": "string" },
+            "description": "Explicit value set for string variables."
+          }
+        }
+      },
+      "description": "Template parameters with types and domains (§2.2). Domains are small enough for exhaustive Stage 3 enumeration (§3)."
+    },
+    "constraints": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "description": "Constraint expressions over variables, e.g. \"gcd(b, d) == 1\" (§2.2). Difficulty tiers are defined by swapping constraint sets (§2.3)."
+    },
+    "stem_i18n": {
+      "$ref": "#/$defs/i18nText",
+      "description": "The question stem, keyed by language (§2.8). Contains {{variable}} and localization slots; v1 ships English-only but the schema carries _i18n keys from day one."
+    },
+    "localization_slots": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "description": "Slot names the locale pack fills: names, currency, units, contexts (§1.5, §2.2), e.g. [\"name1\", \"name2\", \"food\"]."
+    },
+    "answer": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Machine-checkable answer logic, evaluated symbolically by Stage 3, e.g. \"simplify((a*d + c*b) / (b*d))\" (§2.2)."
+    },
+    "distractors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["expr", "misconception_id"],
+        "properties": {
+          "expr": {
+            "type": "string",
+            "minLength": 1,
+            "description": "Distractor expression, evaluated symbolically; any variant where it collides with the answer is dropped (§3 Stage 3)."
+          },
+          "misconception_id": {
+            "type": ["string", "null"],
+            "pattern": "^MISC\\.[A-Z0-9][A-Z0-9.-]*$",
+            "description": "Registry tag this distractor is designed to expose (§2.4). Nullable: an untagged distractor is plausible but carries no diagnosis (§2.5)."
+          },
+          "only_if": {
+            "type": "string",
+            "description": "Optional guard expression; the distractor is only constructible when this holds, e.g. \"gcd(a*d + c*b, b*d) > 1\" (§2.2). Firing is measured against firing opportunity (§2.5)."
+          },
+          "unsimplified": {
+            "type": "boolean",
+            "description": "Marks distractors that are the unsimplified answer form (§2.2)."
+          }
+        }
+      },
+      "description": "Tagged distractor set (§2.2). The full distractor set is stored with every served instance so distractor opportunity is reconstructible (§5.1). Stage 3 collision checking (§3 Stage 3) compares ordinary distractors to the answer and to each other by reduced rational value; an unsimplified: true distractor is compared by its literal, unreduced numerator/denominator split instead, since its designed purpose is a value that coincides with the answer while displaying differently — see tools/item_verify.py's module docstring for the full convention."
+    },
+    "solution_steps_i18n": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "minProperties": 1,
+        "additionalProperties": {
+          "type": "array",
+          "items": { "type": "string", "minLength": 1 },
+          "minItems": 1
+        },
+        "description": "Pedagogy-variant key → ordered step list. Keyed by variant (NCERT, CC, …) where mapped curricula teach different methods, with a \"canonical\" variant as the default when methods coincide (§2.2)."
+      },
+      "description": "Structured solution steps, language-keyed per §2.8 and pedagogy-variant-keyed per §2.2. Ordered structure (not a text blob); powers step-level feedback and faded worked examples (§6.1)."
+    },
+    "hints_i18n": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$"
+      },
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string", "minLength": 1 },
+        "minItems": 1
+      },
+      "description": "The hint ladder, keyed by language (§2.8), ordered from lightest to strongest nudge. Hints are evidence, not just help (§2.3)."
+    },
+    "render": {
+      "type": "object",
+      "required": ["component"],
+      "properties": {
+        "component": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Component from the fixed §2.9 library, e.g. fraction_circle, fraction_bar, counting_set, number_line, base10_blocks, clock_face."
+        }
+      },
+      "additionalProperties": true,
+      "description": "Structured visual spec for early grades (§2.9): render props, not images and not prose. Property values may be template expressions like \"{{b}}\"."
+    },
+    "tts": {
+      "type": "boolean",
+      "description": "Whether audio is synthesized for this template from stem_i18n and hints (§2.9). No separate audio authoring."
+    },
+    "context_tags": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "uniqueItems": true,
+      "description": "Surface contexts (money, sports, food, travel, games…) so the engine can rotate dressing without touching the math (§2.7)."
+    },
+    "exam_contexts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9_]*$"
+      },
+      "uniqueItems": true,
+      "description": "Rigor wrappers this template serves (§2.10), e.g. SCHOOL_EXAM, OLYMPIAD_IMO_L1."
+    },
+    "provenance": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["generator_version", "reviewer", "date"],
+      "properties": {
+        "generator_version": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Version of the Stage 2 generator that drafted this template (§3 Stage 5)."
+        },
+        "reviewer": {
+          "type": "string",
+          "minLength": 1,
+          "description": "Stage 4 human reviewer who approved the batch (§3 Stage 5)."
+        },
+        "date": {
+          "type": "string",
+          "pattern": "^\\d{4}-\\d{2}-\\d{2}$",
+          "description": "Publish/approval date, ISO 8601 (§3 Stage 5)."
+        }
+      },
+      "description": "Full provenance per §3 Stage 5: any later problem can be traced and every sibling item from the same flawed template pulled in one operation."
+    }
+  },
+  "$defs": {
+    "i18nText": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      }
+    }
+  }
+}

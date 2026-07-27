@@ -1,0 +1,21 @@
+# Country mapping layer (core design doc §1.4). v1 fixture: the single NCERT
+# mapping for FRAC.ADD.UNLIKE per the §1.4 worked example. Illustrative —
+# grade placements must be verified against the actual syllabus documents
+# before authoring begins (core doc, note after changelog).
+mappings:
+  - skill_id: FRAC.ADD.UNLIKE
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium   # how far this grade takes the skill; v1 uses tier labels over D (§2.3)
+    syllabus_ref: "Class 6, Maths, Ch. 7"
+    learning_objective: >
+      Adds and subtracts fractions with unlike denominators
+      using equivalent fractions
+    exam_contexts: [SCHOOL_EXAM, OLYMPIAD_IMO_L1]
+    terminology_overrides:
+      "simplest form": "lowest form"     # NCERT phrasing
+    pedagogy_notes: >
+      NCERT introduces unlike-denominator addition through equivalent
+      fractions and the LCM, using paper-folding and fraction-kit visuals
+      before the formal procedure.

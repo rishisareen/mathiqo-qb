@@ -1,0 +1,76 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/mapping.schema.json",
+  "title": "Curriculum Mapping",
+  "description": "One row of the thin per-country mapping layer (core design doc §1.4). Mappings point at (skill, depth) so spiral curricula fit one canonical node; a skill may have several mapping rows per country, one per grade that touches it.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "skill_id",
+    "country",
+    "curriculum",
+    "grade",
+    "depth_expectation",
+    "syllabus_ref",
+    "learning_objective"
+  ],
+  "properties": {
+    "skill_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9]*(\\.[A-Z0-9][A-Z0-9-]*)*$",
+      "description": "The canonical skill being mapped (§1.4)."
+    },
+    "country": {
+      "type": "string",
+      "pattern": "^[A-Z]{2}$",
+      "description": "ISO 3166-1 alpha-2 country code, e.g. IN."
+    },
+    "curriculum": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Curriculum identifier, e.g. NCERT, CC (Common Core), UK_NC, SG."
+    },
+    "grade": {
+      "type": "integer",
+      "minimum": 0,
+      "maximum": 10,
+      "description": "Grade of treatment on the K-10 platform (0 = Kindergarten; the §1.4 example uses grade 6 for NCERT)."
+    },
+    "depth_expectation": {
+      "type": "string",
+      "enum": ["easy", "medium", "hard"],
+      "description": "How far this grade takes the skill; v1 uses tier labels over the D ∈ [0,1] scalar (§1.4, §2.3). This is the engine's DEFAULT serving ceiling, not absolute — mastering the top of a band opens the next band (self-extending, §1.4)."
+    },
+    "syllabus_ref": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Syllabus citation, e.g. \"Class 6, Maths, Ch. 7\" or \"5.NF.A.1\"."
+    },
+    "learning_objective": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The curriculum's own phrasing of the outcome (§1.4)."
+    },
+    "exam_contexts": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9_]*$"
+      },
+      "uniqueItems": true,
+      "description": "Rigor wrappers this skill is served under in this curriculum (§2.10), e.g. SCHOOL_EXAM, OLYMPIAD_IMO_L1."
+    },
+    "terminology_overrides": {
+      "type": "object",
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Curriculum-specific phrasing, canonical term → local term (§1.4), e.g. {\"simplest form\": \"lowest form\"} for NCERT."
+    },
+    "pedagogy_notes": {
+      "type": "string",
+      "description": "How this curriculum teaches the method; consumed by lesson drafting (§6.3) and by pedagogy-variant solution steps (§2.2)."
+    }
+  }
+}

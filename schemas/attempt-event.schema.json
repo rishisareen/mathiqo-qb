@@ -1,0 +1,196 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/attempt-event.schema.json",
+  "title": "Attempt Event",
+  "description": "One row per attempt — the load-bearing artifact of the student model (student-model doc §9). Everything the model knows is computable from this log; anything not in this log is uncomputable later. Field names are ASCII spellings of the doc's θ (theta_before / theta_after). Compliance: pseudonymous student IDs, no free-text fields that could carry PII (COPPA / DPDP / UK AADC).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "student_id",
+    "session_id",
+    "timestamp",
+    "item_instance_id",
+    "template_id",
+    "template_version",
+    "bank_version",
+    "engine_version",
+    "graph_version",
+    "skill_ids",
+    "question_type",
+    "depth_served",
+    "b_prior_at_serve",
+    "exam_context",
+    "language",
+    "locale",
+    "response_raw",
+    "response_parsed",
+    "correct",
+    "misconception_id",
+    "hints_used",
+    "hint_auto_offered",
+    "time_taken_sec",
+    "timed_out",
+    "context",
+    "theta_before",
+    "theta_after",
+    "n_before"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique event identifier — identity & ordering (§9)."
+    },
+    "student_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Pseudonymous student identifier (§9). Nothing in the schema requires identifying a child."
+    },
+    "session_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Session identifier; powers the abandonment guard (§3) and session-level analyses (§9)."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Event time, ISO 8601 — identity & ordering (§9)."
+    },
+    "item_instance_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The concrete served instance from the bank's materialized pool (§9; core doc §5.1)."
+    },
+    "template_id": {
+      "type": "string",
+      "pattern": "^TPL\\.[A-Z0-9][A-Z0-9.-]*$",
+      "description": "Provenance & reproducibility (§9)."
+    },
+    "template_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Provenance & reproducibility (§9; core doc §3 Stage 5)."
+    },
+    "bank_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Bank build the Orchestrator pinned when serving (§9; core doc §5.3)."
+    },
+    "engine_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Version of the serving engine (§9)."
+    },
+    "graph_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Migration correctness — every update is replayable against the graph structure the state was earned under (§9; §8)."
+    },
+    "skill_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9]*(\\.[A-Z0-9][A-Z0-9-]*)*$"
+      },
+      "minItems": 1,
+      "description": "What was measured (§9). Multi-skill items update all listed skills on success at half weight (§3)."
+    },
+    "question_type": {
+      "type": "string",
+      "enum": [
+        "mcq_4",
+        "numeric_entry",
+        "fill_in_blank",
+        "true_false",
+        "multi_select",
+        "match_the_following",
+        "arrange_in_order",
+        "identify_the_mistake",
+        "visual_counting",
+        "drag_and_drop",
+        "pattern_completion"
+      ],
+      "description": "The response format served (§9) — needed because guessing adjustment and certification depend on format class (§3, §7). Keep this enum in sync with item-record.schema.json's question_type (core doc §2.7 type taxonomy) — the same string values classify both, and format-class checks (LOW_GUESS_FORMATS, MCQ4_QUESTION_TYPE) match on them exactly."
+    },
+    "depth_served": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Depth on the D ∈ [0,1] scale at which the item was served (§9; core doc §2.3)."
+    },
+    "b_prior_at_serve": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Item difficulty estimate b at serve time, on the θ-aligned scale (§9; §2). What was measured."
+    },
+    "exam_context": {
+      "type": ["string", "null"],
+      "description": "Exam-context wrapper under which the item was served (§9; core doc §2.10). Null for ordinary practice."
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$",
+      "description": "Language the instance was rendered in (§9; core doc §2.8)."
+    },
+    "locale": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Locale pack used for dressing (§9; core doc §1.5)."
+    },
+    "response_raw": {
+      "type": "string",
+      "description": "The response exactly as entered/selected (§9)."
+    },
+    "response_parsed": {
+      "type": ["string", "number", "null"],
+      "description": "The machine-parsed response used for scoring (§9)."
+    },
+    "correct": {
+      "type": "boolean",
+      "description": "The outcome (§9)."
+    },
+    "misconception_id": {
+      "type": ["string", "null"],
+      "pattern": "^MISC\\.[A-Z0-9][A-Z0-9.-]*$",
+      "description": "Distractor tag matched (§9; core doc §2.4). Nullable — an untagged wrong answer is diagnostic noise (core doc §2.5)."
+    },
+    "hints_used": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "Assistance evidence (§9). Hint-assisted corrects move θ at reduced weight and never certify (core doc §2.3)."
+    },
+    "hint_auto_offered": {
+      "type": "boolean",
+      "description": "Whether the engine proactively offered hint 1 at ~1.5× estimated_time_sec (§9; core doc §2.3)."
+    },
+    "time_taken_sec": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Load evidence (§9)."
+    },
+    "timed_out": {
+      "type": "boolean",
+      "description": "Timeouts score 0 only if the student was engaged — see the abandonment guard (§9; §3)."
+    },
+    "context": {
+      "type": "string",
+      "enum": ["placement", "practice", "review", "probe", "lesson"],
+      "description": "Selection-effect bookkeeping (§9). lesson attempts (guided practice inside a lesson, core doc §6) update θ at weight 0.25 and never certify."
+    },
+    "theta_before": {
+      "type": "number",
+      "description": "θ before the update (doc's θ_before) — model auditability, every update replayable (§9). Unbounded above the [0,1] difficulty scale (§2)."
+    },
+    "theta_after": {
+      "type": "number",
+      "description": "θ after the update (doc's θ_after) — model auditability (§9)."
+    },
+    "n_before": {
+      "type": "number",
+      "minimum": 0,
+      "description": "Effective evidence count before the update (§9; §4)."
+    }
+  }
+}

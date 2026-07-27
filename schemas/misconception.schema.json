@@ -1,0 +1,55 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/misconception.schema.json",
+  "title": "Misconception Registry Entry",
+  "description": "A first-class misconception object in the shared registry (core design doc §2.4). Each entry points back into the skill graph, so a wrong answer is evidence for a specific broken prerequisite, not a −1 on a score.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "misconception_id",
+    "belief",
+    "signature_error",
+    "remediation_target",
+    "remediation_asset",
+    "parent_summary_i18n"
+  ],
+  "properties": {
+    "misconception_id": {
+      "type": "string",
+      "pattern": "^MISC\\.[A-Z0-9][A-Z0-9.-]*$",
+      "description": "Registry identifier, e.g. MISC.FRAC.ADD-ACROSS. Internal vocabulary — humans only ever see parent_summary_i18n."
+    },
+    "belief": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The faulty rule the student appears to hold, e.g. \"Add tops, add bottoms\" (§2.4)."
+    },
+    "signature_error": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The characteristic wrong output, e.g. \"1/2 + 1/3 = 2/5\" (§2.4)."
+    },
+    "remediation_target": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9]*(\\.[A-Z0-9][A-Z0-9-]*)*$",
+      "description": "skill_id of the graph node that gets re-taught when this misconception is confirmed (§2.4). Remediation escalates: micro-explainer first, full prerequisite re-teaching only if the pattern persists."
+    },
+    "remediation_asset": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Pointer to the ~30-second micro-explainer (animation or interactive) addressing exactly this misconception (§2.4)."
+    },
+    "parent_summary_i18n": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Plain-language rendering for parent/teacher reports, keyed by language (§2.4, §2.8), e.g. en-IN. May use {{name}} for the child's name."
+    }
+  }
+}

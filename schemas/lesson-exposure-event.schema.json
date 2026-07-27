@@ -1,0 +1,66 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/lesson-exposure-event.schema.json",
+  "title": "Lesson Exposure Event",
+  "description": "A sibling event type to the attempt event, NOT an attempt (student-model doc §9). Logged whenever a lesson plays, so the core doc's lesson-efficacy loop (§6.3 — post-lesson first-attempt success, script A/B, no-lesson holdout) is computable. Practice attempts join against the most recent exposure for their skill; exposure assignment is the one datum no later cleverness can reconstruct.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "event_id",
+    "student_id",
+    "session_id",
+    "timestamp",
+    "lesson_id",
+    "lesson_variant",
+    "skill_id",
+    "segments_completed",
+    "ab_arm"
+  ],
+  "properties": {
+    "event_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique event identifier, for joining and ordering alongside attempt events."
+    },
+    "student_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Pseudonymous student identifier (§9)."
+    },
+    "session_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Session identifier, matching the attempt-event schema (§9)."
+    },
+    "timestamp": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Exposure time, ISO 8601 (§9)."
+    },
+    "lesson_id": {
+      "type": "string",
+      "pattern": "^LSN\\.[A-Z0-9][A-Z0-9.-]*$",
+      "description": "The lesson that played, e.g. LSN.FRAC.ADD.UNLIKE.NCERT.v1 (§9; core doc §6.2)."
+    },
+    "lesson_variant": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The lesson variant played — pedagogy variant and/or script version (§9; core doc §6.2)."
+    },
+    "skill_id": {
+      "type": "string",
+      "pattern": "^[A-Z][A-Z0-9]*(\\.[A-Z0-9][A-Z0-9-]*)*$",
+      "description": "Skill the lesson teaches; practice attempts join against the most recent exposure for their skill (§9)."
+    },
+    "segments_completed": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "How many of the lesson's segments the student watched to completion (§9; core doc §6.1 defines 4 segments)."
+    },
+    "ab_arm": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The A/B assignment arm — script A vs script B, or the small no-lesson holdout (§9; core doc §6.3)."
+    }
+  }
+}

@@ -1,0 +1,12 @@
+skills:
+  - skill_id: FRAC.MULT.WHOLE
+    name: "Multiply a fraction by a whole number"
+    description: >
+      Multiply a fraction by a whole number, expressing the result
+      in simplest form.
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 3
+    prerequisites:
+      - FRAC.PARTWHOLE
+      - FRAC.DOESNOTEXIST
+    misconceptions: []
