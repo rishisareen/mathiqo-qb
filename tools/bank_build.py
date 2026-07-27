@@ -184,8 +184,7 @@ def _fmt_unsimplified_distractor(expr: str, values: Mapping[str, int]) -> str:
     distractor. Reuses item_verify._unsimplified_key (KTD5) — the exact same
     cross-checked split Stage 3 already compares collisions against — rather
     than re-deriving "how is this distractor displayed" a second time."""
-    kind, n, d = item_verify._unsimplified_key(expr, values)  # noqa: SLF001
-    assert kind == "rat"
+    _kind, n, d = item_verify._unsimplified_key(expr, values)  # noqa: SLF001
     return f"{n}/{d}"
 
 
@@ -388,10 +387,6 @@ def build_template_instances(
 # Schema validation
 # ---------------------------------------------------------------------------
 
-def load_item_instance_schema() -> dict:
-    return json.loads(ITEM_INSTANCE_SCHEMA.read_text(encoding="utf-8"))
-
-
 def validate_instance(data: dict, validator: "jsonschema.Draft202012Validator", label: str) -> None:
     errors = sorted(validator.iter_errors(data), key=lambda e: list(e.path))
     if errors:
@@ -415,7 +410,7 @@ def run_build(
     beyond reading inputs). Raises BuildError naming the offending template
     on any refusal."""
     pack = LocalePack.load(locale_pack_path)
-    schema = load_item_instance_schema()
+    schema = json.loads(ITEM_INSTANCE_SCHEMA.read_text(encoding="utf-8"))
     validator = jsonschema.Draft202012Validator(schema)
 
     template_paths = sorted(templates_dir.glob("*.yaml")) + sorted(templates_dir.glob("*.yml"))

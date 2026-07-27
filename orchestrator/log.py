@@ -61,7 +61,7 @@ each logged event, in file order:
   or in parallel.
 
 `now` for both `maybe_certify` and `apply_review_outcome` is the event's own
-`timestamp` field (parsed by `_parse_timestamp`), not the wall-clock time of
+`timestamp` field (parsed by `parse_timestamp`), not the wall-clock time of
 the replay run — replay must reproduce the exact `review_due` the live
 session computed, which depended on when the attempt actually happened.
 
@@ -149,10 +149,17 @@ def append_attempt(log_path: Path, event: dict) -> None:
         f.write("\n")
 
 
-def _iter_events(log_path: Path) -> Iterator[dict]:
+def iter_events(log_path: Path) -> Iterator[dict]:
     """Yield every event dict from `log_path` in file (= chronological
     write) order. A missing file yields nothing — a fresh student has no
-    log yet, not an error."""
+    log yet, not an error.
+
+    Public: orchestrator/engine.py's `rebuild_engine_state` (KTD11) needs
+    to interleave its own per-event consumption between this module's
+    student-model application and each event, so it iterates and applies
+    events itself rather than calling `replay()` (which bundles both into
+    one opaque pass) — this and `apply_event` are that shared, named
+    per-event API, not a private detail reached into from outside."""
     if not log_path.exists():
         return
     with log_path.open("r", encoding="utf-8") as f:
@@ -163,7 +170,7 @@ def _iter_events(log_path: Path) -> Iterator[dict]:
             yield json.loads(line)
 
 
-def _parse_timestamp(raw: str) -> datetime:
+def parse_timestamp(raw: str) -> datetime:
     """ISO 8601 parse tolerant of a trailing 'Z' (UTC) — Python's
     datetime.fromisoformat only gained native 'Z' support in 3.11; this repo
     targets 3.9+."""
@@ -192,49 +199,46 @@ def _attempt_from_event(event: dict) -> Attempt:
     )
 
 
-def _set_state(store: StudentModelStore, student_id: str, skill_id: str, new_state: SkillState) -> None:
-    """Write `new_state` into `store` for (student_id, skill_id) using only
-    StudentModelStore's public API. There is no direct setter by design
-    (state.py's contract is get / records_for / replace_records); this
-    mirrors how §8 migrations swap records via replace_records, just scoped
-    to one skill at a time."""
-    records = dict(store.records_for(student_id))
-    records[skill_id] = new_state
-    store.replace_records(student_id, records)
-
-
-def _apply_event(store: StudentModelStore, event: dict) -> None:
+def apply_event(store: StudentModelStore, event: dict) -> None:
     """Apply one logged event to `store` per the module docstring's U1+U2
-    composition rules."""
+    composition rules.
+
+    Public alongside `iter_events` / `parse_timestamp` (see their
+    docstrings) — orchestrator/engine.py's `rebuild_engine_state` calls this
+    directly to replay student-model effects one event at a time.
+
+    Writes every skill this event touches in one `store.write_records` call
+    rather than one round trip per skill: `write_records` (state.py) does
+    its own read-modify-write over the student's full record set, so
+    calling it per skill would repeat that scan once per skill in the
+    event instead of once for the event as a whole.
+    """
     student_id = event["student_id"]
     skill_ids = event["skill_ids"]
     context = event["context"]
-    now = _parse_timestamp(event["timestamp"])
+    now = parse_timestamp(event["timestamp"])
     attempt = _attempt_from_event(event)
 
+    updates: dict[str, SkillState] = {}
     if context == REVIEW_CONTEXT:
         for skill_id in skill_ids:
             state = store.get(student_id, skill_id)
             if attempt.correct:
-                new_state = apply_review_outcome(state, True, now)
+                updates[skill_id] = apply_review_outcome(state, True, now)
             else:
                 result = apply_attempt(state, attempt)
-                new_state = apply_review_outcome(result.new_state, False, now)
-            _set_state(store, student_id, skill_id, new_state)
-        return
+                updates[skill_id] = apply_review_outcome(result.new_state, False, now)
+    else:
+        for skill_id in skill_ids:
+            state = store.get(student_id, skill_id)
+            result = apply_attempt(state, attempt)
+            updates[skill_id] = result.new_state
 
-    updated_states: dict[str, SkillState] = {}
-    for skill_id in skill_ids:
-        state = store.get(student_id, skill_id)
-        result = apply_attempt(state, attempt)
-        updated_states[skill_id] = result.new_state
+        if len(skill_ids) == 1:
+            only_skill = skill_ids[0]
+            updates[only_skill] = maybe_certify(updates[only_skill], attempt, now)
 
-    if len(skill_ids) == 1:
-        only_skill = skill_ids[0]
-        updated_states[only_skill] = maybe_certify(updated_states[only_skill], attempt, now)
-
-    for skill_id, new_state in updated_states.items():
-        _set_state(store, student_id, skill_id, new_state)
+    store.write_records(student_id, updates)
 
 
 def replay(log_path: Path) -> StudentModelStore:
@@ -258,7 +262,7 @@ def replay(log_path: Path) -> StudentModelStore:
     (the K schedule and misconception window are).
     """
     store = StudentModelStore()
-    for event in _iter_events(log_path):
-        _apply_event(store, event)
+    for event in iter_events(log_path):
+        apply_event(store, event)
         store.append_event(event)
     return store

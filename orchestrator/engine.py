@@ -425,7 +425,7 @@ def _init_placement(engine_state: EngineState, content: ContentIndex, country: s
 
 def _first_uncertified(skill_ids: List[str], store: StudentModelStore, student_id: str) -> Optional[str]:
     for skill_id in skill_ids:
-        if store.get(student_id, skill_id).certified_depth is None:
+        if store.peek(student_id, skill_id).certified_depth is None:
             return skill_id
     return None
 
@@ -470,9 +470,9 @@ def _advance_placement(
     if engine_state.placement_cursor.get(strand) != skill_id:
         return  # stale event for an already-advanced or already-finished cursor
 
-    state = store.get(student_id, skill_id)
+    state = store.peek(student_id, skill_id)
     prereqs = content.skills[skill_id].prerequisites
-    prereqs_certified = all(is_certified(store.get(student_id, p), depth_served, now) for p in prereqs)
+    prereqs_certified = all(is_certified(store.peek(student_id, p), depth_served, now) for p in prereqs)
     is_frontier = state.certified_depth is None and prereqs_certified and state.n >= constants.PLACEMENT_FRONTIER_N
     if is_frontier:
         del engine_state.placement_cursor[strand]
@@ -549,10 +549,9 @@ def consume_event(
     writes SkillState": KTD12 requires resetting the just-fired
     misconception's counter on the *triggering* skill (its own attempts
     don't touch that skill again during the dose, so nothing else would
-    ever clear it — see KTD12). The caller must write
-    `store.replace_records` (or equivalent) with these patches immediately
-    after calling this function, same as it wrote the apply_attempt result
-    before calling in.
+    ever clear it — see KTD12). The caller must write these patches via
+    `apply_consume_patches` immediately after calling this function, same
+    as it wrote the apply_attempt result before calling in.
     """
     new_state = copy.deepcopy(engine_state)
     patches: Dict[str, SkillState] = {}
@@ -606,7 +605,7 @@ def consume_event(
         return ConsumeResult(engine_state=new_state, skill_state_patches=patches)
 
     if outcome.misconception_id is not None:
-        skill_state = store.get(outcome.student_id, skill_id)
+        skill_state = store.peek(outcome.student_id, skill_id)
         if skill_state.misc_count(outcome.misconception_id) >= constants.MISC_TRIGGER_COUNT:
             misc_entry = content.misconceptions.get(outcome.misconception_id)
             if misc_entry is not None:
@@ -635,14 +634,10 @@ def consume_event(
 
 def apply_consume_patches(store: StudentModelStore, student_id: str, patches: Dict[str, SkillState]) -> None:
     """Convenience for callers: write consume_event's skill_state_patches
-    into `store` using only StudentModelStore's public API (get /
-    records_for / replace_records — same discipline orchestrator/log.py's
-    `_set_state` follows)."""
-    if not patches:
-        return
-    records = dict(store.records_for(student_id))
-    records.update(patches)
-    store.replace_records(student_id, records)
+    into `store` via `StudentModelStore.write_records` — the same
+    merge-into-existing-records primitive orchestrator/log.py's
+    `apply_event` uses for its own per-event writes."""
+    store.write_records(student_id, patches)
 
 
 # ---------------------------------------------------------------------------
@@ -670,6 +665,31 @@ def _mark_served(engine_state: EngineState, skill_id: str, item_instance_id: str
     engine_state.seen_history.setdefault(skill_id, []).append(item_instance_id)
 
 
+def _try_serve(
+    new_state: EngineState,
+    warnings: List[str],
+    skill_id: str,
+    candidates: List[dict],
+    target: float,
+    context: str,
+    reason: str,
+) -> Optional[Serve]:
+    """The shape every select_next branch shares: pick_instance against
+    `candidates`, mark it served, and build the Serve record — or return
+    None so the caller falls through to the next priority-chain branch
+    (R12's exact dispatch order and short-circuit behavior live in
+    select_next, not here). Mutates `new_state`/`warnings` in place,
+    matching select_next's own local-mutation style — both are already
+    select_next's private copies by the time this is called."""
+    instance, warning = pick_instance(candidates, target, new_state.seen_history.get(skill_id, []))
+    if instance is None:
+        return None
+    if warning:
+        warnings.append(warning)
+    _mark_served(new_state, skill_id, instance["item_instance_id"])
+    return Serve(instance["item_instance_id"], skill_id, instance["difficulty"], context, reason)
+
+
 def select_next(
     store: StudentModelStore,
     engine_state: EngineState,
@@ -693,100 +713,60 @@ def select_next(
     due = due_reviews(records, now)
     if due:
         skill_id, skill_state = due[0]
-        depth = skill_state.certified_depth
         candidates = [
             inst
             for inst in bank.instances_by_skill.get(skill_id, [])
             if inst["question_type"] in constants.LOW_GUESS_FORMATS
         ]
-        instance, warning = pick_instance(candidates, depth, new_state.seen_history.get(skill_id, []))
-        if instance is not None:
-            if warning:
-                warnings.append(warning)
-            _mark_served(new_state, skill_id, instance["item_instance_id"])
-            return SelectResult(
-                engine_state=new_state,
-                serve=Serve(instance["item_instance_id"], skill_id, instance["difficulty"], "review", "review"),
-                warnings=warnings,
-            )
+        serve = _try_serve(new_state, warnings, skill_id, candidates, skill_state.certified_depth, "review", "review")
+        if serve is not None:
+            return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
 
     # 2. Confirmed-misconception remediation dose.
     if new_state.remediation_queue:
         dose = new_state.remediation_queue[0]
-        skill_state = store.get(student_id, dose.skill_id)
+        skill_state = store.peek(student_id, dose.skill_id)
         ceiling = serving_ceiling(dose.skill_id, country, grade, content)
         target = target_depth(skill_state.theta, ceiling)
-        instance, warning = pick_instance(
-            bank.instances_by_skill.get(dose.skill_id, []), target, new_state.seen_history.get(dose.skill_id, [])
+        serve = _try_serve(
+            new_state, warnings, dose.skill_id, bank.instances_by_skill.get(dose.skill_id, []),
+            target, "practice", "remediation",
         )
-        if instance is not None:
-            if warning:
-                warnings.append(warning)
-            _mark_served(new_state, dose.skill_id, instance["item_instance_id"])
-            return SelectResult(
-                engine_state=new_state,
-                serve=Serve(
-                    instance["item_instance_id"], dose.skill_id, instance["difficulty"], "practice", "remediation"
-                ),
-                warnings=warnings,
-            )
+        if serve is not None:
+            return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
 
     # 3. Queued depth-step-down probes.
     if new_state.stepdown_queue:
         probe = new_state.stepdown_queue[0]
-        instance, warning = pick_instance(
-            bank.instances_by_skill.get(probe.skill_id, []),
-            probe.target_depth,
-            new_state.seen_history.get(probe.skill_id, []),
+        serve = _try_serve(
+            new_state, warnings, probe.skill_id, bank.instances_by_skill.get(probe.skill_id, []),
+            probe.target_depth, "probe", "stepdown",
         )
-        if instance is not None:
-            if warning:
-                warnings.append(warning)
-            _mark_served(new_state, probe.skill_id, instance["item_instance_id"])
-            return SelectResult(
-                engine_state=new_state,
-                serve=Serve(
-                    instance["item_instance_id"], probe.skill_id, instance["difficulty"], "probe", "stepdown"
-                ),
-                warnings=warnings,
-            )
+        if serve is not None:
+            return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
 
     # 4. Queued prerequisite probes.
     if new_state.prereq_probe_queue:
         probe = new_state.prereq_probe_queue[0]
         target = starting_depth_for(probe.skill_id, country, grade, content)
-        instance, warning = pick_instance(
-            bank.instances_by_skill.get(probe.skill_id, []), target, new_state.seen_history.get(probe.skill_id, [])
+        serve = _try_serve(
+            new_state, warnings, probe.skill_id, bank.instances_by_skill.get(probe.skill_id, []),
+            target, "probe", "prereq_probe",
         )
-        if instance is not None:
-            if warning:
-                warnings.append(warning)
-            _mark_served(new_state, probe.skill_id, instance["item_instance_id"])
-            return SelectResult(
-                engine_state=new_state,
-                serve=Serve(
-                    instance["item_instance_id"], probe.skill_id, instance["difficulty"], "probe", "prereq_probe"
-                ),
-                warnings=warnings,
-            )
+        if serve is not None:
+            return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
 
     # 5. Placement, until each strand finds its frontier.
     _init_placement(new_state, content, country, grade)
     for strand in sorted(new_state.placement_cursor):
         skill_id = new_state.placement_cursor[strand]
         target = starting_depth_for(skill_id, country, grade, content)
-        instance, warning = pick_instance(
-            bank.instances_by_skill.get(skill_id, []), target, new_state.seen_history.get(skill_id, [])
+        serve = _try_serve(
+            new_state, warnings, skill_id, bank.instances_by_skill.get(skill_id, []),
+            target, "placement", "placement",
         )
-        if instance is not None:
-            if warning:
-                warnings.append(warning)
-            _mark_served(new_state, skill_id, instance["item_instance_id"])
-            return SelectResult(
-                engine_state=new_state,
-                serve=Serve(instance["item_instance_id"], skill_id, instance["difficulty"], "placement", "placement"),
-                warnings=warnings,
-            )
+        if serve is not None:
+            return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
         # No instances at all for this strand's cursor skill: nothing to
         # place with here — try the next strand this call rather than
         # getting stuck.
@@ -796,15 +776,17 @@ def select_next(
     # first among the eligible set (see module report for this tie-break).
     by_skill: Dict[str, List[dict]] = {}
     for skill_id, node in content.skills.items():
-        skill_state = store.get(student_id, skill_id)
+        skill_state = store.peek(student_id, skill_id)
         ceiling = serving_ceiling(skill_id, country, grade, content)
+        if skill_state.certified_depth is not None and skill_state.certified_depth >= ceiling:
+            continue  # every depth <= ceiling is already mastered; this skill has nothing to offer
         for instance in bank.instances_by_skill.get(skill_id, []):
             depth = instance["difficulty"]
             if depth > ceiling:
-                continue
+                break  # pool is sorted ascending by difficulty (load_bank) — nothing later qualifies either
             if skill_state.certified_depth is not None and skill_state.certified_depth >= depth:
                 continue
-            if not all(is_certified(store.get(student_id, p), depth, now) for p in node.prerequisites):
+            if not all(is_certified(store.peek(student_id, p), depth, now) for p in node.prerequisites):
                 continue
             by_skill.setdefault(skill_id, []).append(instance)
 
@@ -812,25 +794,14 @@ def select_next(
         return SelectResult(engine_state=new_state, serve=None, warnings=warnings)
 
     def _priority(skill_id: str) -> Tuple[float, str]:
-        return (store.get(student_id, skill_id).n, skill_id)
+        return (store.peek(student_id, skill_id).n, skill_id)
 
     chosen_skill = min(by_skill, key=_priority)
-    skill_state = store.get(student_id, chosen_skill)
+    skill_state = store.peek(student_id, chosen_skill)
     ceiling = serving_ceiling(chosen_skill, country, grade, content)
     target = target_depth(skill_state.theta, ceiling)
-    instance, warning = pick_instance(
-        by_skill[chosen_skill], target, new_state.seen_history.get(chosen_skill, [])
-    )
-    if warning:
-        warnings.append(warning)
-    if instance is None:
-        return SelectResult(engine_state=new_state, serve=None, warnings=warnings)
-    _mark_served(new_state, chosen_skill, instance["item_instance_id"])
-    return SelectResult(
-        engine_state=new_state,
-        serve=Serve(instance["item_instance_id"], chosen_skill, instance["difficulty"], "practice", "frontier"),
-        warnings=warnings,
-    )
+    serve = _try_serve(new_state, warnings, chosen_skill, by_skill[chosen_skill], target, "practice", "frontier")
+    return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
 
 
 # ---------------------------------------------------------------------------
@@ -841,12 +812,12 @@ def select_next(
 def rebuild_engine_state(log_path: Path, content: ContentIndex, bank: BankIndex) -> EngineState:
     """Re-derive EngineState from scratch by replaying `log_path` (KTD11).
 
-    Reuses orchestrator/log.py's own per-event student-model application
-    (`_iter_events`, `_apply_event`) rather than re-implementing the
-    apply_attempt/maybe_certify/apply_review_outcome composition a second
-    time here — the plan is explicit that this unit must not duplicate that
-    logic, only add what's new (the engine-state derivation). The
-    alternative of calling the public `log.replay()` once per growing
+    Reuses orchestrator/log.py's own public per-event student-model
+    application (`iter_events`, `apply_event`) rather than re-implementing
+    the apply_attempt/maybe_certify/apply_review_outcome composition a
+    second time here — the plan is explicit that this unit must not
+    duplicate that logic, only add what's new (the engine-state
+    derivation). The alternative of calling `log.replay()` once per growing
     log-file prefix was rejected: O(n^2) and no clearer.
 
     Builds its own scratch StudentModelStore (not the caller's live one) by
@@ -860,10 +831,10 @@ def rebuild_engine_state(log_path: Path, content: ContentIndex, bank: BankIndex)
     """
     store = StudentModelStore()
     engine_state = EngineState()
-    for event in log_module._iter_events(log_path):  # noqa: SLF001 -- see docstring
-        log_module._apply_event(store, event)  # noqa: SLF001 -- see docstring
+    for event in log_module.iter_events(log_path):
+        log_module.apply_event(store, event)
         store.append_event(event)
-        now = log_module._parse_timestamp(event["timestamp"])  # noqa: SLF001
+        now = log_module.parse_timestamp(event["timestamp"])
         outcome = attempt_outcome_from_event(event)
         result = consume_event(engine_state, store, content, bank, outcome, now)
         engine_state = result.engine_state

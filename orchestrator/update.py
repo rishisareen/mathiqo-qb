@@ -166,6 +166,21 @@ def weight_for(attempt: Attempt, score: float) -> float:
     return 1.0
 
 
+def _unchanged_result(state: SkillState, theta_before: float, n_before: float, **flag: bool) -> UpdateResult:
+    """The shared shape of apply_attempt's two no-op outcomes — abandonment
+    (`discarded=True`) and multi-skill failure (`queue_probes=True`): a
+    fresh, unmutated copy of `state` with theta/n unchanged. `**flag` is
+    exactly one of those two keyword flags, forwarded to UpdateResult."""
+    return UpdateResult(
+        new_state=copy.deepcopy(state),
+        theta_before=theta_before,
+        theta_after=theta_before,
+        n_before=n_before,
+        n_after=n_before,
+        **flag,
+    )
+
+
 def apply_attempt(state: SkillState, attempt: Attempt) -> UpdateResult:
     """Turn one attempt into a state delta (§3) — the pure function KTD7 asks for.
 
@@ -186,27 +201,13 @@ def apply_attempt(state: SkillState, attempt: Attempt) -> UpdateResult:
     n_before = state.n
 
     if is_abandoned(attempt):
-        return UpdateResult(
-            new_state=copy.deepcopy(state),
-            theta_before=theta_before,
-            theta_after=theta_before,
-            n_before=n_before,
-            n_after=n_before,
-            discarded=True,
-        )
+        return _unchanged_result(state, theta_before, n_before, discarded=True)
 
     is_multi_skill = len(attempt.skill_ids) > 1
 
     if is_multi_skill:
         if not attempt.correct:
-            return UpdateResult(
-                new_state=copy.deepcopy(state),
-                theta_before=theta_before,
-                theta_after=theta_before,
-                n_before=n_before,
-                n_after=n_before,
-                queue_probes=True,
-            )
+            return _unchanged_result(state, theta_before, n_before, queue_probes=True)
         score = constants.SCORE_CLEAN
         weight = constants.MULTI_SKILL_WEIGHT
     else:

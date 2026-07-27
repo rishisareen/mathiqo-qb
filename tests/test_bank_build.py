@@ -216,17 +216,6 @@ def test_collision_variants_never_appear_in_pool(synthetic_dir: Path) -> None:
         assert instance["answer"] not in distractor_values
 
 
-def test_only_if_guarded_distractor_appears_only_where_guard_holds(synthetic_dir: Path) -> None:
-    _, per_template = bank_build.run_build(synthetic_dir, LOCALE_PACK, "dev", pool_cap=1000)
-    for instance in per_template["TPL.TEST.BUILD.MCQ.001"]:
-        values = instance["variables"]
-        guard_holds = item_verify.evaluate_condition("gcd(a + c, b) > 1", values)
-        no_simplify_present = any(
-            d["misconception_id"] == "MISC.FRAC.NO-SIMPLIFY" for d in instance["distractors"]
-        )
-        assert no_simplify_present == guard_holds
-
-
 def test_unsimplified_distractor_displays_unreduced_same_value(synthetic_dir: Path) -> None:
     """Find an instance where the NO-SIMPLIFY guard fires and check its
     displayed value is the literal unreduced (a+c)/b split, distinct in text

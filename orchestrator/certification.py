@@ -58,32 +58,39 @@ def maybe_certify(state: SkillState, attempt: Attempt, now: datetime) -> SkillSt
     cleared (this is also how re-earning after a lapse restores prerequisite
     satisfaction, §6 point 3).
     """
-    new_state = copy.deepcopy(state)
-
     if not attempt.correct:
-        return new_state
+        return state
     if attempt.hints_used > 0:
-        return new_state
+        return state
     if attempt.context == "lesson":
-        return new_state
+        return state
     if len(attempt.skill_ids) != 1:
-        return new_state
+        return state
     if attempt.question_type not in constants.LOW_GUESS_FORMATS:
-        return new_state
+        return state
     if attempt.depth_served is None:
-        return new_state
+        return state
 
     max_supported_depth = state.theta - constants.MASTERY_MARGIN
     candidate_depth = min(attempt.depth_served, max_supported_depth)
     if candidate_depth < 0:
-        return new_state
+        return state
 
+    new_state = copy.deepcopy(state)
     existing = state.certified_depth
     new_state.certified_depth = candidate_depth if existing is None else max(existing, candidate_depth)
-    new_state.review_interval_days = constants.REVIEW_INITIAL_INTERVAL_DAYS
-    new_state.review_due = now + timedelta(days=constants.REVIEW_INITIAL_INTERVAL_DAYS)
+    _reset_to_initial_interval(new_state, now)
     new_state.lapsed = False
     return new_state
+
+
+def _reset_to_initial_interval(state: SkillState, now: datetime) -> None:
+    """Mutate `state` in place to the initial §6 review interval — shared by
+    `maybe_certify` (fresh/re-earned certification) and `apply_review_outcome`
+    (a failed probe). Caller owns the deep copy; this only sets the two
+    fields both call sites reset identically."""
+    state.review_interval_days = constants.REVIEW_INITIAL_INTERVAL_DAYS
+    state.review_due = now + timedelta(days=constants.REVIEW_INITIAL_INTERVAL_DAYS)
 
 
 def apply_review_outcome(state: SkillState, passed: bool, now: datetime) -> SkillState:
@@ -110,8 +117,7 @@ def apply_review_outcome(state: SkillState, passed: bool, now: datetime) -> Skil
         new_state.review_interval_days = new_interval
         new_state.review_due = now + timedelta(days=new_interval)
     else:
-        new_state.review_interval_days = constants.REVIEW_INITIAL_INTERVAL_DAYS
-        new_state.review_due = now + timedelta(days=constants.REVIEW_INITIAL_INTERVAL_DAYS)
+        _reset_to_initial_interval(new_state, now)
         new_state.lapsed = True
     return new_state
 

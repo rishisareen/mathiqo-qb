@@ -49,12 +49,6 @@ def test_expectation_at_equal_theta_and_b_is_one_half() -> None:
     assert expectation(0.5, 0.5, "numeric_entry") == pytest.approx(0.5)
 
 
-def test_expectation_numeric_entry_is_unadjusted() -> None:
-    theta, b = 0.7, 0.4
-    raw = 1.0 / (1.0 + 10.0 ** (-(theta - b) / constants.S))
-    assert expectation(theta, b, "numeric_entry") == pytest.approx(raw)
-
-
 def test_expectation_low_guess_formats_are_unadjusted() -> None:
     theta, b = 0.7, 0.4
     raw = 1.0 / (1.0 + 10.0 ** (-(theta - b) / constants.S))

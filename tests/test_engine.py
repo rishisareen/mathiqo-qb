@@ -750,9 +750,9 @@ def test_engine_replay_reproduces_pending_stepdown_probe(
     # Live-equivalent: apply the same event through the documented protocol.
     live_store = StudentModelStore()
     live_engine_state = engine.EngineState()
-    from orchestrator.log import _apply_event  # same private helper rebuild_engine_state reuses
+    from orchestrator.log import apply_event  # same public helper rebuild_engine_state reuses
 
-    _apply_event(live_store, event)
+    apply_event(live_store, event)
     outcome = engine.attempt_outcome_from_event(event)
     live_result = engine.consume_event(live_engine_state, live_store, content, bank, outcome, NOW)
 
