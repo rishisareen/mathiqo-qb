@@ -22,12 +22,12 @@ This module instead falls back to `constants.DEFAULT_ESTIMATED_TIME_SEC` for
 every served instance's hint-auto-offer and timeout thresholds. See
 `_estimated_time_sec`.
 
-**The feedback interface, live.** `_apply_and_log` is the live-session
-mirror of `orchestrator/log.py`'s `apply_event` composition (see that
-module's docstring) and of `tests/test_engine.py`'s `run_attempt` reference
-harness: apply the ordinary student-model update first and write it into the
-store, THEN call `engine.consume_event` and apply its patches — in that
-order, per `orchestrator/engine.py`'s module docstring.
+**The feedback interface, live.** `_apply_and_log` scores the attempt via
+`orchestrator/log.py`'s `compose_attempt` — the same U1/U2 composition
+`apply_event` uses for a logged event, so the review-vs-non-review branching
+exists in exactly one place, not mirrored by hand in two — writes the result
+into the store, THEN calls `engine.consume_event` and applies its patches —
+in that order, per `orchestrator/engine.py`'s module docstring.
 
 **The async-input mechanism.** `InputSource.poll(timeout_sec)` is the one
 seam between the hint ladder / timeout state machine (`collect_response`,
@@ -76,9 +76,9 @@ from fractions import Fraction
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Tuple, Union
 
-from . import certification, constants, engine, log as log_module
+from . import constants, engine, log as log_module
 from .state import StudentModelStore
-from .update import Attempt, apply_attempt
+from .update import Attempt
 
 # ---------------------------------------------------------------------------
 # Async input abstraction (the "same async-input mechanism" for hint
@@ -308,10 +308,24 @@ class ParsedNumeric:
     literal_form: str
 
 
-def _parse_simple_token(token: str) -> Optional[ParsedNumeric]:
+def _match_fraction(token: str) -> Optional[Tuple[int, int]]:
+    """Regex-match a bare "num/den" token and extract its integer parts —
+    the one step `_parse_simple_token`'s bare-fraction case and
+    `parse_numeric_response`'s mixed-number fractional part both need.
+    Validation and sign handling differ between the two callers (a
+    standalone fraction accepts a negative denominator and normalizes it; a
+    mixed number's fractional part must be a positive proper fraction), so
+    this only does the match-and-extract, not the validation."""
     m = _FRACTION_RE.match(token)
-    if m:
-        num, den = int(m.group(1)), int(m.group(2))
+    if m is None:
+        return None
+    return int(m.group(1)), int(m.group(2))
+
+
+def _parse_simple_token(token: str) -> Optional[ParsedNumeric]:
+    fraction = _match_fraction(token)
+    if fraction is not None:
+        num, den = fraction
         if den == 0:
             return None
         if den < 0:
@@ -343,10 +357,10 @@ def parse_numeric_response(raw: str) -> Optional[ParsedNumeric]:
         whole_tok, frac_tok = tokens
         if not _INT_RE.match(whole_tok):
             return None
-        m = _FRACTION_RE.match(frac_tok)
-        if not m:
+        fraction = _match_fraction(frac_tok)
+        if fraction is None:
             return None
-        num, den = int(m.group(1)), int(m.group(2))
+        num, den = fraction
         if den <= 0 or num < 0:
             return None
         whole = int(whole_tok)
@@ -462,14 +476,15 @@ def _apply_and_log(
     session_last_event: bool,
     now: datetime,
 ) -> Optional[Tuple[float, float, "engine.EngineState", dict]]:
-    """Score one served item exactly as `orchestrator/log.py`'s `apply_event`
-    composes U1/U2 for a logged event, then run the engine's `consume_event`
-    step, in that order (see module docstring).
+    """Score one served item via `orchestrator/log.py`'s `compose_attempt` —
+    the same U1/U2 composition `apply_event` uses for a logged event — then
+    run the engine's `consume_event` step, in that order (see module
+    docstring).
 
-    Returns `None` when the §3 abandonment guard fires (`apply_attempt`
-    reports `discarded=True`): mirrors log.py's "what gets logged" decision
-    exactly — nothing is written to `store`, nothing is appended to
-    `log_path`, `consume_event` is never called. Otherwise returns
+    Returns `None` when the §3 abandonment guard fires (`compose_attempt`
+    reports a `None` `new_state`): mirrors log.py's "what gets logged"
+    decision exactly — nothing is written to `store`, nothing is appended
+    to `log_path`, `consume_event` is never called. Otherwise returns
     `(theta_before, theta_after, new_engine_state, logged_event)`.
     """
     skill_id = serve.skill_id
@@ -488,26 +503,12 @@ def _apply_and_log(
         depth_served=instance["difficulty"],
     )
     state = store.get(student_id, skill_id)
+    composed = log_module.compose_attempt(state, attempt, serve.context, now)
+    if composed.new_state is None:
+        return None
+    theta_before, theta_after, n_before = composed.theta_before, composed.theta_after, composed.n_before
 
-    if serve.context == "review":
-        if correct:
-            theta_before = theta_after = state.theta
-            n_before = state.n
-            new_state = certification.apply_review_outcome(state, True, now)
-        else:
-            result = apply_attempt(state, attempt)
-            if result.discarded:
-                return None
-            theta_before, theta_after, n_before = result.theta_before, result.theta_after, result.n_before
-            new_state = certification.apply_review_outcome(result.new_state, False, now)
-    else:
-        result = apply_attempt(state, attempt)
-        if result.discarded:
-            return None
-        theta_before, theta_after, n_before = result.theta_before, result.theta_after, result.n_before
-        new_state = certification.maybe_certify(result.new_state, attempt, now)
-
-    store.write_records(student_id, {skill_id: new_state})
+    store.write_records(student_id, {skill_id: composed.new_state})
 
     event = {
         "event_id": attempt.event_id,

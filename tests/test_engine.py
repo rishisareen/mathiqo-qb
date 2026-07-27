@@ -31,6 +31,7 @@ from pathlib import Path
 
 import pytest
 
+from conftest import _bypass_placement, find_tagged_instance
 from orchestrator import constants, engine
 from orchestrator.certification import apply_review_outcome, maybe_certify
 from orchestrator.log import append_attempt
@@ -43,25 +44,9 @@ TEMPLATES_DIR = REPO_ROOT / "content" / "templates"
 
 NOW = datetime(2026, 7, 27, 12, 0, 0)
 
-
-# --- fixtures: real content + a real built bank -------------------------------
-
-
-@pytest.fixture(scope="session")
-def content() -> engine.ContentIndex:
-    return engine.load_content(CONTENT_DIR)
-
-
-@pytest.fixture(scope="session")
-def bank(tmp_path_factory: pytest.TempPathFactory) -> engine.BankIndex:
-    import bank_build  # tools/bank_build.py; tests/conftest.py puts tools/ on sys.path
-
-    out_dir = tmp_path_factory.mktemp("engine_bank_out")
-    manifest, per_template = bank_build.run_build(
-        TEMPLATES_DIR, bank_build.DEFAULT_LOCALE_PACK, "test-engine", bank_build.DEFAULT_POOL_CAP
-    )
-    target_dir = bank_build.write_bank(out_dir, "test-engine", manifest, per_template)
-    return engine.load_bank(target_dir)
+# `content` and `bank` (session-scoped fixtures) and `find_tagged_instance` /
+# `_bypass_placement` live in tests/conftest.py, shared with test_session.py
+# and test_simulation.py — see that module's docstring.
 
 
 # --- test harness: the documented feedback-interface calling convention -------
@@ -128,17 +113,6 @@ def run_attempt(
     return consume_result.engine_state, misconception_id
 
 
-def find_tagged_instance(bank_index: engine.BankIndex, skill_id: str, misconception_id: str) -> tuple[dict, str]:
-    """A real bank instance of `skill_id` carrying a distractor tagged
-    `misconception_id`, plus that distractor's value (the wrong-answer
-    response that will match it)."""
-    for instance in bank_index.instances_by_skill.get(skill_id, []):
-        for distractor in instance["distractors"]:
-            if distractor["misconception_id"] == misconception_id:
-                return instance, distractor["value"]
-    raise AssertionError(f"no {skill_id} instance in the built bank tags {misconception_id}")
-
-
 def make_serve(bank_index: engine.BankIndex, skill_id: str, difficulty: float, context: str, reason: str) -> "engine.Serve":
     for instance in bank_index.instances_by_skill[skill_id]:
         if instance["difficulty"] == pytest.approx(difficulty):
@@ -175,7 +149,7 @@ def test_load_content_groups_grade_mapped_skills(content: engine.ContentIndex) -
 
 
 def test_load_bank_indexes_single_skill_instances_only(bank: engine.BankIndex) -> None:
-    assert bank.bank_version == "test-engine"
+    assert bank.bank_version  # non-empty; exact value is conftest.py's shared fixture's concern
     for pool in bank.instances_by_skill.values():
         for instance in pool:
             assert len(instance["skill_ids"]) == 1
@@ -569,10 +543,6 @@ def _mini_bank(bank_index: engine.BankIndex, skill_id: str) -> engine.BankIndex:
         instances_by_skill={skill_id: pool},
         by_id={inst["item_instance_id"]: inst for inst in pool},
     )
-
-
-def _bypass_placement() -> engine.EngineState:
-    return engine.EngineState(placement_cursor={}, placement_initialized=True)
 
 
 def test_frontier_practice_blocked_while_prerequisite_uncertified(content: engine.ContentIndex, bank: engine.BankIndex) -> None:

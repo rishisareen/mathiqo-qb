@@ -22,6 +22,7 @@ from pathlib import Path
 import jsonschema
 import pytest
 
+from conftest import _bypass_placement, _numeric_only_bank, _single_skill_bank, find_tagged_instance
 from orchestrator import certification, constants, engine, log as log_module, session
 from orchestrator.state import SkillState, StudentModelStore
 
@@ -32,70 +33,15 @@ SCHEMAS_DIR = REPO_ROOT / "schemas"
 
 NOW = datetime(2026, 7, 27, 12, 0, 0)
 
-
-# --- fixtures: real content + a real built bank -------------------------------
-
-
-@pytest.fixture(scope="session")
-def content() -> engine.ContentIndex:
-    return engine.load_content(CONTENT_DIR)
-
-
-@pytest.fixture(scope="session")
-def bank(tmp_path_factory: pytest.TempPathFactory) -> engine.BankIndex:
-    import bank_build  # tools/bank_build.py; tests/conftest.py puts tools/ on sys.path
-
-    out_dir = tmp_path_factory.mktemp("session_bank_out")
-    manifest, per_template = bank_build.run_build(
-        TEMPLATES_DIR, bank_build.DEFAULT_LOCALE_PACK, "test-session", bank_build.DEFAULT_POOL_CAP
-    )
-    target_dir = bank_build.write_bank(out_dir, "test-session", manifest, per_template)
-    return engine.load_bank(target_dir)
+# `content` and `bank` (session-scoped fixtures) and the small bank/engine-
+# state helpers above live in tests/conftest.py, shared with test_engine.py
+# and test_simulation.py — see that module's docstring.
 
 
 @pytest.fixture(scope="session")
 def attempt_event_validator() -> jsonschema.Draft202012Validator:
     schema = json.loads((SCHEMAS_DIR / "attempt-event.schema.json").read_text(encoding="utf-8"))
     return jsonschema.Draft202012Validator(schema)
-
-
-# --- small helpers -------------------------------------------------------------
-
-
-def find_tagged_instance(bank_index: engine.BankIndex, skill_id: str, misconception_id: str) -> tuple[dict, str]:
-    for instance in bank_index.instances_by_skill.get(skill_id, []):
-        for distractor in instance["distractors"]:
-            if distractor["misconception_id"] == misconception_id:
-                return instance, distractor["value"]
-    raise AssertionError(f"no {skill_id} instance in the built bank tags {misconception_id}")
-
-
-def _single_skill_bank(bank_index: engine.BankIndex, skill_id: str) -> engine.BankIndex:
-    pool = bank_index.instances_by_skill[skill_id]
-    return engine.BankIndex(
-        bank_version=bank_index.bank_version,
-        instances_by_skill={skill_id: pool},
-        by_id={inst["item_instance_id"]: inst for inst in pool},
-    )
-
-
-def _numeric_only_bank(bank_index: engine.BankIndex) -> engine.BankIndex:
-    """A copy of `bank_index` restricted to numeric_entry instances, so a
-    scripted smoke-test session never has to distinguish MCQ from numeric
-    rendering: the served question_type is always known in advance."""
-    instances_by_skill = {}
-    by_id = {}
-    for skill_id, pool in bank_index.instances_by_skill.items():
-        filtered = [inst for inst in pool if inst["question_type"] == "numeric_entry"]
-        if filtered:
-            instances_by_skill[skill_id] = filtered
-        for inst in filtered:
-            by_id[inst["item_instance_id"]] = inst
-    return engine.BankIndex(bank_version=bank_index.bank_version, instances_by_skill=instances_by_skill, by_id=by_id)
-
-
-def _bypass_placement() -> engine.EngineState:
-    return engine.EngineState(placement_cursor={}, placement_initialized=True)
 
 
 def _notifier() -> tuple[list, "callable"]:

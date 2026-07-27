@@ -809,8 +809,18 @@ def select_next(
 # ---------------------------------------------------------------------------
 
 
-def rebuild_engine_state(log_path: Path, content: ContentIndex, bank: BankIndex) -> EngineState:
-    """Re-derive EngineState from scratch by replaying `log_path` (KTD11).
+def rebuild_session_state(
+    log_path: Path, content: ContentIndex, bank: BankIndex
+) -> Tuple[StudentModelStore, EngineState]:
+    """Re-derive both the StudentModelStore and EngineState from scratch by
+    replaying `log_path` once (KTD11) — the one full pass a session-startup
+    caller needs both values from. `rebuild_engine_state` below is a thin
+    wrapper for callers (and the existing test suite) that only want the
+    EngineState half; calling this function directly instead of pairing
+    `log.replay(log_path)` with `rebuild_engine_state(log_path, ...)` avoids
+    reading and re-applying the whole log file twice for the same result —
+    a cost that grows with the log's own size, i.e. with a real student's
+    entire attempt history, at every session launch.
 
     Reuses orchestrator/log.py's own public per-event student-model
     application (`iter_events`, `apply_event`) rather than re-implementing
@@ -820,14 +830,13 @@ def rebuild_engine_state(log_path: Path, content: ContentIndex, bank: BankIndex)
     derivation). The alternative of calling `log.replay()` once per growing
     log-file prefix was rejected: O(n^2) and no clearer.
 
-    Builds its own scratch StudentModelStore (not the caller's live one) by
-    applying every event in file order, exactly as `log.replay()` does,
+    Applies every event in file order, exactly as `log.replay()` does,
     interleaving calls to `consume_event` immediately after each event's
     student-model update — so `consume_event` always reads the same
     just-updated SkillState a live caller would have seen at that point in
     the session, and any misconception-counter-reset patches it returns are
-    folded back into the scratch store before continuing, same as a live
-    caller must do (see consume_event's docstring).
+    folded back into the store before continuing, same as a live caller
+    must do (see consume_event's docstring).
     """
     store = StudentModelStore()
     engine_state = EngineState()
@@ -839,4 +848,17 @@ def rebuild_engine_state(log_path: Path, content: ContentIndex, bank: BankIndex)
         result = consume_event(engine_state, store, content, bank, outcome, now)
         engine_state = result.engine_state
         apply_consume_patches(store, event["student_id"], result.skill_state_patches)
+    return store, engine_state
+
+
+def rebuild_engine_state(log_path: Path, content: ContentIndex, bank: BankIndex) -> EngineState:
+    """EngineState-only view of `rebuild_session_state`, for callers (and
+    tests) that don't also need the rebuilt StudentModelStore — e.g. a
+    caller that already has its own live store and only wants to compare
+    against a freshly-replayed EngineState. A caller that needs both should
+    call `rebuild_session_state` directly rather than pairing this with a
+    separate `log.replay(log_path)` call, which would replay the same log
+    file twice for no additional information (see that function's
+    docstring)."""
+    _store, engine_state = rebuild_session_state(log_path, content, bank)
     return engine_state

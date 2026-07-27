@@ -92,10 +92,11 @@ equivalence rather than a "trust the log's own numbers" shortcut.
 from __future__ import annotations
 
 import json
+from dataclasses import dataclass
 from datetime import datetime
 from functools import lru_cache
 from pathlib import Path
-from typing import Iterator
+from typing import Iterator, Optional
 
 import jsonschema
 
@@ -199,9 +200,72 @@ def _attempt_from_event(event: dict) -> Attempt:
     )
 
 
+@dataclass(frozen=True)
+class ComposeResult:
+    """One attempt's U1+U2 composition outcome (the module docstring's
+    "Composing U1 and U2" section) against a single `SkillState` — shared by
+    `apply_event` (replay, one call per skill in the event) and
+    `orchestrator/session.py`'s live feedback interface (KTD7's "same
+    function" principle extended from apply_attempt itself to this whole
+    composition, so the review-vs-non-review branching exists in exactly
+    one place). `new_state` is `None` when the §3 abandonment guard
+    discards the attempt entirely — nothing to write, nothing to log (see
+    "What gets logged" above); `theta_before`/`theta_after`/`n_before` are
+    always populated (unchanged-equal on a discard or a review pass) since
+    a live caller needs them for the attempt event's audit fields
+    regardless of whether anything moved.
+    """
+
+    new_state: Optional[SkillState]
+    theta_before: float
+    theta_after: float
+    n_before: float
+
+
+def compose_attempt(state: SkillState, attempt: Attempt, context: str, now: datetime) -> ComposeResult:
+    """Compose one attempt's effect on `state` through U1 (`apply_attempt`)
+    and U2 (`maybe_certify` / `apply_review_outcome`), per the module
+    docstring's "Composing U1 and U2 during replay" section — which this
+    function is now the single owner of, live or replayed. `attempt` may
+    carry more than one skill_id (a multi-skill item); this function scores
+    against exactly the one `state` passed in, matching `apply_attempt`'s
+    own per-skill contract — a multi-skill caller loops, calling this once
+    per skill's own state, same as it always has.
+
+    `maybe_certify` is called unconditionally on the non-review path rather
+    than gated on `len(attempt.skill_ids) == 1` here: its own guard already
+    refuses multi-skill items (SM §7, "never set by multi-skill items"), so
+    the check would be redundant, not a second source of truth.
+    """
+    theta_before = state.theta
+    n_before = state.n
+
+    if context == REVIEW_CONTEXT:
+        if attempt.correct:
+            return ComposeResult(
+                new_state=apply_review_outcome(state, True, now),
+                theta_before=theta_before, theta_after=theta_before, n_before=n_before,
+            )
+        result = apply_attempt(state, attempt)
+        if result.discarded:
+            return ComposeResult(new_state=None, theta_before=theta_before, theta_after=theta_before, n_before=n_before)
+        return ComposeResult(
+            new_state=apply_review_outcome(result.new_state, False, now),
+            theta_before=result.theta_before, theta_after=result.theta_after, n_before=result.n_before,
+        )
+
+    result = apply_attempt(state, attempt)
+    if result.discarded:
+        return ComposeResult(new_state=None, theta_before=theta_before, theta_after=theta_before, n_before=n_before)
+    return ComposeResult(
+        new_state=maybe_certify(result.new_state, attempt, now),
+        theta_before=result.theta_before, theta_after=result.theta_after, n_before=result.n_before,
+    )
+
+
 def apply_event(store: StudentModelStore, event: dict) -> None:
-    """Apply one logged event to `store` per the module docstring's U1+U2
-    composition rules.
+    """Apply one logged event to `store` via `compose_attempt`, once per
+    skill the event touches.
 
     Public alongside `iter_events` / `parse_timestamp` (see their
     docstrings) — orchestrator/engine.py's `rebuild_engine_state` calls this
@@ -211,7 +275,11 @@ def apply_event(store: StudentModelStore, event: dict) -> None:
     rather than one round trip per skill: `write_records` (state.py) does
     its own read-modify-write over the student's full record set, so
     calling it per skill would repeat that scan once per skill in the
-    event instead of once for the event as a whole.
+    event instead of once for the event as a whole. A `None` `new_state`
+    (the abandonment guard) never reaches here in practice — discarded
+    attempts are never logged (see "What gets logged" above) — but the
+    check costs nothing and keeps this function correct even if that
+    invariant is ever violated upstream.
     """
     student_id = event["student_id"]
     skill_ids = event["skill_ids"]
@@ -220,23 +288,11 @@ def apply_event(store: StudentModelStore, event: dict) -> None:
     attempt = _attempt_from_event(event)
 
     updates: dict[str, SkillState] = {}
-    if context == REVIEW_CONTEXT:
-        for skill_id in skill_ids:
-            state = store.get(student_id, skill_id)
-            if attempt.correct:
-                updates[skill_id] = apply_review_outcome(state, True, now)
-            else:
-                result = apply_attempt(state, attempt)
-                updates[skill_id] = apply_review_outcome(result.new_state, False, now)
-    else:
-        for skill_id in skill_ids:
-            state = store.get(student_id, skill_id)
-            result = apply_attempt(state, attempt)
+    for skill_id in skill_ids:
+        state = store.get(student_id, skill_id)
+        result = compose_attempt(state, attempt, context, now)
+        if result.new_state is not None:
             updates[skill_id] = result.new_state
-
-        if len(skill_ids) == 1:
-            only_skill = skill_ids[0]
-            updates[only_skill] = maybe_certify(updates[only_skill], attempt, now)
 
     store.write_records(student_id, updates)
 

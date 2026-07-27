@@ -76,8 +76,11 @@ def main(argv: "list[str] | None" = None) -> int:
     content = engine.load_content(DEFAULT_CONTENT_DIR)
     bank = engine.load_bank(args.bank)
 
-    store = log_module.replay(args.log)
-    engine_state = engine.rebuild_engine_state(args.log, content, bank)
+    # One pass over the log for both the store and engine state — see
+    # rebuild_session_state's docstring on why this replaces the equivalent
+    # (and, at real usage scale, doubly expensive) log.replay() +
+    # rebuild_engine_state() pair.
+    store, engine_state = engine.rebuild_session_state(args.log, content, bank)
 
     session_id = f"sess-{uuid.uuid4().hex[:8]}"
     io = session.ThreadedStdinInputSource()

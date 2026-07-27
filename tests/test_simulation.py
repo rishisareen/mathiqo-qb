@@ -38,6 +38,7 @@ from typing import Callable, Dict, List, Optional, Tuple
 
 import pytest
 
+from conftest import _bypass_placement, _numeric_only_bank, _single_skill_bank
 from orchestrator import certification, constants, engine, log as log_module, session
 from orchestrator.state import SkillState, StudentModelStore, is_certified
 from orchestrator.update import expectation
@@ -55,47 +56,15 @@ NOW = datetime(2026, 7, 27, 12, 0, 0)
 # (0.8) via engine.serving_ceiling's "no mapping row" branch.
 UNMAPPED_GRADE = 9
 
-
-# ===========================================================================
-# fixtures: real content + a real built bank (same convention as
-# tests/test_engine.py / tests/test_session.py)
-# ===========================================================================
-
-
-@pytest.fixture(scope="session")
-def content() -> engine.ContentIndex:
-    return engine.load_content(CONTENT_DIR)
-
-
-@pytest.fixture(scope="session")
-def bank(tmp_path_factory: pytest.TempPathFactory) -> engine.BankIndex:
-    import bank_build  # tools/bank_build.py; tests/conftest.py puts tools/ on sys.path
-
-    out_dir = tmp_path_factory.mktemp("simulation_bank_out")
-    manifest, per_template = bank_build.run_build(
-        TEMPLATES_DIR, bank_build.DEFAULT_LOCALE_PACK, "test-simulation", bank_build.DEFAULT_POOL_CAP
-    )
-    target_dir = bank_build.write_bank(out_dir, "test-simulation", manifest, per_template)
-    return engine.load_bank(target_dir)
+# `content` and `bank` (session-scoped fixtures) and `_bypass_placement` /
+# `_single_skill_bank` / `_numeric_only_bank` live in tests/conftest.py,
+# shared with test_engine.py and test_session.py — see that module's
+# docstring. `_family_bank` below is specific to this file.
 
 
 # ===========================================================================
-# small bank-slicing / store-seeding helpers (same style as
-# tests/test_session.py's _single_skill_bank / _numeric_only_bank)
+# small bank-slicing / store-seeding helpers
 # ===========================================================================
-
-
-def _bypass_placement() -> engine.EngineState:
-    return engine.EngineState(placement_cursor={}, placement_initialized=True)
-
-
-def _single_skill_bank(bank_index: engine.BankIndex, skill_id: str) -> engine.BankIndex:
-    pool = bank_index.instances_by_skill[skill_id]
-    return engine.BankIndex(
-        bank_version=bank_index.bank_version,
-        instances_by_skill={skill_id: pool},
-        by_id={inst["item_instance_id"]: inst for inst in pool},
-    )
 
 
 def _family_bank(bank_index: engine.BankIndex, skill_ids: List[str]) -> engine.BankIndex:
@@ -106,18 +75,6 @@ def _family_bank(bank_index: engine.BankIndex, skill_ids: List[str]) -> engine.B
     ordering."""
     instances_by_skill = {sid: bank_index.instances_by_skill[sid] for sid in skill_ids if sid in bank_index.instances_by_skill}
     by_id = {inst["item_instance_id"]: inst for pool in instances_by_skill.values() for inst in pool}
-    return engine.BankIndex(bank_version=bank_index.bank_version, instances_by_skill=instances_by_skill, by_id=by_id)
-
-
-def _numeric_only_bank(bank_index: engine.BankIndex) -> engine.BankIndex:
-    instances_by_skill = {}
-    by_id = {}
-    for skill_id, pool in bank_index.instances_by_skill.items():
-        filtered = [inst for inst in pool if inst["question_type"] == "numeric_entry"]
-        if filtered:
-            instances_by_skill[skill_id] = filtered
-        for inst in filtered:
-            by_id[inst["item_instance_id"]] = inst
     return engine.BankIndex(bank_version=bank_index.bank_version, instances_by_skill=instances_by_skill, by_id=by_id)
 
 
