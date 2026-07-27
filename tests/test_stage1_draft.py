@@ -117,6 +117,84 @@ def test_persistent_failure_quarantined_after_max_retries(tmp_path: Path, monkey
     assert not (staging / "accepted").exists()
 
 
+def _ns(**kwargs):
+    import argparse
+    defaults = {"country": None, "curriculum": None, "mapping_only": False}
+    defaults.update(kwargs)
+    return argparse.Namespace(**defaults)
+
+
+def test_planned_steps_default_is_strand_and_misconceptions() -> None:
+    steps = stage1_draft.planned_steps(_ns())
+    assert [s.name for s in steps] == ["strand", "misconceptions"]
+
+
+def test_planned_steps_with_country_adds_mapping() -> None:
+    steps = stage1_draft.planned_steps(_ns(country="IN", curriculum="NCERT"))
+    assert [s.name for s in steps] == ["strand", "misconceptions", "mapping"]
+
+
+def test_planned_steps_mapping_only_skips_strand_and_misconceptions() -> None:
+    """A country whose curriculum only touches skills the (country-agnostic,
+    core doc §1.1) graph already has needs no new strand/misconceptions
+    draft — forcing one would mean fabricating filler content just to
+    satisfy check_response_shape's non-empty-response gate."""
+    steps = stage1_draft.planned_steps(_ns(country="CA", curriculum="ONTARIO", mapping_only=True))
+    assert [s.name for s in steps] == ["mapping"]
+
+
+def test_planned_steps_mapping_only_without_country_errors() -> None:
+    with pytest.raises(SystemExit, match="requires --country and --curriculum"):
+        stage1_draft.planned_steps(_ns(mapping_only=True))
+
+
+def test_planned_steps_country_without_curriculum_errors() -> None:
+    with pytest.raises(SystemExit, match="must be given together"):
+        stage1_draft.planned_steps(_ns(country="CA"))
+
+
+def test_mapping_only_end_to_end(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
+    """--mapping-only drives exactly one draft/lint/accept cycle, no strand
+    or misconceptions step, and the accepted mapping references only
+    already-existing skill ids (nothing staged from a strand step)."""
+    scenario_copy = tmp_path / "mapping_only"
+    scenario_copy.mkdir()
+    # ZZ/ZZFIXTURE, not a real country/curriculum: this test merges its
+    # canned response against the real CONTENT_DIR (see lint_candidate), so
+    # a real country/curriculum pair (e.g. the real CA/ONTARIO mapping in
+    # content/fractions/mappings.yaml) would collide as a duplicate row.
+    (scenario_copy / "01.yaml").write_text(
+        "mappings:\n"
+        "  - skill_id: FRAC.ADD.UNLIKE\n"
+        "    country: ZZ\n"
+        "    curriculum: ZZFIXTURE\n"
+        "    grade: 6\n"
+        "    depth_expectation: medium\n"
+        "    syllabus_ref: \"Grade 6, Number Sense, fixture\"\n"
+        "    learning_objective: \"Add and subtract fractions with unlike denominators.\"\n",
+        encoding="utf-8",
+    )
+    monkeypatch.setenv("STAGE1_LLM_CMD", f"{sys.executable} {FAKE_LLM} {scenario_copy}")
+    staging = tmp_path / "staging"
+
+    rc = stage1_draft.main([
+        "--strand", "NUMBER.FRACTIONS",
+        "--syllabus", str(SYLLABUS),
+        "--content-dir", str(CONTENT_DIR),
+        "--staging-dir", str(staging),
+        "--country", "ZZ", "--curriculum", "ZZFIXTURE", "--mapping-only",
+        "--backend", "cmd",
+    ])
+
+    assert rc == 0
+    assert not (staging / "accepted" / "strand.yaml").exists()
+    assert not (staging / "accepted" / "misconceptions.yaml").exists()
+    mapping_yaml = staging / "accepted" / "mapping.yaml"
+    assert mapping_yaml.is_file()
+    assert "ZZFIXTURE" in mapping_yaml.read_text(encoding="utf-8")
+    assert not (scenario_copy / "received-prompt-2.md").exists()  # exactly one call
+
+
 def test_print_prompts_writes_prompts_and_exits(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
     staging = tmp_path / "staging"
     # No STAGE1_LLM_CMD set: any backend call would fail, proving none happens.

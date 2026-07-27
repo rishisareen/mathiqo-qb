@@ -16,9 +16,12 @@ follow them exactly.
   (a sibling event type, not an attempt), and a stub lesson schema.
 - `content/fractions/` — the v1 fixture in YAML: the fractions skill graph
   (14 nodes — the original 10-node §1.3 cluster plus Stage 1-drafted
-  multiplication and division extensions), 12 misconceptions (§2.4), one
-  NCERT mapping (§1.4). Still short of the §4 build-order target (25–40
-  nodes, ~15–20 misconceptions, two countries) — in progress.
+  multiplication and division extensions), 12 misconceptions (§2.4), and
+  two country mappings (§1.4) — NCERT/India (1 row) and Ontario/Canada (13
+  rows spanning grades 4–8, drafted via `--mapping-only`, see below) — the
+  second country the §4 build order calls for, to force the
+  localization/mapping discipline early. Still short of the §4 node/
+  misconception target (25–40 nodes, ~15–20 misconceptions) — in progress.
 - `content/templates/` — item templates: the §2.2 worked example (still
   `FLAGGED_FOR_REGENERATION` by design, see below) plus 22 Stage 2-drafted
   templates. Every one of the 14 skills has at least one template in a
@@ -91,7 +94,20 @@ python tools/stage1_draft.py --strand NUMBER.FRACTIONS \
 # human/agent-in-the-loop:
 python tools/stage1_draft.py ... --backend file --print-prompts
 # fill staging/response-1.yaml, response-2.yaml, ... then re-run without --print-prompts
+
+# a new country/curriculum whose syllabus only touches skills the graph
+# already has (the common case once a strand's canonical nodes exist):
+python tools/stage1_draft.py --strand NUMBER.FRACTIONS \
+    --syllabus examples/ontario-fractions-excerpt.txt \
+    --content-dir content/fractions --staging-dir staging/ \
+    --country CA --curriculum ONTARIO --mapping-only --backend cmd
 ```
+
+`--mapping-only` skips the strand/misconceptions steps and drafts just the
+mapping — added after discovering that without it, mapping a second country
+onto an already-complete strand forced fabricating filler skill/misconception
+content just to satisfy the non-empty-response shape check (there was
+nothing new to draft; the graph is country-agnostic, core doc §1.1).
 
 Workflow: draft → lint-bounce loop → accepted drafts land in
 `staging/accepted/` with a manifest (prompt hash, retries used, lint output);
@@ -99,7 +115,8 @@ drafts that exhaust retries are quarantined in `staging/rejected/` with the
 error report. The harness never writes into `content/` — a human reviews and
 promotes accepted drafts into `content/` by hand, then re-runs
 `tools/graph_lint.py` on the merged result. `examples/ncert-fractions-excerpt.txt`
-is a placeholder; replace it with the real syllabus text before a genuine run.
+and `examples/ontario-fractions-excerpt.txt` are placeholders; replace them
+with the real syllabus text before a genuine run.
 
 ## Stage 2 drafting harness
 

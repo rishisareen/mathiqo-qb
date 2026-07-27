@@ -111,6 +111,44 @@ def test_dangling_mapping_skill_id(fixture_copy: Path) -> None:
     assert any("mapping" in e and "FRAC.UNKNOWN" in e for e in result.errors)
 
 
+def test_second_country_mapping_for_same_skill_is_not_a_duplicate(fixture_copy: Path) -> None:
+    """A mapping row's identity is (skill, country, curriculum, grade), not
+    skill_id alone (core doc §1.4: several rows per skill, one per country
+    and one per grade that touches it) — a genuine second-country mapping
+    for an already-mapped skill must lint clean."""
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    assert data["mappings"][0]["skill_id"] == "FRAC.ADD.UNLIKE"  # same skill as the fixture row
+    # ZZ/ZZFIXTURE, not a real country/curriculum already in the fixture
+    # (content/fractions/mappings.yaml has real IN/NCERT and CA/ONTARIO
+    # rows) — a synthetic pair that can never collide with real content.
+    data["mappings"].append({
+        "skill_id": "FRAC.ADD.UNLIKE",
+        "country": "ZZ",
+        "curriculum": "ZZFIXTURE",
+        "grade": 6,
+        "depth_expectation": "medium",
+        "syllabus_ref": "Grade 6, Number Sense, fixture",
+        "learning_objective": "Add and subtract fractions with unlike denominators.",
+    })
+    write_yaml(mappings_path, data)
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert result.errors == []
+
+
+def test_duplicate_mapping_same_skill_country_curriculum_grade_is_an_error(fixture_copy: Path) -> None:
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    duplicate = dict(data["mappings"][0])  # identical (skill, country, curriculum, grade)
+    duplicate["depth_expectation"] = "hard"
+    data["mappings"].append(duplicate)
+    write_yaml(mappings_path, data)
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert any("duplicate mapping" in e and "FRAC.ADD.UNLIKE" in e for e in result.errors)
+
+
 def test_orphan_node_is_warning_not_error(fixture_copy: Path) -> None:
     skills_path = fixture_copy / "skills.yaml"
     data = load_yaml(skills_path)

@@ -1,7 +1,13 @@
-# Country mapping layer (core design doc §1.4). v1 fixture: the single NCERT
-# mapping for FRAC.ADD.UNLIKE per the §1.4 worked example. Illustrative —
-# grade placements must be verified against the actual syllabus documents
-# before authoring begins (core doc, note after changelog).
+# Country mapping layer (core design doc §1.4). v1 fixture: the original
+# NCERT mapping for FRAC.ADD.UNLIKE per the §1.4 worked example, plus an
+# Ontario (Canada) mapping drafted 2026-07-27 via tools/stage1_draft.py
+# --mapping-only from examples/ontario-fractions-excerpt.txt — the second
+# country the §4 build order calls for, to force the localization/mapping
+# discipline early. Both illustrative — grade placements must be verified
+# against the actual syllabus documents before authoring begins (core doc,
+# note after changelog). Ontario has no single "national" curriculum
+# (education in Canada is provincial); it is used here as the illustrative
+# province, the same convention as NCERT standing in for "India".
 mappings:
   - skill_id: FRAC.ADD.UNLIKE
     country: IN
@@ -19,3 +25,156 @@ mappings:
       NCERT introduces unlike-denominator addition through equivalent
       fractions and the LCM, using paper-folding and fraction-kit visuals
       before the formal procedure.
+  - skill_id: FRAC.UNIT
+    country: CA
+    curriculum: ONTARIO
+    grade: 4
+    depth_expectation: easy
+    syllabus_ref: "Grade 4, Number Sense"
+    learning_objective: >
+      Understands unit fractions (halves, thirds, quarters, ...) as one
+      part of a whole divided into equal parts.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Introduced using drawings, number lines, and concrete materials.
+
+  - skill_id: FRAC.PARTWHOLE
+    country: CA
+    curriculum: ONTARIO
+    grade: 4
+    depth_expectation: easy
+    syllabus_ref: "Grade 4, Number Sense"
+    learning_objective: >
+      Identifies a fraction as a part of a shape or of a set.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Introduced using drawings, number lines, and concrete materials.
+
+  - skill_id: FRAC.CMP
+    country: CA
+    curriculum: ONTARIO
+    grade: 4
+    depth_expectation: easy
+    syllabus_ref: "Grade 4, Number Sense"
+    learning_objective: >
+      Represents and compares fractions using drawings, number lines, and
+      concrete materials.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Introduced using drawings, number lines, and concrete materials.
+
+  - skill_id: FRAC.CMP
+    country: CA
+    curriculum: ONTARIO
+    grade: 5
+    depth_expectation: medium
+    syllabus_ref: "Grade 5, Number Sense"
+    learning_objective: >
+      Compares and orders fractions with related denominators.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.EQUIV
+    country: CA
+    curriculum: ONTARIO
+    grade: 5
+    depth_expectation: easy
+    syllabus_ref: "Grade 5, Number Sense"
+    learning_objective: >
+      Generates equivalent fractions.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.ADD.LIKE
+    country: CA
+    curriculum: ONTARIO
+    grade: 5
+    depth_expectation: easy
+    syllabus_ref: "Grade 5, Number Sense"
+    learning_objective: >
+      Adds and subtracts fractions with like denominators.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Uses concrete materials and drawings.
+
+  - skill_id: FRAC.SIMPLIFY
+    country: CA
+    curriculum: ONTARIO
+    grade: 6
+    depth_expectation: easy
+    syllabus_ref: "Grade 6, Number Sense"
+    learning_objective: >
+      Reduces a fraction to its simplest form.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.ADD.UNLIKE
+    country: CA
+    curriculum: ONTARIO
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Grade 6, Number Sense"
+    learning_objective: >
+      Adds and subtracts fractions with unlike denominators, using
+      equivalent fractions and a common denominator.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Uses equivalent fractions and a common denominator.
+
+  - skill_id: FRAC.MIXED.ADD
+    country: CA
+    curriculum: ONTARIO
+    grade: 7
+    depth_expectation: medium
+    syllabus_ref: "Grade 7, Number Sense"
+    learning_objective: >
+      Adds and subtracts mixed numbers, converting between mixed and
+      improper forms.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.MULT.WHOLE
+    country: CA
+    curriculum: ONTARIO
+    grade: 7
+    depth_expectation: easy
+    syllabus_ref: "Grade 7, Number Sense"
+    learning_objective: >
+      Multiplies a fraction by a whole number.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Uses an area model and repeated addition.
+
+  - skill_id: FRAC.MULT.FRAC
+    country: CA
+    curriculum: ONTARIO
+    grade: 7
+    depth_expectation: medium
+    syllabus_ref: "Grade 7, Number Sense"
+    learning_objective: >
+      Multiplies a fraction by another fraction.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Uses an area model and repeated addition.
+
+  - skill_id: FRAC.DIV.WHOLE
+    country: CA
+    curriculum: ONTARIO
+    grade: 8
+    depth_expectation: medium
+    syllabus_ref: "Grade 8, Number Sense"
+    learning_objective: >
+      Divides a fraction by a whole number.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Uses the reciprocal-and-multiply method and a variety of tools and
+      strategies.
+
+  - skill_id: FRAC.DIV.FRAC
+    country: CA
+    curriculum: ONTARIO
+    grade: 8
+    depth_expectation: hard
+    syllabus_ref: "Grade 8, Number Sense"
+    learning_objective: >
+      Divides a fraction by another fraction.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Uses the reciprocal-and-multiply method and a variety of tools and
+      strategies.

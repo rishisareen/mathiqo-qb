@@ -11,7 +11,13 @@ Usage:
     python tools/stage1_draft.py --strand NUMBER.FRACTIONS \
         --syllabus examples/ncert-fractions-excerpt.txt \
         --content-dir content/fractions --staging-dir staging/ \
-        [--country IN --curriculum NCERT] [--backend cmd|file] [--max-retries 3]
+        [--country IN --curriculum NCERT [--mapping-only]] \
+        [--backend cmd|file] [--max-retries 3]
+
+    --mapping-only skips the strand/misconceptions steps and drafts just
+    the mapping — for a country whose syllabus only touches skills the
+    (country-agnostic, core doc §1.1) graph already has, which is the
+    common case once a strand's canonical nodes are established.
 
 Backends:
     cmd   runs $STAGE1_LLM_CMD with the prompt on stdin, YAML expected on stdout.
@@ -338,12 +344,20 @@ def write_rejected(staging_dir: Path, outcome: DraftOutcome, meta: dict[str, str
 
 
 def planned_steps(args: argparse.Namespace) -> list[DraftStep]:
-    steps = [DRAFT_STEPS[0], DRAFT_STEPS[1]]
-    if args.country or args.curriculum:
-        if not (args.country and args.curriculum):
-            raise SystemExit("--country and --curriculum must be given together")
-        steps.append(DRAFT_STEPS[2])
-    return steps
+    if not (args.country or args.curriculum):
+        if args.mapping_only:
+            raise SystemExit("--mapping-only requires --country and --curriculum")
+        return [DRAFT_STEPS[0], DRAFT_STEPS[1]]
+    if not (args.country and args.curriculum):
+        raise SystemExit("--country and --curriculum must be given together")
+    if args.mapping_only:
+        # Adding a mapping for a country whose curriculum only touches
+        # skills the (country-agnostic, §1.1) graph already has needs no
+        # new strand/misconceptions draft — forcing one anyway would mean
+        # fabricating content just to satisfy the check_response_shape
+        # non-empty-response gate.
+        return [DRAFT_STEPS[2]]
+    return [DRAFT_STEPS[0], DRAFT_STEPS[1], DRAFT_STEPS[2]]
 
 
 def build_slots(args: argparse.Namespace, step: DraftStep, syllabus_text: str,
@@ -368,6 +382,10 @@ def main(argv: list[str] | None = None) -> int:
     parser.add_argument("--staging-dir", required=True, type=Path, help="where drafts, manifests, and rejections go")
     parser.add_argument("--country", help="ISO country code; with --curriculum, also draft a mapping")
     parser.add_argument("--curriculum", help="curriculum id, e.g. NCERT")
+    parser.add_argument("--mapping-only", action="store_true",
+                        help="draft only the mapping step (requires --country/--curriculum); "
+                             "skips strand/misconceptions when the curriculum's syllabus only "
+                             "touches skills the graph already has")
     parser.add_argument("--max-retries", type=int, default=3, help="re-prompts per draft after the first try")
     parser.add_argument("--backend", choices=["cmd", "file"], default="file")
     parser.add_argument("--print-prompts", action="store_true",

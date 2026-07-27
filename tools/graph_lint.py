@@ -43,6 +43,17 @@ CONTENT_KINDS = {
     "mappings": ("mapping.schema.json", "skill_id"),
 }
 
+# Fields that make an object's identity unique, for duplicate-id detection.
+# skill_id/misconception_id are true unique identifiers; a mapping ROW's
+# identity is the (skill, country, curriculum, grade) it targets — skill_id
+# alone is NOT unique across mappings (core doc §1.4: several rows per
+# skill, one per country and one per grade that touches it).
+DEDUP_KEY_FIELDS = {
+    "skills": ("skill_id",),
+    "misconceptions": ("misconception_id",),
+    "mappings": ("skill_id", "country", "curriculum", "grade"),
+}
+
 # Normalized skill-name similarity at or above this ratio is flagged.
 # Simple string similarity is a v1 stand-in; embedding-based duplicate
 # detection (core doc §3 Stage 3) replaces this once the pipeline exists.
@@ -123,19 +134,20 @@ def validate_against_schemas(
 
 
 def check_duplicate_ids(content: dict[str, list[dict[str, Any]]], result: LintResult) -> None:
-    for kind, (_, id_field) in CONTENT_KINDS.items():
-        seen: dict[str, str] = {}
+    for kind, fields in DEDUP_KEY_FIELDS.items():
+        seen: dict[tuple, str] = {}
         for obj in content[kind]:
-            obj_id = obj.get(id_field)
-            if obj_id is None:
-                continue
-            if obj_id in seen:
+            if any(field not in obj for field in fields):
+                continue  # missing required field(s); schema validation already flags this
+            key = tuple(obj[field] for field in fields)
+            label = key[0] if len(key) == 1 else "/".join(str(part) for part in key)
+            if key in seen:
                 result.errors.append(
-                    f"duplicate {kind[:-1]} id {obj_id!r} "
-                    f"(in {seen[obj_id]} and {obj.get('__source__', '?')})"
+                    f"duplicate {kind[:-1]} {label!r} "
+                    f"(in {seen[key]} and {obj.get('__source__', '?')})"
                 )
             else:
-                seen[obj_id] = obj.get("__source__", "?")
+                seen[key] = obj.get("__source__", "?")
 
 
 def check_references(content: dict[str, list[dict[str, Any]]], result: LintResult) -> None:
