@@ -1,0 +1,191 @@
+# Factors, multiples and primes strand (NUMBER.FACTORS) — Ganita Prakash
+# Class 6 Ch. 5 (Prime Time). Stage 1 drafted 2026-07-27 via
+# tools/stage1_draft.py (file backend), syllabus
+# examples/ncert-factors-excerpt.txt (illustrative, pending verification),
+# accepted by graph_lint on first attempt and promoted after review.
+# NUM.LCM (common multiples) already exists in skills.yaml under
+# NUMBER.ARITHMETIC and is referenced/mapped here, not redefined;
+# MISC.NUM.LCM-CONFUSED-WITH-GCF is reused on NUM.HCF since the same
+# confusion fires on both sides.
+skills:
+  - skill_id: NUM.FACTORS.MULTIPLES
+    name: "Factors and multiples"
+    description: >
+      Find the factors and multiples of a whole number, understanding
+      that a factor divides the number exactly and a multiple contains
+      it exactly.
+    strand: NUMBER.FACTORS
+    canonical_stage: 1
+    prerequisites:
+      - NUM.MULT.TABLES
+      - NUM.DIV
+    misconceptions:
+      - MISC.NUM.FACTOR-MULTIPLE-SWAP
+
+  - skill_id: NUM.PRIME
+    name: "Prime and composite numbers"
+    description: >
+      Distinguish prime numbers from composite numbers by examining their
+      factors, and explain why 1 is neither prime nor composite.
+    strand: NUMBER.FACTORS
+    canonical_stage: 2
+    prerequisites:
+      - NUM.FACTORS.MULTIPLES
+    misconceptions:
+      - MISC.NUM.ONE-IS-PRIME
+      - MISC.NUM.TWO-NOT-PRIME
+
+  - skill_id: NUM.DIVISIBILITY
+    name: "Divisibility tests"
+    description: >
+      Decide whether a number is divisible by 2, 4, 5, 8 or 10 by
+      examining its digits, without carrying out the division.
+    strand: NUMBER.FACTORS
+    canonical_stage: 2
+    prerequisites:
+      - NUM.FACTORS.MULTIPLES
+      - NUM.PLACE.VALUE
+    # Backfilled 2026-07-28: drafted in this run's misconceptions step, which
+    # lints after the strand step, so the node list couldn't reference it yet
+    # (same backfill convention as the earlier fractions run in skills.yaml).
+    misconceptions:
+      - MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS
+
+  - skill_id: NUM.HCF
+    name: "Common factors and highest common factor"
+    description: >
+      Find the common factors of two numbers and identify the highest
+      common factor, by listing factors.
+    strand: NUMBER.FACTORS
+    canonical_stage: 2
+    prerequisites:
+      - NUM.FACTORS.MULTIPLES
+    misconceptions:
+      - MISC.NUM.LCM-CONFUSED-WITH-GCF
+
+  - skill_id: NUM.PRIME.FACTORISATION
+    name: "Prime factorisation"
+    description: >
+      Express a whole number as a product of prime factors, checking that
+      every factor in the product is prime.
+    strand: NUMBER.FACTORS
+    canonical_stage: 3
+    prerequisites:
+      - NUM.PRIME
+    misconceptions:
+      - MISC.NUM.COMPOSITE-FACTORS-LEFT
+
+
+misconceptions:
+  - misconception_id: MISC.NUM.FACTOR-MULTIPLE-SWAP
+    belief: "Factors and multiples mean the same thing"
+    signature_error: "Lists 12, 24, 36 as the factors of 12"
+    remediation_target: NUM.FACTORS.MULTIPLES
+    remediation_asset: "micro-explainers/MISC.NUM.FACTOR-MULTIPLE-SWAP.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} mixes up factors and multiples — listing the numbers 12 goes into instead of the numbers that go into 12."
+
+  - misconception_id: MISC.NUM.ONE-IS-PRIME
+    belief: "1 is a prime number because it has no other factors"
+    signature_error: "Lists the primes below 10 as 1, 2, 3, 5, 7"
+    remediation_target: NUM.PRIME
+    remediation_asset: "micro-explainers/MISC.NUM.ONE-IS-PRIME.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} counts 1 as a prime number — a prime needs exactly two different factors, and 1 has only one."
+
+  - misconception_id: MISC.NUM.TWO-NOT-PRIME
+    belief: "2 cannot be prime because it is even"
+    signature_error: "Lists the primes below 10 as 3, 5, 7 (leaving out 2)"
+    remediation_target: NUM.PRIME
+    remediation_asset: "micro-explainers/MISC.NUM.TWO-NOT-PRIME.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} leaves 2 off lists of prime numbers, believing even numbers can never be prime — 2 is the one even prime."
+
+  - misconception_id: MISC.NUM.COMPOSITE-FACTORS-LEFT
+    belief: "Any product that gives the number is its prime factorisation"
+    signature_error: "24 = 4 x 6 given as the prime factorisation (4 and 6 are composite)"
+    remediation_target: NUM.PRIME
+    remediation_asset: "micro-explainers/MISC.NUM.COMPOSITE-FACTORS-LEFT.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} stops breaking a number down while some factors are still composite, instead of continuing until every factor is prime."
+
+  - misconception_id: MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS
+    belief: "Every divisibility test only ever looks at the last digit"
+    signature_error: "Claims 14 is divisible by 4 because its last digit 4 is divisible by 4"
+    remediation_target: NUM.DIVISIBILITY
+    remediation_asset: "micro-explainers/MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} checks only the last digit for every divisibility test — that works for 2, 5 and 10, but tests like 4 and 8 need more of the number."
+
+# IN/NCERT mapping rows drafted in the same run.
+mappings:
+  - skill_id: NUM.FACTORS.MULTIPLES
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
+    learning_objective: >
+      Finds factors and multiples of whole numbers, recognising that a
+      factor divides a number exactly and a multiple contains it exactly.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.PRIME
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
+    learning_objective: >
+      Distinguishes prime numbers from composite numbers and explains why
+      1 is neither.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.DIVISIBILITY
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
+    learning_objective: >
+      Applies divisibility tests for 2, 4, 5, 8 and 10 by examining the
+      digits of a number.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.HCF
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: easy
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
+    learning_objective: >
+      Identifies common factors of two numbers, including the highest
+      common factor.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Introduced through games and exploration rather than a formal
+      algorithm.
+
+  - skill_id: NUM.PRIME.FACTORISATION
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
+    learning_objective: >
+      Expresses a number as a product of prime factors.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.LCM
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: easy
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
+    learning_objective: >
+      Identifies common multiples of two numbers, including the smallest
+      common multiple.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Introduced through games and exploration rather than a formal
+      algorithm.

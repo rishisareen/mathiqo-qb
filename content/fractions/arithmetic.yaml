@@ -1,0 +1,351 @@
+# Whole-number arithmetic strand (NUMBER.ARITHMETIC) — backward closure for
+# the Class 6 map plus the Class 6 Number Play treatment. Stage 1 drafted
+# 2026-07-27 via tools/stage1_draft.py (file backend), syllabus
+# examples/ncert-arithmetic-excerpt.txt (illustrative, pending verification
+# against the actual textbook PDFs), accepted by graph_lint on first
+# attempt and promoted after review. Extends the existing NUM.MULT.TABLES /
+# NUM.LCM nodes in skills.yaml; misconception and mapping sections follow
+# the skills, all three drafted in the same run.
+skills:
+  - skill_id: NUM.COUNT
+    name: "Count and read whole numbers"
+    description: >
+      Count collections of objects and read and write the matching
+      numerals, understanding a number as the size of a collection.
+    strand: NUMBER.ARITHMETIC
+    canonical_stage: 0
+    prerequisites: []
+    misconceptions: []
+
+  - skill_id: NUM.PLACE.VALUE
+    name: "Place value of whole numbers"
+    description: >
+      Understand the value of a digit by its place (ones, tens, hundreds,
+      ...), read and write numbers in standard and expanded form. Depth
+      extends the number range (two-digit through large numbers with
+      Indian grouping) and digit puzzles on place structure.
+    strand: NUMBER.ARITHMETIC
+    canonical_stage: 1
+    prerequisites:
+      - NUM.COUNT
+    misconceptions:
+      - MISC.NUM.PLACE-FACE-VALUE
+      - MISC.NUM.ZERO-PLACEHOLDER
+
+  - skill_id: NUM.CMP.ORDER
+    name: "Compare and order whole numbers"
+    description: >
+      Compare two whole numbers and order a set of whole numbers by size
+      using place-value reasoning.
+    strand: NUMBER.ARITHMETIC
+    canonical_stage: 2
+    prerequisites:
+      - NUM.PLACE.VALUE
+    misconceptions:
+      - MISC.NUM.FIRST-DIGIT-CMP
+
+  - skill_id: NUM.ADD.SUB
+    name: "Add and subtract whole numbers"
+    description: >
+      Add and subtract whole numbers, with regrouping (carrying and
+      borrowing) at depth. Depth extends the number range and the number
+      of regroupings required.
+    strand: NUMBER.ARITHMETIC
+    canonical_stage: 2
+    prerequisites:
+      - NUM.COUNT
+      - NUM.PLACE.VALUE
+    misconceptions:
+      - MISC.NUM.SUB-SMALLER-FROM-LARGER
+      - MISC.NUM.ADD-NO-CARRY
+
+  - skill_id: NUM.MULT
+    name: "Multiply whole numbers"
+    description: >
+      Multiply whole numbers beyond known facts using the standard
+      procedure built on place value and repeated addition (e.g. a
+      two-digit by a one-digit number; larger factors at depth).
+    strand: NUMBER.ARITHMETIC
+    canonical_stage: 3
+    prerequisites:
+      - NUM.MULT.TABLES
+      - NUM.PLACE.VALUE
+      - NUM.ADD.SUB
+    misconceptions: []
+
+  - skill_id: NUM.DIV
+    name: "Divide whole numbers"
+    description: >
+      Divide whole numbers using equal grouping and sharing, interpreting
+      and reporting remainders; longer dividends at depth.
+    strand: NUMBER.ARITHMETIC
+    canonical_stage: 3
+    prerequisites:
+      - NUM.MULT.TABLES
+      - NUM.PLACE.VALUE
+    misconceptions:
+      - MISC.NUM.DIV-REMAINDER-DROPPED
+
+  - skill_id: NUM.ESTIMATE
+    name: "Round and estimate"
+    description: >
+      Round whole numbers to a given place and estimate the result of an
+      operation before computing, judging whether an answer is reasonable.
+    strand: NUMBER.ARITHMETIC
+    canonical_stage: 4
+    prerequisites:
+      - NUM.PLACE.VALUE
+      - NUM.CMP.ORDER
+    misconceptions:
+      - MISC.NUM.ROUND-TRUNCATE
+
+
+# Registry entries: the node-referenced entries drafted inline with the
+# strand, plus the misconceptions-step additions.
+misconceptions:
+  - misconception_id: MISC.NUM.PLACE-FACE-VALUE
+    belief: "A digit is worth its face value wherever it stands"
+    signature_error: "In 47, the 4 is worth 4 (instead of 40)"
+    remediation_target: NUM.PLACE.VALUE
+    remediation_asset: "micro-explainers/MISC.NUM.PLACE-FACE-VALUE.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} reads each digit on its own and doesn't yet use what the digit is worth in its place — the 4 in 47 stands for 40, not 4."
+
+  - misconception_id: MISC.NUM.ZERO-PLACEHOLDER
+    belief: "Zero in the middle of a number can be skipped when writing it"
+    signature_error: "Writes 'three hundred five' as 35 instead of 305"
+    remediation_target: NUM.PLACE.VALUE
+    remediation_asset: "micro-explainers/MISC.NUM.ZERO-PLACEHOLDER.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} sometimes drops the zero when writing numbers like 305, not yet seeing that the zero holds the tens place."
+
+  - misconception_id: MISC.NUM.FIRST-DIGIT-CMP
+    belief: "The number whose first digit is bigger is the bigger number"
+    signature_error: "91 > 234 because 9 > 2"
+    remediation_target: NUM.PLACE.VALUE
+    remediation_asset: "micro-explainers/MISC.NUM.FIRST-DIGIT-CMP.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} compares numbers by their first digits without first checking how many digits each number has."
+
+  - misconception_id: MISC.NUM.SUB-SMALLER-FROM-LARGER
+    belief: "In each column, always take the smaller digit away from the larger one"
+    signature_error: "52 - 38 = 26 (computed 8 - 2 in the ones column instead of borrowing)"
+    remediation_target: NUM.PLACE.VALUE
+    remediation_asset: "micro-explainers/MISC.NUM.SUB-SMALLER-FROM-LARGER.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} subtracts the smaller digit from the larger one in each column, instead of borrowing when the top digit is smaller."
+
+  - misconception_id: MISC.NUM.ADD-NO-CARRY
+    belief: "Write the whole column sum down; nothing moves to the next column"
+    signature_error: "47 + 38 = 715 (wrote 15 in the ones column instead of carrying)"
+    remediation_target: NUM.PLACE.VALUE
+    remediation_asset: "micro-explainers/MISC.NUM.ADD-NO-CARRY.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} adds each column correctly but writes the full sum in place, instead of carrying tens over to the next column."
+
+  - misconception_id: MISC.NUM.DIV-REMAINDER-DROPPED
+    belief: "The answer to a division is just the quotient; anything left over can be ignored"
+    signature_error: "17 / 5 = 3 with the remainder 2 silently dropped, even where the problem asks about it"
+    remediation_target: NUM.DIV
+    remediation_asset: "micro-explainers/MISC.NUM.DIV-REMAINDER-DROPPED.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} divides correctly but tends to ignore the remainder, even when the question depends on what is left over."
+
+  - misconception_id: MISC.NUM.ROUND-TRUNCATE
+    belief: "Rounding means cutting the number off at the place asked for"
+    signature_error: "78 rounded to the nearest ten given as 70 (always rounds down)"
+    remediation_target: NUM.ESTIMATE
+    remediation_asset: "micro-explainers/MISC.NUM.ROUND-TRUNCATE.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} rounds numbers by simply chopping off digits, always rounding down instead of checking which ten (or hundred) is nearer."
+
+  - misconception_id: MISC.NUM.DIV-SMALLER-BY-LARGER
+    belief: "You cannot divide a smaller number by a larger one"
+    signature_error: "Asked to share 3 rotis among 4 people, answers 'can't be done' (or silently computes 4 / 3 instead)"
+    remediation_target: NUM.DIV
+    remediation_asset: "micro-explainers/MISC.NUM.DIV-SMALLER-BY-LARGER.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} believes a smaller number can't be divided by a bigger one, and flips the numbers around when a problem needs it."
+
+# IN/NCERT mapping rows drafted in the same run (new-NCERT series:
+# Joyful Mathematics 1-2, Maths Mela 3-5, Ganita Prakash 6).
+mappings:
+  - skill_id: NUM.COUNT
+    country: IN
+    curriculum: NCERT
+    grade: 1
+    depth_expectation: easy
+    syllabus_ref: "Class 1, Maths (Joyful Mathematics)"
+    learning_objective: >
+      Counts collections of objects; reads and writes numerals up to 99.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.PLACE.VALUE
+    country: IN
+    curriculum: NCERT
+    grade: 2
+    depth_expectation: easy
+    syllabus_ref: "Class 2, Maths (Joyful Mathematics)"
+    learning_objective: >
+      Understands place value of tens and ones.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.PLACE.VALUE
+    country: IN
+    curriculum: NCERT
+    grade: 4
+    depth_expectation: medium
+    syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 4"
+    learning_objective: >
+      Reads and writes numbers up to 10,000 using place value; expresses
+      numbers in expanded form.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.PLACE.VALUE
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: hard
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 3"
+    learning_objective: >
+      Revisits place value through digit games and puzzles (digit sums,
+      palindromic numbers, Kaprekar routine); arranges digits to make
+      numbers satisfying given conditions.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Taught through exploratory number play rather than formal notation
+      drills.
+
+  - skill_id: NUM.CMP.ORDER
+    country: IN
+    curriculum: NCERT
+    grade: 2
+    depth_expectation: easy
+    syllabus_ref: "Class 2, Maths (Joyful Mathematics)"
+    learning_objective: >
+      Compares and orders two-digit numbers.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.CMP.ORDER
+    country: IN
+    curriculum: NCERT
+    grade: 4
+    depth_expectation: medium
+    syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 4"
+    learning_objective: >
+      Compares and orders numbers up to 10,000 using place value.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.ADD.SUB
+    country: IN
+    curriculum: NCERT
+    grade: 2
+    depth_expectation: easy
+    syllabus_ref: "Class 2, Maths (Joyful Mathematics)"
+    learning_objective: >
+      Adds and subtracts two-digit numbers without and with simple
+      regrouping.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.ADD.SUB
+    country: IN
+    curriculum: NCERT
+    grade: 3
+    depth_expectation: medium
+    syllabus_ref: "Class 3, Maths (Maths Mela)"
+    learning_objective: >
+      Adds and subtracts three-digit numbers with regrouping.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.ADD.SUB
+    country: IN
+    curriculum: NCERT
+    grade: 5
+    depth_expectation: hard
+    syllabus_ref: "Class 5, Maths (Maths Mela)"
+    learning_objective: >
+      Adds and subtracts larger whole numbers.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.MULT.TABLES
+    country: IN
+    curriculum: NCERT
+    grade: 3
+    depth_expectation: easy
+    syllabus_ref: "Class 3, Maths (Maths Mela)"
+    learning_objective: >
+      Recalls multiplication facts for tables of 2, 3, 4, 5 and 10;
+      understands multiplication as repeated addition.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.MULT.TABLES
+    country: IN
+    curriculum: NCERT
+    grade: 4
+    depth_expectation: medium
+    syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 9"
+    learning_objective: >
+      Recalls multiplication facts up to 10 x 10.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.MULT
+    country: IN
+    curriculum: NCERT
+    grade: 4
+    depth_expectation: easy
+    syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 9"
+    learning_objective: >
+      Multiplies two-digit numbers by one-digit numbers.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.MULT
+    country: IN
+    curriculum: NCERT
+    grade: 5
+    depth_expectation: medium
+    syllabus_ref: "Class 5, Maths (Maths Mela)"
+    learning_objective: >
+      Multiplies larger whole numbers.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.DIV
+    country: IN
+    curriculum: NCERT
+    grade: 4
+    depth_expectation: easy
+    syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 9"
+    learning_objective: >
+      Divides with remainders using equal grouping and sharing.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.DIV
+    country: IN
+    curriculum: NCERT
+    grade: 5
+    depth_expectation: medium
+    syllabus_ref: "Class 5, Maths (Maths Mela)"
+    learning_objective: >
+      Divides larger whole numbers.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.ESTIMATE
+    country: IN
+    curriculum: NCERT
+    grade: 5
+    depth_expectation: easy
+    syllabus_ref: "Class 5, Maths (Maths Mela)"
+    learning_objective: >
+      Rounds numbers and estimates the results of operations before
+      computing.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.ESTIMATE
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 3"
+    learning_objective: >
+      Estimates quantities and results of operations, judging the
+      reasonableness of an answer.
+    exam_contexts: [SCHOOL_EXAM]

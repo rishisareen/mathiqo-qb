@@ -1,0 +1,181 @@
+# Perimeter-and-area strand (MEASURE.PERIMETER-AREA) plus the MEASURE.LENGTH
+# foundation node — Ganita Prakash Class 6 Ch. 6 (Perimeter and Area) with
+# the Classes 3-5 length/covering ladder. Stage 1 drafted 2026-07-28 via
+# tools/stage1_draft.py (file backend), syllabus
+# examples/ncert-measurement-excerpt.txt (illustrative, pending
+# verification), accepted by graph_lint on first attempt, promoted after
+# review. Weight/capacity/time are out of scope: not prerequisites of any
+# Class 6 Ganita Prakash chapter.
+skills:
+  - skill_id: MEAS.LENGTH.UNITS
+    name: "Measure length in standard units"
+    description: >
+      Measure, estimate and compare lengths using standard units
+      (centimetre, metre, kilometre) with a ruler or tape; simple unit
+      conversions at depth.
+    strand: MEASURE.LENGTH
+    canonical_stage: 1
+    prerequisites:
+      - NUM.COUNT
+    misconceptions:
+      - MISC.MEAS.RULER-FROM-ONE
+
+  - skill_id: MEAS.PERIMETER
+    name: "Perimeter"
+    description: >
+      Understand perimeter as the length of the boundary of a closed
+      figure and compute it for polygons by adding side lengths, using
+      formulas for rectangles and squares at depth.
+    strand: MEASURE.PERIMETER-AREA
+    canonical_stage: 2
+    prerequisites:
+      - MEAS.LENGTH.UNITS
+      - NUM.ADD.SUB
+      - GEO.POLYGON.PROPS
+    misconceptions: []
+
+  - skill_id: MEAS.AREA.CONCEPT
+    name: "Area as covering"
+    description: >
+      Understand area as the amount of region enclosed by a figure,
+      measured by counting unit squares, including part-square estimation
+      at depth.
+    strand: MEASURE.PERIMETER-AREA
+    canonical_stage: 2
+    prerequisites:
+      - GEO.SHAPES.2D
+      - NUM.COUNT
+    misconceptions:
+      - MISC.MEAS.PERIMETER-AREA-CONFUSED
+
+  - skill_id: MEAS.AREA.FORMULA
+    name: "Area of rectangles and squares"
+    description: >
+      Compute areas of rectangles and squares using the length x breadth
+      formula, including figures composed of several rectangles and the
+      area of a triangle as half of a surrounding rectangle at depth.
+    strand: MEASURE.PERIMETER-AREA
+    canonical_stage: 3
+    prerequisites:
+      - MEAS.AREA.CONCEPT
+      - MEAS.LENGTH.UNITS
+      - NUM.MULT
+    misconceptions:
+      - MISC.MEAS.AREA-ADD-SIDES
+
+
+misconceptions:
+  - misconception_id: MISC.MEAS.RULER-FROM-ONE
+    belief: "Measuring starts from the 1 mark (or from the edge of the ruler)"
+    signature_error: "An object spanning the 1-to-7 marks is read as 7 cm instead of 6 cm"
+    remediation_target: MEAS.LENGTH.UNITS
+    remediation_asset: "micro-explainers/MISC.MEAS.RULER-FROM-ONE.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} lines objects up with the 1 mark or the ruler's edge instead of the 0 mark, so readings come out one unit too long."
+
+  - misconception_id: MISC.MEAS.PERIMETER-AREA-CONFUSED
+    belief: "Perimeter and area are the same kind of measure of a shape's size"
+    signature_error: "Asked for the area of a 4 x 6 rectangle, answers 20 (the perimeter), or the reverse"
+    remediation_target: MEAS.AREA.CONCEPT
+    remediation_asset: "micro-explainers/MISC.MEAS.PERIMETER-AREA-CONFUSED.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} mixes up perimeter and area — the distance around a shape and the space it covers are different measures, and tiling with unit squares makes the difference visible."
+
+  - misconception_id: MISC.MEAS.AREA-ADD-SIDES
+    belief: "Area is found by adding the side lengths"
+    signature_error: "Area of a 4 x 6 rectangle computed as 4 + 6 = 10 (or 4 + 6 + 4 + 6 = 20)"
+    remediation_target: MEAS.AREA.CONCEPT
+    remediation_asset: "micro-explainers/MISC.MEAS.AREA-ADD-SIDES.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} adds side lengths to find area — counting the unit squares in rows shows why length times breadth is what area needs."
+
+  - misconception_id: MISC.MEAS.SAME-PERIMETER-SAME-AREA
+    belief: "Shapes with the same perimeter must have the same area"
+    signature_error: "Claims a 1 x 9 and a 5 x 5 rectangle cover the same space because both have perimeter 20"
+    remediation_target: MEAS.AREA.CONCEPT
+    remediation_asset: "micro-explainers/MISC.MEAS.SAME-PERIMETER-SAME-AREA.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} assumes an equal boundary means equal space inside — the same fence length can enclose very different areas, which tiling makes easy to see."
+
+# IN/NCERT mapping rows drafted in the same run.
+mappings:
+  - skill_id: MEAS.LENGTH.UNITS
+    country: IN
+    curriculum: NCERT
+    grade: 3
+    depth_expectation: easy
+    syllabus_ref: "Class 3, Maths (Maths Mela)"
+    learning_objective: >
+      Measures length using standard units (centimetre, metre) with a
+      ruler or tape.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: MEAS.LENGTH.UNITS
+    country: IN
+    curriculum: NCERT
+    grade: 4
+    depth_expectation: medium
+    syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 6"
+    learning_objective: >
+      Measures and estimates lengths in centimetres, metres and
+      kilometres; converts between centimetres and metres in simple
+      cases.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: MEAS.PERIMETER
+    country: IN
+    curriculum: NCERT
+    grade: 5
+    depth_expectation: easy
+    syllabus_ref: "Class 5, Maths (Maths Mela)"
+    learning_objective: >
+      Finds the length of the boundary of simple shapes by adding side
+      lengths.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: MEAS.PERIMETER
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 6"
+    learning_objective: >
+      Computes perimeter for polygons, using formulas for rectangles and
+      squares; solves real-life problems on fencing.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: MEAS.AREA.CONCEPT
+    country: IN
+    curriculum: NCERT
+    grade: 5
+    depth_expectation: easy
+    syllabus_ref: "Class 5, Maths (Maths Mela)"
+    learning_objective: >
+      Compares the space covered by flat shapes by counting unit squares
+      on a grid.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Introduced through quilt and tiling activities.
+
+  - skill_id: MEAS.AREA.CONCEPT
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 6"
+    learning_objective: >
+      Understands area as the region enclosed, measured in unit squares.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: MEAS.AREA.FORMULA
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 6"
+    learning_objective: >
+      Computes areas of rectangles and squares using the length x breadth
+      formula, including figures made of several rectangles; finds the
+      area of a triangle as half of a surrounding rectangle; solves
+      real-life problems on flooring and tiling.
+    exam_contexts: [SCHOOL_EXAM]

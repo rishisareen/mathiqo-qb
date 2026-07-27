@@ -1,0 +1,215 @@
+# New-NCERT (Ganita Prakash / Maths Mela) additions to the fractions
+# strand: FRAC.NUMLINE (the number-line representation Ch. 7 makes
+# central — a new representation, hence a node per §1.2a) and the IN/NCERT
+# mapping rows for the existing FRAC.* nodes, which previously had only
+# the single FRAC.ADD.UNLIKE row (kept in mappings.yaml, not repeated
+# here). Stage 1 drafted 2026-07-28 via tools/stage1_draft.py (file
+# backend), syllabus examples/ncert-fractions-ganita-excerpt.txt
+# (illustrative, pending verification), accepted by graph_lint on first
+# attempt, promoted after review. Mixed/improper conversion stays inside
+# FRAC.MIXED.ADD per the core doc's own §1.2a worked example.
+skills:
+  - skill_id: FRAC.NUMLINE
+    name: "Fractions on the number line"
+    description: >
+      Place and read fractions on the number line, understanding a
+      fraction as a point reached by dividing unit intervals into equal
+      parts; improper fractions and mixed-number positions at depth.
+    strand: NUMBER.FRACTIONS
+    canonical_stage: 3
+    prerequisites:
+      - FRAC.PARTWHOLE
+    misconceptions:
+      - MISC.FRAC.NUMLINE-COUNT-MARKS
+
+
+misconceptions:
+  - misconception_id: MISC.FRAC.NUMLINE-COUNT-MARKS
+    belief: "Find a fraction on the number line by counting the tick marks, not the intervals"
+    signature_error: "On a 0-to-1 line divided into fourths, the third tick mark is labelled 3/5 (counted 5 marks) or 1/3 (counted marks from the left)"
+    remediation_target: FRAC.PARTWHOLE
+    remediation_asset: "micro-explainers/MISC.FRAC.NUMLINE-COUNT-MARKS.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} counts the tick marks on a number line instead of the equal jumps between them, so fractions land on the wrong point."
+
+  - misconception_id: MISC.FRAC.WHOLE-NUMBER-RULES
+    belief: "Fractions compare like whole numbers: more pieces or bigger digits means bigger"
+    signature_error: "3/8 > 3/4 because 8 > 4, or 5/6 > 7/8 'because there are more left over'"
+    remediation_target: FRAC.CMP
+    remediation_asset: "micro-explainers/MISC.FRAC.WHOLE-NUMBER-RULES.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} carries whole-number thinking into fractions, comparing tops and bottoms as separate numbers instead of comparing the sizes the fractions stand for."
+
+# IN/NCERT mapping rows drafted in the same run.
+mappings:
+  - skill_id: FRAC.UNIT
+    country: IN
+    curriculum: NCERT
+    grade: 4
+    depth_expectation: easy
+    syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 5"
+    learning_objective: >
+      Understands halves, quarters and other unit fractions as equal
+      shares of a whole and of a collection.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.PARTWHOLE
+    country: IN
+    curriculum: NCERT
+    grade: 4
+    depth_expectation: easy
+    syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 5"
+    learning_objective: >
+      Identifies the fraction of a shape that is shaded; understands
+      fractions as equal shares of a whole and of a collection.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.PARTWHOLE
+    country: IN
+    curriculum: NCERT
+    grade: 5
+    depth_expectation: medium
+    syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 2"
+    learning_objective: >
+      Represents fractions of shapes and collections.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.EQUIV
+    country: IN
+    curriculum: NCERT
+    grade: 5
+    depth_expectation: easy
+    syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 2"
+    learning_objective: >
+      Recognises simple equivalent fractions using pictures.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Equivalence is seen in pictures before any multiply-top-and-bottom
+      rule.
+
+  - skill_id: FRAC.CMP
+    country: IN
+    curriculum: NCERT
+    grade: 5
+    depth_expectation: easy
+    syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 2"
+    learning_objective: >
+      Compares simple fractions.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.ADD.LIKE
+    country: IN
+    curriculum: NCERT
+    grade: 5
+    depth_expectation: easy
+    syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 2"
+    learning_objective: >
+      Adds and subtracts fractions with the same denominator using
+      pictures.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.NUMLINE
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
+    learning_objective: >
+      Places and reads fractions on the number line.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.EQUIV
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
+    learning_objective: >
+      Generates and recognises equivalent fractions.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.CMP
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
+    learning_objective: >
+      Compares and orders fractions.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.SIMPLIFY
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: easy
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
+    learning_objective: >
+      Expresses a fraction in lowest form.
+    exam_contexts: [SCHOOL_EXAM]
+    terminology_overrides:
+      "simplest form": "lowest form"
+
+  - skill_id: FRAC.ADD.LIKE
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
+    learning_objective: >
+      Adds and subtracts fractions with like denominators.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.MIXED.ADD
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: easy
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
+    learning_objective: >
+      Expresses improper fractions as mixed numbers and vice versa;
+      begins adding and subtracting such fractions.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.MULT.WHOLE
+    country: IN
+    curriculum: NCERT
+    grade: 7
+    depth_expectation: easy
+    syllabus_ref: "Class 7, Maths (Ganita Prakash), Ch. (Working with Fractions)"
+    learning_objective: >
+      Multiplies a fraction by a whole number, connecting multiplication
+      to area and "of" language.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.MULT.FRAC
+    country: IN
+    curriculum: NCERT
+    grade: 7
+    depth_expectation: medium
+    syllabus_ref: "Class 7, Maths (Ganita Prakash), Ch. (Working with Fractions)"
+    learning_objective: >
+      Multiplies a fraction by another fraction, connecting
+      multiplication to area and "of" language.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.DIV.WHOLE
+    country: IN
+    curriculum: NCERT
+    grade: 7
+    depth_expectation: medium
+    syllabus_ref: "Class 7, Maths (Ganita Prakash), Ch. (Working with Fractions)"
+    learning_objective: >
+      Divides a fraction by a whole number.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: FRAC.DIV.FRAC
+    country: IN
+    curriculum: NCERT
+    grade: 7
+    depth_expectation: medium
+    syllabus_ref: "Class 7, Maths (Ganita Prakash), Ch. (Working with Fractions)"
+    learning_objective: >
+      Divides a fraction by another fraction; expresses results in lowest
+      form.
+    exam_contexts: [SCHOOL_EXAM]

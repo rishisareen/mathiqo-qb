@@ -1,0 +1,113 @@
+# Integers strand (NUMBER.INTEGERS) — Ganita Prakash Class 6 Ch. 10 (The
+# Other Side of Zero). Stage 1 drafted 2026-07-27 via tools/stage1_draft.py
+# (file backend), syllabus examples/ncert-integers-excerpt.txt
+# (illustrative, pending verification), accepted by graph_lint on first
+# attempt, promoted after review. Integer multiplication/division is a
+# later-grade concern and deliberately absent.
+skills:
+  - skill_id: INT.CONCEPT
+    name: "Understand negative numbers"
+    description: >
+      Understand negative numbers as numbers on the other side of zero on
+      the number line, arising in contexts such as temperatures below
+      zero, floors below ground level and money owed; read and write
+      integers with the minus sign.
+    strand: NUMBER.INTEGERS
+    canonical_stage: 1
+    prerequisites:
+      - NUM.CMP.ORDER
+    misconceptions: []
+
+  - skill_id: INT.CMP.ORDER
+    name: "Compare and order integers"
+    description: >
+      Compare and order integers, including negatives, using their
+      positions on the number line.
+    strand: NUMBER.INTEGERS
+    canonical_stage: 2
+    prerequisites:
+      - INT.CONCEPT
+    misconceptions:
+      - MISC.INT.BIGGER-ABS
+
+  - skill_id: INT.ADD.SUB
+    name: "Add and subtract integers"
+    description: >
+      Add and subtract integers using the number-line and token
+      (positive/negative counter) models.
+    strand: NUMBER.INTEGERS
+    canonical_stage: 3
+    prerequisites:
+      - INT.CONCEPT
+      - NUM.ADD.SUB
+    misconceptions:
+      - MISC.INT.IGNORE-SIGNS
+
+
+misconceptions:
+  - misconception_id: MISC.INT.BIGGER-ABS
+    belief: "The integer with the bigger digits is the bigger number, sign or no sign"
+    signature_error: "-5 > -2 because 5 > 2"
+    remediation_target: INT.CONCEPT
+    remediation_asset: "micro-explainers/MISC.INT.BIGGER-ABS.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} compares negative numbers by their size alone — on the number line, -5 is actually further below zero than -2, so it is smaller."
+
+  - misconception_id: MISC.INT.IGNORE-SIGNS
+    belief: "Add the digits first, sort out the sign later (or not at all)"
+    signature_error: "-3 + 5 = 8 (added 3 and 5, dropped the signs)"
+    remediation_target: INT.CONCEPT
+    remediation_asset: "micro-explainers/MISC.INT.IGNORE-SIGNS.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} adds the numbers as if both were positive and handles the minus sign afterwards, instead of treating -3 as three steps below zero."
+
+  - misconception_id: MISC.INT.SUB-MAKES-SMALLER
+    belief: "Subtracting always makes a number smaller"
+    signature_error: "5 - (-2) = 3 (expected subtraction to reduce, so treated -2 as 2)"
+    remediation_target: INT.CONCEPT
+    remediation_asset: "micro-explainers/MISC.INT.SUB-MAKES-SMALLER.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} expects subtraction to always make the answer smaller — subtracting a negative number actually moves the answer up the number line."
+
+# IN/NCERT mapping rows drafted in the same run.
+mappings:
+  - skill_id: INT.CONCEPT
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 10"
+    learning_objective: >
+      Understands negative numbers as numbers on the other side of zero
+      on the number line, arising in real contexts such as temperatures
+      below zero, floors below ground level, and money owed; reads and
+      writes integers with the minus sign.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Introduced through the lift/building and temperature contexts
+      before formal notation.
+
+  - skill_id: INT.CMP.ORDER
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 10"
+    learning_objective: >
+      Compares and orders integers using their positions on the number
+      line.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: INT.ADD.SUB
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: easy
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 10"
+    learning_objective: >
+      Adds and subtracts integers using the number-line and token
+      (positive/negative counter) models.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Uses token (counter) and number-line models; formal sign rules come
+      later.

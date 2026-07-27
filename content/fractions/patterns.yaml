@@ -1,0 +1,144 @@
+# Patterns and sequences strand (NUMBER.PATTERNS) — Ganita Prakash Class 6
+# Ch. 1 (Patterns in Mathematics) plus the Classes 1-5 patterning ladder.
+# Stage 1 drafted 2026-07-27 via tools/stage1_draft.py (file backend),
+# syllabus examples/ncert-patterns-excerpt.txt (illustrative, pending
+# verification), accepted by graph_lint on first attempt, promoted after
+# review. Virahanka/Fibonacci sequences are depth of NUM.PATTERN.EXTEND /
+# NUM.PATTERN.FIGURATE, not their own node (§1.2a default-to-depth).
+skills:
+  - skill_id: NUM.PATTERN.EXTEND
+    name: "Recognise and extend patterns"
+    description: >
+      Identify the rule of a repeating or growing pattern of shapes or
+      numbers and extend it. Depth moves from repeating patterns to
+      growing and reducing patterns and stated-rule sequences.
+    strand: NUMBER.PATTERNS
+    canonical_stage: 0
+    prerequisites: []
+    misconceptions:
+      - MISC.NUM.PATTERN-CONSTANT-DIFF
+
+  - skill_id: NUM.PARITY
+    name: "Odd and even numbers"
+    description: >
+      Classify whole numbers as odd or even by pairing, and reason about
+      the parity of sums at depth.
+    strand: NUMBER.PATTERNS
+    canonical_stage: 1
+    prerequisites:
+      - NUM.COUNT
+    misconceptions:
+      - MISC.NUM.ZERO-PARITY
+
+  - skill_id: NUM.PATTERN.FIGURATE
+    name: "Figurate number sequences"
+    description: >
+      Relate number sequences such as triangular, square and cube numbers
+      to their pictorial arrangements, extend them, and explain why the
+      pattern continues.
+    strand: NUMBER.PATTERNS
+    canonical_stage: 2
+    prerequisites:
+      - NUM.PATTERN.EXTEND
+      - NUM.MULT.TABLES
+    # Backfilled 2026-07-28: drafted in this run's misconceptions step, which
+    # lints after the strand step, so the node list couldn't reference it yet.
+    misconceptions:
+      - MISC.NUM.SQUARE-DOUBLES
+
+
+misconceptions:
+  - misconception_id: MISC.NUM.PATTERN-CONSTANT-DIFF
+    belief: "The next term always adds the same jump as the last one"
+    signature_error: "1, 2, 4, 8, ... continued as 12 (adding the last difference of 4) instead of 16"
+    remediation_target: NUM.PATTERN.EXTEND
+    remediation_asset: "micro-explainers/MISC.NUM.PATTERN-CONSTANT-DIFF.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} extends every pattern by repeating the last jump, without first checking whether the jumps themselves are changing."
+
+  - misconception_id: MISC.NUM.ZERO-PARITY
+    belief: "Zero is neither even nor odd"
+    signature_error: "Sorting numbers as odd or even, puts 0 in neither pile (0 is even)"
+    remediation_target: NUM.PARITY
+    remediation_asset: "micro-explainers/MISC.NUM.ZERO-PARITY.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} isn't sure whether zero is even or odd and tends to leave it out — zero is an even number."
+
+  - misconception_id: MISC.NUM.SQUARE-DOUBLES
+    belief: "Squaring a number means doubling it"
+    signature_error: "The square numbers listed as 2, 4, 6, 8, ... (doubles) instead of 1, 4, 9, 16, ..."
+    remediation_target: NUM.PATTERN.FIGURATE
+    remediation_asset: "micro-explainers/MISC.NUM.SQUARE-DOUBLES.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} treats 'square of a number' as doubling it, rather than multiplying the number by itself — the picture of dots in a square helps here."
+
+# IN/NCERT mapping rows drafted in the same run.
+mappings:
+  - skill_id: NUM.PATTERN.EXTEND
+    country: IN
+    curriculum: NCERT
+    grade: 1
+    depth_expectation: easy
+    syllabus_ref: "Class 1-2, Maths (Joyful Mathematics)"
+    learning_objective: >
+      Recognises, extends and creates simple repeating patterns of shapes,
+      colours and numbers.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.PATTERN.EXTEND
+    country: IN
+    curriculum: NCERT
+    grade: 4
+    depth_expectation: medium
+    syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 3"
+    learning_objective: >
+      Identifies the rule of a pattern and extends growing patterns of
+      shapes and numbers.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.PATTERN.EXTEND
+    country: IN
+    curriculum: NCERT
+    grade: 5
+    depth_expectation: medium
+    syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 7"
+    learning_objective: >
+      Extends and describes growing and reducing patterns; relates
+      patterns in shapes to patterns in numbers.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.PARITY
+    country: IN
+    curriculum: NCERT
+    grade: 3
+    depth_expectation: easy
+    syllabus_ref: "Class 3, Maths (Maths Mela)"
+    learning_objective: >
+      Sorts numbers as odd or even by pairing objects.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.PARITY
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 1"
+    learning_objective: >
+      Studies odd and even numbers as number sequences and explores
+      patterns in their sums.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: NUM.PATTERN.FIGURATE
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 1"
+    learning_objective: >
+      Studies triangular, square, cube and Virahanka numbers; relates
+      number sequences to pictorial arrangements and explains why the
+      patterns continue.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Sequences are grounded in pictorial dot arrangements before any
+      symbolic rule.

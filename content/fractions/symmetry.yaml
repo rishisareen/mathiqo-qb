@@ -1,0 +1,99 @@
+# Symmetry strand (GEOMETRY.SYMMETRY) — Ganita Prakash Class 6 Ch. 9
+# (Symmetry) with the Classes 4-5 Maths Mela symmetry ladder. Stage 1
+# drafted 2026-07-28 via tools/stage1_draft.py (file backend), syllabus
+# examples/ncert-geometry-excerpt.txt (illustrative, pending verification),
+# accepted by graph_lint on first attempt, promoted after review.
+# GEO.SYM.ROTATIONAL takes GEO.ANGLE.CONCEPT (turns), not GEO.SYM.LINE:
+# reflection is not conceptual apparatus for rotation.
+skills:
+  - skill_id: GEO.SYM.LINE
+    name: "Line symmetry"
+    description: >
+      Identify lines of symmetry in 2-D figures, including figures with
+      several lines of symmetry, and complete a figure given half of it
+      and the mirror line.
+    strand: GEOMETRY.SYMMETRY
+    canonical_stage: 2
+    prerequisites:
+      - GEO.SHAPES.2D
+    misconceptions:
+      - MISC.GEO.RECT-DIAGONAL-SYM
+
+  - skill_id: GEO.SYM.ROTATIONAL
+    name: "Rotational symmetry"
+    description: >
+      Recognise rotational symmetry in a figure and find its order — the
+      number of positions in a full turn where the figure looks the same.
+    strand: GEOMETRY.SYMMETRY
+    canonical_stage: 3
+    prerequisites:
+      - GEO.SHAPES.2D
+      - GEO.ANGLE.CONCEPT
+    misconceptions: []
+
+
+misconceptions:
+  - misconception_id: MISC.GEO.RECT-DIAGONAL-SYM
+    belief: "The diagonal of a rectangle is a line of symmetry"
+    signature_error: "Draws the diagonals of a (non-square) rectangle as its lines of symmetry"
+    remediation_target: GEO.SYM.LINE
+    remediation_asset: "micro-explainers/MISC.GEO.RECT-DIAGONAL-SYM.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} draws diagonals as fold lines of a rectangle — folding along a diagonal doesn't make the halves match; paper folding shows why."
+
+  - misconception_id: MISC.GEO.PARALLELOGRAM-LINE-SYM
+    belief: "A parallelogram has line symmetry because its halves look alike"
+    signature_error: "Claims a (non-rectangular) parallelogram has two lines of symmetry through its diagonals"
+    remediation_target: GEO.SYM.LINE
+    remediation_asset: "micro-explainers/MISC.GEO.PARALLELOGRAM-LINE-SYM.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} sees the matching halves of a parallelogram as mirror halves — they match by turning, not by folding, so a slanted parallelogram has no fold line."
+
+# IN/NCERT mapping rows drafted in the same run.
+mappings:
+  - skill_id: GEO.SYM.LINE
+    country: IN
+    curriculum: NCERT
+    grade: 4
+    depth_expectation: easy
+    syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 11"
+    learning_objective: >
+      Identifies mirror halves of figures and completes a figure given
+      half and the mirror line; finds lines of symmetry by paper folding.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Grounded in paper folding and mirror play.
+
+  - skill_id: GEO.SYM.LINE
+    country: IN
+    curriculum: NCERT
+    grade: 5
+    depth_expectation: medium
+    syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 10"
+    learning_objective: >
+      Creates and analyses symmetrical designs; identifies multiple lines
+      of symmetry in shapes and patterns.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: GEO.SYM.LINE
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 9"
+    learning_objective: >
+      Identifies lines of symmetry (reflection symmetry) in 2-D figures,
+      including figures with several lines of symmetry; completes figures
+      given a line of symmetry.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: GEO.SYM.ROTATIONAL
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 9"
+    learning_objective: >
+      Understands rotational symmetry and finds the order of rotational
+      symmetry of a figure.
+    exam_contexts: [SCHOOL_EXAM]
