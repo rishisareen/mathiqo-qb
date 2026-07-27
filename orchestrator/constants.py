@@ -69,3 +69,29 @@ MISC_WINDOW: int = 5
 # and seeded with n = min(n_historical, MIGRATION_SEED_N_CAP) — "the prior
 # exists but barely argues" (§4).
 MIGRATION_SEED_N_CAP: float = 2.0
+
+# --- U5: adaptive engine (SM §5 cold-start placement; core doc §1.2a/§2.5) ---
+# Tier label -> D on the difficulty scale (core doc §1.2a/§2.3), aligned with
+# the authored template difficulties (content/templates/*.yaml: 0.2 for easy,
+# 0.5 for medium; there is no v1 "hard" template yet, so 0.8 is a placeholder
+# used only as a ceiling/ordering value, not something any template targets).
+TIER_DEPTH: dict = {"easy": 0.2, "medium": 0.5, "hard": 0.8}
+TIER_ORDER: tuple = ("easy", "medium", "hard")
+
+# KTD9: nearest-difficulty targeting serves the un-seen instance closest to
+# theta + CHALLENGE_OFFSET (capped by the serving ceiling) — a small nudge
+# into "slightly harder than current mastery" territory. A placeholder like
+# every other tuning constant in this file, awaiting pilot telemetry.
+CHALLENGE_OFFSET: float = 0.1
+
+# KTD12: a confirmed misconception (2-in-MISC_WINDOW on the triggering skill)
+# fires a bounded dose of practice on the registry's mapped prerequisite
+# rather than open-ended remediation — "micro-explainer first, full
+# re-teaching only if the pattern persists" (core doc §2.4).
+REMEDIATION_DOSE_SIZE: int = 3
+
+# SM §5 point 3: placement stops walking a strand once the skill currently
+# being probed has certified prerequisites and has itself accumulated this
+# many attempts — that skill becomes the frontier (the starting practice
+# queue), even if it hasn't certified.
+PLACEMENT_FRONTIER_N: float = 3.0
