@@ -394,6 +394,35 @@ class EngineState:
     placement_initialized: bool = False
 
 
+def _copy_engine_state(engine_state: EngineState) -> EngineState:
+    """The no-aliasing copy `select_next`/`consume_event` return per their
+    own "never mutates engine_state in place" contract — WITHOUT a plain
+    `copy.deepcopy`'s cost. `seen_history` grows by one entry per attempt,
+    unbounded, across a student's whole history; deep-copying the entire
+    dict-of-lists on every single call re-copies every skill's full history
+    every time, making replay (and per-item live serving, which calls this
+    once per served item) quadratic in total attempt count — confirmed
+    empirically during code review (500 -> 8000 events traced a clean
+    quadratic curve).
+
+    Only the `seen_history` dict's top-level structure is copied here —
+    O(skills touched), not O(total attempts); the per-skill lists inside it
+    stay shared with `engine_state`'s own lists until `_mark_served`
+    actually appends to one, at which point it replaces just that one list
+    (copy-on-write), never mutates a shared one in place. The queue/cursor
+    fields are small and bounded (a handful of entries at most), so a plain
+    deep copy of those is cheap and not worth the same treatment.
+    """
+    return EngineState(
+        seen_history=dict(engine_state.seen_history),
+        remediation_queue=copy.deepcopy(engine_state.remediation_queue),
+        stepdown_queue=copy.deepcopy(engine_state.stepdown_queue),
+        prereq_probe_queue=copy.deepcopy(engine_state.prereq_probe_queue),
+        placement_cursor=dict(engine_state.placement_cursor),
+        placement_initialized=engine_state.placement_initialized,
+    )
+
+
 def _init_placement(engine_state: EngineState, content: ContentIndex, country: str, grade: int) -> None:
     """Lazily seed one placement cursor per strand (SM §5 points 1-2) the
     first time selection is asked for this student. Starting skills are the
@@ -553,15 +582,28 @@ def consume_event(
     `apply_consume_patches` immediately after calling this function, same
     as it wrote the apply_attempt result before calling in.
     """
-    new_state = copy.deepcopy(engine_state)
+    new_state = _copy_engine_state(engine_state)
     patches: Dict[str, SkillState] = {}
 
     for skill_id in outcome.skill_ids:
-        new_state.seen_history.setdefault(skill_id, []).append(outcome.item_instance_id)
+        _mark_served(new_state, skill_id, outcome.item_instance_id)
 
     # Multi-skill items never carry single-skill diagnosis (mirrors
     # maybe_certify's own guard — there is no one unambiguous skill to
     # diagnose against); v1's bank has none anyway (see load_bank).
+    #
+    # Known, deliberate v1 gap: core §2.10's multi-skill failure rule
+    # ("queue single-skill probes of each component") is signaled by
+    # update.py's UpdateResult.queue_probes but not consumed here or
+    # anywhere else — this early return is exactly where that queuing
+    # would need to happen. Left unimplemented on purpose, matching R4's
+    # framing for the update-rule side of the same gap: v1's content has
+    # zero multi-skill templates (every content/templates/*.yaml skill_ids
+    # is length 1), so this is inert today, not a live bug. Wiring it
+    # requires a design call the plan didn't make (which of several failed
+    # skills' prerequisites to walk, and in what order) — a follow-up when
+    # multi-skill content actually ships, not a silent gap: this comment is
+    # the record of it.
     if len(outcome.skill_ids) != 1:
         return ConsumeResult(engine_state=new_state, skill_state_patches=patches)
     skill_id = outcome.skill_ids[0]
@@ -569,6 +611,19 @@ def consume_event(
     if outcome.context == "placement":
         depth = outcome.depth_served if outcome.depth_served is not None else 0.0
         _advance_placement(new_state, store, content, outcome.student_id, skill_id, outcome.correct, depth, now)
+        return ConsumeResult(engine_state=new_state, skill_state_patches=patches)
+
+    if outcome.context == "review":
+        # A review probe's pass/fail is already fully handled by
+        # certification.py's apply_review_outcome (interval growth/reset,
+        # lapse — see log.py's compose_attempt) before this function is
+        # ever called. Diagnosis below is for ordinary practice-context
+        # wrong answers (core doc §2.5); without this early return, a
+        # failed review that isn't already the head of some other skill's
+        # queue would fall through to "fresh diagnosis" and could spawn a
+        # step-down probe or misconception dose *in addition to* the
+        # certification-side lapse — a review isn't a diagnostic probe and
+        # must never feed the diagnosis queues.
         return ConsumeResult(engine_state=new_state, skill_state_patches=patches)
 
     # --- Resolve a pending diagnostic item, if this attempt was one. Each
@@ -662,7 +717,13 @@ class SelectResult:
 
 
 def _mark_served(engine_state: EngineState, skill_id: str, item_instance_id: str) -> None:
-    engine_state.seen_history.setdefault(skill_id, []).append(item_instance_id)
+    """Copy-on-write append: replaces `skill_id`'s list with a new one
+    rather than mutating it in place. `_copy_engine_state`'s `seen_history`
+    shares list objects with the state it was copied from until the first
+    write to each key — mutating in place here would corrupt that shared
+    list (and thus the caller's own copy) instead of only ever touching
+    the copy this function was actually asked to update."""
+    engine_state.seen_history[skill_id] = engine_state.seen_history.get(skill_id, []) + [item_instance_id]
 
 
 def _try_serve(
@@ -705,7 +766,7 @@ def select_next(
     placement -> frontier practice. Returns a fresh EngineState with the
     chosen instance already marked seen (selection-time marking, not
     result-time — see the module report on why this is safe for replay)."""
-    new_state = copy.deepcopy(engine_state)
+    new_state = _copy_engine_state(engine_state)
     warnings: List[str] = []
 
     # 1. Due review probes, in a low-guess format, at the certified depth.
@@ -778,13 +839,33 @@ def select_next(
     for skill_id, node in content.skills.items():
         skill_state = store.peek(student_id, skill_id)
         ceiling = serving_ceiling(skill_id, country, grade, content)
-        if skill_state.certified_depth is not None and skill_state.certified_depth >= ceiling:
-            continue  # every depth <= ceiling is already mastered; this skill has nothing to offer
+        # `lapsed` blocks dependents from being *served downstream*, but it
+        # never revokes certified_depth (SM §6 point 3) — so a lapsed skill
+        # must remain eligible for frontier practice itself, or it can never
+        # re-enter the queue (§6 point 2) once its own certification lapses
+        # at exactly the serving ceiling, the common steady-state case since
+        # v1 doesn't implement the self-extending ceiling. `due_reviews`
+        # (R12 step 1) never picks it up either — certification_status
+        # returns STATUS_LAPSED, not STATUS_DUE, once lapsed. Frontier
+        # practice is the only remaining path back in, so the "already
+        # mastered, nothing to offer" skip below must not apply while lapsed.
+        mastered_to_ceiling = (
+            skill_state.certified_depth is not None
+            and skill_state.certified_depth >= ceiling
+            and not skill_state.lapsed
+        )
+        if mastered_to_ceiling:
+            continue
         for instance in bank.instances_by_skill.get(skill_id, []):
             depth = instance["difficulty"]
             if depth > ceiling:
                 break  # pool is sorted ascending by difficulty (load_bank) — nothing later qualifies either
-            if skill_state.certified_depth is not None and skill_state.certified_depth >= depth:
+            mastered_at_depth = (
+                skill_state.certified_depth is not None
+                and skill_state.certified_depth >= depth
+                and not skill_state.lapsed
+            )
+            if mastered_at_depth:
                 continue
             if not all(is_certified(store.peek(student_id, p), depth, now) for p in node.prerequisites):
                 continue

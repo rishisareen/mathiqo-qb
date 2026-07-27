@@ -560,6 +560,42 @@ def test_run_session_restart_preserves_queued_stepdown_probe(
     assert result.serve.skill_id == "FRAC.ADD.UNLIKE"
 
 
+def test_run_session_engaged_timeout_continues_but_unengaged_timeout_ends_session(
+    tmp_path: Path, content: engine.ContentIndex, bank: engine.BankIndex
+) -> None:
+    """End-to-end TimedOutResponse coverage for run_session's own two
+    branches (see the module docstring's abandonment-guard section): an
+    *engaged* timeout (the student asked for a hint, then went silent)
+    scores 0.0 like any other wrong attempt and the session continues to
+    the next item; a completely unengaged timeout is read as
+    session_last_event=True, fires update.py's abandonment guard, and
+    `_apply_and_log` returns None — ending the session with nothing
+    written to the log for that item."""
+    numeric_bank = _numeric_only_bank(bank)
+    student_id = "stu-timeout"
+    store = StudentModelStore()
+    engine_state = engine.EngineState()
+    log_path = tmp_path / "log.jsonl"
+
+    # Item 1: request a hint (engaged), then silence until timeout.
+    # Item 2: script is now empty -> silence from the very start (never
+    # engaged), triggering the abandonment guard.
+    io = session.ScriptedInputSource([(0.0, "hint")])
+    messages, notify = _notifier()
+
+    summary = session.run_session(
+        store, engine_state, content, numeric_bank, student_id, "CA", 4, "sess-timeout", log_path, io, notify, NOW
+    )
+
+    assert summary.items_served == 2  # both timeouts counted as "served" before the discard check
+    logged = list(log_module.iter_events(log_path))
+    assert len(logged) == 1  # item 1 (engaged timeout) logged; item 2 (abandonment) is not
+    assert logged[0]["timed_out"] is True
+    assert logged[0]["correct"] is False
+    assert logged[0]["hints_used"] >= 1
+    assert any("No response received" in m for m in messages)
+
+
 def test_run_session_ends_when_no_more_items_to_serve(
     tmp_path: Path, content: engine.ContentIndex, bank: engine.BankIndex
 ) -> None:

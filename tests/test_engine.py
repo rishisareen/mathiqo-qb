@@ -419,6 +419,89 @@ def test_prereq_probe_is_consumed_once_served(content: engine.ContentIndex, bank
     assert len(engine_state.prereq_probe_queue) == 1
 
 
+# --- consume_event: review context never feeds diagnosis (code review fix) ----
+
+
+def test_review_context_never_leaks_into_diagnosis_queues(content: engine.ContentIndex, bank: engine.BankIndex) -> None:
+    """A review probe's pass/fail is already fully handled by
+    certification.py's apply_review_outcome (see log.py's compose_attempt);
+    consume_event must not additionally treat a failed one as a fresh
+    diagnostic failure. Broader than the narrow "interleaves with an
+    active queue" edge case originally reported by code review: before the
+    fix, EVERY failed review context — empty queues or not, tagged or
+    untagged — could fall through to fresh diagnosis and spawn a spurious
+    stepdown probe or remediation dose on top of the correct
+    certification-side lapse."""
+    store = StudentModelStore()
+    outcome = engine.AttemptOutcome(
+        student_id="stu-review-no-leak",
+        skill_ids=["FRAC.ADD.UNLIKE"],
+        item_instance_id="ignored",
+        correct=False,
+        misconception_id=None,
+        context="review",
+        depth_served=0.5,
+    )
+    result = engine.consume_event(engine.EngineState(), store, content, bank, outcome, NOW)
+    assert result.engine_state.stepdown_queue == []
+    assert result.engine_state.prereq_probe_queue == []
+    assert result.engine_state.remediation_queue == []
+    assert result.skill_state_patches == {}
+
+
+def test_review_context_does_not_disturb_an_unrelated_active_stepdown_probe(
+    content: engine.ContentIndex, bank: engine.BankIndex
+) -> None:
+    """The narrower case code review originally reported: a failed review
+    on one skill must not pop or otherwise touch an already-queued
+    diagnostic probe for a different skill."""
+    store = StudentModelStore()
+    engine_state = engine.EngineState(
+        stepdown_queue=[engine.StepDownProbe(skill_id="FRAC.EQUIV", target_depth=0.2)]
+    )
+    outcome = engine.AttemptOutcome(
+        student_id="stu1",
+        skill_ids=["FRAC.ADD.UNLIKE"],
+        item_instance_id="ignored",
+        correct=False,
+        misconception_id=None,
+        context="review",
+        depth_served=0.5,
+    )
+    result = engine.consume_event(engine_state, store, content, bank, outcome, NOW)
+    assert len(result.engine_state.stepdown_queue) == 1
+    assert result.engine_state.stepdown_queue[0].skill_id == "FRAC.EQUIV"
+
+
+# --- consume_event: multi-skill items never queue diagnosis (documented v1 gap) -
+
+
+def test_consume_event_multi_skill_item_returns_immediately_no_diagnosis(
+    content: engine.ContentIndex, bank: engine.BankIndex
+) -> None:
+    """Dedicated coverage for the early-return branch itself (see
+    consume_event's own comment on the documented, deliberate v1 gap):
+    seen_history is still marked for every skill in the item, but no
+    diagnosis queue is ever touched for a multi-skill attempt."""
+    store = StudentModelStore()
+    outcome = engine.AttemptOutcome(
+        student_id="stu1",
+        skill_ids=["FRAC.ADD.UNLIKE", "FRAC.EQUIV"],
+        item_instance_id="inst-multi",
+        correct=False,
+        misconception_id=None,
+        context="practice",
+        depth_served=0.5,
+    )
+    result = engine.consume_event(engine.EngineState(), store, content, bank, outcome, NOW)
+    assert result.engine_state.seen_history["FRAC.ADD.UNLIKE"] == ["inst-multi"]
+    assert result.engine_state.seen_history["FRAC.EQUIV"] == ["inst-multi"]
+    assert result.engine_state.stepdown_queue == []
+    assert result.engine_state.prereq_probe_queue == []
+    assert result.engine_state.remediation_queue == []
+    assert result.skill_state_patches == {}
+
+
 # --- consume_event: SM §5 placement walk (isolated from theta/certification) --
 
 
@@ -575,6 +658,39 @@ def test_frontier_practice_blocked_while_prerequisite_lapsed(content: engine.Con
     assert result.serve is None
 
 
+def test_frontier_practice_reoffers_a_skill_lapsed_at_ceiling_depth(
+    content: engine.ContentIndex, bank: engine.BankIndex
+) -> None:
+    """P0 regression (code review correctness fix, SM §6 point 3): a skill
+    lapsed at exactly its serving ceiling must remain eligible for frontier
+    practice. `due_reviews` (R12 step 1) never picks it up —
+    certification_status returns STATUS_LAPSED, not STATUS_DUE, once
+    lapsed — so frontier practice is the only path back into the queue.
+    Before the fix, the "already mastered, skip" check didn't account for
+    `lapsed` and permanently excluded this skill from ever being served
+    again, contradicting §6's "no cascade of revoked progress" rule."""
+    store = StudentModelStore()  # FRAC.UNIT/CA/4 ceiling is easy-tier (0.2), no prerequisites
+    store.replace_records("stu1", {"FRAC.UNIT": SkillState(certified_depth=0.2, n=5.0, lapsed=True)})
+    mini = _mini_bank(bank, "FRAC.UNIT")
+    result = engine.select_next(store, _bypass_placement(), content, mini, "stu1", "CA", 4, NOW)
+    assert result.serve is not None
+    assert result.serve.skill_id == "FRAC.UNIT"
+    assert result.serve.reason == "frontier"
+
+
+def test_frontier_practice_skips_a_certified_non_lapsed_skill_at_ceiling(
+    content: engine.ContentIndex, bank: engine.BankIndex
+) -> None:
+    """Contrast case for the fix above: the same skill, certified to
+    ceiling but NOT lapsed, is correctly excluded — nothing left to offer
+    at or below the ceiling."""
+    store = StudentModelStore()
+    store.replace_records("stu1", {"FRAC.UNIT": SkillState(certified_depth=0.2, n=5.0, lapsed=False)})
+    mini = _mini_bank(bank, "FRAC.UNIT")
+    result = engine.select_next(store, _bypass_placement(), content, mini, "stu1", "CA", 4, NOW)
+    assert result.serve is None
+
+
 # --- select_next: full R12 priority order --------------------------------------
 
 
@@ -637,6 +753,30 @@ def test_prereq_probes_outrank_placement(content: engine.ContentIndex, bank: eng
     assert result.serve.skill_id == "FRAC.UNIT"
 
 
+def test_due_review_falls_through_to_next_priority_when_no_candidates(
+    content: engine.ContentIndex, bank: engine.BankIndex
+) -> None:
+    """R12 step 1's due-review branch must fall through to the next
+    priority level (here, step 2's remediation dose) when `_try_serve`
+    can't find a candidate for the due skill — e.g. its bank pool has zero
+    instances — rather than returning `serve=None` outright."""
+    student_id = "stu-review-fallthrough"
+    store = StudentModelStore()
+    store.replace_records(
+        student_id, {"FRAC.ADD.LIKE": SkillState(certified_depth=0.2, review_due=NOW - timedelta(days=1))}
+    )
+    engine_state = _bypass_placement()
+    engine_state.remediation_queue.append(
+        engine.RemediationDose(skill_id="FRAC.EQUIV", trigger_skill_id="FRAC.ADD.UNLIKE", misconception_id="MISC.X")
+    )
+    mini = _mini_bank(bank, "FRAC.EQUIV")  # FRAC.ADD.LIKE (the due skill) has zero instances here
+
+    result = engine.select_next(store, engine_state, content, mini, student_id, "CA", 6, NOW)
+    assert result.serve is not None
+    assert result.serve.reason == "remediation"
+    assert result.serve.skill_id == "FRAC.EQUIV"
+
+
 # --- seen filter: end-to-end via select_next -----------------------------------
 
 
@@ -665,6 +805,25 @@ def test_select_next_repeats_are_avoided_then_warn_on_exhaustion(content: engine
     result = engine.select_next(store, engine_state, content, mini, student_id, "CA", 4, NOW)
     assert result.serve.item_instance_id in served_ids  # pool exhausted: must repeat
     assert result.warnings != []
+
+
+def test_select_next_copy_on_write_does_not_mutate_callers_engine_state(
+    content: engine.ContentIndex, bank: engine.BankIndex
+) -> None:
+    """Safety net for the `_copy_engine_state` copy-on-write performance fix
+    (code review): the caller's own EngineState — and specifically the
+    `seen_history` list it passed in — must remain untouched. Only the
+    returned copy grows."""
+    engine_state = _bypass_placement()
+    engine_state.seen_history["FRAC.UNIT"] = ["existing-id"]
+    mini = _mini_bank(bank, "FRAC.UNIT")
+    store = StudentModelStore()
+
+    result = engine.select_next(store, engine_state, content, mini, "stu1", "CA", 4, NOW)
+
+    assert engine_state.seen_history["FRAC.UNIT"] == ["existing-id"]  # caller's copy is untouched
+    assert result.serve.item_instance_id not in engine_state.seen_history["FRAC.UNIT"]
+    assert result.serve.item_instance_id in result.engine_state.seen_history["FRAC.UNIT"]
 
 
 # --- rebuild_engine_state: KTD11 replay reproduces live queue state -----------

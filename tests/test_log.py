@@ -29,7 +29,7 @@ import pytest
 
 from orchestrator import constants
 from orchestrator.certification import apply_review_outcome, maybe_certify
-from orchestrator.log import AttemptLogError, append_attempt, replay
+from orchestrator.log import AttemptLogError, append_attempt, compose_attempt, iter_events, replay
 from orchestrator.state import SkillState, StudentModelStore
 from orchestrator.update import Attempt, apply_attempt
 
@@ -138,6 +138,74 @@ def test_valid_event_does_not_raise(tmp_path: Path) -> None:
     # so failures above are attributable to the specific corruption made.
     log_path = tmp_path / "log.jsonl"
     append_attempt(log_path, make_event())  # must not raise
+
+
+# --- iter_events(): torn-write tolerance (code review reliability fix) --------
+
+def test_iter_events_discards_a_truncated_trailing_line_with_a_warning(tmp_path: Path, capsys) -> None:
+    """A process killed mid-write can leave a truncated, unparseable last
+    line (power loss, SIGKILL). Per the module docstring, that is read as a
+    torn write and discarded — with a stderr warning, not raised — since
+    the log is otherwise intact."""
+    log_path = tmp_path / "log.jsonl"
+    append_attempt(log_path, make_event(event_id="e1"))
+    with log_path.open("a", encoding="utf-8") as f:
+        f.write('{"event_id": "e2", "student_id": "stu1"')  # no closing brace, no trailing newline
+
+    events = list(iter_events(log_path))
+
+    assert [e["event_id"] for e in events] == ["e1"]
+    captured = capsys.readouterr()
+    assert "discarding truncated trailing line" in captured.err
+
+
+def test_iter_events_raises_on_a_malformed_non_trailing_line(tmp_path: Path) -> None:
+    """A malformed line anywhere *before* the last is real corruption, not a
+    torn write (every append after it that succeeded would have left the
+    file longer) — this raises loudly instead of silently skipping content."""
+    log_path = tmp_path / "log.jsonl"
+    with log_path.open("w", encoding="utf-8") as f:
+        f.write('{"event_id": "e1", not valid json\n')
+        f.write(json.dumps(make_event(event_id="e2"), sort_keys=True) + "\n")
+
+    with pytest.raises(AttemptLogError, match="not the last line"):
+        list(iter_events(log_path))
+
+
+def test_replay_tolerates_a_torn_trailing_write(tmp_path: Path) -> None:
+    log_path = tmp_path / "log.jsonl"
+    append_attempt(log_path, make_event(event_id="e1"))
+    with log_path.open("a", encoding="utf-8") as f:
+        f.write('{"event_id": "e2"')  # torn
+
+    store = replay(log_path)  # must not raise
+
+    assert [e["event_id"] for e in store.attempt_log] == ["e1"]
+
+
+# --- compose_attempt(): review-context abandonment discard ---------------------
+
+def test_compose_attempt_review_context_abandonment_is_discarded() -> None:
+    """§3's abandonment guard fires even inside a review-context attempt (a
+    no-interaction timeout that is also the session's last event, and this
+    happened to be a due review probe): compose_attempt must discard it
+    (new_state=None, per the "what gets logged" decision) rather than
+    running it through apply_review_outcome."""
+    state = SkillState(theta=0.4, n=5.0, certified_depth=0.2)
+    attempt = Attempt(
+        skill_ids=["FRAC.ADD.UNLIKE"],
+        question_type="numeric_entry",
+        b_prior_at_serve=0.2,
+        correct=False,
+        timed_out=True,
+        engaged=False,
+        session_last_event=True,
+        context="review",
+    )
+    result = compose_attempt(state, attempt, "review", datetime(2026, 7, 27, 12, 0, 0))
+    assert result.new_state is None
+    assert result.theta_after == pytest.approx(result.theta_before)
+    assert result.theta_before == pytest.approx(0.4)
 
 
 # --- replay(): missing / empty log --------------------------------------------

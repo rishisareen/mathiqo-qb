@@ -92,11 +92,12 @@ equivalence rather than a "trust the log's own numbers" shortcut.
 from __future__ import annotations
 
 import json
+import sys
 from dataclasses import dataclass
 from datetime import datetime
 from functools import lru_cache
 from pathlib import Path
-from typing import Iterator, Optional
+from typing import Iterator, Optional, Tuple
 
 import jsonschema
 
@@ -160,15 +161,55 @@ def iter_events(log_path: Path) -> Iterator[dict]:
     student-model application and each event, so it iterates and applies
     events itself rather than calling `replay()` (which bundles both into
     one opaque pass) — this and `apply_event` are that shared, named
-    per-event API, not a private detail reached into from outside."""
+    per-event API, not a private detail reached into from outside.
+
+    **Torn-write tolerance.** `append_attempt` writes one event as a single
+    `f.write` call, but a process killed mid-write (power loss, SIGKILL) can
+    still leave a truncated, unparseable trailing line — the file's last
+    line only, never an earlier one, since every prior `append_attempt`
+    call already completed and moved on. Per the module's own "what gets
+    logged" principle (an attempt that never finished writing computed
+    nothing durable), a malformed *last* line is read as a torn write and
+    discarded with a stderr warning, not raised — the log is otherwise
+    intact and startup must not be permanently bricked by one interrupted
+    append. A malformed line anywhere *before* the last is different in
+    kind — every append after it that succeeded would have left the file
+    longer, so an early bad line means real corruption, not a torn write,
+    and that raises loudly instead of silently skipping content.
+    """
     if not log_path.exists():
         return
     with log_path.open("r", encoding="utf-8") as f:
-        for line in f:
-            line = line.strip()
+        pending: Optional[Tuple[int, str]] = None  # held back until known non-trailing
+        for line_no, raw_line in enumerate(f, start=1):
+            line = raw_line.strip()
             if not line:
                 continue
-            yield json.loads(line)
+            if pending is not None:
+                yield _decode_event_line(log_path, *pending, is_last=False)
+            pending = (line_no, line)
+        if pending is not None:
+            event = _decode_event_line(log_path, *pending, is_last=True)
+            if event is not None:
+                yield event
+
+
+def _decode_event_line(log_path: Path, line_no: int, line: str, is_last: bool) -> Optional[dict]:
+    """One `iter_events` line's decode, isolated so the last-line torn-write
+    tolerance (see that function's docstring) has a single, testable home."""
+    try:
+        return json.loads(line)
+    except json.JSONDecodeError as exc:
+        if is_last:
+            print(
+                f"warning: {log_path}: discarding truncated trailing line {line_no} "
+                f"({exc}) — likely an interrupted write",
+                file=sys.stderr,
+            )
+            return None
+        raise AttemptLogError(
+            f"{log_path}: malformed JSON on line {line_no} (not the last line — not a torn write): {exc}"
+        ) from exc
 
 
 def parse_timestamp(raw: str) -> datetime:

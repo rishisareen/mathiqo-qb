@@ -80,7 +80,11 @@ def main(argv: "list[str] | None" = None) -> int:
     # rebuild_session_state's docstring on why this replaces the equivalent
     # (and, at real usage scale, doubly expensive) log.replay() +
     # rebuild_engine_state() pair.
-    store, engine_state = engine.rebuild_session_state(args.log, content, bank)
+    try:
+        store, engine_state = engine.rebuild_session_state(args.log, content, bank)
+    except log_module.AttemptLogError as exc:
+        print(f"error: attempt log {args.log} could not be replayed: {exc}", file=sys.stderr)
+        return 2
 
     session_id = f"sess-{uuid.uuid4().hex[:8]}"
     io = session.ThreadedStdinInputSource()

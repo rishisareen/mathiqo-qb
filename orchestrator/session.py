@@ -58,6 +58,32 @@ callers may reasonably use different policies; `tests/test_session.py`
 exercises the `session_last_event=False` ("mid-session no-interaction
 timeout") branch directly against `_apply_and_log`, independent of whether
 this particular CLI's own policy ever produces that combination live.
+
+**Known, accepted limitation — quitting mid-item, then restarting, can
+re-serve the identical item.** `select_next` marks an instance seen as soon
+as it's chosen, before the student answers (this is deliberate — it's what
+lets repeated `select_next` calls within one turn avoid re-picking the same
+item before an answer is ever scored, see `engine.py`'s module report). If
+the student quits (or hits an abandonment-guard timeout) before answering,
+that attempt is never logged — the same "what gets logged" principle as
+above — so a restart's replay has no way to know that instance was ever
+shown, and `select_next`'s deterministic nearest-difficulty tie-break can
+pick the exact same instance again. This is not a bug to fix by persisting
+"shown but not answered" state: doing so would mean logging something that
+was never actually attempted, contradicting the log's own definition of
+what it records. Re-serving an item the student never answered is the
+correct, if occasionally repetitive, reading of "you didn't finish this
+one" — the same class of tradeoff KTD2/R15 already accepted for the
+single-instance "last event of the log" case, generalized here to any
+mid-item interruption, not only the very last one.
+
+**Known, accepted limitation — no concurrent-writer protection on the
+attempt log.** `append_attempt` (log.py) takes no file lock; two `serve.py`
+processes writing the same `--log` path concurrently can interleave writes
+or lose one process's update. The persistence model assumes single-writer,
+single-session access, matching this tool's actual use (one student, one
+terminal, one process) — not a server the design docs describe reasoning
+about concurrent access for. Revisit if this ever becomes multi-process.
 """
 
 from __future__ import annotations
