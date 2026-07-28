@@ -55,7 +55,7 @@ import os
 import uuid
 from datetime import datetime, timezone
 from pathlib import Path
-from typing import Dict, Optional
+from typing import Dict, List, Optional
 
 STUDENT_REGISTERED = "student_registered"
 CONSUMER_LINKED = "consumer_linked"
@@ -216,3 +216,14 @@ class IdentityRegistry:
 
     def is_linked(self, consumer_id: str, student_id: str) -> bool:
         return consumer_id in self._links.get(student_id, {})
+
+    def linked_consumers(self, student_id: str) -> List[str]:
+        """Read-only enumeration sibling of `is_linked` (U13: the replay-audit
+        tool's `--identity-registry` annotation needs "which consumers are
+        linked to this student", not just a single consumer's yes/no).
+        Sorted for a deterministic report ordering. An unregistered or
+        never-linked `student_id` returns `[]`, not an error — mirrors
+        `is_linked`'s own graceful-degrade-to-False posture rather than
+        raising `UnknownStudentError`: a read-only enumeration has no state
+        to protect by refusing an unknown id."""
+        return sorted(self._links.get(student_id, {}))
