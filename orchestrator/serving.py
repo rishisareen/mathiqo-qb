@@ -383,10 +383,22 @@ class SessionRegistry:
             if now - entry.last_activity > self._ttl_seconds
         ]
         for session_id in expired:
-            entry = self._entries.pop(session_id)
-            if self._by_student.get(entry.session.student_id) == session_id:
-                del self._by_student[entry.session.student_id]
-            self._remember_expired_locked(session_id)
+            self._evict_one_locked(session_id)
+
+    def _evict_one_locked(self, session_id: str) -> None:
+        """Unregister exactly `session_id` (already known/assumed expired
+        by the caller) from both indices and remember it in
+        `_expired_ids` — the single-entry building block
+        `_evict_expired_locked`'s full sweep and `get()`'s O(1) own-entry
+        check both fold into, so eviction bookkeeping (the two-index
+        removal, the expired-id memory) exists in exactly one place
+        regardless of which caller found the expiry."""
+        entry = self._entries.pop(session_id, None)
+        if entry is None:
+            return
+        if self._by_student.get(entry.session.student_id) == session_id:
+            del self._by_student[entry.session.student_id]
+        self._remember_expired_locked(session_id)
 
     def _remember_expired_locked(self, session_id: str) -> None:
         self._expired_ids[session_id] = None
@@ -441,10 +453,24 @@ class SessionRegistry:
         activity and resets the idle-eviction clock — otherwise a caller
         that only ever reads (`get_candidates`, `get_progress`) without
         ever calling `submit_attempt` would idle-evict mid-use, which
-        isn't what "idle" is meant to mean."""
+        isn't what "idle" is meant to mean.
+
+        O(1), not a full-registry sweep (a code-review efficiency finding):
+        `get()` is called on essentially every tool/route invocation
+        (`get_candidates`, `submit_attempt`, `fetch_batch`, `refill_batch`,
+        ...), so it only checks the looked-up entry's own TTL against
+        `now` directly, evicting just that one entry (`_evict_one_locked`)
+        if it's stale — never scanning every other registered session to
+        resolve one specific lookup. The full sweep (`_evict_expired_locked`)
+        stays reserved for callers that structurally need to know about
+        entries *other* than the one being looked up (e.g.
+        `register_or_conflict`, which must reap a stale session for this
+        student before its conflict check, not just this session_id)."""
         with self._registry_lock:
             now = time.monotonic()
-            self._evict_expired_locked(now)
+            entry = self._entries.get(session_id)
+            if entry is not None and now - entry.last_activity > self._ttl_seconds:
+                self._evict_one_locked(session_id)
             entry = self._get_entry_locked(session_id)
             entry.last_activity = now
             return entry.session
@@ -795,28 +821,29 @@ class ServingFacade:
         `refill_batch` (U10: "a refill is just fetch_batch re-planned
         against the session's current live state" — genuinely the same
         code path, not a parallel copy of it). Callers must already hold
-        `session`'s own lock (`_lock_for`) and have called
-        `self.sessions.touch` — this method does neither itself, so it can
-        be reused as-is by a caller (`refill_batch`) that also needs to
-        compute something else (KTD5's `supersede`) under the same lock
-        acquisition.
+        `session`'s own lock (`_lock_for`) — this method does not acquire
+        it itself, so it can be reused as-is by a caller (`refill_batch`)
+        that also needs to compute something else (KTD5's `supersede`)
+        under the same lock acquisition.
 
-        KTD2's scratch-clone discipline: plans against a scratch clone of
-        `session.engine_state` (`engine._copy_engine_state`, the same
-        no-aliasing copy `recommend_next` uses) and never touches
-        `session.store` — only an accepted `submit_attempt` may write
-        durable state. The one piece of state this method *does* mutate is
-        `session.delivered`, updated with every returned item's
-        `variant_signature` only after the plan (including the feedback
-        sidecar, which can raise `batch_module.BatchPlanningError`) has
-        fully succeeded — a raised AE8 violation leaves `session.delivered`
-        exactly as it was, same as a rejected `submit_attempt` leaves
-        `session.store` untouched."""
+        Plans directly against `session.engine_state` — no defensive
+        `engine._copy_engine_state` clone (a code-review efficiency
+        finding: `plan_ladder`'s own docstring and implementation confirm
+        it only ever reads `engine_state.seen_history`, never mutates or
+        returns a new one, unlike `select_next`/`consume_event`'s
+        no-aliasing contract that `_copy_engine_state` exists to protect
+        elsewhere). This method never touches `session.store` either —
+        only an accepted `submit_attempt` may write durable state. The one
+        piece of state this method *does* mutate is `session.delivered`,
+        updated with every returned item's `variant_signature` only after
+        the plan (including the feedback sidecar, which can raise
+        `batch_module.BatchPlanningError`) has fully succeeded — a raised
+        AE8 violation leaves `session.delivered` exactly as it was, same
+        as a rejected `submit_attempt` leaves `session.store` untouched."""
         clamped_size = batch_module.clamp_batch_size(batch_size)
-        scratch_state = engine._copy_engine_state(session.engine_state)
         planned = batch_module.plan_ladder(
             session.store,
-            scratch_state,
+            session.engine_state,
             self.content,
             session.bank,
             session.student_id,
@@ -871,18 +898,27 @@ class ServingFacade:
         `session.engine_state` and reads/writes `session.delivered`, both
         session-owned state two concurrent calls against the same session
         must not race on.
+
+        No `self.sessions.touch` call here (a code-review efficiency
+        finding): both real transports (`tools/mcp_server.py`,
+        `tools/rest_server.py`) resolve `session` via `self.sessions.get`
+        moments before calling this method, and `get()` itself already
+        resets the idle-eviction clock as a documented side effect — the
+        same posture `get_candidates` (this facade's other read that never
+        touches) already takes. A second touch here would just repeat
+        work `get()` already did with no meaningful time gap in between.
         """
         self._check_linked(consumer_id, session.student_id)
         with self._lock_for(session):
-            self.sessions.touch(session.session_id)
             return self._plan_batch_locked(session, skill_id, batch_size)
 
     def _compute_supersede(self, session: Session, skill_id: str) -> bool:
         """KTD5: True when the plan for `skill_id` has materially changed
         since a client's last batch — checked against `session`'s real,
-        live `store`/`engine_state` (never the scratch clone
-        `_plan_batch_locked` plans against), because this must reflect
-        actually-accepted attempts, not a planning simulation. Two
+        live `store`/`engine_state` (the same live state
+        `_plan_batch_locked` itself now plans against — see that method's
+        docstring on why no defensive clone is needed), because this must
+        reflect actually-accepted attempts, not a planning simulation. Two
         conditions, either one sufficient:
 
         - the skill is now certified at or above its own serving ceiling
@@ -959,7 +995,10 @@ class ServingFacade:
         R17/KTD17: same link check and same per-session lock as
         `fetch_batch` — `supersede` and the plan itself are computed under
         one lock acquisition, so a concurrent `submit_attempt` against this
-        session can never be interleaved between the two (KTD17)."""
+        session can never be interleaved between the two (KTD17). Also
+        mirrors `fetch_batch` in calling no `self.sessions.touch` here —
+        the transport layer's `self.sessions.get` moments earlier already
+        reset the idle-eviction clock (see `fetch_batch`'s docstring)."""
         self._check_linked(consumer_id, session.student_id)
         if not attempts_flushed:
             logger.warning(
@@ -970,7 +1009,6 @@ class ServingFacade:
                 session.session_id, skill_id,
             )
         with self._lock_for(session):
-            self.sessions.touch(session.session_id)
             supersede = self._compute_supersede(session, skill_id)
             result = self._plan_batch_locked(session, skill_id, batch_size)
             if result.count_returned == 0:
@@ -1068,11 +1106,17 @@ class ServingFacade:
         see `_lock_for`), so two concurrent submissions against the same
         session — including two concurrent retries of the same
         `attempt_id` — serialize instead of racing on
-        `session.store`/`session.engine_state`/`session.accepted_attempts`."""
+        `session.store`/`session.engine_state`/`session.accepted_attempts`.
+
+        No `self.sessions.touch` call here either, for the same reason
+        `fetch_batch`/`refill_batch` no longer call it (a code-review
+        efficiency finding): the transport layer resolves `session` via
+        `self.sessions.get` immediately before calling this method, and
+        `get()` already reset the idle-eviction clock as a documented side
+        effect — a second touch moments later is redundant work under the
+        lock, not a correctness gap."""
         self._check_linked(consumer_id, session.student_id)
         with self._lock_for(session):
-            self.sessions.touch(session.session_id)
-
             # Path A: true idempotent replay (R19/AE7) — recognized before
             # anything else is built or touched.
             cached = session.accepted_attempts.get(attempt_id)

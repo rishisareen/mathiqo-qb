@@ -57,6 +57,8 @@ from datetime import datetime, timezone
 from pathlib import Path
 from typing import Dict, List, Optional
 
+from .log import iter_events
+
 STUDENT_REGISTERED = "student_registered"
 CONSUMER_LINKED = "consumer_linked"
 
@@ -99,17 +101,19 @@ class IdentityRegistry:
 
     def _load(self) -> None:
         """Fold every event in `registry_path` into the in-memory index, in
-        file order. A missing file is empty state, not an error — mirrors
-        `orchestrator/log.py`'s `iter_events` treatment of a fresh
-        student's absent attempt log."""
-        if not self.registry_path.exists():
-            return
-        with self.registry_path.open("r", encoding="utf-8") as f:
-            for line in f:
-                line = line.strip()
-                if not line:
-                    continue
-                self._apply(json.loads(line))
+        file order, via `orchestrator/log.py`'s `iter_events` — the same
+        torn-write-tolerant JSONL line reader the attempt log itself uses
+        (a missing file yields nothing; a malformed/truncated *last* line
+        is a torn write from a process killed mid-append, discarded with a
+        stderr warning rather than raised; a malformed line anywhere
+        earlier is real corruption and raises loudly). `iter_events` is
+        generic JSONL-line replay with no attempt-log-specific assumptions
+        baked in, so this registry reuses it directly rather than
+        hand-rolling a second, weaker line-by-line reader that would raise
+        uncaught on the exact torn-write case `iter_events` already
+        tolerates."""
+        for event in iter_events(self.registry_path):
+            self._apply(event)
 
     def _apply(self, event: dict) -> None:
         kind = event["event_kind"]

@@ -155,11 +155,18 @@ def _pick_easier(pool: List[dict], skill_id: str, bank_version: str, current_dep
     far this batch) by wrapping it in a scratch single-skill `BankIndex` —
     that function's own signature takes a `BankIndex`, not a bare list, and
     this module deliberately reuses it rather than re-deriving "closest
-    depth strictly below current_depth" a second time (module docstring)."""
+    depth strictly below current_depth" a second time (module docstring).
+
+    `by_id={}` rather than a real `item_instance_id -> instance` mapping (a
+    code-review efficiency finding): `_find_easier_instance`, the only
+    consumer of this scratch `BankIndex`, reads only `instances_by_skill`
+    and never touches `by_id` — building the real mapping here would cost
+    O(pool) work purely to satisfy the dataclass's required field, for a
+    value nothing downstream ever reads."""
     scratch_bank = engine.BankIndex(
         bank_version=bank_version,
         instances_by_skill={skill_id: pool} if pool else {},
-        by_id={inst["item_instance_id"]: inst for inst in pool},
+        by_id={},
     )
     return engine._find_easier_instance(scratch_bank, skill_id, current_depth)  # noqa: SLF001
 

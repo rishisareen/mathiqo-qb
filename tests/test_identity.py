@@ -154,6 +154,29 @@ def test_rebuild_from_missing_file_is_empty_state(tmp_path: Path) -> None:
     assert registry.is_linked("partner.acme", "stu-anything") is False
 
 
+def test_load_tolerates_a_torn_trailing_write(registry_path: Path, capsys) -> None:
+    """`_load` now reuses `orchestrator/log.py`'s `iter_events` (a closed
+    code-review reliability finding): mirrors tests/test_log.py's own
+    `test_iter_events_discards_a_truncated_trailing_line_with_a_warning` —
+    a registry file with a valid `student_registered`/`consumer_linked`
+    pair followed by a truncated, unparseable last line (a process killed
+    mid-append) must still load successfully, discarding only the torn
+    last line with a stderr warning. Before this fix, `_load`'s bare
+    `json.loads(line)` raised uncaught on exactly this case, permanently
+    blocking registry startup."""
+    registry = IdentityRegistry(registry_path)
+    student_id = registry.register_student(ATTRS_A, consumer_id="partner.acme")
+    with registry_path.open("a", encoding="utf-8") as f:
+        f.write('{"event_kind": "consumer_linked", "student_id": "' + student_id + '"')  # no closing brace
+
+    reloaded = IdentityRegistry(registry_path)  # must not raise
+
+    assert reloaded.find_student(ATTRS_A) == student_id
+    assert reloaded.is_linked("partner.acme", student_id) is True
+    captured = capsys.readouterr()
+    assert "discarding truncated trailing line" in captured.err
+
+
 # --- on-disk placement and permissions ------------------------------------
 
 

@@ -590,6 +590,70 @@ def test_unknown_vs_expired_session_ids_are_distinguishable(
         facade.sessions.get("sess-still-never-issued")
 
 
+def _fake_session(session_id: str, student_id: str) -> serving.Session:
+    """A minimal, unbuilt `Session` for exercising `SessionRegistry`
+    directly — no real bank/content needed, since `get()`'s TTL check only
+    ever touches `session_id`/`student_id` and the registry's own
+    bookkeeping."""
+    return serving.Session(
+        session_id=session_id,
+        student_id=student_id,
+        bank=engine.BankIndex(bank_version="v1", instances_by_skill={}, by_id={}),
+        log_path=Path("/dev/null"),
+        store=StudentModelStore(),
+        engine_state=engine.EngineState(),
+    )
+
+
+def test_get_detects_a_single_expired_session_without_a_full_registry_sweep() -> None:
+    """A code-review efficiency finding: `SessionRegistry.get()` used to
+    call `_evict_expired_locked` (a full scan of every registered session)
+    on every single lookup, even though it only ever needs to know about
+    the one `session_id` it was asked for. `get()` now checks only that
+    entry's own `last_activity` against the TTL directly.
+
+    Proven here at the `SessionRegistry` level (not through `ServingFacade`,
+    so nothing else — `open_session`'s own `register_or_conflict`, which
+    legitimately still does a full sweep — runs a sweep in between): two
+    sessions are registered, only one is aged past the TTL by mutating its
+    own bookkeeping directly, and `get()` on the stale id alone must raise
+    `SessionExpiredError` while leaving the other, still-live session's
+    entry completely untouched (still registered, `last_activity`
+    unchanged) — exactly the observable TTL/session_expired-vs-
+    session_unknown behavior from before this fix, just without paying to
+    scan every other entry to get there."""
+    registry = serving.SessionRegistry(ttl_seconds=1000)
+    stale = _fake_session("sess-stale", "stu-stale")
+    fresh = _fake_session("sess-fresh", "stu-fresh")
+    registry.register_or_conflict(stale, "consumer.a")
+    registry.register_or_conflict(fresh, "consumer.b")
+
+    # Age only the stale entry's own last_activity past the TTL -- no other
+    # registry call happens in between that could sweep it for us.
+    registry._entries["sess-stale"].last_activity -= 2000
+    fresh_last_activity_before = registry._entries["sess-fresh"].last_activity
+
+    with pytest.raises(serving.SessionExpiredError):
+        registry.get("sess-stale")
+
+    # The stale entry alone was evicted (and is now remembered as expired,
+    # not merely unknown)...
+    assert "sess-stale" not in registry._entries
+    assert "sess-stale" in registry._expired_ids
+
+    # ...while the still-live session was never touched by resolving a
+    # different session_id: still registered, its own last_activity
+    # unchanged, and still resolvable.
+    assert "sess-fresh" in registry._entries
+    assert registry._entries["sess-fresh"].last_activity == fresh_last_activity_before
+    assert registry.get("sess-fresh") is fresh
+
+    # A second lookup of the now-evicted id is still session_expired, not
+    # session_unknown -- the distinction survives the O(1) path too.
+    with pytest.raises(serving.SessionExpiredError):
+        registry.get("sess-stale")
+
+
 # --- U5: curriculum pin (KTD3) ------------------------------------------------
 
 
