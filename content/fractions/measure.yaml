@@ -72,6 +72,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.MEAS.RULER-FROM-ONE.v1"
     parent_summary_i18n:
       en-IN: "{{name}} lines objects up with the 1 mark or the ruler's edge instead of the 0 mark, so readings come out one unit too long."
+    child_feedback_i18n:
+      en-IN: "You read off the mark at the end (7) without checking where the object started. It starts at the 1 mark, not the 0 mark, so its length is 7 - 1 = 6 cm, not 7 cm."
 
   - misconception_id: MISC.MEAS.PERIMETER-AREA-CONFUSED
     belief: "Perimeter and area are the same kind of measure of a shape's size"
@@ -80,6 +82,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.MEAS.PERIMETER-AREA-CONFUSED.v1"
     parent_summary_i18n:
       en-IN: "{{name}} mixes up perimeter and area — the distance around a shape and the space it covers are different measures, and tiling with unit squares makes the difference visible."
+    child_feedback_i18n:
+      en-IN: "You found the distance around the rectangle (perimeter) when the question asked for the space it covers (area). For a 4 x 6 rectangle, the area is 4 x 6 = 24, not the perimeter's 20."
 
   - misconception_id: MISC.MEAS.AREA-ADD-SIDES
     belief: "Area is found by adding the side lengths"
@@ -88,6 +92,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.MEAS.AREA-ADD-SIDES.v1"
     parent_summary_i18n:
       en-IN: "{{name}} adds side lengths to find area — counting the unit squares in rows shows why length times breadth is what area needs."
+    child_feedback_i18n:
+      en-IN: "You added the side lengths instead of multiplying them. Area counts how many unit squares fit inside the shape — for a 4 x 6 rectangle that's 4 x 6 = 24 squares, not 4 + 6."
 
   - misconception_id: MISC.MEAS.SAME-PERIMETER-SAME-AREA
     belief: "Shapes with the same perimeter must have the same area"
@@ -96,6 +102,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.MEAS.SAME-PERIMETER-SAME-AREA.v1"
     parent_summary_i18n:
       en-IN: "{{name}} assumes an equal boundary means equal space inside — the same fence length can enclose very different areas, which tiling makes easy to see."
+    child_feedback_i18n:
+      en-IN: "You assumed equal perimeters mean equal areas, but a 1 x 9 rectangle covers only 9 squares while a 5 x 5 square covers 25 — the same fence length can enclose very different amounts of space."
 
 # IN/NCERT mapping rows drafted in the same run.
 mappings:

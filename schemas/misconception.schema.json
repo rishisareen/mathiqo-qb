@@ -11,7 +11,8 @@
     "signature_error",
     "remediation_target",
     "remediation_asset",
-    "parent_summary_i18n"
+    "parent_summary_i18n",
+    "child_feedback_i18n"
   ],
   "properties": {
     "misconception_id": {
@@ -50,6 +51,18 @@
         "minLength": 1
       },
       "description": "Plain-language rendering for parent/teacher reports, keyed by language (§2.4, §2.8), e.g. en-IN. May use {{name}} for the child's name."
+    },
+    "child_feedback_i18n": {
+      "type": "object",
+      "minProperties": 1,
+      "propertyNames": {
+        "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$"
+      },
+      "additionalProperties": {
+        "type": "string",
+        "minLength": 1
+      },
+      "description": "Child-facing instant-feedback text shown the moment a distractor tagging this misconception is picked (R18/AE8, KD10) — speaks directly to the child, not to a parent or content author. Short (one or two sentences), concrete about the specific error, and encouraging in tone. Distinct from belief/signature_error (internal, author-facing) and parent_summary_i18n (parent/teacher-facing). Keyed by language, e.g. en-IN."
     }
   }
 }

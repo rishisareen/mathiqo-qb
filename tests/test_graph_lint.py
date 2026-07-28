@@ -328,3 +328,70 @@ def test_schema_violation_is_error(fixture_copy: Path) -> None:
 
     result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
     assert any("schema violation" in e and "MISC.FRAC.ADD-ACROSS" in e for e in result.errors)
+
+
+# --- U3 (R18/AE8, KD10): child-facing misconception feedback -------------------
+
+
+def test_missing_child_feedback_field_fails_lint_naming_the_misconception(fixture_copy: Path) -> None:
+    """R18: every misconception must carry child_feedback_i18n — a
+    misconception entry missing it must fail lint with an error that names
+    the specific misconception, not a generic schema complaint. Mirrors
+    test_schema_violation_is_error's shape for the pre-existing required
+    fields, applied to the new one."""
+    misc_path = fixture_copy / "misconceptions.yaml"
+    data = load_yaml(misc_path)
+    target = data["misconceptions"][0]
+    assert target["misconception_id"] == "MISC.FRAC.ADD-ACROSS"
+    del target["child_feedback_i18n"]
+    write_yaml(misc_path, data)
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert any(
+        "schema violation" in e and "MISC.FRAC.ADD-ACROSS" in e and "child_feedback_i18n" in e
+        for e in result.errors
+    )
+
+
+def test_every_served_distractor_misconception_has_child_feedback(bank) -> None:
+    """AE8: every misconception_id reachable from any served distractor in a
+    real built bank must resolve to child-facing feedback text — no
+    distractor can strand a child without instant feedback. This is a bank
+    build cross-check (not just a content-lint check): it walks the actual
+    item instances tools/bank_build.py produced from content/fractions,
+    collects every misconception_id a distractor is tagged with, and
+    confirms each one has non-empty child_feedback_i18n in the loaded
+    misconception registry."""
+    result = graph_lint.LintResult()
+    content = graph_lint.load_content(FIXTURE_DIR, result)
+    assert result.errors == []
+    registry = {
+        m["misconception_id"]: m
+        for m in content["misconceptions"]
+        if "misconception_id" in m
+    }
+
+    referenced_misconception_ids = {
+        distractor["misconception_id"]
+        for instances in bank.instances_by_skill.values()
+        for instance in instances
+        for distractor in instance["distractors"]
+        if distractor.get("misconception_id")
+    }
+    # Sanity check: the built bank must actually tag distractors with
+    # misconceptions, or this test would pass vacuously.
+    assert referenced_misconception_ids
+
+    missing_from_registry = referenced_misconception_ids - registry.keys()
+    assert not missing_from_registry, (
+        f"distractor misconception_ids with no registry entry: {sorted(missing_from_registry)}"
+    )
+
+    without_feedback = {
+        misc_id
+        for misc_id in referenced_misconception_ids
+        if not registry[misc_id].get("child_feedback_i18n", {}).get("en-IN", "").strip()
+    }
+    assert not without_feedback, (
+        f"misconceptions served by a bank distractor with no child_feedback_i18n: {sorted(without_feedback)}"
+    )

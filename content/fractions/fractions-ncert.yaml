@@ -31,6 +31,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.NUMLINE-COUNT-MARKS.v1"
     parent_summary_i18n:
       en-IN: "{{name}} counts the tick marks on a number line instead of the equal jumps between them, so fractions land on the wrong point."
+    child_feedback_i18n:
+      en-IN: "You counted the tick marks instead of the equal spaces between them. Count how many equal spaces the line is divided into, and how many of those spaces you've moved from 0 — that's your fraction."
 
   - misconception_id: MISC.FRAC.WHOLE-NUMBER-RULES
     belief: "Fractions compare like whole numbers: more pieces or bigger digits means bigger"
@@ -39,6 +41,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.WHOLE-NUMBER-RULES.v1"
     parent_summary_i18n:
       en-IN: "{{name}} carries whole-number thinking into fractions, comparing tops and bottoms as separate numbers instead of comparing the sizes the fractions stand for."
+    child_feedback_i18n:
+      en-IN: "You compared the top and bottom numbers separately, the way you would with whole numbers. Fractions need a different check — think about the actual size each one stands for, since a bigger bottom number often means smaller pieces."
 
 # IN/NCERT mapping rows drafted in the same run.
 mappings:

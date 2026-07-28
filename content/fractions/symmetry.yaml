@@ -40,6 +40,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.GEO.RECT-DIAGONAL-SYM.v1"
     parent_summary_i18n:
       en-IN: "{{name}} draws diagonals as fold lines of a rectangle — folding along a diagonal doesn't make the halves match; paper folding shows why."
+    child_feedback_i18n:
+      en-IN: "You drew the diagonal as a fold line, but folding a rectangle (that isn't a square) along its diagonal doesn't make the two halves land on top of each other. Try folding one on paper to see why the diagonal doesn't work."
 
   - misconception_id: MISC.GEO.PARALLELOGRAM-LINE-SYM
     belief: "A parallelogram has line symmetry because its halves look alike"
@@ -48,6 +50,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.GEO.PARALLELOGRAM-LINE-SYM.v1"
     parent_summary_i18n:
       en-IN: "{{name}} sees the matching halves of a parallelogram as mirror halves — they match by turning, not by folding, so a slanted parallelogram has no fold line."
+    child_feedback_i18n:
+      en-IN: "The two halves of a parallelogram do match, but only when you turn the shape, not when you fold it — that's rotational symmetry, not line symmetry. A slanted parallelogram has no fold line that makes it match itself."
 
 # IN/NCERT mapping rows drafted in the same run.
 mappings:

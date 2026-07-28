@@ -52,6 +52,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.INT.BIGGER-ABS.v1"
     parent_summary_i18n:
       en-IN: "{{name}} compares negative numbers by their size alone — on the number line, -5 is actually further below zero than -2, so it is smaller."
+    child_feedback_i18n:
+      en-IN: "You compared -5 and -2 by their digits, but on the number line -5 sits further below zero than -2 does — so -5 is actually the smaller number."
 
   - misconception_id: MISC.INT.IGNORE-SIGNS
     belief: "Add the digits first, sort out the sign later (or not at all)"
@@ -60,6 +62,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.INT.IGNORE-SIGNS.v1"
     parent_summary_i18n:
       en-IN: "{{name}} adds the numbers as if both were positive and handles the minus sign afterwards, instead of treating -3 as three steps below zero."
+    child_feedback_i18n:
+      en-IN: "You added 3 and 5 and sorted out the sign afterwards, which is how you got 8. Try starting three steps below zero (-3) and moving 5 steps up instead — that lands on 2, not 8."
 
   - misconception_id: MISC.INT.SUB-MAKES-SMALLER
     belief: "Subtracting always makes a number smaller"
@@ -68,6 +72,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.INT.SUB-MAKES-SMALLER.v1"
     parent_summary_i18n:
       en-IN: "{{name}} expects subtraction to always make the answer smaller — subtracting a negative number actually moves the answer up the number line."
+    child_feedback_i18n:
+      en-IN: "You expected subtracting to make the number smaller, so you treated -2 like it was 2. But subtracting a negative number moves you up the number line — 5 - (-2) is really 5 + 2 = 7."
 
 # IN/NCERT mapping rows drafted in the same run.
 mappings:

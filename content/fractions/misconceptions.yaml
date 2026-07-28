@@ -9,6 +9,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.ADD-ACROSS.v1"
     parent_summary_i18n:
       en-IN: "{{name}} understands adding fractions, but tends to add the denominators when they don't match."
+    child_feedback_i18n:
+      en-IN: "You added the top numbers and the bottom numbers separately, like 1/2 + 1/3 = 2/5. But the denominators tell you the size of the pieces — you need same-size pieces before you can add them, so find a common denominator first."
 
   - misconception_id: MISC.FRAC.FIRST-DENOM
     belief: "Keep the first denominator"
@@ -17,6 +19,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.FIRST-DENOM.v1"
     parent_summary_i18n:
       en-IN: "{{name}} adds the numerators correctly, but keeps the first denominator instead of finding a common one."
+    child_feedback_i18n:
+      en-IN: "You kept the first denominator instead of finding one both fractions can share. Before you add, turn both fractions into equivalent ones with the same bottom number — then just add the tops."
 
   - misconception_id: MISC.FRAC.NO-SIMPLIFY
     belief: "Answer complete without reducing"
@@ -25,6 +29,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.NO-SIMPLIFY.v1"
     parent_summary_i18n:
       en-IN: "{{name}} can add the fractions, but often forgets to write the answer in simplest form."
+    child_feedback_i18n:
+      en-IN: "Your addition was right, but check the last step — can the top and bottom of your answer both be divided by the same number? Always write your final answer in lowest form."
 
   - misconception_id: MISC.FRAC.BIGGER-DENOM
     belief: "Bigger denominator = bigger fraction"
@@ -33,6 +39,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.BIGGER-DENOM.v1"
     parent_summary_i18n:
       en-IN: "{{name}} thinks a bigger bottom number means a bigger fraction — a larger denominator actually means smaller pieces."
+    child_feedback_i18n:
+      en-IN: "You compared 8 and 4 like whole numbers, but a bigger denominator cuts the whole into smaller pieces. 1/8 is a smaller slice than 1/4, so 1/8 is actually less, not more."
 
   # --- Stage 1 drafted 2026-07-27 via tools/stage1_draft.py; see skills.yaml
   # for the same provenance note. MULT-WHOLE-BOTH and MULT-MAKES-BIGGER were
@@ -46,6 +54,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.MULT-WHOLE-BOTH.v1"
     parent_summary_i18n:
       en-IN: "{{name}} multiplies both the top and bottom of the fraction by the whole number, so the value does not change."
+    child_feedback_i18n:
+      en-IN: "You multiplied both the top and the bottom by the whole number — that only gives an equivalent fraction with the same value. To multiply a fraction by a whole number, multiply just the numerator (top) by it."
 
   - misconception_id: MISC.FRAC.MULT-MAKES-BIGGER
     belief: "Multiplying always makes a number bigger"
@@ -54,6 +64,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.MULT-MAKES-BIGGER.v1"
     parent_summary_i18n:
       en-IN: "{{name}} can multiply fractions correctly, but expects the answer to always be bigger, the way multiplying whole numbers grows the result."
+    child_feedback_i18n:
+      en-IN: "You expected multiplying to make the answer bigger, the way it does with whole numbers. But multiplying by a fraction less than 1 means taking a part of a part — so 1/2 x 1/3 comes out smaller than either fraction, not bigger."
 
   - misconception_id: MISC.FRAC.EQUIV-ADD-SAME
     belief: "Add the same number to top and bottom to get an equivalent fraction"
@@ -62,6 +74,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.EQUIV-ADD-SAME.v1"
     parent_summary_i18n:
       en-IN: "{{name}} tries to find equivalent fractions by adding the same number to the top and bottom, rather than multiplying both by the same factor."
+    child_feedback_i18n:
+      en-IN: "You added 1 to both the top and bottom, but adding changes the fraction's value. To get an equivalent fraction, multiply the top and bottom by the same number instead."
 
   - misconception_id: MISC.FRAC.UNEQUAL-PARTS
     belief: "Any division into pieces counts as fraction parts, whether or not they are equal size"
@@ -70,6 +84,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.UNEQUAL-PARTS.v1"
     parent_summary_i18n:
       en-IN: "{{name}} identifies fractions from a shape even when the parts aren't equal-sized, which changes what fraction is actually shown."
+    child_feedback_i18n:
+      en-IN: "You counted the pieces without checking that they were all the same size. A fraction only counts equal parts — here the pieces aren't equal, so counting them straight doesn't give the right fraction."
 
   # --- Stage 1 drafted 2026-07-27 via tools/stage1_draft.py (second batch),
   # covering the FRAC.DIV.* skills plus a backfill for NUM.LCM and
@@ -81,6 +97,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.DIV-WHOLE-MULTIPLY.v1"
     parent_summary_i18n:
       en-IN: "{{name}} sometimes multiplies instead of dividing when dividing a fraction by a whole number."
+    child_feedback_i18n:
+      en-IN: "You multiplied the numerator by 3 instead of dividing. When you divide a fraction by a whole number, multiply the denominator (bottom) by that number instead — each piece gets smaller, the count doesn't get bigger."
 
   - misconception_id: MISC.FRAC.DIV-WRONG-FLIP
     belief: "Flip the first fraction instead of the second when dividing"
@@ -89,6 +107,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.DIV-WRONG-FLIP.v1"
     parent_summary_i18n:
       en-IN: "{{name}} knows to flip a fraction and multiply when dividing, but sometimes flips the first fraction instead of the second."
+    child_feedback_i18n:
+      en-IN: "You flipped the first fraction instead of the second one. When dividing fractions, keep the first fraction as it is, and flip (take the reciprocal of) the second fraction before you multiply."
 
   - misconception_id: MISC.NUM.LCM-CONFUSED-WITH-GCF
     belief: "Finds the greatest common factor instead of the lowest common multiple"
@@ -97,6 +117,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.LCM-CONFUSED-WITH-GCF.v1"
     parent_summary_i18n:
       en-IN: "{{name}} sometimes finds the greatest common factor of two numbers when asked for their lowest common multiple."
+    child_feedback_i18n:
+      en-IN: "You found the greatest common factor instead of the lowest common multiple. A common multiple is a number both numbers divide into — try listing multiples of each one until you spot the smallest they share."
 
   - misconception_id: MISC.FRAC.MIXED-NO-REGROUP
     belief: "Add whole numbers and fraction parts separately, without regrouping an improper fraction result"
@@ -105,3 +127,5 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.MIXED-NO-REGROUP.v1"
     parent_summary_i18n:
       en-IN: "{{name}} adds the whole-number and fraction parts of mixed numbers correctly, but forgets to regroup when the fraction part adds up to more than one whole."
+    child_feedback_i18n:
+      en-IN: "You added the whole numbers and the fraction parts correctly, but 6/4 is more than one whole. Regroup it into a whole number plus a proper fraction, and add that extra whole to your total."

@@ -56,6 +56,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.DATA.SCALE-IGNORED.v1"
     parent_summary_i18n:
       en-IN: "{{name}} counts the pictures or bar lengths directly and skips the scale key, so scaled graphs come out several times too small."
+    child_feedback_i18n:
+      en-IN: "You counted the symbols directly and got 4, but the key says each symbol stands for 5. Check the key first, then multiply: 4 symbols x 5 = 20."
 
   - misconception_id: MISC.DATA.HALF-SYMBOL-WHOLE
     belief: "A partial symbol counts the same as a full one"
@@ -64,6 +66,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.DATA.HALF-SYMBOL-WHOLE.v1"
     parent_summary_i18n:
       en-IN: "{{name}} reads half symbols in a pictograph as whole ones — a half symbol stands for half the key's value."
+    child_feedback_i18n:
+      en-IN: "You counted the half symbol as a whole one. A half symbol stands for half the key's value, so 3 full symbols plus a half at key = 10 comes to 35, not 40."
 
   - misconception_id: MISC.DATA.TALLY-BUNDLE-MISCOUNT
     belief: "Every stroke in a tally is counted one by one, including the crossing stroke as extra"
@@ -72,6 +76,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.DATA.TALLY-BUNDLE-MISCOUNT.v1"
     parent_summary_i18n:
       en-IN: "{{name}} counts tally strokes one at a time and loses track of the bundles — each crossed group is a five, so skip-counting by fives is the way to read them."
+    child_feedback_i18n:
+      en-IN: "You counted every stroke one at a time instead of by bundles. Each group of five strokes (four with one crossing them) is a bundle of five — skip-count the bundles by fives, then add any loose strokes at the end."
 
 # IN/NCERT mapping rows drafted in the same run.
 mappings:
