@@ -261,7 +261,10 @@ def build_app(
         session_id: str, skill_id: str = Query(...), consumer_id: str = Depends(_resolve_consumer_id)
     ) -> dict[str, Any]:
         session_obj = _session_or_raise(session_id)
-        result = facade.get_candidates(session_obj, skill_id)
+        try:
+            result = facade.get_candidates(session_obj, skill_id, consumer_id)
+        except serving.ConsumerNotLinkedError as exc:
+            _signal_error(signals.NOT_LINKED, str(exc))
         body = {
             "bank_version": result.bank_version,
             "instances": result.instances,

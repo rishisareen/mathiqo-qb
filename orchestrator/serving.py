@@ -40,7 +40,7 @@ from collections import OrderedDict
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Set
+from typing import Dict, List, Optional, Set, Tuple
 
 from . import batch as batch_module
 from . import catalog as catalog_module
@@ -619,6 +619,18 @@ class ServingFacade:
         validate_identifier(student_id, "student_id")
         return self.logs_dir / f"{student_id}.jsonl"
 
+    def _replay_or_fresh(self, log_path: Path) -> "Tuple[StudentModelStore, engine.EngineState]":
+        """The "replay the student's log if one exists, else fresh state"
+        branch every session-less read (`get_progress`, `recommend_next`)
+        needs identically — extracted after a simplify pass found the same
+        four lines duplicated verbatim at both call sites. `open_session`
+        does NOT use this: it additionally seeds `accepted_attempts` from
+        the same log (KTD4), a step specific to registering a *live*
+        session, not a scratch read."""
+        if log_path.is_file():
+            return engine.rebuild_session_state(log_path, self.content, self.bank_lookup)
+        return StudentModelStore(), engine.EngineState()
+
     def _check_linked(self, consumer_id: str, student_id: str) -> None:
         """R17's enforcement point: a no-op when `self.identity` is `None`
         (unconfigured deployments, the internal runner's posture); raises
@@ -709,9 +721,19 @@ class ServingFacade:
             self._log_closure(prior_session, consumer_id, reason="takeover_on_open")
         return new_session
 
-    def get_candidates(self, session: Session, skill_id: str) -> CandidatesResult:
+    def get_candidates(self, session: Session, skill_id: str, consumer_id: str) -> CandidatesResult:
         """R1, R2, R13: seen-filtered by variant_signature (KTD4), drawn only
         from `session.bank` (never re-resolved mid-session, R3/R4).
+
+        R17: refuses with `ConsumerNotLinkedError` before touching anything
+        if `self.identity` is configured and `consumer_id` isn't linked to
+        `session.student_id` — this operation was missed when link
+        enforcement landed on every sibling read/write (`open_session`,
+        `submit_attempt`, `get_progress`, `recommend_next`, `close_session*`)
+        and would otherwise let any credentialed consumer holding (or
+        guessing/logging/replaying) another partner's `session_id` read
+        that student's seen-filtered candidate pool — a cross-tenant leak
+        `_check_linked` exists specifically to prevent.
 
         U10: distinguishes three pool edge cases the pre-U10 binary
         `exhausted` flag conflated (see `CandidatesResult`'s own docstring)
@@ -719,6 +741,7 @@ class ServingFacade:
         the content graph at all (`UNKNOWN_SKILL`); a known skill whose
         pinned bank has no instances for it (`EMPTY_POOL`); every instance
         already seen (`EXHAUSTED`, the pre-U10 behavior, unchanged)."""
+        self._check_linked(consumer_id, session.student_id)
         if skill_id not in self.content.skills:
             return CandidatesResult(
                 bank_version=session.bank.bank_version,
@@ -1183,11 +1206,7 @@ class ServingFacade:
         configured and `consumer_id` isn't linked to `student_id` (AE6's
         "progress read without linking is refused" half)."""
         self._check_linked(consumer_id, student_id)
-        log_path = self._log_path_for(student_id)
-        if log_path.is_file():
-            store, engine_state = engine.rebuild_session_state(log_path, self.content, self.bank_lookup)
-        else:
-            store, engine_state = StudentModelStore(), engine.EngineState()
+        store, engine_state = self._replay_or_fresh(self._log_path_for(student_id))
         return build_progress_summary(store, engine_state, student_id, now)
 
     def recommend_next(
@@ -1240,11 +1259,7 @@ class ServingFacade:
         anything if `self.identity` is configured and `consumer_id` isn't
         linked to `student_id`."""
         self._check_linked(consumer_id, student_id)
-        log_path = self._log_path_for(student_id)
-        if log_path.is_file():
-            store, engine_state = engine.rebuild_session_state(log_path, self.content, self.bank_lookup)
-        else:
-            store, engine_state = StudentModelStore(), engine.EngineState()
+        store, engine_state = self._replay_or_fresh(self._log_path_for(student_id))
 
         if session is not None:
             bank = session.bank

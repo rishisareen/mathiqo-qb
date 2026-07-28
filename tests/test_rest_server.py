@@ -387,6 +387,29 @@ def test_not_linked_is_403(linked_facade: serving.ServingFacade, identity_regist
     assert ok.status_code == 200
 
 
+def test_get_candidates_not_linked_is_403(
+    linked_facade: serving.ServingFacade, identity_registry: IdentityRegistry
+) -> None:
+    """Closed simplify-review finding: get_candidates was the one
+    student-scoped route with no link check at any layer — a stranger
+    holding a session_id could read another partner's candidate pool."""
+    student_id = identity_registry.register_student({"guardian_email": "cand@example.com"}, consumer_id="partner.owner")
+    client = _client(linked_facade, {TOKEN_OWNER: "partner.owner", TOKEN_STRANGER: "partner.stranger"})
+    opened = client.post("/sessions", json=_open_body(student_id), headers=_auth(TOKEN_OWNER))
+    session_id = opened.json()["session_id"]
+
+    resp = client.get(
+        f"/sessions/{session_id}/candidates", params={"skill_id": "FRAC.ADD.LIKE"}, headers=_auth(TOKEN_STRANGER)
+    )
+    assert resp.status_code == 403
+    assert resp.json()["detail"]["signal"] == "not_linked"
+
+    ok = client.get(
+        f"/sessions/{session_id}/candidates", params={"skill_id": "FRAC.ADD.LIKE"}, headers=_auth(TOKEN_OWNER)
+    )
+    assert ok.status_code == 200
+
+
 # --- token / OpenAPI leak checks --------------------------------------------
 
 

@@ -383,6 +383,31 @@ def test_open_session_refused_for_unlinked_consumer_over_mcp(
     assert not result2.isError
 
 
+def test_get_candidates_refused_for_unlinked_consumer_over_mcp(
+    linked_facade: serving.ServingFacade, identity_registry: IdentityRegistry
+) -> None:
+    """Closed simplify-review finding: get_candidates was the one
+    student-scoped tool with no link check at any layer — a stranger
+    holding a session_id could read another partner's candidate pool."""
+    student_id = identity_registry.register_student({"guardian_email": "cand@example.com"}, consumer_id="partner.owner")
+    owner_server = mcp_server.build_server(linked_facade, "partner.owner")
+    stranger_server = mcp_server.build_server(linked_facade, "partner.stranger")
+
+    async def flow():
+        async with create_connected_server_and_client_session(owner_server) as owner_client:
+            opened = await owner_client.call_tool("open_session", _open_args(student_id))
+            session_id = opened.structuredContent["session_id"]
+
+        async with create_connected_server_and_client_session(stranger_server) as stranger_client:
+            return await stranger_client.call_tool(
+                "get_candidates", {"session_id": session_id, "skill_id": "FRAC.ADD.LIKE"}
+            )
+
+    result = _run(flow())
+    assert result.isError
+    assert "not_linked" in result.content[0].text
+
+
 # --- U5: session conflict + takeover-on-open over MCP (R20, AE9) ------------
 
 

@@ -341,9 +341,17 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         exhaustion — the pre-U10 behavior: `instances` holds exactly the
         one least-recently-seen repeat). `exhausted` (the boolean field)
         is kept for backward compatibility and is `true` only for the
-        `exhausted` signal."""
+        `exhausted` signal.
+
+        R17: refused (`not_linked`) if this server's `consumer_id` isn't
+        linked to the session's student (only when the facade was
+        configured with an identity registry) — matching every other
+        student-scoped tool."""
         session_obj = _session_or_raise(session_id)
-        result = facade.get_candidates(session_obj, skill_id)
+        try:
+            result = facade.get_candidates(session_obj, skill_id, consumer_id)
+        except serving.ConsumerNotLinkedError as exc:
+            raise ToolError(f"{signals.NOT_LINKED}: {exc}") from exc
         return {
             "bank_version": result.bank_version,
             "instances": result.instances,

@@ -210,14 +210,14 @@ def test_get_candidates_are_seen_filtered_and_carry_bank_version(
 ) -> None:
     bank_activate.activate(banks_dir, "build-a")
     session = _open(facade, "sess-1", "stu-1")
-    result = facade.get_candidates(session, SKILL_ID)
+    result = facade.get_candidates(session, SKILL_ID, constants.CONSUMER_ID_INTERNAL)
     assert result.bank_version == "build-a"
     assert result.exhausted is False
     assert len(result.instances) == 2  # pool_cap=2, nothing seen yet
 
     instance = result.instances[0]
     session.engine_state.seen_history[SKILL_ID] = [instance["variant_signature"]]
-    result2 = facade.get_candidates(session, SKILL_ID)
+    result2 = facade.get_candidates(session, SKILL_ID, constants.CONSUMER_ID_INTERNAL)
     assert result2.exhausted is False
     assert len(result2.instances) == 1
     assert result2.instances[0]["variant_signature"] != instance["variant_signature"]
@@ -233,7 +233,7 @@ def test_get_candidates_exhausted_pool_repeats_least_recently_seen_with_signal(
     pool = session.bank.instances_by_skill[SKILL_ID]
     session.engine_state.seen_history[SKILL_ID] = [inst["variant_signature"] for inst in pool]
 
-    result = facade.get_candidates(session, SKILL_ID)
+    result = facade.get_candidates(session, SKILL_ID, constants.CONSUMER_ID_INTERNAL)
     assert result.exhausted is True
     assert result.signal == signals.EXHAUSTED
     assert result.warning is not None
@@ -254,7 +254,7 @@ def test_get_candidates_distinguishes_unknown_skill_empty_pool_and_exhausted(
     bank_activate.activate(banks_dir, "build-a")
     session = _open(facade, "sess-signals", "stu-signals")
 
-    unknown = facade.get_candidates(session, "NOT.A.REAL.SKILL")
+    unknown = facade.get_candidates(session, "NOT.A.REAL.SKILL", constants.CONSUMER_ID_INTERNAL)
     assert unknown.signal == signals.UNKNOWN_SKILL
     assert unknown.exhausted is False
     assert unknown.instances == []
@@ -263,7 +263,7 @@ def test_get_candidates_distinguishes_unknown_skill_empty_pool_and_exhausted(
     # FRAC.ADD.UNLIKE is a real skill in the content graph, but banks_dir's
     # build only ever sampled FRAC.ADD.LIKE's template -- a known skill
     # with a genuinely empty pool in this pinned bank.
-    empty = facade.get_candidates(session, "FRAC.ADD.UNLIKE")
+    empty = facade.get_candidates(session, "FRAC.ADD.UNLIKE", constants.CONSUMER_ID_INTERNAL)
     assert empty.signal == signals.EMPTY_POOL
     assert empty.exhausted is False
     assert empty.instances == []
@@ -271,7 +271,7 @@ def test_get_candidates_distinguishes_unknown_skill_empty_pool_and_exhausted(
 
     pool = session.bank.instances_by_skill[SKILL_ID]
     session.engine_state.seen_history[SKILL_ID] = [inst["variant_signature"] for inst in pool]
-    exhausted = facade.get_candidates(session, SKILL_ID)
+    exhausted = facade.get_candidates(session, SKILL_ID, constants.CONSUMER_ID_INTERNAL)
     assert exhausted.signal == signals.EXHAUSTED
     assert exhausted.exhausted is True
     assert len(exhausted.instances) == 1
@@ -333,7 +333,7 @@ def test_open_session_derives_seen_state_across_a_build_boundary(
     assert session.bank.bank_version == "build-b"
     assert instance_a["variant_signature"] in session.engine_state.seen_history.get(SKILL_ID, [])
 
-    result = facade.get_candidates(session, SKILL_ID)
+    result = facade.get_candidates(session, SKILL_ID, constants.CONSUMER_ID_INTERNAL)
     served_signatures = {i["variant_signature"] for i in result.instances}
     assert instance_a["variant_signature"] not in served_signatures or result.exhausted
 
@@ -432,6 +432,28 @@ def test_submit_attempt_and_get_progress_refused_for_unlinked_consumer(
     assert progress.student_id == student_id
 
 
+def test_get_candidates_refused_for_unlinked_consumer(
+    banks_dir: Path, linked_facade: serving.ServingFacade, identity_registry: IdentityRegistry
+) -> None:
+    """A closed simplify-review finding: get_candidates was the one
+    student-scoped read that never called _check_linked, so a consumer
+    holding (or guessing/logging/replaying) another partner's session_id
+    could read that student's seen-filtered candidate pool — a
+    cross-tenant leak every sibling operation (open_session, submit_attempt,
+    get_progress, recommend_next, close_session*) already refused. A
+    stranger with the right session_id must be refused just like every
+    other read; the owning consumer must be unaffected."""
+    bank_activate.activate(banks_dir, "build-a")
+    student_id = identity_registry.register_student({"guardian_email": "c@example.com"}, consumer_id="partner.owner")
+    session = _open(linked_facade, "sess-owner", student_id, consumer_id="partner.owner")
+
+    with pytest.raises(serving.ConsumerNotLinkedError):
+        linked_facade.get_candidates(session, SKILL_ID, consumer_id="partner.stranger")
+
+    result = linked_facade.get_candidates(session, SKILL_ID, consumer_id="partner.owner")
+    assert result.instances
+
+
 def test_without_identity_registry_operations_are_unaffected(
     banks_dir: Path, facade: serving.ServingFacade
 ) -> None:
@@ -475,7 +497,7 @@ def test_cross_consumer_second_open_is_refused_first_session_unaffected(
     # The first session is unaffected: still registered under its own id,
     # still fully usable.
     assert facade.sessions.get("sess-first") is first
-    result = facade.get_candidates(first, SKILL_ID)
+    result = facade.get_candidates(first, SKILL_ID, constants.CONSUMER_ID_INTERNAL)
     assert result.bank_version == "build-a"
 
 

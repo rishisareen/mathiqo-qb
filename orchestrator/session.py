@@ -649,7 +649,7 @@ def run_session(
             log_path=log_path, store=store, engine_state=engine_state,
             country=country, curriculum=curriculum, grade=grade,
         )
-        result = facade.get_candidates(session_obj, skill_id)
+        result = facade.get_candidates(session_obj, skill_id, constants.CONSUMER_ID_INTERNAL)
         if result.exhausted:
             # get_candidates collapses exhaustion to a single
             # least-recently-seen repeat (R1) — correct for a caller that
