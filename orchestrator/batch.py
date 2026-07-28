@@ -344,3 +344,36 @@ def new_batch_id() -> str:
     """Mirrors the `sess-`/`stu-`/`evt-` id patterns already used across
     this codebase (orchestrator/serving.py, orchestrator/log.py)."""
     return f"batch-{uuid.uuid4().hex}"
+
+
+# ---------------------------------------------------------------------------
+# Refill (U10: R12, KTD5)
+# ---------------------------------------------------------------------------
+
+
+@dataclass(frozen=True)
+class RefillResult:
+    """`ServingFacade.refill_batch`'s own response shape (orchestrator/
+    serving.py) — a refill is just `fetch_batch` re-planned against the
+    session's current live state (R12), but its response must distinguish
+    two things a plain `BatchResult` can't carry on its own:
+
+    - `batch` is `None` and `signal` is `signals.NO_FURTHER_ITEMS` when the
+      freshly planned batch came back with zero new items (R13: an explicit
+      signal, not a `BatchResult` with `count_returned=0` a caller could
+      mistake for "nothing yet, try again" instead of "nothing is coming
+      for this skill"). Otherwise `batch` is the planned `BatchResult` and
+      `signal` is `None`.
+    - `supersede` (KTD5) is set independently of whether new items were
+      found — `True` when the plan for this skill materially changed since
+      the client's last batch (skill now certified at/above its serving
+      ceiling, or a remediation dose now queued for it) — see
+      `ServingFacade._compute_supersede`'s docstring for the exact rule.
+      A client sees this on every refill response, including a
+      `no_further_items` one, since discarding a stale delivered-but-
+      unattempted buffer is meaningful either way.
+    """
+
+    batch: Optional[BatchResult]
+    signal: Optional[str]
+    supersede: bool

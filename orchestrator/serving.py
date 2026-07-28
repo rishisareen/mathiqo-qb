@@ -48,6 +48,7 @@ from . import constants
 from . import engine
 from . import ingest as ingest_module
 from . import log as log_module
+from . import signals
 from .identity import IdentityRegistry
 from .state import StudentModelStore, certification_status
 from .update import Attempt
@@ -123,7 +124,7 @@ class SessionConflictError(ServingError):
         self.student_id = student_id
         self.existing_session_id = existing_session_id
         super().__init__(
-            f"session_conflict: student {student_id!r} already has a live session "
+            f"{signals.SESSION_CONFLICT}: student {student_id!r} already has a live session "
             f"({existing_session_id!r}) opened by a different consumer; a consumer "
             "linked to this student may recover by calling close_session_by_student "
             "(keyed by student_id, not session_id) before opening a new session"
@@ -237,14 +238,31 @@ class Session:
 
 @dataclass
 class CandidatesResult:
-    """R1: `instances` is every unseen instance in the pinned bank for the
-    requested skill; when the pool is exhausted, `instances` holds exactly
-    the one least-recently-seen repeat and `exhausted` is True with
-    `warning` naming it explicitly (§5.4's pool-utilization signal)."""
+    """R1, R13: `instances` is every unseen instance in the pinned bank for
+    the requested skill in the ordinary case (`signal=None`). Three distinct
+    non-ordinary outcomes, each an explicit named signal rather than an
+    empty `instances` list a caller has to guess the meaning of (R13):
+
+    - `signal=signals.UNKNOWN_SKILL`: `skill_id` isn't in the loaded content
+      graph at all (`self.content.skills`) — `instances` is `[]`.
+    - `signal=signals.EMPTY_POOL`: a known skill, but the pinned bank has no
+      instances for it at all (`session.bank.instances_by_skill`) —
+      `instances` is `[]`.
+    - `signal=signals.EXHAUSTED`: the pool has instances, but every one has
+      already been seen — `instances` holds exactly the one
+      least-recently-seen repeat (KD5), same as before this unit.
+
+    `exhausted` (the pre-U10 field) is kept for backward compatibility with
+    every existing caller that already branches on it — `True` only for the
+    `EXHAUSTED` signal, `False` for the other three outcomes (ordinary,
+    `UNKNOWN_SKILL`, `EMPTY_POOL`), exactly the same as its pre-U10 meaning.
+    `warning` is set on all three non-ordinary outcomes, naming the signal
+    explicitly in its text."""
 
     bank_version: str
     instances: List[dict]
     exhausted: bool
+    signal: Optional[str] = None
     warning: Optional[str] = None
 
 
@@ -382,10 +400,12 @@ class SessionRegistry:
             return entry
         if session_id in self._expired_ids:
             raise SessionExpiredError(
-                f"session_expired: session {session_id!r} was idle-evicted after "
+                f"{signals.SESSION_EXPIRED}: session {session_id!r} was idle-evicted after "
                 f"{self._ttl_seconds:.0f}s with no activity"
             )
-        raise SessionUnknownError(f"session_unknown: {session_id!r} is not a session_id this registry ever issued")
+        raise SessionUnknownError(
+            f"{signals.SESSION_UNKNOWN}: {session_id!r} is not a session_id this registry ever issued"
+        )
 
     # -- public -------------------------------------------------------------
 
@@ -690,14 +710,42 @@ class ServingFacade:
         return new_session
 
     def get_candidates(self, session: Session, skill_id: str) -> CandidatesResult:
-        """R1, R2: seen-filtered by variant_signature (KTD4), drawn only
-        from `session.bank` (never re-resolved mid-session, R3/R4)."""
+        """R1, R2, R13: seen-filtered by variant_signature (KTD4), drawn only
+        from `session.bank` (never re-resolved mid-session, R3/R4).
+
+        U10: distinguishes three pool edge cases the pre-U10 binary
+        `exhausted` flag conflated (see `CandidatesResult`'s own docstring)
+        — checked in this order, each an explicit signal: `skill_id` not in
+        the content graph at all (`UNKNOWN_SKILL`); a known skill whose
+        pinned bank has no instances for it (`EMPTY_POOL`); every instance
+        already seen (`EXHAUSTED`, the pre-U10 behavior, unchanged)."""
+        if skill_id not in self.content.skills:
+            return CandidatesResult(
+                bank_version=session.bank.bank_version,
+                instances=[],
+                exhausted=False,
+                signal=signals.UNKNOWN_SKILL,
+                warning=f"{signals.UNKNOWN_SKILL}: {skill_id!r} is not a skill in the loaded content graph",
+            )
+
         pool = session.bank.instances_by_skill.get(skill_id, [])
+        if not pool:
+            return CandidatesResult(
+                bank_version=session.bank.bank_version,
+                instances=[],
+                exhausted=False,
+                signal=signals.EMPTY_POOL,
+                warning=f"{signals.EMPTY_POOL}: skill {skill_id!r} is a known skill, but the pinned bank "
+                "has no instances for it",
+            )
+
         seen_history = session.engine_state.seen_history.get(skill_id, [])
         seen = set(seen_history)
         unseen = [inst for inst in pool if inst["variant_signature"] not in seen]
-        if unseen or not pool:
-            return CandidatesResult(bank_version=session.bank.bank_version, instances=unseen, exhausted=False)
+        if unseen:
+            return CandidatesResult(
+                bank_version=session.bank.bank_version, instances=unseen, exhausted=False, signal=None
+            )
 
         last_seen_at = {sig: idx for idx, sig in enumerate(seen_history)}
         ranked = sorted(
@@ -706,11 +754,73 @@ class ServingFacade:
         )
         chosen = ranked[0]
         warning = (
-            f"pool exhausted for skill {skill_id!r}: repeating least-recently-seen "
+            f"{signals.EXHAUSTED}: pool exhausted for skill {skill_id!r}: repeating least-recently-seen "
             f"instance {chosen['item_instance_id']!r}"
         )
         return CandidatesResult(
-            bank_version=session.bank.bank_version, instances=[chosen], exhausted=True, warning=warning
+            bank_version=session.bank.bank_version,
+            instances=[chosen],
+            exhausted=True,
+            signal=signals.EXHAUSTED,
+            warning=warning,
+        )
+
+    def _plan_batch_locked(
+        self, session: Session, skill_id: str, batch_size: int
+    ) -> batch_module.BatchResult:
+        """The shared planning core behind both `fetch_batch` and
+        `refill_batch` (U10: "a refill is just fetch_batch re-planned
+        against the session's current live state" — genuinely the same
+        code path, not a parallel copy of it). Callers must already hold
+        `session`'s own lock (`_lock_for`) and have called
+        `self.sessions.touch` — this method does neither itself, so it can
+        be reused as-is by a caller (`refill_batch`) that also needs to
+        compute something else (KTD5's `supersede`) under the same lock
+        acquisition.
+
+        KTD2's scratch-clone discipline: plans against a scratch clone of
+        `session.engine_state` (`engine._copy_engine_state`, the same
+        no-aliasing copy `recommend_next` uses) and never touches
+        `session.store` — only an accepted `submit_attempt` may write
+        durable state. The one piece of state this method *does* mutate is
+        `session.delivered`, updated with every returned item's
+        `variant_signature` only after the plan (including the feedback
+        sidecar, which can raise `batch_module.BatchPlanningError`) has
+        fully succeeded — a raised AE8 violation leaves `session.delivered`
+        exactly as it was, same as a rejected `submit_attempt` leaves
+        `session.store` untouched."""
+        clamped_size = batch_module.clamp_batch_size(batch_size)
+        scratch_state = engine._copy_engine_state(session.engine_state)
+        planned = batch_module.plan_ladder(
+            session.store,
+            scratch_state,
+            self.content,
+            session.bank,
+            session.student_id,
+            skill_id,
+            session.country,
+            session.curriculum,
+            session.grade,
+            clamped_size,
+            session.delivered,
+        )
+        sidecar = batch_module.build_feedback_sidecar(self.content, planned)
+        policy = batch_module.build_policy_v1()
+
+        for item in planned:
+            session.delivered.add(item.instance["variant_signature"])
+
+        return batch_module.BatchResult(
+            batch_id=batch_module.new_batch_id(),
+            student_id=session.student_id,
+            skill_id=skill_id,
+            items=planned,
+            count_requested=clamped_size,
+            count_returned=len(planned),
+            policy=policy,
+            feedback_sidecar=sidecar,
+            bank_version=session.bank.bank_version,
+            content_version=self.content.content_version,
         )
 
     def fetch_batch(
@@ -738,55 +848,111 @@ class ServingFacade:
         `session.engine_state` and reads/writes `session.delivered`, both
         session-owned state two concurrent calls against the same session
         must not race on.
-
-        KTD2's scratch-clone discipline: plans against a scratch clone of
-        `session.engine_state` (`engine._copy_engine_state`, the same
-        no-aliasing copy `recommend_next` uses) and never touches
-        `session.store` — only an accepted `submit_attempt` may write
-        durable state. The one piece of state this method *does* mutate is
-        `session.delivered`, updated with every returned item's
-        `variant_signature` only after the plan (including the feedback
-        sidecar, which can raise `batch_module.BatchPlanningError`) has
-        fully succeeded — a raised AE8 violation leaves `session.delivered`
-        exactly as it was, same as a rejected `submit_attempt` leaves
-        `session.store` untouched.
         """
         self._check_linked(consumer_id, session.student_id)
         with self._lock_for(session):
             self.sessions.touch(session.session_id)
-            clamped_size = batch_module.clamp_batch_size(batch_size)
-            scratch_state = engine._copy_engine_state(session.engine_state)
-            planned = batch_module.plan_ladder(
-                session.store,
-                scratch_state,
-                self.content,
-                session.bank,
-                session.student_id,
-                skill_id,
-                session.country,
-                session.curriculum,
-                session.grade,
-                clamped_size,
-                session.delivered,
-            )
-            sidecar = batch_module.build_feedback_sidecar(self.content, planned)
-            policy = batch_module.build_policy_v1()
+            return self._plan_batch_locked(session, skill_id, batch_size)
 
-            for item in planned:
-                session.delivered.add(item.instance["variant_signature"])
+    def _compute_supersede(self, session: Session, skill_id: str) -> bool:
+        """KTD5: True when the plan for `skill_id` has materially changed
+        since a client's last batch — checked against `session`'s real,
+        live `store`/`engine_state` (never the scratch clone
+        `_plan_batch_locked` plans against), because this must reflect
+        actually-accepted attempts, not a planning simulation. Two
+        conditions, either one sufficient:
 
-            return batch_module.BatchResult(
-                batch_id=batch_module.new_batch_id(),
-                student_id=session.student_id,
-                skill_id=skill_id,
-                items=planned,
-                count_requested=clamped_size,
-                count_returned=len(planned),
-                policy=policy,
-                feedback_sidecar=sidecar,
-                bank_version=session.bank.bank_version,
-                content_version=self.content.content_version,
+        - the skill is now certified at or above its own serving ceiling
+          (`store.peek(...).certified_depth >= serving_ceiling(...)`) —
+          deliberately not the same "mastered" check
+          `engine.rank_serve_candidates` uses for frontier-serving
+          eligibility (which also excludes a `lapsed` skill): a lapsed
+          skill's plan for *this* skill hasn't materially changed just
+          because its due-for-review clock lapsed, so this check reads
+          `certified_depth` alone, regardless of `lapsed`;
+        - a remediation dose for this exact `skill_id` is now queued in
+          `session.engine_state.remediation_queue` (KTD12's bounded-dose
+          misconception remediation) — a genuinely new plan element that
+          wasn't there when the last batch for this skill was planned.
+
+        Caller (`refill_batch`) must already hold `session`'s lock, so this
+        reads a stable, non-racing snapshot of both `store` and
+        `engine_state`."""
+        skill_state = session.store.peek(session.student_id, skill_id)
+        if skill_state.certified_depth is not None:
+            ceiling = engine.serving_ceiling(
+                skill_id, session.country, session.curriculum, session.grade, self.content
             )
+            if skill_state.certified_depth >= ceiling:
+                return True
+        return any(dose.skill_id == skill_id for dose in session.engine_state.remediation_queue)
+
+    def refill_batch(
+        self,
+        session: Session,
+        skill_id: str,
+        consumer_id: str,
+        attempts_flushed: bool,
+        batch_size: int = constants.DEFAULT_BATCH_SIZE,
+    ) -> batch_module.RefillResult:
+        """U10 (R12, KTD5): a background refill — "call `fetch_batch` again
+        against this session's current live state" (AE2: a refill's whole
+        point is that it reflects attempts submitted since the last batch,
+        and that falls out naturally from `_plan_batch_locked` reading
+        `session.store`'s live theta on every call, the same as
+        `fetch_batch` always has). Two additions on top of plain
+        `fetch_batch`:
+
+        **`attempts_flushed` (R12).** The client's protocol-level assertion
+        that every attempt it intends to submit before this refill has
+        already been submitted. This is a documented client-protocol
+        contract, not something this method can verify beyond accepting
+        it — and logging a warning when it's `False`, a caller-visible
+        record that the contract was declared violated, without refusing
+        the call: a refill requested with `attempts_flushed=False` is still
+        planned against whatever live state exists at the moment of the
+        call, same as it would be if the flag were `True`; the caller that
+        lied about it gets a refill planned against a possibly-stale view
+        of its own submissions, not a corrupted one.
+
+        **`supersede` (KTD5, `_compute_supersede`).** Set on every
+        `RefillResult` regardless of whether the refill found new items —
+        `True` when the client should discard its remaining
+        delivered-but-unattempted buffer for `skill_id` because the plan
+        materially changed since the last batch (skill now certified at/above
+        its serving ceiling, or a remediation dose now queued for it).
+
+        **`no_further_items` (R13).** When the freshly planned batch has
+        zero new items (`count_returned == 0` — everything left in the pool
+        for this skill is already in seen ∪ delivered), returns
+        `RefillResult(batch=None, signal=signals.NO_FURTHER_ITEMS, ...)`
+        instead of an empty `BatchResult` a caller could mistake for "try
+        again shortly" rather than "nothing is coming for this skill, move
+        to the next recommendation" (R13). Idempotent: a second immediate
+        refill in this state re-plans against the same (unchanged) live
+        state and returns the same signal again — no loop, no different
+        error.
+
+        R17/KTD17: same link check and same per-session lock as
+        `fetch_batch` — `supersede` and the plan itself are computed under
+        one lock acquisition, so a concurrent `submit_attempt` against this
+        session can never be interleaved between the two (KTD17)."""
+        self._check_linked(consumer_id, session.student_id)
+        if not attempts_flushed:
+            logger.warning(
+                "refill_batch called with attempts_flushed=False for session_id=%s skill_id=%s -- "
+                "R12's client-protocol contract (\"all attempts intended before this refill were "
+                "already submitted\") was declared violated; proceeding anyway, planned against "
+                "whatever live state exists right now",
+                session.session_id, skill_id,
+            )
+        with self._lock_for(session):
+            self.sessions.touch(session.session_id)
+            supersede = self._compute_supersede(session, skill_id)
+            result = self._plan_batch_locked(session, skill_id, batch_size)
+            if result.count_returned == 0:
+                return batch_module.RefillResult(batch=None, signal=signals.NO_FURTHER_ITEMS, supersede=supersede)
+            return batch_module.RefillResult(batch=result, signal=None, supersede=supersede)
 
     def submit_attempt(
         self,

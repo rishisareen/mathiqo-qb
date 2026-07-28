@@ -21,7 +21,7 @@ import pytest
 import bank_activate
 import bank_build
 from conftest import REPO_ROOT
-from orchestrator import catalog as catalog_module, constants, engine, log as log_module, serving
+from orchestrator import catalog as catalog_module, constants, engine, log as log_module, serving, signals
 from orchestrator.identity import IdentityRegistry
 from orchestrator.state import StudentModelStore
 
@@ -235,9 +235,75 @@ def test_get_candidates_exhausted_pool_repeats_least_recently_seen_with_signal(
 
     result = facade.get_candidates(session, SKILL_ID)
     assert result.exhausted is True
+    assert result.signal == signals.EXHAUSTED
     assert result.warning is not None
     assert len(result.instances) == 1
     assert result.instances[0]["variant_signature"] == pool[0]["variant_signature"]
+
+
+def test_get_candidates_distinguishes_unknown_skill_empty_pool_and_exhausted(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """Covers AE5: U10's three-way pool signal on get_candidates --
+    `unknown_skill` (the skill_id isn't in the content graph at all),
+    `empty_pool` (a known skill, but this tiny bank -- built from a single
+    FRAC.ADD.LIKE template -- has no instances for it), and `exhausted`
+    (the pre-U10 pool-exhaustion behavior, unchanged: the pool has
+    instances, all seen, and the one least-recently-seen repeat comes
+    back)."""
+    bank_activate.activate(banks_dir, "build-a")
+    session = _open(facade, "sess-signals", "stu-signals")
+
+    unknown = facade.get_candidates(session, "NOT.A.REAL.SKILL")
+    assert unknown.signal == signals.UNKNOWN_SKILL
+    assert unknown.exhausted is False
+    assert unknown.instances == []
+    assert unknown.warning is not None
+
+    # FRAC.ADD.UNLIKE is a real skill in the content graph, but banks_dir's
+    # build only ever sampled FRAC.ADD.LIKE's template -- a known skill
+    # with a genuinely empty pool in this pinned bank.
+    empty = facade.get_candidates(session, "FRAC.ADD.UNLIKE")
+    assert empty.signal == signals.EMPTY_POOL
+    assert empty.exhausted is False
+    assert empty.instances == []
+    assert empty.warning is not None
+
+    pool = session.bank.instances_by_skill[SKILL_ID]
+    session.engine_state.seen_history[SKILL_ID] = [inst["variant_signature"] for inst in pool]
+    exhausted = facade.get_candidates(session, SKILL_ID)
+    assert exhausted.signal == signals.EXHAUSTED
+    assert exhausted.exhausted is True
+    assert len(exhausted.instances) == 1
+    assert exhausted.instances[0]["variant_signature"] == pool[0]["variant_signature"]
+
+
+# --- U10: the error-signal taxonomy is defined in exactly one place --------
+
+
+def test_taxonomy_signal_names_are_each_defined_in_exactly_one_place() -> None:
+    """KTD7: a grep-based parity check mirroring U8's
+    test_rank_serve_candidates_has_exactly_two_call_sites (tests/test_engine.py)
+    -- each of the ten canonical signal names (orchestrator/signals.py)
+    must be *assigned* as a literal string exactly once across the source
+    tree (orchestrator/signals.py itself); every other raise/return site
+    that needs one references the constant (e.g. `signals.NOT_LINKED`)
+    instead of hardcoding the string a second time."""
+    import re
+
+    source_files = [
+        REPO_ROOT / "orchestrator" / "signals.py",
+        REPO_ROOT / "orchestrator" / "serving.py",
+        REPO_ROOT / "orchestrator" / "batch.py",
+        REPO_ROOT / "orchestrator" / "engine.py",
+        REPO_ROOT / "orchestrator" / "ingest.py",
+        REPO_ROOT / "orchestrator" / "session.py",
+        REPO_ROOT / "tools" / "mcp_server.py",
+    ]
+    for signal in signals.ALL:
+        pattern = re.compile(r'=\s*"' + re.escape(signal) + r'"')
+        definitions = sum(len(pattern.findall(path.read_text(encoding="utf-8"))) for path in source_files)
+        assert definitions == 1, f"{signal!r} must be assigned as a literal string exactly once, found {definitions}"
 
 
 # --- session-open half of KTD7: seen-state across a build boundary ----------

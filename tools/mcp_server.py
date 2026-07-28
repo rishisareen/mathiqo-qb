@@ -49,7 +49,7 @@ sys.path.insert(0, str(REPO_ROOT))
 from mcp.server.fastmcp import FastMCP  # noqa: E402
 from mcp.server.fastmcp.exceptions import ToolError  # noqa: E402
 
-from orchestrator import engine, serving  # noqa: E402
+from orchestrator import engine, serving, signals  # noqa: E402
 
 INTERFACE_VERSION = "1.0.0-pre"
 
@@ -119,9 +119,9 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         try:
             return facade.sessions.get(session_id)
         except serving.SessionUnknownError as exc:
-            raise ToolError(f"session_unknown: {exc}") from exc
+            raise ToolError(f"{signals.SESSION_UNKNOWN}: {exc}") from exc
         except serving.SessionExpiredError as exc:
-            raise ToolError(f"session_expired: {exc}") from exc
+            raise ToolError(f"{signals.SESSION_EXPIRED}: {exc}") from exc
 
     @mcp.tool()
     def open_session(student_id: str, country: str, curriculum: str, grade: int) -> dict[str, Any]:
@@ -145,7 +145,7 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         except serving.InvalidIdentifierError as exc:
             raise ToolError(str(exc)) from exc
         except serving.ConsumerNotLinkedError as exc:
-            raise ToolError(f"not_linked: {exc}") from exc
+            raise ToolError(f"{signals.NOT_LINKED}: {exc}") from exc
         except serving.SessionConflictError as exc:
             raise ToolError(str(exc)) from exc
         return {
@@ -156,16 +156,23 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
 
     @mcp.tool()
     def get_candidates(session_id: str, skill_id: str) -> dict[str, Any]:
-        """R1, R2: every unseen instance in the pinned bank for
-        (student, skill); on pool exhaustion, exactly the one
-        least-recently-seen repeat, with exhausted=True and an explicit
-        warning (§5.4)."""
+        """R1, R2, R13: every unseen instance in the pinned bank for
+        (student, skill). `signal` is `null` in the ordinary case and one
+        of three explicit strings otherwise (`CandidatesResult`'s own
+        docstring, orchestrator/serving.py): `unknown_skill` (skill_id
+        isn't in the content graph), `empty_pool` (a known skill, but the
+        pinned bank has no instances for it), or `exhausted` (pool
+        exhaustion — the pre-U10 behavior: `instances` holds exactly the
+        one least-recently-seen repeat). `exhausted` (the boolean field)
+        is kept for backward compatibility and is `true` only for the
+        `exhausted` signal."""
         session_obj = _session_or_raise(session_id)
         result = facade.get_candidates(session_obj, skill_id)
         return {
             "bank_version": result.bank_version,
             "instances": result.instances,
             "exhausted": result.exhausted,
+            "signal": result.signal,
             "warning": result.warning,
         }
 
@@ -216,11 +223,16 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
                 consumer_id=consumer_id, now=datetime.now(),
             )
         except serving.ConsumerNotLinkedError as exc:
-            raise ToolError(f"not_linked: {exc}") from exc
+            raise ToolError(f"{signals.NOT_LINKED}: {exc}") from exc
         if outcome.rejection_reason is not None:
-            raise ToolError(f"ingest rejected: {outcome.rejection_reason}")
+            raise ToolError(f"{signals.INGEST_REJECTED}: {outcome.rejection_reason}")
         if outcome.event is None:
-            return {"logged": False, "repeat": False, "discard_reason": outcome.discard_reason}
+            return {
+                "logged": False,
+                "repeat": False,
+                "signal": signals.DISCARDED,
+                "discard_reason": outcome.discard_reason,
+            }
         return {"logged": True, "repeat": outcome.repeat, "event_id": outcome.event["event_id"]}
 
     @mcp.tool()
@@ -237,7 +249,7 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         try:
             facade.close_session(session_obj, consumer_id)
         except serving.ConsumerNotLinkedError as exc:
-            raise ToolError(f"not_linked: {exc}") from exc
+            raise ToolError(f"{signals.NOT_LINKED}: {exc}") from exc
         return {"closed": True}
 
     @mcp.tool()
@@ -252,7 +264,7 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         try:
             closed = facade.close_session_by_student(student_id, consumer_id)
         except serving.ConsumerNotLinkedError as exc:
-            raise ToolError(f"not_linked: {exc}") from exc
+            raise ToolError(f"{signals.NOT_LINKED}: {exc}") from exc
         return {"closed": closed}
 
     @mcp.tool()
@@ -271,7 +283,7 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         except serving.InvalidIdentifierError as exc:
             raise ToolError(str(exc)) from exc
         except serving.ConsumerNotLinkedError as exc:
-            raise ToolError(f"not_linked: {exc}") from exc
+            raise ToolError(f"{signals.NOT_LINKED}: {exc}") from exc
         return _serialize_progress(summary)
 
     @mcp.tool()
@@ -304,7 +316,7 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         except serving.NoActiveBankError as exc:
             raise ToolError("no active bank build is configured for this deployment") from exc
         except serving.ConsumerNotLinkedError as exc:
-            raise ToolError(f"not_linked: {exc}") from exc
+            raise ToolError(f"{signals.NOT_LINKED}: {exc}") from exc
         return _serialize_recommendations(result)
 
     @mcp.tool()

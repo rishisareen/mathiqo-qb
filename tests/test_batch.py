@@ -20,6 +20,7 @@ ceiling) lands exactly on the 0.5 ceiling.
 
 from __future__ import annotations
 
+import threading
 from collections import Counter
 from datetime import datetime
 from pathlib import Path
@@ -27,7 +28,7 @@ from pathlib import Path
 import pytest
 
 from conftest import _bypass_placement
-from orchestrator import batch, constants, engine, serving
+from orchestrator import batch, constants, engine, log as log_module, serving, signals
 from orchestrator.state import StudentModelStore
 
 SKILL_ID = "FRAC.ADD.UNLIKE"
@@ -427,3 +428,244 @@ def test_clamp_batch_size_bounds():
     assert batch.clamp_batch_size(1) == 1
     assert batch.clamp_batch_size(constants.MAX_BATCH_SIZE) == constants.MAX_BATCH_SIZE
     assert batch.clamp_batch_size(constants.MAX_BATCH_SIZE + 1) == constants.MAX_BATCH_SIZE
+
+
+# ---------------------------------------------------------------------------
+# U10: refill semantics (R12, KTD5) and the no_further_items signal (R13)
+# ---------------------------------------------------------------------------
+
+# --- test scenario 1: refill reflects updated (lowered) live theta (AE2) ---
+
+
+def test_refill_after_wrong_answers_produces_lower_difficulty_target_rung(tmp_path, content, bank):
+    """Covers AE2's refill-reflects-updated-state half: wrong, untagged
+    answers submitted against this skill's target-rung items lower theta
+    (log.py's update rule, applied live via submit_attempt); a subsequent
+    refill_batch for the same skill re-plans against that lowered live
+    theta and its target rung lands on FRAC.ADD.UNLIKE's lower depth tier
+    (0.2) instead of the original batch's 0.5. This falls out of
+    fetch_batch/refill_batch sharing the same planning core
+    (_plan_batch_locked), which always reads session.store's live theta —
+    not a refill-only special case."""
+    facade = _facade(content, bank)
+    session = _session(tmp_path, bank, theta=THETA_AT_CEILING)
+
+    original = facade.fetch_batch(session, SKILL_ID, CONSUMER_ID, batch_size=constants.DEFAULT_BATCH_SIZE)
+    original_target_depths = {item.instance["difficulty"] for item in original.items if item.rung == "target"}
+    assert original_target_depths == {0.5}, "sanity: at theta=THETA_AT_CEILING the target rung sits at the ceiling"
+
+    target_items = [item for item in original.items if item.rung == "target"]
+    assert len(target_items) >= 5, "need enough target items to drag theta below the tier midpoint"
+    for i, item in enumerate(target_items[:5]):
+        outcome = facade.submit_attempt(
+            session,
+            attempt_id=f"attempt-wrong-{i}",
+            skill_id=SKILL_ID,
+            instance=item.instance,
+            response_raw="not-a-real-option",
+            response_parsed="not-a-real-option",
+            correct=False,
+            misconception_id=None,
+            hints_used=0,
+            hint_auto_offered=False,
+            time_taken_sec=10.0,
+            timed_out=False,
+            engaged=True,
+            session_last_event=False,
+            context=item.context,
+            consumer_id=CONSUMER_ID,
+            now=NOW,
+        )
+        assert outcome.event is not None, outcome.rejection_reason
+
+    theta_after = session.store.peek(session.student_id, SKILL_ID).theta
+    assert theta_after < THETA_AT_CEILING, "five wrong answers must have lowered theta"
+
+    refill = facade.refill_batch(
+        session, SKILL_ID, CONSUMER_ID, attempts_flushed=True, batch_size=constants.DEFAULT_BATCH_SIZE
+    )
+    assert refill.signal is None
+    assert refill.batch is not None
+    refill_target_depths = {item.instance["difficulty"] for item in refill.batch.items if item.rung == "target"}
+    assert refill_target_depths, "expected at least one target-rung item in the refill"
+    assert max(refill_target_depths) < max(original_target_depths), (
+        "the refill's target rung must sit at a lower difficulty than the original batch's, "
+        "reflecting theta's drop from the wrong answers"
+    )
+
+
+# --- test scenario 2: supersede (KTD5) --------------------------------------
+
+
+def test_refill_supersede_true_when_skill_now_certified_at_or_above_ceiling(tmp_path, content, bank):
+    """KTD5: a refill for a skill whose *real, live* store already shows
+    certified_depth >= its serving ceiling carries supersede=True — checked
+    against session.store directly, never the scratch clone planning
+    uses."""
+    facade = _facade(content, bank)
+    session = _session(tmp_path, bank, theta=THETA_AT_CEILING)
+    ceiling = engine.serving_ceiling(SKILL_ID, COUNTRY, CURRICULUM, GRADE, content)
+    session.store.get(session.student_id, SKILL_ID).certified_depth = ceiling
+
+    refill = facade.refill_batch(session, SKILL_ID, CONSUMER_ID, attempts_flushed=True)
+    assert refill.supersede is True
+
+
+def test_refill_supersede_true_when_remediation_dose_freshly_queued_for_skill(tmp_path, content, bank):
+    """KTD5's second supersede condition: a RemediationDose now queued for
+    this exact skill_id in engine_state.remediation_queue, independent of
+    certification."""
+    facade = _facade(content, bank)
+    session = _session(tmp_path, bank, theta=THETA_AT_CEILING)
+    session.engine_state.remediation_queue.append(
+        engine.RemediationDose(skill_id=SKILL_ID, trigger_skill_id=SKILL_ID, misconception_id="MISC.WHATEVER")
+    )
+
+    refill = facade.refill_batch(session, SKILL_ID, CONSUMER_ID, attempts_flushed=True)
+    assert refill.supersede is True
+
+
+def test_refill_supersede_false_for_an_ordinary_refill_with_no_plan_change(tmp_path, content, bank):
+    """An ordinary refill -- no certification crossing, no remediation dose
+    queued for this skill -- carries supersede=False."""
+    facade = _facade(content, bank)
+    session = _session(tmp_path, bank, theta=THETA_AT_CEILING)
+
+    refill = facade.refill_batch(session, SKILL_ID, CONSUMER_ID, attempts_flushed=True)
+    assert refill.supersede is False
+
+
+def test_refill_supersede_false_when_remediation_dose_is_queued_for_a_different_skill(tmp_path, content, bank):
+    """The remediation-dose half of supersede is scoped to this exact
+    skill_id -- a dose queued for some other skill must not flip
+    supersede for this refill."""
+    facade = _facade(content, bank)
+    session = _session(tmp_path, bank, theta=THETA_AT_CEILING)
+    session.engine_state.remediation_queue.append(
+        engine.RemediationDose(skill_id="FRAC.ADD.LIKE", trigger_skill_id="FRAC.ADD.LIKE", misconception_id="MISC.X")
+    )
+
+    refill = facade.refill_batch(session, SKILL_ID, CONSUMER_ID, attempts_flushed=True)
+    assert refill.supersede is False
+
+
+# --- test scenario 4: no_further_items, and a clean repeat (R13) -----------
+
+
+def test_refill_with_nothing_left_returns_no_further_items_and_repeats_cleanly(tmp_path, content, bank):
+    """R13: once a batch has delivered an entire (tiny) pool, a refill for
+    the same skill returns the explicit no_further_items signal rather
+    than an empty BatchResult -- and an immediate second refill returns the
+    same signal again, cleanly (no loop, no different error)."""
+    full_pool = bank.instances_by_skill[SKILL_ID]
+    small_pool = full_pool[:4]  # bank.instances_by_skill is sorted ascending by difficulty (load_bank) --
+    # this slice is entirely the skill's lowest depth tier.
+    tiny_bank = engine.BankIndex(
+        bank_version=bank.bank_version,
+        instances_by_skill={SKILL_ID: small_pool},
+        by_id={inst["item_instance_id"]: inst for inst in small_pool},
+    )
+    facade = _facade(content, tiny_bank)
+    session = _session(tmp_path, tiny_bank)
+
+    first = facade.fetch_batch(session, SKILL_ID, CONSUMER_ID, batch_size=constants.DEFAULT_BATCH_SIZE)
+    assert first.count_returned == len(small_pool), "the whole tiny pool should fit in one batch"
+    assert session.delivered == {item.instance["variant_signature"] for item in first.items}
+
+    refill1 = facade.refill_batch(session, SKILL_ID, CONSUMER_ID, attempts_flushed=True)
+    assert refill1.batch is None
+    assert refill1.signal == signals.NO_FURTHER_ITEMS
+
+    refill2 = facade.refill_batch(session, SKILL_ID, CONSUMER_ID, attempts_flushed=True)
+    assert refill2.batch is None
+    assert refill2.signal == signals.NO_FURTHER_ITEMS
+
+
+# --- test scenario 5: concurrent refill_batch + submit_attempt (KTD17) -----
+
+
+def test_concurrent_refill_and_submit_attempt_are_serialized_by_the_session_lock(tmp_path, content, bank):
+    """KTD17: refill_batch and submit_attempt dispatched concurrently
+    against the same *registered* session (so `_lock_for` resolves a real
+    `threading.Lock`, not the no-op used for an ephemeral, never-registered
+    Session) must serialize -- the observable result must be exactly as if
+    the two calls ran one after another: no torn engine_state, no
+    interleaved/lost log line, no exception from either side."""
+    facade = _facade(content, bank)
+    session = _session(tmp_path, bank)
+    facade.sessions.register_or_conflict(session, CONSUMER_ID)
+
+    # The highest-difficulty instance in the pool: fetch_batch/refill_batch
+    # target/harder-rung picks at THETA_AT_CEILING land on the 0.5 tier too,
+    # but this instance is submitted directly, independent of whatever the
+    # concurrent refill happens to plan, so the two calls' effects stay
+    # cleanly separable in the assertions below.
+    submit_instance = bank.instances_by_skill[SKILL_ID][-1]
+
+    barrier = threading.Barrier(2)
+    errors = []
+    refill_results = []
+
+    def _refill() -> None:
+        barrier.wait()
+        try:
+            refill_results.append(
+                facade.refill_batch(
+                    session, SKILL_ID, CONSUMER_ID, attempts_flushed=True, batch_size=constants.DEFAULT_BATCH_SIZE
+                )
+            )
+        except BaseException as exc:  # noqa: BLE001 - surfaced via assertion below, not swallowed
+            errors.append(exc)
+
+    def _submit() -> None:
+        barrier.wait()
+        try:
+            facade.submit_attempt(
+                session,
+                attempt_id="attempt-concurrent",
+                skill_id=SKILL_ID,
+                instance=submit_instance,
+                response_raw=submit_instance["answer"],
+                response_parsed=submit_instance["answer"],
+                correct=True,
+                misconception_id=None,
+                hints_used=0,
+                hint_auto_offered=False,
+                time_taken_sec=5.0,
+                timed_out=False,
+                engaged=True,
+                session_last_event=False,
+                context="practice",
+                consumer_id=CONSUMER_ID,
+                now=NOW,
+            )
+        except BaseException as exc:  # noqa: BLE001
+            errors.append(exc)
+
+    threads = [threading.Thread(target=_refill), threading.Thread(target=_submit)]
+    for t in threads:
+        t.start()
+    for t in threads:
+        t.join()
+
+    assert not errors, f"concurrent refill_batch/submit_attempt raised: {errors}"
+    assert len(refill_results) == 1
+
+    # No torn engine_state: the submitted instance's variant_signature is
+    # recorded seen exactly once (not zero, not duplicated by an
+    # interleaved read-modify-write).
+    seen = session.engine_state.seen_history.get(SKILL_ID, [])
+    assert seen.count(submit_instance["variant_signature"]) == 1
+
+    # No interleaved/lost log line: exactly the one submitted attempt.
+    logged = list(log_module.iter_events(session.log_path))
+    assert len(logged) == 1
+    assert logged[0]["item_instance_id"] == submit_instance["item_instance_id"]
+
+    # The refill's own delivered signatures (if it found any) landed
+    # cleanly in session.delivered -- no lost write from running under the
+    # same lock as the concurrent submit_attempt.
+    refill_result = refill_results[0]
+    if refill_result.batch is not None:
+        delivered_sigs = {item.instance["variant_signature"] for item in refill_result.batch.items}
+        assert delivered_sigs <= session.delivered
