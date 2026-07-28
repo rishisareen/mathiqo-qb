@@ -40,8 +40,9 @@ from collections import OrderedDict
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional
+from typing import Dict, List, Optional, Set
 
+from . import batch as batch_module
 from . import catalog as catalog_module
 from . import constants
 from . import engine
@@ -208,7 +209,18 @@ class Session:
     idempotency design" note in the U6 plan). Defaulted to an empty dict for
     the same reason `country`/`curriculum`/`grade` default to `None`: the
     internal session runner's own direct `Session(...)` construction
-    (`orchestrator/session.py`'s `_apply_and_log`) doesn't pass this."""
+    (`orchestrator/session.py`'s `_apply_and_log`) doesn't pass this.
+
+    U9 (KTD5): `delivered` is this session's scratch record for batch
+    planning — every `variant_signature` `fetch_batch` has returned in this
+    session but that has not (yet, or ever) been *attempted*. Purely
+    in-memory, dies with the session (R11: an item delivered but never
+    attempted returns to the pool for a future batch — nothing here is
+    durable, and nothing ever writes it to the log or replays it back on a
+    fresh `open_session`, unlike `engine_state.seen_history`). Defaulted to
+    an empty set for the same reason `accepted_attempts` is: the internal
+    session runner's own direct `Session(...)` construction doesn't set
+    it."""
 
     session_id: str
     student_id: str
@@ -220,6 +232,7 @@ class Session:
     curriculum: Optional[str] = None
     grade: Optional[int] = None
     accepted_attempts: Dict[str, "SubmitOutcome"] = field(default_factory=dict)
+    delivered: Set[str] = field(default_factory=set)
 
 
 @dataclass
@@ -699,6 +712,81 @@ class ServingFacade:
         return CandidatesResult(
             bank_version=session.bank.bank_version, instances=[chosen], exhausted=True, warning=warning
         )
+
+    def fetch_batch(
+        self,
+        session: Session,
+        skill_id: str,
+        consumer_id: str,
+        batch_size: int = constants.DEFAULT_BATCH_SIZE,
+    ) -> batch_module.BatchResult:
+        """U9 (R8-R11, R18, KD1, KD2): a server-planned, difficulty-laddered
+        working set for one (student, skill) — the batch-serving sibling of
+        `get_candidates`'s single-skill scoping, not routed through
+        `rank_serve_candidates`'s cross-skill priority chain (that stays
+        `select_next`/`recommend_next`'s job; a partner requesting a batch
+        has already chosen which skill it wants practiced).
+
+        R17: refuses with `ConsumerNotLinkedError` before touching anything
+        if `self.identity` is configured and `consumer_id` isn't linked to
+        `session.student_id` (mirrors every other student-scoped operation
+        on this facade).
+
+        KTD17: runs under this session's own lock (`_lock_for` — a no-op
+        lock for the internal session runner's ephemeral, never-registered
+        `Session` objects, same as `submit_attempt`) — batch planning reads
+        `session.engine_state` and reads/writes `session.delivered`, both
+        session-owned state two concurrent calls against the same session
+        must not race on.
+
+        KTD2's scratch-clone discipline: plans against a scratch clone of
+        `session.engine_state` (`engine._copy_engine_state`, the same
+        no-aliasing copy `recommend_next` uses) and never touches
+        `session.store` — only an accepted `submit_attempt` may write
+        durable state. The one piece of state this method *does* mutate is
+        `session.delivered`, updated with every returned item's
+        `variant_signature` only after the plan (including the feedback
+        sidecar, which can raise `batch_module.BatchPlanningError`) has
+        fully succeeded — a raised AE8 violation leaves `session.delivered`
+        exactly as it was, same as a rejected `submit_attempt` leaves
+        `session.store` untouched.
+        """
+        self._check_linked(consumer_id, session.student_id)
+        with self._lock_for(session):
+            self.sessions.touch(session.session_id)
+            clamped_size = batch_module.clamp_batch_size(batch_size)
+            scratch_state = engine._copy_engine_state(session.engine_state)
+            planned = batch_module.plan_ladder(
+                session.store,
+                scratch_state,
+                self.content,
+                session.bank,
+                session.student_id,
+                skill_id,
+                session.country,
+                session.curriculum,
+                session.grade,
+                clamped_size,
+                session.delivered,
+            )
+            sidecar = batch_module.build_feedback_sidecar(self.content, planned)
+            policy = batch_module.build_policy_v1()
+
+            for item in planned:
+                session.delivered.add(item.instance["variant_signature"])
+
+            return batch_module.BatchResult(
+                batch_id=batch_module.new_batch_id(),
+                student_id=session.student_id,
+                skill_id=skill_id,
+                items=planned,
+                count_requested=clamped_size,
+                count_returned=len(planned),
+                policy=policy,
+                feedback_sidecar=sidecar,
+                bank_version=session.bank.bank_version,
+                content_version=self.content.content_version,
+            )
 
     def submit_attempt(
         self,

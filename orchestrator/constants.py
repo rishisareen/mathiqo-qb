@@ -122,3 +122,33 @@ TIMEOUT_MULTIPLIER: float = 3.0
 # per-consumer repeat-flag rates (R7) can distinguish it from external
 # orchestrators without a second identity mechanism.
 CONSUMER_ID_INTERNAL: str = "internal.reference"
+
+# --- U9: ladder batch planner (R8-R11, R18, KD1, KD2, KTD5, KTD8) -----------
+# Planning Contract Assumptions from the plan: tunable sizing constants, not
+# architecture — a pilot's tuning pass has this one place to touch them, same
+# status as every other constant in this file (see module docstring).
+
+# R8: default batch size a partner gets when it doesn't specify one, and the
+# server-enforced cap on what it may request instead. batch_size=1 is the
+# degenerate per-turn case (KD1, AE4) — not a separate code path, just a
+# smaller `orchestrator/batch.py`'s `compute_mix` result.
+DEFAULT_BATCH_SIZE: int = 10
+MAX_BATCH_SIZE: int = 20
+
+# KD2/R10: the low-water mark named in every batch's shipped policy object
+# (`rules.on_buffer_low`) — the client-side signal for "ask for a refill
+# soon", not something this server enforces itself.
+BATCH_LOW_WATER: int = 3
+
+# The ~6/2/2 ladder mix out of a batch of DEFAULT_BATCH_SIZE (target rung /
+# easier-diagnostic rung / harder-or-follow-up rung) that
+# `orchestrator/batch.py`'s `compute_mix` scales proportionally to whatever
+# batch_size a partner actually requests.
+BATCH_MIX_TARGET: int = 6
+BATCH_MIX_EASIER: int = 2
+BATCH_MIX_HARDER: int = 2
+
+# KTD8: the branching-policy object's own version tag, so a not-yet-existing
+# v1.1+ client can tell which shape it's holding and a future negotiation
+# layer has something to key off. Only "1.0" exists today.
+BATCH_POLICY_VERSION: str = "1.0"

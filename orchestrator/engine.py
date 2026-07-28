@@ -79,6 +79,16 @@ class SkillNode:
 class MisconceptionEntry:
     misconception_id: str
     remediation_target: str
+    # U9 (R18/AE8, KD10): child-facing instant-feedback text, keyed by
+    # language (e.g. "en-IN") — schemas/misconception.schema.json's
+    # child_feedback_i18n, authored in U3 but never previously carried onto
+    # this dataclass (only remediation_target was, since nothing before U9
+    # needed the feedback text itself, only the remediation skill it points
+    # to). Defaulted to an empty dict so any earlier direct construction of
+    # this frozen dataclass elsewhere keeps working unchanged (mirrors the
+    # "new field defaults so existing construction sites don't break"
+    # discipline `Session`'s own new fields already follow).
+    child_feedback_i18n: Dict[str, str] = field(default_factory=dict)
 
 
 @dataclass(frozen=True)
@@ -182,6 +192,7 @@ def load_content(content_dir: Path) -> ContentIndex:
         m["misconception_id"]: MisconceptionEntry(
             misconception_id=m["misconception_id"],
             remediation_target=m["remediation_target"],
+            child_feedback_i18n=dict(m.get("child_feedback_i18n") or {}),
         )
         for m in raw_misc
     }
