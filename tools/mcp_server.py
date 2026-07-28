@@ -61,6 +61,7 @@ FACADE_OPERATIONS = (
     "get_candidates",
     "submit_attempt",
     "close_session",
+    "close_session_by_student",
     "get_student_progress",
 )
 
@@ -86,33 +87,47 @@ def _serialize_progress(summary: serving.ProgressSummary) -> dict[str, Any]:
 
 
 def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "mathiqo-serving") -> FastMCP:
-    """Wires `FACADE_OPERATIONS` up as MCP tools over `facade`, holding
-    opened `serving.Session` objects in an in-memory registry keyed by a
-    server-minted `session_id` — the one piece of state an MCP tool call
-    (itself stateless) needs from the previous call in the same
-    conversation."""
+    """Wires `FACADE_OPERATIONS` up as MCP tools over `facade`. Session
+    state itself lives in `facade.sessions` (U5's `SessionRegistry`,
+    KTD12) — this server no longer keeps its own session dict, only
+    resolves a caller's `session_id` against the shared registry on every
+    call, so a later REST transport sharing the same `facade` (same
+    process, KTD15) sees the same live sessions."""
     mcp = FastMCP(name)
-    sessions: dict[str, serving.Session] = {}
 
     def _session_or_raise(session_id: str) -> serving.Session:
-        session_obj = sessions.get(session_id)
-        if session_obj is None:
-            raise ToolError(f"unknown session_id {session_id!r} — call open_session first")
-        return session_obj
+        try:
+            return facade.sessions.get(session_id)
+        except serving.SessionUnknownError as exc:
+            raise ToolError(f"session_unknown: {exc}") from exc
+        except serving.SessionExpiredError as exc:
+            raise ToolError(f"session_expired: {exc}") from exc
 
     @mcp.tool()
-    def open_session(student_id: str) -> dict[str, Any]:
-        """Open a session pinned to the currently active bank build (R3).
+    def open_session(student_id: str, country: str, curriculum: str, grade: int) -> dict[str, Any]:
+        """Open a session pinned to the currently active bank build (R3)
+        and to `country`/`curriculum`/`grade` (KTD3) for its whole life.
         Returns the session_id every other tool call needs, and the
-        bank_version it pinned (visible on every response, R3)."""
+        bank_version it pinned (visible on every response, R3).
+
+        R17: refused (`not_linked`) if this server's `consumer_id` isn't
+        linked to `student_id` (only when the facade was configured with
+        an identity registry). R20/AE9: refused (`session_conflict`) if a
+        *different* consumer already has a live session for this student
+        — the error names `close_session_by_student` as the recovery
+        path; a same-consumer reopen instead takes over silently (the
+        prior session is closed and this one opens fresh)."""
         session_id = f"sess-{uuid.uuid4().hex}"
         try:
-            session_obj = facade.open_session(session_id, student_id)
+            session_obj = facade.open_session(session_id, student_id, country, curriculum, grade, consumer_id)
         except serving.NoActiveBankError as exc:
             raise ToolError("no active bank build is configured for this deployment") from exc
         except serving.InvalidIdentifierError as exc:
             raise ToolError(str(exc)) from exc
-        sessions[session_id] = session_obj
+        except serving.ConsumerNotLinkedError as exc:
+            raise ToolError(f"not_linked: {exc}") from exc
+        except serving.SessionConflictError as exc:
+            raise ToolError(str(exc)) from exc
         return {
             "session_id": session_id,
             "student_id": student_id,
@@ -163,14 +178,17 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         if instance is None:
             raise ToolError(f"unresolvable_instance: {item_instance_id!r} is not in this session's pinned bank")
 
-        outcome = facade.submit_attempt(
-            session_obj, skill_id, instance,
-            response_raw=response_raw, response_parsed=response_parsed, correct=correct,
-            misconception_id=misconception_id, hints_used=hints_used, hint_auto_offered=hint_auto_offered,
-            time_taken_sec=time_taken_sec, timed_out=timed_out, engaged=engaged,
-            session_last_event=session_last_event, context=context,
-            consumer_id=consumer_id, now=datetime.now(),
-        )
+        try:
+            outcome = facade.submit_attempt(
+                session_obj, skill_id, instance,
+                response_raw=response_raw, response_parsed=response_parsed, correct=correct,
+                misconception_id=misconception_id, hints_used=hints_used, hint_auto_offered=hint_auto_offered,
+                time_taken_sec=time_taken_sec, timed_out=timed_out, engaged=engaged,
+                session_last_event=session_last_event, context=context,
+                consumer_id=consumer_id, now=datetime.now(),
+            )
+        except serving.ConsumerNotLinkedError as exc:
+            raise ToolError(f"not_linked: {exc}") from exc
         if outcome.rejection_reason is not None:
             raise ToolError(f"ingest rejected: {outcome.rejection_reason}")
         if outcome.event is None:
@@ -179,13 +197,35 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
 
     @mcp.tool()
     def close_session(session_id: str) -> dict[str, Any]:
-        """Ends the session (a no-op on the facade side, KTD6 parity —
-        see ServingFacade.close_session) and drops it from this server's
-        registry."""
-        session_obj = sessions.pop(session_id, None)
-        if session_obj is not None:
-            facade.close_session(session_obj)
+        """Ends the session: R17's link check, then removes it from the
+        shared registry (`facade.sessions`) — `closed` is `false`, not an
+        error, when `session_id` names a session that's already closed,
+        idle-evicted, or was never opened (mirrors the pre-U5 stateless
+        close's tolerance of a redundant call)."""
+        try:
+            session_obj = facade.sessions.get(session_id)
+        except (serving.SessionUnknownError, serving.SessionExpiredError):
+            return {"closed": False}
+        try:
+            facade.close_session(session_obj, consumer_id)
+        except serving.ConsumerNotLinkedError as exc:
+            raise ToolError(f"not_linked: {exc}") from exc
         return {"closed": True}
+
+    @mcp.tool()
+    def close_session_by_student(student_id: str) -> dict[str, Any]:
+        """KTD6 point 5 / R20's recovery path: close whatever session is
+        currently live for `student_id`, keyed by student rather than
+        session_id — the path a client that crashed and lost its
+        session_id needs. Any consumer linked to `student_id` may do this
+        regardless of who opened the session; the closure is attributed
+        to this server's own `consumer_id` (the caller), not the
+        session's original opener."""
+        try:
+            closed = facade.close_session_by_student(student_id, consumer_id)
+        except serving.ConsumerNotLinkedError as exc:
+            raise ToolError(f"not_linked: {exc}") from exc
+        return {"closed": closed}
 
     @mcp.tool()
     def get_student_progress(session_id: str) -> dict[str, Any]:
@@ -193,7 +233,10 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         per-skill seen count) — the same shape tools/replay_audit.py (U7)
         reproduces from a log alone."""
         session_obj = _session_or_raise(session_id)
-        summary = facade.get_progress(session_obj, datetime.now())
+        try:
+            summary = facade.get_progress(session_obj, datetime.now(), consumer_id)
+        except serving.ConsumerNotLinkedError as exc:
+            raise ToolError(f"not_linked: {exc}") from exc
         return _serialize_progress(summary)
 
     @mcp.tool()

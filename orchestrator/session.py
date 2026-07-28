@@ -499,6 +499,9 @@ def _apply_and_log(
     engaged: bool,
     session_last_event: bool,
     now: datetime,
+    country: Optional[str] = None,
+    curriculum: Optional[str] = None,
+    grade: Optional[int] = None,
 ) -> Optional[Tuple[float, float, "engine.EngineState", dict]]:
     """U6: delegates to `orchestrator/serving.py`'s `submit_attempt` (KTD6)
     rather than composing the student-model update itself — kept as a
@@ -517,6 +520,18 @@ def _apply_and_log(
     should never fire for a well-behaved internal caller, since every field
     ingest checks against the submitting session (bank_version, student_id,
     session_id, variant_signature) is always this same session's own.
+
+    U5: `country`/`curriculum`/`grade` (optional, default `None` — this
+    function's own direct tests in tests/test_session.py don't need to
+    supply them) are pinned onto the ephemeral `serving.Session` this
+    function constructs if given. `run_session`'s call sites always pass
+    them (it has them on hand as its own parameters) even though
+    `submit_attempt` itself doesn't read them off `Session` today — this
+    ephemeral session is never registered in any `SessionRegistry` (only
+    `ServingFacade.open_session` registers one), so the U5 link check
+    (`self.identity`) and per-session lock don't apply to it; the facade
+    built here is still constructed without an `identity` argument, as it
+    always has been.
     """
     facade = serving.ServingFacade(
         banks_dir=None, logs_dir=None, content=content,
@@ -525,6 +540,7 @@ def _apply_and_log(
     session_obj = serving.Session(
         session_id=session_id, student_id=student_id, bank=bank,
         log_path=log_path, store=store, engine_state=engine_state,
+        country=country, curriculum=curriculum, grade=grade,
     )
     outcome = facade.submit_attempt(
         session_obj, serve.skill_id, instance,
@@ -622,6 +638,7 @@ def run_session(
         session_obj = serving.Session(
             session_id=session_id, student_id=student_id, bank=bank,
             log_path=log_path, store=store, engine_state=engine_state,
+            country=country, curriculum=curriculum, grade=grade,
         )
         result = facade.get_candidates(session_obj, skill_id)
         if result.exhausted:
@@ -707,6 +724,9 @@ def run_session(
                     engaged=collected.engaged,
                     session_last_event=session_last_event,
                     now=now,
+                    country=country,
+                    curriculum=curriculum,
+                    grade=grade,
                 )
             except serving.IngestRejectedError as exc:
                 notify(f"[error] attempt rejected: {exc} — ending session.")
@@ -740,6 +760,9 @@ def run_session(
                 engaged=True,
                 session_last_event=False,
                 now=now,
+                country=country,
+                curriculum=curriculum,
+                grade=grade,
             )
         except serving.IngestRejectedError as exc:
             notify(f"[error] attempt rejected: {exc} — ending session.")

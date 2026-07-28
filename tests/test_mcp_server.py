@@ -25,6 +25,7 @@ pytest.importorskip("mcp")
 import bank_build
 from conftest import REPO_ROOT
 from orchestrator import engine, log as log_module, serving
+from orchestrator.identity import IdentityRegistry
 
 mcp_server = pytest.importorskip("mcp_server")
 from mcp.shared.memory import create_connected_server_and_client_session  # noqa: E402
@@ -33,6 +34,15 @@ TEMPLATES_DIR = REPO_ROOT / "content" / "templates"
 LOCALE_PACK = REPO_ROOT / "content" / "locales" / "en-IN.yaml"
 NUM_TEMPLATE = TEMPLATES_DIR / "TPL.FRAC.ADD.LIKE.NUM.001.yaml"
 SKILL_ID = "FRAC.ADD.LIKE"
+
+# U5: open_session now requires country/curriculum/grade (KTD3's pin).
+DEFAULT_OPEN_EXTRA = {"country": "IN", "curriculum": "NCERT", "grade": 6}
+
+
+def _open_args(student_id: str, **overrides) -> dict:
+    args = {"student_id": student_id, **DEFAULT_OPEN_EXTRA}
+    args.update(overrides)
+    return args
 
 
 def _templates_dir(tmp_path: Path) -> Path:
@@ -47,8 +57,7 @@ def content() -> engine.ContentIndex:
     return engine.load_content(REPO_ROOT / "content" / "fractions")
 
 
-@pytest.fixture()
-def facade(tmp_path: Path, content: engine.ContentIndex) -> serving.ServingFacade:
+def _build_facade(tmp_path: Path, content: engine.ContentIndex, **facade_kwargs) -> serving.ServingFacade:
     banks_dir = tmp_path / "banks"
     banks_dir.mkdir()
     manifest, per_template = bank_build.run_build(_templates_dir(tmp_path), LOCALE_PACK, "mcp-build", pool_cap=5)
@@ -56,7 +65,24 @@ def facade(tmp_path: Path, content: engine.ContentIndex) -> serving.ServingFacad
     (banks_dir / serving.ACTIVE_POINTER_NAME).write_text("mcp-build", encoding="utf-8")
     logs_dir = tmp_path / "logs"
     logs_dir.mkdir()
-    return serving.ServingFacade(banks_dir, logs_dir, content)
+    return serving.ServingFacade(banks_dir, logs_dir, content, **facade_kwargs)
+
+
+@pytest.fixture()
+def facade(tmp_path: Path, content: engine.ContentIndex) -> serving.ServingFacade:
+    return _build_facade(tmp_path, content)
+
+
+@pytest.fixture()
+def identity_registry(tmp_path: Path) -> IdentityRegistry:
+    return IdentityRegistry(tmp_path / "identity" / "registry.jsonl")
+
+
+@pytest.fixture()
+def linked_facade(
+    tmp_path: Path, content: engine.ContentIndex, identity_registry: IdentityRegistry
+) -> serving.ServingFacade:
+    return _build_facade(tmp_path, content, identity=identity_registry)
 
 
 def _run(coro):
@@ -109,7 +135,7 @@ def test_smoke_open_get_candidates_submit_progress(facade: serving.ServingFacade
 
     async def flow():
         async with create_connected_server_and_client_session(server) as client:
-            opened = await client.call_tool("open_session", {"student_id": "stu-smoke"})
+            opened = await client.call_tool("open_session", _open_args("stu-smoke"))
             assert not opened.isError
             session_id = opened.structuredContent["session_id"]
             assert opened.structuredContent["bank_version"] == "mcp-build"
@@ -145,7 +171,7 @@ def test_forged_consumer_id_in_payload_is_stamped_with_the_servers_own(facade: s
 
     async def flow():
         async with create_connected_server_and_client_session(server) as client:
-            opened = await client.call_tool("open_session", {"student_id": "stu-forge"})
+            opened = await client.call_tool("open_session", _open_args("stu-forge"))
             session_id = opened.structuredContent["session_id"]
             candidates = await client.call_tool("get_candidates", {"session_id": session_id, "skill_id": SKILL_ID})
             instance = candidates.structuredContent["instances"][0]
@@ -175,7 +201,7 @@ def test_get_student_progress_returns_declared_shape(facade: serving.ServingFaca
 
     async def flow() -> dict:
         async with create_connected_server_and_client_session(server) as client:
-            opened = await client.call_tool("open_session", {"student_id": "stu-shape"})
+            opened = await client.call_tool("open_session", _open_args("stu-shape"))
             session_id = opened.structuredContent["session_id"]
             candidates = await client.call_tool("get_candidates", {"session_id": session_id, "skill_id": SKILL_ID})
             instance = candidates.structuredContent["instances"][0]
@@ -233,9 +259,141 @@ def test_no_active_bank_raises_generic_error_without_the_banks_dir_path(tmp_path
 
     async def flow():
         async with create_connected_server_and_client_session(server) as client:
-            return await client.call_tool("open_session", {"student_id": "stu-noactive"})
+            return await client.call_tool("open_session", _open_args("stu-noactive"))
 
     result = _run(flow())
     assert result.isError
     text = result.content[0].text
     assert str(banks_dir) not in text
+
+
+# --- U5: link enforcement over MCP (R17, AE6) --------------------------------
+
+
+def test_open_session_refused_for_unlinked_consumer_over_mcp(
+    linked_facade: serving.ServingFacade, identity_registry: IdentityRegistry
+) -> None:
+    student_id = identity_registry.register_student({"guardian_email": "a@example.com"}, consumer_id="partner.owner")
+    server = mcp_server.build_server(linked_facade, "partner.stranger")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            return await client.call_tool("open_session", _open_args(student_id))
+
+    result = _run(flow())
+    assert result.isError
+    assert "not_linked" in result.content[0].text
+
+    identity_registry.link_student(student_id, {"guardian_email": "a@example.com"}, consumer_id="partner.stranger")
+
+    async def flow2():
+        async with create_connected_server_and_client_session(server) as client:
+            return await client.call_tool("open_session", _open_args(student_id))
+
+    result2 = _run(flow2())
+    assert not result2.isError
+
+
+# --- U5: session conflict + takeover-on-open over MCP (R20, AE9) ------------
+
+
+def test_cross_consumer_open_over_mcp_is_refused_with_conflict_signal(facade: serving.ServingFacade) -> None:
+    server_a = mcp_server.build_server(facade, "partner.a")
+    server_b = mcp_server.build_server(facade, "partner.b")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server_a) as client_a:
+            opened = await client_a.call_tool("open_session", _open_args("stu-conflict"))
+            session_id_a = opened.structuredContent["session_id"]
+
+            async with create_connected_server_and_client_session(server_b) as client_b:
+                conflict = await client_b.call_tool("open_session", _open_args("stu-conflict"))
+                assert conflict.isError
+                assert "session_conflict" in conflict.content[0].text
+                assert "close_session_by_student" in conflict.content[0].text
+
+            # The first consumer's session is unaffected.
+            candidates = await client_a.call_tool(
+                "get_candidates", {"session_id": session_id_a, "skill_id": SKILL_ID}
+            )
+            assert not candidates.isError
+
+    _run(flow())
+
+
+def test_same_consumer_reopen_over_mcp_takes_over(facade: serving.ServingFacade) -> None:
+    server = mcp_server.build_server(facade, "partner.a")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            first = await client.call_tool("open_session", _open_args("stu-takeover"))
+            first_session_id = first.structuredContent["session_id"]
+
+            second = await client.call_tool("open_session", _open_args("stu-takeover"))
+            assert not second.isError
+            second_session_id = second.structuredContent["session_id"]
+            assert second_session_id != first_session_id
+
+            # The prior session is gone — closed by takeover.
+            stale = await client.call_tool(
+                "get_candidates", {"session_id": first_session_id, "skill_id": SKILL_ID}
+            )
+            assert stale.isError
+
+    _run(flow())
+
+
+# --- U5: close_session_by_student recovery path (KTD6 point 5) --------------
+
+
+def test_close_session_by_student_over_mcp_recovers_an_orphaned_session(
+    linked_facade: serving.ServingFacade, identity_registry: IdentityRegistry
+) -> None:
+    student_id = identity_registry.register_student({"guardian_email": "f@example.com"}, consumer_id="partner.owner")
+    identity_registry.link_student(student_id, {"guardian_email": "f@example.com"}, consumer_id="partner.helper")
+
+    server_owner = mcp_server.build_server(linked_facade, "partner.owner")
+    server_helper = mcp_server.build_server(linked_facade, "partner.helper")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server_owner) as owner_client:
+            opened = await owner_client.call_tool("open_session", _open_args(student_id))
+            session_id = opened.structuredContent["session_id"]
+
+        async with create_connected_server_and_client_session(server_helper) as helper_client:
+            closed = await helper_client.call_tool("close_session_by_student", {"student_id": student_id})
+            assert not closed.isError
+            assert closed.structuredContent["closed"] is True
+
+        # A fresh open for the same student now succeeds — nothing live
+        # was left blocking it.
+        async with create_connected_server_and_client_session(server_owner) as owner_client2:
+            reopened = await owner_client2.call_tool("open_session", _open_args(student_id))
+            assert not reopened.isError
+            assert reopened.structuredContent["session_id"] != session_id
+
+    _run(flow())
+
+
+# --- U5: session_unknown vs session_expired over MCP (KTD4) -----------------
+
+
+def test_session_unknown_vs_session_expired_over_mcp(tmp_path: Path, content: engine.ContentIndex) -> None:
+    facade = _build_facade(tmp_path, content, session_ttl_seconds=0.05)
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            never_issued = await client.call_tool(
+                "get_candidates", {"session_id": "sess-never-issued", "skill_id": SKILL_ID}
+            )
+
+            opened = await client.call_tool("open_session", _open_args("stu-ttl"))
+            session_id = opened.structuredContent["session_id"]
+            await asyncio.sleep(0.15)
+            expired = await client.call_tool("get_candidates", {"session_id": session_id, "skill_id": SKILL_ID})
+            return never_issued, expired
+
+    never_issued, expired = _run(flow())
+    assert never_issued.isError and "session_unknown" in never_issued.content[0].text
+    assert expired.isError and "session_expired" in expired.content[0].text

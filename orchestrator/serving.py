@@ -30,8 +30,13 @@ mirrored onto `schemas/attempt-event.schema.json`'s `student_id`.
 
 from __future__ import annotations
 
+import contextlib
+import logging
 import re
+import threading
+import time
 import uuid
+from collections import OrderedDict
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
@@ -45,11 +50,31 @@ from .identity import IdentityRegistry
 from .state import StudentModelStore, certification_status
 from .update import Attempt
 
+logger = logging.getLogger(__name__)
+
 ACTIVE_POINTER_NAME = "ACTIVE"
 
 # Point 3: alphanumerics, dot, dash, underscore; bounded length; no path
 # separators. Mirrored onto schemas/attempt-event.schema.json's student_id.
 IDENTIFIER_PATTERN = re.compile(r"^[A-Za-z0-9._-]{1,128}$")
+
+# U5/KTD12: idle-eviction TTL for a registered serving session. Chosen to
+# comfortably span a plausible gap between practice bursts in one sitting
+# (a student pausing for a snack, a hint discussion with a parent, a
+# distraction) without holding a crashed/abandoned session's engine_state
+# and lock indefinitely. Not a capacity cap — purely idle-time-based. A
+# named constant, per the plan, so a pilot's tuning pass has one place to
+# touch it.
+SESSION_TTL_SECONDS: float = 30 * 60  # 30 minutes
+
+# U5: how many recently-evicted session_ids this registry remembers, so a
+# lookup on one of them can be told apart from a session_id this registry
+# never issued at all (session_expired vs session_unknown, KTD4). Bounded
+# rather than unbounded so a long-running server's memory doesn't grow
+# forever off of nothing but the eviction traffic itself; an id evicted
+# long enough ago (more evictions than this since) ages out and falls back
+# to the "unknown" reading, which is an accepted, documented approximation.
+EXPIRED_SESSION_MEMORY: int = 1024
 
 
 class ServingError(Exception):
@@ -72,6 +97,51 @@ class NoIdentityRegistryError(ServingError):
     constructed without an `IdentityRegistry` (the constructor's `identity`
     param defaults to `None` — most callers, and every existing test that
     predates U4, never configure one)."""
+
+
+class ConsumerNotLinkedError(ServingError):
+    """R17: `self.identity` is configured and `IdentityRegistry.is_linked`
+    says the calling `consumer_id` has no link to `student_id` — refused
+    before the operation touches any session/log state. Distinct from
+    `NoIdentityRegistryError`, which fires when `self.identity` is `None`
+    and one of U4's identity pass-through methods is called; this fires
+    when identity *is* configured but this particular consumer isn't
+    linked yet (the fix is `link_student`, not configuring identity)."""
+
+
+class SessionConflictError(ServingError):
+    """R20/AE9: `open_session` found a live session for this student
+    already open under a *different* consumer than the one opening now.
+    `student_id`/`existing_session_id` are attached for a caller that
+    wants to act on them programmatically; the message itself names the
+    recovery path (`close_session_by_student`) so a partner integration
+    reading only the error text still knows what to do next."""
+
+    def __init__(self, student_id: str, existing_session_id: str):
+        self.student_id = student_id
+        self.existing_session_id = existing_session_id
+        super().__init__(
+            f"session_conflict: student {student_id!r} already has a live session "
+            f"({existing_session_id!r}) opened by a different consumer; a consumer "
+            "linked to this student may recover by calling close_session_by_student "
+            "(keyed by student_id, not session_id) before opening a new session"
+        )
+
+
+class SessionUnknownError(ServingError):
+    """A `session_id` this registry has no record of ever issuing — never
+    registered, or registered so long ago its eviction fell out of
+    `EXPIRED_SESSION_MEMORY`. Distinct from `SessionExpiredError` (KTD4: a
+    caller needs to tell "this id never existed / I lost track of it, try
+    reopening" apart from "this id existed but the session was reaped for
+    inactivity, the student may still expect it")."""
+
+
+class SessionExpiredError(ServingError):
+    """A `session_id` this registry issued and remembers evicting via
+    `SESSION_TTL_SECONDS` idle-eviction — distinct from
+    `SessionUnknownError`. See that class's docstring for why the
+    distinction matters."""
 
 
 class IngestRejectedError(ServingError):
@@ -115,7 +185,18 @@ def read_active_bank_version(banks_dir: Path) -> str:
 class Session:
     """Held for the session's whole life (KTD3) — `bank` is resolved once
     at `open_session` and never re-resolved, so a later `bank_activate`
-    repoint cannot shift an already-open session's content (R4)."""
+    repoint cannot shift an already-open session's content (R4).
+
+    `country`/`curriculum`/`grade` (U5, KTD3) are pinned the same way:
+    `open_session` sets them once and nothing later mutates them — R6's
+    recommendation reads (a later unit) will read `session.curriculum`
+    rather than take it fresh from a caller on every call. Defaulted to
+    `None` so the internal session runner's own direct `Session(...)`
+    construction (`orchestrator/session.py`), which predates this unit,
+    does not break for a caller that doesn't set them; in practice that
+    runner does set them (see its own docstring) because it already has
+    the values on hand from its own `--country`/`--curriculum`/`--grade`
+    CLI arguments."""
 
     session_id: str
     student_id: str
@@ -123,6 +204,9 @@ class Session:
     log_path: Path
     store: StudentModelStore
     engine_state: engine.EngineState
+    country: Optional[str] = None
+    curriculum: Optional[str] = None
+    grade: Optional[int] = None
 
 
 @dataclass
@@ -151,6 +235,181 @@ class SubmitOutcome:
     event: Optional[dict]
     rejection_reason: Optional[str] = None
     repeat: bool = False
+
+
+@dataclass
+class _SessionEntry:
+    """`SessionRegistry`'s own bookkeeping for one registered session,
+    deliberately kept separate from `Session` itself (registry concerns —
+    who opened it, when it was last touched, its lock — aren't serving
+    domain state and have no business on the object `get_candidates`/
+    `submit_attempt` operate on)."""
+
+    session: Session
+    consumer_id: str
+    lock: threading.Lock
+    last_activity: float
+
+
+class SessionRegistry:
+    """KTD12: the session dict moves here, owned by the facade layer, so
+    both the MCP server and a later REST transport (later units) share one
+    registry rather than each keeping its own closured dict. Also KTD17's
+    home for per-session locks, and the TTL/idle-eviction policy
+    (`SESSION_TTL_SECONDS`).
+
+    Two indices: `session_id -> _SessionEntry` (the primary lookup every
+    tool call needs) and `student_id -> session_id` (R20/AE9's
+    conflict-at-open check, and the close-by-student-id recovery path,
+    which a crashed client's own lost session_id can't reach). At most one
+    live session per student is ever indexed — `register_or_conflict` is
+    the one place that invariant is enforced.
+
+    All mutating operations take `self._registry_lock` — a single lock
+    guarding the *index structures themselves* (registration, eviction,
+    pop), not a session's own state (that's each `_SessionEntry.lock`,
+    KTD17). The two are deliberately different locks: holding the registry
+    lock for the width of, say, `submit_attempt`'s whole body would
+    serialize unrelated students' concurrent attempts against each other,
+    which KTD17 doesn't ask for and would be a needless bottleneck."""
+
+    def __init__(self, ttl_seconds: float = SESSION_TTL_SECONDS):
+        self._ttl_seconds = ttl_seconds
+        self._entries: Dict[str, _SessionEntry] = {}
+        self._by_student: Dict[str, str] = {}
+        # An ordered set (values unused) of recently-evicted session_ids,
+        # bounded to EXPIRED_SESSION_MEMORY — see that constant's docstring.
+        self._expired_ids: "OrderedDict[str, None]" = OrderedDict()
+        self._registry_lock = threading.Lock()
+
+    # -- internal: must be called with self._registry_lock held -----------
+
+    def _evict_expired_locked(self, now: float) -> None:
+        expired = [
+            session_id
+            for session_id, entry in self._entries.items()
+            if now - entry.last_activity > self._ttl_seconds
+        ]
+        for session_id in expired:
+            entry = self._entries.pop(session_id)
+            if self._by_student.get(entry.session.student_id) == session_id:
+                del self._by_student[entry.session.student_id]
+            self._remember_expired_locked(session_id)
+
+    def _remember_expired_locked(self, session_id: str) -> None:
+        self._expired_ids[session_id] = None
+        self._expired_ids.move_to_end(session_id)
+        while len(self._expired_ids) > EXPIRED_SESSION_MEMORY:
+            self._expired_ids.popitem(last=False)
+
+    def _get_entry_locked(self, session_id: str) -> _SessionEntry:
+        entry = self._entries.get(session_id)
+        if entry is not None:
+            return entry
+        if session_id in self._expired_ids:
+            raise SessionExpiredError(
+                f"session_expired: session {session_id!r} was idle-evicted after "
+                f"{self._ttl_seconds:.0f}s with no activity"
+            )
+        raise SessionUnknownError(f"session_unknown: {session_id!r} is not a session_id this registry ever issued")
+
+    # -- public -------------------------------------------------------------
+
+    def register_or_conflict(self, session: Session, consumer_id: str) -> Optional[Session]:
+        """Atomically: if `session.student_id` has no live session, index
+        `session` under `consumer_id` and return `None` (plain open). If it
+        has one already opened by this same `consumer_id`, replace it
+        (takeover-on-open) and return the prior `Session` so the caller can
+        log its closure with the right attribution (KTD6's takeover flow).
+        If it has one opened by a *different* consumer, raise
+        `SessionConflictError` — this new session is never registered
+        (R20/AE9: the first session is left completely unaffected)."""
+        with self._registry_lock:
+            self._evict_expired_locked(time.monotonic())
+            existing_session_id = self._by_student.get(session.student_id)
+            prior_session: Optional[Session] = None
+            if existing_session_id is not None:
+                existing_entry = self._entries[existing_session_id]
+                if existing_entry.consumer_id != consumer_id:
+                    raise SessionConflictError(session.student_id, existing_session_id)
+                prior_session = existing_entry.session
+                del self._entries[existing_session_id]
+            self._entries[session.session_id] = _SessionEntry(
+                session=session, consumer_id=consumer_id, lock=threading.Lock(), last_activity=time.monotonic()
+            )
+            self._by_student[session.student_id] = session.session_id
+            return prior_session
+
+    def get(self, session_id: str) -> Session:
+        """Raises `SessionUnknownError`/`SessionExpiredError` (KTD4) rather
+        than returning `None` — every caller needs to branch on *which* of
+        the two it is, not just "not found". A successful lookup counts as
+        activity and resets the idle-eviction clock — otherwise a caller
+        that only ever reads (`get_candidates`, `get_progress`) without
+        ever calling `submit_attempt` would idle-evict mid-use, which
+        isn't what "idle" is meant to mean."""
+        with self._registry_lock:
+            now = time.monotonic()
+            self._evict_expired_locked(now)
+            entry = self._get_entry_locked(session_id)
+            entry.last_activity = now
+            return entry.session
+
+    def consumer_of(self, session_id: str) -> str:
+        """The consumer_id that opened (or last took over) this session —
+        used by close-by-session_id to decide whether to log an ordinary
+        close vs whatever attribution is appropriate."""
+        with self._registry_lock:
+            self._evict_expired_locked(time.monotonic())
+            return self._get_entry_locked(session_id).consumer_id
+
+    def lock_for(self, session_id: str) -> "Optional[threading.Lock]":
+        """`None` when `session_id` isn't registered at all (the internal
+        session runner's ephemeral, never-registered `Session` objects) —
+        callers fall back to a no-op lock in that case, preserving that
+        runner's documented single-writer posture unchanged."""
+        with self._registry_lock:
+            entry = self._entries.get(session_id)
+            return entry.lock if entry is not None else None
+
+    def touch(self, session_id: str) -> None:
+        with self._registry_lock:
+            entry = self._entries.get(session_id)
+            if entry is not None:
+                entry.last_activity = time.monotonic()
+
+    def find_by_student(self, student_id: str) -> Optional[Session]:
+        with self._registry_lock:
+            self._evict_expired_locked(time.monotonic())
+            session_id = self._by_student.get(student_id)
+            if session_id is None:
+                return None
+            return self._entries[session_id].session
+
+    def pop(self, session_id: str) -> Optional[Session]:
+        """Close-by-session_id: unregister and return the `Session`, or
+        `None` if it wasn't registered (already closed, or never opened
+        through this registry at all) — a no-op, not an error, matching
+        `close_session`'s pre-U5 stateless contract for that case."""
+        with self._registry_lock:
+            entry = self._entries.pop(session_id, None)
+            if entry is None:
+                return None
+            if self._by_student.get(entry.session.student_id) == session_id:
+                del self._by_student[entry.session.student_id]
+            return entry.session
+
+    def pop_by_student(self, student_id: str) -> Optional[Session]:
+        """Close-by-student_id (KTD6 point 5): the recovery path for a
+        crashed client that lost its session_id. Returns the closed
+        `Session`, or `None` if the student has no live session."""
+        with self._registry_lock:
+            self._evict_expired_locked(time.monotonic())
+            session_id = self._by_student.pop(student_id, None)
+            if session_id is None:
+                return None
+            entry = self._entries.pop(session_id, None)
+            return entry.session if entry is not None else None
 
 
 @dataclass
@@ -208,12 +467,19 @@ class ServingFacade:
 
     `identity`, when given, is an already-constructed `IdentityRegistry`
     (U4) — this facade never derives its path or constructs one itself,
-    it only holds the instance a caller configured. It defaults to `None`:
-    this unit does not wire link enforcement into `open_session` /
-    `submit_attempt` / etc. (that's a later unit), it only exposes the
-    registry's own operations as thin pass-throughs below, so most callers
-    and every pre-U4 test can keep constructing a `ServingFacade` exactly
-    as before."""
+    it only holds the instance a caller configured. It defaults to `None`,
+    which now (U5) means something operationally, not just "the pass-throughs
+    raise": every consumer-facing operation below (`open_session`,
+    `submit_attempt`, `get_progress`, `close_session`,
+    `close_session_by_student`) checks `self.identity` first and skips its
+    link check entirely when it's `None` (R17 enforcement is opt-in per
+    deployment) — this is what keeps the internal CLI runner
+    (`orchestrator/session.py`) working unchanged, since it constructs its
+    own transient `ServingFacade` without an `identity` argument and always
+    will (see that module's docstring). `session_ttl_seconds` overrides
+    `SESSION_TTL_SECONDS` for `self.sessions` (U5's `SessionRegistry`,
+    KTD12) — a constructor knob mainly so tests can use a short TTL rather
+    than sleeping for the real default."""
 
     def __init__(
         self,
@@ -222,39 +488,105 @@ class ServingFacade:
         content: engine.ContentIndex,
         bank_lookup: Optional[engine.BankLookup] = None,
         identity: Optional[IdentityRegistry] = None,
+        session_ttl_seconds: float = SESSION_TTL_SECONDS,
     ):
         self.banks_dir = banks_dir
         self.logs_dir = logs_dir
         self.content = content
         self.bank_lookup = bank_lookup or engine.make_bank_lookup(banks_dir)
         self.identity = identity
+        # KTD12: owned here, not by any transport — tools/mcp_server.py (and
+        # a later REST transport) hold/delegate to this registry instead of
+        # keeping their own session dict.
+        self.sessions = SessionRegistry(ttl_seconds=session_ttl_seconds)
 
     def _log_path_for(self, student_id: str) -> Path:
         validate_identifier(student_id, "student_id")
         return self.logs_dir / f"{student_id}.jsonl"
 
-    def open_session(self, session_id: str, student_id: str) -> Session:
+    def _check_linked(self, consumer_id: str, student_id: str) -> None:
+        """R17's enforcement point: a no-op when `self.identity` is `None`
+        (unconfigured deployments, the internal runner's posture); raises
+        `ConsumerNotLinkedError` when it's configured and `consumer_id`
+        has no link to `student_id`."""
+        if self.identity is None:
+            return
+        if not self.identity.is_linked(consumer_id, student_id):
+            raise ConsumerNotLinkedError(
+                f"consumer {consumer_id!r} is not linked to student {student_id!r} — "
+                "link the consumer first (register_student/link_student)"
+            )
+
+    def _log_closure(self, session: Session, consumer_id: str, reason: str) -> None:
+        """The one place a session's closure is recorded, regardless of
+        which path closed it (ordinary close-by-session_id, takeover-on-open,
+        or close-by-student_id) — always attributed to the *closing*
+        consumer_id, not the session's original opener (KTD6 point 5)."""
+        logger.info(
+            "session closed: session_id=%s student_id=%s closed_by=%s reason=%s",
+            session.session_id, session.student_id, consumer_id, reason,
+        )
+
+    def _lock_for(self, session: Session) -> "contextlib.AbstractContextManager":
+        """KTD17: the registered session's own lock when `session` is
+        actually registered in `self.sessions` (every session opened via
+        `open_session`); a no-op context manager otherwise, so the internal
+        session runner's ephemeral, never-registered `Session` objects
+        (`orchestrator/session.py`) keep their existing unlocked,
+        single-writer behavior exactly as documented there."""
+        lock = self.sessions.lock_for(session.session_id)
+        return lock if lock is not None else contextlib.nullcontext()
+
+    def open_session(
+        self,
+        session_id: str,
+        student_id: str,
+        country: str,
+        curriculum: str,
+        grade: int,
+        consumer_id: str,
+    ) -> Session:
         """KTD3: resolve ACTIVE once, load and hold that build's
-        BankIndex. Replays the student's existing log (if any) through
-        KTD7's per-event bank resolution, so seen-state derived across a
-        build boundary is correct even though only the *new* bank is
-        pinned for serving (the session-open half of KTD7)."""
+        BankIndex, and pin `country`/`curriculum`/`grade` on the returned
+        `Session` for its whole life exactly like `bank` (R6 will read
+        `session.curriculum` in a later unit). Replays the student's
+        existing log (if any) through KTD7's per-event bank resolution, so
+        seen-state derived across a build boundary is correct even though
+        only the *new* bank is pinned for serving (the session-open half
+        of KTD7).
+
+        R17: refuses with `ConsumerNotLinkedError` if `self.identity` is
+        configured and `consumer_id` isn't linked to `student_id`.
+
+        R20/AE9: if `student_id` already has a live session under this
+        same `consumer_id`, takes over — closes the prior session (logged,
+        attributed to `consumer_id`) and opens fresh. If it's live under a
+        *different* consumer, refuses with `SessionConflictError` and
+        leaves that session completely unaffected."""
         validate_identifier(session_id, "session_id")
         log_path = self._log_path_for(student_id)
+        self._check_linked(consumer_id, student_id)
         bank_version = read_active_bank_version(self.banks_dir)
         bank = self.bank_lookup(bank_version)
         if log_path.is_file():
             store, engine_state = engine.rebuild_session_state(log_path, self.content, self.bank_lookup)
         else:
             store, engine_state = StudentModelStore(), engine.EngineState()
-        return Session(
+        new_session = Session(
             session_id=session_id,
             student_id=student_id,
             bank=bank,
             log_path=log_path,
             store=store,
             engine_state=engine_state,
+            country=country,
+            curriculum=curriculum,
+            grade=grade,
         )
+        prior_session = self.sessions.register_or_conflict(new_session, consumer_id)
+        if prior_session is not None:
+            self._log_closure(prior_session, consumer_id, reason="takeover_on_open")
+        return new_session
 
     def get_candidates(self, session: Session, skill_id: str) -> CandidatesResult:
         """R1, R2: seen-filtered by variant_signature (KTD4), drawn only
@@ -315,111 +647,149 @@ class ServingFacade:
         Returns a `SubmitOutcome`: `event=None, rejection_reason=None` for
         the §3 abandonment guard's discard (nothing to log, not an error);
         `event=None, rejection_reason=<str>` for an ingest rejection; the
-        logged event plus a `repeat` flag (KD5) on acceptance."""
-        attempt = Attempt(
-            skill_ids=[skill_id],
-            question_type=instance["question_type"],
-            b_prior_at_serve=instance["difficulty"],
-            correct=correct,
-            hints_used=hints_used,
-            timed_out=timed_out,
-            engaged=engaged,
-            session_last_event=session_last_event,
-            context=context,
-            misconception_id=misconception_id,
-            event_id=f"evt-{uuid.uuid4().hex}",
-            depth_served=instance["difficulty"],
-        )
-        state = session.store.get(session.student_id, skill_id)
-        composed = log_module.compose_attempt(state, attempt, context, now)
-        if composed.new_state is None:
-            return SubmitOutcome(event=None)
-        theta_before, theta_after, n_before = composed.theta_before, composed.theta_after, composed.n_before
+        logged event plus a `repeat` flag (KD5) on acceptance.
 
-        event = {
-            "event_id": attempt.event_id,
-            "student_id": session.student_id,
-            "session_id": session.session_id,
-            "timestamp": now.isoformat(),
-            "item_instance_id": instance["item_instance_id"],
-            "template_id": instance["template_id"],
-            "template_version": instance["template_version"],
-            "bank_version": instance["bank_version"],
-            "variant_signature": instance["variant_signature"],
-            "consumer_id": consumer_id,
-            "engine_version": constants.ENGINE_VERSION,
-            "graph_version": instance["graph_version"],
-            "skill_ids": [skill_id],
-            "question_type": instance["question_type"],
-            "depth_served": instance["difficulty"],
-            "b_prior_at_serve": instance["difficulty"],
-            "exam_context": None,
-            "language": instance["language"],
-            "locale": instance["locale"],
-            "response_raw": response_raw,
-            "response_parsed": response_parsed,
-            "correct": correct,
-            "misconception_id": misconception_id,
-            "hints_used": hints_used,
-            "hint_auto_offered": hint_auto_offered,
-            "time_taken_sec": time_taken_sec,
-            "timed_out": timed_out,
-            "context": context,
-            "theta_before": theta_before,
-            "theta_after": theta_after,
-            "n_before": n_before,
-        }
+        R17: refuses with `ConsumerNotLinkedError` before touching
+        anything if `self.identity` is configured and `consumer_id` isn't
+        linked to `session.student_id`. KTD17: the whole body runs under
+        this session's own lock (a no-op lock if `session` was never
+        registered via `open_session` — see `_lock_for`), so two
+        concurrent submissions against the same session serialize instead
+        of racing on `session.store`/`session.engine_state`."""
+        self._check_linked(consumer_id, session.student_id)
+        with self._lock_for(session):
+            self.sessions.touch(session.session_id)
+            attempt = Attempt(
+                skill_ids=[skill_id],
+                question_type=instance["question_type"],
+                b_prior_at_serve=instance["difficulty"],
+                correct=correct,
+                hints_used=hints_used,
+                timed_out=timed_out,
+                engaged=engaged,
+                session_last_event=session_last_event,
+                context=context,
+                misconception_id=misconception_id,
+                event_id=f"evt-{uuid.uuid4().hex}",
+                depth_served=instance["difficulty"],
+            )
+            state = session.store.get(session.student_id, skill_id)
+            composed = log_module.compose_attempt(state, attempt, context, now)
+            if composed.new_state is None:
+                return SubmitOutcome(event=None)
+            theta_before, theta_after, n_before = composed.theta_before, composed.theta_after, composed.n_before
 
-        session_ctx = ingest_module.SessionContext(
-            session_id=session.session_id,
-            student_id=session.student_id,
-            bank_version=session.bank.bank_version,
-        )
-        seen_state = {sig for sigs in session.engine_state.seen_history.values() for sig in sigs}
-        report = ingest_module.validate_event(event, session_ctx, self.bank_lookup, seen_state)
-        if not report.accepted:
-            return SubmitOutcome(event=None, rejection_reason=report.rejection_reason)
+            event = {
+                "event_id": attempt.event_id,
+                "student_id": session.student_id,
+                "session_id": session.session_id,
+                "timestamp": now.isoformat(),
+                "item_instance_id": instance["item_instance_id"],
+                "template_id": instance["template_id"],
+                "template_version": instance["template_version"],
+                "bank_version": instance["bank_version"],
+                "variant_signature": instance["variant_signature"],
+                "consumer_id": consumer_id,
+                "engine_version": constants.ENGINE_VERSION,
+                "graph_version": instance["graph_version"],
+                "skill_ids": [skill_id],
+                "question_type": instance["question_type"],
+                "depth_served": instance["difficulty"],
+                "b_prior_at_serve": instance["difficulty"],
+                "exam_context": None,
+                "language": instance["language"],
+                "locale": instance["locale"],
+                "response_raw": response_raw,
+                "response_parsed": response_parsed,
+                "correct": correct,
+                "misconception_id": misconception_id,
+                "hints_used": hints_used,
+                "hint_auto_offered": hint_auto_offered,
+                "time_taken_sec": time_taken_sec,
+                "timed_out": timed_out,
+                "context": context,
+                "theta_before": theta_before,
+                "theta_after": theta_after,
+                "n_before": n_before,
+            }
 
-        session.store.write_records(session.student_id, {skill_id: composed.new_state})
-        log_module.append_attempt(session.log_path, event)
+            session_ctx = ingest_module.SessionContext(
+                session_id=session.session_id,
+                student_id=session.student_id,
+                bank_version=session.bank.bank_version,
+            )
+            seen_state = {sig for sigs in session.engine_state.seen_history.values() for sig in sigs}
+            report = ingest_module.validate_event(event, session_ctx, self.bank_lookup, seen_state)
+            if not report.accepted:
+                return SubmitOutcome(event=None, rejection_reason=report.rejection_reason)
 
-        outcome = engine.AttemptOutcome(
-            student_id=session.student_id,
-            skill_ids=[skill_id],
-            item_instance_id=instance["item_instance_id"],
-            variant_signature=instance["variant_signature"],
-            correct=correct,
-            misconception_id=misconception_id,
-            context=context,
-            depth_served=instance["difficulty"],
-        )
-        consume_result = engine.consume_event(
-            session.engine_state, session.store, self.content, session.bank, outcome, now
-        )
-        session.engine_state = consume_result.engine_state
-        engine.apply_consume_patches(session.store, session.student_id, consume_result.skill_state_patches)
-        return SubmitOutcome(event=event, repeat=report.repeat)
+            session.store.write_records(session.student_id, {skill_id: composed.new_state})
+            log_module.append_attempt(session.log_path, event)
 
-    def get_progress(self, session: Session, now: datetime) -> ProgressSummary:
+            outcome = engine.AttemptOutcome(
+                student_id=session.student_id,
+                skill_ids=[skill_id],
+                item_instance_id=instance["item_instance_id"],
+                variant_signature=instance["variant_signature"],
+                correct=correct,
+                misconception_id=misconception_id,
+                context=context,
+                depth_served=instance["difficulty"],
+            )
+            consume_result = engine.consume_event(
+                session.engine_state, session.store, self.content, session.bank, outcome, now
+            )
+            session.engine_state = consume_result.engine_state
+            engine.apply_consume_patches(session.store, session.student_id, consume_result.skill_state_patches)
+            return SubmitOutcome(event=event, repeat=report.repeat)
+
+    def get_progress(self, session: Session, now: datetime, consumer_id: str) -> ProgressSummary:
         """The same summary tools/replay_audit.py (U7) reproduces: theta,
         certification status, and per-skill seen count (KTD4's
-        signature-keyed count, not a raw instance-id count)."""
-        return build_progress_summary(session.store, session.engine_state, session.student_id, now)
+        signature-keyed count, not a raw instance-id count).
 
-    def close_session(self, session: Session) -> None:
-        """No-op: the facade is stateless between calls (every Session
-        object is self-contained and nothing outside it is held open) —
-        kept as an explicit lifecycle method so callers (and the MCP tool
-        surface, KTD6) have a symmetric open/close pair regardless."""
-        return None
+        R17: refuses with `ConsumerNotLinkedError` when `self.identity` is
+        configured and `consumer_id` isn't linked to `session.student_id`
+        (AE6's "progress read without linking is refused" half). KTD17:
+        reads under this session's own lock, same as `submit_attempt`."""
+        self._check_linked(consumer_id, session.student_id)
+        with self._lock_for(session):
+            return build_progress_summary(session.store, session.engine_state, session.student_id, now)
+
+    def close_session(self, session: Session, consumer_id: str) -> None:
+        """Close-by-session_id: R17's link check, then unregister from
+        `self.sessions` (a no-op if `session` was never registered — the
+        pre-U5 stateless contract for that case, still relied on by the
+        internal session runner's ephemeral `Session` objects). The
+        closure is logged and attributed to `consumer_id` — ordinarily the
+        session's own opener, but nothing here requires that; any linked
+        consumer closing their *own* still-open session hits this same
+        path."""
+        self._check_linked(consumer_id, session.student_id)
+        popped = self.sessions.pop(session.session_id)
+        if popped is not None:
+            self._log_closure(popped, consumer_id, reason="close_by_session_id")
+
+    def close_session_by_student(self, student_id: str, consumer_id: str) -> bool:
+        """KTD6 point 5 / R20's recovery path: close whatever session is
+        currently live for `student_id`, keyed by student rather than
+        session_id — the path a client that crashed and lost its
+        session_id needs. Any consumer *linked* to `student_id` may do
+        this regardless of who opened the session (R17 still gates it —
+        just against `student_id`, not against the opener's identity);
+        the closure is attributed to this closing `consumer_id`, not the
+        original opener's (KTD6 point 5, explicitly). Returns whether a
+        live session was actually found and closed."""
+        self._check_linked(consumer_id, student_id)
+        popped = self.sessions.pop_by_student(student_id)
+        if popped is None:
+            return False
+        self._log_closure(popped, consumer_id, reason="close_by_student_id")
+        return True
 
     # -- U4 identity pass-throughs -----------------------------------------
     #
-    # Thin delegation to `self.identity` (an `IdentityRegistry`, U4) so
-    # later units can build on a facade that already exposes registration
-    # and linking — none of these are wired into open_session/
-    # submit_attempt/get_candidates/get_progress above; that enforcement is
-    # a later unit's job (see the constructor docstring).
+    # Thin delegation to `self.identity` (an `IdentityRegistry`, U4).
 
     def register_student(self, attributes: dict, consumer_id: str) -> str:
         if self.identity is None:
