@@ -14,6 +14,8 @@
     "template_id",
     "template_version",
     "bank_version",
+    "variant_signature",
+    "consumer_id",
     "engine_version",
     "graph_version",
     "skill_ids",
@@ -76,6 +78,16 @@
       "type": "string",
       "minLength": 1,
       "description": "Bank build the Orchestrator pinned when serving (§9; core doc §5.3)."
+    },
+    "variant_signature": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "Serving-integrity contract R2, R8, KTD2: the served instance's content-based identity (item-instance.schema.json's variant_signature), copied verbatim at serve time — the seen filter and ingest validation key on this, not item_instance_id, so seen-state survives a bank rebuild (KD4)."
+    },
+    "consumer_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Serving-integrity contract R7, KTD2: which orchestrator submitted this event — the reference orchestrator stamps constants.CONSUMER_ID_INTERNAL; external orchestrators are stamped by the MCP server from its own configuration, never from the caller's payload. Makes per-consumer repeat-flag rates attributable."
     },
     "engine_version": {
       "type": "string",

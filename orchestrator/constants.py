@@ -116,3 +116,9 @@ HINT_AUTO_OFFER_MULTIPLIER: float = 1.5
 # comfortably above HINT_AUTO_OFFER_MULTIPLIER so the hint offer always has
 # a chance to fire before the timeout does.
 TIMEOUT_MULTIPLIER: float = 3.0
+
+# --- Serving-integrity contract: KTD2 consumer attribution ------------------
+# Stamped onto every attempt event the reference orchestrator logs, so
+# per-consumer repeat-flag rates (R7) can distinguish it from external
+# orchestrators without a second identity mechanism.
+CONSUMER_ID_INTERNAL: str = "internal.reference"

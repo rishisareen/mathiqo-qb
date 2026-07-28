@@ -44,6 +44,8 @@ def make_event(**overrides) -> dict:
         template_id="TPL.FRAC.ADD.UNLIKE.001",
         template_version="1",
         bank_version="2026.07.27",
+        variant_signature="a" * 64,
+        consumer_id=constants.CONSUMER_ID_INTERNAL,
         engine_version=constants.ENGINE_VERSION,
         graph_version="1.0.0",
         skill_ids=["FRAC.ADD.UNLIKE"],
@@ -109,6 +111,26 @@ def test_append_attempt_rejects_bad_enum(tmp_path: Path) -> None:
     event = make_event(context="not_a_real_context")
     with pytest.raises(AttemptLogError):
         append_attempt(log_path, event)
+
+
+# --- U2: variant_signature + consumer_id are schema-required (KTD2) --------
+
+def test_append_attempt_rejects_event_missing_variant_signature(tmp_path: Path) -> None:
+    log_path = tmp_path / "log.jsonl"
+    event = make_event()
+    del event["variant_signature"]
+    with pytest.raises(AttemptLogError, match="variant_signature"):
+        append_attempt(log_path, event)
+    assert not log_path.exists() or log_path.read_text(encoding="utf-8") == ""
+
+
+def test_append_attempt_rejects_event_missing_consumer_id(tmp_path: Path) -> None:
+    log_path = tmp_path / "log.jsonl"
+    event = make_event()
+    del event["consumer_id"]
+    with pytest.raises(AttemptLogError, match="consumer_id"):
+        append_attempt(log_path, event)
+    assert not log_path.exists() or log_path.read_text(encoding="utf-8") == ""
 
 
 def test_append_attempt_rejects_bad_question_type(tmp_path: Path) -> None:

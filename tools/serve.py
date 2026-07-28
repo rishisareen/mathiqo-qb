@@ -26,9 +26,22 @@ sys.path.insert(0, str(REPO_ROOT))
 
 from orchestrator import certification, engine  # noqa: E402
 from orchestrator import log as log_module  # noqa: E402
-from orchestrator import session  # noqa: E402
+from orchestrator import serving, session  # noqa: E402
 
 DEFAULT_CONTENT_DIR = REPO_ROOT / "content" / "fractions"
+DEFAULT_BANKS_DIR = REPO_ROOT / "banks"
+
+
+def resolve_bank(bank_override: "Path | None", banks_dir: Path) -> engine.BankIndex:
+    """U6: `--bank` stays an explicit override (a specific already-built
+    bank directory); when omitted, resolves via `banks_dir`'s ACTIVE
+    pointer (KTD3) — this CLI's own adoption of the same registry the
+    facade/MCP surface use. Raises `serving.NoActiveBankError` (point 5)
+    when no override is given and the pointer is absent or stale."""
+    if bank_override is not None:
+        return engine.load_bank(bank_override)
+    version = serving.read_active_bank_version(banks_dir)
+    return engine.load_bank(banks_dir / version)
 
 
 def _print_state_summary(store, student_id: str, now: datetime) -> None:
@@ -52,7 +65,14 @@ def _print_state_summary(store, student_id: str, now: datetime) -> None:
 
 def main(argv: "list[str] | None" = None) -> int:
     parser = argparse.ArgumentParser(description="Interactive terminal session runner (U6).")
-    parser.add_argument("--bank", required=True, type=Path, help="built bank directory (tools/bank_build.py output)")
+    parser.add_argument(
+        "--bank", default=None, type=Path,
+        help="explicit bank directory override (tools/bank_build.py output); omit to resolve via --banks-dir's ACTIVE pointer",
+    )
+    parser.add_argument(
+        "--banks-dir", default=DEFAULT_BANKS_DIR, type=Path,
+        help=f"banks directory with an ACTIVE pointer (tools/bank_activate.py); used when --bank is omitted (default {DEFAULT_BANKS_DIR})",
+    )
     parser.add_argument("--student", required=True, help="pseudonymous student id")
     parser.add_argument("--country", required=True, help="country code, e.g. IN or CA")
     parser.add_argument("--grade", required=True, type=int, help="grade level")
@@ -64,7 +84,7 @@ def main(argv: "list[str] | None" = None) -> int:
     )
     args = parser.parse_args(argv)
 
-    if not args.bank.is_dir():
+    if args.bank is not None and not args.bank.is_dir():
         print(f"error: bank directory {args.bank} does not exist", file=sys.stderr)
         return 2
     if not DEFAULT_CONTENT_DIR.is_dir():
@@ -74,14 +94,20 @@ def main(argv: "list[str] | None" = None) -> int:
     now = log_module.parse_timestamp(args.session_time) if args.session_time else datetime.now()
 
     content = engine.load_content(DEFAULT_CONTENT_DIR)
-    bank = engine.load_bank(args.bank)
+    try:
+        bank = resolve_bank(args.bank, args.banks_dir)
+    except serving.NoActiveBankError as exc:
+        print(f"error: {exc}", file=sys.stderr)
+        return 2
 
     # One pass over the log for both the store and engine state — see
     # rebuild_session_state's docstring on why this replaces the equivalent
     # (and, at real usage scale, doubly expensive) log.replay() +
     # rebuild_engine_state() pair.
     try:
-        store, engine_state = engine.rebuild_session_state(args.log, content, bank)
+        store, engine_state = engine.rebuild_session_state(
+            args.log, content, engine.make_static_bank_lookup(bank)
+        )
     except log_module.AttemptLogError as exc:
         print(f"error: attempt log {args.log} could not be replayed: {exc}", file=sys.stderr)
         return 2

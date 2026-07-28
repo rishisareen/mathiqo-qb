@@ -41,7 +41,7 @@ import pytest
 from conftest import _bypass_placement, _numeric_only_bank, _single_skill_bank
 from orchestrator import certification, constants, engine, log as log_module, session
 from orchestrator.state import SkillState, StudentModelStore, is_certified
-from orchestrator.update import expectation
+from orchestrator.update import Attempt, expectation
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
 CONTENT_DIR = REPO_ROOT / "content" / "fractions"
@@ -462,7 +462,7 @@ def test_misconception_habit_triggers_remediation_then_clears(
     # names it, the engine must return to serving the trigger skill (or, in
     # principle, another queued item) rather than remediation forever.
     # Reconstruct engine_state at the end and confirm the queue emptied.
-    final_engine_state = engine.rebuild_engine_state(log_path, content, family_bank)
+    final_engine_state = engine.rebuild_engine_state(log_path, content, engine.make_static_bank_lookup(family_bank))
     assert not any(dose.skill_id == remediation_target for dose in final_engine_state.remediation_queue)
 
     # And the triggering skill's misconception counter was reset on trigger
@@ -544,7 +544,7 @@ def test_replay_equivalence_at_scale_matches_live_store_and_engine_state(
     assert live_summary.items_served == 150
 
     replayed_store = log_module.replay(log_path)
-    replayed_engine_state = engine.rebuild_engine_state(log_path, content, bank)
+    replayed_engine_state = engine.rebuild_engine_state(log_path, content, engine.make_static_bank_lookup(bank))
 
     assert replayed_store.records_for(student_id) == store.records_for(student_id)
 
@@ -597,3 +597,102 @@ def test_replay_equivalence_at_scale_matches_live_store_and_engine_state(
         len(live_engine_state.seen_history.get(sid, [])) != len(replayed_engine_state.seen_history.get(sid, []))
         for sid in all_skills
     )
+
+
+def test_facade_routed_session_matches_direct_engine_path_outcomes(
+    tmp_path: Path, content: engine.ContentIndex, bank: engine.BankIndex
+) -> None:
+    """U6's own differential test: orchestrator/session.py now routes
+    selection (steps 1-5 of select_next's priority chain) and every
+    submission through orchestrator/serving.py's facade rather than
+    reading engine.select_next/consume_event directly. This proves the
+    switch is behavior-preserving: the same simulated student, driven the
+    same number of items from the same seed, reaches the same
+    theta/certification/seen-count outcome whether served through
+    run_session (the facade path, U6) or through a hand-driven loop
+    calling engine.select_next/consume_event with no candidates_for_skill
+    override at all (the pre-U6 "direct engine" path) — the post-U3
+    baseline this scenario is required to match, not a pre-plan fixture."""
+    skill_id = "FRAC.ADD.UNLIKE"
+    skill_bank = _single_skill_bank(bank, skill_id)
+    prereqs = content.skills[skill_id].prerequisites
+    max_items = 60
+    seed = 777
+
+    def _seeded_store(student_id: str) -> StudentModelStore:
+        store = StudentModelStore()
+        for p in prereqs:
+            _seed_certified(store, student_id, p, depth=0.5)
+        return store
+
+    # --- facade path: the real session runner (U6) ---
+    facade_store = _seeded_store("stu-facade")
+    last = _LastRendered()
+    facade_student = SimulatedStudent(default_true_theta=0.5, rng=random.Random(seed))
+    io = SimulatedStudentInputSource(facade_student, skill_bank, last, max_items=max_items)
+    facade_summary = session.run_session(
+        facade_store, _bypass_placement(), content, skill_bank, "stu-facade", "CA", UNMAPPED_GRADE,
+        "sess-facade", tmp_path / "facade.jsonl", io, make_recording_notify(last), NOW,
+    )
+    assert facade_summary.items_served == max_items
+
+    # --- direct engine path: no facade, no candidates_for_skill override ---
+    direct_store = _seeded_store("stu-direct")
+    direct_engine_state = _bypass_placement()
+    direct_student = SimulatedStudent(default_true_theta=0.5, rng=random.Random(seed))
+    for i in range(max_items):
+        result = engine.select_next(
+            direct_store, direct_engine_state, content, skill_bank, "stu-direct", "CA", UNMAPPED_GRADE, NOW
+        )
+        direct_engine_state = result.engine_state
+        serve = result.serve
+        assert serve is not None, f"direct path ran out of items at {i}/{max_items}"
+        instance = skill_bank.by_id[serve.item_instance_id]
+        options = session.build_mcq_options(instance) if instance["question_type"] == "mcq_4" else None
+        raw = direct_student.respond(instance, options)
+        if options is not None:
+            chosen = next(o for o in options if o.label == raw)
+            correct, misconception_id, _ = session.grade_mcq_response(chosen)
+        else:
+            parsed = session.parse_numeric_response(raw)
+            correct, misconception_id, _ = session.grade_numeric_response(instance, parsed)
+
+        attempt = Attempt(
+            skill_ids=[skill_id], question_type=instance["question_type"], b_prior_at_serve=instance["difficulty"],
+            correct=correct, hints_used=0, timed_out=False, engaged=True, session_last_event=False,
+            context=serve.context, misconception_id=misconception_id, event_id=f"direct-{i}",
+            depth_served=instance["difficulty"],
+        )
+        state = direct_store.get("stu-direct", skill_id)
+        composed = log_module.compose_attempt(state, attempt, serve.context, NOW)
+        assert composed.new_state is not None
+        direct_store.write_records("stu-direct", {skill_id: composed.new_state})
+
+        outcome = engine.AttemptOutcome(
+            student_id="stu-direct", skill_ids=[skill_id], item_instance_id=instance["item_instance_id"],
+            variant_signature=instance["variant_signature"], correct=correct, misconception_id=misconception_id,
+            context=serve.context, depth_served=instance["difficulty"],
+        )
+        consume_result = engine.consume_event(direct_engine_state, direct_store, content, skill_bank, outcome, NOW)
+        direct_engine_state = consume_result.engine_state
+        engine.apply_consume_patches(direct_store, "stu-direct", consume_result.skill_state_patches)
+
+    facade_state = facade_store.peek("stu-facade", skill_id)
+    direct_state = direct_store.peek("stu-direct", skill_id)
+    assert facade_state.theta == pytest.approx(direct_state.theta)
+    assert facade_state.n == pytest.approx(direct_state.n)
+    assert facade_state.certified_depth == direct_state.certified_depth
+
+    # seen_history length, not just theta/n/certified_depth: the facade
+    # path's run_session ends via the simulated student's own "quit" after
+    # max_items responses, and (per the documented quirk in
+    # test_replay_equivalence_at_scale_matches_live_store_and_engine_state
+    # above) select_next always marks its chosen instance seen *before* the
+    # response is collected — so the facade path's final select_next call
+    # marks one instance seen that is then immediately quit on, one entry
+    # more than the direct path's loop (which stops exactly at max_items,
+    # never selecting a never-answered item). Tolerate exactly that ±1.
+    facade_engine_state = facade_summary.engine_state
+    facade_seen = len(facade_engine_state.seen_history.get(skill_id, []))
+    direct_seen = len(direct_engine_state.seen_history.get(skill_id, []))
+    assert abs(facade_seen - direct_seen) <= 1, (facade_seen, direct_seen)

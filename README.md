@@ -52,6 +52,8 @@ follow them exactly.
 
 ## Setup
 
+Requires Python ≥3.10 (needed by the `mcp` SDK used in `tools/mcp_server.py`).
+
 ```sh
 python3 -m venv .venv
 source .venv/bin/activate
@@ -241,9 +243,14 @@ student-model/engine modules (`orchestrator/update.py`,
 `orchestrator/engine.py`); `tools/serve.py` itself is wiring only.
 
 ```sh
-python tools/serve.py --bank banks/2026.07-dev --student stu-1 \
+# resolves the bank via --banks-dir's ACTIVE pointer (default: banks/):
+python tools/serve.py --banks-dir banks --student stu-1 \
     --country IN --grade 6 --log logs/stu-1.jsonl \
     [--session-time 2026-07-27T12:00:00]
+
+# --bank is an explicit override, bypassing ACTIVE entirely:
+python tools/serve.py --bank banks/2026.07-dev --student stu-1 \
+    --country IN --grade 6 --log logs/stu-1.jsonl
 ```
 
 `--log` is both appended to (one JSONL line per scored attempt) and replayed
@@ -262,6 +269,78 @@ field) — the session runner falls back to a fixed default
 (`orchestrator/constants.py`'s `DEFAULT_ESTIMATED_TIME_SEC`) for every
 item's hint-offer and timeout thresholds rather than extending U3's bank
 builder/schema, which is out of this unit's scope.
+
+Under the hood, `orchestrator/session.py` routes both selection (the
+single-skill steps of the R12 priority chain) and every attempt submission
+through `orchestrator/serving.py`'s transport-free facade — the same
+surface the MCP server (below) exposes to external orchestrators.
+
+## Bank activation
+
+`tools/bank_activate.py` (KTD3) atomically points a banks directory's
+`ACTIVE` file at a built version — what `open_session` (the facade,
+`tools/serve.py`, the MCP server) pins new sessions to. A session already
+open keeps whatever build it originally pinned; only sessions opened after
+the repoint see the change (R4).
+
+```sh
+python tools/bank_activate.py --banks banks --bank-version 2026.07-dev
+```
+
+Refuses (exit 1) to activate a version not on disk under `--banks`, leaving
+`ACTIVE` unchanged.
+
+## Replay audit
+
+`tools/replay_audit.py` (U7) is the serving-integrity contract's acceptance
+bar as a runnable check (R10): for every event in a student's attempt log,
+it resolves the stamped `bank_version` against any retained build (KTD7,
+not only the currently active one), verifies the instance and its
+`variant_signature` against that build's own record (reusing
+`orchestrator/ingest.py`'s KTD5 checks), then reports the student's
+reproduced theta/certification/seen-count summary — the same shape a live
+`get_student_progress` call returns.
+
+```sh
+python tools/replay_audit.py --log logs/stu-1.jsonl --banks-dir banks
+```
+
+Exits non-zero (naming every failing event) if any event fails to resolve;
+zero and prints the summary on a clean audit.
+
+## MCP server
+
+`tools/mcp_server.py` (U8) is the external product surface: the same
+`orchestrator/serving.py` facade the reference orchestrator uses, exposed
+over MCP so external AI-tutor orchestrators can serve Mathiqo's question
+bank and student model directly (STRATEGY.md's infra-first bet). It is a
+thin adapter — every tool call delegates to exactly one facade operation,
+and no tool reaches past the facade to touch a bank directory or log file
+directly.
+
+```sh
+python tools/mcp_server.py --banks-dir banks --logs-dir logs \
+    --consumer-id partner.acme [--content content/fractions]
+```
+
+**Tool surface** (KTD6's parity rule: this is the same set of operations
+the reference orchestrator itself uses):
+
+| Tool | Delegates to | Notes |
+|---|---|---|
+| `open_session(student_id)` | `ServingFacade.open_session` | Pins the session to the currently active bank build (R3); returns `session_id` and `bank_version`. |
+| `get_candidates(session_id, skill_id)` | `ServingFacade.get_candidates` | Every unseen instance for (student, skill); on exhaustion, the one least-recently-seen repeat plus an explicit signal (R1). |
+| `submit_attempt(session_id, skill_id, item_instance_id, ...)` | `ServingFacade.submit_attempt` | Validates and logs the attempt (R5, R6); `consumer_id` is this server's own `--consumer-id`, never a tool parameter — a caller cannot forge attribution. |
+| `close_session(session_id)` | `ServingFacade.close_session` | Drops the session from this server's in-memory registry. |
+| `get_student_progress(session_id)` | `ServingFacade.get_progress` | The declared summary shape: theta, certification status, per-skill seen count. |
+| `server_info()` | — | Reports the declared interface version and the facade-operation surface. |
+
+**v1 is pre-stable.** `server_info`'s `interface_version` may still change
+before general availability — bind against the declared version and expect
+it to move, not assume today's shape is final. Auth/transport hardening
+(credentials, rate limiting, TLS termination) is explicitly out of scope
+for v1: this server assumes a small set of known, credentialed partners in
+a trusted deployment, one `--consumer-id` per server process.
 
 ## Run the tests
 

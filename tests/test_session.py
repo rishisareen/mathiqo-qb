@@ -23,7 +23,7 @@ import jsonschema
 import pytest
 
 from conftest import _bypass_placement, _numeric_only_bank, _single_skill_bank, find_tagged_instance
-from orchestrator import certification, constants, engine, log as log_module, session
+from orchestrator import certification, constants, engine, log as log_module, serving, session
 from orchestrator.state import SkillState, StudentModelStore
 
 REPO_ROOT = Path(__file__).resolve().parent.parent
@@ -298,12 +298,19 @@ def test_apply_and_log_correct_unassisted_certifies_and_logs(
     assert theta_after > theta_before
     assert store.peek(student_id, "FRAC.ADD.UNLIKE").certified_depth is not None
 
+    # U2: the composed event carries the served instance's content identity
+    # and the internal-reference consumer attribution (R2, R7, KTD2).
+    assert event["variant_signature"] == instance["variant_signature"]
+    assert event["consumer_id"] == constants.CONSUMER_ID_INTERNAL
+
     errors = list(attempt_event_validator.iter_errors(event))
     assert errors == [], "; ".join(e.message for e in errors)
 
     logged = list(log_module.iter_events(log_path))
     assert len(logged) == 1
     assert logged[0]["correct"] is True
+    assert logged[0]["variant_signature"] == instance["variant_signature"]
+    assert logged[0]["consumer_id"] == constants.CONSUMER_ID_INTERNAL
 
 
 def test_apply_and_log_engaged_timeout_scores_wrong_and_logs(
@@ -437,6 +444,44 @@ def test_apply_and_log_review_fail_moves_theta_and_lapses(
 
 
 # ===========================================================================
+# U6: ingest rejection surfaces as an error, not a silent drop
+# ===========================================================================
+
+
+def test_apply_and_log_raises_on_ingest_rejection_instead_of_silently_dropping(
+    tmp_path: Path, content: engine.ContentIndex, bank: engine.BankIndex
+) -> None:
+    """KTD5 via orchestrator/serving.py's submit_attempt: an event whose
+    bank_version the session's own bank_lookup can't resolve is rejected
+    at ingest, not silently written or discarded. _apply_and_log surfaces
+    that as serving.IngestRejectedError (U6's own test scenario) — nothing
+    is appended to the log and the store is left untouched."""
+    instance = dict(bank.instances_by_skill["FRAC.ADD.LIKE"][0], bank_version="not-this-session's-build")
+    student_id = "stu-reject"
+    store = StudentModelStore()
+    engine_state = _bypass_placement()
+    log_path = tmp_path / "log.jsonl"
+    serve = _fresh_serve(instance, "practice", "test")
+
+    with pytest.raises(serving.IngestRejectedError):
+        session._apply_and_log(
+            store, engine_state, content, bank, student_id, "sess-1", log_path, serve, instance,
+            response_raw=instance["answer"], response_parsed=instance["answer"], correct=True,
+            misconception_id=None, hints_used=0, hint_auto_offered=False, time_taken_sec=10.0,
+            timed_out=False, engaged=True, session_last_event=False, now=NOW,
+        )
+
+    assert not log_path.exists() or log_path.read_text(encoding="utf-8") == ""
+    # store.get's own fetch-or-create inserts a default record on read (a
+    # pre-existing, unrelated side effect — see StudentModelStore.get) but
+    # the composed update itself was never written: theta/n stay at zero.
+    unwritten = store.peek(student_id, "FRAC.ADD.LIKE")
+    assert unwritten.theta == 0.0
+    assert unwritten.n == 0.0
+    assert unwritten.certified_depth is None
+
+
+# ===========================================================================
 # run_session: end-to-end scripted smoke test + restart/replay equivalence
 # ===========================================================================
 
@@ -490,7 +535,7 @@ def test_run_session_scripted_smoke_updates_state_logs_schema_valid_events_and_r
     # pending diagnosis queues is covered precisely, and correctly, by
     # test_run_session_restart_preserves_queued_stepdown_probe below.)
     replayed_store = log_module.replay(log_path)
-    replayed_engine_state = engine.rebuild_engine_state(log_path, content, numeric_bank)
+    replayed_engine_state = engine.rebuild_engine_state(log_path, content, engine.make_static_bank_lookup(numeric_bank))
 
     assert replayed_store.records_for(student_id) == store.records_for(student_id)
     # A fresh run_session call against the replayed state must be able to
@@ -550,7 +595,7 @@ def test_run_session_restart_preserves_queued_stepdown_probe(
     assert len(logged) == 1  # only item 1's event; item 2 (quit) was never logged
 
     replayed_store = log_module.replay(log_path)
-    replayed_engine_state = engine.rebuild_engine_state(log_path, content, bank)
+    replayed_engine_state = engine.rebuild_engine_state(log_path, content, engine.make_static_bank_lookup(bank))
     assert len(replayed_engine_state.stepdown_queue) == 1
     assert replayed_engine_state.stepdown_queue[0].skill_id == "FRAC.ADD.UNLIKE"
 

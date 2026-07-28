@@ -10,6 +10,7 @@
     "template_id",
     "template_version",
     "bank_version",
+    "variant_signature",
     "graph_version",
     "skill_ids",
     "question_type",
@@ -44,6 +45,11 @@
       "type": "string",
       "minLength": 1,
       "description": "The atomic bank build this instance ships in (§3 Stage 5). Banks are never patched in place — a new build gets a new bank_version and a new instance set."
+    },
+    "variant_signature": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "Serving-integrity contract R8/R9, KTD1: sha256 hex digest over canonical JSON of (template_id, template_version, variables) — an identity for what the student actually sees, equal across bank builds when the rendered item is the same (core doc §5.3-§5.4). Excludes stem, locale, dressing, language, rank, and bank_version, which all rotate or change across rebuilds independent of content. Produced once here at bank-build time; consumers and the serving layer never compute it independently."
     },
     "graph_version": {
       "type": "string",

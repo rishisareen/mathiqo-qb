@@ -91,6 +91,10 @@ ALLOWED_QUESTION_TYPES = frozenset({"mcq_4", "numeric_entry"})
 
 DEFAULT_POOL_CAP = 40
 
+# KTD1: content identity for what the student actually sees (template +
+# concrete variable assignment), stable across bank rebuilds (KD4, R8, R9).
+VARIANT_SIGNATURE_ALGORITHM = "sha256"
+
 # Mirrors tools/item_verify.py's _SLOT_RE (a private module attribute) —
 # duplicated rather than imported because this is presentation-layer text
 # substitution, not "what is a valid variant" logic (the thing KTD5 says not
@@ -231,6 +235,27 @@ def derive_seed(template_id: str, bank_version: str) -> int:
     return int(digest[:16], 16)
 
 
+def compute_variant_signature(
+    template_id: str, template_version: str, variables: Mapping[str, int]
+) -> str:
+    """KTD1: sha256 over canonical JSON of (template_id, template_version,
+    variables) — the identity for what the student actually sees. Excludes
+    stem, locale, dressing, language, rank, and bank_version: dressing rotates
+    by rank (dress_slots' base_index) and rank shifts across builds, so
+    rendered text is unstable across rebuilds while the mathematical content
+    (this signature) is not — the fact that lets seen-state survive a weekly
+    rebuild (KD4)."""
+    canonical = json.dumps(
+        {
+            "template_id": template_id,
+            "template_version": template_version,
+            "variables": dict(variables),
+        },
+        sort_keys=True,
+    )
+    return hashlib.sha256(canonical.encode("utf-8")).hexdigest()
+
+
 def sample_variant_indices(total: int, cap: int, seed: int) -> list[int]:
     """Deterministic evenly-spaced sample of `cap` positions out of `total`
     (KTD6). The seed (derived from template_id + bank_version) only picks
@@ -309,12 +334,16 @@ def materialize_instance(
         })
 
     instance_id = f"{template['template_id']}#{bank_version}#{rank:05d}"
+    variant_signature = compute_variant_signature(
+        str(template["template_id"]), str(template["template_version"]), values
+    )
 
     return {
         "item_instance_id": instance_id,
         "template_id": template["template_id"],
         "template_version": template["template_version"],
         "bank_version": bank_version,
+        "variant_signature": variant_signature,
         "graph_version": template["graph_version"],
         "skill_ids": list(template["skill_ids"]),  # type: ignore[index]
         "question_type": template["question_type"],

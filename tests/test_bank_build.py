@@ -344,6 +344,75 @@ def test_simplest_form_only_false_when_field_absent(tmp_path: Path) -> None:
     assert all(i["simplest_form_only"] is False for i in per_template["TPL.NUM.LCM.DIRECT.001"])
 
 
+# --- U1 / KTD1: variant_signature -------------------------------------------
+
+def test_same_variant_same_signature_across_bank_versions(tmp_path: Path) -> None:
+    """Covers AE3 (build-side half): the same template + variable
+    assignment materialized under two different bank_versions gets the
+    same signature."""
+    templates_dir = _copy_templates(tmp_path, [NUM_FIXTURE])
+    _, per_a = bank_build.run_build(templates_dir, LOCALE_PACK, "2026.07-a", pool_cap=1000)
+    _, per_b = bank_build.run_build(templates_dir, LOCALE_PACK, "2026.07-b", pool_cap=1000)
+    by_vars_a = {tuple(sorted(i["variables"].items())): i["variant_signature"] for i in per_a["TPL.FRAC.ADD.LIKE.NUM.001"]}
+    by_vars_b = {tuple(sorted(i["variables"].items())): i["variant_signature"] for i in per_b["TPL.FRAC.ADD.LIKE.NUM.001"]}
+    shared = set(by_vars_a) & set(by_vars_b)
+    assert shared, "expected overlapping variable assignments across the two builds"
+    for key in shared:
+        assert by_vars_a[key] == by_vars_b[key]
+
+
+def test_different_variables_yield_different_signatures(synthetic_dir: Path) -> None:
+    _, per_template = bank_build.run_build(synthetic_dir, LOCALE_PACK, "dev", pool_cap=1000)
+    instances = per_template["TPL.TEST.BUILD.MCQ.001"]
+    signatures = {i["variant_signature"]: tuple(sorted(i["variables"].items())) for i in instances}
+    assert len(signatures) == len({tuple(sorted(i["variables"].items())) for i in instances})
+
+
+def test_signature_unchanged_by_dressing_rank(synthetic_dir: Path) -> None:
+    """Same variable assignment, different rank (hence different locale
+    dressing via dress_slots' base_index) -> identical signature: dressing is
+    presentation, not content identity."""
+    _, per_small = bank_build.run_build(synthetic_dir, LOCALE_PACK, "dev", pool_cap=2)
+    _, per_large = bank_build.run_build(synthetic_dir, LOCALE_PACK, "dev", pool_cap=1000)
+    small_by_vars = {
+        tuple(sorted(i["variables"].items())): (i["variant_signature"], i["stem"])
+        for i in per_small["TPL.TEST.BUILD.MCQ.001"]
+    }
+    large_by_vars = {
+        tuple(sorted(i["variables"].items())): (i["variant_signature"], i["stem"])
+        for i in per_large["TPL.TEST.BUILD.MCQ.001"]
+    }
+    found_dressing_difference = False
+    for key, (sig_small, stem_small) in small_by_vars.items():
+        sig_large, stem_large = large_by_vars[key]
+        assert sig_small == sig_large
+        if stem_small != stem_large:
+            found_dressing_difference = True
+    assert found_dressing_difference, "expected rank-driven dressing to differ for at least one shared variant"
+
+
+def test_schema_rejects_instance_missing_variant_signature(synthetic_dir: Path) -> None:
+    _, per_template = bank_build.run_build(synthetic_dir, LOCALE_PACK, "dev", pool_cap=1)
+    instance = copy.deepcopy(per_template["TPL.TEST.BUILD.MCQ.001"][0])
+    del instance["variant_signature"]
+    validator = _instance_schema_validator()
+    errors = list(validator.iter_errors(instance))
+    assert errors, "expected schema violation for a missing variant_signature"
+
+
+def test_signature_deterministic_across_identical_rebuilds(tmp_path: Path) -> None:
+    """Extends the existing byte-identical-build determinism test with a
+    signature-specific assertion (rebuilding twice yields identical
+    signatures for every instance, not merely identical files overall)."""
+    templates_dir = _copy_templates(tmp_path, [WORD_FIXTURE, NUM_FIXTURE])
+    _, instances1 = bank_build.run_build(templates_dir, LOCALE_PACK, "2026.07-dev", pool_cap=7)
+    _, instances2 = bank_build.run_build(templates_dir, LOCALE_PACK, "2026.07-dev", pool_cap=7)
+    for template_id in instances1:
+        sigs1 = [i["variant_signature"] for i in instances1[template_id]]
+        sigs2 = [i["variant_signature"] for i in instances2[template_id]]
+        assert sigs1 == sigs2
+
+
 # --- Locale pack coverage error names the missing slot ----------------------
 
 def test_missing_locale_category_hard_errors(tmp_path: Path) -> None:

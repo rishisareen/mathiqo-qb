@@ -95,16 +95,14 @@ import string
 import sys
 import threading
 import time
-import uuid
 from dataclasses import dataclass, field
 from datetime import datetime
 from fractions import Fraction
 from pathlib import Path
 from typing import Callable, Dict, List, Optional, Tuple, Union
 
-from . import constants, engine, log as log_module
+from . import constants, engine, serving
 from .state import StudentModelStore
-from .update import Attempt
 
 # ---------------------------------------------------------------------------
 # Async input abstraction (the "same async-input mechanism" for hint
@@ -502,86 +500,46 @@ def _apply_and_log(
     session_last_event: bool,
     now: datetime,
 ) -> Optional[Tuple[float, float, "engine.EngineState", dict]]:
-    """Score one served item via `orchestrator/log.py`'s `compose_attempt` —
-    the same U1/U2 composition `apply_event` uses for a logged event — then
-    run the engine's `consume_event` step, in that order (see module
-    docstring).
+    """U6: delegates to `orchestrator/serving.py`'s `submit_attempt` (KTD6)
+    rather than composing the student-model update itself — kept as a
+    same-signature adapter so this module's own direct tests and
+    `run_session`'s call sites are unaffected by the facade adoption; the
+    compose/log/consume logic now lives in exactly one place.
 
-    Returns `None` when the §3 abandonment guard fires (`compose_attempt`
-    reports a `None` `new_state`): mirrors log.py's "what gets logged"
-    decision exactly — nothing is written to `store`, nothing is appended
-    to `log_path`, `consume_event` is never called. Otherwise returns
-    `(theta_before, theta_after, new_engine_state, logged_event)`.
+    Returns `None` when the §3 abandonment guard fires (mirrors log.py's
+    "what gets logged" decision exactly — nothing written to `store`,
+    nothing appended to `log_path`, `consume_event` never called).
+    Otherwise returns `(theta_before, theta_after, new_engine_state,
+    logged_event)`.
+
+    Raises `serving.IngestRejectedError` if KTD5 ingest validation rejects
+    the composed event ("surfaces as an error, not a silent drop") — this
+    should never fire for a well-behaved internal caller, since every field
+    ingest checks against the submitting session (bank_version, student_id,
+    session_id, variant_signature) is always this same session's own.
     """
-    skill_id = serve.skill_id
-    attempt = Attempt(
-        skill_ids=[skill_id],
-        question_type=instance["question_type"],
-        b_prior_at_serve=instance["difficulty"],
-        correct=correct,
-        hints_used=hints_used,
-        timed_out=timed_out,
-        engaged=engaged,
-        session_last_event=session_last_event,
-        context=serve.context,
-        misconception_id=misconception_id,
-        event_id=f"evt-{uuid.uuid4().hex}",
-        depth_served=instance["difficulty"],
+    facade = serving.ServingFacade(
+        banks_dir=None, logs_dir=None, content=content,
+        bank_lookup=engine.make_static_bank_lookup(bank),
     )
-    state = store.get(student_id, skill_id)
-    composed = log_module.compose_attempt(state, attempt, serve.context, now)
-    if composed.new_state is None:
-        return None
-    theta_before, theta_after, n_before = composed.theta_before, composed.theta_after, composed.n_before
-
-    store.write_records(student_id, {skill_id: composed.new_state})
-
-    event = {
-        "event_id": attempt.event_id,
-        "student_id": student_id,
-        "session_id": session_id,
-        "timestamp": now.isoformat(),
-        "item_instance_id": instance["item_instance_id"],
-        "template_id": instance["template_id"],
-        "template_version": instance["template_version"],
-        "bank_version": instance["bank_version"],
-        "engine_version": constants.ENGINE_VERSION,
-        "graph_version": instance["graph_version"],
-        "skill_ids": [skill_id],
-        "question_type": instance["question_type"],
-        "depth_served": instance["difficulty"],
-        "b_prior_at_serve": instance["difficulty"],
-        "exam_context": None,
-        "language": instance["language"],
-        "locale": instance["locale"],
-        "response_raw": response_raw,
-        "response_parsed": response_parsed,
-        "correct": correct,
-        "misconception_id": misconception_id,
-        "hints_used": hints_used,
-        "hint_auto_offered": hint_auto_offered,
-        "time_taken_sec": time_taken_sec,
-        "timed_out": timed_out,
-        "context": serve.context,
-        "theta_before": theta_before,
-        "theta_after": theta_after,
-        "n_before": n_before,
-    }
-    log_module.append_attempt(log_path, event)
-
-    outcome = engine.AttemptOutcome(
-        student_id=student_id,
-        skill_ids=[skill_id],
-        item_instance_id=instance["item_instance_id"],
-        correct=correct,
-        misconception_id=misconception_id,
-        context=serve.context,
-        depth_served=instance["difficulty"],
+    session_obj = serving.Session(
+        session_id=session_id, student_id=student_id, bank=bank,
+        log_path=log_path, store=store, engine_state=engine_state,
     )
-    consume_result = engine.consume_event(engine_state, store, content, bank, outcome, now)
-    engine.apply_consume_patches(store, student_id, consume_result.skill_state_patches)
-
-    return theta_before, theta_after, consume_result.engine_state, event
+    outcome = facade.submit_attempt(
+        session_obj, serve.skill_id, instance,
+        response_raw=response_raw, response_parsed=response_parsed, correct=correct,
+        misconception_id=misconception_id, hints_used=hints_used, hint_auto_offered=hint_auto_offered,
+        time_taken_sec=time_taken_sec, timed_out=timed_out, engaged=engaged,
+        session_last_event=session_last_event, context=serve.context,
+        consumer_id=constants.CONSUMER_ID_INTERNAL, now=now,
+    )
+    if outcome.event is None:
+        if outcome.rejection_reason is not None:
+            raise serving.IngestRejectedError(outcome.rejection_reason)
+        return None  # §3 abandonment guard: nothing to log
+    event = outcome.event
+    return event["theta_before"], event["theta_after"], session_obj.engine_state, event
 
 
 # ---------------------------------------------------------------------------
@@ -646,6 +604,41 @@ def run_session(
     certifications_earned: List[str] = []
     items_served = 0
 
+    # U6: routes every select_next candidate-pool read through
+    # orchestrator/serving.py's get_candidates (KTD6's parity rule
+    # literally, not only for submission) — the same seen-filtered
+    # primitive external MCP consumers use, rather than reading `bank`
+    # directly. Reads the enclosing `engine_state`/`store` at call time
+    # (Python closures resolve free variables dynamically), so it always
+    # sees this loop's current values even though both get reassigned
+    # every iteration.
+    facade = serving.ServingFacade(
+        banks_dir=None, logs_dir=None, content=content,
+        bank_lookup=engine.make_static_bank_lookup(bank),
+    )
+
+    def _candidates_for_skill(skill_id: str) -> List[dict]:
+        session_obj = serving.Session(
+            session_id=session_id, student_id=student_id, bank=bank,
+            log_path=log_path, store=store, engine_state=engine_state,
+        )
+        result = facade.get_candidates(session_obj, skill_id)
+        if result.exhausted:
+            # get_candidates collapses exhaustion to a single
+            # least-recently-seen repeat (R1) — correct for a caller that
+            # immediately serves whatever it gets back, but select_next's
+            # frontier ceiling-scan reasons across the *whole* pool per
+            # skill (depth eligibility, mastered-at-depth) before handing
+            # off to pick_instance's own seen-filter/repeat logic; a
+            # single collapsed instance could itself be mastered-at-depth,
+            # wrongly making the skill look like it has nothing left to
+            # offer. Fall back to the full pool so pick_instance's
+            # existing exhaustion handling (unchanged since U3) keeps
+            # deciding the repeat, exactly as before this unit routed the
+            # *unexhausted* case through get_candidates.
+            return session_obj.bank.instances_by_skill.get(skill_id, [])
+        return result.instances
+
     def _track_skill(skill_id: str) -> None:
         if skill_id not in theta_start:
             s = store.peek(student_id, skill_id)
@@ -660,7 +653,10 @@ def run_session(
                 certifications_earned.append(skill_id)
 
     while True:
-        select_result = engine.select_next(store, engine_state, content, bank, student_id, country, grade, now)
+        select_result = engine.select_next(
+            store, engine_state, content, bank, student_id, country, grade, now,
+            candidates_for_skill=_candidates_for_skill,
+        )
         engine_state = select_result.engine_state
         for warning in select_result.warnings:
             notify(f"[warn] {warning}")
@@ -696,20 +692,24 @@ def run_session(
 
         if isinstance(collected, TimedOutResponse):
             session_last_event = not collected.engaged  # see module docstring's abandonment-guard section
-            applied = _apply_and_log(
-                store, engine_state, content, bank, student_id, session_id, log_path, serve, instance,
-                response_raw="",
-                response_parsed=None,
-                correct=False,
-                misconception_id=None,
-                hints_used=collected.hints_used,
-                hint_auto_offered=collected.hint_auto_offered,
-                time_taken_sec=collected.time_taken_sec,
-                timed_out=True,
-                engaged=collected.engaged,
-                session_last_event=session_last_event,
-                now=now,
-            )
+            try:
+                applied = _apply_and_log(
+                    store, engine_state, content, bank, student_id, session_id, log_path, serve, instance,
+                    response_raw="",
+                    response_parsed=None,
+                    correct=False,
+                    misconception_id=None,
+                    hints_used=collected.hints_used,
+                    hint_auto_offered=collected.hint_auto_offered,
+                    time_taken_sec=collected.time_taken_sec,
+                    timed_out=True,
+                    engaged=collected.engaged,
+                    session_last_event=session_last_event,
+                    now=now,
+                )
+            except serving.IngestRejectedError as exc:
+                notify(f"[error] attempt rejected: {exc} — ending session.")
+                break
             if applied is None:
                 notify("No response received — ending session.")
                 break
@@ -725,20 +725,24 @@ def run_session(
         else:
             correct, misconception_id, response_parsed = grade_numeric_response(instance, collected.parsed)
 
-        applied = _apply_and_log(
-            store, engine_state, content, bank, student_id, session_id, log_path, serve, instance,
-            response_raw=collected.response_raw,
-            response_parsed=response_parsed,
-            correct=correct,
-            misconception_id=misconception_id,
-            hints_used=collected.hints_used,
-            hint_auto_offered=collected.hint_auto_offered,
-            time_taken_sec=collected.time_taken_sec,
-            timed_out=False,
-            engaged=True,
-            session_last_event=False,
-            now=now,
-        )
+        try:
+            applied = _apply_and_log(
+                store, engine_state, content, bank, student_id, session_id, log_path, serve, instance,
+                response_raw=collected.response_raw,
+                response_parsed=response_parsed,
+                correct=correct,
+                misconception_id=misconception_id,
+                hints_used=collected.hints_used,
+                hint_auto_offered=collected.hint_auto_offered,
+                time_taken_sec=collected.time_taken_sec,
+                timed_out=False,
+                engaged=True,
+                session_last_event=False,
+                now=now,
+            )
+        except serving.IngestRejectedError as exc:
+            notify(f"[error] attempt rejected: {exc} — ending session.")
+            break
         assert applied is not None, "an engaged (non-timeout) attempt is never discarded by the abandonment guard"
         _theta_before, _theta_after, engine_state, _event = applied
 

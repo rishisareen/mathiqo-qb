@@ -47,11 +47,12 @@ implementations of "what does this wrong answer match" (plan point 5).
 from __future__ import annotations
 
 import copy
+import functools
 import json
 from dataclasses import dataclass, field
 from datetime import datetime
 from pathlib import Path
-from typing import Dict, List, Optional, Tuple
+from typing import Callable, Dict, List, Optional, Tuple
 
 import yaml
 
@@ -227,6 +228,44 @@ def load_bank(bank_dir: Path) -> BankIndex:
 
 
 # ---------------------------------------------------------------------------
+# KTD7: bank lookup by bank_version — any retained build, not just ACTIVE
+# ---------------------------------------------------------------------------
+
+# Resolves a bank_version to its BankIndex. Distinct from KTD3's ACTIVE
+# pointer (which only answers "what do new sessions pin?"): replay (and,
+# from U5, ingest) must resolve *each event* against its own stamped build,
+# since a log can span builds and the diagnosis path consults the bank per
+# event (`_find_easier_instance`) — a cross-build log would otherwise replay
+# decisions the live session never made.
+BankLookup = Callable[[str], BankIndex]
+
+
+def make_bank_lookup(banks_dir: Path, cache_size: int = 8) -> BankLookup:
+    """KTD7's disk-backed lookup: loads `banks_dir/<bank_version>/` on first
+    use, LRU-cached (small — replay/ingest touch at most a handful of
+    distinct builds in practice)."""
+
+    @functools.lru_cache(maxsize=cache_size)
+    def lookup(bank_version: str) -> BankIndex:
+        return load_bank(banks_dir / bank_version)
+
+    return lookup
+
+
+def make_static_bank_lookup(*banks: BankIndex) -> BankLookup:
+    """A bank_lookup over already-loaded BankIndex objects, keyed by their
+    own `bank_version` — for callers (a live session holding its one pinned
+    bank; tests) that already have every build the log could reference in
+    memory and don't need `make_bank_lookup`'s disk I/O."""
+    by_version = {bank.bank_version: bank for bank in banks}
+
+    def lookup(bank_version: str) -> BankIndex:
+        return by_version[bank_version]
+
+    return lookup
+
+
+# ---------------------------------------------------------------------------
 # Depth targeting: tier conversion, placement prior, serving ceiling (KTD9)
 # ---------------------------------------------------------------------------
 
@@ -285,26 +324,30 @@ def pick_instance(
     pool is exhausted and a least-recently-seen repeat is served instead
     (§5.4's pool-utilization signal; documented here as a returned
     structured value rather than a stderr print, so a headless caller/test
-    can assert on it directly)."""
+    can assert on it directly).
+
+    KTD4: `seen_history` is a list of `variant_signature`s, not instance ids
+    — "seen" means "this content", which survives a bank rebuild that
+    re-samples the same variant under a new instance id (AE3)."""
     if not candidates:
         return None, None
     seen = set(seen_history)
-    unseen = [c for c in candidates if c["item_instance_id"] not in seen]
+    unseen = [c for c in candidates if c["variant_signature"] not in seen]
     if unseen:
         best = min(unseen, key=lambda c: (abs(c["difficulty"] - target), c["item_instance_id"]))
         return best, None
 
     # Pool exhausted: least-recently-seen fallback. last_seen_at maps each
-    # instance id to the index of its most recent appearance in
+    # variant signature to the index of its most recent appearance in
     # seen_history — the smallest such index among candidates is the one
     # that has gone the longest without being served again.
     last_seen_at: Dict[str, int] = {}
-    for idx, instance_id in enumerate(seen_history):
-        last_seen_at[instance_id] = idx
+    for idx, signature in enumerate(seen_history):
+        last_seen_at[signature] = idx
     ranked = sorted(
         candidates,
         key=lambda c: (
-            last_seen_at.get(c["item_instance_id"], -1),
+            last_seen_at.get(c["variant_signature"], -1),
             abs(c["difficulty"] - target),
             c["item_instance_id"],
         ),
@@ -380,9 +423,11 @@ class PrereqProbe:
 @dataclass
 class EngineState:
     """The engine's own persistent-but-log-derivable state (KTD11) — never
-    stored on SkillState. `seen_history[skill_id]` is every item_instance_id
-    served for that skill, in serve order (may contain repeats once the
-    pool is exhausted); `placement_cursor[strand]` is the skill currently
+    stored on SkillState. `seen_history[skill_id]` is every variant_signature
+    served for that skill (KTD4 — content-based identity, not instance id, so
+    it survives a bank rebuild that re-samples the same variant under a new
+    instance id, AE3), in serve order (may contain repeats once the pool is
+    exhausted); `placement_cursor[strand]` is the skill currently
     being probed for that strand's placement walk (absent once that
     strand's frontier is found or placement never applied to it)."""
 
@@ -532,6 +577,7 @@ class AttemptOutcome:
     student_id: str
     skill_ids: List[str]
     item_instance_id: str
+    variant_signature: str
     correct: bool
     misconception_id: Optional[str]
     context: str
@@ -543,6 +589,7 @@ def attempt_outcome_from_event(event: dict) -> AttemptOutcome:
         student_id=event["student_id"],
         skill_ids=list(event["skill_ids"]),
         item_instance_id=event["item_instance_id"],
+        variant_signature=event["variant_signature"],
         correct=event["correct"],
         misconception_id=event["misconception_id"],
         context=event["context"],
@@ -586,7 +633,7 @@ def consume_event(
     patches: Dict[str, SkillState] = {}
 
     for skill_id in outcome.skill_ids:
-        _mark_served(new_state, skill_id, outcome.item_instance_id)
+        _mark_served(new_state, skill_id, outcome.variant_signature)
 
     # Multi-skill items never carry single-skill diagnosis (mirrors
     # maybe_certify's own guard — there is no one unambiguous skill to
@@ -716,14 +763,16 @@ class SelectResult:
     warnings: List[str] = field(default_factory=list)
 
 
-def _mark_served(engine_state: EngineState, skill_id: str, item_instance_id: str) -> None:
+def _mark_served(engine_state: EngineState, skill_id: str, variant_signature: str) -> None:
     """Copy-on-write append: replaces `skill_id`'s list with a new one
     rather than mutating it in place. `_copy_engine_state`'s `seen_history`
     shares list objects with the state it was copied from until the first
     write to each key — mutating in place here would corrupt that shared
     list (and thus the caller's own copy) instead of only ever touching
-    the copy this function was actually asked to update."""
-    engine_state.seen_history[skill_id] = engine_state.seen_history.get(skill_id, []) + [item_instance_id]
+    the copy this function was actually asked to update.
+
+    KTD4: the list holds `variant_signature`s, not instance ids."""
+    engine_state.seen_history[skill_id] = engine_state.seen_history.get(skill_id, []) + [variant_signature]
 
 
 def _try_serve(
@@ -747,7 +796,7 @@ def _try_serve(
         return None
     if warning:
         warnings.append(warning)
-    _mark_served(new_state, skill_id, instance["item_instance_id"])
+    _mark_served(new_state, skill_id, instance["variant_signature"])
     return Serve(instance["item_instance_id"], skill_id, instance["difficulty"], context, reason)
 
 
@@ -760,12 +809,35 @@ def select_next(
     country: str,
     grade: int,
     now: datetime,
+    candidates_for_skill: Optional[Callable[[str], List[dict]]] = None,
 ) -> SelectResult:
     """R12's priority chain: due review -> confirmed-misconception
     remediation -> queued step-down probes -> queued prerequisite probes ->
     placement -> frontier practice. Returns a fresh EngineState with the
     chosen instance already marked seen (selection-time marking, not
-    result-time — see the module report on why this is safe for replay)."""
+    result-time — see the module report on why this is safe for replay).
+
+    `candidates_for_skill`, when given, replaces the candidate-pool read
+    for steps 1-5 (due review, remediation, step-down, prerequisite probe,
+    placement — each a single-skill, single-target read) with a call to
+    it instead of `bank.instances_by_skill` (U6: the reference orchestrator
+    passes a provider backed by `orchestrator/serving.py`'s `get_candidates`
+    — the same seen-filtered primitive external MCP consumers use, KTD6's
+    parity rule for those five steps). Step 6 (frontier practice)
+    deliberately keeps reading `bank` directly regardless of this
+    parameter: its cross-skill ceiling scan needs every instance at every
+    depth to reason about eligibility (ceiling, mastered-at-depth,
+    prerequisite certification) independent of seen-status, and a
+    seen-filtered, collapse-to-one-on-exhaustion pool (get_candidates' own
+    R1 contract) can starve it — once a depth tier is mastered and
+    permanently excluded from selection, that tier's leftover unseen
+    instances keep the pool-wide exhaustion check from ever firing while
+    frontier itself has nothing left to offer at the tiers still relevant.
+    `pick_instance`'s own seen-filter (unchanged) still runs on top of
+    whatever pool either path supplies, so passing an already seen-filtered
+    pool into steps 1-5 composes correctly — the second filter there is a
+    no-op, not a conflict."""
+    provide = candidates_for_skill or (lambda skill_id: bank.instances_by_skill.get(skill_id, []))
     new_state = _copy_engine_state(engine_state)
     warnings: List[str] = []
 
@@ -774,11 +846,7 @@ def select_next(
     due = due_reviews(records, now)
     if due:
         skill_id, skill_state = due[0]
-        candidates = [
-            inst
-            for inst in bank.instances_by_skill.get(skill_id, [])
-            if inst["question_type"] in constants.LOW_GUESS_FORMATS
-        ]
+        candidates = [inst for inst in provide(skill_id) if inst["question_type"] in constants.LOW_GUESS_FORMATS]
         serve = _try_serve(new_state, warnings, skill_id, candidates, skill_state.certified_depth, "review", "review")
         if serve is not None:
             return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
@@ -790,7 +858,7 @@ def select_next(
         ceiling = serving_ceiling(dose.skill_id, country, grade, content)
         target = target_depth(skill_state.theta, ceiling)
         serve = _try_serve(
-            new_state, warnings, dose.skill_id, bank.instances_by_skill.get(dose.skill_id, []),
+            new_state, warnings, dose.skill_id, provide(dose.skill_id),
             target, "practice", "remediation",
         )
         if serve is not None:
@@ -800,7 +868,7 @@ def select_next(
     if new_state.stepdown_queue:
         probe = new_state.stepdown_queue[0]
         serve = _try_serve(
-            new_state, warnings, probe.skill_id, bank.instances_by_skill.get(probe.skill_id, []),
+            new_state, warnings, probe.skill_id, provide(probe.skill_id),
             probe.target_depth, "probe", "stepdown",
         )
         if serve is not None:
@@ -811,7 +879,7 @@ def select_next(
         probe = new_state.prereq_probe_queue[0]
         target = starting_depth_for(probe.skill_id, country, grade, content)
         serve = _try_serve(
-            new_state, warnings, probe.skill_id, bank.instances_by_skill.get(probe.skill_id, []),
+            new_state, warnings, probe.skill_id, provide(probe.skill_id),
             target, "probe", "prereq_probe",
         )
         if serve is not None:
@@ -823,7 +891,7 @@ def select_next(
         skill_id = new_state.placement_cursor[strand]
         target = starting_depth_for(skill_id, country, grade, content)
         serve = _try_serve(
-            new_state, warnings, skill_id, bank.instances_by_skill.get(skill_id, []),
+            new_state, warnings, skill_id, provide(skill_id),
             target, "placement", "placement",
         )
         if serve is not None:
@@ -856,6 +924,12 @@ def select_next(
         )
         if mastered_to_ceiling:
             continue
+        # Deliberately `bank.instances_by_skill`, not `provide(skill_id)`:
+        # this scan's eligibility checks (ceiling, mastered-at-depth,
+        # prerequisite certification) are independent of seen-status and
+        # need the full pool at every depth — see select_next's docstring
+        # for why a seen-filtered candidates_for_skill would starve this
+        # step once a depth tier is mastered.
         for instance in bank.instances_by_skill.get(skill_id, []):
             depth = instance["difficulty"]
             if depth > ceiling:
@@ -891,7 +965,7 @@ def select_next(
 
 
 def rebuild_session_state(
-    log_path: Path, content: ContentIndex, bank: BankIndex
+    log_path: Path, content: ContentIndex, bank_lookup: BankLookup
 ) -> Tuple[StudentModelStore, EngineState]:
     """Re-derive both the StudentModelStore and EngineState from scratch by
     replaying `log_path` once (KTD11) — the one full pass a session-startup
@@ -918,6 +992,12 @@ def rebuild_session_state(
     the session, and any misconception-counter-reset patches it returns are
     folded back into the store before continuing, same as a live caller
     must do (see consume_event's docstring).
+
+    KTD7: `bank_lookup` resolves *each event's own* stamped `bank_version`
+    (via `make_bank_lookup`/`make_static_bank_lookup`) rather than replaying
+    the whole log against one fixed bank — a log spanning builds must
+    reproduce the pool `_find_easier_instance` actually consulted live at
+    each event, not whichever bank the caller happens to hold today.
     """
     store = StudentModelStore()
     engine_state = EngineState()
@@ -926,13 +1006,14 @@ def rebuild_session_state(
         store.append_event(event)
         now = log_module.parse_timestamp(event["timestamp"])
         outcome = attempt_outcome_from_event(event)
+        bank = bank_lookup(event["bank_version"])
         result = consume_event(engine_state, store, content, bank, outcome, now)
         engine_state = result.engine_state
         apply_consume_patches(store, event["student_id"], result.skill_state_patches)
     return store, engine_state
 
 
-def rebuild_engine_state(log_path: Path, content: ContentIndex, bank: BankIndex) -> EngineState:
+def rebuild_engine_state(log_path: Path, content: ContentIndex, bank_lookup: BankLookup) -> EngineState:
     """EngineState-only view of `rebuild_session_state`, for callers (and
     tests) that don't also need the rebuilt StudentModelStore — e.g. a
     caller that already has its own live store and only wants to compare
@@ -941,5 +1022,5 @@ def rebuild_engine_state(log_path: Path, content: ContentIndex, bank: BankIndex)
     separate `log.replay(log_path)` call, which would replay the same log
     file twice for no additional information (see that function's
     docstring)."""
-    _store, engine_state = rebuild_session_state(log_path, content, bank)
+    _store, engine_state = rebuild_session_state(log_path, content, bank_lookup)
     return engine_state

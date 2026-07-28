@@ -103,6 +103,7 @@ def run_attempt(
         student_id=student_id,
         skill_ids=[serve.skill_id],
         item_instance_id=serve.item_instance_id,
+        variant_signature=instance["variant_signature"],
         correct=correct,
         misconception_id=misconception_id,
         context=serve.context,
@@ -228,9 +229,9 @@ def test_match_distractor_none_for_a_matched_but_untagged_distractor(bank: engin
 
 def test_pick_instance_nearest_difficulty_ties_broken_by_id() -> None:
     candidates = [
-        {"item_instance_id": "b", "difficulty": 0.2},
-        {"item_instance_id": "a", "difficulty": 0.2},
-        {"item_instance_id": "c", "difficulty": 0.5},
+        {"item_instance_id": "b", "variant_signature": "sig-b", "difficulty": 0.2},
+        {"item_instance_id": "a", "variant_signature": "sig-a", "difficulty": 0.2},
+        {"item_instance_id": "c", "variant_signature": "sig-c", "difficulty": 0.5},
     ]
     instance, warning = engine.pick_instance(candidates, target=0.2, seen_history=[])
     assert instance["item_instance_id"] == "a"
@@ -239,28 +240,56 @@ def test_pick_instance_nearest_difficulty_ties_broken_by_id() -> None:
 
 def test_pick_instance_never_repeats_while_unseen_alternatives_exist() -> None:
     candidates = [
-        {"item_instance_id": "a", "difficulty": 0.2},
-        {"item_instance_id": "b", "difficulty": 0.2},
+        {"item_instance_id": "a", "variant_signature": "sig-a", "difficulty": 0.2},
+        {"item_instance_id": "b", "variant_signature": "sig-b", "difficulty": 0.2},
     ]
-    instance, warning = engine.pick_instance(candidates, target=0.2, seen_history=["a"])
+    instance, warning = engine.pick_instance(candidates, target=0.2, seen_history=["sig-a"])
+    assert instance["item_instance_id"] == "b"
+    assert warning is None
+
+
+def test_pick_instance_never_repeats_a_signature_even_under_a_new_instance_id() -> None:
+    """Covers AE3 (serving-side half): a signature already in seen_history
+    is treated as seen even when the candidate's item_instance_id differs
+    from whatever id it was originally served under (a rebuilt-bank
+    re-sample of the same variant)."""
+    candidates = [
+        {"item_instance_id": "a-rebuilt", "variant_signature": "sig-a", "difficulty": 0.2},
+        {"item_instance_id": "b", "variant_signature": "sig-b", "difficulty": 0.2},
+    ]
+    instance, warning = engine.pick_instance(candidates, target=0.2, seen_history=["sig-a"])
     assert instance["item_instance_id"] == "b"
     assert warning is None
 
 
 def test_pick_instance_exhausted_pool_repeats_least_recently_seen_with_warning() -> None:
     candidates = [
-        {"item_instance_id": "a", "difficulty": 0.2},
-        {"item_instance_id": "b", "difficulty": 0.2},
-        {"item_instance_id": "c", "difficulty": 0.2},
+        {"item_instance_id": "a", "variant_signature": "sig-a", "difficulty": 0.2},
+        {"item_instance_id": "b", "variant_signature": "sig-b", "difficulty": 0.2},
+        {"item_instance_id": "c", "variant_signature": "sig-c", "difficulty": 0.2},
     ]
-    # a was served longest ago (index 0); c most recently (index 2).
-    instance, warning = engine.pick_instance(candidates, target=0.2, seen_history=["a", "b", "c"])
+    # sig-a was served longest ago (index 0); sig-c most recently (index 2).
+    instance, warning = engine.pick_instance(candidates, target=0.2, seen_history=["sig-a", "sig-b", "sig-c"])
     assert instance["item_instance_id"] == "a"
     assert warning is not None
 
 
 def test_pick_instance_empty_candidates_returns_none() -> None:
     assert engine.pick_instance([], target=0.2, seen_history=[]) == (None, None)
+
+
+def test_pick_instance_two_distinct_signatures_in_pool_both_servable() -> None:
+    """Two instances with different signatures in the same pool are both
+    servable — no false-positive collision from signature-keyed identity:
+    marking one seen must not make the other look seen too."""
+    candidates = [
+        {"item_instance_id": "x1", "variant_signature": "sig-x", "difficulty": 0.3},
+        {"item_instance_id": "y1", "variant_signature": "sig-y", "difficulty": 0.3},
+    ]
+    first, _ = engine.pick_instance(candidates, target=0.3, seen_history=[])
+    second, _ = engine.pick_instance(candidates, target=0.3, seen_history=[first["variant_signature"]])
+    assert {first["variant_signature"], second["variant_signature"]} == {"sig-x", "sig-y"}
+    assert first["item_instance_id"] != second["item_instance_id"]
 
 
 # --- consume_event: KTD12 remediation dose ------------------------------------
@@ -437,6 +466,7 @@ def test_review_context_never_leaks_into_diagnosis_queues(content: engine.Conten
         student_id="stu-review-no-leak",
         skill_ids=["FRAC.ADD.UNLIKE"],
         item_instance_id="ignored",
+        variant_signature="ignored-sig",
         correct=False,
         misconception_id=None,
         context="review",
@@ -463,6 +493,7 @@ def test_review_context_does_not_disturb_an_unrelated_active_stepdown_probe(
         student_id="stu1",
         skill_ids=["FRAC.ADD.UNLIKE"],
         item_instance_id="ignored",
+        variant_signature="ignored-sig",
         correct=False,
         misconception_id=None,
         context="review",
@@ -488,14 +519,15 @@ def test_consume_event_multi_skill_item_returns_immediately_no_diagnosis(
         student_id="stu1",
         skill_ids=["FRAC.ADD.UNLIKE", "FRAC.EQUIV"],
         item_instance_id="inst-multi",
+        variant_signature="sig-multi",
         correct=False,
         misconception_id=None,
         context="practice",
         depth_served=0.5,
     )
     result = engine.consume_event(engine.EngineState(), store, content, bank, outcome, NOW)
-    assert result.engine_state.seen_history["FRAC.ADD.UNLIKE"] == ["inst-multi"]
-    assert result.engine_state.seen_history["FRAC.EQUIV"] == ["inst-multi"]
+    assert result.engine_state.seen_history["FRAC.ADD.UNLIKE"] == ["sig-multi"]
+    assert result.engine_state.seen_history["FRAC.EQUIV"] == ["sig-multi"]
     assert result.engine_state.stepdown_queue == []
     assert result.engine_state.prereq_probe_queue == []
     assert result.engine_state.remediation_queue == []
@@ -514,6 +546,7 @@ def test_placement_pass_below_frontier_n_moves_to_a_dependent(content: engine.Co
         student_id=student_id,
         skill_ids=["FRAC.UNIT"],
         item_instance_id="ignored",
+        variant_signature="ignored-sig",
         correct=True,
         misconception_id=None,
         context="placement",
@@ -540,6 +573,7 @@ def test_placement_fail_below_frontier_n_moves_to_a_prerequisite(content: engine
         student_id=student_id,
         skill_ids=["FRAC.PARTWHOLE"],
         item_instance_id="ignored",
+        variant_signature="ignored-sig",
         correct=False,
         misconception_id=None,
         context="placement",
@@ -561,6 +595,7 @@ def test_placement_stops_at_frontier_once_n_reaches_three(content: engine.Conten
         student_id=student_id,
         skill_ids=["FRAC.UNIT"],
         item_instance_id="ignored",
+        variant_signature="ignored-sig",
         correct=True,
         misconception_id=None,
         context="placement",
@@ -592,6 +627,7 @@ def test_placement_fail_with_prereq_already_certified_ends_the_walk(
         student_id=student_id,
         skill_ids=["FRAC.PARTWHOLE"],
         item_instance_id="ignored",
+        variant_signature="ignored-sig",
         correct=False,
         misconception_id=None,
         context="placement",
@@ -807,6 +843,33 @@ def test_select_next_repeats_are_avoided_then_warn_on_exhaustion(content: engine
     assert result.warnings != []
 
 
+def test_select_next_routes_candidate_pool_reads_through_candidates_for_skill(
+    content: engine.ContentIndex, bank: engine.BankIndex
+) -> None:
+    """U6: when given, `candidates_for_skill` replaces every bank read
+    select_next would otherwise make (the reference orchestrator routes
+    these through orchestrator/serving.py's get_candidates). Proof: a
+    provider that only ever exposes one FRAC.UNIT instance forces
+    placement to serve exactly that one, never anything else the real bank
+    pool actually contains for that skill."""
+    student_id = "stu-provider-routed"
+    store = StudentModelStore()
+    engine_state = engine.EngineState(placement_cursor={"NUMBER.FRACTIONS": "FRAC.UNIT"}, placement_initialized=True)
+    only_instance = bank.instances_by_skill["FRAC.UNIT"][0]
+    calls: list[str] = []
+
+    def provider(skill_id: str) -> list[dict]:
+        calls.append(skill_id)
+        return [only_instance] if skill_id == "FRAC.UNIT" else []
+
+    result = engine.select_next(
+        store, engine_state, content, bank, student_id, "CA", 4, NOW, candidates_for_skill=provider
+    )
+    assert "FRAC.UNIT" in calls
+    assert result.serve is not None
+    assert result.serve.item_instance_id == only_instance["item_instance_id"]
+
+
 def test_select_next_copy_on_write_does_not_mutate_callers_engine_state(
     content: engine.ContentIndex, bank: engine.BankIndex
 ) -> None:
@@ -815,15 +878,16 @@ def test_select_next_copy_on_write_does_not_mutate_callers_engine_state(
     `seen_history` list it passed in — must remain untouched. Only the
     returned copy grows."""
     engine_state = _bypass_placement()
-    engine_state.seen_history["FRAC.UNIT"] = ["existing-id"]
+    engine_state.seen_history["FRAC.UNIT"] = ["existing-sig"]
     mini = _mini_bank(bank, "FRAC.UNIT")
     store = StudentModelStore()
 
     result = engine.select_next(store, engine_state, content, mini, "stu1", "CA", 4, NOW)
+    served_signature = mini.by_id[result.serve.item_instance_id]["variant_signature"]
 
-    assert engine_state.seen_history["FRAC.UNIT"] == ["existing-id"]  # caller's copy is untouched
-    assert result.serve.item_instance_id not in engine_state.seen_history["FRAC.UNIT"]
-    assert result.serve.item_instance_id in result.engine_state.seen_history["FRAC.UNIT"]
+    assert engine_state.seen_history["FRAC.UNIT"] == ["existing-sig"]  # caller's copy is untouched
+    assert served_signature not in engine_state.seen_history["FRAC.UNIT"]
+    assert served_signature in result.engine_state.seen_history["FRAC.UNIT"]
 
 
 # --- rebuild_engine_state: KTD11 replay reproduces live queue state -----------
@@ -840,6 +904,8 @@ def make_event(bank_index: engine.BankIndex, **overrides) -> dict:
         template_id=instance["template_id"],
         template_version=instance["template_version"],
         bank_version=bank_index.bank_version,
+        variant_signature=instance["variant_signature"],
+        consumer_id=constants.CONSUMER_ID_INTERNAL,
         engine_version=constants.ENGINE_VERSION,
         graph_version=instance["graph_version"],
         skill_ids=["FRAC.ADD.UNLIKE"],
@@ -885,7 +951,7 @@ def test_engine_replay_reproduces_pending_stepdown_probe(
     outcome = engine.attempt_outcome_from_event(event)
     live_result = engine.consume_event(live_engine_state, live_store, content, bank, outcome, NOW)
 
-    replayed_state = engine.rebuild_engine_state(log_path, content, bank)
+    replayed_state = engine.rebuild_engine_state(log_path, content, engine.make_static_bank_lookup(bank))
 
     assert len(replayed_state.stepdown_queue) == 1
     assert replayed_state.stepdown_queue == live_result.engine_state.stepdown_queue
@@ -902,6 +968,91 @@ def test_engine_replay_reproduces_remediation_dose_after_two_tagged_hits(
     append_attempt(log_path, e1)
     append_attempt(log_path, e2)
 
-    replayed_state = engine.rebuild_engine_state(log_path, content, bank)
+    replayed_state = engine.rebuild_engine_state(log_path, content, engine.make_static_bank_lookup(bank))
     assert len(replayed_state.remediation_queue) == 1
     assert replayed_state.remediation_queue[0].skill_id == "FRAC.EQUIV"
+
+
+def _minimal_attempt_event(**overrides) -> dict:
+    defaults = dict(
+        event_id="e1",
+        student_id="stu-multibuild",
+        session_id="sess1",
+        timestamp="2026-07-27T12:00:00",
+        item_instance_id="deep",
+        template_id="TPL.TEST.001",
+        template_version="1",
+        bank_version="bank-a",
+        variant_signature="a" * 64,
+        consumer_id=constants.CONSUMER_ID_INTERNAL,
+        engine_version=constants.ENGINE_VERSION,
+        graph_version="1.0.0",
+        skill_ids=["FRAC.ADD.UNLIKE"],
+        question_type="numeric_entry",
+        depth_served=0.5,
+        b_prior_at_serve=0.5,
+        exam_context=None,
+        language="en-IN",
+        locale="en-IN",
+        response_raw="wrong",
+        response_parsed="wrong",
+        correct=False,
+        misconception_id=None,
+        hints_used=0,
+        hint_auto_offered=False,
+        time_taken_sec=10.0,
+        timed_out=False,
+        context="practice",
+        theta_before=0.0,
+        theta_after=0.0,
+        n_before=0.0,
+    )
+    defaults.update(overrides)
+    return defaults
+
+
+def test_rebuild_session_state_resolves_each_event_against_its_stamped_build(
+    tmp_path: Path, content: engine.ContentIndex
+) -> None:
+    """A log spanning two bank versions replays each event against its
+    stamped build (KTD7): bank-a still has an easier-depth FRAC.ADD.UNLIKE
+    instance (an untagged deep failure there queues a step-down probe to
+    it), while bank-b (as if rebuilt without that easier variant) does not
+    — the same failure resolved against bank-b's pool instead falls
+    straight to the prerequisite walk. Proves the replay path re-derives
+    each event's own live decision rather than one fixed bank for the whole
+    log."""
+    bank_a = engine.BankIndex(
+        bank_version="bank-a",
+        instances_by_skill={
+            "FRAC.ADD.UNLIKE": [
+                {"item_instance_id": "easy", "difficulty": 0.2},
+                {"item_instance_id": "deep", "difficulty": 0.5},
+            ]
+        },
+        by_id={},
+    )
+    bank_b = engine.BankIndex(
+        bank_version="bank-b",
+        instances_by_skill={"FRAC.ADD.UNLIKE": [{"item_instance_id": "deep-b", "difficulty": 0.5}]},
+        by_id={},
+    )
+
+    log_path = tmp_path / "log.jsonl"
+    append_attempt(log_path, _minimal_attempt_event(bank_version="bank-a", item_instance_id="deep"))
+    _store, replayed = engine.rebuild_session_state(
+        log_path, content, engine.make_static_bank_lookup(bank_a, bank_b)
+    )
+    assert len(replayed.stepdown_queue) == 1
+    assert replayed.stepdown_queue[0].target_depth == pytest.approx(0.2)
+
+    # Same event, resolved only against bank-b (no easier instance there):
+    # the diagnosis differs — a prerequisite probe, not a step-down —
+    # proving the per-event bank resolution is what drives the decision.
+    wrong_log = tmp_path / "wrong.jsonl"
+    append_attempt(wrong_log, _minimal_attempt_event(bank_version="bank-b", item_instance_id="deep-b"))
+    _store2, replayed_wrong = engine.rebuild_session_state(
+        wrong_log, content, engine.make_static_bank_lookup(bank_b)
+    )
+    assert replayed_wrong.stepdown_queue == []
+    assert len(replayed_wrong.prereq_probe_queue) >= 1
