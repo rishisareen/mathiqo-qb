@@ -19,6 +19,7 @@ from orchestrator.log import append_attempt
 def make_event(**overrides) -> dict:
     defaults = dict(
         event_id="e1",
+        attempt_id="attempt-e1",
         student_id="stu1",
         session_id="sess1",
         timestamp="2026-07-27T12:00:00",
@@ -218,3 +219,34 @@ def test_repeat_rates_by_consumer_recomputed_from_log_with_no_flag_field(tmp_pat
     assert stats["tutor.a"].repeats == 1
     assert stats["tutor.b"].total == 1
     assert stats["tutor.b"].repeats == 0
+
+
+# --- U6 (R19, KTD13, KTD14): attempt_id required; answered_at/batch_id/  -----
+# --- policy_version optional --------------------------------------------------
+
+
+def test_event_without_attempt_id_fails_schema_validation(bank_lookup, session_ctx) -> None:
+    event = make_event()
+    del event["attempt_id"]
+    report = ingest.validate_event(event, session_ctx, bank_lookup, seen_state=set())
+    assert report.accepted is False
+    assert "schema" in report.rejection_reason
+
+
+def test_event_with_the_three_new_optional_fields_validates(bank_lookup, session_ctx) -> None:
+    event = make_event(
+        answered_at="2026-07-27T11:59:55",
+        batch_id="batch-1",
+        policy_version="policy-1",
+    )
+    report = ingest.validate_event(event, session_ctx, bank_lookup, seen_state=set())
+    assert report.accepted is True
+
+
+def test_event_without_the_three_new_optional_fields_still_validates(bank_lookup, session_ctx) -> None:
+    event = make_event()
+    assert "answered_at" not in event
+    assert "batch_id" not in event
+    assert "policy_version" not in event
+    report = ingest.validate_event(event, session_ctx, bank_lookup, seen_state=set())
+    assert report.accepted is True

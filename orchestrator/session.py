@@ -95,6 +95,7 @@ import string
 import sys
 import threading
 import time
+import uuid
 from dataclasses import dataclass, field
 from datetime import datetime
 from fractions import Fraction
@@ -532,6 +533,14 @@ def _apply_and_log(
     (`self.identity`) and per-session lock don't apply to it; the facade
     built here is still constructed without an `identity` argument, as it
     always has been.
+
+    U6 (R19): `submit_attempt` now requires an `attempt_id` — this
+    interactive runner has no retry/resubmission concept of its own (it is
+    a live, synchronous loop, not a client that can lose a response and
+    retry), so a fresh one is generated per call, the same way `event_id`
+    already is inside `submit_attempt` itself. This keeps `_apply_and_log`'s
+    own signature unchanged for its existing direct callers/tests
+    (tests/test_session.py, tests/test_replay_audit.py).
     """
     facade = serving.ServingFacade(
         banks_dir=None, logs_dir=None, content=content,
@@ -543,7 +552,7 @@ def _apply_and_log(
         country=country, curriculum=curriculum, grade=grade,
     )
     outcome = facade.submit_attempt(
-        session_obj, serve.skill_id, instance,
+        session_obj, f"attempt-{uuid.uuid4().hex}", serve.skill_id, instance,
         response_raw=response_raw, response_parsed=response_parsed, correct=correct,
         misconception_id=misconception_id, hints_used=hints_used, hint_auto_offered=hint_auto_offered,
         time_taken_sec=time_taken_sec, timed_out=timed_out, engaged=engaged,

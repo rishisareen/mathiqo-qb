@@ -196,7 +196,18 @@ class Session:
     does not break for a caller that doesn't set them; in practice that
     runner does set them (see its own docstring) because it already has
     the values on hand from its own `--country`/`--curriculum`/`--grade`
-    CLI arguments."""
+    CLI arguments.
+
+    U6 (R19, KTD4): `accepted_attempts` is this session's Path-A replay
+    map — `attempt_id -> SubmitOutcome` for every attempt_id `submit_attempt`
+    has already accepted (in this session, or seeded at `open_session` time
+    from the student's own log, see `_accepted_attempts_from_log`). A
+    resubmission of an `attempt_id` already present here is returned
+    unchanged, with no re-validation, re-write, or re-log (the "two-path
+    idempotency design" note in the U6 plan). Defaulted to an empty dict for
+    the same reason `country`/`curriculum`/`grade` default to `None`: the
+    internal session runner's own direct `Session(...)` construction
+    (`orchestrator/session.py`'s `_apply_and_log`) doesn't pass this."""
 
     session_id: str
     student_id: str
@@ -207,6 +218,7 @@ class Session:
     country: Optional[str] = None
     curriculum: Optional[str] = None
     grade: Optional[int] = None
+    accepted_attempts: Dict[str, "SubmitOutcome"] = field(default_factory=dict)
 
 
 @dataclass
@@ -228,13 +240,61 @@ class SubmitOutcome:
     surfaces as an error, not a silent drop"): `event` is set only when the
     attempt was accepted and logged; a rejection sets `rejection_reason`
     (KTD5) and leaves `session.store`/`session.engine_state` untouched — the
-    §3 abandonment guard discarding the attempt sets neither and is not an
-    error, just nothing to log. `repeat` (KD5) is never written onto the
-    event itself; it only ever lives here."""
+    §3 abandonment guard discarding the attempt sets neither, and is not an
+    error, just nothing to log — but does set `discard_reason` (U6), naming
+    why nothing was logged, so a caller doesn't have to infer a discard from
+    two `None`s. `repeat` (KD5) is never written onto the event itself; it
+    only ever lives here.
+
+    U6 (R19): this is also the value cached, keyed by `attempt_id`, in
+    `Session.accepted_attempts` on acceptance — a Path-A replay of the same
+    `attempt_id` returns this exact object back out unchanged."""
 
     event: Optional[dict]
     rejection_reason: Optional[str] = None
     repeat: bool = False
+    discard_reason: Optional[str] = None
+
+
+def _accepted_attempts_from_log(log_path: Path) -> Dict[str, SubmitOutcome]:
+    """U6 (R19, KTD4): seeds a freshly opened session's Path-A replay map
+    (`Session.accepted_attempts`) from the student's own historical log, so
+    a resubmission of an `attempt_id` that was accepted in a *prior*
+    session (crash/eviction between the original accept and the client
+    seeing the response) is still recognized after `open_session` — not
+    just within the one live session that first accepted it.
+
+    Deliberately its own pass over `log_module.iter_events(log_path)`
+    rather than something threaded through `engine.rebuild_session_state`'s
+    own internal replay loop: that function's docstring is explicit that
+    this unit must not duplicate its apply_attempt/consume_event
+    composition, and changing its return shape to also hand back per-event
+    data would ripple into every one of its other callers
+    (`tools/serve.py`, `tools/replay_audit.py`, `tests/test_engine.py`),
+    all outside this unit's scope. This pass is cheap by comparison — it
+    only JSON-decodes each line and reads `attempt_id` off it, doing none
+    of `rebuild_session_state`'s per-event `compose_attempt`/`consume_event`
+    work — so the extra file read costs a small, bounded fraction of what
+    `rebuild_session_state`'s own already-necessary pass costs, not a
+    second copy of that work.
+
+    A reconstructed `SubmitOutcome` only carries `event` (the full logged
+    row — everything a repeat submission of the same `attempt_id` needs to
+    hand back unchanged). `repeat` defaults to `False`: the original KD5
+    pool-exhaustion repeat flag was never persisted onto the event itself
+    (by design — see `orchestrator/ingest.py`'s module docstring) and isn't
+    recoverable from the log, but it also isn't part of retry-safety (AE7
+    only requires the *outcome* replay exactly, not the repeat flag), so
+    reconstructing it as `False` rather than guessing is the honest choice.
+    Historical log lines predating this unit (no `attempt_id` field at all)
+    are skipped, not errored — they simply can't participate in Path A.
+    """
+    accepted: Dict[str, SubmitOutcome] = {}
+    for event in log_module.iter_events(log_path):
+        attempt_id = event.get("attempt_id")
+        if attempt_id is not None:
+            accepted[attempt_id] = SubmitOutcome(event=event, repeat=False)
+    return accepted
 
 
 @dataclass
@@ -553,7 +613,10 @@ class ServingFacade:
         existing log (if any) through KTD7's per-event bank resolution, so
         seen-state derived across a build boundary is correct even though
         only the *new* bank is pinned for serving (the session-open half
-        of KTD7).
+        of KTD7). Also seeds the returned `Session.accepted_attempts` (U6,
+        R19) from that same log's own `attempt_id`s via
+        `_accepted_attempts_from_log`, so a resubmission after a restart or
+        eviction hits Path A instead of double-applying.
 
         R17: refuses with `ConsumerNotLinkedError` if `self.identity` is
         configured and `consumer_id` isn't linked to `student_id`.
@@ -570,8 +633,10 @@ class ServingFacade:
         bank = self.bank_lookup(bank_version)
         if log_path.is_file():
             store, engine_state = engine.rebuild_session_state(log_path, self.content, self.bank_lookup)
+            accepted_attempts = _accepted_attempts_from_log(log_path)
         else:
             store, engine_state = StudentModelStore(), engine.EngineState()
+            accepted_attempts = {}
         new_session = Session(
             session_id=session_id,
             student_id=student_id,
@@ -582,6 +647,7 @@ class ServingFacade:
             country=country,
             curriculum=curriculum,
             grade=grade,
+            accepted_attempts=accepted_attempts,
         )
         prior_session = self.sessions.register_or_conflict(new_session, consumer_id)
         if prior_session is not None:
@@ -615,6 +681,7 @@ class ServingFacade:
     def submit_attempt(
         self,
         session: Session,
+        attempt_id: str,
         skill_id: str,
         instance: dict,
         response_raw: str,
@@ -644,21 +711,75 @@ class ServingFacade:
         for any caller rather than tied to the interactive loop's own
         `Serve` record.
 
-        Returns a `SubmitOutcome`: `event=None, rejection_reason=None` for
+        Returns a `SubmitOutcome`: `event=None, discard_reason=<str>` for
         the §3 abandonment guard's discard (nothing to log, not an error);
         `event=None, rejection_reason=<str>` for an ingest rejection; the
         logged event plus a `repeat` flag (KD5) on acceptance.
 
+        **R19/AE7: retry-safety (`attempt_id`).** This is the "two-path
+        idempotency design" the U6 plan documents in full; summarized here:
+
+        - **Path A (true idempotent replay).** If `attempt_id` is already a
+          key in `session.accepted_attempts` — because this exact
+          `attempt_id` was accepted earlier in this same session, or
+          because `open_session` seeded it from a prior session's log (see
+          `_accepted_attempts_from_log`) — the stored `SubmitOutcome` is
+          returned immediately: no re-validation, no re-write to
+          `session.store`, no re-append to the log, no re-run of
+          `engine.consume_event`. This is checked first, inside the
+          session lock, before an `Attempt`/event is even constructed.
+        - **Path B (legitimate resubmission against a stale bank).** If
+          `attempt_id` is *not* in the map (this attempt was never
+          accepted before — e.g. the session that would have accepted it
+          crashed before validation ever completed) AND the served
+          `instance`'s own stamped `bank_version` differs from
+          `session.bank.bank_version` (a bank repoint moved `ACTIVE`
+          between the crash and the client's resubmission under a new
+          session), the ordinary `SessionContext`-based validation is
+          skipped in favor of the session-less path
+          `tools/replay_audit.py` already uses:
+          `ingest_module.validate_event(event, None, self.bank_lookup,
+          seen_state)` — this validates the event against *its own*
+          stamped `bank_version` rather than demanding it match the
+          current session's pin, so a legitimately-answered item from a
+          now-superseded build isn't wrongly rejected as a bank mismatch.
+          When `attempt_id` isn't in the map but the bank *does* match,
+          this is just an ordinary first-time submission and the existing
+          `SessionContext`-based validation runs unchanged.
+
+        On acceptance via either path, the resulting `SubmitOutcome` is
+        recorded in `session.accepted_attempts[attempt_id]` before
+        returning, so any future resubmission of this same `attempt_id`
+        hits Path A.
+
         R17: refuses with `ConsumerNotLinkedError` before touching
-        anything if `self.identity` is configured and `consumer_id` isn't
-        linked to `session.student_id`. KTD17: the whole body runs under
-        this session's own lock (a no-op lock if `session` was never
-        registered via `open_session` — see `_lock_for`), so two
-        concurrent submissions against the same session serialize instead
-        of racing on `session.store`/`session.engine_state`."""
+        anything — including before the Path A replay check — if
+        `self.identity` is configured and `consumer_id` isn't linked to
+        `session.student_id`. This is a deliberate choice: a Path A replay
+        only ever returns data already computed, never applies anything
+        new, but that data (theta, response fields) is still the
+        student's; gating it behind the same link check as every other
+        read on this facade (`get_progress`) is more conservative than
+        letting an unlinked caller fish for a previously-accepted outcome
+        by guessing `attempt_id`s, and costs a replaying caller nothing it
+        wasn't already going to pay (the same consumer that submitted the
+        original attempt is linked by construction). KTD17: the whole body
+        (including the Path A check) runs under this session's own lock (a
+        no-op lock if `session` was never registered via `open_session` —
+        see `_lock_for`), so two concurrent submissions against the same
+        session — including two concurrent retries of the same
+        `attempt_id` — serialize instead of racing on
+        `session.store`/`session.engine_state`/`session.accepted_attempts`."""
         self._check_linked(consumer_id, session.student_id)
         with self._lock_for(session):
             self.sessions.touch(session.session_id)
+
+            # Path A: true idempotent replay (R19/AE7) — recognized before
+            # anything else is built or touched.
+            cached = session.accepted_attempts.get(attempt_id)
+            if cached is not None:
+                return cached
+
             attempt = Attempt(
                 skill_ids=[skill_id],
                 question_type=instance["question_type"],
@@ -676,11 +797,19 @@ class ServingFacade:
             state = session.store.get(session.student_id, skill_id)
             composed = log_module.compose_attempt(state, attempt, context, now)
             if composed.new_state is None:
-                return SubmitOutcome(event=None)
+                return SubmitOutcome(
+                    event=None,
+                    discard_reason=(
+                        "abandonment guard: attempt timed out, the student was not engaged, and this "
+                        "was the session's last event — the §3 abandonment guard discarded it outright, "
+                        "nothing was written to the student model or the log"
+                    ),
+                )
             theta_before, theta_after, n_before = composed.theta_before, composed.theta_after, composed.n_before
 
             event = {
                 "event_id": attempt.event_id,
+                "attempt_id": attempt_id,
                 "student_id": session.student_id,
                 "session_id": session.session_id,
                 "timestamp": now.isoformat(),
@@ -713,13 +842,22 @@ class ServingFacade:
                 "n_before": n_before,
             }
 
-            session_ctx = ingest_module.SessionContext(
-                session_id=session.session_id,
-                student_id=session.student_id,
-                bank_version=session.bank.bank_version,
-            )
             seen_state = {sig for sigs in session.engine_state.seen_history.values() for sig in sigs}
-            report = ingest_module.validate_event(event, session_ctx, self.bank_lookup, seen_state)
+
+            # Path B trigger (R19): never-before-accepted attempt_id whose
+            # own stamped bank_version differs from this session's current
+            # pin — validate session-lessly against the event's own build
+            # instead of rejecting it as a session/bank mismatch.
+            if instance["bank_version"] != session.bank.bank_version:
+                report = ingest_module.validate_event(event, None, self.bank_lookup, seen_state)
+            else:
+                session_ctx = ingest_module.SessionContext(
+                    session_id=session.session_id,
+                    student_id=session.student_id,
+                    bank_version=session.bank.bank_version,
+                )
+                report = ingest_module.validate_event(event, session_ctx, self.bank_lookup, seen_state)
+
             if not report.accepted:
                 return SubmitOutcome(event=None, rejection_reason=report.rejection_reason)
 
@@ -741,7 +879,9 @@ class ServingFacade:
             )
             session.engine_state = consume_result.engine_state
             engine.apply_consume_patches(session.store, session.student_id, consume_result.skill_state_patches)
-            return SubmitOutcome(event=event, repeat=report.repeat)
+            submit_outcome = SubmitOutcome(event=event, repeat=report.repeat)
+            session.accepted_attempts[attempt_id] = submit_outcome
+            return submit_outcome
 
     def get_progress(self, session: Session, now: datetime, consumer_id: str) -> ProgressSummary:
         """The same summary tools/replay_audit.py (U7) reproduces: theta,

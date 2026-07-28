@@ -92,6 +92,7 @@ def facade(banks_dir: Path, logs_dir: Path, content: engine.ContentIndex) -> ser
 def _make_event(instance: dict, session_id: str, student_id: str, **overrides) -> dict:
     defaults = dict(
         event_id=f"evt-{instance['item_instance_id']}",
+        attempt_id=f"attempt-{instance['item_instance_id']}",
         student_id=student_id,
         session_id=session_id,
         timestamp="2026-07-27T12:00:00",
@@ -282,7 +283,7 @@ def test_submit_attempt_then_progress_reports_theta_certification_and_seen_count
     now = log_module.parse_timestamp("2026-07-27T12:00:00")
 
     outcome = facade.submit_attempt(
-        session, SKILL_ID, instance,
+        session, "attempt-progress-1", SKILL_ID, instance,
         response_raw=instance["answer"], response_parsed=instance["answer"], correct=True,
         misconception_id=None, hints_used=0, hint_auto_offered=False, time_taken_sec=10.0,
         timed_out=False, engaged=True, session_last_event=False, context="practice",
@@ -352,7 +353,7 @@ def test_submit_attempt_and_get_progress_refused_for_unlinked_consumer(
 
     with pytest.raises(serving.ConsumerNotLinkedError):
         linked_facade.submit_attempt(
-            session, SKILL_ID, instance,
+            session, "attempt-unlinked-1", SKILL_ID, instance,
             response_raw=instance["answer"], response_parsed=instance["answer"], correct=True,
             misconception_id=None, hints_used=0, hint_auto_offered=False, time_taken_sec=5.0,
             timed_out=False, engaged=True, session_last_event=False, context="practice",
@@ -377,7 +378,7 @@ def test_without_identity_registry_operations_are_unaffected(
     now = log_module.parse_timestamp("2026-07-27T12:00:00")
 
     outcome = facade.submit_attempt(
-        session, SKILL_ID, instance,
+        session, "attempt-nolink-1", SKILL_ID, instance,
         response_raw=instance["answer"], response_parsed=instance["answer"], correct=True,
         misconception_id=None, hints_used=0, hint_auto_offered=False, time_taken_sec=5.0,
         timed_out=False, engaged=True, session_last_event=False, context="practice",
@@ -513,7 +514,7 @@ def test_curriculum_pin_readable_and_stable_across_operations(
     instance = session.bank.instances_by_skill[SKILL_ID][0]
     now = log_module.parse_timestamp("2026-07-27T12:00:00")
     facade.submit_attempt(
-        session, SKILL_ID, instance,
+        session, "attempt-curriculum-1", SKILL_ID, instance,
         response_raw=instance["answer"], response_parsed=instance["answer"], correct=True,
         misconception_id=None, hints_used=0, hint_auto_offered=False, time_taken_sec=5.0,
         timed_out=False, engaged=True, session_last_event=False, context="practice",
@@ -548,7 +549,7 @@ def test_concurrent_submit_attempt_on_same_session_is_serialized(
         barrier.wait()
         try:
             outcome = facade.submit_attempt(
-                session, SKILL_ID, instance,
+                session, f"attempt-{instance['item_instance_id']}", SKILL_ID, instance,
                 response_raw=instance["answer"], response_parsed=instance["answer"], correct=True,
                 misconception_id=None, hints_used=0, hint_auto_offered=False, time_taken_sec=5.0,
                 timed_out=False, engaged=True, session_last_event=False, context="practice",
@@ -586,3 +587,188 @@ def test_concurrent_submit_attempt_on_same_session_is_serialized(
     # other's write.
     progress = facade.get_progress(session, now, consumer_id=constants.CONSUMER_ID_INTERNAL)
     assert progress.skills[SKILL_ID].seen_count == 2
+
+
+# --- U6: attempt_id idempotency (R19, AE7, KTD4) ------------------------------
+
+
+def _submit_kwargs(instance: dict, now, **overrides) -> dict:
+    kwargs = dict(
+        response_raw=instance["answer"], response_parsed=instance["answer"], correct=True,
+        misconception_id=None, hints_used=0, hint_auto_offered=False, time_taken_sec=5.0,
+        timed_out=False, engaged=True, session_last_event=False, context="practice",
+        consumer_id=constants.CONSUMER_ID_INTERNAL, now=now,
+    )
+    kwargs.update(overrides)
+    return kwargs
+
+
+def test_submit_attempt_same_attempt_id_twice_in_same_session_is_idempotent(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """Covers AE7: resubmitting the same attempt_id in the same live
+    session (Path A) returns the identical SubmitOutcome, with exactly one
+    log line and theta applied exactly once."""
+    bank_activate.activate(banks_dir, "build-a")
+    session = _open(facade, "sess-idem", "stu-idem")
+    instance = session.bank.instances_by_skill[SKILL_ID][0]
+    now = log_module.parse_timestamp("2026-07-27T12:00:00")
+    kwargs = _submit_kwargs(instance, now)
+
+    first = facade.submit_attempt(session, "attempt-idem-1", SKILL_ID, instance, **kwargs)
+    assert first.event is not None
+    progress_after_first = facade.get_progress(session, now, consumer_id=constants.CONSUMER_ID_INTERNAL)
+
+    second = facade.submit_attempt(session, "attempt-idem-1", SKILL_ID, instance, **kwargs)
+    assert second is first  # Path A: the exact same cached SubmitOutcome, nothing re-run
+
+    logged = list(log_module.iter_events(session.log_path))
+    assert len(logged) == 1
+
+    progress_after_second = facade.get_progress(session, now, consumer_id=constants.CONSUMER_ID_INTERNAL)
+    assert progress_after_second.skills[SKILL_ID].theta == progress_after_first.skills[SKILL_ID].theta
+    assert progress_after_second.skills[SKILL_ID].n == progress_after_first.skills[SKILL_ID].n
+    assert progress_after_second.skills[SKILL_ID].seen_count == 1
+
+
+def test_submit_attempt_resubmission_after_session_restart_replays_via_seeded_map(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """Covers AE7's precise scenario: submit an attempt, discard/close that
+    Session object (simulating a server restart between the log append and
+    the client seeing the response), open a *new* session for the same
+    student against the same bank, then resubmit the same attempt_id — the
+    new session's `accepted_attempts` map (seeded at open_session time from
+    the replayed log, not any live in-memory session) is what recognizes
+    it as Path A."""
+    bank_activate.activate(banks_dir, "build-a")
+    session1 = _open(facade, "sess-restart-1", "stu-restart")
+    instance = session1.bank.instances_by_skill[SKILL_ID][0]
+    now = log_module.parse_timestamp("2026-07-27T12:00:00")
+    kwargs = _submit_kwargs(instance, now)
+
+    original = facade.submit_attempt(session1, "attempt-restart-1", SKILL_ID, instance, **kwargs)
+    assert original.event is not None
+    facade.close_session(session1, consumer_id=constants.CONSUMER_ID_INTERNAL)
+
+    session2 = _open(facade, "sess-restart-2", "stu-restart")
+    assert "attempt-restart-1" in session2.accepted_attempts
+
+    replayed = facade.submit_attempt(session2, "attempt-restart-1", SKILL_ID, instance, **kwargs)
+    assert replayed.event is not None
+    assert replayed.event["event_id"] == original.event["event_id"]
+
+    logged = list(log_module.iter_events(session2.log_path))
+    assert len(logged) == 1
+
+    progress = facade.get_progress(session2, now, consumer_id=constants.CONSUMER_ID_INTERNAL)
+    assert progress.skills[SKILL_ID].seen_count == 1
+
+
+def test_submit_attempt_path_b_stale_bank_never_logged_then_resubmit_hits_path_a(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """U6 Path B (R19): an attempt genuinely never logged (no prior
+    submission at all), submitted under a session pinned to a *different*
+    bank_version than the served instance's own stamped bank_version, must
+    not be rejected as a bank/session mismatch — it's validated
+    session-lessly against its own stamped build
+    (`ingest.validate_event(event, None, ...)`, mirroring
+    tools/replay_audit.py) instead of the ordinary SessionContext-based
+    check. A second resubmission of the same attempt_id, from within the
+    same session, then hits Path A."""
+    _build(banks_dir, "build-b", pool_cap=2, templates_dir=_templates_dir(banks_dir.parent))
+    bank_activate.activate(banks_dir, "build-a")
+    bank_a = engine.load_bank(banks_dir / "build-a")
+    instance_a = bank_a.instances_by_skill[SKILL_ID][0]
+
+    # The live session is pinned to build-b — instance_a's own stamped
+    # bank_version ("build-a") differs from session.bank.bank_version.
+    bank_activate.activate(banks_dir, "build-b")
+    session = _open(facade, "sess-pathb", "stu-pathb")
+    assert session.bank.bank_version == "build-b"
+    assert instance_a["bank_version"] == "build-a"
+
+    now = log_module.parse_timestamp("2026-07-27T12:00:00")
+    kwargs = _submit_kwargs(instance_a, now)
+
+    outcome = facade.submit_attempt(session, "attempt-pathb-1", SKILL_ID, instance_a, **kwargs)
+    assert outcome.event is not None
+    assert outcome.rejection_reason is None
+    assert outcome.event["bank_version"] == "build-a"
+
+    logged = list(log_module.iter_events(session.log_path))
+    assert len(logged) == 1
+
+    # Resubmitting the same attempt_id in this same session now hits Path A
+    # (the map was seeded within this session, not via a reopen).
+    replay_outcome = facade.submit_attempt(session, "attempt-pathb-1", SKILL_ID, instance_a, **kwargs)
+    assert replay_outcome is outcome
+
+    logged_again = list(log_module.iter_events(session.log_path))
+    assert len(logged_again) == 1
+
+
+def test_two_attempts_with_different_attempt_ids_are_both_logged_even_if_content_matches(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """Dedup keys on attempt_id, not content/variant_signature — the same
+    served instance submitted twice under two different attempt_ids is two
+    genuine attempts, both logged (KD5's repeat flag, not idempotency,
+    is what covers the 'same content served again' case)."""
+    bank_activate.activate(banks_dir, "build-a")
+    session = _open(facade, "sess-distinct", "stu-distinct")
+    instance = session.bank.instances_by_skill[SKILL_ID][0]
+    now = log_module.parse_timestamp("2026-07-27T12:00:00")
+    kwargs = _submit_kwargs(instance, now)
+
+    first = facade.submit_attempt(session, "attempt-distinct-1", SKILL_ID, instance, **kwargs)
+    second = facade.submit_attempt(session, "attempt-distinct-2", SKILL_ID, instance, **kwargs)
+
+    assert first.event is not None and second.event is not None
+    assert first.event["event_id"] != second.event["event_id"]
+    assert second.repeat is True  # KD5: same variant_signature seen again, not the same attempt
+
+    logged = list(log_module.iter_events(session.log_path))
+    assert len(logged) == 2
+    assert {e["attempt_id"] for e in logged} == {"attempt-distinct-1", "attempt-distinct-2"}
+
+
+def test_discarded_attempt_carries_a_reason_and_rejected_attempt_leaves_no_trace(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """A discarded (§3 abandonment-guard) attempt returns a `discard_reason`
+    string and leaves the log untouched; a rejected (ingest-validation
+    failure) attempt leaves zero trace too, and the session continues to
+    work normally for a subsequent legitimate submission."""
+    bank_activate.activate(banks_dir, "build-a")
+    session = _open(facade, "sess-discard-reject", "stu-discard-reject")
+    instance = session.bank.instances_by_skill[SKILL_ID][0]
+    now = log_module.parse_timestamp("2026-07-27T12:00:00")
+
+    discarded = facade.submit_attempt(
+        session, "attempt-discard-1", SKILL_ID, instance,
+        **_submit_kwargs(instance, now, correct=False, time_taken_sec=30.0, timed_out=True, engaged=False, session_last_event=True),
+    )
+    assert discarded.event is None
+    assert discarded.rejection_reason is None
+    assert isinstance(discarded.discard_reason, str) and discarded.discard_reason
+    assert list(log_module.iter_events(session.log_path)) == []
+
+    # A tampered variant_signature fails ingest's own check against the
+    # bank's own record for this instance — a genuine rejection, not Path B
+    # (bank_version is untouched, so the ordinary SessionContext path runs).
+    bad_instance = dict(instance)
+    bad_instance["variant_signature"] = "f" * 64
+    rejected = facade.submit_attempt(
+        session, "attempt-reject-1", SKILL_ID, bad_instance, **_submit_kwargs(instance, now),
+    )
+    assert rejected.event is None
+    assert rejected.discard_reason is None
+    assert "signature_mismatch" in rejected.rejection_reason
+    assert list(log_module.iter_events(session.log_path)) == []
+
+    # The session continues to work normally afterward.
+    ok = facade.submit_attempt(session, "attempt-after-1", SKILL_ID, instance, **_submit_kwargs(instance, now))
+    assert ok.event is not None
+    assert len(list(log_module.iter_events(session.log_path))) == 1

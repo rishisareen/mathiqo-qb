@@ -91,7 +91,8 @@ def _run(coro):
 
 def _submit_args(session_id: str, instance: dict, **overrides) -> dict:
     args = dict(
-        session_id=session_id, skill_id=SKILL_ID, item_instance_id=instance["item_instance_id"],
+        session_id=session_id, attempt_id=f"attempt-{instance['item_instance_id']}",
+        skill_id=SKILL_ID, item_instance_id=instance["item_instance_id"],
         response_raw=instance["answer"], response_parsed=instance["answer"], correct=True,
         misconception_id=None, hints_used=0, hint_auto_offered=False, time_taken_sec=5.0,
         timed_out=False, engaged=True, session_last_event=False, context="practice",
@@ -397,3 +398,57 @@ def test_session_unknown_vs_session_expired_over_mcp(tmp_path: Path, content: en
     never_issued, expired = _run(flow())
     assert never_issued.isError and "session_unknown" in never_issued.content[0].text
     assert expired.isError and "session_expired" in expired.content[0].text
+
+
+# --- U6: attempt_id idempotency (R19, AE7) over MCP --------------------------
+
+
+def test_resubmitting_the_same_attempt_id_over_mcp_returns_the_same_outcome_once_logged(
+    facade: serving.ServingFacade,
+) -> None:
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            opened = await client.call_tool("open_session", _open_args("stu-retry"))
+            session_id = opened.structuredContent["session_id"]
+            candidates = await client.call_tool("get_candidates", {"session_id": session_id, "skill_id": SKILL_ID})
+            instance = candidates.structuredContent["instances"][0]
+
+            args = _submit_args(session_id, instance)
+            first = await client.call_tool("submit_attempt", args)
+            second = await client.call_tool("submit_attempt", args)  # same attempt_id
+            return first, second
+
+    first, second = _run(flow())
+    assert not first.isError and not second.isError
+    assert first.structuredContent == second.structuredContent
+
+    log_path = next(facade.logs_dir.glob("*.jsonl"))
+    events = list(log_module.iter_events(log_path))
+    assert len(events) == 1
+
+
+def test_discarded_attempt_over_mcp_surfaces_a_reason_instead_of_bare_false(
+    facade: serving.ServingFacade,
+) -> None:
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            opened = await client.call_tool("open_session", _open_args("stu-discard"))
+            session_id = opened.structuredContent["session_id"]
+            candidates = await client.call_tool("get_candidates", {"session_id": session_id, "skill_id": SKILL_ID})
+            instance = candidates.structuredContent["instances"][0]
+
+            args = _submit_args(
+                session_id, instance,
+                timed_out=True, engaged=False, session_last_event=True,
+            )
+            return await client.call_tool("submit_attempt", args)
+
+    result = _run(flow())
+    assert not result.isError
+    assert result.structuredContent["logged"] is False
+    assert isinstance(result.structuredContent["discard_reason"], str)
+    assert result.structuredContent["discard_reason"]

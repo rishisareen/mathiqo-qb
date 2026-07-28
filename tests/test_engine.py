@@ -1034,6 +1034,7 @@ def make_event(bank_index: engine.BankIndex, **overrides) -> dict:
         n_before=0.0,
     )
     defaults.update(overrides)
+    defaults.setdefault("attempt_id", f"attempt-{defaults['event_id']}")
     return defaults
 
 
@@ -1113,6 +1114,7 @@ def _minimal_attempt_event(**overrides) -> dict:
         n_before=0.0,
     )
     defaults.update(overrides)
+    defaults.setdefault("attempt_id", f"attempt-{defaults['event_id']}")
     return defaults
 
 

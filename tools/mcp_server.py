@@ -152,6 +152,7 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
     @mcp.tool()
     def submit_attempt(
         session_id: str,
+        attempt_id: str,
         skill_id: str,
         item_instance_id: str,
         response_raw: str,
@@ -172,7 +173,14 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         `consumer_id` is this server's own configuration (KTD2), never a
         parameter here. A KTD5 rejection raises a structured tool error
         naming the failing check; an accepted repeat (KD5) is not an
-        error — `repeat` is `true` in the returned result."""
+        error — `repeat` is `true` in the returned result.
+
+        R19/AE7: `attempt_id` is a required client-supplied idempotency
+        key. Resubmitting the same `attempt_id` — even across a session
+        restart, once the client reopens a session and retries — returns
+        the original `logged`/`repeat`/`event_id` result unchanged rather
+        than double-applying the attempt (`ServingFacade.submit_attempt`'s
+        two-path idempotency design)."""
         session_obj = _session_or_raise(session_id)
         instance = session_obj.bank.by_id.get(item_instance_id)
         if instance is None:
@@ -180,7 +188,7 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
 
         try:
             outcome = facade.submit_attempt(
-                session_obj, skill_id, instance,
+                session_obj, attempt_id, skill_id, instance,
                 response_raw=response_raw, response_parsed=response_parsed, correct=correct,
                 misconception_id=misconception_id, hints_used=hints_used, hint_auto_offered=hint_auto_offered,
                 time_taken_sec=time_taken_sec, timed_out=timed_out, engaged=engaged,
@@ -192,7 +200,7 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         if outcome.rejection_reason is not None:
             raise ToolError(f"ingest rejected: {outcome.rejection_reason}")
         if outcome.event is None:
-            return {"logged": False, "repeat": False}
+            return {"logged": False, "repeat": False, "discard_reason": outcome.discard_reason}
         return {"logged": True, "repeat": outcome.repeat, "event_id": outcome.event["event_id"]}
 
     @mcp.tool()
