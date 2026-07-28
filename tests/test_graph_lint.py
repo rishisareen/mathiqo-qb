@@ -41,6 +41,24 @@ def test_clean_fixture_cli_exit_zero(capsys) -> None:
     assert "0 error(s)" in out
 
 
+def test_missing_manifest_reports_an_error_naming_the_file(fixture_copy: Path) -> None:
+    """KTD9: a content pack without a manifest.yaml must fail lint with an
+    error that names the missing file, not silently lint clean without a
+    content_version."""
+    (fixture_copy / "manifest.yaml").unlink()
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert any("manifest.yaml" in e and "missing" in e for e in result.errors)
+
+
+def test_manifest_missing_content_version_field_is_an_error(fixture_copy: Path) -> None:
+    manifest_path = fixture_copy / "manifest.yaml"
+    write_yaml(manifest_path, {"pack": "fractions"})  # no content_version
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert any("manifest.yaml" in e and "content_version" in e for e in result.errors)
+
+
 def test_cycle_detection_reports_cycle_path(fixture_copy: Path) -> None:
     # Add a back edge FRAC.ADD.UNLIKE -> FRAC.UNIT, closing the cycle
     # FRAC.UNIT -> FRAC.PARTWHOLE -> FRAC.ADD.LIKE -> FRAC.ADD.UNLIKE -> FRAC.UNIT
@@ -157,6 +175,89 @@ def test_duplicate_mapping_same_skill_country_curriculum_grade_is_an_error(fixtu
     assert any("duplicate mapping" in e and "FRAC.ADD.UNLIKE" in e for e in result.errors)
 
 
+# --- KTD10: structured unit_code/unit_name on mapping rows ---------------------
+
+
+def test_ncert_row_with_unit_code_loads_and_lints_clean(fixture_copy: Path) -> None:
+    """content/fractions/mappings.yaml's FRAC.ADD.UNLIKE/IN/NCERT/6 row was
+    migrated (U1) to carry unit_code/unit_name derived from its
+    syllabus_ref's "Ch. 7" — it must still lint clean as shipped."""
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    row = data["mappings"][0]
+    assert row["skill_id"] == "FRAC.ADD.UNLIKE"
+    assert row["unit_code"] == "IN-NCERT-G6-CH7"
+    assert row["unit_name"] == "Class 6, Ch. 7"
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert result.errors == []
+
+
+def test_duplicate_mapping_with_identical_unit_is_an_error(fixture_copy: Path) -> None:
+    """Two rows identical on (skill, country, curriculum, grade, unit_code)
+    are a duplicate — the unit code is folded into the dedup key (KTD10)."""
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    original = data["mappings"][0]
+    assert original["unit_code"] == "IN-NCERT-G6-CH7"
+    duplicate = dict(original)  # identical (skill, country, curriculum, grade, unit_code)
+    duplicate["depth_expectation"] = "hard"
+    data["mappings"].append(duplicate)
+    write_yaml(mappings_path, data)
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert any("duplicate mapping" in e and "FRAC.ADD.UNLIKE" in e for e in result.errors)
+
+
+def test_ontario_row_without_unit_fields_still_validates(fixture_copy: Path) -> None:
+    """KTD10: unit_code/unit_name are optional — a curriculum with no
+    chapter granularity (Ontario) validates fine with neither present."""
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    ontario_row = next(m for m in data["mappings"] if m["curriculum"] == "ONTARIO")
+    assert "unit_code" not in ontario_row
+    assert "unit_name" not in ontario_row
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert result.errors == []
+
+
+def test_unit_code_with_conflicting_unit_name_is_an_error(fixture_copy: Path) -> None:
+    """KTD10: two mapping rows (different skills — not a dedup-key
+    collision) sharing one unit_code must agree on unit_name, or the
+    "chapter list" a consumer builds from structured units becomes
+    ambiguous (R2/R3)."""
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    original = data["mappings"][0]
+    assert original["skill_id"] == "FRAC.ADD.UNLIKE"
+    assert original["unit_code"] == "IN-NCERT-G6-CH7"
+    conflicting = dict(original)
+    conflicting["skill_id"] = "FRAC.EQUIV"  # a different skill: no dedup-key collision
+    conflicting["unit_name"] = "Class 6, Chapter Seven (renamed)"  # same code, different name
+    data["mappings"].append(conflicting)
+    write_yaml(mappings_path, data)
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert any(
+        "IN-NCERT-G6-CH7" in e and "inconsistent unit_name" in e for e in result.errors
+    )
+
+
+def test_missing_unit_name_when_unit_code_present_is_a_schema_violation(fixture_copy: Path) -> None:
+    """KTD10: unit_code and unit_name must appear together — dropping
+    unit_name while keeping unit_code is a schema violation
+    (dependentRequired), not silently accepted."""
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    del data["mappings"][0]["unit_name"]
+    assert "unit_code" in data["mappings"][0]
+    write_yaml(mappings_path, data)
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert any("schema violation" in e and "FRAC.ADD.UNLIKE" in e for e in result.errors)
+
+
 def test_orphan_node_is_warning_not_error(fixture_copy: Path) -> None:
     skills_path = fixture_copy / "skills.yaml"
     data = load_yaml(skills_path)
@@ -227,3 +328,70 @@ def test_schema_violation_is_error(fixture_copy: Path) -> None:
 
     result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
     assert any("schema violation" in e and "MISC.FRAC.ADD-ACROSS" in e for e in result.errors)
+
+
+# --- U3 (R18/AE8, KD10): child-facing misconception feedback -------------------
+
+
+def test_missing_child_feedback_field_fails_lint_naming_the_misconception(fixture_copy: Path) -> None:
+    """R18: every misconception must carry child_feedback_i18n — a
+    misconception entry missing it must fail lint with an error that names
+    the specific misconception, not a generic schema complaint. Mirrors
+    test_schema_violation_is_error's shape for the pre-existing required
+    fields, applied to the new one."""
+    misc_path = fixture_copy / "misconceptions.yaml"
+    data = load_yaml(misc_path)
+    target = data["misconceptions"][0]
+    assert target["misconception_id"] == "MISC.FRAC.ADD-ACROSS"
+    del target["child_feedback_i18n"]
+    write_yaml(misc_path, data)
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert any(
+        "schema violation" in e and "MISC.FRAC.ADD-ACROSS" in e and "child_feedback_i18n" in e
+        for e in result.errors
+    )
+
+
+def test_every_served_distractor_misconception_has_child_feedback(bank) -> None:
+    """AE8: every misconception_id reachable from any served distractor in a
+    real built bank must resolve to child-facing feedback text — no
+    distractor can strand a child without instant feedback. This is a bank
+    build cross-check (not just a content-lint check): it walks the actual
+    item instances tools/bank_build.py produced from content/fractions,
+    collects every misconception_id a distractor is tagged with, and
+    confirms each one has non-empty child_feedback_i18n in the loaded
+    misconception registry."""
+    result = graph_lint.LintResult()
+    content = graph_lint.load_content(FIXTURE_DIR, result)
+    assert result.errors == []
+    registry = {
+        m["misconception_id"]: m
+        for m in content["misconceptions"]
+        if "misconception_id" in m
+    }
+
+    referenced_misconception_ids = {
+        distractor["misconception_id"]
+        for instances in bank.instances_by_skill.values()
+        for instance in instances
+        for distractor in instance["distractors"]
+        if distractor.get("misconception_id")
+    }
+    # Sanity check: the built bank must actually tag distractors with
+    # misconceptions, or this test would pass vacuously.
+    assert referenced_misconception_ids
+
+    missing_from_registry = referenced_misconception_ids - registry.keys()
+    assert not missing_from_registry, (
+        f"distractor misconception_ids with no registry entry: {sorted(missing_from_registry)}"
+    )
+
+    without_feedback = {
+        misc_id
+        for misc_id in referenced_misconception_ids
+        if not registry[misc_id].get("child_feedback_i18n", {}).get("en-IN", "").strip()
+    }
+    assert not without_feedback, (
+        f"misconceptions served by a bank distractor with no child_feedback_i18n: {sorted(without_feedback)}"
+    )

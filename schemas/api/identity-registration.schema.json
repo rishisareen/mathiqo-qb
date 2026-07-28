@@ -1,0 +1,16 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/api/identity-registration.schema.json",
+  "title": "MCP register_student Response",
+  "description": "Serving-integrity contract U11/R15: `tools/mcp_server.py`'s `register_student` tool response, built by `_serialize_registration`. U4/KD9/R16: only the newly minted opaque student_id is ever returned — the registered attributes exist solely inside IdentityRegistry's own file from this point on and are never echoed back over this transport.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["student_id"],
+  "properties": {
+    "student_id": {
+      "type": "string",
+      "pattern": "^stu-[0-9a-f]{32}$",
+      "description": "The opaque, cryptographically-random student id this consumer's registered attributes were assigned (orchestrator/identity.py's IdentityRegistry.register_student)."
+    }
+  }
+}

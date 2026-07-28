@@ -40,6 +40,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.GEO.RECT-DIAGONAL-SYM.v1"
     parent_summary_i18n:
       en-IN: "{{name}} draws diagonals as fold lines of a rectangle — folding along a diagonal doesn't make the halves match; paper folding shows why."
+    child_feedback_i18n:
+      en-IN: "You drew the diagonal as a fold line, but folding a rectangle (that isn't a square) along its diagonal doesn't make the two halves land on top of each other. Try folding one on paper to see why the diagonal doesn't work."
 
   - misconception_id: MISC.GEO.PARALLELOGRAM-LINE-SYM
     belief: "A parallelogram has line symmetry because its halves look alike"
@@ -48,6 +50,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.GEO.PARALLELOGRAM-LINE-SYM.v1"
     parent_summary_i18n:
       en-IN: "{{name}} sees the matching halves of a parallelogram as mirror halves — they match by turning, not by folding, so a slanted parallelogram has no fold line."
+    child_feedback_i18n:
+      en-IN: "The two halves of a parallelogram do match, but only when you turn the shape, not when you fold it — that's rotational symmetry, not line symmetry. A slanted parallelogram has no fold line that makes it match itself."
 
 # IN/NCERT mapping rows drafted in the same run.
 mappings:
@@ -57,6 +61,8 @@ mappings:
     grade: 4
     depth_expectation: easy
     syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 11"
+    unit_code: "IN-NCERT-G4-CH11"
+    unit_name: "Class 4, Ch. 11"
     learning_objective: >
       Identifies mirror halves of figures and completes a figure given
       half and the mirror line; finds lines of symmetry by paper folding.
@@ -70,6 +76,8 @@ mappings:
     grade: 5
     depth_expectation: medium
     syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 10"
+    unit_code: "IN-NCERT-G5-CH10"
+    unit_name: "Class 5, Ch. 10"
     learning_objective: >
       Creates and analyses symmetrical designs; identifies multiple lines
       of symmetry in shapes and patterns.
@@ -81,6 +89,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 9"
+    unit_code: "IN-NCERT-G6-CH9"
+    unit_name: "Class 6, Ch. 9"
     learning_objective: >
       Identifies lines of symmetry (reflection symmetry) in 2-D figures,
       including figures with several lines of symmetry; completes figures
@@ -93,6 +103,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 9"
+    unit_code: "IN-NCERT-G6-CH9"
+    unit_name: "Class 6, Ch. 9"
     learning_objective: >
       Understands rotational symmetry and finds the order of rotational
       symmetry of a figure.

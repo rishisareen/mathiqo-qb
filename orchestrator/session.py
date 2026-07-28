@@ -95,6 +95,7 @@ import string
 import sys
 import threading
 import time
+import uuid
 from dataclasses import dataclass, field
 from datetime import datetime
 from fractions import Fraction
@@ -499,6 +500,9 @@ def _apply_and_log(
     engaged: bool,
     session_last_event: bool,
     now: datetime,
+    country: Optional[str] = None,
+    curriculum: Optional[str] = None,
+    grade: Optional[int] = None,
 ) -> Optional[Tuple[float, float, "engine.EngineState", dict]]:
     """U6: delegates to `orchestrator/serving.py`'s `submit_attempt` (KTD6)
     rather than composing the student-model update itself — kept as a
@@ -517,6 +521,26 @@ def _apply_and_log(
     should never fire for a well-behaved internal caller, since every field
     ingest checks against the submitting session (bank_version, student_id,
     session_id, variant_signature) is always this same session's own.
+
+    U5: `country`/`curriculum`/`grade` (optional, default `None` — this
+    function's own direct tests in tests/test_session.py don't need to
+    supply them) are pinned onto the ephemeral `serving.Session` this
+    function constructs if given. `run_session`'s call sites always pass
+    them (it has them on hand as its own parameters) even though
+    `submit_attempt` itself doesn't read them off `Session` today — this
+    ephemeral session is never registered in any `SessionRegistry` (only
+    `ServingFacade.open_session` registers one), so the U5 link check
+    (`self.identity`) and per-session lock don't apply to it; the facade
+    built here is still constructed without an `identity` argument, as it
+    always has been.
+
+    U6 (R19): `submit_attempt` now requires an `attempt_id` — this
+    interactive runner has no retry/resubmission concept of its own (it is
+    a live, synchronous loop, not a client that can lose a response and
+    retry), so a fresh one is generated per call, the same way `event_id`
+    already is inside `submit_attempt` itself. This keeps `_apply_and_log`'s
+    own signature unchanged for its existing direct callers/tests
+    (tests/test_session.py, tests/test_replay_audit.py).
     """
     facade = serving.ServingFacade(
         banks_dir=None, logs_dir=None, content=content,
@@ -525,9 +549,10 @@ def _apply_and_log(
     session_obj = serving.Session(
         session_id=session_id, student_id=student_id, bank=bank,
         log_path=log_path, store=store, engine_state=engine_state,
+        country=country, curriculum=curriculum, grade=grade,
     )
     outcome = facade.submit_attempt(
-        session_obj, serve.skill_id, instance,
+        session_obj, f"attempt-{uuid.uuid4().hex}", serve.skill_id, instance,
         response_raw=response_raw, response_parsed=response_parsed, correct=correct,
         misconception_id=misconception_id, hints_used=hints_used, hint_auto_offered=hint_auto_offered,
         time_taken_sec=time_taken_sec, timed_out=timed_out, engaged=engaged,
@@ -586,6 +611,7 @@ def run_session(
     bank: engine.BankIndex,
     student_id: str,
     country: str,
+    curriculum: str,
     grade: int,
     session_id: str,
     log_path: Path,
@@ -621,8 +647,9 @@ def run_session(
         session_obj = serving.Session(
             session_id=session_id, student_id=student_id, bank=bank,
             log_path=log_path, store=store, engine_state=engine_state,
+            country=country, curriculum=curriculum, grade=grade,
         )
-        result = facade.get_candidates(session_obj, skill_id)
+        result = facade.get_candidates(session_obj, skill_id, constants.CONSUMER_ID_INTERNAL)
         if result.exhausted:
             # get_candidates collapses exhaustion to a single
             # least-recently-seen repeat (R1) — correct for a caller that
@@ -654,7 +681,7 @@ def run_session(
 
     while True:
         select_result = engine.select_next(
-            store, engine_state, content, bank, student_id, country, grade, now,
+            store, engine_state, content, bank, student_id, country, curriculum, grade, now,
             candidates_for_skill=_candidates_for_skill,
         )
         engine_state = select_result.engine_state
@@ -706,6 +733,9 @@ def run_session(
                     engaged=collected.engaged,
                     session_last_event=session_last_event,
                     now=now,
+                    country=country,
+                    curriculum=curriculum,
+                    grade=grade,
                 )
             except serving.IngestRejectedError as exc:
                 notify(f"[error] attempt rejected: {exc} — ending session.")
@@ -739,6 +769,9 @@ def run_session(
                 engaged=True,
                 session_last_event=False,
                 now=now,
+                country=country,
+                curriculum=curriculum,
+                grade=grade,
             )
         except serving.IngestRejectedError as exc:
             notify(f"[error] attempt rejected: {exc} — ending session.")

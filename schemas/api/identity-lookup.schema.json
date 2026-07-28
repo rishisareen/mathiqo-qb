@@ -1,0 +1,20 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/api/identity-lookup.schema.json",
+  "title": "MCP find_student Response",
+  "description": "Serving-integrity contract U11/R15: `tools/mcp_server.py`'s `find_student` tool response, built by `_serialize_lookup`. U4: an exact-match-only lookup (orchestrator/identity.py's IdentityRegistry.find_student, no fuzzy/partial matching) — returns the opaque student_id on a match, never the attributes that were looked up (the caller already has those).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["found", "student_id"],
+  "properties": {
+    "found": {
+      "type": "boolean",
+      "description": "Whether the given attributes matched an existing registration."
+    },
+    "student_id": {
+      "type": ["string", "null"],
+      "pattern": "^stu-[0-9a-f]{32}$",
+      "description": "The matched student_id, or null when found is false. \"pattern\" only constrains string instances under JSON Schema semantics, so a null value is unaffected by it."
+    }
+  }
+}

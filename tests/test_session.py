@@ -505,7 +505,7 @@ def test_run_session_scripted_smoke_updates_state_logs_schema_valid_events_and_r
     _messages, notify = _notifier()
 
     summary = session.run_session(
-        store, engine_state, content, numeric_bank, student_id, "CA", 4, session_id, log_path, io, notify, NOW
+        store, engine_state, content, numeric_bank, student_id, "CA", "ONTARIO", 4, session_id, log_path, io, notify, NOW
     )
 
     assert summary.items_served == 4
@@ -540,7 +540,7 @@ def test_run_session_scripted_smoke_updates_state_logs_schema_valid_events_and_r
     assert replayed_store.records_for(student_id) == store.records_for(student_id)
     # A fresh run_session call against the replayed state must be able to
     # continue serving (same content/bank, no crash) as a final smoke check.
-    result2 = engine.select_next(replayed_store, replayed_engine_state, content, numeric_bank, student_id, "CA", 4, NOW)
+    result2 = engine.select_next(replayed_store, replayed_engine_state, content, numeric_bank, student_id, "CA", "ONTARIO", 4, NOW)
     assert isinstance(result2.engine_state, engine.EngineState)
 
 
@@ -587,7 +587,7 @@ def test_run_session_restart_preserves_queued_stepdown_probe(
     # without answering it.
     io = session.ScriptedInputSource([(0.0, "quit")])
     summary = session.run_session(
-        store, engine_state, content, bank, student_id, "CA", 6, "sess-2", log_path, io, lambda _t: None, NOW
+        store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, "sess-2", log_path, io, lambda _t: None, NOW
     )
     assert summary.items_served == 0  # quit before ever submitting a response
 
@@ -599,7 +599,7 @@ def test_run_session_restart_preserves_queued_stepdown_probe(
     assert len(replayed_engine_state.stepdown_queue) == 1
     assert replayed_engine_state.stepdown_queue[0].skill_id == "FRAC.ADD.UNLIKE"
 
-    result = engine.select_next(replayed_store, replayed_engine_state, content, bank, student_id, "CA", 6, NOW)
+    result = engine.select_next(replayed_store, replayed_engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
     assert result.serve is not None
     assert result.serve.reason == "stepdown"
     assert result.serve.skill_id == "FRAC.ADD.UNLIKE"
@@ -629,7 +629,7 @@ def test_run_session_engaged_timeout_continues_but_unengaged_timeout_ends_sessio
     messages, notify = _notifier()
 
     summary = session.run_session(
-        store, engine_state, content, numeric_bank, student_id, "CA", 4, "sess-timeout", log_path, io, notify, NOW
+        store, engine_state, content, numeric_bank, student_id, "CA", "ONTARIO", 4, "sess-timeout", log_path, io, notify, NOW
     )
 
     assert summary.items_served == 2  # both timeouts counted as "served" before the discard check
@@ -653,7 +653,7 @@ def test_run_session_ends_when_no_more_items_to_serve(
     messages, notify = _notifier()
 
     summary = session.run_session(
-        store, engine_state, content, empty_bank, student_id, "CA", 6, "sess-empty", log_path, io, notify, NOW
+        store, engine_state, content, empty_bank, student_id, "CA", "ONTARIO", 6, "sess-empty", log_path, io, notify, NOW
     )
     assert summary.items_served == 0
     assert any("No more items" in m for m in messages)

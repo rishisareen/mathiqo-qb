@@ -7,6 +7,7 @@
   "additionalProperties": false,
   "required": [
     "event_id",
+    "attempt_id",
     "student_id",
     "session_id",
     "timestamp",
@@ -43,6 +44,11 @@
       "type": "string",
       "minLength": 1,
       "description": "Unique event identifier — identity & ordering (§9)."
+    },
+    "attempt_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Serving-integrity contract R19, KTD4: the client-supplied idempotency key for this submission. `submit_attempt` returns the original outcome unchanged, without double-applying any state change, when the same attempt_id is resubmitted (AE7) — persisted here (not held only in per-session memory) so open_session's log replay can seed the accepted-id map that makes this survive a session restart or eviction, not just a retry within one live session."
     },
     "student_id": {
       "type": "string",
@@ -203,6 +209,21 @@
       "type": "number",
       "minimum": 0,
       "description": "Effective evidence count before the update (§9; §4)."
+    },
+    "answered_at": {
+      "type": "string",
+      "format": "date-time",
+      "description": "Serving-integrity contract KTD13: optional client-reported time the student actually answered, ISO 8601. The server's own receive time (`timestamp`) remains authoritative for ordering/replay — this is additional client-side evidence, not a substitute, so it is optional rather than required and never read by replay()."
+    },
+    "batch_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Serving-integrity contract KTD14: optional grouping identifier for attempts submitted together (e.g. an offline client flushing a buffered batch on reconnect). Bookkeeping only — no validation or replay logic keys on it."
+    },
+    "policy_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Serving-integrity contract KTD14: optional version tag for the client-side selection/serving policy in effect when this attempt was produced. Bookkeeping only — no validation or replay logic keys on it."
     }
   }
 }

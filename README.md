@@ -328,11 +328,22 @@ the reference orchestrator itself uses):
 
 | Tool | Delegates to | Notes |
 |---|---|---|
-| `open_session(student_id)` | `ServingFacade.open_session` | Pins the session to the currently active bank build (R3); returns `session_id` and `bank_version`. |
-| `get_candidates(session_id, skill_id)` | `ServingFacade.get_candidates` | Every unseen instance for (student, skill); on exhaustion, the one least-recently-seen repeat plus an explicit signal (R1). |
-| `submit_attempt(session_id, skill_id, item_instance_id, ...)` | `ServingFacade.submit_attempt` | Validates and logs the attempt (R5, R6); `consumer_id` is this server's own `--consumer-id`, never a tool parameter — a caller cannot forge attribution. |
-| `close_session(session_id)` | `ServingFacade.close_session` | Drops the session from this server's in-memory registry. |
-| `get_student_progress(session_id)` | `ServingFacade.get_progress` | The declared summary shape: theta, certification status, per-skill seen count. |
+| `open_session(student_id, country, curriculum, grade)` | `ServingFacade.open_session` | Pins the session to the currently active bank build and to the given curriculum context (R3, KTD3); returns `session_id` and `bank_version`. Refused with `not_linked`/`session_conflict` when identity is configured (R17/R20). |
+| `get_candidates(session_id, skill_id)` | `ServingFacade.get_candidates` | Every unseen instance for (student, skill); distinguishes `unknown_skill` / `empty_pool` / `exhausted` (R13). |
+| `submit_attempt(session_id, attempt_id, skill_id, item_instance_id, ...)` | `ServingFacade.submit_attempt` | Validates and logs the attempt; retry-safe on `attempt_id` (R19). `consumer_id` is this server's own `--consumer-id`, never a tool parameter — a caller cannot forge attribution. |
+| `close_session(session_id)` | `ServingFacade.close_session` | Ends the session; a no-op (not an error) if already closed or evicted. |
+| `close_session_by_student(student_id)` | `ServingFacade.close_session_by_student` | Recovery path for a client that lost its `session_id` (KTD6) — any linked consumer may close the student's live session. |
+| `get_student_progress(student_id)` | `ServingFacade.get_progress` | Session-less (U8): theta, certification status, per-skill seen count, readable by any linked consumer regardless of who holds the active session. |
+| `recommend_next(student_id, country, curriculum, grade, scope?)` | `ServingFacade.recommend_next` | Session-less, ranked ready-to-learn skills sharing the same priority logic `select_next` uses (R7) — never mutates state. |
+| `register_student(attributes)` | `ServingFacade.register_student` | Issues a new opaque `student_id`; auto-links the registering consumer. |
+| `link_student(student_id, attributes, link_basis?)` | `ServingFacade.link_student` | Links a second consumer to an existing student — requires the *same* registration attributes as proof, not the id alone (R17). |
+| `find_student(attributes)` | `ServingFacade.find_student` | Exact-match lookup by registration attributes; no fuzzy matching. |
+| `list_curricula()` | `ServingFacade.list_curricula` | Every covered (country, curriculum, grade) triple (R1). |
+| `list_units(country, curriculum, grade)` | `ServingFacade.list_units` | Structured chapter list (R2); a unit-less curriculum returns its skills directly. |
+| `list_skills(country, curriculum, grade, unit_code?)` | `ServingFacade.list_skills` | Mapped skills with curriculum-local presentation — learning objective, depth expectation, terminology overrides (R3). |
+| `get_skill_graph(skill_ids?)` | `ServingFacade.get_skill_graph` | Canonical, curriculum-neutral skill graph: prerequisites, depth, strand, misconceptions (R4). |
+| `fetch_batch(session_id, skill_id, batch_size?)` | `ServingFacade.fetch_batch` | A difficulty-laddered batch plus the branching policy and misconception feedback sidecar (R8-R10, R18). |
+| `refill_batch(session_id, skill_id, attempts_flushed)` | `ServingFacade.refill_batch` | Re-plans from the student's current state; carries `supersede` when the plan materially changed (R12). |
 | `server_info()` | — | Reports the declared interface version and the facade-operation surface. |
 
 **v1 is pre-stable.** `server_info`'s `interface_version` may still change
@@ -341,6 +352,110 @@ it to move, not assume today's shape is final. Auth/transport hardening
 (credentials, rate limiting, TLS termination) is explicitly out of scope
 for v1: this server assumes a small set of known, credentialed partners in
 a trusted deployment, one `--consumer-id` per server process.
+
+**Registering and linking a student (R16, R17).** A student exists once,
+regardless of how many partner groups work with them — a parent's app and
+a school's tutor share one mastery record rather than each holding their
+own. The registering consumer is linked automatically; a second consumer
+must supply the *same* attributes to link (the id alone is never enough,
+since it circulates freely in every payload and log):
+
+```python
+# Parent's orchestrator (consumer_id="partner.acme") registers the child.
+result = await session.call_tool("register_student", {
+    "attributes": {"guardian_email": "parent@example.com", "family_code": "ABC123"},
+})
+student_id = result["student_id"]  # e.g. "stu-3f9a..." — opaque, safe to log
+
+# The student is now usable immediately by partner.acme:
+await session.call_tool("open_session", {
+    "student_id": student_id, "country": "IN", "curriculum": "NCERT", "grade": 6,
+})
+
+# A school's orchestrator (consumer_id="partner.schoolco") links the same
+# student by re-supplying the exact registration attributes — a lookup by
+# guessed or overheard student_id alone is refused.
+await session.call_tool("link_student", {
+    "student_id": student_id,
+    "attributes": {"guardian_email": "parent@example.com", "family_code": "ABC123"},
+    "link_basis": "guardian_authorized",
+})
+# partner.schoolco can now open sessions and read progress/recommendations
+# for this student too — one shared mastery record, per-attempt attribution.
+```
+
+The REST transport below exposes the same two operations as
+`POST /students` and `POST /students/{student_id}/link`.
+
+## REST server
+
+`tools/rest_server.py` (U12) is the REST sibling of `tools/mcp_server.py`:
+the same `orchestrator/serving.py` facade, exposed over HTTP instead of
+MCP, for partners that need a shared multi-tenant server rather than one
+stdio process per consumer (R14 — every capability is available over both
+transports, resolving to the same facade operations). It is built from the
+*same* `ServingFacade` instance a co-located MCP server would use
+(KTD12): a session opened over REST is immediately visible and usable over
+MCP, and vice versa, because both transports resolve `session_id` against
+the one shared `facade.sessions` registry rather than keeping their own.
+
+```sh
+python tools/rest_server.py --banks-dir banks --logs-dir logs \
+    --credentials-file credentials.json [--content content/fractions] \
+    [--host 127.0.0.1] [--port 8000]
+```
+
+**Bearer-token auth (KTD15/KTD16).** Unlike MCP's single `--consumer-id`
+per process, this is one HTTP server fielding requests from many different
+partners, so every request must carry `Authorization: Bearer <token>`,
+resolved against a startup-configured credential table rather than a
+caller-supplied id. `--credentials-file` points at a JSON file mapping
+each partner's token to its `consumer_id`:
+
+```json
+{
+  "token-for-partner-acme": "partner.acme",
+  "token-for-partner-beta": "partner.beta"
+}
+```
+
+A missing or unrecognized token is refused with `401` before any route
+body — and therefore any facade code — runs; `consumer_id` is never a
+request parameter on any route (same "server-configured, never
+caller-supplied" invariant every MCP tool already follows). The bind
+default is `127.0.0.1` (loopback only); pass `--host 0.0.0.0` to accept
+non-local connections once you've put this behind whatever TLS termination
+and network policy your deployment needs — auth/transport hardening beyond
+the bearer-token check itself is still v1-scope-limited, same posture as
+the MCP server. Tokens are never echoed anywhere this server produces —
+not a response body, not the generated OpenAPI document, not a log line —
+and no request-logging middleware is added here that would risk it.
+
+**Route surface** (KTD7's status table governs every non-2xx response;
+`signal`/`reason` appear in the JSON body wherever the table calls for
+one):
+
+| Method & path | Delegates to |
+|---|---|
+| `POST /sessions` | `open_session` |
+| `GET /sessions/{session_id}/candidates` | `get_candidates` |
+| `POST /sessions/{session_id}/attempts` | `submit_attempt` |
+| `DELETE /sessions/{session_id}` | `close_session` |
+| `DELETE /students/{student_id}/session` | `close_session_by_student` |
+| `GET /students/{student_id}/progress` | `get_student_progress` |
+| `GET /students/{student_id}/recommendations` | `recommend_next` |
+| `POST /students` | `register_student` |
+| `POST /students/{student_id}/link` | `link_student` |
+| `POST /students/lookup` | `find_student` |
+| `GET /catalog/curricula` | `list_curricula` |
+| `GET /catalog/units` | `list_units` |
+| `GET /catalog/skills` | `list_skills` |
+| `GET /catalog/skill-graph` | `get_skill_graph` |
+| `POST /sessions/{session_id}/batches` | `fetch_batch` |
+| `POST /sessions/{session_id}/batches/refill` | `refill_batch` |
+
+Auto-generated OpenAPI docs (schemas, no credentials) are available at
+`/docs` and `/openapi.json` once the server is running.
 
 ## Run the tests
 

@@ -79,6 +79,16 @@ class SkillNode:
 class MisconceptionEntry:
     misconception_id: str
     remediation_target: str
+    # U9 (R18/AE8, KD10): child-facing instant-feedback text, keyed by
+    # language (e.g. "en-IN") — schemas/misconception.schema.json's
+    # child_feedback_i18n, authored in U3 but never previously carried onto
+    # this dataclass (only remediation_target was, since nothing before U9
+    # needed the feedback text itself, only the remediation skill it points
+    # to). Defaulted to an empty dict so any earlier direct construction of
+    # this frozen dataclass elsewhere keeps working unchanged (mirrors the
+    # "new field defaults so existing construction sites don't break"
+    # discipline `Session`'s own new fields already follow).
+    child_feedback_i18n: Dict[str, str] = field(default_factory=dict)
 
 
 @dataclass(frozen=True)
@@ -88,6 +98,10 @@ class MappingRow:
     curriculum: str
     grade: int
     depth_expectation: str
+    learning_objective: Optional[str] = None
+    terminology_overrides: Dict[str, str] = field(default_factory=dict)
+    unit_code: Optional[str] = None  # KTD10: absent for curricula with no chapter granularity (Ontario)
+    unit_name: Optional[str] = None
 
 
 @dataclass(frozen=True)
@@ -95,20 +109,48 @@ class ContentIndex:
     """Everything the engine reads from content/<slice>/*.yaml, indexed for
     lookup. Loaded once per process/session — not re-parsed per decision."""
 
+    content_version: str  # KTD9: from the pack's manifest.yaml; stamped on catalog/graph/recommendation responses
     skills: Dict[str, SkillNode]
     dependents: Dict[str, List[str]]  # skill_id -> sorted dependent skill_ids
     misconceptions: Dict[str, MisconceptionEntry]
-    mappings: Dict[Tuple[str, str, int], MappingRow]  # (skill_id, country, grade)
-    mapped_skills_by_country_grade: Dict[Tuple[str, int], List[str]]  # sorted
+    mappings: Dict[Tuple[str, str, str, int], MappingRow]  # (skill_id, country, curriculum, grade)
+    mapped_skills_by_country_curriculum_grade: Dict[Tuple[str, str, int], List[str]]  # sorted
+
+
+MANIFEST_FILENAME = "manifest.yaml"
+
+
+def _load_manifest(content_dir: Path) -> str:
+    """KTD9: every content pack declares its `content_version` in a
+    manifest.yaml sitting alongside the pack's skills/misconceptions/mappings
+    files. Content is assumed already graph_lint-clean (this loader doesn't
+    re-validate — see load_content's docstring), but a missing/malformed
+    manifest still fails loudly here rather than silently shipping an
+    un-versioned ContentIndex, since graph_lint is a separate, skippable
+    step from actually loading a pack."""
+    manifest_path = content_dir / MANIFEST_FILENAME
+    if not manifest_path.is_file():
+        raise FileNotFoundError(
+            f"{content_dir}: missing {MANIFEST_FILENAME} (every content pack must declare content_version)"
+        )
+    data = yaml.safe_load(manifest_path.read_text(encoding="utf-8")) or {}
+    content_version = data.get("content_version") if isinstance(data, dict) else None
+    if not content_version:
+        raise ValueError(f"{manifest_path}: missing required 'content_version' field")
+    return str(content_version)
 
 
 def _load_yaml_list(content_dir: Path, key: str) -> List[dict]:
     """Merge one top-level YAML key (skills/misconceptions/mappings) across
     every *.yaml/*.yml file in content_dir — mirrors tools/graph_lint.py's
     load_content, but this module doesn't need graph_lint's linting, only
-    the merge."""
+    the merge. manifest.yaml is excluded: it carries pack metadata (KTD9),
+    not skills/misconceptions/mappings entries."""
     items: List[dict] = []
-    for path in sorted(content_dir.glob("*.yaml")) + sorted(content_dir.glob("*.yml")):
+    paths = sorted(content_dir.glob("*.yaml")) + sorted(content_dir.glob("*.yml"))
+    for path in paths:
+        if path.name == MANIFEST_FILENAME:
+            continue
         data = yaml.safe_load(path.read_text(encoding="utf-8"))
         if not isinstance(data, dict):
             continue
@@ -124,6 +166,7 @@ def load_content(content_dir: Path) -> ContentIndex:
     docstring) into a ContentIndex. Content is assumed already
     graph_lint-clean (references resolve, no cycles); this loader does not
     re-validate."""
+    content_version = _load_manifest(content_dir)
     raw_skills = _load_yaml_list(content_dir, "skills")
     raw_misc = _load_yaml_list(content_dir, "misconceptions")
     raw_mappings = _load_yaml_list(content_dir, "mappings")
@@ -149,12 +192,13 @@ def load_content(content_dir: Path) -> ContentIndex:
         m["misconception_id"]: MisconceptionEntry(
             misconception_id=m["misconception_id"],
             remediation_target=m["remediation_target"],
+            child_feedback_i18n=dict(m.get("child_feedback_i18n") or {}),
         )
         for m in raw_misc
     }
 
-    mappings: Dict[Tuple[str, str, int], MappingRow] = {}
-    mapped_skills_by_country_grade: Dict[Tuple[str, int], List[str]] = {}
+    mappings: Dict[Tuple[str, str, str, int], MappingRow] = {}
+    mapped_skills_by_country_curriculum_grade: Dict[Tuple[str, str, int], List[str]] = {}
     for m in raw_mappings:
         row = MappingRow(
             skill_id=m["skill_id"],
@@ -162,24 +206,30 @@ def load_content(content_dir: Path) -> ContentIndex:
             curriculum=m["curriculum"],
             grade=int(m["grade"]),
             depth_expectation=m["depth_expectation"],
+            learning_objective=m.get("learning_objective"),
+            terminology_overrides=dict(m.get("terminology_overrides") or {}),
+            unit_code=m.get("unit_code"),
+            unit_name=m.get("unit_name"),
         )
-        # Last-in-file wins on an exact (skill, country, grade) collision —
-        # graph_lint already flags true duplicate mapping rows as an error,
-        # so this only matters for content that hasn't been linted yet.
-        mappings[(row.skill_id, row.country, row.grade)] = row
-        key = (row.country, row.grade)
-        bucket = mapped_skills_by_country_grade.setdefault(key, [])
+        # Last-in-file wins on an exact (skill, country, curriculum, grade)
+        # collision — graph_lint already flags true duplicate mapping rows
+        # as an error, so this only matters for content that hasn't been
+        # linted yet.
+        mappings[(row.skill_id, row.country, row.curriculum, row.grade)] = row
+        key = (row.country, row.curriculum, row.grade)
+        bucket = mapped_skills_by_country_curriculum_grade.setdefault(key, [])
         if row.skill_id not in bucket:
             bucket.append(row.skill_id)
-    for bucket in mapped_skills_by_country_grade.values():
+    for bucket in mapped_skills_by_country_curriculum_grade.values():
         bucket.sort()
 
     return ContentIndex(
+        content_version=content_version,
         skills=skills,
         dependents=dependents,
         misconceptions=misconceptions,
         mappings=mappings,
-        mapped_skills_by_country_grade=mapped_skills_by_country_grade,
+        mapped_skills_by_country_curriculum_grade=mapped_skills_by_country_curriculum_grade,
     )
 
 
@@ -281,13 +331,14 @@ def placement_prior_depth(depth_expectation: Optional[str]) -> float:
     return constants.TIER_DEPTH[below]
 
 
-def serving_ceiling(skill_id: str, country: str, grade: int, content: ContentIndex) -> float:
+def serving_ceiling(skill_id: str, country: str, curriculum: str, grade: int, content: ContentIndex) -> float:
     """KTD9's serving ceiling: the mapping's depth_expectation converted via
     TIER_DEPTH where a mapping row exists for this exact (skill, country,
-    grade); the top tier otherwise (core doc §1.4's "default ceiling", not
-    the doc's separate self-extending-band mechanic, which this v1 engine
-    does not implement — see the module report for that scope call)."""
-    row = content.mappings.get((skill_id, country, grade))
+    curriculum, grade); the top tier otherwise (core doc §1.4's "default
+    ceiling", not the doc's separate self-extending-band mechanic, which
+    this v1 engine does not implement — see the module report for that
+    scope call)."""
+    row = content.mappings.get((skill_id, country, curriculum, grade))
     if row is None:
         return constants.TIER_DEPTH["hard"]
     return constants.TIER_DEPTH[row.depth_expectation]
@@ -299,14 +350,15 @@ def target_depth(theta: float, ceiling: float) -> float:
     return min(theta + constants.CHALLENGE_OFFSET, ceiling)
 
 
-def starting_depth_for(skill_id: str, country: str, grade: int, content: ContentIndex) -> float:
+def starting_depth_for(skill_id: str, country: str, curriculum: str, grade: int, content: ContentIndex) -> float:
     """The depth to start probing a skill placement/prerequisite-probing
     first encounters — the mapping's one-tier-below prior (SM §5 point 1)
-    when a mapping row exists for this exact (skill, country, grade), the
-    easy-tier default otherwise. Applied uniformly to every skill placement
-    walks onto (not just a strand's very first skill) — a deliberate
-    generalization of SM §5 point 1 documented in the module report."""
-    row = content.mappings.get((skill_id, country, grade))
+    when a mapping row exists for this exact (skill, country, curriculum,
+    grade), the easy-tier default otherwise. Applied uniformly to every
+    skill placement walks onto (not just a strand's very first skill) — a
+    deliberate generalization of SM §5 point 1 documented in the module
+    report."""
+    row = content.mappings.get((skill_id, country, curriculum, grade))
     return placement_prior_depth(row.depth_expectation if row is not None else None)
 
 
@@ -468,20 +520,23 @@ def _copy_engine_state(engine_state: EngineState) -> EngineState:
     )
 
 
-def _init_placement(engine_state: EngineState, content: ContentIndex, country: str, grade: int) -> None:
+def _init_placement(
+    engine_state: EngineState, content: ContentIndex, country: str, curriculum: str, grade: int
+) -> None:
     """Lazily seed one placement cursor per strand (SM §5 points 1-2) the
     first time selection is asked for this student. Starting skills are the
-    skills with a mapping row at exactly (country, grade) — "this grade's
-    frontier skills" (SM §5 point 1) — one per strand, the lowest
-    canonical_stage among that grade's mapped skills in the strand (a
-    reading of "mid-chain start"; see the module report). A country/grade
-    with no mapping rows at all (not exercised by the shipped fixture, but
-    possible) falls back to the graph's own roots, one per strand, using
-    the default easy-tier prior — the per-skill "unmapped -> easy" default
-    generalized to the starting-point choice itself."""
+    skills with a mapping row at exactly (country, curriculum, grade) —
+    "this grade's frontier skills" (SM §5 point 1) — one per strand, the
+    lowest canonical_stage among that grade's mapped skills in the strand (a
+    reading of "mid-chain start"; see the module report). A
+    country/curriculum/grade with no mapping rows at all (not exercised by
+    the shipped fixture, but possible) falls back to the graph's own roots,
+    one per strand, using the default easy-tier prior — the per-skill
+    "unmapped -> easy" default generalized to the starting-point choice
+    itself."""
     if engine_state.placement_initialized:
         return
-    mapped = content.mapped_skills_by_country_grade.get((country, grade), [])
+    mapped = content.mapped_skills_by_country_curriculum_grade.get((country, curriculum, grade), [])
     by_strand: Dict[str, List[str]] = {}
     for skill_id in mapped:
         strand = content.skills[skill_id].strand
@@ -743,6 +798,185 @@ def apply_consume_patches(store: StudentModelStore, student_id: str, patches: Di
 
 
 # ---------------------------------------------------------------------------
+# rank_serve_candidates: the R12 priority chain, as a ranked list (U8, R7)
+# ---------------------------------------------------------------------------
+
+
+@dataclass
+class RankedCandidate:
+    """One entry of `rank_serve_candidates`'s full R12-priority-ordered
+    candidate list. `reason` reuses `Serve.reason`'s own vocabulary
+    (review/remediation/stepdown/prereq_probe/placement/frontier);
+    `context` is the attempt-event context this candidate would serve
+    under if chosen. `bank_candidates` is this candidate's own pool read
+    directly against the `bank` passed into `rank_serve_candidates` —
+    raw (`bank.instances_by_skill.get(skill_id, [])`, no format/seen
+    filtering) for every reason except frontier, whose pool is already the
+    exact ceiling/mastery/prerequisite-eligible set the frontier scan
+    computes (mirroring `select_next`'s own former `by_skill[skill_id]`).
+    `select_next` uses `bank_candidates` only for frontier — every other
+    reason keeps reading through its own `provide`/`candidates_for_skill`
+    for the pool it actually serves from (U6's routing contract,
+    unchanged by this refactor). `recommend_next`
+    (orchestrator/serving.py, U8) has no such override — it always reads
+    directly against the bank it resolved, so it uses `bank_candidates`
+    for every reason. `unservable` (`not bank_candidates`) is precomputed
+    here so both callers see the identical bank-servability verdict for a
+    given candidate rather than each deriving their own."""
+
+    skill_id: str
+    reason: str  # review/remediation/stepdown/prereq_probe/placement/frontier
+    context: str  # attempt-event context: placement / practice / review / probe
+    target_depth: float
+    bank_candidates: List[dict]
+    unservable: bool
+
+
+def rank_serve_candidates(
+    store: StudentModelStore,
+    engine_state: EngineState,
+    content: ContentIndex,
+    bank: BankIndex,
+    student_id: str,
+    country: str,
+    curriculum: str,
+    grade: int,
+    now: datetime,
+) -> List[RankedCandidate]:
+    """R12's full priority chain — due review -> confirmed-misconception
+    remediation -> queued step-down probes -> queued prerequisite probes ->
+    placement -> frontier practice — as an ORDERED, RANKED list of every
+    candidate at that priority position, not just the single best pick.
+    R7: this is the *only* place this logic lives (verify by grep: exactly
+    two call sites, `select_next` below and `ServingFacade.recommend_next`)
+    — the partner recommendation path and the internal serving path share
+    it, so they cannot diverge pedagogically.
+
+    `select_next` walks this list top to bottom, trying to serve each
+    candidate in turn via its own `provide`/`_try_serve`, falling through
+    on an empty pool exactly as it always has (this function changes none
+    of that fallthrough behavior — see `select_next`'s own docstring for
+    why precomputing the *whole* chain up front, instead of stopping at
+    the first step that succeeds, is still behaviorally identical: nothing
+    below reads `engine_state.seen_history`, the only thing `_try_serve`
+    mutates). `ServingFacade.recommend_next` (U8, R6) returns this list
+    directly (mapped onto its own response shape), unfiltered by
+    servability — a caller decides what to do with an `unservable` entry,
+    this function never drops one.
+
+    Mutates `engine_state` in place exactly once: lazily seeds the
+    placement cursor via `_init_placement` if it hasn't been already (the
+    same lazy init `select_next` has always performed at this point in its
+    own priority chain) — no other mutation. Never touches
+    `engine_state.seen_history` (only `_try_serve` does that, and only
+    when a caller actually serves an instance) and never writes `store`.
+    """
+    candidates: List[RankedCandidate] = []
+
+    def _bank_pool(skill_id: str) -> List[dict]:
+        return bank.instances_by_skill.get(skill_id, [])
+
+    # 1. Due review — only the single next-due skill (matching
+    # select_next's own historical single-candidate read at this step: a
+    # caller that can't serve it falls through to remediation, never to
+    # the *second* most-due skill).
+    due = due_reviews(store.records_for(student_id), now)
+    if due:
+        skill_id, skill_state = due[0]
+        pool = [inst for inst in _bank_pool(skill_id) if inst["question_type"] in constants.LOW_GUESS_FORMATS]
+        candidates.append(
+            RankedCandidate(skill_id, "review", "review", skill_state.certified_depth, pool, not pool)
+        )
+
+    # 2. Confirmed-misconception remediation dose (queue head only).
+    if engine_state.remediation_queue:
+        dose = engine_state.remediation_queue[0]
+        skill_state = store.peek(student_id, dose.skill_id)
+        ceiling = serving_ceiling(dose.skill_id, country, curriculum, grade, content)
+        target = target_depth(skill_state.theta, ceiling)
+        pool = _bank_pool(dose.skill_id)
+        candidates.append(RankedCandidate(dose.skill_id, "remediation", "practice", target, pool, not pool))
+
+    # 3. Queued depth-step-down probe (queue head only).
+    if engine_state.stepdown_queue:
+        probe = engine_state.stepdown_queue[0]
+        pool = _bank_pool(probe.skill_id)
+        candidates.append(
+            RankedCandidate(probe.skill_id, "stepdown", "probe", probe.target_depth, pool, not pool)
+        )
+
+    # 4. Queued prerequisite probe (queue head only).
+    if engine_state.prereq_probe_queue:
+        probe = engine_state.prereq_probe_queue[0]
+        target = starting_depth_for(probe.skill_id, country, curriculum, grade, content)
+        pool = _bank_pool(probe.skill_id)
+        candidates.append(
+            RankedCandidate(probe.skill_id, "prereq_probe", "probe", target, pool, not pool)
+        )
+
+    # 5. Placement: one candidate per strand still walking, sorted by
+    # strand — matching select_next's own per-strand fallback order (a
+    # strand whose cursor skill can't be served doesn't stop the others).
+    _init_placement(engine_state, content, country, curriculum, grade)
+    for strand in sorted(engine_state.placement_cursor):
+        skill_id = engine_state.placement_cursor[strand]
+        target = starting_depth_for(skill_id, country, curriculum, grade, content)
+        pool = _bank_pool(skill_id)
+        candidates.append(RankedCandidate(skill_id, "placement", "placement", target, pool, not pool))
+
+    # 6. Frontier practice: ceiling-capped, prerequisite-gated, every
+    # eligible skill (not just the least-attempted winner select_next used
+    # to stop at), ranked by the same least-attempted-first tie-break.
+    by_skill: Dict[str, List[dict]] = {}
+    for skill_id, node in content.skills.items():
+        skill_state = store.peek(student_id, skill_id)
+        ceiling = serving_ceiling(skill_id, country, curriculum, grade, content)
+        # See select_next's historical comment (preserved in spirit here):
+        # `lapsed` blocks dependents from being served downstream but never
+        # revokes certified_depth, so a lapsed skill must stay eligible for
+        # frontier practice itself or it could never re-enter the queue.
+        mastered_to_ceiling = (
+            skill_state.certified_depth is not None
+            and skill_state.certified_depth >= ceiling
+            and not skill_state.lapsed
+        )
+        if mastered_to_ceiling:
+            continue
+        # Deliberately the raw bank, not any candidates_for_skill override:
+        # this scan's eligibility checks (ceiling, mastered-at-depth,
+        # prerequisite certification) are independent of seen-status and
+        # need the full pool at every depth, exactly as select_next always
+        # required for this step.
+        for instance in bank.instances_by_skill.get(skill_id, []):
+            depth = instance["difficulty"]
+            if depth > ceiling:
+                break  # pool is sorted ascending by difficulty (load_bank) — nothing later qualifies either
+            mastered_at_depth = (
+                skill_state.certified_depth is not None
+                and skill_state.certified_depth >= depth
+                and not skill_state.lapsed
+            )
+            if mastered_at_depth:
+                continue
+            if not all(is_certified(store.peek(student_id, p), depth, now) for p in node.prerequisites):
+                continue
+            by_skill.setdefault(skill_id, []).append(instance)
+
+    def _priority(skill_id: str) -> Tuple[float, str]:
+        return (store.peek(student_id, skill_id).n, skill_id)
+
+    for skill_id in sorted(by_skill, key=_priority):
+        skill_state = store.peek(student_id, skill_id)
+        ceiling = serving_ceiling(skill_id, country, curriculum, grade, content)
+        target = target_depth(skill_state.theta, ceiling)
+        # Already ceiling/mastery/prerequisite-filtered above — never empty,
+        # so `unservable` is always False for a frontier candidate.
+        candidates.append(RankedCandidate(skill_id, "frontier", "practice", target, by_skill[skill_id], False))
+
+    return candidates
+
+
+# ---------------------------------------------------------------------------
 # select_next: the R12 priority chain
 # ---------------------------------------------------------------------------
 
@@ -807,6 +1041,7 @@ def select_next(
     bank: BankIndex,
     student_id: str,
     country: str,
+    curriculum: str,
     grade: int,
     now: datetime,
     candidates_for_skill: Optional[Callable[[str], List[dict]]] = None,
@@ -836,127 +1071,41 @@ def select_next(
     `pick_instance`'s own seen-filter (unchanged) still runs on top of
     whatever pool either path supplies, so passing an already seen-filtered
     pool into steps 1-5 composes correctly — the second filter there is a
-    no-op, not a conflict."""
+    no-op, not a conflict.
+
+    U8/R7: the priority chain itself — which skill is a candidate at each
+    step, in what order, ceiling-capped and prerequisite-gated for the
+    frontier step — is computed once by `rank_serve_candidates`, the one
+    place this logic lives (also called by `ServingFacade.recommend_next`).
+    This function only adds the *serving* half on top: for each ranked
+    candidate in turn, build its actual pool (honoring `candidates_for_skill`
+    for every reason except frontier, which always reads the pool
+    `rank_serve_candidates` already computed against the real `bank`) and
+    try to serve it, falling through to the next candidate on an empty
+    pool — reproducing the exact step-by-step fallthrough this function
+    used to implement inline."""
     provide = candidates_for_skill or (lambda skill_id: bank.instances_by_skill.get(skill_id, []))
     new_state = _copy_engine_state(engine_state)
     warnings: List[str] = []
 
-    # 1. Due review probes, in a low-guess format, at the certified depth.
-    records = store.records_for(student_id)
-    due = due_reviews(records, now)
-    if due:
-        skill_id, skill_state = due[0]
-        candidates = [inst for inst in provide(skill_id) if inst["question_type"] in constants.LOW_GUESS_FORMATS]
-        serve = _try_serve(new_state, warnings, skill_id, candidates, skill_state.certified_depth, "review", "review")
+    ranked = rank_serve_candidates(store, new_state, content, bank, student_id, country, curriculum, grade, now)
+
+    for candidate in ranked:
+        if candidate.reason == "review":
+            pool = [inst for inst in provide(candidate.skill_id) if inst["question_type"] in constants.LOW_GUESS_FORMATS]
+        elif candidate.reason == "frontier":
+            # Always the real-bank, ceiling/mastery/prerequisite-filtered
+            # pool rank_serve_candidates already computed — never routed
+            # through candidates_for_skill (see this function's own
+            # docstring on why frontier stays bank-direct).
+            pool = candidate.bank_candidates
+        else:
+            pool = provide(candidate.skill_id)
+        serve = _try_serve(new_state, warnings, candidate.skill_id, pool, candidate.target_depth, candidate.context, candidate.reason)
         if serve is not None:
             return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
 
-    # 2. Confirmed-misconception remediation dose.
-    if new_state.remediation_queue:
-        dose = new_state.remediation_queue[0]
-        skill_state = store.peek(student_id, dose.skill_id)
-        ceiling = serving_ceiling(dose.skill_id, country, grade, content)
-        target = target_depth(skill_state.theta, ceiling)
-        serve = _try_serve(
-            new_state, warnings, dose.skill_id, provide(dose.skill_id),
-            target, "practice", "remediation",
-        )
-        if serve is not None:
-            return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
-
-    # 3. Queued depth-step-down probes.
-    if new_state.stepdown_queue:
-        probe = new_state.stepdown_queue[0]
-        serve = _try_serve(
-            new_state, warnings, probe.skill_id, provide(probe.skill_id),
-            probe.target_depth, "probe", "stepdown",
-        )
-        if serve is not None:
-            return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
-
-    # 4. Queued prerequisite probes.
-    if new_state.prereq_probe_queue:
-        probe = new_state.prereq_probe_queue[0]
-        target = starting_depth_for(probe.skill_id, country, grade, content)
-        serve = _try_serve(
-            new_state, warnings, probe.skill_id, provide(probe.skill_id),
-            target, "probe", "prereq_probe",
-        )
-        if serve is not None:
-            return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
-
-    # 5. Placement, until each strand finds its frontier.
-    _init_placement(new_state, content, country, grade)
-    for strand in sorted(new_state.placement_cursor):
-        skill_id = new_state.placement_cursor[strand]
-        target = starting_depth_for(skill_id, country, grade, content)
-        serve = _try_serve(
-            new_state, warnings, skill_id, provide(skill_id),
-            target, "placement", "placement",
-        )
-        if serve is not None:
-            return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
-        # No instances at all for this strand's cursor skill: nothing to
-        # place with here — try the next strand this call rather than
-        # getting stuck.
-
-    # 6. Frontier practice: prerequisite-gated at the candidate instance's
-    # own difficulty (R12), ceiling-capped (KTD9), least-attempted skill
-    # first among the eligible set (see module report for this tie-break).
-    by_skill: Dict[str, List[dict]] = {}
-    for skill_id, node in content.skills.items():
-        skill_state = store.peek(student_id, skill_id)
-        ceiling = serving_ceiling(skill_id, country, grade, content)
-        # `lapsed` blocks dependents from being *served downstream*, but it
-        # never revokes certified_depth (SM §6 point 3) — so a lapsed skill
-        # must remain eligible for frontier practice itself, or it can never
-        # re-enter the queue (§6 point 2) once its own certification lapses
-        # at exactly the serving ceiling, the common steady-state case since
-        # v1 doesn't implement the self-extending ceiling. `due_reviews`
-        # (R12 step 1) never picks it up either — certification_status
-        # returns STATUS_LAPSED, not STATUS_DUE, once lapsed. Frontier
-        # practice is the only remaining path back in, so the "already
-        # mastered, nothing to offer" skip below must not apply while lapsed.
-        mastered_to_ceiling = (
-            skill_state.certified_depth is not None
-            and skill_state.certified_depth >= ceiling
-            and not skill_state.lapsed
-        )
-        if mastered_to_ceiling:
-            continue
-        # Deliberately `bank.instances_by_skill`, not `provide(skill_id)`:
-        # this scan's eligibility checks (ceiling, mastered-at-depth,
-        # prerequisite certification) are independent of seen-status and
-        # need the full pool at every depth — see select_next's docstring
-        # for why a seen-filtered candidates_for_skill would starve this
-        # step once a depth tier is mastered.
-        for instance in bank.instances_by_skill.get(skill_id, []):
-            depth = instance["difficulty"]
-            if depth > ceiling:
-                break  # pool is sorted ascending by difficulty (load_bank) — nothing later qualifies either
-            mastered_at_depth = (
-                skill_state.certified_depth is not None
-                and skill_state.certified_depth >= depth
-                and not skill_state.lapsed
-            )
-            if mastered_at_depth:
-                continue
-            if not all(is_certified(store.peek(student_id, p), depth, now) for p in node.prerequisites):
-                continue
-            by_skill.setdefault(skill_id, []).append(instance)
-
-    if not by_skill:
-        return SelectResult(engine_state=new_state, serve=None, warnings=warnings)
-
-    def _priority(skill_id: str) -> Tuple[float, str]:
-        return (store.peek(student_id, skill_id).n, skill_id)
-
-    chosen_skill = min(by_skill, key=_priority)
-    skill_state = store.peek(student_id, chosen_skill)
-    ceiling = serving_ceiling(chosen_skill, country, grade, content)
-    target = target_depth(skill_state.theta, ceiling)
-    serve = _try_serve(new_state, warnings, chosen_skill, by_skill[chosen_skill], target, "practice", "frontier")
-    return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
+    return SelectResult(engine_state=new_state, serve=None, warnings=warnings)
 
 
 # ---------------------------------------------------------------------------

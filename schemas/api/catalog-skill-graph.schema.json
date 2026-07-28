@@ -1,0 +1,40 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/api/catalog-skill-graph.schema.json",
+  "title": "MCP get_skill_graph Response",
+  "description": "Serving-integrity contract U11/R15: `tools/mcp_server.py`'s `get_skill_graph` tool response, built by `_serialize_skill_graph`. U7/R4: the canonical skill graph — prerequisites, depth axis (canonical_stage), strand, and associated misconception ids, straight off the graph layer (orchestrator/catalog.py's SkillGraphResult), never the curriculum-local mapping view catalog-skills.schema.json describes. A requested-but-unknown skill_id is silently absent from `skills` rather than raising (plan point 6).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["content_version", "skills"],
+  "properties": {
+    "content_version": { "type": "string", "minLength": 1 },
+    "skills": {
+      "type": "object",
+      "description": "Keyed by skill_id.",
+      "propertyNames": {
+        "pattern": "^[A-Z][A-Z0-9]*(\\.[A-Z0-9][A-Z0-9-]*)*$"
+      },
+      "additionalProperties": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["skill_id", "strand", "canonical_stage", "prerequisites", "misconceptions"],
+        "properties": {
+          "skill_id": { "type": "string", "minLength": 1 },
+          "strand": { "type": "string", "minLength": 1 },
+          "canonical_stage": { "type": "integer", "minimum": 0 },
+          "prerequisites": {
+            "type": "array",
+            "items": { "type": "string", "minLength": 1 }
+          },
+          "misconceptions": {
+            "type": "array",
+            "items": {
+              "type": "string",
+              "pattern": "^MISC\\.[A-Z0-9][A-Z0-9.-]*$"
+            }
+          }
+        }
+      }
+    }
+  }
+}

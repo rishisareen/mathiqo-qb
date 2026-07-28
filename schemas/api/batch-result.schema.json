@@ -1,0 +1,103 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/api/batch-result.schema.json",
+  "title": "MCP fetch_batch Response",
+  "description": "Serving-integrity contract U11/R15: `tools/mcp_server.py`'s `fetch_batch` tool response, built by `_serialize_batch_result`. U9 (R8-R11, R18, KD1, KD2): a server-planned, difficulty-laddered working set for one (student, skill) — every item's full rendered instance (KD6, nothing stripped), which ladder rung it fills, the submission context the double-diagnosis rule requires (orchestrator/batch.py's module docstring), and the shipped branching-policy object (KD2, KTD8). `batch-refill-result.schema.json` is this same family — a refill wraps this exact shape (nullable) with a signal/supersede envelope; that file duplicates the nested item/policy $defs below rather than cross-file $ref, matching this repo's existing single-file-$defs convention (schemas/item-record.schema.json).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "batch_id",
+    "student_id",
+    "skill_id",
+    "items",
+    "count_requested",
+    "count_returned",
+    "policy",
+    "feedback_sidecar",
+    "bank_version",
+    "content_version"
+  ],
+  "$defs": {
+    "plannedItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["instance", "skill_id", "rung", "context"],
+      "properties": {
+        "instance": {
+          "type": "object",
+          "description": "The full rendered item instance verbatim (KD6) — see schemas/item-instance.schema.json for its own complete, separately-validated shape; not re-validated field-by-field here."
+        },
+        "skill_id": { "type": "string", "minLength": 1 },
+        "rung": {
+          "type": "string",
+          "enum": ["target", "easier", "harder"],
+          "description": "Which ladder rung this item fills (orchestrator/batch.py's plan_ladder)."
+        },
+        "context": {
+          "type": "string",
+          "enum": ["practice", "probe"],
+          "description": "The attempt-event context this item must be submitted under. \"target\"/\"harder\" rungs are always \"practice\"; \"easier\"/step-down rungs are always \"probe\" (the double-diagnosis fix, orchestrator/batch.py's module docstring) — the only two values plan_ladder ever assigns, a proper subset of attempt-event.schema.json's full context enum."
+        }
+      }
+    },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["policy_version", "floor", "low_water", "rules"],
+      "properties": {
+        "policy_version": { "type": "string", "minLength": 1 },
+        "floor": {
+          "type": "string",
+          "description": "The fallback sequence a client that doesn't recognize policy_version should use (KTD8)."
+        },
+        "low_water": {
+          "type": "integer",
+          "minimum": 0,
+          "description": "The client-side signal for \"ask for a refill soon\" (KD2/R10) — not enforced server-side."
+        },
+        "rules": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["on_correct", "on_incorrect_tagged", "on_incorrect_untagged", "on_buffer_low"],
+          "properties": {
+            "on_correct": { "type": "string", "minLength": 1 },
+            "on_incorrect_tagged": { "type": "string", "minLength": 1 },
+            "on_incorrect_untagged": { "type": "string", "minLength": 1 },
+            "on_buffer_low": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    }
+  },
+  "properties": {
+    "batch_id": { "type": "string", "pattern": "^batch-[0-9a-f]{32}$" },
+    "student_id": { "type": "string", "minLength": 1 },
+    "skill_id": { "type": "string", "minLength": 1 },
+    "items": {
+      "type": "array",
+      "description": "May hold fewer than count_requested if the candidate pool ran out (plan point e) — never padded with a repeat.",
+      "items": { "$ref": "#/$defs/plannedItem" }
+    },
+    "count_requested": {
+      "type": "integer",
+      "minimum": 1,
+      "description": "The clamped batch_size actually planned against."
+    },
+    "count_returned": {
+      "type": "integer",
+      "minimum": 0,
+      "description": "len(items) — may be less than count_requested, never more."
+    },
+    "policy": { "$ref": "#/$defs/policy" },
+    "feedback_sidecar": {
+      "type": "object",
+      "description": "Every misconception_id reachable from any served distractor of any item in this batch, mapped to its child-facing feedback text (R18/AE8) — keyed by misconception_id.",
+      "propertyNames": {
+        "pattern": "^MISC\\.[A-Z0-9][A-Z0-9.-]*$"
+      },
+      "additionalProperties": { "type": "string", "minLength": 1 }
+    },
+    "bank_version": { "type": "string", "minLength": 1 },
+    "content_version": { "type": "string", "minLength": 1 }
+  }
+}

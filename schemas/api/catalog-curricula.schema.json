@@ -1,0 +1,45 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/api/catalog-curricula.schema.json",
+  "title": "MCP list_curricula Response",
+  "description": "Serving-integrity contract U11/R15: `tools/mcp_server.py`'s `list_curricula` tool response, built by `_serialize_catalog`. U7/R1: every (country, curriculum, grade) triple with at least one mapped skill, grouped country -> curriculum -> sorted grades (orchestrator/catalog.py's CatalogResult). content_version (KTD9) is always stamped, even for an installation with zero coverage (countries=[]).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["content_version", "countries"],
+  "properties": {
+    "content_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The content graph version this catalog was built from (KTD9)."
+    },
+    "countries": {
+      "type": "array",
+      "description": "Sorted by country code.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["country", "curricula"],
+        "properties": {
+          "country": { "type": "string", "minLength": 1 },
+          "curricula": {
+            "type": "array",
+            "description": "Sorted by curriculum name.",
+            "items": {
+              "type": "object",
+              "additionalProperties": false,
+              "required": ["curriculum", "grades"],
+              "properties": {
+                "curriculum": { "type": "string", "minLength": 1 },
+                "grades": {
+                  "type": "array",
+                  "description": "Sorted ascending.",
+                  "items": { "type": "integer", "minimum": 1 }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

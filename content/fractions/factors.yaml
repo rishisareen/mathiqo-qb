@@ -84,6 +84,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.FACTOR-MULTIPLE-SWAP.v1"
     parent_summary_i18n:
       en-IN: "{{name}} mixes up factors and multiples — listing the numbers 12 goes into instead of the numbers that go into 12."
+    child_feedback_i18n:
+      en-IN: "You listed numbers that 12 goes into — those are multiples, not factors. Factors of 12 are the numbers that divide it exactly, like 1, 2, 3, 4, 6 and 12."
 
   - misconception_id: MISC.NUM.ONE-IS-PRIME
     belief: "1 is a prime number because it has no other factors"
@@ -92,6 +94,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.ONE-IS-PRIME.v1"
     parent_summary_i18n:
       en-IN: "{{name}} counts 1 as a prime number — a prime needs exactly two different factors, and 1 has only one."
+    child_feedback_i18n:
+      en-IN: "You counted 1 as a prime number. A prime number needs exactly two different factors — 1 has only one factor (itself), so it's neither prime nor composite."
 
   - misconception_id: MISC.NUM.TWO-NOT-PRIME
     belief: "2 cannot be prime because it is even"
@@ -100,6 +104,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.TWO-NOT-PRIME.v1"
     parent_summary_i18n:
       en-IN: "{{name}} leaves 2 off lists of prime numbers, believing even numbers can never be prime — 2 is the one even prime."
+    child_feedback_i18n:
+      en-IN: "You left 2 off your list of primes because it's even. But 2's only factors are 1 and itself — that makes it prime, and it's the only even prime number there is."
 
   - misconception_id: MISC.NUM.COMPOSITE-FACTORS-LEFT
     belief: "Any product that gives the number is its prime factorisation"
@@ -108,6 +114,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.COMPOSITE-FACTORS-LEFT.v1"
     parent_summary_i18n:
       en-IN: "{{name}} stops breaking a number down while some factors are still composite, instead of continuing until every factor is prime."
+    child_feedback_i18n:
+      en-IN: "You stopped at 24 = 4 x 6, but 4 and 6 aren't prime yet. Keep breaking down every factor until each one is prime: 24 = 2 x 2 x 2 x 3."
 
   - misconception_id: MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS
     belief: "Every divisibility test only ever looks at the last digit"
@@ -116,6 +124,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS.v1"
     parent_summary_i18n:
       en-IN: "{{name}} checks only the last digit for every divisibility test — that works for 2, 5 and 10, but tests like 4 and 8 need more of the number."
+    child_feedback_i18n:
+      en-IN: "You checked only the last digit, which works for testing 2, 5 or 10 — but the test for 4 needs the last two digits, since 14's last digit being divisible by 4 doesn't mean 14 itself is."
 
 # IN/NCERT mapping rows drafted in the same run.
 mappings:
@@ -125,6 +135,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
+    unit_code: "IN-NCERT-G6-CH5"
+    unit_name: "Class 6, Ch. 5"
     learning_objective: >
       Finds factors and multiples of whole numbers, recognising that a
       factor divides a number exactly and a multiple contains it exactly.
@@ -136,6 +148,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
+    unit_code: "IN-NCERT-G6-CH5"
+    unit_name: "Class 6, Ch. 5"
     learning_objective: >
       Distinguishes prime numbers from composite numbers and explains why
       1 is neither.
@@ -147,6 +161,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
+    unit_code: "IN-NCERT-G6-CH5"
+    unit_name: "Class 6, Ch. 5"
     learning_objective: >
       Applies divisibility tests for 2, 4, 5, 8 and 10 by examining the
       digits of a number.
@@ -158,6 +174,8 @@ mappings:
     grade: 6
     depth_expectation: easy
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
+    unit_code: "IN-NCERT-G6-CH5"
+    unit_name: "Class 6, Ch. 5"
     learning_objective: >
       Identifies common factors of two numbers, including the highest
       common factor.
@@ -172,6 +190,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
+    unit_code: "IN-NCERT-G6-CH5"
+    unit_name: "Class 6, Ch. 5"
     learning_objective: >
       Expresses a number as a product of prime factors.
     exam_contexts: [SCHOOL_EXAM]
@@ -182,6 +202,8 @@ mappings:
     grade: 6
     depth_expectation: easy
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
+    unit_code: "IN-NCERT-G6-CH5"
+    unit_name: "Class 6, Ch. 5"
     learning_objective: >
       Identifies common multiples of two numbers, including the smallest
       common multiple.

@@ -31,6 +31,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.NUMLINE-COUNT-MARKS.v1"
     parent_summary_i18n:
       en-IN: "{{name}} counts the tick marks on a number line instead of the equal jumps between them, so fractions land on the wrong point."
+    child_feedback_i18n:
+      en-IN: "You counted the tick marks instead of the equal spaces between them. Count how many equal spaces the line is divided into, and how many of those spaces you've moved from 0 — that's your fraction."
 
   - misconception_id: MISC.FRAC.WHOLE-NUMBER-RULES
     belief: "Fractions compare like whole numbers: more pieces or bigger digits means bigger"
@@ -39,6 +41,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.FRAC.WHOLE-NUMBER-RULES.v1"
     parent_summary_i18n:
       en-IN: "{{name}} carries whole-number thinking into fractions, comparing tops and bottoms as separate numbers instead of comparing the sizes the fractions stand for."
+    child_feedback_i18n:
+      en-IN: "You compared the top and bottom numbers separately, the way you would with whole numbers. Fractions need a different check — think about the actual size each one stands for, since a bigger bottom number often means smaller pieces."
 
 # IN/NCERT mapping rows drafted in the same run.
 mappings:
@@ -48,6 +52,8 @@ mappings:
     grade: 4
     depth_expectation: easy
     syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 5"
+    unit_code: "IN-NCERT-G4-CH5"
+    unit_name: "Class 4, Ch. 5"
     learning_objective: >
       Understands halves, quarters and other unit fractions as equal
       shares of a whole and of a collection.
@@ -59,6 +65,8 @@ mappings:
     grade: 4
     depth_expectation: easy
     syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 5"
+    unit_code: "IN-NCERT-G4-CH5"
+    unit_name: "Class 4, Ch. 5"
     learning_objective: >
       Identifies the fraction of a shape that is shaded; understands
       fractions as equal shares of a whole and of a collection.
@@ -70,6 +78,8 @@ mappings:
     grade: 5
     depth_expectation: medium
     syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 2"
+    unit_code: "IN-NCERT-G5-CH2"
+    unit_name: "Class 5, Ch. 2"
     learning_objective: >
       Represents fractions of shapes and collections.
     exam_contexts: [SCHOOL_EXAM]
@@ -80,6 +90,8 @@ mappings:
     grade: 5
     depth_expectation: easy
     syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 2"
+    unit_code: "IN-NCERT-G5-CH2"
+    unit_name: "Class 5, Ch. 2"
     learning_objective: >
       Recognises simple equivalent fractions using pictures.
     exam_contexts: [SCHOOL_EXAM]
@@ -93,6 +105,8 @@ mappings:
     grade: 5
     depth_expectation: easy
     syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 2"
+    unit_code: "IN-NCERT-G5-CH2"
+    unit_name: "Class 5, Ch. 2"
     learning_objective: >
       Compares simple fractions.
     exam_contexts: [SCHOOL_EXAM]
@@ -103,6 +117,8 @@ mappings:
     grade: 5
     depth_expectation: easy
     syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 2"
+    unit_code: "IN-NCERT-G5-CH2"
+    unit_name: "Class 5, Ch. 2"
     learning_objective: >
       Adds and subtracts fractions with the same denominator using
       pictures.
@@ -114,6 +130,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
+    unit_code: "IN-NCERT-G6-CH7"
+    unit_name: "Class 6, Ch. 7"
     learning_objective: >
       Places and reads fractions on the number line.
     exam_contexts: [SCHOOL_EXAM]
@@ -124,6 +142,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
+    unit_code: "IN-NCERT-G6-CH7"
+    unit_name: "Class 6, Ch. 7"
     learning_objective: >
       Generates and recognises equivalent fractions.
     exam_contexts: [SCHOOL_EXAM]
@@ -134,6 +154,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
+    unit_code: "IN-NCERT-G6-CH7"
+    unit_name: "Class 6, Ch. 7"
     learning_objective: >
       Compares and orders fractions.
     exam_contexts: [SCHOOL_EXAM]
@@ -144,6 +166,8 @@ mappings:
     grade: 6
     depth_expectation: easy
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
+    unit_code: "IN-NCERT-G6-CH7"
+    unit_name: "Class 6, Ch. 7"
     learning_objective: >
       Expresses a fraction in lowest form.
     exam_contexts: [SCHOOL_EXAM]
@@ -156,6 +180,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
+    unit_code: "IN-NCERT-G6-CH7"
+    unit_name: "Class 6, Ch. 7"
     learning_objective: >
       Adds and subtracts fractions with like denominators.
     exam_contexts: [SCHOOL_EXAM]
@@ -166,6 +192,8 @@ mappings:
     grade: 6
     depth_expectation: easy
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
+    unit_code: "IN-NCERT-G6-CH7"
+    unit_name: "Class 6, Ch. 7"
     learning_objective: >
       Expresses improper fractions as mixed numbers and vice versa;
       begins adding and subtracting such fractions.
@@ -177,6 +205,8 @@ mappings:
     grade: 7
     depth_expectation: easy
     syllabus_ref: "Class 7, Maths (Ganita Prakash), Ch. (Working with Fractions)"
+    unit_code: "IN-NCERT-G7-WORKING-WITH-FRACTIONS"
+    unit_name: "Class 7, Ch. Working with Fractions"
     learning_objective: >
       Multiplies a fraction by a whole number, connecting multiplication
       to area and "of" language.
@@ -188,6 +218,8 @@ mappings:
     grade: 7
     depth_expectation: medium
     syllabus_ref: "Class 7, Maths (Ganita Prakash), Ch. (Working with Fractions)"
+    unit_code: "IN-NCERT-G7-WORKING-WITH-FRACTIONS"
+    unit_name: "Class 7, Ch. Working with Fractions"
     learning_objective: >
       Multiplies a fraction by another fraction, connecting
       multiplication to area and "of" language.
@@ -199,6 +231,8 @@ mappings:
     grade: 7
     depth_expectation: medium
     syllabus_ref: "Class 7, Maths (Ganita Prakash), Ch. (Working with Fractions)"
+    unit_code: "IN-NCERT-G7-WORKING-WITH-FRACTIONS"
+    unit_name: "Class 7, Ch. Working with Fractions"
     learning_objective: >
       Divides a fraction by a whole number.
     exam_contexts: [SCHOOL_EXAM]
@@ -209,6 +243,8 @@ mappings:
     grade: 7
     depth_expectation: medium
     syllabus_ref: "Class 7, Maths (Ganita Prakash), Ch. (Working with Fractions)"
+    unit_code: "IN-NCERT-G7-WORKING-WITH-FRACTIONS"
+    unit_name: "Class 7, Ch. Working with Fractions"
     learning_objective: >
       Divides a fraction by another fraction; expresses results in lowest
       form.

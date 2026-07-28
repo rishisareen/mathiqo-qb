@@ -55,6 +55,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.PATTERN-CONSTANT-DIFF.v1"
     parent_summary_i18n:
       en-IN: "{{name}} extends every pattern by repeating the last jump, without first checking whether the jumps themselves are changing."
+    child_feedback_i18n:
+      en-IN: "You added 4 again because that was the last jump. But look at the jumps themselves — 1, 2, 4 — they're growing too, so the next jump should be 8, making the next term 16, not 12."
 
   - misconception_id: MISC.NUM.ZERO-PARITY
     belief: "Zero is neither even nor odd"
@@ -63,6 +65,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.ZERO-PARITY.v1"
     parent_summary_i18n:
       en-IN: "{{name}} isn't sure whether zero is even or odd and tends to leave it out — zero is an even number."
+    child_feedback_i18n:
+      en-IN: "You left 0 out because you weren't sure which pile it belongs in. Zero splits into pairs with nothing left over — zero pairs — which makes it an even number."
 
   - misconception_id: MISC.NUM.SQUARE-DOUBLES
     belief: "Squaring a number means doubling it"
@@ -71,6 +75,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.SQUARE-DOUBLES.v1"
     parent_summary_i18n:
       en-IN: "{{name}} treats 'square of a number' as doubling it, rather than multiplying the number by itself — the picture of dots in a square helps here."
+    child_feedback_i18n:
+      en-IN: "You doubled each number instead of squaring it. Squaring a number means multiplying it by itself, so the square numbers are 1, 4, 9, 16 — not 2, 4, 6, 8."
 
 # IN/NCERT mapping rows drafted in the same run.
 mappings:
@@ -91,6 +97,8 @@ mappings:
     grade: 4
     depth_expectation: medium
     syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 3"
+    unit_code: "IN-NCERT-G4-CH3"
+    unit_name: "Class 4, Ch. 3"
     learning_objective: >
       Identifies the rule of a pattern and extends growing patterns of
       shapes and numbers.
@@ -102,6 +110,8 @@ mappings:
     grade: 5
     depth_expectation: medium
     syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 7"
+    unit_code: "IN-NCERT-G5-CH7"
+    unit_name: "Class 5, Ch. 7"
     learning_objective: >
       Extends and describes growing and reducing patterns; relates
       patterns in shapes to patterns in numbers.
@@ -123,6 +133,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 1"
+    unit_code: "IN-NCERT-G6-CH1"
+    unit_name: "Class 6, Ch. 1"
     learning_objective: >
       Studies odd and even numbers as number sequences and explores
       patterns in their sums.
@@ -134,6 +146,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 1"
+    unit_code: "IN-NCERT-G6-CH1"
+    unit_name: "Class 6, Ch. 1"
     learning_objective: >
       Studies triangular, square, cube and Virahanka numbers; relates
       number sequences to pictorial arrangements and explains why the

@@ -292,7 +292,7 @@ def test_convergence_theta_lands_near_true_ability_within_tolerance(
         io = SimulatedStudentInputSource(student, skill_bank, last, max_items=80)
 
         summary = session.run_session(
-            store, engine_state, content, skill_bank, student_id, "CA", UNMAPPED_GRADE,
+            store, engine_state, content, skill_bank, student_id, "CA", "ONTARIO", UNMAPPED_GRADE,
             f"sess-converge-{label}", log_path, io, make_recording_notify(last), NOW,
         )
         assert summary.items_served == 80
@@ -326,7 +326,7 @@ def test_strong_student_certifies_via_numeric_entry_only_with_review_date(
     io = SimulatedStudentInputSource(student, numeric_bank, last, max_items=30)
 
     session.run_session(
-        store, engine_state, content, numeric_bank, student_id, "CA", UNMAPPED_GRADE,
+        store, engine_state, content, numeric_bank, student_id, "CA", "ONTARIO", UNMAPPED_GRADE,
         "sess-cert", log_path, io, make_recording_notify(last), NOW,
     )
 
@@ -363,7 +363,7 @@ def test_review_due_after_clock_advance_and_failed_probe_lapses_and_blocks_depen
     student = SimulatedStudent(true_theta={skill_id: 0.8}, rng=random.Random(7))
     io = SimulatedStudentInputSource(student, numeric_bank, last, max_items=20)
     summary1 = session.run_session(
-        store, engine_state, content, numeric_bank, student_id, "CA", UNMAPPED_GRADE,
+        store, engine_state, content, numeric_bank, student_id, "CA", "ONTARIO", UNMAPPED_GRADE,
         "sess-1", log_path, io, make_recording_notify(last), NOW,
     )
     certified_state = store.peek(student_id, skill_id)
@@ -377,7 +377,7 @@ def test_review_due_after_clock_advance_and_failed_probe_lapses_and_blocks_depen
     now2 = NOW + timedelta(days=8)
     io2 = OneWrongThenQuitInputSource(wrong_value="999999/1000003")
     summary2 = session.run_session(
-        store, summary1.engine_state, content, numeric_bank, student_id, "CA", UNMAPPED_GRADE,
+        store, summary1.engine_state, content, numeric_bank, student_id, "CA", "ONTARIO", UNMAPPED_GRADE,
         "sess-2", log_path, io2, lambda _t: None, now2,
     )
     assert summary2.items_served == 1
@@ -442,7 +442,7 @@ def test_misconception_habit_triggers_remediation_then_clears(
     io = SimulatedStudentInputSource(student, family_bank, last, max_items=40)
 
     session.run_session(
-        store, engine_state, content, family_bank, student_id, "CA", UNMAPPED_GRADE,
+        store, engine_state, content, family_bank, student_id, "CA", "ONTARIO", UNMAPPED_GRADE,
         "sess-misc", log_path, io, make_recording_notify(last), NOW,
     )
 
@@ -481,7 +481,7 @@ def test_misconception_habit_triggers_remediation_then_clears(
 def test_placement_strong_and_weak_students_reach_different_frontiers(
     tmp_path: Path, content: engine.ContentIndex, bank: engine.BankIndex
 ) -> None:
-    country, grade = "CA", 4  # CA grade 4 mappings: FRAC.UNIT, FRAC.PARTWHOLE, FRAC.CMP (easy)
+    country, curriculum, grade = "CA", "ONTARIO", 4  # CA grade 4 mappings: FRAC.UNIT, FRAC.PARTWHOLE, FRAC.CMP (easy)
 
     def run(label: str, true_theta: float, seed: int) -> Dict[str, SkillState]:
         student_id = f"stu-placement-{label}"
@@ -492,7 +492,7 @@ def test_placement_strong_and_weak_students_reach_different_frontiers(
         student = SimulatedStudent(default_true_theta=true_theta, rng=random.Random(seed))
         io = SimulatedStudentInputSource(student, bank, last, max_items=60)
         session.run_session(
-            store, engine_state, content, bank, student_id, country, grade,
+            store, engine_state, content, bank, student_id, country, curriculum, grade,
             f"sess-placement-{label}", log_path, io, make_recording_notify(last), NOW,
         )
         return store.records_for(student_id)
@@ -538,7 +538,7 @@ def test_replay_equivalence_at_scale_matches_live_store_and_engine_state(
     io = SimulatedStudentInputSource(student, bank, last, max_items=150)
 
     live_summary = session.run_session(
-        store, engine_state, content, bank, student_id, "CA", 4,
+        store, engine_state, content, bank, student_id, "CA", "ONTARIO", 4,
         "sess-replay-scale", log_path, io, make_recording_notify(last), NOW,
     )
     assert live_summary.items_served == 150
@@ -631,7 +631,7 @@ def test_facade_routed_session_matches_direct_engine_path_outcomes(
     facade_student = SimulatedStudent(default_true_theta=0.5, rng=random.Random(seed))
     io = SimulatedStudentInputSource(facade_student, skill_bank, last, max_items=max_items)
     facade_summary = session.run_session(
-        facade_store, _bypass_placement(), content, skill_bank, "stu-facade", "CA", UNMAPPED_GRADE,
+        facade_store, _bypass_placement(), content, skill_bank, "stu-facade", "CA", "ONTARIO", UNMAPPED_GRADE,
         "sess-facade", tmp_path / "facade.jsonl", io, make_recording_notify(last), NOW,
     )
     assert facade_summary.items_served == max_items
@@ -642,7 +642,7 @@ def test_facade_routed_session_matches_direct_engine_path_outcomes(
     direct_student = SimulatedStudent(default_true_theta=0.5, rng=random.Random(seed))
     for i in range(max_items):
         result = engine.select_next(
-            direct_store, direct_engine_state, content, skill_bank, "stu-direct", "CA", UNMAPPED_GRADE, NOW
+            direct_store, direct_engine_state, content, skill_bank, "stu-direct", "CA", "ONTARIO", UNMAPPED_GRADE, NOW
         )
         direct_engine_state = result.engine_state
         serve = result.serve

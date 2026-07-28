@@ -27,7 +27,10 @@ def _load_schema(name: str) -> dict:
     return json.loads((SCHEMAS_DIR / name).read_text(encoding="utf-8"))
 
 
-@pytest.fixture(params=sorted(FIXTURE_DIR.glob("*.yaml")), ids=lambda p: p.name)
+@pytest.fixture(
+    params=sorted(p for p in FIXTURE_DIR.glob("*.yaml") if p.name != "manifest.yaml"),
+    ids=lambda p: p.name,
+)
 def content_file(request) -> Path:
     return request.param
 
@@ -47,7 +50,9 @@ def test_fixture_objects_validate(content_file: Path) -> None:
 
 
 def test_schemas_are_valid_json_schema() -> None:
-    for schema_path in sorted(SCHEMAS_DIR.glob("*.schema.json")):
+    # U11: schemas/api/ (the MCP tool response schemas, R15) is checked
+    # alongside the top-level content schemas — recursive glob covers both.
+    for schema_path in sorted(SCHEMAS_DIR.glob("**/*.schema.json")):
         schema = json.loads(schema_path.read_text(encoding="utf-8"))
         jsonschema.Draft202012Validator.check_schema(schema)
 

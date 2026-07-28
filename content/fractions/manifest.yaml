@@ -1,0 +1,9 @@
+# KTD9: content-pack manifest. `content_version` is stamped on every
+# catalog/graph/recommendation response that reads this pack (R15) — it is
+# a separate axis from `graph_version` (per-template/instance, bank_build.py)
+# and from `bank_version` (a whole built bank). Bump `content_version`
+# whenever this pack's skills/misconceptions/mappings content changes in a
+# way a consumer should be able to observe (new/changed skill nodes,
+# mapping rows, misconceptions) — not on every commit.
+pack: fractions
+content_version: "1.0.0"

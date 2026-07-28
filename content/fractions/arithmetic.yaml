@@ -110,6 +110,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.PLACE-FACE-VALUE.v1"
     parent_summary_i18n:
       en-IN: "{{name}} reads each digit on its own and doesn't yet use what the digit is worth in its place — the 4 in 47 stands for 40, not 4."
+    child_feedback_i18n:
+      en-IN: "You read the 4 in 47 as just '4', but its place changes its value. In the tens place, that 4 is really worth 40."
 
   - misconception_id: MISC.NUM.ZERO-PLACEHOLDER
     belief: "Zero in the middle of a number can be skipped when writing it"
@@ -118,6 +120,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.ZERO-PLACEHOLDER.v1"
     parent_summary_i18n:
       en-IN: "{{name}} sometimes drops the zero when writing numbers like 305, not yet seeing that the zero holds the tens place."
+    child_feedback_i18n:
+      en-IN: "You left out the zero, but every place needs a digit. 'Three hundred five' has nothing in the tens place, so it needs a 0 there — that's 305, not 35."
 
   - misconception_id: MISC.NUM.FIRST-DIGIT-CMP
     belief: "The number whose first digit is bigger is the bigger number"
@@ -126,6 +130,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.FIRST-DIGIT-CMP.v1"
     parent_summary_i18n:
       en-IN: "{{name}} compares numbers by their first digits without first checking how many digits each number has."
+    child_feedback_i18n:
+      en-IN: "You compared 91 and 234 by their first digits, but 234 has three digits and 91 only has two. A number with more digits is bigger, so check the number of digits before comparing digit by digit."
 
   - misconception_id: MISC.NUM.SUB-SMALLER-FROM-LARGER
     belief: "In each column, always take the smaller digit away from the larger one"
@@ -134,6 +140,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.SUB-SMALLER-FROM-LARGER.v1"
     parent_summary_i18n:
       en-IN: "{{name}} subtracts the smaller digit from the larger one in each column, instead of borrowing when the top digit is smaller."
+    child_feedback_i18n:
+      en-IN: "In the ones column you took 2 away from 8 instead of borrowing, since 2 was the smaller digit on top. When the top digit is smaller than the one you're subtracting, borrow a ten from the next column first."
 
   - misconception_id: MISC.NUM.ADD-NO-CARRY
     belief: "Write the whole column sum down; nothing moves to the next column"
@@ -142,6 +150,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.ADD-NO-CARRY.v1"
     parent_summary_i18n:
       en-IN: "{{name}} adds each column correctly but writes the full sum in place, instead of carrying tens over to the next column."
+    child_feedback_i18n:
+      en-IN: "You wrote the whole ones-column sum (15) straight down instead of carrying. When a column adds to 10 or more, write down just the ones digit and carry the tens digit over to the next column."
 
   - misconception_id: MISC.NUM.DIV-REMAINDER-DROPPED
     belief: "The answer to a division is just the quotient; anything left over can be ignored"
@@ -150,6 +160,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.DIV-REMAINDER-DROPPED.v1"
     parent_summary_i18n:
       en-IN: "{{name}} divides correctly but tends to ignore the remainder, even when the question depends on what is left over."
+    child_feedback_i18n:
+      en-IN: "You found the quotient but dropped the remainder. Check what the question is actually asking — sometimes the leftover amount is exactly the answer it wants."
 
   - misconception_id: MISC.NUM.ROUND-TRUNCATE
     belief: "Rounding means cutting the number off at the place asked for"
@@ -158,6 +170,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.ROUND-TRUNCATE.v1"
     parent_summary_i18n:
       en-IN: "{{name}} rounds numbers by simply chopping off digits, always rounding down instead of checking which ten (or hundred) is nearer."
+    child_feedback_i18n:
+      en-IN: "You rounded 78 down to 70 by chopping off the last digit. Rounding means checking which ten is nearer — 78 is closer to 80, so it should round up, not down."
 
   - misconception_id: MISC.NUM.DIV-SMALLER-BY-LARGER
     belief: "You cannot divide a smaller number by a larger one"
@@ -166,6 +180,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.NUM.DIV-SMALLER-BY-LARGER.v1"
     parent_summary_i18n:
       en-IN: "{{name}} believes a smaller number can't be divided by a bigger one, and flips the numbers around when a problem needs it."
+    child_feedback_i18n:
+      en-IN: "You said it couldn't be done because 3 is smaller than 4, but a smaller number can always be divided by a larger one — sharing 3 rotis among 4 people just means each person gets less than one whole roti."
 
 # IN/NCERT mapping rows drafted in the same run (new-NCERT series:
 # Joyful Mathematics 1-2, Maths Mela 3-5, Ganita Prakash 6).
@@ -196,6 +212,8 @@ mappings:
     grade: 4
     depth_expectation: medium
     syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 4"
+    unit_code: "IN-NCERT-G4-CH4"
+    unit_name: "Class 4, Ch. 4"
     learning_objective: >
       Reads and writes numbers up to 10,000 using place value; expresses
       numbers in expanded form.
@@ -207,6 +225,8 @@ mappings:
     grade: 6
     depth_expectation: hard
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 3"
+    unit_code: "IN-NCERT-G6-CH3"
+    unit_name: "Class 6, Ch. 3"
     learning_objective: >
       Revisits place value through digit games and puzzles (digit sums,
       palindromic numbers, Kaprekar routine); arranges digits to make
@@ -232,6 +252,8 @@ mappings:
     grade: 4
     depth_expectation: medium
     syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 4"
+    unit_code: "IN-NCERT-G4-CH4"
+    unit_name: "Class 4, Ch. 4"
     learning_objective: >
       Compares and orders numbers up to 10,000 using place value.
     exam_contexts: [SCHOOL_EXAM]
@@ -284,6 +306,8 @@ mappings:
     grade: 4
     depth_expectation: medium
     syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 9"
+    unit_code: "IN-NCERT-G4-CH9"
+    unit_name: "Class 4, Ch. 9"
     learning_objective: >
       Recalls multiplication facts up to 10 x 10.
     exam_contexts: [SCHOOL_EXAM]
@@ -294,6 +318,8 @@ mappings:
     grade: 4
     depth_expectation: easy
     syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 9"
+    unit_code: "IN-NCERT-G4-CH9"
+    unit_name: "Class 4, Ch. 9"
     learning_objective: >
       Multiplies two-digit numbers by one-digit numbers.
     exam_contexts: [SCHOOL_EXAM]
@@ -314,6 +340,8 @@ mappings:
     grade: 4
     depth_expectation: easy
     syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 9"
+    unit_code: "IN-NCERT-G4-CH9"
+    unit_name: "Class 4, Ch. 9"
     learning_objective: >
       Divides with remainders using equal grouping and sharing.
     exam_contexts: [SCHOOL_EXAM]
@@ -345,6 +373,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 3"
+    unit_code: "IN-NCERT-G6-CH3"
+    unit_name: "Class 6, Ch. 3"
     learning_objective: >
       Estimates quantities and results of operations, judging the
       reasonableness of an answer.

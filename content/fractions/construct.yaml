@@ -39,6 +39,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.GEO.RADIUS-DIAMETER-SWAP.v1"
     parent_summary_i18n:
       en-IN: "{{name}} mixes up radius and diameter — the radius reaches from the centre to the circle, and the diameter goes all the way across."
+    child_feedback_i18n:
+      en-IN: "You set the compass to 8 cm, the diameter, instead of the radius. The radius goes from the centre to the edge; the diameter goes all the way across, so it's always twice the radius."
 
   - misconception_id: MISC.GEO.CENTRE-ON-CIRCLE
     belief: "The centre is part of the circle"
@@ -47,6 +49,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.GEO.CENTRE-ON-CIRCLE.v1"
     parent_summary_i18n:
       en-IN: "{{name}} counts the centre as lying on the circle — the circle is only the ring of points at the same distance from the centre."
+    child_feedback_i18n:
+      en-IN: "You counted the centre as a point on the circle. But the circle is only the ring of points the same distance from the centre — the centre itself sits inside it, not on it."
 
 # IN/NCERT mapping rows drafted in the same run.
 mappings:
@@ -56,6 +60,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 8"
+    unit_code: "IN-NCERT-G6-CH8"
+    unit_name: "Class 6, Ch. 8"
     learning_objective: >
       Uses a ruler and compass to draw circles of a given radius,
       identifying the centre, radius and diameter.
@@ -67,6 +73,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 8"
+    unit_code: "IN-NCERT-G6-CH8"
+    unit_name: "Class 6, Ch. 8"
     learning_objective: >
       Constructs squares and rectangles of given side lengths; creates
       and reasons about figures and curve-based art built from circles

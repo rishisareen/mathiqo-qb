@@ -69,6 +69,7 @@ def make_event(**overrides) -> dict:
         n_before=0.0,
     )
     defaults.update(overrides)
+    defaults.setdefault("attempt_id", f"attempt-{defaults['event_id']}")
     return defaults
 
 

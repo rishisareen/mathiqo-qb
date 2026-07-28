@@ -1,0 +1,42 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/api/catalog-units.schema.json",
+  "title": "MCP list_units Response",
+  "description": "Serving-integrity contract U11/R15: `tools/mcp_server.py`'s `list_units` tool response, built by `_serialize_units`. U7/R1/R2/KTD10: the chapter/unit list for one (country, curriculum, grade) scope, built from the mapping layer's unit_code/unit_name (never from parsing syllabus_ref). has_units is false for a unit-less curriculum or an uncovered scope, in which case skill_ids carries the grade's mapped skills directly instead (orchestrator/catalog.py's UnitsResult, plan point 6: unknown scope is a result, not an error).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["content_version", "country", "curriculum", "grade", "has_units", "units", "skill_ids"],
+  "properties": {
+    "content_version": { "type": "string", "minLength": 1 },
+    "country": { "type": "string", "minLength": 1 },
+    "curriculum": { "type": "string", "minLength": 1 },
+    "grade": { "type": "integer", "minimum": 1 },
+    "has_units": {
+      "type": "boolean",
+      "description": "False for a unit-less curriculum (e.g. Ontario in the shipped fixture) or a scope with no mapped skills at all."
+    },
+    "units": {
+      "type": "array",
+      "description": "Populated only when has_units is true.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["unit_code", "unit_name", "skill_ids"],
+        "properties": {
+          "unit_code": { "type": "string", "minLength": 1 },
+          "unit_name": { "type": ["string", "null"] },
+          "skill_ids": {
+            "type": "array",
+            "description": "Sorted.",
+            "items": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "skill_ids": {
+      "type": "array",
+      "description": "This grade's mapped skills directly; populated only when has_units is false.",
+      "items": { "type": "string", "minLength": 1 }
+    }
+  }
+}

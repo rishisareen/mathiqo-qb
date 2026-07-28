@@ -90,6 +90,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.GEO.ROTATED-NOT-SAME.v1"
     parent_summary_i18n:
       en-IN: "{{name}} stops recognising a shape when it is rotated — a square on its corner is still a square."
+    child_feedback_i18n:
+      en-IN: "Turning the square didn't change what it is — it's still a square, just facing a different way. A shape's name depends on its sides and angles, not which way it's pointing."
 
   - misconception_id: MISC.GEO.ANGLE-ARM-LENGTH
     belief: "Longer arms make a bigger angle"
@@ -98,6 +100,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.GEO.ANGLE-ARM-LENGTH.v1"
     parent_summary_i18n:
       en-IN: "{{name}} judges an angle by how long its arms are drawn, rather than by how much turn there is between them."
+    child_feedback_i18n:
+      en-IN: "You judged the angle by how long its arms were drawn, but an angle is about how far apart the arms have turned, not how long they are. Try tracing the turn between the arms instead of comparing their length."
 
   - misconception_id: MISC.GEO.RIGHT-ANGLE-UPRIGHT
     belief: "A right angle must stand upright (one arm flat, one arm vertical)"
@@ -106,6 +110,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.GEO.RIGHT-ANGLE-UPRIGHT.v1"
     parent_summary_i18n:
       en-IN: "{{name}} only recognises right angles that sit upright like a wall and floor — a tilted corner of 90 degrees is still a right angle."
+    child_feedback_i18n:
+      en-IN: "You only counted the angle as a right angle when it looked upright like a wall meeting a floor. A right angle is still 90 degrees no matter which way it's tilted — check the corner with a square edge to be sure."
 
   - misconception_id: MISC.GEO.PROTRACTOR-WRONG-SCALE
     belief: "Read whichever protractor scale the arm points at"
@@ -114,6 +120,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.GEO.PROTRACTOR-WRONG-SCALE.v1"
     parent_summary_i18n:
       en-IN: "{{name}} sometimes reads the wrong scale on the protractor, getting 120 degrees for an angle that is clearly less than a right angle — estimating first helps catch this."
+    child_feedback_i18n:
+      en-IN: "You read the outer scale instead of the inner one, which gave 120 degrees for an angle that's clearly smaller than a right angle. Estimate first — acute, right, or obtuse — so you know which scale to trust."
 
   - misconception_id: MISC.GEO.LINE-SEGMENT-SAME
     belief: "A line and a line segment are the same thing"
@@ -122,6 +130,8 @@ misconceptions:
     remediation_asset: "micro-explainers/MISC.GEO.LINE-SEGMENT-SAME.v1"
     parent_summary_i18n:
       en-IN: "{{name}} uses 'line' and 'line segment' interchangeably — a segment has two endpoints, while a line extends without end in both directions."
+    child_feedback_i18n:
+      en-IN: "You said the segment 'goes on forever', but a line segment has two fixed endpoints — it stops at both ends. It's a line, not a segment, that extends without end in both directions."
 
 # IN/NCERT mapping rows drafted in the same run.
 mappings:
@@ -143,6 +153,8 @@ mappings:
     grade: 4
     depth_expectation: easy
     syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 1"
+    unit_code: "IN-NCERT-G4-CH1"
+    unit_name: "Class 4, Ch. 1"
     learning_objective: >
       Describes 2-D shapes by their sides and corners; distinguishes
       squares, rectangles, triangles and circles by their properties.
@@ -154,6 +166,8 @@ mappings:
     grade: 5
     depth_expectation: easy
     syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 3"
+    unit_code: "IN-NCERT-G5-CH3"
+    unit_name: "Class 5, Ch. 3"
     learning_objective: >
       Understands an angle as an amount of turn; identifies right angles
       and classifies angles as more or less than a right angle by
@@ -169,6 +183,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 2"
+    unit_code: "IN-NCERT-G6-CH2"
+    unit_name: "Class 6, Ch. 2"
     learning_objective: >
       Understands an angle as formed by two rays from a common vertex;
       compares angles.
@@ -180,6 +196,8 @@ mappings:
     grade: 6
     depth_expectation: easy
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 2"
+    unit_code: "IN-NCERT-G6-CH2"
+    unit_name: "Class 6, Ch. 2"
     learning_objective: >
       Identifies and names points, line segments, rays and lines.
     exam_contexts: [SCHOOL_EXAM]
@@ -190,6 +208,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 2"
+    unit_code: "IN-NCERT-G6-CH2"
+    unit_name: "Class 6, Ch. 2"
     learning_objective: >
       Classifies angles as acute, right, obtuse, straight and reflex.
     exam_contexts: [SCHOOL_EXAM]
@@ -200,6 +220,8 @@ mappings:
     grade: 6
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 2"
+    unit_code: "IN-NCERT-G6-CH2"
+    unit_name: "Class 6, Ch. 2"
     learning_objective: >
       Measures angles in degrees using a protractor and draws an angle of
       a given measure.
