@@ -586,6 +586,7 @@ def run_session(
     bank: engine.BankIndex,
     student_id: str,
     country: str,
+    curriculum: str,
     grade: int,
     session_id: str,
     log_path: Path,
@@ -654,7 +655,7 @@ def run_session(
 
     while True:
         select_result = engine.select_next(
-            store, engine_state, content, bank, student_id, country, grade, now,
+            store, engine_state, content, bank, student_id, country, curriculum, grade, now,
             candidates_for_skill=_candidates_for_skill,
         )
         engine_state = select_result.engine_state

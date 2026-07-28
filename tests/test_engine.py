@@ -31,7 +31,7 @@ from pathlib import Path
 
 import pytest
 
-from conftest import _bypass_placement, find_tagged_instance
+from conftest import _bypass_placement, find_tagged_instance, load_yaml, write_yaml
 from orchestrator import constants, engine
 from orchestrator.certification import apply_review_outcome, maybe_certify
 from orchestrator.log import append_attempt
@@ -137,16 +137,86 @@ def test_load_content_parses_misconception_remediation_targets(content: engine.C
     assert entry.remediation_target == "FRAC.EQUIV"
 
 
-def test_load_content_indexes_mappings_by_skill_country_grade(content: engine.ContentIndex) -> None:
-    row = content.mappings[("FRAC.ADD.UNLIKE", "IN", 6)]
+def test_load_content_indexes_mappings_by_skill_country_curriculum_grade(content: engine.ContentIndex) -> None:
+    row = content.mappings[("FRAC.ADD.UNLIKE", "IN", "NCERT", 6)]
     assert row.depth_expectation == "medium"
-    assert content.mappings.get(("NUM.MULT.TABLES", "CA", 4)) is None  # never mapped anywhere
+    assert content.mappings.get(("NUM.MULT.TABLES", "CA", "ONTARIO", 4)) is None  # never mapped anywhere
 
 
 def test_load_content_groups_grade_mapped_skills(content: engine.ContentIndex) -> None:
-    assert content.mapped_skills_by_country_grade[("CA", 4)] == sorted(
+    assert content.mapped_skills_by_country_curriculum_grade[("CA", "ONTARIO", 4)] == sorted(
         ["FRAC.UNIT", "FRAC.PARTWHOLE", "FRAC.CMP"]
     )
+
+
+def test_load_content_mapping_row_surfaces_learning_objective_and_terminology_overrides(
+    content: engine.ContentIndex,
+) -> None:
+    """KTD10/U1: `learning_objective` and `terminology_overrides` are read
+    from YAML by `_load_yaml_list` but were previously dropped when
+    `MappingRow` was constructed — this is the migrated FRAC.ADD.UNLIKE/IN/
+    NCERT/6 row (content/fractions/mappings.yaml), which carries both."""
+    row = content.mappings[("FRAC.ADD.UNLIKE", "IN", "NCERT", 6)]
+    assert row.learning_objective is not None and "unlike denominators" in row.learning_objective
+    assert row.terminology_overrides == {"simplest form": "lowest form"}
+
+
+def test_load_content_mapping_row_surfaces_structured_unit_fields(content: engine.ContentIndex) -> None:
+    """KTD10: a migrated NCERT row carries a structured unit_code/unit_name
+    derived from its syllabus_ref's chapter reference."""
+    row = content.mappings[("FRAC.ADD.UNLIKE", "IN", "NCERT", 6)]
+    assert row.unit_code == "IN-NCERT-G6-CH7"
+    assert row.unit_name == "Class 6, Ch. 7"
+
+
+def test_load_content_mapping_row_unit_fields_absent_for_unitless_curriculum(
+    content: engine.ContentIndex,
+) -> None:
+    """Ontario has no chapter granularity (KTD10) — its rows load with both
+    unit fields absent (None), not defaulted to empty strings or omitted
+    from the dataclass."""
+    row = content.mappings[("FRAC.UNIT", "CA", "ONTARIO", 4)]
+    assert row.unit_code is None
+    assert row.unit_name is None
+
+
+def test_load_content_two_curricula_in_same_country_grade_resolve_independently(
+    fixture_copy: Path,
+) -> None:
+    """KTD10/U1 re-keying: mappings/mapped_skills indexes key on (country,
+    curriculum, grade), not (country, grade) — two curricula sharing one
+    country+grade must not collide. The shipped fixture has no such overlap
+    (IN only carries NCERT, CA only ONTARIO), so this test adds a second
+    curriculum row for IN grade 6 (a synthetic CBSE row on top of the real
+    NCERT one) directly to a fixture copy and confirms both resolve without
+    clobbering each other."""
+    from orchestrator import engine as engine_module
+
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    data["mappings"].append(
+        {
+            "skill_id": "FRAC.ADD.UNLIKE",
+            "country": "IN",
+            "curriculum": "CBSE",
+            "grade": 6,
+            "depth_expectation": "hard",
+            "syllabus_ref": "Class 6, Maths, Ch. 9 (CBSE fixture)",
+            "learning_objective": "Adds and subtracts fractions with unlike denominators (CBSE phrasing).",
+        }
+    )
+    write_yaml(mappings_path, data)
+
+    content_index = engine_module.load_content(fixture_copy)
+    ncert_row = content_index.mappings[("FRAC.ADD.UNLIKE", "IN", "NCERT", 6)]
+    cbse_row = content_index.mappings[("FRAC.ADD.UNLIKE", "IN", "CBSE", 6)]
+    assert ncert_row.depth_expectation == "medium"
+    assert cbse_row.depth_expectation == "hard"
+    # IN/NCERT/6 has many other real fixture rows besides FRAC.ADD.UNLIKE
+    # (membership, not exact-list equality); IN/CBSE/6 is the synthetic
+    # curriculum this test just added, so it has exactly the one row.
+    assert "FRAC.ADD.UNLIKE" in content_index.mapped_skills_by_country_curriculum_grade[("IN", "NCERT", 6)]
+    assert content_index.mapped_skills_by_country_curriculum_grade[("IN", "CBSE", 6)] == ["FRAC.ADD.UNLIKE"]
 
 
 def test_load_bank_indexes_single_skill_instances_only(bank: engine.BankIndex) -> None:
@@ -179,15 +249,15 @@ def test_placement_prior_defaults_to_easy_when_unmapped() -> None:
 
 def test_starting_depth_uses_default_for_a_skill_with_no_mapping_row(content: engine.ContentIndex) -> None:
     """NUM.MULT.TABLES has zero mapping rows anywhere in the fixture."""
-    assert engine.starting_depth_for("NUM.MULT.TABLES", "CA", 4, content) == constants.TIER_DEPTH["easy"]
+    assert engine.starting_depth_for("NUM.MULT.TABLES", "CA", "ONTARIO", 4, content) == constants.TIER_DEPTH["easy"]
 
 
 def test_serving_ceiling_reads_the_mapped_tier(content: engine.ContentIndex) -> None:
-    assert engine.serving_ceiling("FRAC.ADD.UNLIKE", "IN", 6, content) == constants.TIER_DEPTH["medium"]
+    assert engine.serving_ceiling("FRAC.ADD.UNLIKE", "IN", "NCERT", 6, content) == constants.TIER_DEPTH["medium"]
 
 
 def test_serving_ceiling_defaults_to_top_tier_without_a_mapping_row(content: engine.ContentIndex) -> None:
-    assert engine.serving_ceiling("NUM.MULT.TABLES", "CA", 4, content) == constants.TIER_DEPTH["hard"]
+    assert engine.serving_ceiling("NUM.MULT.TABLES", "CA", "ONTARIO", 4, content) == constants.TIER_DEPTH["hard"]
 
 
 def test_target_depth_adds_challenge_offset_capped_by_ceiling() -> None:
@@ -338,14 +408,14 @@ def test_remediation_dose_completes_then_a_fresh_pair_is_required_to_retrigger(
     assert len(engine_state.remediation_queue) == 1
 
     # select_next must now serve the dose ahead of everything else.
-    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", 6, NOW)
+    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
     engine_state = result.engine_state
     assert result.serve.reason == "remediation"
     assert result.serve.skill_id == "FRAC.EQUIV"
 
     # Run the dose to completion (REMEDIATION_DOSE_SIZE attempts on FRAC.EQUIV).
     for _ in range(constants.REMEDIATION_DOSE_SIZE):
-        result = engine.select_next(store, engine_state, content, bank, student_id, "CA", 6, NOW)
+        result = engine.select_next(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
         assert result.serve.reason == "remediation"
         engine_state, _ = run_attempt(store, engine_state, content, bank, student_id, result.serve, True)
 
@@ -378,7 +448,7 @@ def test_untagged_deep_wrong_queues_a_stepdown_probe_at_the_easier_depth(
     assert probe.skill_id == "FRAC.ADD.UNLIKE"
     assert probe.target_depth == pytest.approx(0.2)
 
-    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", 6, NOW)
+    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
     assert result.serve.reason == "stepdown"
     assert result.serve.skill_id == "FRAC.ADD.UNLIKE"
     assert result.serve.context == "probe"
@@ -394,7 +464,7 @@ def test_stepdown_probe_pass_continues_practice_no_prereq_walk(
     deep_serve = make_serve(bank, "FRAC.ADD.UNLIKE", 0.5, "practice", "test")
     engine_state, _ = run_attempt(store, engine_state, content, bank, student_id, deep_serve, False, "no-match")
 
-    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", 6, NOW)
+    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
     engine_state, _ = run_attempt(store, engine_state, content, bank, student_id, result.serve, True)
 
     assert engine_state.stepdown_queue == []
@@ -410,7 +480,7 @@ def test_stepdown_probe_fail_falls_back_to_prerequisite_walk(
     deep_serve = make_serve(bank, "FRAC.ADD.UNLIKE", 0.5, "practice", "test")
     engine_state, _ = run_attempt(store, engine_state, content, bank, student_id, deep_serve, False, "no-match")
 
-    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", 6, NOW)
+    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
     engine_state, _ = run_attempt(store, engine_state, content, bank, student_id, result.serve, False, "no-match")
 
     assert engine_state.stepdown_queue == []
@@ -442,7 +512,7 @@ def test_prereq_probe_is_consumed_once_served(content: engine.ContentIndex, bank
     engine_state, _ = run_attempt(store, engine_state, content, bank, student_id, only_serve, False, "no-match")
     assert len(engine_state.prereq_probe_queue) == 2
 
-    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", 6, NOW)
+    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
     assert result.serve.reason == "prereq_probe"
     engine_state, _ = run_attempt(store, engine_state, content, bank, student_id, result.serve, True)
     assert len(engine_state.prereq_probe_queue) == 1
@@ -646,7 +716,7 @@ def test_fresh_student_placement_starts_at_grade_mapped_frontier_skill(
     own easy mapping, floored at easy)."""
     store = StudentModelStore()
     engine_state = engine.EngineState()
-    result = engine.select_next(store, engine_state, content, bank, "stu-fresh", "CA", 4, NOW)
+    result = engine.select_next(store, engine_state, content, bank, "stu-fresh", "CA", "ONTARIO", 4, NOW)
     assert result.serve.reason == "placement"
     assert result.serve.skill_id == "FRAC.UNIT"
     assert result.serve.difficulty == pytest.approx(0.2)
@@ -667,7 +737,7 @@ def _mini_bank(bank_index: engine.BankIndex, skill_id: str) -> engine.BankIndex:
 def test_frontier_practice_blocked_while_prerequisite_uncertified(content: engine.ContentIndex, bank: engine.BankIndex) -> None:
     store = StudentModelStore()  # FRAC.EQUIV starts uncertified
     mini = _mini_bank(bank, "FRAC.CMP")
-    result = engine.select_next(store, _bypass_placement(), content, mini, "stu1", "CA", 6, NOW)
+    result = engine.select_next(store, _bypass_placement(), content, mini, "stu1", "CA", "ONTARIO", 6, NOW)
     assert result.serve is None
 
 
@@ -678,7 +748,7 @@ def test_frontier_practice_allowed_while_prerequisite_due(content: engine.Conten
         "stu1", {"FRAC.EQUIV": SkillState(certified_depth=0.5, review_due=NOW - timedelta(days=1))}
     )
     mini = _mini_bank(bank, "FRAC.CMP")
-    result = engine.select_next(store, _bypass_placement(), content, mini, "stu1", "CA", 6, NOW)
+    result = engine.select_next(store, _bypass_placement(), content, mini, "stu1", "CA", "ONTARIO", 6, NOW)
     assert result.serve is not None
     assert result.serve.skill_id == "FRAC.CMP"
 
@@ -690,7 +760,7 @@ def test_frontier_practice_blocked_while_prerequisite_lapsed(content: engine.Con
         {"FRAC.EQUIV": SkillState(certified_depth=0.5, review_due=NOW - timedelta(days=1), lapsed=True)},
     )
     mini = _mini_bank(bank, "FRAC.CMP")
-    result = engine.select_next(store, _bypass_placement(), content, mini, "stu1", "CA", 6, NOW)
+    result = engine.select_next(store, _bypass_placement(), content, mini, "stu1", "CA", "ONTARIO", 6, NOW)
     assert result.serve is None
 
 
@@ -708,7 +778,7 @@ def test_frontier_practice_reoffers_a_skill_lapsed_at_ceiling_depth(
     store = StudentModelStore()  # FRAC.UNIT/CA/4 ceiling is easy-tier (0.2), no prerequisites
     store.replace_records("stu1", {"FRAC.UNIT": SkillState(certified_depth=0.2, n=5.0, lapsed=True)})
     mini = _mini_bank(bank, "FRAC.UNIT")
-    result = engine.select_next(store, _bypass_placement(), content, mini, "stu1", "CA", 4, NOW)
+    result = engine.select_next(store, _bypass_placement(), content, mini, "stu1", "CA", "ONTARIO", 4, NOW)
     assert result.serve is not None
     assert result.serve.skill_id == "FRAC.UNIT"
     assert result.serve.reason == "frontier"
@@ -723,7 +793,7 @@ def test_frontier_practice_skips_a_certified_non_lapsed_skill_at_ceiling(
     store = StudentModelStore()
     store.replace_records("stu1", {"FRAC.UNIT": SkillState(certified_depth=0.2, n=5.0, lapsed=False)})
     mini = _mini_bank(bank, "FRAC.UNIT")
-    result = engine.select_next(store, _bypass_placement(), content, mini, "stu1", "CA", 4, NOW)
+    result = engine.select_next(store, _bypass_placement(), content, mini, "stu1", "CA", "ONTARIO", 4, NOW)
     assert result.serve is None
 
 
@@ -745,7 +815,7 @@ def test_due_review_is_served_before_everything_else(content: engine.ContentInde
     engine_state.stepdown_queue.append(engine.StepDownProbe(skill_id="FRAC.ADD.UNLIKE", target_depth=0.2))
     engine_state.prereq_probe_queue.append(engine.PrereqProbe(skill_id="FRAC.UNIT", trigger_skill_id="FRAC.PARTWHOLE"))
 
-    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", 6, NOW)
+    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
     assert result.serve.reason == "review"
     assert result.serve.skill_id == "FRAC.ADD.LIKE"
     assert result.serve.context == "review"
@@ -762,7 +832,7 @@ def test_remediation_outranks_stepdown_and_prereq_probes(content: engine.Content
     engine_state.stepdown_queue.append(engine.StepDownProbe(skill_id="FRAC.ADD.UNLIKE", target_depth=0.2))
     engine_state.prereq_probe_queue.append(engine.PrereqProbe(skill_id="FRAC.UNIT", trigger_skill_id="FRAC.PARTWHOLE"))
 
-    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", 6, NOW)
+    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
     assert result.serve.reason == "remediation"
     assert result.serve.skill_id == "FRAC.EQUIV"
 
@@ -774,7 +844,7 @@ def test_stepdown_outranks_prereq_probes(content: engine.ContentIndex, bank: eng
     engine_state.stepdown_queue.append(engine.StepDownProbe(skill_id="FRAC.ADD.UNLIKE", target_depth=0.2))
     engine_state.prereq_probe_queue.append(engine.PrereqProbe(skill_id="FRAC.UNIT", trigger_skill_id="FRAC.PARTWHOLE"))
 
-    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", 6, NOW)
+    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
     assert result.serve.reason == "stepdown"
 
 
@@ -784,7 +854,7 @@ def test_prereq_probes_outrank_placement(content: engine.ContentIndex, bank: eng
     engine_state = engine.EngineState()  # placement NOT bypassed this time
     engine_state.prereq_probe_queue.append(engine.PrereqProbe(skill_id="FRAC.UNIT", trigger_skill_id="FRAC.PARTWHOLE"))
 
-    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", 6, NOW)
+    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
     assert result.serve.reason == "prereq_probe"
     assert result.serve.skill_id == "FRAC.UNIT"
 
@@ -807,7 +877,7 @@ def test_due_review_falls_through_to_next_priority_when_no_candidates(
     )
     mini = _mini_bank(bank, "FRAC.EQUIV")  # FRAC.ADD.LIKE (the due skill) has zero instances here
 
-    result = engine.select_next(store, engine_state, content, mini, student_id, "CA", 6, NOW)
+    result = engine.select_next(store, engine_state, content, mini, student_id, "CA", "ONTARIO", 6, NOW)
     assert result.serve is not None
     assert result.serve.reason == "remediation"
     assert result.serve.skill_id == "FRAC.EQUIV"
@@ -832,13 +902,13 @@ def test_select_next_repeats_are_avoided_then_warn_on_exhaustion(content: engine
 
     served_ids = []
     for _ in range(2):
-        result = engine.select_next(store, engine_state, content, mini, student_id, "CA", 4, NOW)
+        result = engine.select_next(store, engine_state, content, mini, student_id, "CA", "ONTARIO", 4, NOW)
         assert result.warnings == []
         served_ids.append(result.serve.item_instance_id)
         engine_state = result.engine_state
     assert len(set(served_ids)) == 2  # no repeat while both were unseen
 
-    result = engine.select_next(store, engine_state, content, mini, student_id, "CA", 4, NOW)
+    result = engine.select_next(store, engine_state, content, mini, student_id, "CA", "ONTARIO", 4, NOW)
     assert result.serve.item_instance_id in served_ids  # pool exhausted: must repeat
     assert result.warnings != []
 
@@ -863,7 +933,7 @@ def test_select_next_routes_candidate_pool_reads_through_candidates_for_skill(
         return [only_instance] if skill_id == "FRAC.UNIT" else []
 
     result = engine.select_next(
-        store, engine_state, content, bank, student_id, "CA", 4, NOW, candidates_for_skill=provider
+        store, engine_state, content, bank, student_id, "CA", "ONTARIO", 4, NOW, candidates_for_skill=provider
     )
     assert "FRAC.UNIT" in calls
     assert result.serve is not None
@@ -882,7 +952,7 @@ def test_select_next_copy_on_write_does_not_mutate_callers_engine_state(
     mini = _mini_bank(bank, "FRAC.UNIT")
     store = StudentModelStore()
 
-    result = engine.select_next(store, engine_state, content, mini, "stu1", "CA", 4, NOW)
+    result = engine.select_next(store, engine_state, content, mini, "stu1", "CA", "ONTARIO", 4, NOW)
     served_signature = mini.by_id[result.serve.item_instance_id]["variant_signature"]
 
     assert engine_state.seen_history["FRAC.UNIT"] == ["existing-sig"]  # caller's copy is untouched

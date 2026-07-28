@@ -88,6 +88,10 @@ class MappingRow:
     curriculum: str
     grade: int
     depth_expectation: str
+    learning_objective: Optional[str] = None
+    terminology_overrides: Dict[str, str] = field(default_factory=dict)
+    unit_code: Optional[str] = None  # KTD10: absent for curricula with no chapter granularity (Ontario)
+    unit_name: Optional[str] = None
 
 
 @dataclass(frozen=True)
@@ -98,8 +102,8 @@ class ContentIndex:
     skills: Dict[str, SkillNode]
     dependents: Dict[str, List[str]]  # skill_id -> sorted dependent skill_ids
     misconceptions: Dict[str, MisconceptionEntry]
-    mappings: Dict[Tuple[str, str, int], MappingRow]  # (skill_id, country, grade)
-    mapped_skills_by_country_grade: Dict[Tuple[str, int], List[str]]  # sorted
+    mappings: Dict[Tuple[str, str, str, int], MappingRow]  # (skill_id, country, curriculum, grade)
+    mapped_skills_by_country_curriculum_grade: Dict[Tuple[str, str, int], List[str]]  # sorted
 
 
 def _load_yaml_list(content_dir: Path, key: str) -> List[dict]:
@@ -153,8 +157,8 @@ def load_content(content_dir: Path) -> ContentIndex:
         for m in raw_misc
     }
 
-    mappings: Dict[Tuple[str, str, int], MappingRow] = {}
-    mapped_skills_by_country_grade: Dict[Tuple[str, int], List[str]] = {}
+    mappings: Dict[Tuple[str, str, str, int], MappingRow] = {}
+    mapped_skills_by_country_curriculum_grade: Dict[Tuple[str, str, int], List[str]] = {}
     for m in raw_mappings:
         row = MappingRow(
             skill_id=m["skill_id"],
@@ -162,16 +166,21 @@ def load_content(content_dir: Path) -> ContentIndex:
             curriculum=m["curriculum"],
             grade=int(m["grade"]),
             depth_expectation=m["depth_expectation"],
+            learning_objective=m.get("learning_objective"),
+            terminology_overrides=dict(m.get("terminology_overrides") or {}),
+            unit_code=m.get("unit_code"),
+            unit_name=m.get("unit_name"),
         )
-        # Last-in-file wins on an exact (skill, country, grade) collision —
-        # graph_lint already flags true duplicate mapping rows as an error,
-        # so this only matters for content that hasn't been linted yet.
-        mappings[(row.skill_id, row.country, row.grade)] = row
-        key = (row.country, row.grade)
-        bucket = mapped_skills_by_country_grade.setdefault(key, [])
+        # Last-in-file wins on an exact (skill, country, curriculum, grade)
+        # collision — graph_lint already flags true duplicate mapping rows
+        # as an error, so this only matters for content that hasn't been
+        # linted yet.
+        mappings[(row.skill_id, row.country, row.curriculum, row.grade)] = row
+        key = (row.country, row.curriculum, row.grade)
+        bucket = mapped_skills_by_country_curriculum_grade.setdefault(key, [])
         if row.skill_id not in bucket:
             bucket.append(row.skill_id)
-    for bucket in mapped_skills_by_country_grade.values():
+    for bucket in mapped_skills_by_country_curriculum_grade.values():
         bucket.sort()
 
     return ContentIndex(
@@ -179,7 +188,7 @@ def load_content(content_dir: Path) -> ContentIndex:
         dependents=dependents,
         misconceptions=misconceptions,
         mappings=mappings,
-        mapped_skills_by_country_grade=mapped_skills_by_country_grade,
+        mapped_skills_by_country_curriculum_grade=mapped_skills_by_country_curriculum_grade,
     )
 
 
@@ -281,13 +290,14 @@ def placement_prior_depth(depth_expectation: Optional[str]) -> float:
     return constants.TIER_DEPTH[below]
 
 
-def serving_ceiling(skill_id: str, country: str, grade: int, content: ContentIndex) -> float:
+def serving_ceiling(skill_id: str, country: str, curriculum: str, grade: int, content: ContentIndex) -> float:
     """KTD9's serving ceiling: the mapping's depth_expectation converted via
     TIER_DEPTH where a mapping row exists for this exact (skill, country,
-    grade); the top tier otherwise (core doc §1.4's "default ceiling", not
-    the doc's separate self-extending-band mechanic, which this v1 engine
-    does not implement — see the module report for that scope call)."""
-    row = content.mappings.get((skill_id, country, grade))
+    curriculum, grade); the top tier otherwise (core doc §1.4's "default
+    ceiling", not the doc's separate self-extending-band mechanic, which
+    this v1 engine does not implement — see the module report for that
+    scope call)."""
+    row = content.mappings.get((skill_id, country, curriculum, grade))
     if row is None:
         return constants.TIER_DEPTH["hard"]
     return constants.TIER_DEPTH[row.depth_expectation]
@@ -299,14 +309,15 @@ def target_depth(theta: float, ceiling: float) -> float:
     return min(theta + constants.CHALLENGE_OFFSET, ceiling)
 
 
-def starting_depth_for(skill_id: str, country: str, grade: int, content: ContentIndex) -> float:
+def starting_depth_for(skill_id: str, country: str, curriculum: str, grade: int, content: ContentIndex) -> float:
     """The depth to start probing a skill placement/prerequisite-probing
     first encounters — the mapping's one-tier-below prior (SM §5 point 1)
-    when a mapping row exists for this exact (skill, country, grade), the
-    easy-tier default otherwise. Applied uniformly to every skill placement
-    walks onto (not just a strand's very first skill) — a deliberate
-    generalization of SM §5 point 1 documented in the module report."""
-    row = content.mappings.get((skill_id, country, grade))
+    when a mapping row exists for this exact (skill, country, curriculum,
+    grade), the easy-tier default otherwise. Applied uniformly to every
+    skill placement walks onto (not just a strand's very first skill) — a
+    deliberate generalization of SM §5 point 1 documented in the module
+    report."""
+    row = content.mappings.get((skill_id, country, curriculum, grade))
     return placement_prior_depth(row.depth_expectation if row is not None else None)
 
 
@@ -468,20 +479,23 @@ def _copy_engine_state(engine_state: EngineState) -> EngineState:
     )
 
 
-def _init_placement(engine_state: EngineState, content: ContentIndex, country: str, grade: int) -> None:
+def _init_placement(
+    engine_state: EngineState, content: ContentIndex, country: str, curriculum: str, grade: int
+) -> None:
     """Lazily seed one placement cursor per strand (SM §5 points 1-2) the
     first time selection is asked for this student. Starting skills are the
-    skills with a mapping row at exactly (country, grade) — "this grade's
-    frontier skills" (SM §5 point 1) — one per strand, the lowest
-    canonical_stage among that grade's mapped skills in the strand (a
-    reading of "mid-chain start"; see the module report). A country/grade
-    with no mapping rows at all (not exercised by the shipped fixture, but
-    possible) falls back to the graph's own roots, one per strand, using
-    the default easy-tier prior — the per-skill "unmapped -> easy" default
-    generalized to the starting-point choice itself."""
+    skills with a mapping row at exactly (country, curriculum, grade) —
+    "this grade's frontier skills" (SM §5 point 1) — one per strand, the
+    lowest canonical_stage among that grade's mapped skills in the strand (a
+    reading of "mid-chain start"; see the module report). A
+    country/curriculum/grade with no mapping rows at all (not exercised by
+    the shipped fixture, but possible) falls back to the graph's own roots,
+    one per strand, using the default easy-tier prior — the per-skill
+    "unmapped -> easy" default generalized to the starting-point choice
+    itself."""
     if engine_state.placement_initialized:
         return
-    mapped = content.mapped_skills_by_country_grade.get((country, grade), [])
+    mapped = content.mapped_skills_by_country_curriculum_grade.get((country, curriculum, grade), [])
     by_strand: Dict[str, List[str]] = {}
     for skill_id in mapped:
         strand = content.skills[skill_id].strand
@@ -807,6 +821,7 @@ def select_next(
     bank: BankIndex,
     student_id: str,
     country: str,
+    curriculum: str,
     grade: int,
     now: datetime,
     candidates_for_skill: Optional[Callable[[str], List[dict]]] = None,
@@ -855,7 +870,7 @@ def select_next(
     if new_state.remediation_queue:
         dose = new_state.remediation_queue[0]
         skill_state = store.peek(student_id, dose.skill_id)
-        ceiling = serving_ceiling(dose.skill_id, country, grade, content)
+        ceiling = serving_ceiling(dose.skill_id, country, curriculum, grade, content)
         target = target_depth(skill_state.theta, ceiling)
         serve = _try_serve(
             new_state, warnings, dose.skill_id, provide(dose.skill_id),
@@ -877,7 +892,7 @@ def select_next(
     # 4. Queued prerequisite probes.
     if new_state.prereq_probe_queue:
         probe = new_state.prereq_probe_queue[0]
-        target = starting_depth_for(probe.skill_id, country, grade, content)
+        target = starting_depth_for(probe.skill_id, country, curriculum, grade, content)
         serve = _try_serve(
             new_state, warnings, probe.skill_id, provide(probe.skill_id),
             target, "probe", "prereq_probe",
@@ -886,10 +901,10 @@ def select_next(
             return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)
 
     # 5. Placement, until each strand finds its frontier.
-    _init_placement(new_state, content, country, grade)
+    _init_placement(new_state, content, country, curriculum, grade)
     for strand in sorted(new_state.placement_cursor):
         skill_id = new_state.placement_cursor[strand]
-        target = starting_depth_for(skill_id, country, grade, content)
+        target = starting_depth_for(skill_id, country, curriculum, grade, content)
         serve = _try_serve(
             new_state, warnings, skill_id, provide(skill_id),
             target, "placement", "placement",
@@ -906,7 +921,7 @@ def select_next(
     by_skill: Dict[str, List[dict]] = {}
     for skill_id, node in content.skills.items():
         skill_state = store.peek(student_id, skill_id)
-        ceiling = serving_ceiling(skill_id, country, grade, content)
+        ceiling = serving_ceiling(skill_id, country, curriculum, grade, content)
         # `lapsed` blocks dependents from being *served downstream*, but it
         # never revokes certified_depth (SM §6 point 3) — so a lapsed skill
         # must remain eligible for frontier practice itself, or it can never
@@ -953,7 +968,7 @@ def select_next(
 
     chosen_skill = min(by_skill, key=_priority)
     skill_state = store.peek(student_id, chosen_skill)
-    ceiling = serving_ceiling(chosen_skill, country, grade, content)
+    ceiling = serving_ceiling(chosen_skill, country, curriculum, grade, content)
     target = target_depth(skill_state.theta, ceiling)
     serve = _try_serve(new_state, warnings, chosen_skill, by_skill[chosen_skill], target, "practice", "frontier")
     return SelectResult(engine_state=new_state, serve=serve, warnings=warnings)

@@ -46,6 +46,16 @@
       "minLength": 1,
       "description": "Syllabus citation, e.g. \"Class 6, Maths, Ch. 7\" or \"5.NF.A.1\"."
     },
+    "unit_code": {
+      "type": "string",
+      "pattern": "^[A-Za-z0-9][A-Za-z0-9_.-]*$",
+      "description": "KTD10: a stable, machine-usable identifier for this row's curriculum unit/chapter, e.g. \"IN-NCERT-G6-CH7\". Optional — curricula with no chapter granularity (e.g. Ontario's 'Number Sense' strands) omit both unit_code and unit_name; syllabus_ref remains the display-text citation regardless. Required together with unit_name (see dependentRequired below)."
+    },
+    "unit_name": {
+      "type": "string",
+      "minLength": 1,
+      "description": "KTD10: the human-readable display name for unit_code's chapter/unit, e.g. \"Class 6, Ch. 7\". Required together with unit_code."
+    },
     "learning_objective": {
       "type": "string",
       "minLength": 1,
@@ -72,5 +82,9 @@
       "type": "string",
       "description": "How this curriculum teaches the method; consumed by lesson drafting (§6.3) and by pedagogy-variant solution steps (§2.2)."
     }
+  },
+  "dependentRequired": {
+    "unit_code": ["unit_name"],
+    "unit_name": ["unit_code"]
   }
 }

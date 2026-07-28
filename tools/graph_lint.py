@@ -45,14 +45,25 @@ CONTENT_KINDS = {
 
 # Fields that make an object's identity unique, for duplicate-id detection.
 # skill_id/misconception_id are true unique identifiers; a mapping ROW's
-# identity is the (skill, country, curriculum, grade) it targets — skill_id
-# alone is NOT unique across mappings (core doc §1.4: several rows per
-# skill, one per country and one per grade that touches it).
+# identity is the (skill, country, curriculum, grade, unit) it targets —
+# skill_id alone is NOT unique across mappings (core doc §1.4: several rows
+# per skill, one per country and one per grade that touches it). KTD10 folds
+# the structured unit_code into this identity too: two rows for the same
+# (skill, country, curriculum, grade) that name two different units would
+# otherwise collide as a false duplicate.
 DEDUP_KEY_FIELDS = {
     "skills": ("skill_id",),
     "misconceptions": ("misconception_id",),
-    "mappings": ("skill_id", "country", "curriculum", "grade"),
+    "mappings": ("skill_id", "country", "curriculum", "grade", "unit_code"),
 }
+
+# Fields inside a DEDUP_KEY_FIELDS tuple that are optional on the object
+# itself (KTD10: unit_code is absent for curricula with no chapter
+# granularity, e.g. Ontario). A missing optional field contributes None to
+# the key rather than excluding the object from dedup checking entirely —
+# only a missing *required* field (schema validation already flags those)
+# skips the object, same as before this field was added.
+OPTIONAL_DEDUP_KEY_FIELDS = {"unit_code"}
 
 # Normalized skill-name similarity at or above this ratio is flagged.
 # Simple string similarity is a v1 stand-in; embedding-based duplicate
@@ -135,12 +146,13 @@ def validate_against_schemas(
 
 def check_duplicate_ids(content: dict[str, list[dict[str, Any]]], result: LintResult) -> None:
     for kind, fields in DEDUP_KEY_FIELDS.items():
+        required_fields = [f for f in fields if f not in OPTIONAL_DEDUP_KEY_FIELDS]
         seen: dict[tuple, str] = {}
         for obj in content[kind]:
-            if any(field not in obj for field in fields):
+            if any(field not in obj for field in required_fields):
                 continue  # missing required field(s); schema validation already flags this
-            key = tuple(obj[field] for field in fields)
-            label = key[0] if len(key) == 1 else "/".join(str(part) for part in key)
+            key = tuple(obj.get(field) for field in fields)
+            label = "/".join(str(part) for part in key if part is not None) or str(key[0])
             if key in seen:
                 result.errors.append(
                     f"duplicate {kind[:-1]} {label!r} "
@@ -148,6 +160,32 @@ def check_duplicate_ids(content: dict[str, list[dict[str, Any]]], result: LintRe
                 )
             else:
                 seen[key] = obj.get("__source__", "?")
+
+
+def check_unit_name_consistency(content: dict[str, list[dict[str, Any]]], result: LintResult) -> None:
+    """KTD10: a unit_code identifies one curriculum unit/chapter, shared
+    across every skill mapped into it — many mapping rows legitimately share
+    one unit_code. What they must NOT do is disagree on unit_name: two rows
+    naming the same unit_code with two different display names would make
+    "the chapter list" ambiguous for a consumer reading structured units
+    instead of free-text syllabus_ref (R2/R3)."""
+    seen: dict[str, tuple[str | None, str]] = {}
+    for obj in content["mappings"]:
+        unit_code = obj.get("unit_code")
+        if unit_code is None:
+            continue
+        unit_name = obj.get("unit_name")
+        source = obj.get("__source__", "?")
+        prior = seen.get(unit_code)
+        if prior is None:
+            seen[unit_code] = (unit_name, source)
+            continue
+        prior_name, prior_source = prior
+        if unit_name != prior_name:
+            result.errors.append(
+                f"mapping unit {unit_code!r}: inconsistent unit_name {unit_name!r} "
+                f"(in {source}) vs {prior_name!r} (in {prior_source})"
+            )
 
 
 def check_references(content: dict[str, list[dict[str, Any]]], result: LintResult) -> None:
@@ -274,6 +312,7 @@ def lint_directory(content_dir: Path, schemas_dir: Path = DEFAULT_SCHEMAS_DIR) -
     content = load_content(content_dir, result)
     validate_against_schemas(content, schemas, result)
     check_duplicate_ids(content, result)
+    check_unit_name_consistency(content, result)
     check_references(content, result)
     check_acyclic(content, result)
     check_orphans(content, result)

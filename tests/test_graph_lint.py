@@ -157,6 +157,89 @@ def test_duplicate_mapping_same_skill_country_curriculum_grade_is_an_error(fixtu
     assert any("duplicate mapping" in e and "FRAC.ADD.UNLIKE" in e for e in result.errors)
 
 
+# --- KTD10: structured unit_code/unit_name on mapping rows ---------------------
+
+
+def test_ncert_row_with_unit_code_loads_and_lints_clean(fixture_copy: Path) -> None:
+    """content/fractions/mappings.yaml's FRAC.ADD.UNLIKE/IN/NCERT/6 row was
+    migrated (U1) to carry unit_code/unit_name derived from its
+    syllabus_ref's "Ch. 7" — it must still lint clean as shipped."""
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    row = data["mappings"][0]
+    assert row["skill_id"] == "FRAC.ADD.UNLIKE"
+    assert row["unit_code"] == "IN-NCERT-G6-CH7"
+    assert row["unit_name"] == "Class 6, Ch. 7"
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert result.errors == []
+
+
+def test_duplicate_mapping_with_identical_unit_is_an_error(fixture_copy: Path) -> None:
+    """Two rows identical on (skill, country, curriculum, grade, unit_code)
+    are a duplicate — the unit code is folded into the dedup key (KTD10)."""
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    original = data["mappings"][0]
+    assert original["unit_code"] == "IN-NCERT-G6-CH7"
+    duplicate = dict(original)  # identical (skill, country, curriculum, grade, unit_code)
+    duplicate["depth_expectation"] = "hard"
+    data["mappings"].append(duplicate)
+    write_yaml(mappings_path, data)
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert any("duplicate mapping" in e and "FRAC.ADD.UNLIKE" in e for e in result.errors)
+
+
+def test_ontario_row_without_unit_fields_still_validates(fixture_copy: Path) -> None:
+    """KTD10: unit_code/unit_name are optional — a curriculum with no
+    chapter granularity (Ontario) validates fine with neither present."""
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    ontario_row = next(m for m in data["mappings"] if m["curriculum"] == "ONTARIO")
+    assert "unit_code" not in ontario_row
+    assert "unit_name" not in ontario_row
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert result.errors == []
+
+
+def test_unit_code_with_conflicting_unit_name_is_an_error(fixture_copy: Path) -> None:
+    """KTD10: two mapping rows (different skills — not a dedup-key
+    collision) sharing one unit_code must agree on unit_name, or the
+    "chapter list" a consumer builds from structured units becomes
+    ambiguous (R2/R3)."""
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    original = data["mappings"][0]
+    assert original["skill_id"] == "FRAC.ADD.UNLIKE"
+    assert original["unit_code"] == "IN-NCERT-G6-CH7"
+    conflicting = dict(original)
+    conflicting["skill_id"] = "FRAC.EQUIV"  # a different skill: no dedup-key collision
+    conflicting["unit_name"] = "Class 6, Chapter Seven (renamed)"  # same code, different name
+    data["mappings"].append(conflicting)
+    write_yaml(mappings_path, data)
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert any(
+        "IN-NCERT-G6-CH7" in e and "inconsistent unit_name" in e for e in result.errors
+    )
+
+
+def test_missing_unit_name_when_unit_code_present_is_a_schema_violation(fixture_copy: Path) -> None:
+    """KTD10: unit_code and unit_name must appear together — dropping
+    unit_name while keeping unit_code is a schema violation
+    (dependentRequired), not silently accepted."""
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    del data["mappings"][0]["unit_name"]
+    assert "unit_code" in data["mappings"][0]
+    write_yaml(mappings_path, data)
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert any("schema violation" in e and "FRAC.ADD.UNLIKE" in e for e in result.errors)
+
+
 def test_orphan_node_is_warning_not_error(fixture_copy: Path) -> None:
     skills_path = fixture_copy / "skills.yaml"
     data = load_yaml(skills_path)

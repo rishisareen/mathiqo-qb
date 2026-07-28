@@ -9,7 +9,7 @@ replay prior state, run one session, print a summary.
 
 Usage:
     python tools/serve.py --bank banks/2026.07-dev --student stu-1 \
-        --country IN --grade 6 --log logs/stu-1.jsonl \
+        --country IN --curriculum NCERT --grade 6 --log logs/stu-1.jsonl \
         [--session-time 2026-07-27T12:00:00]
 """
 
@@ -75,6 +75,7 @@ def main(argv: "list[str] | None" = None) -> int:
     )
     parser.add_argument("--student", required=True, help="pseudonymous student id")
     parser.add_argument("--country", required=True, help="country code, e.g. IN or CA")
+    parser.add_argument("--curriculum", required=True, help="curriculum identifier, e.g. NCERT or ONTARIO")
     parser.add_argument("--grade", required=True, type=int, help="grade level")
     parser.add_argument("--log", required=True, type=Path, help="attempt-event JSONL log path (appended to; replayed at startup)")
     parser.add_argument(
@@ -118,11 +119,14 @@ def main(argv: "list[str] | None" = None) -> int:
     def notify(text: str) -> None:
         print(text)
 
-    print(f"Session {session_id} for student {args.student!r} ({args.country}, grade {args.grade}) — now={now.isoformat()}")
+    print(
+        f"Session {session_id} for student {args.student!r} "
+        f"({args.country}, {args.curriculum}, grade {args.grade}) — now={now.isoformat()}"
+    )
     _print_state_summary(store, args.student, now)
 
     summary = session.run_session(
-        store, engine_state, content, bank, args.student, args.country, args.grade,
+        store, engine_state, content, bank, args.student, args.country, args.curriculum, args.grade,
         session_id, args.log, io, notify, now,
     )
 
