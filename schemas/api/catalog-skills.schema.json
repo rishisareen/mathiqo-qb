@@ -1,0 +1,47 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/api/catalog-skills.schema.json",
+  "title": "MCP list_skills Response",
+  "description": "Serving-integrity contract U11/R15: `tools/mcp_server.py`'s `list_skills` tool response, built by `_serialize_skills`. U7/R3: the mapped skills for a (country, curriculum, grade) scope, optionally narrowed to one unit_code, each carrying its curriculum-local presentation straight off the mapping row (orchestrator/catalog.py's SkillsResult). An unmatched scope or unit_code returns skills=[], never an error (plan point 6).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["content_version", "country", "curriculum", "grade", "unit_code", "skills"],
+  "properties": {
+    "content_version": { "type": "string", "minLength": 1 },
+    "country": { "type": "string", "minLength": 1 },
+    "curriculum": { "type": "string", "minLength": 1 },
+    "grade": { "type": "integer", "minimum": 1 },
+    "unit_code": {
+      "type": ["string", "null"],
+      "description": "The narrowing filter this result was built with, echoed back verbatim; null when the call didn't narrow to one unit."
+    },
+    "skills": {
+      "type": "array",
+      "description": "Sorted by skill_id.",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": [
+          "skill_id",
+          "depth_expectation",
+          "learning_objective",
+          "terminology_overrides",
+          "unit_code",
+          "unit_name"
+        ],
+        "properties": {
+          "skill_id": { "type": "string", "minLength": 1 },
+          "depth_expectation": { "type": "string", "minLength": 1 },
+          "learning_objective": { "type": ["string", "null"] },
+          "terminology_overrides": {
+            "type": "object",
+            "additionalProperties": { "type": "string" },
+            "description": "Curriculum-local term substitutions, keyed by the canonical term they replace."
+          },
+          "unit_code": { "type": ["string", "null"] },
+          "unit_name": { "type": ["string", "null"] }
+        }
+      }
+    }
+  }
+}

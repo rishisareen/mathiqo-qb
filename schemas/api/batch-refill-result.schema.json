@@ -1,0 +1,93 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/api/batch-refill-result.schema.json",
+  "title": "MCP refill_batch Response",
+  "description": "Serving-integrity contract U11/R15: `tools/mcp_server.py`'s `refill_batch` tool response, built by `_serialize_refill_result`. U10 (R12, KTD5): a background refill — the same laddered batch shape `batch-result.schema.json` (fetch_batch) declares, wrapped in a null/signal/supersede envelope. `batch` is null with signal=\"no_further_items\" when the freshly planned batch came back with zero new items (R13); otherwise `batch` is populated and `signal` is null. `supersede` (KTD5) is set on every response regardless of whether new items were found. The nested item/policy shapes below intentionally duplicate batch-result.schema.json's own $defs (no cross-file $ref in this schema house style) rather than referencing that file.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["batch", "signal", "supersede"],
+  "$defs": {
+    "plannedItem": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["instance", "skill_id", "rung", "context"],
+      "properties": {
+        "instance": {
+          "type": "object",
+          "description": "The full rendered item instance verbatim (KD6) — see schemas/item-instance.schema.json."
+        },
+        "skill_id": { "type": "string", "minLength": 1 },
+        "rung": { "type": "string", "enum": ["target", "easier", "harder"] },
+        "context": { "type": "string", "enum": ["practice", "probe"] }
+      }
+    },
+    "policy": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["policy_version", "floor", "low_water", "rules"],
+      "properties": {
+        "policy_version": { "type": "string", "minLength": 1 },
+        "floor": { "type": "string", "minLength": 1 },
+        "low_water": { "type": "integer", "minimum": 0 },
+        "rules": {
+          "type": "object",
+          "additionalProperties": false,
+          "required": ["on_correct", "on_incorrect_tagged", "on_incorrect_untagged", "on_buffer_low"],
+          "properties": {
+            "on_correct": { "type": "string", "minLength": 1 },
+            "on_incorrect_tagged": { "type": "string", "minLength": 1 },
+            "on_incorrect_untagged": { "type": "string", "minLength": 1 },
+            "on_buffer_low": { "type": "string", "minLength": 1 }
+          }
+        }
+      }
+    },
+    "batchResult": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": [
+        "batch_id",
+        "student_id",
+        "skill_id",
+        "items",
+        "count_requested",
+        "count_returned",
+        "policy",
+        "feedback_sidecar",
+        "bank_version",
+        "content_version"
+      ],
+      "properties": {
+        "batch_id": { "type": "string", "pattern": "^batch-[0-9a-f]{32}$" },
+        "student_id": { "type": "string", "minLength": 1 },
+        "skill_id": { "type": "string", "minLength": 1 },
+        "items": { "type": "array", "items": { "$ref": "#/$defs/plannedItem" } },
+        "count_requested": { "type": "integer", "minimum": 1 },
+        "count_returned": { "type": "integer", "minimum": 0 },
+        "policy": { "$ref": "#/$defs/policy" },
+        "feedback_sidecar": {
+          "type": "object",
+          "propertyNames": { "pattern": "^MISC\\.[A-Z0-9][A-Z0-9.-]*$" },
+          "additionalProperties": { "type": "string", "minLength": 1 }
+        },
+        "bank_version": { "type": "string", "minLength": 1 },
+        "content_version": { "type": "string", "minLength": 1 }
+      }
+    }
+  },
+  "properties": {
+    "batch": {
+      "oneOf": [{ "$ref": "#/$defs/batchResult" }, { "type": "null" }],
+      "description": "The freshly planned batch, or null exactly when signal is \"no_further_items\"."
+    },
+    "signal": {
+      "type": ["string", "null"],
+      "enum": [null, "no_further_items"],
+      "description": "KTD7's taxonomy: null in the ordinary case, \"no_further_items\" (R13) when the pool for this skill (seen union delivered) is fully consumed."
+    },
+    "supersede": {
+      "type": "boolean",
+      "description": "KTD5: true when the plan for skill_id materially changed since the client's last batch (now certified at/above serving ceiling, or a remediation dose now queued) — set on every response regardless of signal."
+    }
+  }
+}

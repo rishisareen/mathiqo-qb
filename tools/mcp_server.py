@@ -2,16 +2,38 @@
 """MCP server (U8): the external product surface — orchestrator/serving.py's
 facade exposed as MCP tools (KTD6).
 
-**Parity rule, both directions.** Every serving/ingest operation the
-reference orchestrator uses (`open_session`, `get_candidates`,
-`submit_attempt`, `close_session`, `get_student_progress` —
-`orchestrator/serving.py`'s `ServingFacade`) is exposed here as exactly one
-MCP tool, and every tool here resolves to exactly one facade operation — no
-tool reaches past the facade to touch a bank directory or a log file
-directly. This module is a thin adapter: no serving/ingest logic lives
-here, only session-registry bookkeeping (an MCP tool call is stateless;
-`orchestrator/serving.py`'s `Session` object is not, so this module holds
-the open ones between calls) and JSON-shaping of facade return values.
+**Parity rule, both directions (R14).** Every capability `orchestrator/
+serving.py`'s `ServingFacade` exposes — serving/ingest (`open_session`,
+`get_candidates`, `submit_attempt`, `close_session`,
+`close_session_by_student`, `get_student_progress`, `recommend_next`),
+identity (U4: `register_student`, `link_student`, `find_student`), catalog
+(U7: `list_curricula`, `list_units`, `list_skills`, `get_skill_graph`), and
+batch (U9/U10: `fetch_batch`, `refill_batch`) — is exposed here as exactly
+one MCP tool, and every tool here resolves to exactly one facade operation
+(`FACADE_OPERATIONS`) — no tool reaches past the facade to touch a bank
+directory or a log file directly. This module is a thin adapter: no
+serving/ingest logic lives here, only session-registry bookkeeping (an MCP
+tool call is stateless; `orchestrator/serving.py`'s `Session` object is
+not, so this module holds the open ones between calls) and JSON-shaping of
+facade return values (`schemas/api/`'s declared response shapes, R15).
+
+**Identity and catalog tools are session-less by design (U11).** The
+identity tools (`register_student`/`link_student`/`find_student`) are the
+*entry point* to linking, not gated behind an existing link. The catalog
+tools (`list_curricula`/`list_units`/`list_skills`/`get_skill_graph`) are
+KD3's student-independent discovery layer — no session, no `consumer_id`,
+no link check, confirmed against `orchestrator/catalog.py`'s own
+docstring and `ServingFacade`'s U7 pass-throughs.
+
+**Per-connection identity (KTD15) does not apply to this transport.** MCP
+is stdio-based: one server process serves one client conversation for its
+whole life, so the `--consumer-id` startup flag (unchanged since a prior
+unit) already *is* the "startup-configured, never caller-supplied"
+resolution KTD15 asks for. There is no per-connection concept to resolve
+within one MCP server process the way a later REST transport will need (one
+HTTP server fielding requests from many different partners, needing an
+actual multi-partner credential table) — that machinery is deliberately
+out of scope here.
 
 **consumer_id is server configuration, never the caller's.** `--consumer-id`
 is set once at server startup (KTD2) and stamped on every attempt this
@@ -49,13 +71,20 @@ sys.path.insert(0, str(REPO_ROOT))
 from mcp.server.fastmcp import FastMCP  # noqa: E402
 from mcp.server.fastmcp.exceptions import ToolError  # noqa: E402
 
-from orchestrator import engine, serving, signals  # noqa: E402
+from orchestrator import batch as batch_module  # noqa: E402
+from orchestrator import catalog as catalog_module  # noqa: E402
+from orchestrator import constants, engine, serving, signals  # noqa: E402
+from orchestrator.identity import AttributeMismatchError, UnknownStudentError  # noqa: E402
 
 INTERFACE_VERSION = "1.0.0-pre"
 
 # KTD6's parity rule as data: every facade operation this server exposes.
 # tests/test_mcp_server.py asserts this against both the facade's own
 # public methods and this server's registered tool names.
+#
+# U11 adds nine operations built by prior units (identity/U4, catalog/U7,
+# batch/U9-U10) that had a `ServingFacade` method but no MCP tool until now
+# — R14's parity rule, closed.
 FACADE_OPERATIONS = (
     "open_session",
     "get_candidates",
@@ -64,6 +93,15 @@ FACADE_OPERATIONS = (
     "close_session_by_student",
     "get_student_progress",
     "recommend_next",
+    "register_student",
+    "link_student",
+    "find_student",
+    "list_curricula",
+    "list_units",
+    "list_skills",
+    "get_skill_graph",
+    "fetch_batch",
+    "refill_batch",
 )
 
 
@@ -103,6 +141,144 @@ def _serialize_recommendations(result: serving.RecommendationsResult) -> dict[st
             }
             for r in result.recommendations
         ],
+    }
+
+
+def _serialize_registration(student_id: str) -> dict[str, Any]:
+    """`register_student`'s declared contract: just the new opaque
+    student_id — the registered attributes themselves never leave
+    `IdentityRegistry`'s own file (KD9/R16)."""
+    return {"student_id": student_id}
+
+
+def _serialize_link(student_id: str, consumer_id: str, link_basis: str | None) -> dict[str, Any]:
+    """`link_student`'s declared contract: confirmation of the link that
+    was just created, echoing back only opaque ids and the caller's own
+    `link_basis` — never the attributes that proved the match."""
+    return {"linked": True, "student_id": student_id, "consumer_id": consumer_id, "link_basis": link_basis}
+
+
+def _serialize_lookup(student_id: "str | None") -> dict[str, Any]:
+    """`find_student`'s declared contract: whether a match was found and,
+    if so, the opaque student_id — never the attributes that were looked
+    up, which the caller already has."""
+    return {"found": student_id is not None, "student_id": student_id}
+
+
+def _serialize_catalog(result: catalog_module.CatalogResult) -> dict[str, Any]:
+    """`list_curricula`'s declared contract: R1's country -> curriculum ->
+    grades grouping, verbatim off `catalog_module.CatalogResult`."""
+    return {
+        "content_version": result.content_version,
+        "countries": [
+            {
+                "country": country.country,
+                "curricula": [
+                    {"curriculum": curriculum.curriculum, "grades": list(curriculum.grades)}
+                    for curriculum in country.curricula
+                ],
+            }
+            for country in result.countries
+        ],
+    }
+
+
+def _serialize_units(result: catalog_module.UnitsResult) -> dict[str, Any]:
+    """`list_units`'s declared contract: KTD10's chapter list (or the bare
+    `skill_ids` fallback for a unit-less curriculum/uncovered scope)."""
+    return {
+        "content_version": result.content_version,
+        "country": result.country,
+        "curriculum": result.curriculum,
+        "grade": result.grade,
+        "has_units": result.has_units,
+        "units": [
+            {"unit_code": unit.unit_code, "unit_name": unit.unit_name, "skill_ids": list(unit.skill_ids)}
+            for unit in result.units
+        ],
+        "skill_ids": list(result.skill_ids),
+    }
+
+
+def _serialize_skills(result: catalog_module.SkillsResult) -> dict[str, Any]:
+    """`list_skills`'s declared contract: R3's curriculum-local
+    presentation (learning objective, depth expectation, terminology
+    overrides) per mapped skill."""
+    return {
+        "content_version": result.content_version,
+        "country": result.country,
+        "curriculum": result.curriculum,
+        "grade": result.grade,
+        "unit_code": result.unit_code,
+        "skills": [
+            {
+                "skill_id": skill.skill_id,
+                "depth_expectation": skill.depth_expectation,
+                "learning_objective": skill.learning_objective,
+                "terminology_overrides": dict(skill.terminology_overrides),
+                "unit_code": skill.unit_code,
+                "unit_name": skill.unit_name,
+            }
+            for skill in result.skills
+        ],
+    }
+
+
+def _serialize_skill_graph(result: catalog_module.SkillGraphResult) -> dict[str, Any]:
+    """`get_skill_graph`'s declared contract: R4's canonical graph nodes,
+    keyed by skill_id."""
+    return {
+        "content_version": result.content_version,
+        "skills": {
+            skill_id: {
+                "skill_id": node.skill_id,
+                "strand": node.strand,
+                "canonical_stage": node.canonical_stage,
+                "prerequisites": list(node.prerequisites),
+                "misconceptions": list(node.misconceptions),
+            }
+            for skill_id, node in result.skills.items()
+        },
+    }
+
+
+def _serialize_batch_item(item: batch_module.PlannedItem) -> dict[str, Any]:
+    return {"instance": item.instance, "skill_id": item.skill_id, "rung": item.rung, "context": item.context}
+
+
+def _serialize_batch_result(result: batch_module.BatchResult) -> dict[str, Any]:
+    """`fetch_batch`'s declared contract: the full laddered batch (R8-R11)
+    — every item's full rendered instance (KD6, nothing stripped), which
+    rung it fills, the submission context the double-diagnosis rule
+    (orchestrator/batch.py's module docstring) requires, and the shipped
+    branching-policy object (KD2, KTD8)."""
+    return {
+        "batch_id": result.batch_id,
+        "student_id": result.student_id,
+        "skill_id": result.skill_id,
+        "items": [_serialize_batch_item(item) for item in result.items],
+        "count_requested": result.count_requested,
+        "count_returned": result.count_returned,
+        "policy": {
+            "policy_version": result.policy.policy_version,
+            "floor": result.policy.floor,
+            "low_water": result.policy.low_water,
+            "rules": dict(result.policy.rules),
+        },
+        "feedback_sidecar": dict(result.feedback_sidecar),
+        "bank_version": result.bank_version,
+        "content_version": result.content_version,
+    }
+
+
+def _serialize_refill_result(result: batch_module.RefillResult) -> dict[str, Any]:
+    """`refill_batch`'s declared contract: the freshly planned batch (or
+    `null` with `signal=no_further_items` when nothing new is left, R13),
+    plus `supersede` (KTD5) on every response regardless."""
+    return {
+        "batch": _serialize_batch_result(result.batch) if result.batch is not None else None,
+        "signal": result.signal,
+        "supersede": result.supersede,
     }
 
 
@@ -318,6 +494,153 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         except serving.ConsumerNotLinkedError as exc:
             raise ToolError(f"{signals.NOT_LINKED}: {exc}") from exc
         return _serialize_recommendations(result)
+
+    # -- U11: identity tools (U4's IdentityRegistry) -------------------------
+    #
+    # Student-scoped but session-less and consumer-id-free of their own
+    # accord: these are the *entry point* to linking, not gated behind an
+    # existing link the way open_session/submit_attempt/etc. are.
+    # `consumer_id` is still always this server's own configuration (R17's
+    # unforgeable invariant), never a tool parameter.
+
+    @mcp.tool()
+    def register_student(attributes: dict[str, Any]) -> dict[str, Any]:
+        """U4: mint a new opaque student_id for `attributes` and
+        auto-link this server's own `consumer_id` to it (registration is
+        that first link's provenance). Returns only the opaque id — the
+        attributes themselves are never echoed back (KD9/R16: they exist
+        solely inside `IdentityRegistry`'s own file from this point on).
+
+        Refused with a generic error (no filesystem path) if this
+        deployment has no identity registry configured at all."""
+        try:
+            student_id = facade.register_student(attributes, consumer_id)
+        except serving.NoIdentityRegistryError as exc:
+            raise ToolError(str(exc)) from exc
+        return _serialize_registration(student_id)
+
+    @mcp.tool()
+    def link_student(student_id: str, attributes: dict[str, Any], link_basis: str | None = None) -> dict[str, Any]:
+        """U4/R17: link this server's own `consumer_id` to `student_id` —
+        refused unless `attributes` exactly matches what `student_id` was
+        registered with (no fuzzy matching). `link_basis` is recorded
+        verbatim and unverified (a consent-provenance field for a deferred
+        consent UX).
+
+        Raises a structured tool error (not part of KTD7's closed
+        ten-signal taxonomy, same posture as `open_session`'s
+        `InvalidIdentifierError`) for an unregistered `student_id` or a
+        mismatched `attributes` dict — either way, the error message never
+        echoes the registered attributes back, only names the failure."""
+        try:
+            facade.link_student(student_id, attributes, consumer_id, link_basis)
+        except serving.NoIdentityRegistryError as exc:
+            raise ToolError(str(exc)) from exc
+        except UnknownStudentError as exc:
+            raise ToolError(str(exc)) from exc
+        except AttributeMismatchError as exc:
+            raise ToolError(str(exc)) from exc
+        return _serialize_link(student_id, consumer_id, link_basis)
+
+    @mcp.tool()
+    def find_student(attributes: dict[str, Any]) -> dict[str, Any]:
+        """U4: exact-match lookup only (no fuzzy/partial matching) —
+        returns the opaque student_id if `attributes` matches an existing
+        registration, `found=False`/`student_id=null` otherwise. Never
+        echoes `attributes` back."""
+        try:
+            student_id = facade.find_student(attributes)
+        except serving.NoIdentityRegistryError as exc:
+            raise ToolError(str(exc)) from exc
+        return _serialize_lookup(student_id)
+
+    # -- U11: catalog tools (U7's student-independent discovery layer) -------
+    #
+    # Pure reads over the loaded content graph: no session, no consumer_id,
+    # no link check (KD3 — this layer stays open regardless of linking).
+
+    @mcp.tool()
+    def list_curricula() -> dict[str, Any]:
+        """U7/R1: every (country, curriculum, grade) triple Mathiqo covers,
+        grouped country -> curriculum -> sorted grades."""
+        return _serialize_catalog(facade.list_curricula())
+
+    @mcp.tool()
+    def list_units(country: str, curriculum: str, grade: int) -> dict[str, Any]:
+        """U7/R1/R2/KTD10: the chapter/unit list for one (country,
+        curriculum, grade) scope, built from mapping-layer unit_code/
+        unit_name — never from parsing syllabus_ref. An uncovered scope or
+        a unit-less curriculum returns `has_units=False`, never an error
+        (plan point 6)."""
+        return _serialize_units(facade.list_units(country, curriculum, grade))
+
+    @mcp.tool()
+    def list_skills(country: str, curriculum: str, grade: int, unit_code: str | None = None) -> dict[str, Any]:
+        """U7/R3: the mapped skills for a curriculum scope, each with its
+        curriculum-local presentation (learning objective, depth
+        expectation, terminology overrides). `unit_code`, when given,
+        narrows to just that chapter's skills."""
+        return _serialize_skills(facade.list_skills(country, curriculum, grade, unit_code))
+
+    @mcp.tool()
+    def get_skill_graph(skill_ids: list[str] | None = None) -> dict[str, Any]:
+        """U7/R4: the canonical skill graph — prerequisites, depth axis
+        (canonical_stage), strand, and associated misconception ids.
+        `skill_ids` omitted (default) returns the whole graph; an id
+        naming no skill is silently absent from the result rather than
+        raising (plan point 6)."""
+        return _serialize_skill_graph(facade.get_skill_graph(skill_ids))
+
+    # -- U11: batch tools (U9/U10's ladder batch planner) ---------------------
+
+    @mcp.tool()
+    def fetch_batch(
+        session_id: str, skill_id: str, batch_size: int = constants.DEFAULT_BATCH_SIZE
+    ) -> dict[str, Any]:
+        """U9 (R8-R11, R18, KD1, KD2): a server-planned, difficulty-laddered
+        working set for one (student, skill) — the batch-serving sibling
+        of `get_candidates`. `batch_size` is silently clamped to
+        `[1, MAX_BATCH_SIZE]`, never rejected.
+
+        R17: refused (`not_linked`) if this server's `consumer_id` isn't
+        linked to the session's student. A misconception referenced by a
+        served distractor with no child-facing feedback text (AE8) raises
+        a structured tool error naming the gap, not part of KTD7's closed
+        taxonomy (a real content-authoring bug, not a caller-facing
+        signal)."""
+        session_obj = _session_or_raise(session_id)
+        try:
+            result = facade.fetch_batch(session_obj, skill_id, consumer_id, batch_size)
+        except serving.ConsumerNotLinkedError as exc:
+            raise ToolError(f"{signals.NOT_LINKED}: {exc}") from exc
+        except batch_module.BatchPlanningError as exc:
+            raise ToolError(str(exc)) from exc
+        return _serialize_batch_result(result)
+
+    @mcp.tool()
+    def refill_batch(session_id: str, skill_id: str, attempts_flushed: bool) -> dict[str, Any]:
+        """U10 (R12, KTD5): re-plan a batch for `skill_id` against this
+        session's current live state. `attempts_flushed` is the client's
+        protocol-level assertion that every attempt it intends to submit
+        before this refill has already been submitted (declared, not
+        verified — a `False` value is logged, not refused).
+
+        R13: when the freshly planned batch has zero new items, returns
+        `batch=null` with `signal=no_further_items` instead of an empty
+        batch a caller could mistake for "try again shortly". `supersede`
+        (KTD5) is set on every response regardless, including a
+        `no_further_items` one.
+
+        R17: refused (`not_linked`) if this server's `consumer_id` isn't
+        linked to the session's student."""
+        session_obj = _session_or_raise(session_id)
+        try:
+            result = facade.refill_batch(session_obj, skill_id, consumer_id, attempts_flushed)
+        except serving.ConsumerNotLinkedError as exc:
+            raise ToolError(f"{signals.NOT_LINKED}: {exc}") from exc
+        except batch_module.BatchPlanningError as exc:
+            raise ToolError(str(exc)) from exc
+        return _serialize_refill_result(result)
 
     @mcp.tool()
     def server_info() -> dict[str, Any]:

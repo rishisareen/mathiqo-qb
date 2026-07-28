@@ -15,9 +15,11 @@ note: mostly integration/packaging, prefer the smoke flow.
 from __future__ import annotations
 
 import asyncio
+import json
 import shutil
 from pathlib import Path
 
+import jsonschema
 import pytest
 
 pytest.importorskip("mcp")
@@ -34,6 +36,23 @@ TEMPLATES_DIR = REPO_ROOT / "content" / "templates"
 LOCALE_PACK = REPO_ROOT / "content" / "locales" / "en-IN.yaml"
 NUM_TEMPLATE = TEMPLATES_DIR / "TPL.FRAC.ADD.LIKE.NUM.001.yaml"
 SKILL_ID = "FRAC.ADD.LIKE"
+# U11: a real skill in the content graph the built bank (only NUM_TEMPLATE,
+# which mints FRAC.ADD.LIKE instances alone) has zero instances for — the
+# empty_pool case.
+EMPTY_POOL_SKILL_ID = "FRAC.EQUIV"
+
+API_SCHEMAS_DIR = REPO_ROOT / "schemas" / "api"
+
+
+def _load_api_schema(name: str) -> dict:
+    return json.loads((API_SCHEMAS_DIR / name).read_text(encoding="utf-8"))
+
+
+def _assert_valid(schema_name: str, obj: dict) -> None:
+    schema = _load_api_schema(schema_name)
+    validator = jsonschema.Draft202012Validator(schema)
+    errors = sorted(validator.iter_errors(obj), key=lambda e: list(e.path))
+    assert errors == [], "; ".join(e.message for e in errors)
 
 # U5: open_session now requires country/curriculum/grade (KTD3's pin).
 DEFAULT_OPEN_EXTRA = {"country": "IN", "curriculum": "NCERT", "grade": 6}
@@ -521,3 +540,474 @@ def test_discarded_attempt_over_mcp_surfaces_a_reason_instead_of_bare_false(
     assert result.structuredContent["logged"] is False
     assert isinstance(result.structuredContent["discard_reason"], str)
     assert result.structuredContent["discard_reason"]
+
+
+# =============================================================================
+# U11: identity, catalog, and batch tools — R14's parity rule extended
+# =============================================================================
+
+
+# --- U4 identity tools over MCP -----------------------------------------------
+
+
+def test_register_student_returns_declared_shape_and_is_findable(
+    linked_facade: serving.ServingFacade,
+) -> None:
+    server = mcp_server.build_server(linked_facade, "partner.a")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            registered = await client.call_tool(
+                "register_student", {"attributes": {"guardian_email": "reg@example.com"}}
+            )
+            assert not registered.isError
+            _assert_valid("identity-registration.schema.json", registered.structuredContent)
+            student_id = registered.structuredContent["student_id"]
+            assert student_id.startswith("stu-")
+
+            found = await client.call_tool(
+                "find_student", {"attributes": {"guardian_email": "reg@example.com"}}
+            )
+            assert not found.isError
+            _assert_valid("identity-lookup.schema.json", found.structuredContent)
+            assert found.structuredContent == {"found": True, "student_id": student_id}
+
+            not_found = await client.call_tool(
+                "find_student", {"attributes": {"guardian_email": "nope@example.com"}}
+            )
+            assert not not_found.isError
+            _assert_valid("identity-lookup.schema.json", not_found.structuredContent)
+            assert not_found.structuredContent == {"found": False, "student_id": None}
+
+    _run(flow())
+
+
+def test_link_student_returns_declared_shape_for_a_second_consumer(
+    linked_facade: serving.ServingFacade,
+) -> None:
+    server_a = mcp_server.build_server(linked_facade, "partner.a")
+    server_b = mcp_server.build_server(linked_facade, "partner.b")
+    attrs = {"guardian_email": "link@example.com"}
+
+    async def flow():
+        async with create_connected_server_and_client_session(server_a) as client_a:
+            registered = await client_a.call_tool("register_student", {"attributes": attrs})
+            return registered.structuredContent["student_id"]
+
+    student_id = _run(flow())
+
+    async def flow2():
+        async with create_connected_server_and_client_session(server_b) as client_b:
+            return await client_b.call_tool(
+                "link_student",
+                {"student_id": student_id, "attributes": attrs, "link_basis": "guardian_authorized"},
+            )
+
+    linked = _run(flow2())
+    assert not linked.isError
+    _assert_valid("identity-link.schema.json", linked.structuredContent)
+    assert linked.structuredContent == {
+        "linked": True,
+        "student_id": student_id,
+        "consumer_id": "partner.b",
+        "link_basis": "guardian_authorized",
+    }
+
+
+def test_link_student_mismatched_or_unknown_raises_structured_error_without_leaking_attributes(
+    linked_facade: serving.ServingFacade,
+) -> None:
+    server_a = mcp_server.build_server(linked_facade, "partner.a")
+    server_c = mcp_server.build_server(linked_facade, "partner.c")
+
+    async def register():
+        async with create_connected_server_and_client_session(server_a) as client_a:
+            registered = await client_a.call_tool(
+                "register_student", {"attributes": {"guardian_email": "mismatch@example.com"}}
+            )
+            return registered.structuredContent["student_id"]
+
+    student_id = _run(register())
+
+    async def flow():
+        async with create_connected_server_and_client_session(server_c) as client_c:
+            mismatched = await client_c.call_tool(
+                "link_student",
+                {"student_id": student_id, "attributes": {"guardian_email": "wrong@example.com"}},
+            )
+            unknown = await client_c.call_tool(
+                "link_student", {"student_id": "stu-doesnotexist", "attributes": {"a": 1}}
+            )
+            return mismatched, unknown
+
+    mismatched, unknown = _run(flow())
+    assert mismatched.isError
+    mismatched_text = mismatched.content[0].text
+    assert "do not match" in mismatched_text
+    assert "wrong@example.com" not in mismatched_text
+    assert "mismatch@example.com" not in mismatched_text
+
+    assert unknown.isError
+    assert "stu-doesnotexist" in unknown.content[0].text
+
+
+def test_register_and_link_and_find_student_without_identity_registry_are_refused(
+    facade: serving.ServingFacade,
+) -> None:
+    server = mcp_server.build_server(facade, "partner.a")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            reg = await client.call_tool("register_student", {"attributes": {"a": 1}})
+            link = await client.call_tool("link_student", {"student_id": "stu-x", "attributes": {"a": 1}})
+            find = await client.call_tool("find_student", {"attributes": {"a": 1}})
+            return reg, link, find
+
+    reg, link, find = _run(flow())
+    assert reg.isError and link.isError and find.isError
+
+
+# --- U7 catalog tools over MCP: session-less, consumer-id-free -------------
+
+
+def test_list_curricula_returns_declared_shape(facade: serving.ServingFacade) -> None:
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            return await client.call_tool("list_curricula", {})
+
+    result = _run(flow())
+    assert not result.isError
+    _assert_valid("catalog-curricula.schema.json", result.structuredContent)
+    countries = {c["country"] for c in result.structuredContent["countries"]}
+    assert "IN" in countries
+
+
+def test_list_units_returns_declared_shape(facade: serving.ServingFacade) -> None:
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            return await client.call_tool(
+                "list_units", {"country": "IN", "curriculum": "NCERT", "grade": 6}
+            )
+
+    result = _run(flow())
+    assert not result.isError
+    _assert_valid("catalog-units.schema.json", result.structuredContent)
+
+
+def test_list_skills_returns_declared_shape(facade: serving.ServingFacade) -> None:
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            return await client.call_tool(
+                "list_skills", {"country": "IN", "curriculum": "NCERT", "grade": 6}
+            )
+
+    result = _run(flow())
+    assert not result.isError
+    _assert_valid("catalog-skills.schema.json", result.structuredContent)
+    assert any(s["skill_id"] == SKILL_ID for s in result.structuredContent["skills"])
+
+
+def test_get_skill_graph_returns_declared_shape(facade: serving.ServingFacade) -> None:
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            scoped = await client.call_tool("get_skill_graph", {"skill_ids": [SKILL_ID]})
+            whole = await client.call_tool("get_skill_graph", {})
+            return scoped, whole
+
+    scoped, whole = _run(flow())
+    assert not scoped.isError and not whole.isError
+    _assert_valid("catalog-skill-graph.schema.json", scoped.structuredContent)
+    _assert_valid("catalog-skill-graph.schema.json", whole.structuredContent)
+    assert set(scoped.structuredContent["skills"]) == {SKILL_ID}
+    assert len(whole.structuredContent["skills"]) > 1
+
+
+# --- U9/U10 batch tools over MCP ---------------------------------------------
+
+
+def test_fetch_batch_returns_declared_shape(facade: serving.ServingFacade) -> None:
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            opened = await client.call_tool("open_session", _open_args("stu-batch"))
+            session_id = opened.structuredContent["session_id"]
+            return await client.call_tool(
+                "fetch_batch", {"session_id": session_id, "skill_id": SKILL_ID, "batch_size": 5}
+            )
+
+    result = _run(flow())
+    assert not result.isError
+    body = result.structuredContent
+    _assert_valid("batch-result.schema.json", body)
+    assert body["count_requested"] == 5
+    assert 0 < body["count_returned"] <= 5
+    assert {item["rung"] for item in body["items"]} <= {"target", "easier", "harder"}
+    assert {item["context"] for item in body["items"]} <= {"practice", "probe"}
+
+
+def test_refill_batch_returns_declared_shape_including_no_further_items(
+    facade: serving.ServingFacade,
+) -> None:
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            opened = await client.call_tool("open_session", _open_args("stu-refill"))
+            session_id = opened.structuredContent["session_id"]
+            # Pool has only 5 instances (pool_cap=5); a full-size fetch
+            # (default batch_size=10) exhausts everything available.
+            await client.call_tool("fetch_batch", {"session_id": session_id, "skill_id": SKILL_ID})
+            return await client.call_tool(
+                "refill_batch",
+                {"session_id": session_id, "skill_id": SKILL_ID, "attempts_flushed": True},
+            )
+
+    result = _run(flow())
+    assert not result.isError
+    body = result.structuredContent
+    _assert_valid("batch-refill-result.schema.json", body)
+    assert body["batch"] is None
+    assert body["signal"] == "no_further_items"
+    assert body["supersede"] is False
+
+
+def test_fetch_batch_and_refill_batch_refused_for_unlinked_consumer_over_mcp(
+    linked_facade: serving.ServingFacade, identity_registry: IdentityRegistry
+) -> None:
+    """U11's own taxonomy-coverage requirement: at least one *new* tool
+    from this unit must demonstrate surfacing not_linked correctly."""
+    student_id = identity_registry.register_student(
+        {"guardian_email": "batch@example.com"}, consumer_id="partner.owner"
+    )
+    server_owner = mcp_server.build_server(linked_facade, "partner.owner")
+    server_stranger = mcp_server.build_server(linked_facade, "partner.stranger")
+
+    async def open_flow():
+        async with create_connected_server_and_client_session(server_owner) as owner_client:
+            opened = await owner_client.call_tool("open_session", _open_args(student_id))
+            return opened.structuredContent["session_id"]
+
+    session_id = _run(open_flow())
+
+    async def flow():
+        async with create_connected_server_and_client_session(server_stranger) as stranger_client:
+            fetched = await stranger_client.call_tool(
+                "fetch_batch", {"session_id": session_id, "skill_id": SKILL_ID}
+            )
+            refilled = await stranger_client.call_tool(
+                "refill_batch",
+                {"session_id": session_id, "skill_id": SKILL_ID, "attempts_flushed": True},
+            )
+            return fetched, refilled
+
+    fetched, refilled = _run(flow())
+    assert fetched.isError and "not_linked" in fetched.content[0].text
+    assert refilled.isError and "not_linked" in refilled.content[0].text
+
+
+# --- R17: consumer_id unforgeable through every new U11 tool -----------------
+
+NEW_TOOL_NAMES = (
+    "register_student",
+    "link_student",
+    "find_student",
+    "list_curricula",
+    "list_units",
+    "list_skills",
+    "get_skill_graph",
+    "fetch_batch",
+    "refill_batch",
+)
+
+
+def test_new_tools_never_accept_consumer_id_as_a_parameter(facade: serving.ServingFacade) -> None:
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def list_tools():
+        async with create_connected_server_and_client_session(server) as client:
+            result = await client.list_tools()
+            return {t.name: t for t in result.tools}
+
+    tools = _run(list_tools())
+    assert set(NEW_TOOL_NAMES) <= set(tools)
+    for name in NEW_TOOL_NAMES:
+        properties = tools[name].inputSchema.get("properties", {})
+        assert "consumer_id" not in properties, f"{name} exposes a caller-suppliable consumer_id"
+
+
+# --- PII canary: a sentinel lookup attribute never leaks anywhere -----------
+
+
+def _assert_no_sentinel(value, sentinel: str) -> None:
+    dumped = json.dumps(value, default=str)
+    assert sentinel not in dumped
+
+
+def test_pii_canary_sentinel_never_leaks_across_the_new_mcp_surface(
+    tmp_path: Path, content: engine.ContentIndex
+) -> None:
+    """U11's own required test scenario: register a student with a
+    sentinel guardian_email, exercise every error-taxonomy signal this MCP
+    surface can produce (unknown_skill, empty_pool, exhausted,
+    no_further_items, session_conflict, session_unknown, session_expired,
+    not_linked, ingest_rejected, discarded — signals.ALL in full) plus a
+    batch fetch and a progress/recommendation read, and assert the
+    sentinel never appears in any tool's returned dict or in any
+    ToolError's message string."""
+    SENTINEL = "canary-guardian-9f3e1c2a8b7d@example.com"
+
+    identity_registry = IdentityRegistry(tmp_path / "identity" / "registry.jsonl")
+    main_root = tmp_path / "main"
+    main_root.mkdir()
+    ttl_root = tmp_path / "ttl"
+    ttl_root.mkdir()
+    main_facade = _build_facade(main_root, content, identity=identity_registry)
+    ttl_facade = _build_facade(ttl_root, content, identity=identity_registry, session_ttl_seconds=0.05)
+
+    owner = mcp_server.build_server(main_facade, "partner.owner")
+    stranger = mcp_server.build_server(main_facade, "partner.stranger")
+    helper = mcp_server.build_server(main_facade, "partner.helper")
+    ttl_owner = mcp_server.build_server(ttl_facade, "partner.owner")
+
+    seen_payloads: list = []
+
+    def _record(result) -> None:
+        seen_payloads.append(result.content[0].text if result.isError else result.structuredContent)
+
+    async def flow():
+        async with create_connected_server_and_client_session(owner) as owner_client:
+            registered = await owner_client.call_tool(
+                "register_student", {"attributes": {"guardian_email": SENTINEL}}
+            )
+            _record(registered)
+            assert not registered.isError
+            student_id = registered.structuredContent["student_id"]
+
+            _record(await owner_client.call_tool(
+                "find_student", {"attributes": {"guardian_email": SENTINEL}}
+            ))
+
+            opened = await owner_client.call_tool("open_session", _open_args(student_id))
+            _record(opened)
+            session_id = opened.structuredContent["session_id"]
+
+            # unknown_skill
+            _record(await owner_client.call_tool(
+                "get_candidates", {"session_id": session_id, "skill_id": "NOPE.NOT.A.SKILL"}
+            ))
+            # empty_pool
+            _record(await owner_client.call_tool(
+                "get_candidates", {"session_id": session_id, "skill_id": EMPTY_POOL_SKILL_ID}
+            ))
+
+            # exhaust every real instance for SKILL_ID, then hit `exhausted`
+            candidates = await owner_client.call_tool(
+                "get_candidates", {"session_id": session_id, "skill_id": SKILL_ID}
+            )
+            _record(candidates)
+            for instance in candidates.structuredContent["instances"]:
+                submitted = await owner_client.call_tool("submit_attempt", _submit_args(session_id, instance))
+                _record(submitted)
+            exhausted = await owner_client.call_tool(
+                "get_candidates", {"session_id": session_id, "skill_id": SKILL_ID}
+            )
+            _record(exhausted)
+            assert exhausted.structuredContent["signal"] == "exhausted"
+            repeat_instance = exhausted.structuredContent["instances"][0]
+
+            # discarded (§3 abandonment guard)
+            discarded = await owner_client.call_tool(
+                "submit_attempt",
+                _submit_args(
+                    session_id, repeat_instance,
+                    attempt_id="canary-discard", timed_out=True, engaged=False, session_last_event=True,
+                ),
+            )
+            _record(discarded)
+            assert discarded.structuredContent["signal"] == "discarded"
+
+            # ingest_rejected: an out-of-taxonomy `context` fails attempt-event schema
+            rejected = await owner_client.call_tool(
+                "submit_attempt",
+                _submit_args(session_id, repeat_instance, attempt_id="canary-reject", context="not_a_real_context"),
+            )
+            _record(rejected)
+            assert rejected.isError
+
+            # fetch_batch against an exhausted pool -> a normal, empty batch
+            _record(await owner_client.call_tool(
+                "fetch_batch", {"session_id": session_id, "skill_id": SKILL_ID}
+            ))
+
+            # no_further_items
+            refilled = await owner_client.call_tool(
+                "refill_batch",
+                {"session_id": session_id, "skill_id": SKILL_ID, "attempts_flushed": True},
+            )
+            _record(refilled)
+            assert refilled.structuredContent["signal"] == "no_further_items"
+
+            # progress / recommendation reads
+            _record(await owner_client.call_tool("get_student_progress", {"student_id": student_id}))
+            _record(await owner_client.call_tool(
+                "recommend_next", {"student_id": student_id, **DEFAULT_OPEN_EXTRA}
+            ))
+
+            # session_unknown
+            _record(await owner_client.call_tool(
+                "get_candidates", {"session_id": "sess-never-issued-canary", "skill_id": SKILL_ID}
+            ))
+
+            # not_linked, via a stranger consumer never linked to this student
+            async with create_connected_server_and_client_session(stranger) as stranger_client:
+                not_linked_progress = await stranger_client.call_tool(
+                    "get_student_progress", {"student_id": student_id}
+                )
+                _record(not_linked_progress)
+                assert not_linked_progress.isError and "not_linked" in not_linked_progress.content[0].text
+
+                not_linked_batch = await stranger_client.call_tool(
+                    "fetch_batch", {"session_id": session_id, "skill_id": SKILL_ID}
+                )
+                _record(not_linked_batch)
+
+                mismatched_link = await stranger_client.call_tool(
+                    "link_student",
+                    {"student_id": student_id, "attributes": {"guardian_email": "wrong@example.com"}},
+                )
+                _record(mismatched_link)
+
+            # session_conflict: a second, now-linked consumer opens while
+            # the owner's session is still live.
+            identity_registry.link_student(student_id, {"guardian_email": SENTINEL}, consumer_id="partner.helper")
+            async with create_connected_server_and_client_session(helper) as helper_client:
+                conflict = await helper_client.call_tool("open_session", _open_args(student_id))
+                _record(conflict)
+                assert conflict.isError and "session_conflict" in conflict.content[0].text
+
+        # session_expired: a separate short-TTL facade sharing the same
+        # identity registry.
+        async with create_connected_server_and_client_session(ttl_owner) as ttl_client:
+            ttl_opened = await ttl_client.call_tool("open_session", _open_args(student_id))
+            _record(ttl_opened)
+            await asyncio.sleep(0.15)
+            expired = await ttl_client.call_tool(
+                "get_candidates",
+                {"session_id": ttl_opened.structuredContent["session_id"], "skill_id": SKILL_ID},
+            )
+            _record(expired)
+            assert expired.isError and "session_expired" in expired.content[0].text
+
+    _run(flow())
+
+    for payload in seen_payloads:
+        _assert_no_sentinel(payload, SENTINEL)

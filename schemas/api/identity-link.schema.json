@@ -1,0 +1,29 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/api/identity-link.schema.json",
+  "title": "MCP link_student Response",
+  "description": "Serving-integrity contract U11/R15: `tools/mcp_server.py`'s `link_student` tool response, built by `_serialize_link`. U4/R17: confirms the link this server's own consumer_id (never a caller-supplied value) now has to student_id, echoing back only opaque ids and the caller's own link_basis provenance string — never the attributes that proved the match.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["linked", "student_id", "consumer_id", "link_basis"],
+  "properties": {
+    "linked": {
+      "const": true,
+      "description": "Always true on a successful response — a failed link (unregistered student_id, mismatched attributes) raises a tool error instead of returning linked=false."
+    },
+    "student_id": {
+      "type": "string",
+      "pattern": "^stu-[0-9a-f]{32}$",
+      "description": "The student_id the link was made to."
+    },
+    "consumer_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "This server's own startup-configured consumer_id (KTD2) — never a tool parameter, so this always echoes server configuration."
+    },
+    "link_basis": {
+      "type": ["string", "null"],
+      "description": "orchestrator/identity.py's IdentityRegistry.link_student: an optional, unverified consent-provenance string recorded verbatim (e.g. \"guardian_authorized\"), or null when none was given."
+    }
+  }
+}
