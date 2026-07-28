@@ -742,6 +742,91 @@ def test_concurrent_submit_attempt_on_same_session_is_serialized(
     assert progress.skills[SKILL_ID].seen_count == 2
 
 
+# --- KTD17 P0 fix: a registered session's lock survives teardown -------------
+
+
+def test_lock_for_survives_takeover_teardown_no_silent_nullcontext_degrade(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """P0 fix: `_lock_for` used to resolve a session's lock via a fresh
+    `session_id` lookup into the registry on *every* call
+    (`SessionRegistry.lock_for`). That lookup returning `None` meant two
+    different things it could not tell apart: "this Session was never
+    registered at all" (the internal runner's legitimate no-op case) and
+    "this Session WAS registered, but a concurrent takeover-on-open/close/
+    TTL-eviction just removed its entry" (a bug — an operation already in
+    flight against the old Session would silently drop to an unlocked
+    `contextlib.nullcontext()` right when concurrent access is most
+    likely). This proves the fix: a caller already holding a reference to
+    a *registered* `Session` keeps using that exact `threading.Lock`
+    instance for mutual exclusion, even after a same-consumer
+    takeover-on-open has removed its registry entry entirely."""
+    bank_activate.activate(banks_dir, "build-a")
+    session1 = _open(facade, "sess-lockrace-1", "stu-lockrace")
+
+    lock1 = facade._lock_for(session1)
+    # A real Lock was attached at registration -- not a no-op nullcontext
+    # (which has no acquire/release methods at all).
+    assert hasattr(lock1, "acquire") and hasattr(lock1, "release")
+
+    # Simulate an operation already holding session1's lock (e.g. a slow
+    # submit_attempt mid-body) at the exact moment a same-consumer
+    # takeover-on-open tears down session1's registry entry.
+    assert lock1.acquire(blocking=False) is True
+    try:
+        session2 = _open(facade, "sess-lockrace-2", "stu-lockrace")  # takeover-on-open
+        assert session2.session_id != session1.session_id
+
+        # session1's registry entry is gone now -- but _lock_for(session1)
+        # must still resolve to the SAME lock instance, still held, not a
+        # fresh nullcontext a second caller could silently sail through.
+        lock1_again = facade._lock_for(session1)
+        assert lock1_again is lock1
+        assert lock1_again.acquire(blocking=False) is False  # still held: real mutual exclusion
+    finally:
+        lock1.release()
+
+    # Once released, a fresh acquire succeeds normally -- confirms this is
+    # a genuinely working Lock, not some inert stand-in.
+    reacquired = facade._lock_for(session1)
+    assert reacquired.acquire(blocking=False) is True
+    reacquired.release()
+
+    # The new, currently-registered session2 got its own, different lock
+    # instance -- teardown of session1 never leaked or reused it.
+    lock2 = facade._lock_for(session2)
+    assert lock2 is not lock1
+    assert hasattr(lock2, "acquire")
+
+
+def test_lock_for_ephemeral_never_registered_session_stays_nullcontext(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """The internal session runner's ephemeral `Session` objects
+    (`orchestrator/session.py`) are constructed directly via `Session(...)`
+    and never pass through `register_or_conflict` — `_lock_for` must keep
+    handing them a genuine no-op `contextlib.nullcontext()` (their
+    documented single-writer posture, unchanged by the KTD17 P0 fix above:
+    the fix only changes *how* a registered session's lock is resolved,
+    never what an unregistered one gets)."""
+    bank_activate.activate(banks_dir, "build-a")
+    bank = engine.load_bank(banks_dir / "build-a")
+    ephemeral = serving.Session(
+        session_id="sess-ephemeral-never-registered",
+        student_id="stu-ephemeral",
+        bank=bank,
+        log_path=banks_dir.parent / "logs" / "stu-ephemeral.jsonl",
+        store=StudentModelStore(),
+        engine_state=engine.EngineState(),
+    )
+    assert ephemeral._lock is None
+
+    ctx = facade._lock_for(ephemeral)
+    assert not hasattr(ctx, "acquire")  # nullcontext, not a real Lock
+    with ctx:  # still usable as a context manager, exactly as submit_attempt uses it
+        pass
+
+
 # --- U6: attempt_id idempotency (R19, AE7, KTD4) ------------------------------
 
 

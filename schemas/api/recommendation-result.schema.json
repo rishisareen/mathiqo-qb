@@ -1,0 +1,36 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/api/recommendation-result.schema.json",
+  "title": "MCP/REST recommend_next Response",
+  "description": "Serving-integrity contract U8/U11/R15: `recommend_next`'s declared contract — a ranked, reasoned list of ready-to-learn skills, session-less (R6, R7, KTD3), sharing engine.rank_serve_candidates with select_next so the partner path and the internal path cannot diverge pedagogically. content_version (R15/KTD9) was missing from the shipped response until a code-review pass caught it; every catalog/graph/recommendation response must stamp it.",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["student_id", "bank_version", "content_version", "recommendations"],
+  "properties": {
+    "student_id": { "type": "string", "minLength": 1 },
+    "bank_version": { "type": "string", "minLength": 1 },
+    "content_version": { "type": "string", "minLength": 1 },
+    "recommendations": {
+      "type": "array",
+      "description": "Ordered by priority (due review -> remediation -> stepdown -> prereq_probe -> placement -> frontier).",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["skill_id", "reason", "context", "target_depth", "unservable"],
+        "properties": {
+          "skill_id": { "type": "string", "minLength": 1 },
+          "reason": {
+            "type": "string",
+            "enum": ["review", "remediation", "stepdown", "prereq_probe", "placement", "frontier"]
+          },
+          "context": { "type": "string", "enum": ["placement", "practice", "review", "probe"] },
+          "target_depth": { "type": "number", "minimum": 0, "maximum": 1 },
+          "unservable": {
+            "type": "boolean",
+            "description": "True when the checked bank has no instances for this skill (KTD3) — never dropped from the list, only annotated."
+          }
+        }
+      }
+    }
+  }
+}

@@ -286,10 +286,19 @@ def build_app(
         session_id: str, body: SubmitAttemptRequest, consumer_id: str = Depends(_resolve_consumer_id)
     ) -> dict[str, Any]:
         session_obj = _session_or_raise(session_id)
-        instance = session_obj.bank.by_id.get(body.item_instance_id)
+        # `_resolve_instance` (defined in mcp_server.py, reused here the same
+        # way this module already reuses its `_serialize_*` builders): falls
+        # back to whatever retained build item_instance_id was actually
+        # served from when it isn't in this session's own pinned bank, so
+        # R19 Path B's session-less stale-bank validation is reachable
+        # through this transport too, not just tools/mcp_server.py.
+        instance = mcp_server._resolve_instance(facade, session_obj, body.item_instance_id)
         if instance is None:
             _generic_error(
-                ValueError(f"unresolvable_instance: {body.item_instance_id!r} is not in this session's pinned bank")
+                ValueError(
+                    f"unresolvable_instance: {body.item_instance_id!r} is not in this session's pinned bank "
+                    "or any retained bank build"
+                )
             )
 
         try:

@@ -221,7 +221,32 @@ class Session:
     fresh `open_session`, unlike `engine_state.seen_history`). Defaulted to
     an empty set for the same reason `accepted_attempts` is: the internal
     session runner's own direct `Session(...)` construction doesn't set
-    it."""
+    it.
+
+    KTD17 (P0 fix): `_lock` is this session's own mutual-exclusion lock,
+    attached once by `SessionRegistry.register_or_conflict` at the moment
+    `open_session` registers it — never re-resolved by `session_id` on
+    every call the way it used to be. This is deliberate: a fresh
+    session_id-keyed lookup on every `_lock_for` call meant a session
+    already torn down mid-operation (a concurrent takeover-on-open,
+    `close_session`/`close_session_by_student`, or TTL eviction removing
+    its registry entry) became indistinguishable from a `Session` that was
+    *never* registered at all — both read back `None` and silently fell
+    through to a no-op `contextlib.nullcontext()`, exactly when teardown
+    makes concurrent access most likely. Storing the lock on the `Session`
+    object itself instead means a caller already holding a `Session`
+    reference keeps using that same lock instance for that object's whole
+    life, regardless of whether the registry has since removed its entry —
+    while a `Session` that genuinely never went through
+    `register_or_conflict` (the internal session runner's ephemeral
+    objects, `orchestrator/session.py`) never has this attribute set and
+    correctly keeps its documented unlocked, single-writer posture.
+    Defaulted to `None` for the same reason every other registry-only
+    field here is: the internal runner's direct `Session(...)`
+    construction doesn't set it. Excluded from `repr`/equality
+    (`threading.Lock` has no meaningful repr or equality of its own, and
+    every existing equality-sensitive test constructs a `Session` without
+    ever registering it, so this field is always `None` there anyway)."""
 
     session_id: str
     student_id: str
@@ -234,6 +259,7 @@ class Session:
     grade: Optional[int] = None
     accepted_attempts: Dict[str, "SubmitOutcome"] = field(default_factory=dict)
     delivered: Set[str] = field(default_factory=set)
+    _lock: "Optional[threading.Lock]" = field(default=None, repr=False, compare=False)
 
 
 @dataclass
@@ -333,22 +359,31 @@ def _accepted_attempts_from_log(log_path: Path) -> Dict[str, SubmitOutcome]:
 class _SessionEntry:
     """`SessionRegistry`'s own bookkeeping for one registered session,
     deliberately kept separate from `Session` itself (registry concerns —
-    who opened it, when it was last touched, its lock — aren't serving
-    domain state and have no business on the object `get_candidates`/
-    `submit_attempt` operate on)."""
+    who opened it, when it was last touched — aren't serving domain state
+    and have no business on the object `get_candidates`/`submit_attempt`
+    operate on).
+
+    KTD17 (P0 fix): the per-session lock is deliberately *not* duplicated
+    here anymore — it lives on `session._lock` itself (see `Session`'s own
+    docstring for why: a fresh session_id-keyed lookup on every call used
+    to make a torn-down-but-still-in-flight session indistinguishable from
+    one that was never registered at all). This entry's only job regarding
+    the lock is that `register_or_conflict` attaches one to `session`
+    exactly once, at registration."""
 
     session: Session
     consumer_id: str
-    lock: threading.Lock
     last_activity: float
 
 
 class SessionRegistry:
     """KTD12: the session dict moves here, owned by the facade layer, so
     both the MCP server and a later REST transport (later units) share one
-    registry rather than each keeping its own closured dict. Also KTD17's
-    home for per-session locks, and the TTL/idle-eviction policy
-    (`SESSION_TTL_SECONDS`).
+    registry rather than each keeping its own closured dict. Also owns the
+    TTL/idle-eviction policy (`SESSION_TTL_SECONDS`); `register_or_conflict`
+    is where KTD17's per-session lock gets attached (onto `session._lock`
+    itself, not stored here — see `Session`'s own docstring for the P0 fix
+    this attachment point exists to make correct).
 
     Two indices: `session_id -> _SessionEntry` (the primary lookup every
     tool call needs) and `student_id -> session_id` (R20/AE9's
@@ -359,7 +394,7 @@ class SessionRegistry:
 
     All mutating operations take `self._registry_lock` — a single lock
     guarding the *index structures themselves* (registration, eviction,
-    pop), not a session's own state (that's each `_SessionEntry.lock`,
+    pop), not a session's own state (that's each `Session`'s own `_lock`,
     KTD17). The two are deliberately different locks: holding the registry
     lock for the width of, say, `submit_attempt`'s whole body would
     serialize unrelated students' concurrent attempts against each other,
@@ -412,12 +447,9 @@ class SessionRegistry:
             return entry
         if session_id in self._expired_ids:
             raise SessionExpiredError(
-                f"{signals.SESSION_EXPIRED}: session {session_id!r} was idle-evicted after "
-                f"{self._ttl_seconds:.0f}s with no activity"
+                f"session {session_id!r} was idle-evicted after {self._ttl_seconds:.0f}s with no activity"
             )
-        raise SessionUnknownError(
-            f"{signals.SESSION_UNKNOWN}: {session_id!r} is not a session_id this registry ever issued"
-        )
+        raise SessionUnknownError(f"{session_id!r} is not a session_id this registry ever issued")
 
     # -- public -------------------------------------------------------------
 
@@ -429,7 +461,20 @@ class SessionRegistry:
         log its closure with the right attribution (KTD6's takeover flow).
         If it has one opened by a *different* consumer, raise
         `SessionConflictError` — this new session is never registered
-        (R20/AE9: the first session is left completely unaffected)."""
+        (R20/AE9: the first session is left completely unaffected).
+
+        KTD17 (P0 fix): attaches `session`'s own mutual-exclusion lock
+        here, exactly once, onto `session._lock` itself — not into this
+        entry, and never re-created or re-resolved later. `session` is
+        still purely local to the caller (`open_session`) at this point,
+        about to be returned as its result, so setting the attribute here
+        is unguarded by anything beyond `self._registry_lock` already held
+        for this whole call and races with nothing. The prior session (on
+        a takeover) keeps whatever lock instance was attached at *its own*
+        registration — untouched by this call — so anything still holding
+        a reference to it after this method removes its registry entry
+        keeps serializing against that same lock (see `Session`'s and
+        `ServingFacade._lock_for`'s docstrings for the full "why")."""
         with self._registry_lock:
             self._evict_expired_locked(time.monotonic())
             existing_session_id = self._by_student.get(session.student_id)
@@ -440,8 +485,9 @@ class SessionRegistry:
                     raise SessionConflictError(session.student_id, existing_session_id)
                 prior_session = existing_entry.session
                 del self._entries[existing_session_id]
+            session._lock = threading.Lock()
             self._entries[session.session_id] = _SessionEntry(
-                session=session, consumer_id=consumer_id, lock=threading.Lock(), last_activity=time.monotonic()
+                session=session, consumer_id=consumer_id, last_activity=time.monotonic()
             )
             self._by_student[session.student_id] = session.session_id
             return prior_session
@@ -483,14 +529,14 @@ class SessionRegistry:
             self._evict_expired_locked(time.monotonic())
             return self._get_entry_locked(session_id).consumer_id
 
-    def lock_for(self, session_id: str) -> "Optional[threading.Lock]":
-        """`None` when `session_id` isn't registered at all (the internal
-        session runner's ephemeral, never-registered `Session` objects) —
-        callers fall back to a no-op lock in that case, preserving that
-        runner's documented single-writer posture unchanged."""
-        with self._registry_lock:
-            entry = self._entries.get(session_id)
-            return entry.lock if entry is not None else None
+    # KTD17 (P0 fix): there is no more `lock_for(session_id)` registry
+    # lookup here — a fresh session_id-keyed lookup on every call was
+    # exactly the bug (a torn-down-but-still-in-flight session became
+    # indistinguishable from a never-registered one, both reading back
+    # `None`). `register_or_conflict` above attaches the lock directly to
+    # `session._lock` at registration instead; `ServingFacade._lock_for`
+    # reads it straight off the `Session` object it already holds. See
+    # `Session`'s and `_SessionEntry`'s own docstrings for the full "why".
 
     def touch(self, session_id: str) -> None:
         with self._registry_lock:
@@ -588,6 +634,7 @@ class RecommendedSkill:
 class RecommendationsResult:
     student_id: str
     bank_version: str
+    content_version: str
     recommendations: List[RecommendedSkill] = field(default_factory=list)
 
 
@@ -681,14 +728,26 @@ class ServingFacade:
         )
 
     def _lock_for(self, session: Session) -> "contextlib.AbstractContextManager":
-        """KTD17: the registered session's own lock when `session` is
-        actually registered in `self.sessions` (every session opened via
-        `open_session`); a no-op context manager otherwise, so the internal
-        session runner's ephemeral, never-registered `Session` objects
-        (`orchestrator/session.py`) keep their existing unlocked,
-        single-writer behavior exactly as documented there."""
-        lock = self.sessions.lock_for(session.session_id)
-        return lock if lock is not None else contextlib.nullcontext()
+        """KTD17 (P0 fix): reads the lock straight off `session._lock` —
+        set once by `SessionRegistry.register_or_conflict` at the moment
+        this exact `Session` object was registered — rather than a fresh
+        `session_id`-keyed lookup into `self.sessions` on every call. The
+        old lookup-by-id approach silently degraded to a no-op lock not
+        only for the internal session runner's legitimate never-registered
+        `Session` objects, but *also* for a genuinely-registered session
+        whose registry entry a concurrent takeover-on-open/close/TTL
+        eviction had just removed — indistinguishable failure modes, one
+        intentional and one a correctness bug (KTD17 P0). Reading the
+        attribute directly fixes that: a `Session` still carries its own
+        lock for its whole object lifetime regardless of what the registry
+        does to its entry afterward, so anything already holding this
+        exact `Session` reference keeps serializing against the same lock
+        instance. A no-op `contextlib.nullcontext()` only when `session`
+        never went through `register_or_conflict` at all (`_lock` stays
+        its dataclass default of `None`) — the internal session runner's
+        ephemeral objects (`orchestrator/session.py`) keep their existing
+        unlocked, single-writer behavior exactly as documented there."""
+        return session._lock if session._lock is not None else contextlib.nullcontext()
 
     def open_session(
         self,
@@ -1333,7 +1392,10 @@ class ServingFacade:
             for candidate in ranked
         ]
         return RecommendationsResult(
-            student_id=student_id, bank_version=bank.bank_version, recommendations=recommendations
+            student_id=student_id,
+            bank_version=bank.bank_version,
+            content_version=self.content.content_version,
+            recommendations=recommendations,
         )
 
     def close_session(self, session: Session, consumer_id: str) -> None:

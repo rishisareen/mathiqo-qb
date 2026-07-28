@@ -105,6 +105,66 @@ FACADE_OPERATIONS = (
 )
 
 
+def _resolve_instance(
+    facade: serving.ServingFacade, session_obj: serving.Session, item_instance_id: str
+) -> "dict[str, Any] | None":
+    """`submit_attempt`'s instance-resolution step, shared by this module
+    and `tools/rest_server.py` (which reuses it as `mcp_server._resolve_instance`,
+    the same cross-module reuse posture as `_serialize_progress` etc.).
+
+    An `item_instance_id` is scoped to the bank build it was materialized
+    from — `tools/bank_build.py`'s `materialize_instance` stamps it
+    `f"{template_id}#{bank_version}#{rank:05d}"`, and the instance dict
+    itself always carries that same `bank_version`
+    (`schemas/item-instance.schema.json`). A session's own pinned bank
+    (`session_obj.bank.by_id`) only ever indexes instances from the one
+    build it opened against (KTD3, R3/R4) — so an instance legitimately
+    served from a build that a later `bank_activate` repoint has since
+    superseded can never be found there once a *new* session (pinned to
+    the newer build) is the one resubmitting it. That's exactly
+    `ServingFacade.submit_attempt`'s Path B recovery scenario (R19): without
+    this fallback, this lookup returning `None` and the caller raising
+    `unresolvable_instance` right here means Path B's session-less
+    validation is never reached — this whole recovery path was dead code
+    from any real client, confirmed independently by two reviewers.
+
+    Falls back to the item_instance_id's own embedded bank_version,
+    resolved against any retained build `facade.bank_lookup` can still
+    load (KTD7 — the same "any retained build" machinery
+    `tools/replay_audit.py` and `engine.rebuild_session_state` already use
+    for per-event resolution, not just the currently-ACTIVE one). Returns
+    `None` — the caller still raises `unresolvable_instance` — only when
+    `item_instance_id` is a genuinely bogus/foreign id: absent from the
+    session's own bank AND absent from (or its embedded version names no)
+    any retained build."""
+    instance = session_obj.bank.by_id.get(item_instance_id)
+    if instance is not None:
+        return instance
+
+    # bank_build.py's own convention: "<template_id>#<bank_version>#<rank>".
+    # template_id (schemas/item-instance.schema.json:
+    # "^TPL\\.[A-Z0-9][A-Z0-9.-]*$") and the zero-padded numeric rank suffix
+    # never contain '#', so the first and last '#' in the id bound
+    # bank_version even in the unlikely case bank_version itself contains
+    # one — more robust than a plain split("#") would be.
+    first_hash = item_instance_id.find("#")
+    last_hash = item_instance_id.rfind("#")
+    if first_hash == -1 or last_hash == first_hash:
+        return None
+    candidate_version = item_instance_id[first_hash + 1 : last_hash]
+    if not candidate_version or candidate_version == session_obj.bank.bank_version:
+        # Malformed, or names the bank already checked above.
+        return None
+    try:
+        stale_bank = facade.bank_lookup(candidate_version)
+    except Exception:
+        # No retained build under that name (evicted from disk, or the
+        # extracted segment was never a real bank_version at all) — treat
+        # as unresolvable, same as if the id were simply unknown.
+        return None
+    return stale_bank.by_id.get(item_instance_id)
+
+
 def _serialize_progress(summary: serving.ProgressSummary) -> dict[str, Any]:
     """`get_student_progress`'s declared contract: this exact shape, not
     whatever fields ProgressSummary happens to carry — a schema partners
@@ -127,10 +187,14 @@ def _serialize_progress(summary: serving.ProgressSummary) -> dict[str, Any]:
 
 def _serialize_recommendations(result: serving.RecommendationsResult) -> dict[str, Any]:
     """`recommend_next`'s declared contract: a ranked list of
-    skill/reason/context/target_depth/unservable entries (R6/R7/KTD3)."""
+    skill/reason/context/target_depth/unservable entries (R6/R7/KTD3).
+    `content_version` (R15/KTD9) was missing from this response until a
+    code-review pass caught it — every catalog/graph/recommendation read
+    must stamp it, per the plan's own requirement."""
     return {
         "student_id": result.student_id,
         "bank_version": result.bank_version,
+        "content_version": result.content_version,
         "recommendations": [
             {
                 "skill_id": r.skill_id,
@@ -379,8 +443,12 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         context: str,
     ) -> dict[str, Any]:
         """R5, R6: validates and logs one attempt. `item_instance_id`
-        resolves against this session's own pinned bank server-side (a
-        caller can never smuggle in an instance from elsewhere);
+        resolves first against this session's own pinned bank server-side
+        (a caller can never smuggle in an instance from elsewhere), then —
+        only if not found there — against whatever retained build it was
+        actually served from (`_resolve_instance`, R19 Path B's transport
+        half: an instance from a now-superseded build must still resolve
+        so the facade's session-less stale-bank validation is reachable);
         `consumer_id` is this server's own configuration (KTD2), never a
         parameter here. A KTD5 rejection raises a structured tool error
         naming the failing check; an accepted repeat (KD5) is not an
@@ -393,9 +461,12 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         than double-applying the attempt (`ServingFacade.submit_attempt`'s
         two-path idempotency design)."""
         session_obj = _session_or_raise(session_id)
-        instance = session_obj.bank.by_id.get(item_instance_id)
+        instance = _resolve_instance(facade, session_obj, item_instance_id)
         if instance is None:
-            raise ToolError(f"unresolvable_instance: {item_instance_id!r} is not in this session's pinned bank")
+            raise ToolError(
+                f"unresolvable_instance: {item_instance_id!r} is not in this session's pinned bank "
+                "or any retained bank build"
+            )
 
         try:
             outcome = facade.submit_attempt(

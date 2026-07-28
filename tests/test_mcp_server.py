@@ -24,6 +24,7 @@ import pytest
 
 pytest.importorskip("mcp")
 
+import bank_activate
 import bank_build
 from conftest import REPO_ROOT
 from orchestrator import engine, log as log_module, serving
@@ -255,10 +256,12 @@ def test_recommend_next_returns_declared_shape_over_mcp(facade: serving.ServingF
     result = _run(flow())
     assert not result.isError
     body = result.structuredContent
-    assert set(body) == {"student_id", "bank_version", "recommendations"}
+    assert set(body) == {"student_id", "bank_version", "content_version", "recommendations"}
     assert body["student_id"] == "stu-recommend"
     assert body["bank_version"] == "mcp-build"
+    assert body["content_version"]
     assert body["recommendations"]
+    _assert_valid("recommendation-result.schema.json", body)
     entry = body["recommendations"][0]
     assert set(entry) == {"skill_id", "reason", "context", "target_depth", "unservable"}
     assert entry["reason"] in {"review", "remediation", "stepdown", "prereq_probe", "placement", "frontier"}
@@ -1036,3 +1039,119 @@ def test_pii_canary_sentinel_never_leaks_across_the_new_mcp_surface(
 
     for payload in seen_payloads:
         _assert_no_sentinel(payload, SENTINEL)
+
+
+# --- R19 Path B, reachable end-to-end through the real MCP transport --------
+
+
+def test_submit_attempt_path_b_reachable_through_mcp_transport_after_bank_repoint(
+    tmp_path: Path, content: engine.ContentIndex
+) -> None:
+    """P0 fix: `submit_attempt`'s instance resolution used to look up
+    `item_instance_id` only in `session_obj.bank.by_id` (the *current*
+    session's pinned bank) — an instance genuinely served from a build that
+    a later `bank_activate` repoint superseded could never be found there
+    by a fresh session pinned to the new build, so this tool always raised
+    `unresolvable_instance` before the facade's `submit_attempt` (and its
+    Path B session-less stale-bank validation, R19) was ever reached. Path
+    B was real and tested at the facade level (`tests/test_serving.py`) but
+    unreachable from any real client.
+
+    Scenario mirroring the recovery case Path B exists for: open a session
+    against bank-a, fetch a real instance from it, repoint ACTIVE to
+    bank-b, open a *new* session for the same student (now pinned to
+    bank-b, simulating a client that lost its old session and reopened
+    under the newer build), and submit the bank-a instance's attempt
+    through the real `submit_attempt` tool. Must succeed via Path B (not
+    `unresolvable_instance`), and a second identical resubmission must then
+    hit Path A (cached — no double-apply)."""
+    banks_dir = tmp_path / "banks"
+    banks_dir.mkdir()
+    templates_dir = _templates_dir(tmp_path)
+
+    manifest_a, per_template_a = bank_build.run_build(templates_dir, LOCALE_PACK, "bank-a", pool_cap=5)
+    bank_build.write_bank(banks_dir, "bank-a", manifest_a, per_template_a)
+    bank_activate.activate(banks_dir, "bank-a")
+
+    logs_dir = tmp_path / "logs"
+    logs_dir.mkdir()
+    facade = serving.ServingFacade(banks_dir, logs_dir, content)
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    student_id = "stu-pathb-transport"
+
+    async def open_a_and_fetch_instance():
+        async with create_connected_server_and_client_session(server) as client:
+            opened = await client.call_tool("open_session", _open_args(student_id))
+            assert not opened.isError
+            assert opened.structuredContent["bank_version"] == "bank-a"
+            session_id = opened.structuredContent["session_id"]
+            candidates = await client.call_tool(
+                "get_candidates", {"session_id": session_id, "skill_id": SKILL_ID}
+            )
+            return candidates.structuredContent["instances"][0]
+
+    instance_a = _run(open_a_and_fetch_instance())
+    assert instance_a["bank_version"] == "bank-a"
+
+    # Repoint ACTIVE to a second, distinct build — bank-a stays on disk as
+    # a retained build (KTD7), never deleted.
+    manifest_b, per_template_b = bank_build.run_build(templates_dir, LOCALE_PACK, "bank-b", pool_cap=5)
+    bank_build.write_bank(banks_dir, "bank-b", manifest_b, per_template_b)
+    bank_activate.activate(banks_dir, "bank-b")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            # Same consumer reopening for the same student takes over
+            # (R20) — the new session pins to whatever is ACTIVE now,
+            # bank-b, simulating the client resubmitting under a fresh
+            # session after losing the one opened against bank-a.
+            opened_b = await client.call_tool("open_session", _open_args(student_id))
+            assert not opened_b.isError
+            assert opened_b.structuredContent["bank_version"] == "bank-b"
+            session_id_b = opened_b.structuredContent["session_id"]
+
+            args = _submit_args(session_id_b, instance_a)
+            submitted = await client.call_tool("submit_attempt", args)
+            assert not submitted.isError, submitted.content
+            assert submitted.structuredContent["logged"] is True
+            assert submitted.structuredContent["repeat"] is False
+            first_event_id = submitted.structuredContent["event_id"]
+
+            # A second, identical resubmission of the same attempt_id must
+            # hit Path A — the cached outcome, not a second log line.
+            resubmitted = await client.call_tool("submit_attempt", args)
+            assert not resubmitted.isError, resubmitted.content
+            assert resubmitted.structuredContent["event_id"] == first_event_id
+
+    _run(flow())
+
+    log_path = logs_dir / f"{student_id}.jsonl"
+    events = list(log_module.iter_events(log_path))
+    assert len(events) == 1
+    assert events[0]["bank_version"] == "bank-a"
+    assert events[0]["item_instance_id"] == instance_a["item_instance_id"]
+
+
+def test_submit_attempt_unresolvable_instance_still_rejected_when_truly_bogus(
+    facade: serving.ServingFacade,
+) -> None:
+    """The fallback added for R19 Path B must not turn every bogus
+    item_instance_id into a silent pass-through: an id that names neither
+    the session's own pinned bank nor any retained build on disk (a typo,
+    or a genuinely foreign id) still raises `unresolvable_instance`."""
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            opened = await client.call_tool("open_session", _open_args("stu-bogus-instance"))
+            session_id = opened.structuredContent["session_id"]
+            args = _submit_args(
+                session_id,
+                {"item_instance_id": "TPL.FRAC.ADD.LIKE.NUM.001#no-such-build#00000", "answer": "1"},
+            )
+            return await client.call_tool("submit_attempt", args)
+
+    result = _run(flow())
+    assert result.isError
+    assert "unresolvable_instance" in result.content[0].text
