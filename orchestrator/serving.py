@@ -41,6 +41,7 @@ from . import constants
 from . import engine
 from . import ingest as ingest_module
 from . import log as log_module
+from .identity import IdentityRegistry
 from .state import StudentModelStore, certification_status
 from .update import Attempt
 
@@ -63,6 +64,14 @@ class InvalidIdentifierError(ServingError):
 class NoActiveBankError(ServingError):
     """Point 5: no ACTIVE pointer, or it names a build no longer on disk —
     named rather than left as an undefined filesystem failure."""
+
+
+class NoIdentityRegistryError(ServingError):
+    """U4's identity pass-through methods (`register_student`,
+    `link_student`, `find_student`, `is_linked`) were called on a facade
+    constructed without an `IdentityRegistry` (the constructor's `identity`
+    param defaults to `None` — most callers, and every existing test that
+    predates U4, never configure one)."""
 
 
 class IngestRejectedError(ServingError):
@@ -195,7 +204,16 @@ class ServingFacade:
     one version, so `engine.make_static_bank_lookup(bank)` is both
     sufficient and avoids requiring a registry directory that caller
     doesn't have). `banks_dir`/`logs_dir` may then be `None` — nothing
-    reads them unless `open_session` is actually called."""
+    reads them unless `open_session` is actually called.
+
+    `identity`, when given, is an already-constructed `IdentityRegistry`
+    (U4) — this facade never derives its path or constructs one itself,
+    it only holds the instance a caller configured. It defaults to `None`:
+    this unit does not wire link enforcement into `open_session` /
+    `submit_attempt` / etc. (that's a later unit), it only exposes the
+    registry's own operations as thin pass-throughs below, so most callers
+    and every pre-U4 test can keep constructing a `ServingFacade` exactly
+    as before."""
 
     def __init__(
         self,
@@ -203,11 +221,13 @@ class ServingFacade:
         logs_dir: Optional[Path],
         content: engine.ContentIndex,
         bank_lookup: Optional[engine.BankLookup] = None,
+        identity: Optional[IdentityRegistry] = None,
     ):
         self.banks_dir = banks_dir
         self.logs_dir = logs_dir
         self.content = content
         self.bank_lookup = bank_lookup or engine.make_bank_lookup(banks_dir)
+        self.identity = identity
 
     def _log_path_for(self, student_id: str) -> Path:
         validate_identifier(student_id, "student_id")
@@ -392,3 +412,37 @@ class ServingFacade:
         kept as an explicit lifecycle method so callers (and the MCP tool
         surface, KTD6) have a symmetric open/close pair regardless."""
         return None
+
+    # -- U4 identity pass-throughs -----------------------------------------
+    #
+    # Thin delegation to `self.identity` (an `IdentityRegistry`, U4) so
+    # later units can build on a facade that already exposes registration
+    # and linking — none of these are wired into open_session/
+    # submit_attempt/get_candidates/get_progress above; that enforcement is
+    # a later unit's job (see the constructor docstring).
+
+    def register_student(self, attributes: dict, consumer_id: str) -> str:
+        if self.identity is None:
+            raise NoIdentityRegistryError("this ServingFacade was constructed without an identity registry")
+        return self.identity.register_student(attributes, consumer_id)
+
+    def link_student(
+        self,
+        student_id: str,
+        attributes: dict,
+        consumer_id: str,
+        link_basis: Optional[str] = None,
+    ) -> None:
+        if self.identity is None:
+            raise NoIdentityRegistryError("this ServingFacade was constructed without an identity registry")
+        self.identity.link_student(student_id, attributes, consumer_id, link_basis)
+
+    def find_student(self, attributes: dict) -> Optional[str]:
+        if self.identity is None:
+            raise NoIdentityRegistryError("this ServingFacade was constructed without an identity registry")
+        return self.identity.find_student(attributes)
+
+    def is_linked(self, consumer_id: str, student_id: str) -> bool:
+        if self.identity is None:
+            raise NoIdentityRegistryError("this ServingFacade was constructed without an identity registry")
+        return self.identity.is_linked(consumer_id, student_id)
