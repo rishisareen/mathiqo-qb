@@ -42,6 +42,7 @@ from datetime import datetime
 from pathlib import Path
 from typing import Dict, List, Optional
 
+from . import catalog as catalog_module
 from . import constants
 from . import engine
 from . import ingest as ingest_module
@@ -926,6 +927,32 @@ class ServingFacade:
             return False
         self._log_closure(popped, consumer_id, reason="close_by_student_id")
         return True
+
+    # -- U7 catalog / skill-graph reads --------------------------------------
+    #
+    # KD3's student-independent discovery layer (R1-R4): pure reads over
+    # `self.content`, delegated straight to orchestrator/catalog.py. No
+    # session, no consumer_id, no `_check_linked` — R17's link enforcement
+    # gates student-scoped operations (open_session, submit_attempt,
+    # get_progress, close_session*); this layer is explicitly the one KD3
+    # says stays open regardless (a partner asking "what does Mathiqo
+    # cover" needs no student context to ask it).
+
+    def list_curricula(self) -> catalog_module.CatalogResult:
+        return catalog_module.list_curricula(self.content)
+
+    def list_units(self, country: str, curriculum: str, grade: int) -> catalog_module.UnitsResult:
+        return catalog_module.list_units(self.content, country, curriculum, grade)
+
+    def list_skills(
+        self, country: str, curriculum: str, grade: int, unit_code: Optional[str] = None
+    ) -> catalog_module.SkillsResult:
+        return catalog_module.list_skills(self.content, country, curriculum, grade, unit_code)
+
+    def get_skill_graph(
+        self, skill_ids: "Optional[str | List[str]]" = None
+    ) -> catalog_module.SkillGraphResult:
+        return catalog_module.get_skill_graph(self.content, skill_ids)
 
     # -- U4 identity pass-throughs -----------------------------------------
     #
