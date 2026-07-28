@@ -81,10 +81,41 @@ class LintResult:
         return not self.errors
 
 
+MANIFEST_FILENAME = "manifest.yaml"
+
+
+def check_manifest(content_dir: Path, result: LintResult) -> None:
+    """KTD9: every content pack must declare `content_version` in a
+    manifest.yaml alongside its content files — mirrors the check
+    orchestrator/engine.py's `load_content` enforces at load time (there, by
+    raising), but here as a lint error naming the missing/malformed file so
+    a content author sees it before it ever reaches a loader."""
+    manifest_path = content_dir / MANIFEST_FILENAME
+    if not manifest_path.is_file():
+        result.errors.append(
+            f"{content_dir}: missing {MANIFEST_FILENAME} (every content pack must declare content_version)"
+        )
+        return
+    try:
+        data = yaml.safe_load(manifest_path.read_text(encoding="utf-8"))
+    except yaml.YAMLError as exc:
+        result.errors.append(f"{MANIFEST_FILENAME}: YAML parse error: {exc}")
+        return
+    if not isinstance(data, dict) or not data.get("content_version"):
+        result.errors.append(f"{MANIFEST_FILENAME}: missing required 'content_version' field")
+
+
 def load_content(content_dir: Path, result: LintResult) -> dict[str, list[dict[str, Any]]]:
-    """Load every YAML file in content_dir and merge the known top-level keys."""
+    """Load every YAML file in content_dir and merge the known top-level
+    keys. manifest.yaml is excluded — it carries pack metadata (KTD9,
+    checked separately by `check_manifest`), not skills/misconceptions/
+    mappings entries, so folding it into this scan would only produce
+    spurious "unknown top-level key" warnings for its `pack`/
+    `content_version` fields."""
     content: dict[str, list[dict[str, Any]]] = {kind: [] for kind in CONTENT_KINDS}
-    yaml_files = sorted(content_dir.glob("*.yaml")) + sorted(content_dir.glob("*.yml"))
+    yaml_files = sorted(p for p in content_dir.glob("*.yaml") if p.name != MANIFEST_FILENAME) + sorted(
+        p for p in content_dir.glob("*.yml") if p.name != MANIFEST_FILENAME
+    )
     if not yaml_files:
         result.errors.append(f"{content_dir}: no .yaml/.yml content files found")
         return content
@@ -309,6 +340,7 @@ def lint_directory(content_dir: Path, schemas_dir: Path = DEFAULT_SCHEMAS_DIR) -
         result.errors.append(f"failed to load schemas from {schemas_dir}: {exc}")
         return result
 
+    check_manifest(content_dir, result)
     content = load_content(content_dir, result)
     validate_against_schemas(content, schemas, result)
     check_duplicate_ids(content, result)

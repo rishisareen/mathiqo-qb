@@ -99,6 +99,7 @@ class ContentIndex:
     """Everything the engine reads from content/<slice>/*.yaml, indexed for
     lookup. Loaded once per process/session — not re-parsed per decision."""
 
+    content_version: str  # KTD9: from the pack's manifest.yaml; stamped on catalog/graph/recommendation responses
     skills: Dict[str, SkillNode]
     dependents: Dict[str, List[str]]  # skill_id -> sorted dependent skill_ids
     misconceptions: Dict[str, MisconceptionEntry]
@@ -106,13 +107,40 @@ class ContentIndex:
     mapped_skills_by_country_curriculum_grade: Dict[Tuple[str, str, int], List[str]]  # sorted
 
 
+MANIFEST_FILENAME = "manifest.yaml"
+
+
+def _load_manifest(content_dir: Path) -> str:
+    """KTD9: every content pack declares its `content_version` in a
+    manifest.yaml sitting alongside the pack's skills/misconceptions/mappings
+    files. Content is assumed already graph_lint-clean (this loader doesn't
+    re-validate — see load_content's docstring), but a missing/malformed
+    manifest still fails loudly here rather than silently shipping an
+    un-versioned ContentIndex, since graph_lint is a separate, skippable
+    step from actually loading a pack."""
+    manifest_path = content_dir / MANIFEST_FILENAME
+    if not manifest_path.is_file():
+        raise FileNotFoundError(
+            f"{content_dir}: missing {MANIFEST_FILENAME} (every content pack must declare content_version)"
+        )
+    data = yaml.safe_load(manifest_path.read_text(encoding="utf-8")) or {}
+    content_version = data.get("content_version") if isinstance(data, dict) else None
+    if not content_version:
+        raise ValueError(f"{manifest_path}: missing required 'content_version' field")
+    return str(content_version)
+
+
 def _load_yaml_list(content_dir: Path, key: str) -> List[dict]:
     """Merge one top-level YAML key (skills/misconceptions/mappings) across
     every *.yaml/*.yml file in content_dir — mirrors tools/graph_lint.py's
     load_content, but this module doesn't need graph_lint's linting, only
-    the merge."""
+    the merge. manifest.yaml is excluded: it carries pack metadata (KTD9),
+    not skills/misconceptions/mappings entries."""
     items: List[dict] = []
-    for path in sorted(content_dir.glob("*.yaml")) + sorted(content_dir.glob("*.yml")):
+    paths = sorted(content_dir.glob("*.yaml")) + sorted(content_dir.glob("*.yml"))
+    for path in paths:
+        if path.name == MANIFEST_FILENAME:
+            continue
         data = yaml.safe_load(path.read_text(encoding="utf-8"))
         if not isinstance(data, dict):
             continue
@@ -128,6 +156,7 @@ def load_content(content_dir: Path) -> ContentIndex:
     docstring) into a ContentIndex. Content is assumed already
     graph_lint-clean (references resolve, no cycles); this loader does not
     re-validate."""
+    content_version = _load_manifest(content_dir)
     raw_skills = _load_yaml_list(content_dir, "skills")
     raw_misc = _load_yaml_list(content_dir, "misconceptions")
     raw_mappings = _load_yaml_list(content_dir, "mappings")
@@ -184,6 +213,7 @@ def load_content(content_dir: Path) -> ContentIndex:
         bucket.sort()
 
     return ContentIndex(
+        content_version=content_version,
         skills=skills,
         dependents=dependents,
         misconceptions=misconceptions,

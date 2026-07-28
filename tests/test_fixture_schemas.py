@@ -27,7 +27,10 @@ def _load_schema(name: str) -> dict:
     return json.loads((SCHEMAS_DIR / name).read_text(encoding="utf-8"))
 
 
-@pytest.fixture(params=sorted(FIXTURE_DIR.glob("*.yaml")), ids=lambda p: p.name)
+@pytest.fixture(
+    params=sorted(p for p in FIXTURE_DIR.glob("*.yaml") if p.name != "manifest.yaml"),
+    ids=lambda p: p.name,
+)
 def content_file(request) -> Path:
     return request.param
 

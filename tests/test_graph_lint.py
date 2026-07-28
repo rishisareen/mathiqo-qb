@@ -41,6 +41,24 @@ def test_clean_fixture_cli_exit_zero(capsys) -> None:
     assert "0 error(s)" in out
 
 
+def test_missing_manifest_reports_an_error_naming_the_file(fixture_copy: Path) -> None:
+    """KTD9: a content pack without a manifest.yaml must fail lint with an
+    error that names the missing file, not silently lint clean without a
+    content_version."""
+    (fixture_copy / "manifest.yaml").unlink()
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert any("manifest.yaml" in e and "missing" in e for e in result.errors)
+
+
+def test_manifest_missing_content_version_field_is_an_error(fixture_copy: Path) -> None:
+    manifest_path = fixture_copy / "manifest.yaml"
+    write_yaml(manifest_path, {"pack": "fractions"})  # no content_version
+
+    result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
+    assert any("manifest.yaml" in e and "content_version" in e for e in result.errors)
+
+
 def test_cycle_detection_reports_cycle_path(fixture_copy: Path) -> None:
     # Add a back edge FRAC.ADD.UNLIKE -> FRAC.UNIT, closing the cycle
     # FRAC.UNIT -> FRAC.PARTWHOLE -> FRAC.ADD.LIKE -> FRAC.ADD.UNLIKE -> FRAC.UNIT

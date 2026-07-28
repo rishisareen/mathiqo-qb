@@ -124,6 +124,41 @@ def make_serve(bank_index: engine.BankIndex, skill_id: str, difficulty: float, c
 # --- load_content / load_bank ---------------------------------------------------
 
 
+def test_load_content_surfaces_content_version_from_manifest(content: engine.ContentIndex) -> None:
+    """KTD9: content/fractions/manifest.yaml declares content_version
+    "1.0.0" — load_content must read it and surface it on ContentIndex."""
+    assert content.content_version == "1.0.0"
+
+
+def test_load_content_version_survives_merged_multi_file_load(fixture_copy: Path) -> None:
+    """content/fractions/ is ~13 YAML files merged into one ContentIndex
+    (skills/misconceptions/mappings each split across several files); this
+    confirms content_version — read once from manifest.yaml, not per content
+    file — isn't lost or clobbered by that per-file merge, and specifically
+    isn't affected by ordinary content edits to the other files."""
+    from orchestrator import engine as engine_module
+
+    mappings_path = fixture_copy / "mappings.yaml"
+    data = load_yaml(mappings_path)
+    data["mappings"][0]["depth_expectation"] = "hard"  # unrelated content edit
+    write_yaml(mappings_path, data)
+
+    content_index = engine_module.load_content(fixture_copy)
+    assert content_index.content_version == "1.0.0"
+
+
+def test_load_content_raises_a_clear_error_when_manifest_is_missing(fixture_copy: Path) -> None:
+    """engine.load_content assumes graph_lint-clean content (see its own
+    docstring) but must still fail loudly, not silently produce an
+    un-versioned ContentIndex, if a manifest is absent."""
+    from orchestrator import engine as engine_module
+
+    (fixture_copy / "manifest.yaml").unlink()
+
+    with pytest.raises(FileNotFoundError, match="manifest.yaml"):
+        engine_module.load_content(fixture_copy)
+
+
 def test_load_content_parses_real_skills_prerequisites_and_dependents(content: engine.ContentIndex) -> None:
     node = content.skills["FRAC.ADD.UNLIKE"]
     assert node.strand == "NUMBER.FRACTIONS"
