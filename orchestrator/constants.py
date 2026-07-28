@@ -29,9 +29,18 @@ SCORE_HINT_ASSISTED: float = 0.5
 SCORE_WRONG: float = 0.0
 
 # Evidence weights (§3): multi-skill clean success is full score at half
-# weight; lesson attempts are full score at low weight.
+# weight; lesson attempts are full score at low weight; a single-skill
+# hint-assisted attempt also weighs half — same number as MULTI_SKILL_WEIGHT
+# by coincidence of the doc's placeholders, not by definition, so it gets
+# its own name.
 MULTI_SKILL_WEIGHT: float = 0.5
 LESSON_WEIGHT: float = 0.25
+HINT_ASSISTED_WEIGHT: float = 0.5
+
+# Engine identity (§9 engine_version): stamped into every attempt event so a
+# later scoring-rule change is visible in the log, not silently reinterpreted
+# on replay (KTD7).
+ENGINE_VERSION: str = "1.0.0"
 
 # MCQ guessing adjustment (§3): for 4-option MCQ, E′ = 0.25 + 0.75·E.
 MCQ4_QUESTION_TYPE: str = "mcq_4"
@@ -60,3 +69,56 @@ MISC_WINDOW: int = 5
 # and seeded with n = min(n_historical, MIGRATION_SEED_N_CAP) — "the prior
 # exists but barely argues" (§4).
 MIGRATION_SEED_N_CAP: float = 2.0
+
+# --- U5: adaptive engine (SM §5 cold-start placement; core doc §1.2a/§2.5) ---
+# Tier label -> D on the difficulty scale (core doc §1.2a/§2.3), aligned with
+# the authored template difficulties (content/templates/*.yaml: 0.2 for easy,
+# 0.5 for medium; there is no v1 "hard" template yet, so 0.8 is a placeholder
+# used only as a ceiling/ordering value, not something any template targets).
+TIER_DEPTH: dict = {"easy": 0.2, "medium": 0.5, "hard": 0.8}
+TIER_ORDER: tuple = ("easy", "medium", "hard")
+
+# KTD9: nearest-difficulty targeting serves the un-seen instance closest to
+# theta + CHALLENGE_OFFSET (capped by the serving ceiling) — a small nudge
+# into "slightly harder than current mastery" territory. A placeholder like
+# every other tuning constant in this file, awaiting pilot telemetry.
+CHALLENGE_OFFSET: float = 0.1
+
+# KTD12: a confirmed misconception (2-in-MISC_WINDOW on the triggering skill)
+# fires a bounded dose of practice on the registry's mapped prerequisite
+# rather than open-ended remediation — "micro-explainer first, full
+# re-teaching only if the pattern persists" (core doc §2.4).
+REMEDIATION_DOSE_SIZE: int = 3
+
+# SM §5 point 3: placement stops walking a strand once the skill currently
+# being probed has certified prerequisites and has itself accumulated this
+# many attempts — that skill becomes the frontier (the starting practice
+# queue), even if it hasn't certified.
+PLACEMENT_FRONTIER_N: float = 3.0
+
+# --- U6: session runner (core doc §2.3, §5.2) --------------------------------
+# core doc §2.3: "If time-on-item exceeds ~1.5x the item's estimated_time_sec,
+# proactively offer hint 1." estimated_time_sec is a template-level field
+# (schemas/item-record.schema.json) that tools/bank_build.py does NOT copy
+# onto bank instances (schemas/item-instance.schema.json has no such
+# property) -- confirmed against both schemas. Extending the bank
+# builder/item-instance schema to carry it is out of this unit's scope (it
+# would require rebuilding U3's validation logic), so the session runner
+# falls back to this fixed default for every served instance's hint-offer
+# and timeout thresholds. A documented v1 limitation, not an oversight.
+DEFAULT_ESTIMATED_TIME_SEC: float = 60.0
+
+# core doc §2.3's "~1.5x" auto-hint-offer multiplier.
+HINT_AUTO_OFFER_MULTIPLIER: float = 1.5
+
+# v1 placeholder (same status as every other constant in this file, §10): an
+# unanswered item times out at this multiple of estimated_time_sec. Kept
+# comfortably above HINT_AUTO_OFFER_MULTIPLIER so the hint offer always has
+# a chance to fire before the timeout does.
+TIMEOUT_MULTIPLIER: float = 3.0
+
+# --- Serving-integrity contract: KTD2 consumer attribution ------------------
+# Stamped onto every attempt event the reference orchestrator logs, so
+# per-consumer repeat-flag rates (R7) can distinguish it from external
+# orchestrators without a second identity mechanism.
+CONSUMER_ID_INTERNAL: str = "internal.reference"

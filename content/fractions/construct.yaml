@@ -1,0 +1,77 @@
+# Constructions strand (GEOMETRY.CONSTRUCT) — Ganita Prakash Class 6 Ch. 8
+# (Playing with Constructions). Stage 1 drafted 2026-07-28 via
+# tools/stage1_draft.py (file backend), syllabus
+# examples/ncert-geometry-excerpt.txt (illustrative, pending verification),
+# accepted by graph_lint on first attempt, promoted after review.
+skills:
+  - skill_id: GEO.CIRCLE.PARTS
+    name: "Circles: centre, radius and diameter"
+    description: >
+      Identify the centre, radius and diameter of a circle, relate radius
+      and diameter, and draw a circle of a given radius with a compass.
+    strand: GEOMETRY.CONSTRUCT
+    canonical_stage: 2
+    prerequisites:
+      - GEO.SHAPES.2D
+    misconceptions:
+      - MISC.GEO.RADIUS-DIAMETER-SWAP
+
+  - skill_id: GEO.CONSTRUCT.BASIC
+    name: "Construct figures with ruler and compass"
+    description: >
+      Construct squares and rectangles of given side lengths, and figures
+      and patterns built from circles and line segments, using a ruler
+      and compass.
+    strand: GEOMETRY.CONSTRUCT
+    canonical_stage: 3
+    prerequisites:
+      - GEO.POINT.LINE
+      - GEO.CIRCLE.PARTS
+      - GEO.POLYGON.PROPS
+    misconceptions: []
+
+
+misconceptions:
+  - misconception_id: MISC.GEO.RADIUS-DIAMETER-SWAP
+    belief: "Radius and diameter are interchangeable names for the width of a circle"
+    signature_error: "Asked to draw a circle of radius 4 cm, sets the compass to 8 cm (or reports the diameter when asked for the radius)"
+    remediation_target: GEO.CIRCLE.PARTS
+    remediation_asset: "micro-explainers/MISC.GEO.RADIUS-DIAMETER-SWAP.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} mixes up radius and diameter — the radius reaches from the centre to the circle, and the diameter goes all the way across."
+
+  - misconception_id: MISC.GEO.CENTRE-ON-CIRCLE
+    belief: "The centre is part of the circle"
+    signature_error: "Asked which points lie on the circle, includes the centre"
+    remediation_target: GEO.CIRCLE.PARTS
+    remediation_asset: "micro-explainers/MISC.GEO.CENTRE-ON-CIRCLE.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} counts the centre as lying on the circle — the circle is only the ring of points at the same distance from the centre."
+
+# IN/NCERT mapping rows drafted in the same run.
+mappings:
+  - skill_id: GEO.CIRCLE.PARTS
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 8"
+    learning_objective: >
+      Uses a ruler and compass to draw circles of a given radius,
+      identifying the centre, radius and diameter.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: GEO.CONSTRUCT.BASIC
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 8"
+    learning_objective: >
+      Constructs squares and rectangles of given side lengths; creates
+      and reasons about figures and curve-based art built from circles
+      and line segments.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Construction is taught through exploratory drawing and art, not
+      formal construction proofs.

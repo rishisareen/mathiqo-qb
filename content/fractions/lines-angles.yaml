@@ -1,0 +1,206 @@
+# Lines-and-angles strand (GEOMETRY.LINES-ANGLES) plus the two foundational
+# GEOMETRY.SHAPES nodes it builds on — Ganita Prakash Class 6 Ch. 2 (Lines
+# and Angles) with the Classes 1-5 shape/angle ladder. Stage 1 drafted
+# 2026-07-27 via tools/stage1_draft.py (file backend), syllabus
+# examples/ncert-geometry-excerpt.txt (illustrative, pending verification),
+# accepted by graph_lint on first attempt, promoted after review.
+# Complementary/supplementary angle pairs are deliberately absent: not
+# confirmed in the Ganita Prakash Ch. 2 excerpt (draft-only-what-the-
+# syllabus-supports).
+skills:
+  - skill_id: GEO.SHAPES.2D
+    name: "Recognise basic 2-D shapes"
+    description: >
+      Recognise and name basic 2-D shapes (circle, triangle, square,
+      rectangle) in any orientation, and distinguish straight from curved
+      lines.
+    strand: GEOMETRY.SHAPES
+    canonical_stage: 0
+    prerequisites: []
+    misconceptions:
+      - MISC.GEO.ROTATED-NOT-SAME
+
+  - skill_id: GEO.POLYGON.PROPS
+    name: "Describe shapes by sides and corners"
+    description: >
+      Describe and distinguish 2-D shapes by their properties — number of
+      sides and corners, equal sides, square corners.
+    strand: GEOMETRY.SHAPES
+    canonical_stage: 1
+    prerequisites:
+      - GEO.SHAPES.2D
+    misconceptions: []
+
+  - skill_id: GEO.POINT.LINE
+    name: "Points, line segments, rays and lines"
+    description: >
+      Identify, name and distinguish points, line segments, rays and
+      lines, using standard notation.
+    strand: GEOMETRY.LINES-ANGLES
+    canonical_stage: 1
+    prerequisites: []
+    # Backfilled 2026-07-28: drafted in this run's misconceptions step, which
+    # lints after the strand step, so the node list couldn't reference it yet.
+    misconceptions:
+      - MISC.GEO.LINE-SEGMENT-SAME
+
+  - skill_id: GEO.ANGLE.CONCEPT
+    name: "Understand angles"
+    description: >
+      Understand an angle as an amount of turn and as the figure formed
+      by two rays from a common vertex; compare angles by size,
+      independent of the length of the arms.
+    strand: GEOMETRY.LINES-ANGLES
+    canonical_stage: 2
+    prerequisites:
+      - GEO.POINT.LINE
+    misconceptions:
+      - MISC.GEO.ANGLE-ARM-LENGTH
+
+  - skill_id: GEO.ANGLE.TYPES
+    name: "Classify angles"
+    description: >
+      Classify angles as acute, right, obtuse, straight or reflex,
+      including angles in any orientation.
+    strand: GEOMETRY.LINES-ANGLES
+    canonical_stage: 3
+    prerequisites:
+      - GEO.ANGLE.CONCEPT
+    misconceptions:
+      - MISC.GEO.RIGHT-ANGLE-UPRIGHT
+
+  - skill_id: GEO.ANGLE.MEASURE
+    name: "Measure and draw angles"
+    description: >
+      Measure an angle in degrees using a protractor and draw an angle of
+      a given measure.
+    strand: GEOMETRY.LINES-ANGLES
+    canonical_stage: 3
+    prerequisites:
+      - GEO.ANGLE.CONCEPT
+    misconceptions:
+      - MISC.GEO.PROTRACTOR-WRONG-SCALE
+
+
+misconceptions:
+  - misconception_id: MISC.GEO.ROTATED-NOT-SAME
+    belief: "A shape turned on its corner becomes a different shape"
+    signature_error: "A square rotated 45 degrees is called 'a diamond, not a square'"
+    remediation_target: GEO.SHAPES.2D
+    remediation_asset: "micro-explainers/MISC.GEO.ROTATED-NOT-SAME.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} stops recognising a shape when it is rotated — a square on its corner is still a square."
+
+  - misconception_id: MISC.GEO.ANGLE-ARM-LENGTH
+    belief: "Longer arms make a bigger angle"
+    signature_error: "A 30-degree angle with long arms judged bigger than a 60-degree angle with short arms"
+    remediation_target: GEO.ANGLE.CONCEPT
+    remediation_asset: "micro-explainers/MISC.GEO.ANGLE-ARM-LENGTH.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} judges an angle by how long its arms are drawn, rather than by how much turn there is between them."
+
+  - misconception_id: MISC.GEO.RIGHT-ANGLE-UPRIGHT
+    belief: "A right angle must stand upright (one arm flat, one arm vertical)"
+    signature_error: "A tilted right angle is classified as 'not a right angle'"
+    remediation_target: GEO.ANGLE.CONCEPT
+    remediation_asset: "micro-explainers/MISC.GEO.RIGHT-ANGLE-UPRIGHT.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} only recognises right angles that sit upright like a wall and floor — a tilted corner of 90 degrees is still a right angle."
+
+  - misconception_id: MISC.GEO.PROTRACTOR-WRONG-SCALE
+    belief: "Read whichever protractor scale the arm points at"
+    signature_error: "A 60-degree angle read as 120 degrees from the outer scale"
+    remediation_target: GEO.ANGLE.MEASURE
+    remediation_asset: "micro-explainers/MISC.GEO.PROTRACTOR-WRONG-SCALE.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} sometimes reads the wrong scale on the protractor, getting 120 degrees for an angle that is clearly less than a right angle — estimating first helps catch this."
+
+  - misconception_id: MISC.GEO.LINE-SEGMENT-SAME
+    belief: "A line and a line segment are the same thing"
+    signature_error: "Says a line segment 'goes on forever' or names a drawn line AB a 'line' when asked for the figure that extends without end"
+    remediation_target: GEO.POINT.LINE
+    remediation_asset: "micro-explainers/MISC.GEO.LINE-SEGMENT-SAME.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} uses 'line' and 'line segment' interchangeably — a segment has two endpoints, while a line extends without end in both directions."
+
+# IN/NCERT mapping rows drafted in the same run.
+mappings:
+  - skill_id: GEO.SHAPES.2D
+    country: IN
+    curriculum: NCERT
+    grade: 1
+    depth_expectation: easy
+    syllabus_ref: "Class 1-2, Maths (Joyful Mathematics)"
+    learning_objective: >
+      Recognises and names basic 2-D shapes (circle, triangle, square,
+      rectangle) in the environment; distinguishes straight and curved
+      lines.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: GEO.POLYGON.PROPS
+    country: IN
+    curriculum: NCERT
+    grade: 4
+    depth_expectation: easy
+    syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 1"
+    learning_objective: >
+      Describes 2-D shapes by their sides and corners; distinguishes
+      squares, rectangles, triangles and circles by their properties.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: GEO.ANGLE.CONCEPT
+    country: IN
+    curriculum: NCERT
+    grade: 5
+    depth_expectation: easy
+    syllabus_ref: "Class 5, Maths (Maths Mela), Ch. 3"
+    learning_objective: >
+      Understands an angle as an amount of turn; identifies right angles
+      and classifies angles as more or less than a right angle by
+      comparison.
+    exam_contexts: [SCHOOL_EXAM]
+    pedagogy_notes: >
+      Angles enter as turns (body turns, clock hands) before any static
+      two-ray definition.
+
+  - skill_id: GEO.ANGLE.CONCEPT
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 2"
+    learning_objective: >
+      Understands an angle as formed by two rays from a common vertex;
+      compares angles.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: GEO.POINT.LINE
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: easy
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 2"
+    learning_objective: >
+      Identifies and names points, line segments, rays and lines.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: GEO.ANGLE.TYPES
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 2"
+    learning_objective: >
+      Classifies angles as acute, right, obtuse, straight and reflex.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: GEO.ANGLE.MEASURE
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 2"
+    learning_objective: >
+      Measures angles in degrees using a protractor and draws an angle of
+      a given measure.
+    exam_contexts: [SCHOOL_EXAM]

@@ -33,17 +33,26 @@ follow them exactly.
 - `tools/stage1_draft.py` — Stage 1 drafting harness (see below).
 - `tools/stage2_draft.py` — Stage 2 template-drafting harness (see below).
 - `tools/item_verify.py` — Stage 3 template verification gate (see below).
+- `tools/bank_build.py` — Stage 5 bank builder (see below).
+- `tools/serve.py` — interactive terminal session runner (see below).
 - `prompts/stage1/` — prompt templates for the Stage 1 drafting harness.
 - `prompts/stage2/` — prompt template for the Stage 2 drafting harness.
-- `orchestrator/` — the serve-time student model (student-model doc):
-  `state.py` holds `SkillState`/`StudentModelStore` and the §7 certification
-  status machine, `constants.py` collects the v1 placeholder tuning
-  constants. The §3 update rule (`θ ← θ + K·(s − E)`) is not yet
-  implemented — this is state and status-machine only, in progress.
+- `orchestrator/` — the serve-time student model and adaptive engine
+  (student-model doc; core design doc §5): `state.py` holds `SkillState`/
+  `StudentModelStore` and the §7 certification status machine; `update.py`
+  is the §3 θ update rule; `certification.py` is §6/§7 certification and
+  review scheduling; `log.py` is the JSONL attempt log and replay;
+  `engine.py` is the adaptive selection policy (content/bank loading, depth
+  targeting, the R12 priority chain, diagnosis-queue consumption, replay);
+  `session.py` is the interactive session loop the `serve` CLI drives (see
+  below); `constants.py` collects the v1 placeholder tuning constants.
 - `tests/` — pytest suite for the linter, the harnesses, the student-model
-  state container, plus fixture-vs-schema validation.
+  state container, the update/certification/log/engine/session units, plus
+  fixture-vs-schema validation.
 
 ## Setup
+
+Requires Python ≥3.10 (needed by the `mcp` SDK used in `tools/mcp_server.py`).
 
 ```sh
 python3 -m venv .venv
@@ -189,6 +198,149 @@ Note: the §2.2 example fixture currently verifies as FLAGGED — its five
 constraints reject 82% of the 6400 combinations (1,148 valid variants
 remain, 0 collisions). The gate is working as specified; whether to narrow
 the ranges or accept the flag is a content decision, not a code one.
+
+## Stage 5 bank builder
+
+`tools/bank_build.py` materializes promoted item templates
+(`content/templates/*.yaml`) into an atomic, versioned bank of concrete,
+dressed, schema-valid item instances (core doc §3 Stage 5, §5.1): every
+template is re-verified against the Stage 3 gate, every valid non-colliding
+variable combination is enumerated, the pool is capped and sampled
+deterministically (same inputs → byte-identical rebuilds), and each sampled
+variant is dressed with a locale pack and fully computed — rendered stem,
+exact answer, and the complete tagged distractor set — offline. This is the
+boundary that makes the Generator→Orchestrator split real: "everything a
+child can see is materialized offline," so serving is always a lookup, never
+composition (§5.1's boundary rule, R11).
+
+```sh
+python tools/bank_build.py --templates-dir content/templates \
+    --out banks --bank-version 2026.07-dev [--pool-cap 40] \
+    [--locale-pack content/locales/en-IN.yaml]
+```
+
+Banks are never patched in place: `--bank-version` refuses to overwrite an
+existing build, and the build writes to a staging directory under `--out`
+before renaming it into place atomically. Only a `HardFail` (schema
+violation, unsatisfiable constraints, unresolvable slot) refuses the build;
+a `FLAGGED_FOR_REGENERATION` template (already promoted despite the flag —
+see the Stage 3 section above) still builds.
+
+## Session runner
+
+`tools/serve.py` is the interactive terminal session runner (core doc §5.2,
+KTD1: chosen over a minimal local web page) that closes the
+Generator→Orchestrator loop: it serves real bank instances end to end —
+renders the item (MCQ options shuffled deterministically per instance, or a
+numeric-entry prompt), runs the hint ladder with an automatic offer at
+~1.5× the item's expected time (§2.3), times out an unanswered item, parses
+the response (integers, `a/b` fractions, and `W n/d` mixed numbers — exact
+rational comparison), matches a wrong pick to its distractor's misconception
+tag, shows feedback with solution steps, and writes the attempt event. All
+the loop logic lives in `orchestrator/session.py`, built on the U1–U5
+student-model/engine modules (`orchestrator/update.py`,
+`orchestrator/certification.py`, `orchestrator/log.py`,
+`orchestrator/engine.py`); `tools/serve.py` itself is wiring only.
+
+```sh
+# resolves the bank via --banks-dir's ACTIVE pointer (default: banks/):
+python tools/serve.py --banks-dir banks --student stu-1 \
+    --country IN --grade 6 --log logs/stu-1.jsonl \
+    [--session-time 2026-07-27T12:00:00]
+
+# --bank is an explicit override, bypassing ACTIVE entirely:
+python tools/serve.py --bank banks/2026.07-dev --student stu-1 \
+    --country IN --grade 6 --log logs/stu-1.jsonl
+```
+
+`--log` is both appended to (one JSONL line per scored attempt) and replayed
+at startup, so re-running the same command resumes the student exactly where
+they left off — including any pending review/remediation/step-down/
+prerequisite probe the engine had queued (KTD11). `--session-time` overrides
+the session's single "now" (KTD10) with a fixed ISO 8601 timestamp for
+reproducible runs; omitted, it defaults to real wall-clock time. Typing
+`hint` always shows the next hint; `quit` ends the session immediately
+without logging or applying whatever item was on screen.
+
+Known v1 limitation: `estimated_time_sec` lives on the item *template*
+(`schemas/item-record.schema.json`) but is not carried onto bank instances
+by `tools/bank_build.py` (`schemas/item-instance.schema.json` has no such
+field) — the session runner falls back to a fixed default
+(`orchestrator/constants.py`'s `DEFAULT_ESTIMATED_TIME_SEC`) for every
+item's hint-offer and timeout thresholds rather than extending U3's bank
+builder/schema, which is out of this unit's scope.
+
+Under the hood, `orchestrator/session.py` routes both selection (the
+single-skill steps of the R12 priority chain) and every attempt submission
+through `orchestrator/serving.py`'s transport-free facade — the same
+surface the MCP server (below) exposes to external orchestrators.
+
+## Bank activation
+
+`tools/bank_activate.py` (KTD3) atomically points a banks directory's
+`ACTIVE` file at a built version — what `open_session` (the facade,
+`tools/serve.py`, the MCP server) pins new sessions to. A session already
+open keeps whatever build it originally pinned; only sessions opened after
+the repoint see the change (R4).
+
+```sh
+python tools/bank_activate.py --banks banks --bank-version 2026.07-dev
+```
+
+Refuses (exit 1) to activate a version not on disk under `--banks`, leaving
+`ACTIVE` unchanged.
+
+## Replay audit
+
+`tools/replay_audit.py` (U7) is the serving-integrity contract's acceptance
+bar as a runnable check (R10): for every event in a student's attempt log,
+it resolves the stamped `bank_version` against any retained build (KTD7,
+not only the currently active one), verifies the instance and its
+`variant_signature` against that build's own record (reusing
+`orchestrator/ingest.py`'s KTD5 checks), then reports the student's
+reproduced theta/certification/seen-count summary — the same shape a live
+`get_student_progress` call returns.
+
+```sh
+python tools/replay_audit.py --log logs/stu-1.jsonl --banks-dir banks
+```
+
+Exits non-zero (naming every failing event) if any event fails to resolve;
+zero and prints the summary on a clean audit.
+
+## MCP server
+
+`tools/mcp_server.py` (U8) is the external product surface: the same
+`orchestrator/serving.py` facade the reference orchestrator uses, exposed
+over MCP so external AI-tutor orchestrators can serve Mathiqo's question
+bank and student model directly (STRATEGY.md's infra-first bet). It is a
+thin adapter — every tool call delegates to exactly one facade operation,
+and no tool reaches past the facade to touch a bank directory or log file
+directly.
+
+```sh
+python tools/mcp_server.py --banks-dir banks --logs-dir logs \
+    --consumer-id partner.acme [--content content/fractions]
+```
+
+**Tool surface** (KTD6's parity rule: this is the same set of operations
+the reference orchestrator itself uses):
+
+| Tool | Delegates to | Notes |
+|---|---|---|
+| `open_session(student_id)` | `ServingFacade.open_session` | Pins the session to the currently active bank build (R3); returns `session_id` and `bank_version`. |
+| `get_candidates(session_id, skill_id)` | `ServingFacade.get_candidates` | Every unseen instance for (student, skill); on exhaustion, the one least-recently-seen repeat plus an explicit signal (R1). |
+| `submit_attempt(session_id, skill_id, item_instance_id, ...)` | `ServingFacade.submit_attempt` | Validates and logs the attempt (R5, R6); `consumer_id` is this server's own `--consumer-id`, never a tool parameter — a caller cannot forge attribution. |
+| `close_session(session_id)` | `ServingFacade.close_session` | Drops the session from this server's in-memory registry. |
+| `get_student_progress(session_id)` | `ServingFacade.get_progress` | The declared summary shape: theta, certification status, per-skill seen count. |
+| `server_info()` | — | Reports the declared interface version and the facade-operation surface. |
+
+**v1 is pre-stable.** `server_info`'s `interface_version` may still change
+before general availability — bind against the declared version and expect
+it to move, not assume today's shape is final. Auth/transport hardening
+(credentials, rate limiting, TLS termination) is explicitly out of scope
+for v1: this server assumes a small set of known, credentialed partners in
+a trusted deployment, one `--consumer-id` per server process.
 
 ## Run the tests
 

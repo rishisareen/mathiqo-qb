@@ -508,12 +508,14 @@ Keeping them separable means selection policy can be tested headlessly — repla
 
 ### 5.3 The contract
 
-The interface between the two systems is exactly two schemas, both already defined:
+The interface between the two systems is two handshakes, each schema-backed:
 
 | Direction | Artifact | Defined in |
 |---|---|---|
-| Generator → Orchestrator | **Item record**: instance + metadata (skills, depth, type, tags, renders, solution, hints) | §2.2, §3 Stage 5 |
+| Generator → Orchestrator | **Item record** (the authored template, §2.2) materializes at Stage 5 into the **item instance** actually published — instance + metadata (skills, depth, type, tags, renders, solution, hints), fully computed and locale-dressed | §2.2, §3 Stage 5 (item-record.schema.json for the template; item-instance.schema.json for the published instance shape) |
 | Orchestrator → Generator | **Attempt event**: what was served, what happened, model deltas | Student-model doc §9 |
+
+The item-instance schema is Stage 5's concrete elaboration of the "item record" row, not a third interface: everything a served instance carries still traces back to one authored template, and the boundary the Orchestrator never crosses (§5.1) is unchanged. What changed is only that the *published, materialized* shape now has its own schema separate from the *authored, template-level* one, since the two carry different guarantees — a template describes a parameterized item model; an instance is one already-verified, already-dressed variant of it.
 
 Versioning discipline: a bank build is an **atomic, versioned artifact** — never patched in place. The Orchestrator pins the bank version it serves; every attempt event carries `bank_version` alongside `template_version` and `graph_version`, so any answer can be traced to the exact content that produced it. Bank swaps are zero-downtime with the previous build kept warm for rollback.
 

@@ -107,6 +107,15 @@ class StudentModelStore:
             self._states[key] = SkillState()
         return self._states[key]
 
+    def peek(self, student_id: str, skill_id: str) -> SkillState:
+        """Read-only sibling of `get`: the same default `SkillState()` for a
+        missing (student, skill) pair, but never inserts it. Selection logic
+        that only ever reads state to make a decision (the adaptive engine,
+        U5) should call this instead of `get` — `get`'s fetch-or-create side
+        effect is for the update path, which genuinely needs the record to
+        exist before mutating it."""
+        return self._states.get((student_id, skill_id), SkillState())
+
     def records_for(self, student_id: str) -> Dict[str, SkillState]:
         """All skill records for one student, keyed by skill_id."""
         return {
@@ -122,6 +131,19 @@ class StudentModelStore:
                 del self._states[(sid, skill)]
         for skill, state in records.items():
             self._states[(student_id, skill)] = state
+
+    def write_records(self, student_id: str, updates: Dict[str, SkillState]) -> None:
+        """Merge `updates` into (student_id)'s existing records, leaving
+        skills not named in `updates` untouched — the read-modify-write one
+        attempt's effects need (possibly across several skills for a
+        multi-skill item), without `replace_records`'s full-set-swap
+        semantics. The single write-back primitive orchestrator/log.py and
+        orchestrator/engine.py both build on."""
+        if not updates:
+            return
+        records = dict(self.records_for(student_id))
+        records.update(updates)
+        self.replace_records(student_id, records)
 
     def append_event(self, event: dict) -> None:
         self.attempt_log.append(event)

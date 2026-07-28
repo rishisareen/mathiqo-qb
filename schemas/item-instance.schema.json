@@ -1,0 +1,154 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://mathiqo.dev/schemas/item-instance.schema.json",
+  "title": "Item Instance",
+  "description": "One concrete, dressed, machine-solved item materialized by the Stage 5 bank builder (tools/bank_build.py) from a promoted item-record template (core design doc §3 Stage 5, §5.1, KTD4). Variable assignment, rendered text, the canonical answer, and the complete tagged distractor set are all computed and stored offline, so the Orchestrator only ever selects and looks these up at serve time and never constructs mathematics (§5.1 boundary rule). attempt-event.schema.json's item_instance_id names one of these records. The item-record template schema is untouched — this is a separate, instance-level schema (KTD4).",
+  "type": "object",
+  "additionalProperties": false,
+  "required": [
+    "item_instance_id",
+    "template_id",
+    "template_version",
+    "bank_version",
+    "variant_signature",
+    "graph_version",
+    "skill_ids",
+    "question_type",
+    "difficulty",
+    "language",
+    "locale",
+    "variables",
+    "stem",
+    "answer",
+    "simplest_form_only",
+    "distractors",
+    "hints",
+    "solution_steps"
+  ],
+  "properties": {
+    "item_instance_id": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Unique id for this concrete instance within the bank; the value attempt-event.schema.json's item_instance_id references (§9). Convention: \"<template_id>#<bank_version>#<NNNNN>\", NNNNN the instance's zero-padded rank within its template's sampled pool — see tools/bank_build.py."
+    },
+    "template_id": {
+      "type": "string",
+      "pattern": "^TPL\\.[A-Z0-9][A-Z0-9.-]*$",
+      "description": "Provenance: the item-record template this instance was materialized from (§3 Stage 5)."
+    },
+    "template_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Copied from the source template at materialization time; carried forward onto the attempt event unchanged (§5.3, §9)."
+    },
+    "bank_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The atomic bank build this instance ships in (§3 Stage 5). Banks are never patched in place — a new build gets a new bank_version and a new instance set."
+    },
+    "variant_signature": {
+      "type": "string",
+      "pattern": "^[0-9a-f]{64}$",
+      "description": "Serving-integrity contract R8/R9, KTD1: sha256 hex digest over canonical JSON of (template_id, template_version, variables) — an identity for what the student actually sees, equal across bank builds when the rendered item is the same (core doc §5.3-§5.4). Excludes stem, locale, dressing, language, rank, and bank_version, which all rotate or change across rebuilds independent of content. Produced once here at bank-build time; consumers and the serving layer never compute it independently."
+    },
+    "graph_version": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Copied from the source template: the skill graph version it was authored against (§5.3); mastery records carry the same stamp for migration correctness (student-model doc §8)."
+    },
+    "skill_ids": {
+      "type": "array",
+      "items": {
+        "type": "string",
+        "pattern": "^[A-Z][A-Z0-9]*(\\.[A-Z0-9][A-Z0-9-]*)*$"
+      },
+      "minItems": 1,
+      "uniqueItems": true,
+      "description": "Copied verbatim from the template (§2.2); the Orchestrator copies this straight onto the attempt event at serve time rather than deriving it (R11)."
+    },
+    "question_type": {
+      "type": "string",
+      "enum": ["mcq_4", "numeric_entry"],
+      "description": "v1 bank-build scope restriction (core doc §4): the builder hard-refuses every other §2.7 type, naming the offending template. A strict subset of item-record/attempt-event's fuller enum by construction, not a drifted copy of it."
+    },
+    "difficulty": {
+      "type": "number",
+      "minimum": 0,
+      "maximum": 1,
+      "description": "Copied from the template's difficulty scalar D ∈ [0,1] (§2.3)."
+    },
+    "language": {
+      "type": "string",
+      "pattern": "^[a-z]{2,3}(-[A-Z]{2})?$",
+      "description": "The stem_i18n / hints_i18n / solution_steps_i18n language key this instance was rendered from (§2.8, §9)."
+    },
+    "locale": {
+      "type": "string",
+      "minLength": 1,
+      "description": "Locale pack used for dressing (§1.5, §9), e.g. \"en-IN\"."
+    },
+    "variables": {
+      "type": "object",
+      "additionalProperties": { "type": ["integer", "string"] },
+      "minProperties": 1,
+      "description": "The concrete variable assignment this instance was generated from (§2.2), e.g. {\"a\": 2, \"b\": 4, \"c\": 1, \"d\": 3}. v1 enumerates only int-typed variables (tools/item_verify.py build_domains); string kept in the type union for forward compatibility with the item-record schema's variable type surface."
+    },
+    "stem": {
+      "type": "string",
+      "minLength": 1,
+      "description": "The fully rendered question stem: every {{variable}} and every localization slot substituted. Nothing is left to resolve at serve time (§5.1, R11)."
+    },
+    "answer": {
+      "type": "string",
+      "minLength": 1,
+      "pattern": "^-?\\d+(/\\d+)?$",
+      "description": "The exact answer as a canonical rational string, \"p/q\" (q > 1, reduced) or \"p\" (whole number) — computed once offline by exact symbolic evaluation (§2.2, §3 Stage 3), never re-derived at serve time."
+    },
+    "simplest_form_only": {
+      "type": "boolean",
+      "description": "Normalized from the template's free-text accepted_answer_forms (KTD8): true iff that field starts with \"simplest form only\" (case-insensitive), false when the field is absent or phrased otherwise. Grading reads this flag, never the template's free text."
+    },
+    "distractors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "additionalProperties": false,
+        "required": ["value", "misconception_id", "unsimplified"],
+        "properties": {
+          "value": {
+            "type": "string",
+            "minLength": 1,
+            "pattern": "^-?\\d+(/\\d+)?$",
+            "description": "The distractor's displayed value: a reduced \"p/q\"/\"p\" string, or — when unsimplified is true — the literal unreduced numerator/denominator split that shares the answer's value while displaying differently (§2.2, §3 Stage 3 \"displayed form\" convention)."
+          },
+          "misconception_id": {
+            "type": ["string", "null"],
+            "pattern": "^MISC\\.[A-Z0-9][A-Z0-9.-]*$",
+            "description": "Registry tag this distractor is designed to expose, or null when untagged (§2.4-2.5)."
+          },
+          "unsimplified": {
+            "type": "boolean",
+            "description": "True when value is the literal unreduced numerator/denominator split rather than a reduced rational (§2.2)."
+          }
+        }
+      },
+      "description": "The full offered-for-this-variant distractor set: only_if-guarded distractors that didn't fire are already excluded, and this variant was dropped entirely (never materialized) if any offered distractor collided with the answer or with another offered distractor (§3 Stage 3, R8). For mcq_4 this is the on-screen option set; for numeric_entry the identical shape is stored, unrendered, for wrong-answer matching only (§5.1 bank requirement, R9)."
+    },
+    "hints": {
+      "type": "array",
+      "items": { "type": "string", "minLength": 1 },
+      "minItems": 1,
+      "description": "The rendered hint ladder, lightest to strongest, in serve order (§2.2, §2.3) — fully substituted offline (R11)."
+    },
+    "solution_steps": {
+      "type": "object",
+      "minProperties": 1,
+      "additionalProperties": {
+        "type": "array",
+        "items": { "type": "string", "minLength": 1 },
+        "minItems": 1
+      },
+      "description": "Rendered solution steps keyed by pedagogy variant (\"canonical\", \"NCERT\", ...), mirroring the template's solution_steps_i18n[language] (§2.2) — fully substituted offline (R11)."
+    }
+  }
+}

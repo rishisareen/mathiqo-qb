@@ -1,0 +1,141 @@
+# Data-handling strand (DATA.HANDLING) — Ganita Prakash Class 6 Ch. 4 (Data
+# Handling and Presentation) with the Classes 3-4 Maths Mela ladder.
+# Stage 1 drafted 2026-07-28 via tools/stage1_draft.py (file backend),
+# syllabus examples/ncert-data-excerpt.txt (illustrative, pending
+# verification), accepted by graph_lint on first attempt, promoted after
+# review. MISC.DATA.SCALE-IGNORED is listed on both graph nodes — the same
+# scale-blindness fires on pictographs and bar graphs.
+skills:
+  - skill_id: DATA.COLLECT.TALLY
+    name: "Collect and organise data"
+    description: >
+      Collect data and organise it using tally marks and frequency
+      tables; answer questions by reading the organised record.
+    strand: DATA.HANDLING
+    canonical_stage: 1
+    prerequisites:
+      - NUM.COUNT
+    # Backfilled 2026-07-28: drafted in this run's misconceptions step, which
+    # lints after the strand step, so the node list couldn't reference it yet.
+    misconceptions:
+      - MISC.DATA.TALLY-BUNDLE-MISCOUNT
+
+  - skill_id: DATA.PICTOGRAPH
+    name: "Read and draw pictographs"
+    description: >
+      Read and draw pictographs in which one symbol stands for several
+      units, using the scale key to convert between symbols and counts.
+    strand: DATA.HANDLING
+    canonical_stage: 2
+    prerequisites:
+      - DATA.COLLECT.TALLY
+      - NUM.MULT.TABLES
+    misconceptions:
+      - MISC.DATA.SCALE-IGNORED
+      - MISC.DATA.HALF-SYMBOL-WHOLE
+
+  - skill_id: DATA.BARGRAPH
+    name: "Read and draw bar graphs"
+    description: >
+      Read and draw bar graphs, choosing an appropriate scale; interpret
+      and compare data presented in bar graphs.
+    strand: DATA.HANDLING
+    canonical_stage: 2
+    prerequisites:
+      - DATA.COLLECT.TALLY
+      - NUM.CMP.ORDER
+    misconceptions:
+      - MISC.DATA.SCALE-IGNORED
+
+
+misconceptions:
+  - misconception_id: MISC.DATA.SCALE-IGNORED
+    belief: "Count the symbols (or grid lines) — the scale key is decoration"
+    signature_error: "A pictograph row of 4 symbols with key '1 symbol = 5 students' read as 4 students"
+    remediation_target: DATA.PICTOGRAPH
+    remediation_asset: "micro-explainers/MISC.DATA.SCALE-IGNORED.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} counts the pictures or bar lengths directly and skips the scale key, so scaled graphs come out several times too small."
+
+  - misconception_id: MISC.DATA.HALF-SYMBOL-WHOLE
+    belief: "A partial symbol counts the same as a full one"
+    signature_error: "A row of 3 and a half symbols with key '1 symbol = 10' read as 40 instead of 35"
+    remediation_target: DATA.PICTOGRAPH
+    remediation_asset: "micro-explainers/MISC.DATA.HALF-SYMBOL-WHOLE.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} reads half symbols in a pictograph as whole ones — a half symbol stands for half the key's value."
+
+  - misconception_id: MISC.DATA.TALLY-BUNDLE-MISCOUNT
+    belief: "Every stroke in a tally is counted one by one, including the crossing stroke as extra"
+    signature_error: "Three crossed bundles and two strokes (17) counted stroke-by-stroke as 15 or 20"
+    remediation_target: DATA.COLLECT.TALLY
+    remediation_asset: "micro-explainers/MISC.DATA.TALLY-BUNDLE-MISCOUNT.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} counts tally strokes one at a time and loses track of the bundles — each crossed group is a five, so skip-counting by fives is the way to read them."
+
+# IN/NCERT mapping rows drafted in the same run.
+mappings:
+  - skill_id: DATA.COLLECT.TALLY
+    country: IN
+    curriculum: NCERT
+    grade: 3
+    depth_expectation: easy
+    syllabus_ref: "Class 3, Maths (Maths Mela)"
+    learning_objective: >
+      Collects simple data from the class and records it using marks or
+      pictures; answers questions from the record.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: DATA.COLLECT.TALLY
+    country: IN
+    curriculum: NCERT
+    grade: 4
+    depth_expectation: medium
+    syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 10"
+    learning_objective: >
+      Records data using tally marks; answers questions by reading
+      tables.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: DATA.COLLECT.TALLY
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 4"
+    learning_objective: >
+      Collects and organises data using tally marks and frequency tables.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: DATA.PICTOGRAPH
+    country: IN
+    curriculum: NCERT
+    grade: 4
+    depth_expectation: easy
+    syllabus_ref: "Class 4, Maths (Maths Mela), Ch. 10"
+    learning_objective: >
+      Reads and draws pictographs where one symbol stands for several
+      units.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: DATA.PICTOGRAPH
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 4"
+    learning_objective: >
+      Reads and draws pictographs with a scale.
+    exam_contexts: [SCHOOL_EXAM]
+
+  - skill_id: DATA.BARGRAPH
+    country: IN
+    curriculum: NCERT
+    grade: 6
+    depth_expectation: medium
+    syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 4"
+    learning_objective: >
+      Reads and draws bar graphs, choosing an appropriate scale;
+      interprets and compares data presented in tables, pictographs and
+      bar graphs.
+    exam_contexts: [SCHOOL_EXAM]

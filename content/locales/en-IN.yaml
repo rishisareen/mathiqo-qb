@@ -1,0 +1,37 @@
+# v1's single locale pack (core design doc §1.5): India, English. Supplies
+# the localization_slots real templates actually declare today — grep
+# content/templates/*.yaml for `localization_slots:`: most are empty, and the
+# few non-empty lists use only "name1" / "name2" / "food" (see
+# TPL.FRAC.ADD.UNLIKE.WORD.001, TPL.FRAC.ADD.LIKE.DIRECT.001,
+# TPL.FRAC.MULT.WHOLE.DIRECT.001). Kept small on purpose (§1.5's own example
+# table lists currency/units/contexts/number_words/spelling categories too —
+# add a category here only once a template actually declares a slot needing
+# it). tools/bank_build.py hard-fails, naming the template, when a declared
+# slot has no matching category rather than silently shipping unrendered text.
+locale: en-IN
+language: en-IN
+
+# Any slot matching name / name1 / name2 / ... draws from this pool
+# (tools/bank_build.py LocalePack.category_for). Dressing rotates
+# deterministically per instance and assigns consecutive names within one
+# instance, so name1 != name2 whenever a template uses both (§1.5: "Ravi,
+# Priya, Arjun, Meera").
+names:
+  - Ravi
+  - Priya
+  - Arjun
+  - Meera
+  - Diya
+  - Kabir
+  - Ananya
+  - Vihaan
+
+# "food" localization slot (§1.5 contexts row; §2.2's worked example dresses
+# with mango/paratha).
+food:
+  - mango
+  - paratha
+  - cake
+  - pizza
+  - chapati
+  - laddoo
