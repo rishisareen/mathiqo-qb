@@ -63,6 +63,7 @@ FACADE_OPERATIONS = (
     "close_session",
     "close_session_by_student",
     "get_student_progress",
+    "recommend_next",
 )
 
 
@@ -83,6 +84,25 @@ def _serialize_progress(summary: serving.ProgressSummary) -> dict[str, Any]:
             }
             for skill_id, p in summary.skills.items()
         },
+    }
+
+
+def _serialize_recommendations(result: serving.RecommendationsResult) -> dict[str, Any]:
+    """`recommend_next`'s declared contract: a ranked list of
+    skill/reason/context/target_depth/unservable entries (R6/R7/KTD3)."""
+    return {
+        "student_id": result.student_id,
+        "bank_version": result.bank_version,
+        "recommendations": [
+            {
+                "skill_id": r.skill_id,
+                "reason": r.reason,
+                "context": r.context,
+                "target_depth": r.target_depth,
+                "unservable": r.unservable,
+            }
+            for r in result.recommendations
+        ],
     }
 
 
@@ -236,16 +256,56 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         return {"closed": closed}
 
     @mcp.tool()
-    def get_student_progress(session_id: str) -> dict[str, Any]:
+    def get_student_progress(student_id: str) -> dict[str, Any]:
         """The declared progress summary (theta, certification status,
         per-skill seen count) — the same shape tools/replay_audit.py (U7)
-        reproduces from a log alone."""
-        session_obj = _session_or_raise(session_id)
+        reproduces from a log alone.
+
+        U8/R5: session-less — keyed by `student_id` directly rather than a
+        `session_id`, so a consumer linked to this student can read
+        progress even while a *different* consumer's serving session for
+        this student is the one active session R20 allows (F4's "both
+        groups' progress reads reflect all linked-group activity")."""
         try:
-            summary = facade.get_progress(session_obj, datetime.now(), consumer_id)
+            summary = facade.get_progress(student_id, consumer_id, datetime.now())
+        except serving.InvalidIdentifierError as exc:
+            raise ToolError(str(exc)) from exc
         except serving.ConsumerNotLinkedError as exc:
             raise ToolError(f"not_linked: {exc}") from exc
         return _serialize_progress(summary)
+
+    @mcp.tool()
+    def recommend_next(
+        student_id: str,
+        country: str,
+        curriculum: str,
+        grade: int,
+        scope: str | None = None,
+    ) -> dict[str, Any]:
+        """R6/R7: a ranked, reasoned list of ready-to-learn skills, sharing
+        the same selection intelligence `submit_attempt`'s live serving
+        uses (KD4: "pedagogical intelligence stays server-side; partners
+        render and report") — read-only and session-less, exactly like
+        `get_student_progress`: callable even while a different consumer
+        holds this student's one active serving session (R20).
+
+        `scope`, when given, narrows the ranked list to one curriculum
+        unit (U7's `unit_code` vocabulary from `list_units`/`list_skills`)
+        without changing which rules governed the ranking. Checked against
+        the currently `ACTIVE` bank build; each entry's `unservable` flags
+        a skill that build has no instances for — never silently dropped
+        from the list."""
+        try:
+            result = facade.recommend_next(
+                student_id, country, curriculum, grade, consumer_id, datetime.now(), scope=scope,
+            )
+        except serving.InvalidIdentifierError as exc:
+            raise ToolError(str(exc)) from exc
+        except serving.NoActiveBankError as exc:
+            raise ToolError("no active bank build is configured for this deployment") from exc
+        except serving.ConsumerNotLinkedError as exc:
+            raise ToolError(f"not_linked: {exc}") from exc
+        return _serialize_recommendations(result)
 
     @mcp.tool()
     def server_info() -> dict[str, Any]:

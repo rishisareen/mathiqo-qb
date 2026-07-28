@@ -995,6 +995,113 @@ def test_select_next_copy_on_write_does_not_mutate_callers_engine_state(
     assert served_signature in result.engine_state.seen_history["FRAC.UNIT"]
 
 
+# --- rank_serve_candidates: R7's shared ranking function (U8) ------------------
+
+
+def test_rank_serve_candidates_has_exactly_two_call_sites() -> None:
+    """R7's "exactly one implementation, two callers": `select_next`
+    (orchestrator/engine.py) and `ServingFacade.recommend_next`
+    (orchestrator/serving.py) must be the only two places that call
+    `rank_serve_candidates` — a grep-based check that the priority-chain
+    ranking logic was actually extracted into one shared function, not
+    duplicated for the new recommend_next path."""
+    import re
+
+    pattern = re.compile(r"(?<!def )rank_serve_candidates\(")
+    call_sites = 0
+    for relative_path in ("orchestrator/engine.py", "orchestrator/serving.py"):
+        text = (REPO_ROOT / relative_path).read_text(encoding="utf-8")
+        call_sites += len(pattern.findall(text))
+    assert call_sites == 2
+
+
+def test_rank_serve_candidates_full_priority_order_review_through_placement(
+    content: engine.ContentIndex, bank: engine.BankIndex
+) -> None:
+    """Every queue head plus the placement cursor, all populated at once
+    (mirroring test_due_review_is_served_before_everything_else's setup),
+    must appear in `rank_serve_candidates`'s output in R12's exact order —
+    not just as select_next's single winning pick, but as the full ranked
+    list the plan calls for."""
+    student_id = "stu-rank-order"
+    store = StudentModelStore()
+    store.replace_records(
+        student_id, {"FRAC.ADD.LIKE": SkillState(certified_depth=0.2, review_due=NOW - timedelta(days=1))}
+    )
+    engine_state = engine.EngineState()  # placement NOT bypassed: exercise the cursor too
+    engine_state.remediation_queue.append(
+        engine.RemediationDose(skill_id="FRAC.EQUIV", trigger_skill_id="FRAC.ADD.UNLIKE", misconception_id="MISC.X")
+    )
+    engine_state.stepdown_queue.append(engine.StepDownProbe(skill_id="FRAC.ADD.UNLIKE", target_depth=0.2))
+    engine_state.prereq_probe_queue.append(engine.PrereqProbe(skill_id="FRAC.UNIT", trigger_skill_id="FRAC.PARTWHOLE"))
+
+    ranked = engine.rank_serve_candidates(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
+
+    reasons = [c.reason for c in ranked]
+    # The first four entries are exactly the four single-candidate steps,
+    # in R12's priority order; placement/frontier entries (if any) follow.
+    assert reasons[:4] == ["review", "remediation", "stepdown", "prereq_probe"]
+    assert ranked[0].skill_id == "FRAC.ADD.LIKE"
+    assert ranked[1].skill_id == "FRAC.EQUIV"
+    assert ranked[2].skill_id == "FRAC.ADD.UNLIKE"
+    assert ranked[3].skill_id == "FRAC.UNIT"
+    # Placement was not bypassed, so its lazily-initialized cursor entries
+    # (one per strand) must also be present, ranked after the four queues.
+    assert "placement" in reasons[4:]
+    # select_next, given the identical state, must still pick this same
+    # top candidate — the refactor changed nothing about its own behavior.
+    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
+    assert result.serve.reason == "review"
+    assert result.serve.skill_id == "FRAC.ADD.LIKE"
+
+
+def test_rank_serve_candidates_frontier_top_entry_matches_select_next(
+    content: engine.ContentIndex, bank: engine.BankIndex
+) -> None:
+    """With every queue/placement step empty, only frontier candidates
+    remain — `rank_serve_candidates`'s top-ranked entry must name the same
+    skill `select_next` actually serves for the identical state (the R7
+    parity this unit's plan asks for)."""
+    student_id = "stu-rank-frontier"
+    store = StudentModelStore()
+    engine_state = _bypass_placement()
+
+    ranked = engine.rank_serve_candidates(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
+    assert ranked
+    assert ranked[0].reason == "frontier"
+
+    result = engine.select_next(store, engine_state, content, bank, student_id, "CA", "ONTARIO", 6, NOW)
+    assert result.serve is not None
+    assert result.serve.reason == "frontier"
+    assert result.serve.skill_id == ranked[0].skill_id
+
+
+def test_rank_serve_candidates_flags_a_bank_absent_skill_as_unservable_without_dropping_it(
+    content: engine.ContentIndex, bank: engine.BankIndex
+) -> None:
+    """A queue-head skill the checked bank has zero instances for must
+    still appear in the ranked list, flagged `unservable=True` — never
+    silently omitted (this unit's bank-awareness contract, exercised at
+    the engine level; tests/test_serving.py covers the same contract
+    through `ServingFacade.recommend_next`)."""
+    student_id = "stu-rank-unservable"
+    store = StudentModelStore()
+    engine_state = _bypass_placement()
+    # FRAC.EQUIV has real instances in `bank`; a mini bank scoped to a
+    # different skill has none for it at all.
+    engine_state.remediation_queue.append(
+        engine.RemediationDose(skill_id="FRAC.EQUIV", trigger_skill_id="FRAC.ADD.UNLIKE", misconception_id="MISC.X")
+    )
+    mini = _mini_bank(bank, "FRAC.ADD.UNLIKE")
+
+    ranked = engine.rank_serve_candidates(store, engine_state, content, mini, student_id, "CA", "ONTARIO", 6, NOW)
+    remediation_entries = [c for c in ranked if c.reason == "remediation"]
+    assert len(remediation_entries) == 1
+    assert remediation_entries[0].skill_id == "FRAC.EQUIV"
+    assert remediation_entries[0].unservable is True
+    assert remediation_entries[0].bank_candidates == []
+
+
 # --- rebuild_engine_state: KTD11 replay reproduces live queue state -----------
 
 

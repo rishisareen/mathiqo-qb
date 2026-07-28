@@ -511,6 +511,27 @@ def build_progress_summary(
     return ProgressSummary(student_id=student_id, skills=skills)
 
 
+@dataclass
+class RecommendedSkill:
+    """One entry of `ServingFacade.recommend_next`'s ranked list — a thin
+    reshaping of `engine.RankedCandidate` onto this facade's own response
+    surface (never the engine dataclass itself, so a later engine-internal
+    field never leaks onto the public contract unannounced)."""
+
+    skill_id: str
+    reason: str  # review/remediation/stepdown/prereq_probe/placement/frontier
+    context: str  # attempt-event context this skill would serve under
+    target_depth: float
+    unservable: bool  # KTD3: True when the checked bank has no instances for this skill
+
+
+@dataclass
+class RecommendationsResult:
+    student_id: str
+    bank_version: str
+    recommendations: List[RecommendedSkill] = field(default_factory=list)
+
+
 class ServingFacade:
     """Constructed once per process (or per test) against a banks
     directory (KTD3's ACTIVE pointer plus KTD7's retained-build lookup) and
@@ -884,18 +905,123 @@ class ServingFacade:
             session.accepted_attempts[attempt_id] = submit_outcome
             return submit_outcome
 
-    def get_progress(self, session: Session, now: datetime, consumer_id: str) -> ProgressSummary:
-        """The same summary tools/replay_audit.py (U7) reproduces: theta,
+    def get_progress(self, student_id: str, consumer_id: str, now: datetime) -> ProgressSummary:
+        """R5, session-less (U8): re-scoped from taking a `Session` to
+        taking `student_id` directly. R20 allows only one active *serving*
+        session per student; before this unit, a progress read required a
+        live `Session`, which meant a second linked consumer (e.g. a
+        school's tutor reading the same student a parent's app is actively
+        serving) couldn't even *read* the student's state while the first
+        consumer's session was open. This is the fix: replay the student's
+        log fresh (`engine.rebuild_session_state`, KTD11 — the same replay
+        `open_session` seeds a session from) into a scratch store/
+        engine_state and summarize that, never touching any live
+        `Session`'s in-memory state — so this read can never race with, or
+        be blocked by, a concurrently open session for the same student.
+        No curriculum parameter: theta/certification/seen-count are
+        curriculum-neutral by design, unlike `recommend_next`.
+
+        Same summary shape tools/replay_audit.py (U7) reproduces: theta,
         certification status, and per-skill seen count (KTD4's
         signature-keyed count, not a raw instance-id count).
 
         R17: refuses with `ConsumerNotLinkedError` when `self.identity` is
-        configured and `consumer_id` isn't linked to `session.student_id`
-        (AE6's "progress read without linking is refused" half). KTD17:
-        reads under this session's own lock, same as `submit_attempt`."""
-        self._check_linked(consumer_id, session.student_id)
-        with self._lock_for(session):
-            return build_progress_summary(session.store, session.engine_state, session.student_id, now)
+        configured and `consumer_id` isn't linked to `student_id` (AE6's
+        "progress read without linking is refused" half)."""
+        self._check_linked(consumer_id, student_id)
+        log_path = self._log_path_for(student_id)
+        if log_path.is_file():
+            store, engine_state = engine.rebuild_session_state(log_path, self.content, self.bank_lookup)
+        else:
+            store, engine_state = StudentModelStore(), engine.EngineState()
+        return build_progress_summary(store, engine_state, student_id, now)
+
+    def recommend_next(
+        self,
+        student_id: str,
+        country: str,
+        curriculum: str,
+        grade: int,
+        consumer_id: str,
+        now: datetime,
+        scope: Optional[str] = None,
+        session: Optional[Session] = None,
+        bank_version: Optional[str] = None,
+    ) -> "RecommendationsResult":
+        """R6/R7/KD4: a ranked, reasoned list of ready-to-learn skills,
+        sharing `select_next`'s own R12 priority-chain logic
+        (`engine.rank_serve_candidates` — R7's "exactly one implementation,
+        two callers") read-only and session-less — the same reason
+        `get_progress` above is session-less: a consumer linked to
+        `student_id` can call this even while a *different* consumer holds
+        the student's one active serving session (R20).
+
+        Never mutates anything durable (KTD2's scratch-clone discipline,
+        the same one the batch planner uses): replays the student's log
+        fresh into a scratch `StudentModelStore`/`EngineState`
+        (`engine.rebuild_session_state`, KTD11 — identical to
+        `get_progress`'s own replay) and runs `rank_serve_candidates`
+        against that scratch state. Nothing is written back: no seen-mark,
+        no engine-state persisted, no store touched.
+
+        **Bank-awareness (KTD3).** A recommended skill's servability
+        depends on whether the *checked* bank actually holds instances for
+        it. Pass `session` (an already-open `Session`) to check against
+        exactly the build that session is pinned to — the natural choice
+        for a caller mid-session; pass `bank_version` to check a specific
+        retained build; pass neither to check the currently `ACTIVE` build
+        (resolved the same way `open_session` does). A skill the checked
+        bank cannot serve is never dropped from the list — it comes back
+        with `unservable=True` so a caller can see it and decide, per this
+        unit's plan point 3.
+
+        **Scoping.** `scope`, when given, narrows the ranked list to one
+        curriculum unit's skills (`orchestrator/catalog.py`'s `unit_code`
+        vocabulary, U7's `list_units`/`list_skills`) — filtering happens
+        *after* the full country/curriculum/grade-governed ranking, so
+        narrowing the candidate set never narrows the rules (ceilings and
+        prerequisite gating are computed the same regardless of `scope`).
+
+        R17: refuses with `ConsumerNotLinkedError` before touching
+        anything if `self.identity` is configured and `consumer_id` isn't
+        linked to `student_id`."""
+        self._check_linked(consumer_id, student_id)
+        log_path = self._log_path_for(student_id)
+        if log_path.is_file():
+            store, engine_state = engine.rebuild_session_state(log_path, self.content, self.bank_lookup)
+        else:
+            store, engine_state = StudentModelStore(), engine.EngineState()
+
+        if session is not None:
+            bank = session.bank
+        else:
+            resolved_version = bank_version or read_active_bank_version(self.banks_dir)
+            bank = self.bank_lookup(resolved_version)
+
+        ranked = engine.rank_serve_candidates(
+            store, engine_state, self.content, bank, student_id, country, curriculum, grade, now
+        )
+
+        if scope is not None:
+            scoped_skill_ids = {
+                mapped.skill_id
+                for mapped in catalog_module.list_skills(self.content, country, curriculum, grade, scope).skills
+            }
+            ranked = [candidate for candidate in ranked if candidate.skill_id in scoped_skill_ids]
+
+        recommendations = [
+            RecommendedSkill(
+                skill_id=candidate.skill_id,
+                reason=candidate.reason,
+                context=candidate.context,
+                target_depth=candidate.target_depth,
+                unservable=candidate.unservable,
+            )
+            for candidate in ranked
+        ]
+        return RecommendationsResult(
+            student_id=student_id, bank_version=bank.bank_version, recommendations=recommendations
+        )
 
     def close_session(self, session: Session, consumer_id: str) -> None:
         """Close-by-session_id: R17's link check, then unregister from

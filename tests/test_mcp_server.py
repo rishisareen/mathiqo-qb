@@ -152,7 +152,9 @@ def test_smoke_open_get_candidates_submit_progress(facade: serving.ServingFacade
             assert submitted.structuredContent["logged"] is True
             assert submitted.structuredContent["repeat"] is False
 
-            progress = await client.call_tool("get_student_progress", {"session_id": session_id})
+            progress = await client.call_tool(
+                "get_student_progress", {"student_id": "stu-smoke"}
+            )
             assert not progress.isError
             skill_progress = progress.structuredContent["skills"][SKILL_ID]
             assert skill_progress["seen_count"] == 1
@@ -207,13 +209,80 @@ def test_get_student_progress_returns_declared_shape(facade: serving.ServingFaca
             candidates = await client.call_tool("get_candidates", {"session_id": session_id, "skill_id": SKILL_ID})
             instance = candidates.structuredContent["instances"][0]
             await client.call_tool("submit_attempt", _submit_args(session_id, instance))
-            progress = await client.call_tool("get_student_progress", {"session_id": session_id})
+            progress = await client.call_tool("get_student_progress", {"student_id": "stu-shape"})
             return progress.structuredContent
 
     result = _run(flow())
     assert set(result) == {"student_id", "skills"}
     skill = result["skills"][SKILL_ID]
     assert set(skill) == {"skill_id", "theta", "n", "certified_depth", "certification_status", "seen_count"}
+
+
+# --- U8: recommend_next tool + session-less get_student_progress/recommend_next
+# over MCP (R5, R6, R7, R20) ---------------------------------------------------
+
+
+def test_recommend_next_returns_declared_shape_over_mcp(facade: serving.ServingFacade) -> None:
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow() -> dict:
+        async with create_connected_server_and_client_session(server) as client:
+            await client.call_tool("open_session", _open_args("stu-recommend"))
+            return await client.call_tool(
+                "recommend_next",
+                {"student_id": "stu-recommend", **DEFAULT_OPEN_EXTRA},
+            )
+
+    result = _run(flow())
+    assert not result.isError
+    body = result.structuredContent
+    assert set(body) == {"student_id", "bank_version", "recommendations"}
+    assert body["student_id"] == "stu-recommend"
+    assert body["bank_version"] == "mcp-build"
+    assert body["recommendations"]
+    entry = body["recommendations"][0]
+    assert set(entry) == {"skill_id", "reason", "context", "target_depth", "unservable"}
+    assert entry["reason"] in {"review", "remediation", "stepdown", "prereq_probe", "placement", "frontier"}
+
+
+def test_recommend_next_and_get_student_progress_are_session_less_over_mcp(
+    linked_facade: serving.ServingFacade, identity_registry: IdentityRegistry
+) -> None:
+    """R20/F4's whole point, at the MCP transport: consumer A opens and
+    holds the student's one active serving session; consumer B, linked to
+    the same student via a *separate* server (its own consumer_id), can
+    still successfully call recommend_next and get_student_progress for
+    that student with no session_id of its own — proof this surface
+    doesn't require a live session for either read."""
+    student_id = identity_registry.register_student({"guardian_email": "g@example.com"}, consumer_id="partner.a")
+    identity_registry.link_student(student_id, {"guardian_email": "g@example.com"}, consumer_id="partner.b")
+
+    server_a = mcp_server.build_server(linked_facade, "partner.a")
+    server_b = mcp_server.build_server(linked_facade, "partner.b")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server_a) as client_a:
+            opened = await client_a.call_tool("open_session", _open_args(student_id))
+            assert not opened.isError
+            session_id = opened.structuredContent["session_id"]
+
+            async with create_connected_server_and_client_session(server_b) as client_b:
+                progress = await client_b.call_tool("get_student_progress", {"student_id": student_id})
+                assert not progress.isError
+
+                recommendations = await client_b.call_tool(
+                    "recommend_next", {"student_id": student_id, **DEFAULT_OPEN_EXTRA}
+                )
+                assert not recommendations.isError
+                assert recommendations.structuredContent["recommendations"]
+
+            # partner.a's session is unaffected by partner.b's session-less reads.
+            candidates = await client_a.call_tool(
+                "get_candidates", {"session_id": session_id, "skill_id": SKILL_ID}
+            )
+            assert not candidates.isError
+
+    _run(flow())
 
 
 # --- interface version --------------------------------------------------------

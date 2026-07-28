@@ -21,8 +21,9 @@ import pytest
 import bank_activate
 import bank_build
 from conftest import REPO_ROOT
-from orchestrator import constants, engine, log as log_module, serving
+from orchestrator import catalog as catalog_module, constants, engine, log as log_module, serving
 from orchestrator.identity import IdentityRegistry
+from orchestrator.state import StudentModelStore
 
 TEMPLATES_DIR = REPO_ROOT / "content" / "templates"
 LOCALE_PACK = REPO_ROOT / "content" / "locales" / "en-IN.yaml"
@@ -295,7 +296,7 @@ def test_submit_attempt_then_progress_reports_theta_certification_and_seen_count
     event = outcome.event
     assert event["variant_signature"] == instance["variant_signature"]
 
-    progress = facade.get_progress(session, now, consumer_id=constants.CONSUMER_ID_INTERNAL)
+    progress = facade.get_progress(session.student_id, now=now, consumer_id=constants.CONSUMER_ID_INTERNAL)
     assert SKILL_ID in progress.skills
     skill_progress = progress.skills[SKILL_ID]
     assert skill_progress.theta > 0.0
@@ -349,7 +350,7 @@ def test_submit_attempt_and_get_progress_refused_for_unlinked_consumer(
     now = log_module.parse_timestamp("2026-07-27T12:00:00")
 
     with pytest.raises(serving.ConsumerNotLinkedError):
-        linked_facade.get_progress(session, now, consumer_id="partner.stranger")
+        linked_facade.get_progress(session.student_id, now=now, consumer_id="partner.stranger")
 
     with pytest.raises(serving.ConsumerNotLinkedError):
         linked_facade.submit_attempt(
@@ -361,7 +362,7 @@ def test_submit_attempt_and_get_progress_refused_for_unlinked_consumer(
         )
 
     # The owning consumer, meanwhile, is unaffected.
-    progress = linked_facade.get_progress(session, now, consumer_id="partner.owner")
+    progress = linked_facade.get_progress(session.student_id, now=now, consumer_id="partner.owner")
     assert progress.student_id == student_id
 
 
@@ -386,7 +387,7 @@ def test_without_identity_registry_operations_are_unaffected(
     )
     assert outcome.event is not None
 
-    progress = facade.get_progress(session, now, consumer_id="yet.another.consumer")
+    progress = facade.get_progress(session.student_id, now=now, consumer_id="yet.another.consumer")
     assert SKILL_ID in progress.skills
 
     facade.close_session(session, consumer_id="a.fourth.consumer")
@@ -585,7 +586,7 @@ def test_concurrent_submit_attempt_on_same_session_is_serialized(
 
     # theta reflects both attempts' evidence, not just one clobbering the
     # other's write.
-    progress = facade.get_progress(session, now, consumer_id=constants.CONSUMER_ID_INTERNAL)
+    progress = facade.get_progress(session.student_id, now=now, consumer_id=constants.CONSUMER_ID_INTERNAL)
     assert progress.skills[SKILL_ID].seen_count == 2
 
 
@@ -617,7 +618,7 @@ def test_submit_attempt_same_attempt_id_twice_in_same_session_is_idempotent(
 
     first = facade.submit_attempt(session, "attempt-idem-1", SKILL_ID, instance, **kwargs)
     assert first.event is not None
-    progress_after_first = facade.get_progress(session, now, consumer_id=constants.CONSUMER_ID_INTERNAL)
+    progress_after_first = facade.get_progress(session.student_id, now=now, consumer_id=constants.CONSUMER_ID_INTERNAL)
 
     second = facade.submit_attempt(session, "attempt-idem-1", SKILL_ID, instance, **kwargs)
     assert second is first  # Path A: the exact same cached SubmitOutcome, nothing re-run
@@ -625,7 +626,7 @@ def test_submit_attempt_same_attempt_id_twice_in_same_session_is_idempotent(
     logged = list(log_module.iter_events(session.log_path))
     assert len(logged) == 1
 
-    progress_after_second = facade.get_progress(session, now, consumer_id=constants.CONSUMER_ID_INTERNAL)
+    progress_after_second = facade.get_progress(session.student_id, now=now, consumer_id=constants.CONSUMER_ID_INTERNAL)
     assert progress_after_second.skills[SKILL_ID].theta == progress_after_first.skills[SKILL_ID].theta
     assert progress_after_second.skills[SKILL_ID].n == progress_after_first.skills[SKILL_ID].n
     assert progress_after_second.skills[SKILL_ID].seen_count == 1
@@ -661,7 +662,7 @@ def test_submit_attempt_resubmission_after_session_restart_replays_via_seeded_ma
     logged = list(log_module.iter_events(session2.log_path))
     assert len(logged) == 1
 
-    progress = facade.get_progress(session2, now, consumer_id=constants.CONSUMER_ID_INTERNAL)
+    progress = facade.get_progress(session2.student_id, now=now, consumer_id=constants.CONSUMER_ID_INTERNAL)
     assert progress.skills[SKILL_ID].seen_count == 1
 
 
@@ -772,3 +773,195 @@ def test_discarded_attempt_carries_a_reason_and_rejected_attempt_leaves_no_trace
     ok = facade.submit_attempt(session, "attempt-after-1", SKILL_ID, instance, **_submit_kwargs(instance, now))
     assert ok.event is not None
     assert len(list(log_module.iter_events(session.log_path))) == 1
+
+
+# --- U8: recommend_next / session-less get_progress (R5, R6, R7, R20) --------
+#
+# recommend_next needs real placement/frontier progress across *several*
+# skills to exercise bank-awareness and priority parity meaningfully — the
+# module-level `banks_dir`/`facade` fixtures above deliberately hold only
+# one skill's instances (FRAC.ADD.LIKE), which is exactly right for their
+# own tests but too narrow here. `full_banks_dir`/`full_facade` build a
+# bank from every content/templates/*.yaml instead.
+
+
+@pytest.fixture()
+def full_banks_dir(tmp_path: Path) -> Path:
+    out = tmp_path / "full_banks"
+    out.mkdir()
+    manifest, per_template = bank_build.run_build(TEMPLATES_DIR, LOCALE_PACK, "full-build", pool_cap=3)
+    bank_build.write_bank(out, "full-build", manifest, per_template)
+    return out
+
+
+@pytest.fixture()
+def full_facade(full_banks_dir: Path, logs_dir: Path, content: engine.ContentIndex) -> serving.ServingFacade:
+    return serving.ServingFacade(full_banks_dir, logs_dir, content)
+
+
+def test_recommend_next_top_entry_matches_select_next_for_a_fresh_student(
+    full_banks_dir: Path, full_facade: serving.ServingFacade
+) -> None:
+    """R7's parity, at the facade level: recommend_next's top-ranked entry
+    must name the same skill (and reason) select_next would actually serve
+    first for the identical (fresh, no log yet) student/state — a genuine
+    check, constructing the state both ways rather than asserting they
+    call the same function."""
+    bank_activate.activate(full_banks_dir, "full-build")
+    student_id = "stu-recommend-parity"
+    now = log_module.parse_timestamp("2026-07-27T12:00:00")
+
+    result = full_facade.recommend_next(
+        student_id, "CA", "ONTARIO", 4, consumer_id=constants.CONSUMER_ID_INTERNAL, now=now
+    )
+    assert result.recommendations
+    assert result.bank_version == "full-build"
+
+    bank = engine.load_bank(full_banks_dir / "full-build")
+    select_result = engine.select_next(
+        StudentModelStore(), engine.EngineState(), full_facade.content, bank, student_id, "CA", "ONTARIO", 4, now
+    )
+    assert select_result.serve is not None
+    top = result.recommendations[0]
+    assert top.skill_id == select_result.serve.skill_id
+    assert top.reason == select_result.serve.reason
+    assert top.target_depth == pytest.approx(select_result.serve.difficulty)
+
+
+def test_recommend_next_mutates_nothing(
+    full_banks_dir: Path, full_facade: serving.ServingFacade, logs_dir: Path
+) -> None:
+    """recommend_next must be a pure read: calling it twice returns
+    identical results, the student's log is byte-for-byte unchanged, and
+    an independent get_progress read (itself a fresh replay from the log)
+    shows no seen-mark was written."""
+    bank_activate.activate(full_banks_dir, "full-build")
+    student_id = "stu-recommend-pure"
+    now = log_module.parse_timestamp("2026-07-27T12:00:00")
+
+    session = full_facade.open_session("sess-pure", student_id, "CA", "ONTARIO", 4, constants.CONSUMER_ID_INTERNAL)
+    instance = session.bank.instances_by_skill["FRAC.UNIT"][0]
+    full_facade.submit_attempt(
+        session, "attempt-pure-1", "FRAC.UNIT", instance,
+        response_raw=instance["answer"], response_parsed=instance["answer"], correct=True,
+        misconception_id=None, hints_used=0, hint_auto_offered=False, time_taken_sec=5.0,
+        timed_out=False, engaged=True, session_last_event=False, context="practice",
+        consumer_id=constants.CONSUMER_ID_INTERNAL, now=now,
+    )
+    full_facade.close_session(session, consumer_id=constants.CONSUMER_ID_INTERNAL)
+
+    log_path = logs_dir / f"{student_id}.jsonl"
+    log_before = log_path.read_text(encoding="utf-8")
+
+    first = full_facade.recommend_next(
+        student_id, "CA", "ONTARIO", 4, consumer_id=constants.CONSUMER_ID_INTERNAL, now=now
+    )
+    second = full_facade.recommend_next(
+        student_id, "CA", "ONTARIO", 4, consumer_id=constants.CONSUMER_ID_INTERNAL, now=now
+    )
+    assert first == second
+
+    log_after = log_path.read_text(encoding="utf-8")
+    assert log_before == log_after  # nothing appended
+
+    # Independently re-derive progress from the log alone: seen_count still
+    # reflects only the one attempt actually submitted through the session,
+    # never anything recommend_next might have marked seen.
+    progress = full_facade.get_progress(student_id, consumer_id=constants.CONSUMER_ID_INTERNAL, now=now)
+    assert progress.skills["FRAC.UNIT"].seen_count == 1
+
+
+def test_recommend_next_scope_narrows_candidates_without_changing_ceiling_rules(
+    full_banks_dir: Path, full_facade: serving.ServingFacade
+) -> None:
+    """Scoping to one IN/NCERT grade-6 chapter (content/fractions/
+    fractions-ncert.yaml's "IN-NCERT-G6-CH7", which — together with
+    mappings.yaml's own row — maps several skills: FRAC.NUMLINE,
+    FRAC.EQUIV, FRAC.CMP, FRAC.SIMPLIFY, FRAC.ADD.LIKE, FRAC.MIXED.ADD,
+    FRAC.ADD.UNLIKE) must restrict the ranked list to that unit's own
+    mapped skills without changing the country/curriculum/grade context
+    that governs ceilings: whichever candidates survive scoping keep the
+    exact same reason/target_depth/unservable verdict they had unscoped —
+    only the candidate *set* shrinks, never the rules."""
+    bank_activate.activate(full_banks_dir, "full-build")
+    student_id = "stu-recommend-scope"
+    now = log_module.parse_timestamp("2026-07-27T12:00:00")
+    unit_code = "IN-NCERT-G6-CH7"
+
+    unit_skill_ids = {
+        mapped.skill_id
+        for mapped in catalog_module.list_skills(full_facade.content, "IN", "NCERT", 6, unit_code).skills
+    }
+    assert unit_skill_ids, "fixture assumption: this unit maps at least one skill"
+
+    unscoped = full_facade.recommend_next(
+        student_id, "IN", "NCERT", 6, consumer_id=constants.CONSUMER_ID_INTERNAL, now=now
+    )
+    scoped = full_facade.recommend_next(
+        student_id, "IN", "NCERT", 6, consumer_id=constants.CONSUMER_ID_INTERNAL, now=now, scope=unit_code,
+    )
+
+    unscoped_by_id = {r.skill_id: r for r in unscoped.recommendations}
+    scoped_by_id = {r.skill_id: r for r in scoped.recommendations}
+
+    assert set(scoped_by_id) <= unit_skill_ids  # scoping never lets in a skill outside the unit
+    assert scoped_by_id  # and the unit is genuinely represented in the ranking
+    assert set(scoped_by_id) < set(unscoped_by_id)  # a real narrowing, not a no-op
+
+    # Every candidate that survives scoping is untouched by it — same
+    # reason, target_depth, and unservable verdict as its unscoped entry.
+    for skill_id, scoped_entry in scoped_by_id.items():
+        unscoped_entry = unscoped_by_id[skill_id]
+        assert scoped_entry.reason == unscoped_entry.reason
+        assert scoped_entry.target_depth == pytest.approx(unscoped_entry.target_depth)
+        assert scoped_entry.unservable == unscoped_entry.unservable
+
+
+def test_recommend_next_flags_a_bank_absent_skill_as_unservable_without_dropping_it(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """`facade`/`banks_dir` (module-level fixtures) hold instances for only
+    FRAC.ADD.LIKE. CA/ONTARIO grade 4 placement starts at FRAC.UNIT (see
+    tests/test_engine.py's test_fresh_student_placement_starts_at_...) —
+    this bank has none, so that entry must still appear in the ranked
+    list, flagged unservable, never silently omitted."""
+    bank_activate.activate(banks_dir, "build-a")
+    student_id = "stu-recommend-unservable"
+    now = log_module.parse_timestamp("2026-07-27T12:00:00")
+
+    result = facade.recommend_next(
+        student_id, "CA", "ONTARIO", 4, consumer_id=constants.CONSUMER_ID_INTERNAL, now=now
+    )
+    placement_entries = [r for r in result.recommendations if r.skill_id == "FRAC.UNIT"]
+    assert len(placement_entries) == 1
+    assert placement_entries[0].reason == "placement"
+    assert placement_entries[0].unservable is True
+
+
+def test_recommend_next_and_get_progress_succeed_for_second_linked_consumer_while_first_holds_the_session(
+    banks_dir: Path, linked_facade: serving.ServingFacade, identity_registry: IdentityRegistry
+) -> None:
+    """The whole reason this unit exists (R20/F4): consumer A opens and
+    holds the student's one active serving session; consumer B, linked to
+    the same student but holding no session of its own, can still
+    successfully call recommend_next and get_progress for that student —
+    the session-less reads never contend with, or require, A's live
+    session."""
+    bank_activate.activate(banks_dir, "build-a")
+    student_id = identity_registry.register_student({"guardian_email": "d@example.com"}, consumer_id="partner.a")
+    identity_registry.link_student(student_id, {"guardian_email": "d@example.com"}, consumer_id="partner.b")
+
+    session = _open(linked_facade, "sess-held-by-a", student_id, consumer_id="partner.a")
+    now = log_module.parse_timestamp("2026-07-27T12:00:00")
+
+    progress = linked_facade.get_progress(student_id, consumer_id="partner.b", now=now)
+    assert progress.student_id == student_id
+
+    recommendations = linked_facade.recommend_next(
+        student_id, "CA", "ONTARIO", 4, consumer_id="partner.b", now=now
+    )
+    assert recommendations.student_id == student_id
+    assert recommendations.recommendations
+
+    # partner.a's session is completely unaffected by B's session-less reads.
+    assert linked_facade.sessions.get("sess-held-by-a") is session
