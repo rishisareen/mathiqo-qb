@@ -342,6 +342,76 @@ it to move, not assume today's shape is final. Auth/transport hardening
 for v1: this server assumes a small set of known, credentialed partners in
 a trusted deployment, one `--consumer-id` per server process.
 
+## REST server
+
+`tools/rest_server.py` (U12) is the REST sibling of `tools/mcp_server.py`:
+the same `orchestrator/serving.py` facade, exposed over HTTP instead of
+MCP, for partners that need a shared multi-tenant server rather than one
+stdio process per consumer (R14 — every capability is available over both
+transports, resolving to the same facade operations). It is built from the
+*same* `ServingFacade` instance a co-located MCP server would use
+(KTD12): a session opened over REST is immediately visible and usable over
+MCP, and vice versa, because both transports resolve `session_id` against
+the one shared `facade.sessions` registry rather than keeping their own.
+
+```sh
+python tools/rest_server.py --banks-dir banks --logs-dir logs \
+    --credentials-file credentials.json [--content content/fractions] \
+    [--host 127.0.0.1] [--port 8000]
+```
+
+**Bearer-token auth (KTD15/KTD16).** Unlike MCP's single `--consumer-id`
+per process, this is one HTTP server fielding requests from many different
+partners, so every request must carry `Authorization: Bearer <token>`,
+resolved against a startup-configured credential table rather than a
+caller-supplied id. `--credentials-file` points at a JSON file mapping
+each partner's token to its `consumer_id`:
+
+```json
+{
+  "token-for-partner-acme": "partner.acme",
+  "token-for-partner-beta": "partner.beta"
+}
+```
+
+A missing or unrecognized token is refused with `401` before any route
+body — and therefore any facade code — runs; `consumer_id` is never a
+request parameter on any route (same "server-configured, never
+caller-supplied" invariant every MCP tool already follows). The bind
+default is `127.0.0.1` (loopback only); pass `--host 0.0.0.0` to accept
+non-local connections once you've put this behind whatever TLS termination
+and network policy your deployment needs — auth/transport hardening beyond
+the bearer-token check itself is still v1-scope-limited, same posture as
+the MCP server. Tokens are never echoed anywhere this server produces —
+not a response body, not the generated OpenAPI document, not a log line —
+and no request-logging middleware is added here that would risk it.
+
+**Route surface** (KTD7's status table governs every non-2xx response;
+`signal`/`reason` appear in the JSON body wherever the table calls for
+one):
+
+| Method & path | Delegates to |
+|---|---|
+| `POST /sessions` | `open_session` |
+| `GET /sessions/{session_id}/candidates` | `get_candidates` |
+| `POST /sessions/{session_id}/attempts` | `submit_attempt` |
+| `DELETE /sessions/{session_id}` | `close_session` |
+| `DELETE /students/{student_id}/session` | `close_session_by_student` |
+| `GET /students/{student_id}/progress` | `get_student_progress` |
+| `GET /students/{student_id}/recommendations` | `recommend_next` |
+| `POST /students` | `register_student` |
+| `POST /students/{student_id}/link` | `link_student` |
+| `POST /students/lookup` | `find_student` |
+| `GET /catalog/curricula` | `list_curricula` |
+| `GET /catalog/units` | `list_units` |
+| `GET /catalog/skills` | `list_skills` |
+| `GET /catalog/skill-graph` | `get_skill_graph` |
+| `POST /sessions/{session_id}/batches` | `fetch_batch` |
+| `POST /sessions/{session_id}/batches/refill` | `refill_batch` |
+
+Auto-generated OpenAPI docs (schemas, no credentials) are available at
+`/docs` and `/openapi.json` once the server is running.
+
 ## Run the tests
 
 ```sh
