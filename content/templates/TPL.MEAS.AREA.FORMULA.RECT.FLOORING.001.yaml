@@ -1,0 +1,56 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.AREA.FORMULA batch.
+# Direct rectangle-area formula (length x breadth), flooring context, easy
+# band, numeric_entry.
+template_id: TPL.MEAS.AREA.FORMULA.RECT.FLOORING.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.AREA.FORMULA
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - flooring
+  - home
+
+variables:
+  a: { type: int, range: [4, 15] }
+  b: { type: int, range: [3, 12] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A rectangular room's floor is {{a}} m long and {{b}} m wide. What is the area of the floor, in square metres?"
+
+answer: "a * b"
+
+distractors:
+  - expr: "a + b"
+    misconception_id: MISC.MEAS.AREA-ADD-SIDES
+  - expr: "2 * (a + b)"
+    misconception_id: MISC.MEAS.PERIMETER-AREA-CONFUSED
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The area of a rectangle is length x breadth."
+      - "{{a}} x {{b}} gives the floor's area in square metres."
+
+hints_i18n:
+  en-IN:
+    - "Area is not found by adding the sides — think about how many unit squares fit inside."
+    - "Multiply the length by the width: {{a}} x {{b}}."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

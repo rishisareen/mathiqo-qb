@@ -126,10 +126,10 @@ def make_serve(bank_index: engine.BankIndex, skill_id: str, difficulty: float, c
 
 def test_load_content_surfaces_content_version_from_manifest(content: engine.ContentIndex) -> None:
     """KTD9: content/fractions/manifest.yaml declares content_version
-    "1.2.0" (bumped by the Class 6 Servable Coverage plan's U3 misconception
-    registry entries) — load_content must read it and surface it on
+    "1.3.0" (bumped by the Class 6 Servable Coverage plan's U6 R8 mapping
+    wording fix) — load_content must read it and surface it on
     ContentIndex."""
-    assert content.content_version == "1.2.0"
+    assert content.content_version == "1.3.0"
 
 
 def test_load_content_version_survives_merged_multi_file_load(fixture_copy: Path) -> None:
@@ -146,7 +146,7 @@ def test_load_content_version_survives_merged_multi_file_load(fixture_copy: Path
     write_yaml(mappings_path, data)
 
     content_index = engine_module.load_content(fixture_copy)
-    assert content_index.content_version == "1.2.0"
+    assert content_index.content_version == "1.3.0"
 
 
 def test_load_content_raises_a_clear_error_when_manifest_is_missing(fixture_copy: Path) -> None:

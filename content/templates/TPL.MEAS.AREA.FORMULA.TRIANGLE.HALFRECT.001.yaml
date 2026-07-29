@@ -1,0 +1,58 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.AREA.FORMULA batch.
+# Triangle area as half of a surrounding rectangle, at depth. The base is
+# written as "2 x {{k}}" directly in the stem so it is always even by
+# construction, making the triangle's area exactly k*h with no fractional
+# risk or constraint-rejection from a parity constraint. Hard band, mcq_4.
+template_id: TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.AREA.FORMULA
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 55
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+  - art
+
+variables:
+  k: { type: int, range: [2, 7] }
+  h: { type: int, range: [3, 10] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x {{k}} cm and its height measuring {{h}} cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?"
+
+answer: "k * h"
+
+distractors:
+  - expr: "2 * k * h"
+    misconception_id: null
+  - expr: "2 * k + h"
+    misconception_id: MISC.MEAS.AREA-ADD-SIDES
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The surrounding rectangle's area is (2 x {{k}}) x {{h}}."
+      - "The triangle's area is half of that: (2 x {{k}} x {{h}}) / 2 = {{k}} x {{h}}."
+
+hints_i18n:
+  en-IN:
+    - "First work out the area of the whole surrounding rectangle."
+    - "The triangle is exactly half the rectangle's area — don't forget to halve it, and don't just add the base and height."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

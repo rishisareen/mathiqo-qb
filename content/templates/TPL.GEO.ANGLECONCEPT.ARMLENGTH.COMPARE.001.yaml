@@ -1,0 +1,60 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.CONCEPT depth batch.
+# Directly targets MISC.GEO.ANGLE-ARM-LENGTH: two angles turn through the
+# exact same number of hour-marks (x), so the true difference between them
+# is 0 regardless of how long their arms are drawn. x is a genuine numeric
+# variable (dressing only, like TPL.GEO.SHAPES2D.ROTATE.SQUARE.HARD.001's
+# n) — it doesn't change the constant answer, but it does change the
+# misconception distractor's value, which is always > 0 since x >= 1, so it
+# never collides with the answer 0.
+template_id: TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001
+skill_ids:
+  - GEO.ANGLE.CONCEPT
+question_type: mcq_4
+cognitive_level: conceptual
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  x: { type: int, range: [1, 11] }
+constraints: []
+
+stem_i18n:
+  en-IN: "Angle P is formed by two short arms that turn through {{x}} hour-marks on a clock face (like the hour hand sweeping from the 12 to the {{x}} mark). Angle Q is formed by two much longer arms that turn through the exact same {{x}} hour-marks. A student says Angle Q must be bigger because its arms are drawn longer. Based on the actual turn between the arms (not their length), how many hour-marks bigger is Angle Q than Angle P?"
+localization_slots: []
+
+answer: "0"
+
+distractors:
+  - expr: "x"
+    misconception_id: MISC.GEO.ANGLE-ARM-LENGTH
+  - expr: "x + 2"
+    misconception_id: null
+  - expr: "x + 1"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Angle P and Angle Q both turn through the same {{x}} hour-marks — an angle's size is the amount of turn between its arms, not how long the arms are drawn."
+      - "Since the turns are equal, the difference between them is 0."
+
+hints_i18n:
+  en-IN:
+    - "Did the problem say the two angles turn through different amounts, or the same amount?"
+    - "Drawing an arm longer doesn't add any turn — trace the actual turn between the arms instead of comparing their length."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

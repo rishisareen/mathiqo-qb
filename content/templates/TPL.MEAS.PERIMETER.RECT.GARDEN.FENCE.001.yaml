@@ -1,0 +1,56 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.PERIMETER batch.
+# Direct rectangle-perimeter word problem (fencing context), easy band.
+template_id: TPL.MEAS.PERIMETER.RECT.GARDEN.FENCE.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.PERIMETER
+question_type: numeric_entry
+cognitive_level: application
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - gardens
+  - home
+
+variables:
+  a: { type: int, range: [4, 20] }
+  b: { type: int, range: [4, 20] }
+
+constraints: []
+
+localization_slots:
+  - name1
+stem_i18n:
+  en-IN: "{{name1}} wants to put a fence all the way around a rectangular garden that is {{a}} m long and {{b}} m wide. What length of fencing does {{name1}} need, in metres?"
+
+answer: "2 * (a + b)"
+
+distractors:
+  - expr: "a + b"
+    misconception_id: MISC.MEAS.PERIMETER-MISSED-SIDE
+  - expr: "a * b"
+    misconception_id: MISC.MEAS.PERIMETER-AREA-CONFUSED
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A rectangle has two lengths and two widths, so the boundary is {{a}} + {{a}} + {{b}} + {{b}}."
+      - "This is the same as 2 x ({{a}} + {{b}}), the total length of fencing needed."
+
+hints_i18n:
+  en-IN:
+    - "A rectangle has four sides, not just two — the length appears twice and the width appears twice."
+    - "Add the length and width, then double the result: 2 x ({{a}} + {{b}})."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

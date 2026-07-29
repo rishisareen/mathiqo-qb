@@ -1,0 +1,58 @@
+# Class 6 Servable Coverage plan, U6: GEO.CONSTRUCT.BASIC authoring batch.
+# A figure built from a line segment and a circle (skill description:
+# "figures ... built from circles and line segments"). n constrained even
+# for an exact radius.
+template_id: TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001
+skill_ids:
+  - GEO.CONSTRUCT.BASIC
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  n: { type: int, range: [4, 30] }
+constraints:
+  - "n % 2 == 0"
+  - "n != 4"
+
+stem_i18n:
+  en-IN: "A construction combines a line segment {{n}} cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is {{n}} cm and everything is constructed correctly, what is the circle's radius, in centimetres?"
+localization_slots: []
+
+answer: "n / 2"
+
+distractors:
+  - expr: "n"
+    misconception_id: null
+  - expr: "2 * n"
+    misconception_id: null
+  - expr: "n / 2 + 2"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The segment is the circle's diameter, and the radius is half the diameter."
+      - "Radius = {{n}} / 2 cm."
+
+hints_i18n:
+  en-IN:
+    - "The whole segment is the diameter — the radius is only half of that."
+    - "Divide the segment length by 2."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

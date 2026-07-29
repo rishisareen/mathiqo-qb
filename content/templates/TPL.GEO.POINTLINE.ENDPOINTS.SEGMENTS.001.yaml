@@ -1,0 +1,60 @@
+# Class 6 Servable Coverage plan, U6: GEO.POINT.LINE depth batch.
+# Directly targets MISC.GEO.LINE-SEGMENT-SAME: a student who conflates
+# "line" and "line segment" believes a two-letter-named figure (like AB)
+# must extend forever like a line, and so has no fixed endpoints at all.
+# The correct fact — every line segment has exactly 2 fixed endpoints — is
+# scaled across k segments so the wrong belief (0 endpoints total) and two
+# other plausible slips are always numerically distinct from the answer
+# (proved algebraically below, k >= 2).
+template_id: TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001
+skill_ids:
+  - GEO.POINT.LINE
+question_type: mcq_4
+cognitive_level: conceptual
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  k: { type: int, range: [2, 8] }
+constraints: []
+
+stem_i18n:
+  en-IN: "{{k}} line segments are drawn on a page, each named with two letters like AB. A student mixes up 'line' and 'line segment', and thinks that because these figures have two-letter names, they must be full lines that extend forever in both directions — so none of them really has any fixed endpoints. Using the correct definition of a line segment (a figure with two fixed endpoints that does not extend further), what is the total number of fixed endpoints across all {{k}} segments?"
+localization_slots: []
+
+answer: "2*k"
+
+distractors:
+  - expr: "0"
+    misconception_id: MISC.GEO.LINE-SEGMENT-SAME
+  - expr: "k"
+    misconception_id: null
+  - expr: "4*k"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A line segment always has exactly 2 fixed endpoints — it stops at both ends, unlike a line, which extends forever and has none."
+      - "With {{k}} segments and 2 endpoints each, the total is 2 x {{k}} = 2*{{k}}."
+
+hints_i18n:
+  en-IN:
+    - "Does a line segment stop somewhere, or does it go on forever like a line does?"
+    - "Each segment has 2 fixed endpoints. Multiply that by the number of segments, {{k}}."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -543,8 +543,16 @@ def test_replay_equivalence_at_scale_matches_live_store_and_engine_state(
     )
     assert live_summary.items_served == 150
 
-    replayed_store = log_module.replay(log_path)
-    replayed_engine_state = engine.rebuild_engine_state(log_path, content, engine.make_static_bank_lookup(bank))
+    # KTD11/rebuild_session_state's own docstring: a caller that needs both
+    # the store and the engine_state must replay them together in one pass
+    # (consume_event's misconception-counter-pop patches are folded into the
+    # store as replay goes) — pairing a standalone log.replay() with
+    # rebuild_engine_state() separately (as this test used to) reconstructs
+    # a store that never sees those patches, so it can diverge from the live
+    # store whenever a misconception trigger fires mid-session.
+    replayed_store, replayed_engine_state = engine.rebuild_session_state(
+        log_path, content, engine.make_static_bank_lookup(bank)
+    )
 
     assert replayed_store.records_for(student_id) == store.records_for(student_id)
 

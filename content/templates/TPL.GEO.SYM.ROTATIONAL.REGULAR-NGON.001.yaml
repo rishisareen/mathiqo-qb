@@ -1,0 +1,52 @@
+# U6 authoring increment (Class 6 Ch. 9 Symmetry), drafted 2026-07-29.
+# A regular n-gon always has rotational symmetry of order exactly n — a
+# clean, always-true fact that yields a genuine integer variable without
+# any fixed-shape placeholder.
+template_id: TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON.001
+skill_ids:
+- GEO.SYM.ROTATIONAL
+question_type: numeric_entry
+cognitive_level: recall
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: true
+context_tags:
+- shapes
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  n:
+    type: int
+    range:
+    - 3
+    - 10
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: A regular polygon has {{n}} sides (a regular {{n}}-gon). What is the
+    order of its rotational symmetry — the number of positions in one full
+    turn where it looks exactly the same?
+answer: n
+distractors: []
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - A regular {{n}}-gon looks exactly the same after turning it by
+      360/{{n}} degrees about its centre.
+    - This happens {{n}} times in one full turn, so its order of rotational
+      symmetry is {{n}}.
+hints_i18n:
+  en-IN:
+  - How many equal turns fit into one full 360-degree turn for this shape?
+  - For a regular polygon, the order of rotational symmetry equals the number
+    of sides.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

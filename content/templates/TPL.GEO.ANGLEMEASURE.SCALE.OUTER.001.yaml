@@ -1,0 +1,58 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.MEASURE authoring batch.
+# Directly exercises MISC.GEO.PROTRACTOR-WRONG-SCALE's mechanism: inner and
+# outer protractor scales at the same arm position always sum to 180
+# degrees, so the "n" distractor is what a student sees if they just repeat
+# the inner reading instead of computing the outer one.
+template_id: TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001
+skill_ids:
+  - GEO.ANGLE.MEASURE
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  n: { type: int, range: [20, 80] }
+constraints: []
+
+stem_i18n:
+  en-IN: "{{name1}} lines up a protractor on an angle and reads {{n}} degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would {{name1}} see there?"
+localization_slots:
+  - name1
+
+answer: "180 - n"
+
+distractors:
+  - expr: "n"
+    misconception_id: MISC.GEO.PROTRACTOR-WRONG-SCALE
+  - expr: "90 - n"
+    misconception_id: null
+  - expr: "170 - n"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees."
+      - "180 - {{n}} is the outer-scale reading."
+
+hints_i18n:
+  en-IN:
+    - "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) — at the same arm, the two readings always add to 180."
+    - "Subtract the inner reading from 180 to get the outer reading."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

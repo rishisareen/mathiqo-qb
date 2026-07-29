@@ -1,0 +1,62 @@
+# Class 6 Servable Coverage plan, U6: GEO.POINT.LINE depth batch.
+# Distinguishes rays (1 fixed endpoint) from line segments (2 fixed
+# endpoints) by totalling endpoints across a mixed set of r rays and s
+# segments. r + 2s (correct) is compared against the swapped-formula
+# distractor 2r + s, which is algebraically identical to the answer
+# exactly when r == s — excluded via the r != s constraint so the two
+# never numerically coincide.
+template_id: TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001
+skill_ids:
+  - GEO.POINT.LINE
+question_type: numeric_entry
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+  - objects
+
+variables:
+  r: { type: int, range: [1, 6] }
+  s: { type: int, range: [1, 6] }
+constraints:
+  - "r != s"
+
+stem_i18n:
+  en-IN: "On a page, {{r}} rays and {{s}} line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?"
+localization_slots: []
+
+answer: "r + 2*s"
+
+distractors:
+  - expr: "2*r + s"
+    misconception_id: null
+  - expr: "2*(r + s)"
+    misconception_id: null
+  - expr: "r + s"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Each ray contributes 1 fixed endpoint (its starting point), so {{r}} rays contribute {{r}}."
+      - "Each segment contributes 2 fixed endpoints, so {{s}} segments contribute 2 x {{s}}. Total: {{r}} + 2*{{s}}."
+
+hints_i18n:
+  en-IN:
+    - "A ray starts at one fixed point and goes on forever the other way — how many fixed endpoints does that give it?"
+    - "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

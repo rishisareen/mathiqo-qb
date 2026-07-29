@@ -1,0 +1,59 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.AREA.CONCEPT batch.
+# Area-as-covering via a tiled floor (rows/columns of tiles), with a
+# perimeter-value distractor to exercise MISC.MEAS.PERIMETER-AREA-CONFUSED
+# directly. Medium band, mcq_4.
+template_id: TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.AREA.CONCEPT
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - flooring
+  - home
+
+variables:
+  a: { type: int, range: [3, 10] }
+  b: { type: int, range: [3, 10] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A kitchen floor is covered edge-to-edge with square tiles, arranged in {{a}} rows and {{b}} columns. How many square tiles cover the floor — that is, what is the floor's area in tile units?"
+
+answer: "a * b"
+
+distractors:
+  - expr: "2 * (a + b)"
+    misconception_id: MISC.MEAS.PERIMETER-AREA-CONFUSED
+  - expr: "a + b"
+    misconception_id: null
+  - expr: "a * b + 2"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The tiles form {{a}} rows with {{b}} tiles in each row."
+      - "The total number of tiles — the area — is {{a}} x {{b}}."
+
+hints_i18n:
+  en-IN:
+    - "You're counting how many tiles cover the floor, not the distance around its edge."
+    - "Multiply the number of rows by the number of columns."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,58 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.AREA.FORMULA batch.
+# Figure made of several rectangles: an L-shaped hall as two independent
+# rectangular sections, area = a*b + c*d. Medium band, numeric_entry.
+template_id: TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.AREA.FORMULA
+question_type: numeric_entry
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 55
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - flooring
+  - home
+
+variables:
+  a: { type: int, range: [3, 8] }
+  b: { type: int, range: [3, 8] }
+  c: { type: int, range: [3, 8] }
+  d: { type: int, range: [3, 8] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "An L-shaped hall is made of two rectangular sections: one measuring {{a}} m by {{b}} m, and the other measuring {{c}} m by {{d}} m. What is the total floor area of the hall, in square metres?"
+
+answer: "a*b + c*d"
+
+distractors:
+  - expr: "a + b + c + d"
+    misconception_id: MISC.MEAS.AREA-ADD-SIDES
+  - expr: "(a + c) * (b + d)"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Find the area of each rectangular section separately: {{a}} x {{b}} and {{c}} x {{d}}."
+      - "Add the two areas together to get the total floor area."
+
+hints_i18n:
+  en-IN:
+    - "Split the L-shape into its two rectangular sections and find each area on its own."
+    - "Add the two section areas — don't just add all four side lengths, and don't treat it as one big rectangle."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

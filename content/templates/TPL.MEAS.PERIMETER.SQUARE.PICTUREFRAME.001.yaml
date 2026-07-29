@@ -1,0 +1,59 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.PERIMETER batch.
+# Square-perimeter formula (4*s), framing context, easy band, mcq_4.
+# s starts at 5 (not 4) so s*s never equals 4*s within the domain (they
+# coincide only at s=4 or s=0) — keeps the area-confusion distractor from
+# colliding with the answer anywhere in range.
+template_id: TPL.MEAS.PERIMETER.SQUARE.PICTUREFRAME.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.PERIMETER
+question_type: mcq_4
+cognitive_level: procedural
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - home
+  - crafts
+
+variables:
+  s: { type: int, range: [5, 12] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A square picture frame has each side measuring {{s}} cm. What is the total length of wood needed to make the frame's border (its perimeter)?"
+
+answer: "4 * s"
+
+distractors:
+  - expr: "s * s"
+    misconception_id: MISC.MEAS.PERIMETER-AREA-CONFUSED
+  - expr: "2 * s"
+    misconception_id: MISC.MEAS.PERIMETER-MISSED-SIDE
+  - expr: "s + 4"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A square has 4 equal sides, each {{s}} cm long."
+      - "The perimeter is 4 x {{s}}."
+
+hints_i18n:
+  en-IN:
+    - "How many sides does a square have, and how long is each one?"
+    - "Multiply the side length by 4 — don't just count two of the sides."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

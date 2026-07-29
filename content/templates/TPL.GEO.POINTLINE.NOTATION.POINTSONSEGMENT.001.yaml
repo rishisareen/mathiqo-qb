@@ -1,0 +1,58 @@
+# Class 6 Servable Coverage plan, U6: GEO.POINT.LINE depth batch.
+# Standard-notation item: segment PQ (written with a bar over PQ) plus m
+# extra marked points strictly between P and Q. The MISC.GEO.LINE-SEGMENT-
+# SAME distractor "m" is the error of forgetting the segment's own two fixed
+# endpoints (as if it were an endpoint-less line) — always 2 less than the
+# answer, never colliding.
+template_id: TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001
+skill_ids:
+  - GEO.POINT.LINE
+question_type: mcq_4
+cognitive_level: conceptual
+difficulty_prior: medium
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  m: { type: int, range: [1, 7] }
+constraints: []
+
+stem_i18n:
+  en-IN: "Line segment PQ (written with a bar over PQ) has {{m}} extra points marked strictly between P and Q, none of them coinciding with P or Q. Counting P and Q themselves along with the {{m}} extra points, how many named points lie on segment PQ in total?"
+localization_slots: []
+
+answer: "m + 2"
+
+distractors:
+  - expr: "m"
+    misconception_id: MISC.GEO.LINE-SEGMENT-SAME
+  - expr: "m + 1"
+    misconception_id: null
+  - expr: "m + 4"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Segment PQ has two fixed endpoints, P and Q, that always count as points on the segment — it isn't an endpoint-less line."
+      - "Add the {{m}} extra marked points to the 2 endpoints: {{m}} + 2."
+
+hints_i18n:
+  en-IN:
+    - "Don't forget: P and Q are themselves points on the segment, not just its edges."
+    - "Total points = extra marked points + the 2 endpoints, so {{m}} + 2."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

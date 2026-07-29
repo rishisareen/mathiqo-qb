@@ -1,0 +1,58 @@
+# Class 6 Servable Coverage plan, U6: GEO.CONSTRUCT.BASIC authoring batch.
+# Property-based reasoning (R8: tests the equal-sides consequence of a
+# correct construction, not the physical act). The compass-slip distractor
+# directly exercises MISC.GEO.CONSTRUCT.COMPASS-SLIP: one side drifts by
+# +1 cm from the fixed opening.
+template_id: TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001
+skill_ids:
+  - GEO.CONSTRUCT.BASIC
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  n: { type: int, range: [3, 15] }
+constraints:
+  - "n != 4"
+
+stem_i18n:
+  en-IN: "A square is constructed with side length {{n}} cm, using a compass set once at the start and never adjusted — so all four sides come out exactly equal. What is the perimeter of the square, in centimetres?"
+localization_slots: []
+
+answer: "4 * n"
+
+distractors:
+  - expr: "3 * n + (n + 1)"
+    misconception_id: MISC.GEO.CONSTRUCT.COMPASS-SLIP
+  - expr: "4 * n - 1"
+    misconception_id: null
+  - expr: "n * n"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Since the compass opening stayed fixed, all four sides are exactly {{n}} cm."
+      - "Perimeter = 4 x {{n}} cm."
+
+hints_i18n:
+  en-IN:
+    - "A correctly constructed square has four EQUAL sides."
+    - "Multiply the side length by 4."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

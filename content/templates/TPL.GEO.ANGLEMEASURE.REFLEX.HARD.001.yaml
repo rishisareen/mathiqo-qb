@@ -1,0 +1,60 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.MEASURE authoring batch.
+# Hard-band item: reflex angle via subtraction from a full 360-degree turn,
+# building on a protractor's 180-degree measuring limit. The "n" distractor
+# reuses MISC.GEO.PROTRACTOR-WRONG-SCALE's flavor (reporting the reading
+# itself instead of computing the remaining turn).
+template_id: TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001
+skill_ids:
+  - GEO.ANGLE.MEASURE
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  n: { type: int, range: [10, 170] }
+constraints:
+  - "n != 90"
+  - "n != 170"
+
+stem_i18n:
+  en-IN: "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, {{name1}} first correctly measures the smaller, non-reflex angle on the inner scale as {{n}} degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?"
+localization_slots:
+  - name1
+
+answer: "360 - n"
+
+distractors:
+  - expr: "180 - n"
+    misconception_id: null
+  - expr: "340 - n"
+    misconception_id: null
+  - expr: "n"
+    misconception_id: MISC.GEO.PROTRACTOR-WRONG-SCALE
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A full turn around a point is 360 degrees."
+      - "The reflex angle is what's left after the measured {{n}}-degree angle: 360 - {{n}}."
+
+hints_i18n:
+  en-IN:
+    - "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees."
+    - "Subtract the measured angle from 360, not from 180."
+
+difficulty: 0.8
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

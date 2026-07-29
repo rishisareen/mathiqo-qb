@@ -1,0 +1,57 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.AREA.FORMULA batch.
+# Direct square-area formula (s*s), crafts context, easy band, mcq_4.
+# s starts at 5 (not 4) so s*s never equals 4*s or 2*s within the domain
+# (they coincide only at s=4/s=0 and s=2/s=0 respectively) — keeps both
+# distractors from colliding with the answer anywhere in range.
+template_id: TPL.MEAS.AREA.FORMULA.SQUARE.TILE.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.AREA.FORMULA
+question_type: mcq_4
+cognitive_level: procedural
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - crafts
+  - home
+
+variables:
+  s: { type: int, range: [5, 14] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A square tile has each side measuring {{s}} cm. What is the area of one tile, in square centimetres?"
+
+answer: "s * s"
+
+distractors:
+  - expr: "4 * s"
+    misconception_id: MISC.MEAS.PERIMETER-AREA-CONFUSED
+  - expr: "s + s"
+    misconception_id: MISC.MEAS.AREA-ADD-SIDES
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A square's area is side x side."
+      - "{{s}} x {{s}} gives the tile's area in square centimetres."
+
+hints_i18n:
+  en-IN:
+    - "Area is not the same as perimeter, and it isn't found by adding the sides."
+    - "Multiply the side length by itself: {{s}} x {{s}}."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

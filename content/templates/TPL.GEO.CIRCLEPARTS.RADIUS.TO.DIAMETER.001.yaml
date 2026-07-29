@@ -1,0 +1,56 @@
+# Class 6 Servable Coverage plan, U6: GEO.CIRCLE.PARTS authoring batch.
+# Direct radius-to-diameter relation; the "r" distractor exercises
+# MISC.GEO.RADIUS-DIAMETER-SWAP (reporting the radius itself as the
+# diameter).
+template_id: TPL.GEO.CIRCLEPARTS.RADIUS.TO.DIAMETER.001
+skill_ids:
+  - GEO.CIRCLE.PARTS
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  r: { type: int, range: [3, 20] }
+constraints: []
+
+stem_i18n:
+  en-IN: "A circle has centre O and radius {{r}} cm. What is the length of its diameter, in centimetres?"
+localization_slots: []
+
+answer: "2 * r"
+
+distractors:
+  - expr: "r"
+    misconception_id: MISC.GEO.RADIUS-DIAMETER-SWAP
+  - expr: "3 * r"
+    misconception_id: null
+  - expr: "4 * r"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The diameter is a straight line through the centre from one side of the circle to the other — exactly twice the radius."
+      - "Diameter = 2 x {{r}} cm."
+
+hints_i18n:
+  en-IN:
+    - "The diameter goes all the way across the circle, through the centre — that's twice as far as the radius goes."
+    - "Multiply the radius by 2."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

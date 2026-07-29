@@ -1,0 +1,68 @@
+# Class 6 Servable Coverage plan, U6: GEO.POINT.LINE depth batch.
+# Hard-band item mixing full lines (0 fixed endpoints, extend forever) with
+# line segments (2 fixed endpoints) among n figures, a of which are lines
+# (a < n, so at least one segment exists). All three distractors are
+# provably collision-free against the answer 2*(n-a) and each other, for
+# every (n, a) with 1 <= a < n:
+#   - 2*n (MISC.GEO.LINE-SEGMENT-SAME) differs from the answer by exactly
+#     2a, never 0 since a >= 1.
+#   - n - a differs from the answer by exactly n - a, never 0 since a < n
+#     forces n - a >= 1.
+#   - 2*(n - a) + 1 differs from the answer, from 2*n, and from n - a by a
+#     constant (1, or a non-integer half-step) in every case — see the
+#     per-pair algebra this comment summarizes, checked by item_verify.py.
+template_id: TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001
+skill_ids:
+  - GEO.POINT.LINE
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+estimated_time_sec: 50
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+  - objects
+
+variables:
+  n: { type: int, range: [3, 8] }
+  a: { type: int, range: [1, 4] }
+constraints:
+  - "a < n"
+
+stem_i18n:
+  en-IN: "Among {{n}} figures drawn on a page, {{a}} of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the {{n}} figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all {{n}} figures?"
+localization_slots: []
+
+answer: "2*(n - a)"
+
+distractors:
+  - expr: "2*n"
+    misconception_id: MISC.GEO.LINE-SEGMENT-SAME
+  - expr: "n - a"
+    misconception_id: null
+  - expr: "2*(n - a) + 1"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2."
+      - "Only the {{n}} - {{a}} figures that are segments contribute endpoints, 2 each: 2 x ({{n}} - {{a}})."
+
+hints_i18n:
+  en-IN:
+    - "How many fixed endpoints does a full line have, since it never stops in either direction?"
+    - "Only the segments contribute endpoints. First find how many of the {{n}} figures are segments, then double that count."
+
+difficulty: 0.8
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

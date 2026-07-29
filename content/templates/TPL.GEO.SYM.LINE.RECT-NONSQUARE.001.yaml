@@ -1,0 +1,67 @@
+# U6 authoring increment (Class 6 Ch. 9 Symmetry), drafted 2026-07-29.
+# Named-shape stem (KTD4 convention for this text-only strand): rectangle
+# PQRS with distinct side lengths, so it is explicitly not a square.
+# Distractor 2 + 2 targets MISC.GEO.RECT-DIAGONAL-SYM: wrongly counting the
+# two diagonals as extra lines of symmetry beyond the true two.
+template_id: TPL.GEO.SYM.LINE.RECT-NONSQUARE.001
+skill_ids:
+- GEO.SYM.LINE
+question_type: mcq_4
+cognitive_level: conceptual
+difficulty_prior: medium
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: true
+context_tags:
+- shapes
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  l:
+    type: int
+    range:
+    - 3
+    - 12
+  b:
+    type: int
+    range:
+    - 3
+    - 12
+constraints:
+- l != b
+localization_slots: []
+stem_i18n:
+  en-IN: Rectangle PQRS has PQ = {{l}} cm and QR = {{b}} cm, with PQ not equal
+    to QR (so it is not a square). How many lines of symmetry does it have?
+answer: '2'
+distractors:
+- expr: 2 + 2
+  misconception_id: MISC.GEO.RECT-DIAGONAL-SYM
+- expr: '1'
+  misconception_id: null
+- expr: '0'
+  misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - A non-square rectangle has exactly two lines of symmetry — one joining
+      the midpoints of PQ and RS, and one joining the midpoints of QR and SP.
+    - The diagonals PR and QS are not lines of symmetry — folding PQRS along a
+      diagonal does not make the two halves land exactly on top of each other
+      unless PQ equals QR.
+    - So the answer is 2.
+hints_i18n:
+  en-IN:
+  - Try folding the rectangle along each diagonal — do the two halves match
+    exactly?
+  - Only the two lines through the midpoints of opposite sides are lines of
+    symmetry here.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

@@ -1,0 +1,57 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.PERIMETER batch.
+# Real-life framing word problem combining the perimeter formula with a
+# per-metre cost rate — hard band, mcq_4.
+template_id: TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.PERIMETER
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 60
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - framing
+  - home
+
+variables:
+  a: { type: int, range: [4, 10] }
+  b: { type: int, range: [3, 9] }
+  rate: { type: int, range: [10, 25] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A rectangular mirror frame is {{a}} cm long and {{b}} cm wide. Framing material costs Rs {{rate}} per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?"
+
+answer: "2 * (a + b) * rate"
+
+distractors:
+  - expr: "(a + b) * rate"
+    misconception_id: MISC.MEAS.PERIMETER-MISSED-SIDE
+  - expr: "a * b * rate"
+    misconception_id: MISC.MEAS.PERIMETER-AREA-CONFUSED
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "First find the perimeter of the frame: 2 x ({{a}} + {{b}}) cm."
+      - "Multiply the perimeter by the cost per centimetre, Rs {{rate}}, to get the total cost."
+
+hints_i18n:
+  en-IN:
+    - "You need the perimeter of the frame first — remember the frame has two lengths and two widths."
+    - "Once you have the perimeter, multiply it by the rate per centimetre."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

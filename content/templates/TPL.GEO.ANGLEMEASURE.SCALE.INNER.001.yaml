@@ -1,0 +1,52 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.MEASURE authoring batch.
+# Low-guess numeric_entry twin of TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001's
+# inner/outer-scale mechanism, reversed (outer given, inner asked) — same
+# certification-format-twin convention item_verify.py's near-duplicate gate
+# already sanctions (matching stem/answer shape, different question_type).
+template_id: TPL.GEO.ANGLEMEASURE.SCALE.INNER.001
+skill_ids:
+  - GEO.ANGLE.MEASURE
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: medium
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  m: { type: int, range: [30, 150] }
+constraints: []
+
+stem_i18n:
+  en-IN: "{{name1}} accidentally reads the OUTER scale first and gets {{m}} degrees for an angle. Using the very same arm position, what should the INNER scale read instead, in degrees?"
+localization_slots:
+  - name1
+
+answer: "180 - m"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The inner and outer scales of a protractor always add to 180 degrees at the same arm position."
+      - "180 - {{m}} is the inner-scale reading."
+
+hints_i18n:
+  en-IN:
+    - "Inner + outer readings at the same arm always total 180 degrees."
+    - "Subtract the outer reading from 180."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

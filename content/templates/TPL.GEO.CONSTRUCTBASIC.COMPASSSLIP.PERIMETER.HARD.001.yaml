@@ -1,0 +1,59 @@
+# Class 6 Servable Coverage plan, U6: GEO.CONSTRUCT.BASIC authoring batch.
+# Hard-band item directly exercising MISC.GEO.CONSTRUCT.COMPASS-SLIP: three
+# sides come out correctly, the fourth drifts by k cm — testing the
+# resulting (wrong) perimeter, not the construction act itself (R8).
+template_id: TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001
+skill_ids:
+  - GEO.CONSTRUCT.BASIC
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  n: { type: int, range: [3, 15] }
+  k: { type: int, range: [1, 5] }
+constraints: []
+
+stem_i18n:
+  en-IN: "{{name1}} constructs a square meant to have all sides {{n}} cm, using a compass. The first three sides come out correctly at {{n}} cm each, but the compass opening drifts before the last side, which ends up {{k}} cm too long. What is the actual (wrong) perimeter that results, in centimetres?"
+localization_slots:
+  - name1
+
+answer: "3 * n + (n + k)"
+
+distractors:
+  - expr: "4 * n"
+    misconception_id: null
+  - expr: "4 * n - k"
+    misconception_id: MISC.GEO.CONSTRUCT.COMPASS-SLIP
+  - expr: "4 * (n + k)"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Three sides are correct at {{n}} cm each: 3 x {{n}}."
+      - "The last side is {{n}} + {{k}} cm because the compass drifted."
+      - "Total = 3 x {{n}} + ({{n}} + {{k}})."
+
+hints_i18n:
+  en-IN:
+    - "Three sides didn't change — only add the drift to the fourth side."
+    - "Add the three correct sides to the one longer side."
+
+difficulty: 0.8
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

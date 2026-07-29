@@ -1,0 +1,55 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.TYPES depth batch.
+# Pure computation (diagram_required: false): a reflex angle (n > 180)
+# measured against how many degrees short of a complete turn (360) it is.
+template_id: TPL.GEO.ANGLETYPES.REFLEX.FROMFULL.001
+skill_ids:
+  - GEO.ANGLE.TYPES
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+variables:
+  n: { type: int, range: [181, 350] }
+constraints: []
+
+stem_i18n:
+  en-IN: "An angle measures {{n}} degrees, which is more than 180 degrees, so it is a reflex angle. How many degrees short of a complete full turn (360 degrees) is it?"
+localization_slots: []
+
+answer: "360 - n"
+
+distractors:
+  - expr: "n"
+    misconception_id: null
+  - expr: "n - 180"
+    misconception_id: null
+  - expr: "540 - n"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A complete full turn measures 360 degrees."
+      - "The amount short of a full turn is 360 - {{n}} degrees."
+
+hints_i18n:
+  en-IN:
+    - "A full turn all the way around is 360 degrees — how far is {{n}} degrees from that?"
+    - "Subtract the given angle from 360: 360 - {{n}}."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

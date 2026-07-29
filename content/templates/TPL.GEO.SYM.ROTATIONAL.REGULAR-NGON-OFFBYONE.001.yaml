@@ -1,0 +1,60 @@
+# U6 authoring increment (Class 6 Ch. 9 Symmetry), drafted 2026-07-29.
+# Same regular-n-gon fact as TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON.001, but as
+# an MCQ whose n + 1 distractor directly targets
+# MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE: counting the starting position as
+# an extra match and inflating the order by one.
+template_id: TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001
+skill_ids:
+- GEO.SYM.ROTATIONAL
+question_type: mcq_4
+cognitive_level: conceptual
+difficulty_prior: medium
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: true
+context_tags:
+- shapes
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  n:
+    type: int
+    range:
+    - 3
+    - 9
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: A regular {{n}}-gon is rotated about its centre. What is the order of
+    its rotational symmetry?
+answer: n
+distractors:
+- expr: n + 1
+  misconception_id: MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE
+- expr: n - 1
+  misconception_id: null
+- expr: '1'
+  misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Count the positions where the {{n}}-gon looks the same during one full
+      turn, without counting the starting position a second time when you
+      return to it.
+    - A regular {{n}}-gon matches itself {{n}} times in a full turn, so its
+      order of rotational symmetry is {{n}}, not {{n}} + 1.
+hints_i18n:
+  en-IN:
+  - Don't count the starting position as an extra match — it's the same 0-degree
+    position you return to at the end of the turn.
+  - The order of rotational symmetry equals the number of sides for a regular
+    polygon.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

@@ -1,0 +1,64 @@
+# U6 authoring increment (Class 6 Ch. 9 Symmetry), drafted 2026-07-29.
+# Same non-square-rectangle setup as TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001,
+# but as an MCQ whose 2 + 1 distractor targets
+# MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE in a second shape context (not just
+# the regular-n-gon family), to make sure the misconception generalizes.
+template_id: TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001
+skill_ids:
+- GEO.SYM.ROTATIONAL
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: true
+context_tags:
+- shapes
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  l:
+    type: int
+    range:
+    - 3
+    - 12
+  b:
+    type: int
+    range:
+    - 3
+    - 12
+constraints:
+- l != b
+localization_slots: []
+stem_i18n:
+  en-IN: Rectangle PQRS has PQ = {{l}} cm and QR = {{b}} cm, with PQ not equal
+    to QR. What is the order of its rotational symmetry?
+answer: '2'
+distractors:
+- expr: 2 + 1
+  misconception_id: MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE
+- expr: '1'
+  misconception_id: null
+- expr: '4'
+  misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Turning rectangle PQRS by 180 degrees about its centre is the only turn
+      less than 360 degrees that maps it onto itself.
+    - Counting the starting position again as an extra match would wrongly
+      give 3 — but the order only counts each distinct matching position
+      once, so it is 2.
+hints_i18n:
+  en-IN:
+  - Only count new matching positions, not the starting position again.
+  - A non-square rectangle matches itself at 180 degrees, not at 90 degrees.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'
