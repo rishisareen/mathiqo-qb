@@ -120,6 +120,16 @@ misconceptions:
     child_feedback_i18n:
       en-IN: "You found the greatest common factor instead of the lowest common multiple. A common multiple is a number both numbers divide into — try listing multiples of each one until you spot the smallest they share."
 
+  - misconception_id: MISC.NUM.MULT.TABLES.REPEATED-ADD-OFFBYONE
+    belief: "To multiply, add the number to itself one extra time beyond the second factor"
+    signature_error: "For 4 x 3, adds 4 four times (4+4+4+4 = 16) instead of three times, giving 16 instead of 12"
+    remediation_target: NUM.MULT.TABLES
+    remediation_asset: "micro-explainers/MISC.NUM.MULT.TABLES.REPEATED-ADD-OFFBYONE.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} understands multiplication as repeated addition, but sometimes adds one group too many — for 4 x 3, that means adding four groups of 4 instead of three."
+    child_feedback_i18n:
+      en-IN: "You added 4 four times, but 4 x 3 means 4 added three times, not four. Count the groups on your fingers as you add — three groups of 4 gives 12, not 16."
+
   - misconception_id: MISC.FRAC.MIXED-NO-REGROUP
     belief: "Add whole numbers and fraction parts separately, without regrouping an improper fraction result"
     signature_error: "2 3/4 + 1 3/4 = 3 6/4 (should regroup to 4 2/4)"

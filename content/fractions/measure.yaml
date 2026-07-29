@@ -32,7 +32,12 @@ skills:
       - MEAS.LENGTH.UNITS
       - NUM.ADD.SUB
       - GEO.POLYGON.PROPS
-    misconceptions: []
+    # MISC.MEAS.PERIMETER-MISSED-SIDE added 2026-07-29 (Class 6 Servable
+    # Coverage plan, U3): diagnosed here (own core procedure), distinct
+    # from MISC.MEAS.PERIMETER-AREA-CONFUSED below, which is diagnosed at
+    # MEAS.AREA.CONCEPT.
+    misconceptions:
+      - MISC.MEAS.PERIMETER-MISSED-SIDE
 
   - skill_id: MEAS.AREA.CONCEPT
     name: "Area as covering"
@@ -65,6 +70,16 @@ skills:
 
 
 misconceptions:
+  - misconception_id: MISC.MEAS.PERIMETER-MISSED-SIDE
+    belief: "Perimeter is the sum of the side lengths that are written on the figure"
+    signature_error: "For a rectangle 5 cm by 3 cm labelled only on two sides, adds 5 + 3 = 8 instead of 5 + 3 + 5 + 3 = 16, leaving out the two unlabelled sides"
+    remediation_target: MEAS.PERIMETER
+    remediation_asset: "micro-explainers/MISC.MEAS.PERIMETER-MISSED-SIDE.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} sometimes adds only the side lengths that are written on a figure, missing sides that share the same length as an opposite or matching side."
+    child_feedback_i18n:
+      en-IN: "You added only the two labelled sides, but a rectangle has four sides in total, and the two you didn't add are the same length as the ones facing them. Walk all the way around the shape and add every side, even the ones without a number written on them."
+
   - misconception_id: MISC.MEAS.RULER-FROM-ONE
     belief: "Measuring starts from the 1 mark (or from the edge of the ruler)"
     signature_error: "An object spanning the 1-to-7 marks is read as 7 cm instead of 6 cm"
