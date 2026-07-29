@@ -1,0 +1,56 @@
+# Class 6 servable coverage plan, U7. INT.ADD.SUB: subtracting a negative
+# integer from a positive one. The MISC.INT.SUB-MAKES-SMALLER distractor
+# "a + b" reproduces treating the negative subtrahend as if it were
+# positive (e.g. 5 - (-2) computed as 5 + (-2) = 3 instead of 7). Always
+# distinct from the true answer a - b since that would require b == 0,
+# which the negative-only range for b excludes.
+template_id: TPL.INT.ADD.SUB.SUB.POSNEG.DIRECT.001
+skill_ids:
+  - INT.ADD.SUB
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [1, 9] }
+  b: { type: int, range: [-9, -1] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "What is {{a}} - {{b}}?"
+localization_slots: []
+
+answer: "a - b"
+
+distractors:
+  - expr: "a + b"
+    misconception_id: MISC.INT.SUB-MAKES-SMALLER
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Subtracting a negative number is the same as adding its positive value."
+      - "{{a}} - {{b}} becomes {{a}} plus the positive version of {{b}}, which makes the result bigger than {{a}}, not smaller."
+
+hints_i18n:
+  en-IN:
+    - "Subtracting a negative number makes the result bigger, not smaller."
+    - "Two minus signs next to each other turn into a plus."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

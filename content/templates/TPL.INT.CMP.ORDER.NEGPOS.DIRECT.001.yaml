@@ -1,0 +1,56 @@
+# Class 6 servable coverage plan, U7. INT.CMP.ORDER: comparing a positive
+# integer against a negative one. Ranges a in [1,4] and b in [-9,-5] are
+# disjoint by construction (a is always positive, b always negative), so a is
+# always greater with zero rejection. b's digit magnitude always exceeds a's,
+# so the "b" distractor fits MISC.INT.BIGGER-ABS: picking the bigger-digit
+# number as "bigger" while ignoring that it is negative.
+template_id: TPL.INT.CMP.ORDER.NEGPOS.DIRECT.001
+skill_ids:
+  - INT.CMP.ORDER
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 20
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [1, 4] }
+  b: { type: int, range: [-9, -5] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "Which is bigger, {{a}} or {{b}}?"
+localization_slots: []
+
+answer: "a"
+
+distractors:
+  - expr: "b"
+    misconception_id: MISC.INT.BIGGER-ABS
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "{{a}} is a positive number and {{b}} is a negative number."
+      - "Every positive number is greater than every negative number, no matter how the digits compare, so {{a}} is bigger."
+
+hints_i18n:
+  en-IN:
+    - "Is one of these numbers positive and the other negative?"
+    - "Any positive number is always greater than any negative number."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

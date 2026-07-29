@@ -1,0 +1,58 @@
+# Class 6 servable coverage plan, U7. INT.CMP.ORDER: temperature-comparison
+# word problem, application-level sibling of
+# TPL.INT.CMP.ORDER.NEGNEG.DIRECT.001. Disjoint ranges (a in [-9,-1], b in
+# [-15,-10]) guarantee a is always the warmer (closer-to-zero) reading with
+# zero rejection; b always has the bigger digit magnitude, so the "b"
+# distractor reproduces MISC.INT.BIGGER-ABS in a real-world context.
+template_id: TPL.INT.CMP.ORDER.TEMP.WORD.001
+skill_ids:
+  - INT.CMP.ORDER
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - weather
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [-9, -1] }
+  b: { type: int, range: [-15, -10] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "The temperature in {{name1}}'s town was {{a}}°C and in {{name2}}'s town it was {{b}}°C. What was the warmer of the two temperatures, in °C?"
+localization_slots:
+  - name1
+  - name2
+
+answer: "a"
+
+distractors:
+  - expr: "b"
+    misconception_id: MISC.INT.BIGGER-ABS
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "{{a}}°C is closer to zero on the number line than {{b}}°C."
+      - "The temperature closer to zero is the warmer one, so {{name1}}'s town was warmer at {{a}}°C."
+
+hints_i18n:
+  en-IN:
+    - "Which of the two readings is closer to zero on a thermometer?"
+    - "The temperature nearer to zero is always the warmer one, even if its digit looks smaller."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

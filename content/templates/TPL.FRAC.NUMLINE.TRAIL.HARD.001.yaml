@@ -1,0 +1,54 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, Implementation Unit
+# U7). FRAC.NUMLINE hard band: an application-level word problem (hiking
+# trail signposts) over a wider 0-to-3 km domain, raising both the
+# cognitive_level and the search space compared to the medium 0-to-2 items.
+template_id: TPL.FRAC.NUMLINE.TRAIL.HARD.001
+skill_ids:
+  - FRAC.NUMLINE
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+difficulty: 0.8
+estimated_time_sec: 60
+calculator_allowed: false
+diagram_required: true
+accepted_answer_forms: improper fraction or an equivalent mixed-number value accepted
+context_tags:
+  - travel
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  d:
+    type: int
+    range: [3, 5]
+  k:
+    type: int
+    range: [1, 14]
+constraints:
+  - "k <= 3 * d - 1"
+localization_slots: []
+stem_i18n:
+  en-IN: "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into {{d}} equal parts. A rest stop sits at the signpost that is {{k}} parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?"
+answer: "simplify(k / d)"
+distractors:
+  - expr: "(k + 1) / d"
+    misconception_id: MISC.FRAC.NUMLINE-COUNT-MARKS
+  - expr: "k / (d + 1)"
+    misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Each kilometre is split into {{d}} equal parts, so each signpost-to-signpost gap is worth 1/{{d}} km."
+      - "The rest stop is {{k}} parts from the start, so it is {{k}}/{{d}} km from 0 — this may be more than 1 whole kilometre."
+hints_i18n:
+  en-IN:
+    - "Count the equal gaps between signposts from 0, not the signposts themselves."
+    - "The denominator ({{d}}) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,58 @@
+# Class 6 servable coverage, Implementation Unit U7: DATA.COLLECT.TALLY batch.
+# Same bundle-of-five arithmetic as TPL.DATA.TALLY.BUNDLES.TOTAL.001 but the
+# stem describes the strokes literally (four strokes plus a crossing stroke)
+# rather than saying "bundle", so the item exercises the same misconception
+# from a different reading angle. Medium band, mcq_4; still a single count
+# with no labeled table, so diagram_required stays false.
+template_id: TPL.DATA.TALLY.STROKES.DESCRIBED.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - DATA.COLLECT.TALLY
+question_type: mcq_4
+cognitive_level: conceptual
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+variables:
+  bundles: { type: int, range: [2, 7] }
+  extra: { type: int, range: [0, 4] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A record of attendance is marked with {{bundles}} groups of five strokes (four strokes with one line crossing them) plus {{extra}} single strokes with no crossing line. How many students does this record show in total?"
+
+answer: "5 * bundles + extra"
+
+distractors:
+  - expr: "bundles + extra"
+    misconception_id: MISC.DATA.TALLY-BUNDLE-MISCOUNT
+  - expr: "4 * bundles + extra"
+    misconception_id: MISC.DATA.TALLY-BUNDLE-MISCOUNT
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like."
+      - "Skip-count the {{bundles}} groups by fives, then add the {{extra}} single strokes."
+
+hints_i18n:
+  en-IN:
+    - "A crossed group is still just one bundle of five students, not six and not one."
+    - "Count the crossed groups by fives first, and only add the single strokes at the end."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

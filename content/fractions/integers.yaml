@@ -17,7 +17,8 @@ skills:
     canonical_stage: 1
     prerequisites:
       - NUM.CMP.ORDER
-    misconceptions: []
+    misconceptions:
+      - MISC.INT.SUB-MAKES-SMALLER
 
   - skill_id: INT.CMP.ORDER
     name: "Compare and order integers"

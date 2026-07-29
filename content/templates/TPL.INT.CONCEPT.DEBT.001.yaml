@@ -1,0 +1,49 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, Implementation Unit
+# U7). INT.CONCEPT medium band, mcq_4 format — the "money owed" context
+# named in the skill description, with two plausible untagged distractors
+# (dropped sign; "owing nothing" reading of zero).
+template_id: TPL.INT.CONCEPT.DEBT.001
+skill_ids:
+  - INT.CONCEPT
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: medium
+difficulty: 0.5
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - money
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  n:
+    type: int
+    range: [1, 25]
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: "Meena's bank balance is Rs {{n}} less than zero, because she has overdrawn her account — in other words, she owes the bank Rs {{n}}. Which integer represents the amount in Meena's account?"
+answer: "-n"
+distractors:
+  - expr: "n"
+    misconception_id: null
+  - expr: "0"
+    misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Having money is a positive amount; owing money is the other side of zero, so it's negative."
+      - "Owing Rs {{n}} means the balance is -{{n}}."
+hints_i18n:
+  en-IN:
+    - "Money you have is positive. Money you owe is negative."
+    - "\"Rs {{n}} less than zero\" is -{{n}}, not just {{n}}."
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

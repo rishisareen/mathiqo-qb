@@ -1,0 +1,49 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, Implementation Unit
+# U7). FRAC.NUMLINE medium band, numeric_entry format — a game-like
+# "grasshopper hop" dressing over the same 0-to-2 depth structure as
+# TPL.FRAC.NUMLINE.DEPTH.001, worded distinctly to avoid stem collisions.
+template_id: TPL.FRAC.NUMLINE.SEGMENT.001
+skill_ids:
+  - FRAC.NUMLINE
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: medium
+difficulty: 0.5
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: true
+accepted_answer_forms: improper fraction or an equivalent mixed-number value accepted
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  d:
+    type: int
+    range: [3, 6]
+  k:
+    type: int
+    range: [1, 11]
+constraints:
+  - "k <= 2 * d - 1"
+localization_slots: []
+stem_i18n:
+  en-IN: "On a number line, each whole number from 0 to 2 is split into {{d}} equal steps. A grasshopper hops {{k}} steps from 0. Which fraction represents where the grasshopper lands?"
+answer: "simplify(k / d)"
+distractors: []
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Each step is worth 1/{{d}} because each whole number is split into {{d}} equal steps."
+      - "{{k}} steps from 0 lands at {{k}}/{{d}}."
+hints_i18n:
+  en-IN:
+    - "Every step is the same size: 1/{{d}}. Count how many steps the grasshopper took."
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

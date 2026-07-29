@@ -1,0 +1,57 @@
+# Class 6 servable coverage, Implementation Unit U7: DATA.PICTOGRAPH batch.
+# Three-category pictograph, labeled text table (diagram_required: true).
+# Hard band, mcq_4.
+template_id: TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - DATA.PICTOGRAPH
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 70
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - travel
+
+variables:
+  n1: { type: int, range: [2, 4] }
+  n2: { type: int, range: [2, 4] }
+  n3: { type: int, range: [2, 4] }
+  k: { type: int, range: [2, 4] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A pictograph shows vehicles counted outside school: Cars — {{n1}} symbols, Bikes — {{n2}} symbols, Buses — {{n3}} symbols, key: 1 symbol = {{k}} vehicles. How many vehicles were counted in total across all three types?"
+
+answer: "(n1 + n2 + n3) * k"
+
+distractors:
+  - expr: "n1 + n2 + n3"
+    misconception_id: MISC.DATA.SCALE-IGNORED
+  - expr: "(n1 + n2 + n3) * k - 1"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Add the symbols across all three categories: {{n1}} + {{n2}} + {{n3}}."
+      - "Multiply that symbol count by the key, {{k}}, to get the total vehicles."
+
+hints_i18n:
+  en-IN:
+    - "Add up the symbols first, but remember each symbol is worth more than 1 vehicle."
+    - "Once you have the total number of symbols, multiply by the key."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,45 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, Implementation Unit
+# U7). INT.CONCEPT medium band, numeric_entry format — the abstract
+# number-line framing (rather than a real-world dressing), describing the
+# marked position in text per R7/KTD4 since this repo serves only numeric
+# mcq_4/numeric_entry answers (no images/SVG, KD4).
+template_id: TPL.INT.CONCEPT.POINT.001
+skill_ids:
+  - INT.CONCEPT
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: medium
+difficulty: 0.5
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - measurement
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  n:
+    type: int
+    range: [1, 20]
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: "On a number line, 0 is marked at the centre. A point P lies {{n}} units to the left of 0. Write the integer represented by point P."
+answer: "-n"
+distractors: []
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Points to the right of 0 are positive; points to the left of 0 are negative."
+      - "P is {{n}} units to the left of 0, so P represents -{{n}}."
+hints_i18n:
+  en-IN:
+    - "Left of zero means negative."
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

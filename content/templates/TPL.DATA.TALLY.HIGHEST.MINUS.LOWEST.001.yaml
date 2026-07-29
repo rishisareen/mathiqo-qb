@@ -1,0 +1,60 @@
+# Class 6 servable coverage, Implementation Unit U7: DATA.COLLECT.TALLY batch.
+# Three-category labeled tally table (diagram_required: true) asking for the
+# spread between the highest and lowest category. Bundle ranges are disjoint
+# (b1 > b2 > b3 always, by construction: 6-8 vs 3-5 vs 1-2) so "Vanilla" is
+# always highest and "Strawberry" always lowest regardless of the
+# loose-stroke draw — zero constraint rejection. Medium band, numeric_entry.
+template_id: TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - DATA.COLLECT.TALLY
+question_type: numeric_entry
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 60
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - food
+
+variables:
+  b1: { type: int, range: [6, 8] }
+  e1: { type: int, range: [0, 4] }
+  b2: { type: int, range: [3, 5] }
+  e2: { type: int, range: [0, 4] }
+  b3: { type: int, range: [1, 2] }
+  e3: { type: int, range: [0, 4] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A class tally for favourite ice-cream flavours shows: Vanilla — {{b1}} bundles of five and {{e1}} strokes; Chocolate — {{b2}} bundles of five and {{e2}} strokes; Strawberry — {{b3}} bundles of five and {{e3}} strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?"
+
+answer: "(5 * b1 + e1) - (5 * b3 + e3)"
+
+distractors:
+  - expr: "(b1 + e1) - (b3 + e3)"
+    misconception_id: MISC.DATA.TALLY-BUNDLE-MISCOUNT
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Vanilla's total is 5 x {{b1}} + {{e1}}, and Strawberry's total is 5 x {{b3}} + {{e3}}."
+      - "Subtract Strawberry's total from Vanilla's total to find the difference."
+
+hints_i18n:
+  en-IN:
+    - "Find the two totals you need first — each bundle counts as 5."
+    - "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"
