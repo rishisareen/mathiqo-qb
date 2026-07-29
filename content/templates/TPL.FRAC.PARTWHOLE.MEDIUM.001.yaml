@@ -1,0 +1,61 @@
+# U4 tier top-up (2026-07-29): FRAC.PARTWHOLE previously had only an easy
+# band (TPL.FRAC.PARTWHOLE.DIRECT.001). This adds a medium band that moves
+# beyond "count shaded parts over total parts" into unequal-sized parts,
+# where naive piece-counting gives the wrong fraction — the FRAC.PARTWHOLE
+# misconception backfilled in U3 (content/fractions/misconceptions.yaml).
+template_id: TPL.FRAC.PARTWHOLE.MEDIUM.001
+skill_ids:
+  - FRAC.PARTWHOLE
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+difficulty: 0.5
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - shapes
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  s:
+    type: int
+    range: [3, 5]
+  k:
+    type: int
+    range: [2, 4]
+  shaded:
+    type: int
+    range: [1, 2]
+constraints:
+  - "shaded < s"
+localization_slots: []
+stem_i18n:
+  en-IN: "A rectangle is cut into {{s}} small equal-sized pieces and 1 large piece that is exactly {{k}} times the size of a small piece, so the pieces are NOT all the same size. {{shaded}} of the small pieces are shaded. What fraction of the rectangle's area is shaded?"
+answer: "simplify(shaded / (s + k))"
+distractors:
+  - expr: "shaded / (s + 1)"
+    misconception_id: MISC.FRAC.UNEQUAL-PARTS
+  - expr: "shaded / s"
+    misconception_id: null
+  - expr: "k / (s + k)"
+    misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The pieces are different sizes, so you can't just count pieces — count by area-units instead. The large piece is worth {{k}} small-piece units."
+      - "Total units in the whole rectangle: {{s}} small-piece units + {{k}} units for the large piece."
+      - "Shaded units: {{shaded}} small pieces are shaded, so {{shaded}} units."
+      - "Fraction shaded = shaded units / total units."
+hints_i18n:
+  en-IN:
+    - "Don't just count how many pieces are shaded out of how many pieces there are — the large piece takes up more space than a small one."
+    - "Measure everything in units the size of one small piece; the large piece is worth {{k}} of those units."
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

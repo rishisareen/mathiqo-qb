@@ -1,0 +1,58 @@
+# Class 6 servable coverage plan, U4 (Foundations authoring increment).
+# Below-grade foundation item for NUM.COUNT: one-to-one correspondence
+# counting of a described collection. numeric_entry keeps this a low-guess
+# certification item; the recorded distractors still let the engine
+# diagnose a double-count/skip error even though they aren't shown as
+# options.
+template_id: TPL.NUM.COUNT.OBJECTS.DIRECT.001
+skill_ids:
+  - NUM.COUNT
+question_type: numeric_entry
+cognitive_level: recall
+difficulty_prior: easy
+estimated_time_sec: 20
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [8, 60] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "{{name1}} lines up {{a}} bottle caps in a row and counts them one at a time, touching each cap exactly once. How many bottle caps does {{name1}} count in total?"
+localization_slots:
+  - name1
+
+answer: "a"
+
+distractors:
+  - expr: "a + 1"
+    misconception_id: MISC.NUM.COUNT.DOUBLE-COUNT
+  - expr: "a - 1"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Touch each bottle cap exactly once while saying the next counting number."
+      - "The last number said, after touching every cap once, is the total count."
+
+hints_i18n:
+  en-IN:
+    - "Count slowly and touch only one cap for every number you say."
+    - "Make sure no cap gets touched twice and none gets skipped."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

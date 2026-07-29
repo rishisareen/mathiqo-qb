@@ -1,0 +1,57 @@
+# U4 tier top-up (2026-07-29): FRAC.UNIT previously had only an easy band
+# across both its templates (TPL.FRAC.UNIT.WHOLE.001, TPL.FRAC.UNIT.CMP.001).
+# This medium-band template deepens the two-fraction comparison in
+# TPL.FRAC.UNIT.CMP.001 into a three-way comparison, still built around the
+# same MISC.FRAC.BIGGER-DENOM misconception (bigger denominator mistaken for
+# bigger fraction) but now requiring the student to hold three denominators
+# in mind at once instead of two.
+template_id: TPL.FRAC.UNIT.CMP.MEDIUM.001
+skill_ids:
+  - FRAC.UNIT
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: medium
+difficulty: 0.5
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - food
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  a:
+    type: int
+    range: [2, 4]
+  b:
+    type: int
+    range: [5, 7]
+  c:
+    type: int
+    range: [8, 10]
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: "Which is the smallest: 1/{{a}}, 1/{{b}}, or 1/{{c}}?"
+answer: "1/c"
+distractors:
+  - expr: "1/a"
+    misconception_id: MISC.FRAC.BIGGER-DENOM
+  - expr: "1/b"
+    misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "For unit fractions, a bigger denominator means the whole is cut into more, smaller pieces."
+      - "{{c}} is the biggest denominator of the three, so 1/{{c}} is the smallest piece."
+hints_i18n:
+  en-IN:
+    - "The bigger the denominator, the smaller the piece — look for the biggest denominator."
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

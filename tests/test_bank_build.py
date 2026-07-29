@@ -162,6 +162,55 @@ def test_flagged_but_not_hard_failed_template_still_builds(tmp_path: Path) -> No
     assert len(per_template["TPL.FRAC.ADD.UNLIKE.WORD.001"]) == 3
 
 
+def test_derived_value_only_computed_when_referenced_in_text(tmp_path: Path) -> None:
+    """A template unrelated to the unlike-fraction-addition family can still
+    coincidentally declare variables a, b, c, d (e.g. a place-value item:
+    thousands/hundreds/tens/ones) — a superset of DERIVED_VALUE_RULES' "a2"
+    requirement ({a, b, d}). compute_derived must not evaluate "a2" (which
+    divides by b) just because the required variables happen to be declared;
+    it must only evaluate a derived value the template's own text actually
+    references. Regression test: this previously crashed materialize_instance
+    with ZeroDivisionError whenever b == 0, a value with no meaning at all in
+    a template that never mentions {{a2}}."""
+    template = {
+        "template_id": "TPL.TEST.BUILD.PLACEVALUE.001",
+        "template_version": "1.0.0",
+        "bank_version": "dev",
+        "graph_version": "1.0.0",
+        "skill_ids": ["NUM.COUNT"],
+        "question_type": "numeric_entry",
+        "cognitive_level": "procedural",
+        "difficulty": 0.8,
+        "estimated_time_sec": 50,
+        "calculator_allowed": False,
+        "diagram_required": False,
+        "variables": {
+            "a": {"type": "int", "range": [1, 3]},
+            "b": {"type": "int", "range": [0, 3]},  # 0 is valid and expected here
+            "c": {"type": "int", "range": [0, 3]},
+            "d": {"type": "int", "range": [0, 3]},
+        },
+        "constraints": [],
+        "stem_i18n": {"en-IN": "A number is made up of {{a}} thousands, {{b}} hundreds, {{c}} tens, and {{d}} ones. What is the number?"},
+        "localization_slots": [],
+        "answer": "1000*a + 100*b + 10*c + d",
+        "distractors": [{"expr": "a + b + c + d", "misconception_id": None}],
+        "solution_steps_i18n": {"en-IN": {"canonical": ["Add the place values."]}},
+        "hints_i18n": {"en-IN": ["Each place is worth ten times the one to its right."]},
+        "tts": False,
+        "context_tags": [],
+        "exam_contexts": ["SCHOOL_EXAM"],
+        "provenance": {"generator_version": "test", "reviewer": "test", "date": "2026-07-29"},
+    }
+    dest = tmp_path / "templates"
+    dest.mkdir()
+    write_yaml(dest / "placevalue.yaml", template)
+    manifest, per_template = bank_build.run_build(dest, LOCALE_PACK, "dev", pool_cap=10)
+    assert len(per_template["TPL.TEST.BUILD.PLACEVALUE.001"]) > 0
+    # A variant where the rendered b happens to be "0" is exactly the crash case.
+    assert any(i["variables"]["b"] == 0 for i in per_template["TPL.TEST.BUILD.PLACEVALUE.001"])
+
+
 # --- KTD2: embedding-duplicate check warns but never refuses the build ------
 
 def _dup_pair_dir(tmp_path: Path) -> Path:

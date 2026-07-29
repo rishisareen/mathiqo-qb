@@ -1,0 +1,66 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Two-digit by two-digit direct computation, hard band, purpose-built to
+# carry MISC.NUM.MULT.NO-SHIFT: the second factor's tens/ones digits are
+# separate declared variables (t, o) so the "forgot to shift the tens partial
+# product left" distractor (a*o + a*t, missing the *10) is a plain expression
+# rather than something requiring digit-extraction from a single number. The
+# stem renders the second factor by placing the two digit slots adjacent
+# ({{t}}{{o}}), e.g. t=4, o=6 -> "46" — plain text substitution, not a
+# computed value.
+template_id: TPL.NUM.MULT.2D2D.SHIFT.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.MULT
+question_type: mcq_4
+cognitive_level: procedural
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 90
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [12, 29] }
+  t: { type: int, range: [1, 9] }
+  o: { type: int, range: [0, 9] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "What is {{a}} x {{t}}{{o}}?"
+
+answer: "a * (t * 10 + o)"
+
+distractors:
+  - expr: "a * o + a * t"
+    misconception_id: MISC.NUM.MULT.NO-SHIFT
+  - expr: "a + t * 10 + o"
+    misconception_id: null
+  - expr: "a * o"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Split {{t}}{{o}} into tens and ones: {{t}} tens and {{o}} ones."
+      - "Multiply {{a}} by the ones digit {{o}} to get the first partial product."
+      - "Multiply {{a}} by the tens digit {{t}}, then shift that result one place left (multiply by 10) before adding — it is worth ten times as much."
+      - "Add the two partial products to get the final answer."
+
+hints_i18n:
+  en-IN:
+    - "Break the second number into its tens and ones parts before multiplying."
+    - "The partial product from the tens digit is worth ten times as much — shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

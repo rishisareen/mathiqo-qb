@@ -1,0 +1,59 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Simple 2-cycle repeating pattern (not a growing/arithmetic sequence) —
+# distinct from the ARITH.*/GROW.* siblings, which are all constant- or
+# growing-difference sequences. Distractor `a` represents continuing the
+# pattern one position early (mistaking where in the cycle position 5 falls);
+# no registered misconception targets this specific error, so it is
+# deliberately null rather than forced onto MISC.NUM.PATTERN-CONSTANT-DIFF,
+# which is about jump-size reasoning that doesn't apply to a repeating cycle.
+template_id: TPL.NUM.PATTERN.REPEAT.NEXT.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PATTERN.EXTEND
+question_type: numeric_entry
+cognitive_level: recall
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [1, 9] }
+  b: { type: int, range: [1, 9] }
+
+constraints:
+  - "a != b"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "Look at this repeating pattern: {{a}}, {{b}}, {{a}}, {{b}}, {{a}}, .... What is the next number?"
+
+answer: "b"
+
+distractors:
+  - expr: "a"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The pattern repeats every two numbers: {{a}}, {{b}}, {{a}}, {{b}}, ...."
+      - "After {{a}}, {{b}}, {{a}}, {{b}}, {{a}} comes {{b}} again — the cycle starts over."
+
+hints_i18n:
+  en-IN:
+    - "This pattern doesn't grow — it repeats the same short cycle over and over."
+    - "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,58 @@
+# Class 6 Servable Coverage plan, U4: GEO.SHAPES.2D depth batch.
+# Targets MISC.GEO.ROTATED-NOT-SAME on a second shape (triangle); answer is
+# the sides-plus-corners total (6), deliberately different from
+# TPL.GEO.SHAPES2D.ROTATE.SQUARE.001's answer (4) and from
+# TPL.GEO.SHAPES2D.ID.TRIANGLE.001's answer (3), so this item can't collide
+# with either on the near-duplicate gate (U2) regardless of stem wording.
+template_id: TPL.GEO.SHAPES2D.ROTATE.TRIANGLE.001
+skill_ids:
+  - GEO.SHAPES.2D
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - objects
+
+variables:
+  n: { type: int, range: [1, 3] }
+constraints: []
+
+stem_i18n:
+  en-IN: "A triangle has 3 straight sides and 3 corners. It is rotated {{n}} times, a third of a full turn each time, so its point ends up facing a different way. How many sides and corners does it have now, added together?"
+localization_slots: []
+
+answer: "3 + 3"
+
+distractors:
+  - expr: "0"
+    misconception_id: MISC.GEO.ROTATED-NOT-SAME
+  - expr: "3"
+    misconception_id: null
+  - expr: "4"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Turning the triangle changes which way it points, but not its sides or corners."
+      - "It still has 3 sides and 3 corners, so 3 + 3 = 6 altogether."
+
+hints_i18n:
+  en-IN:
+    - "Count the sides and corners after the turn — did either number change?"
+    - "A shape's sides and corners depend on the shape itself, not which way it is facing."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

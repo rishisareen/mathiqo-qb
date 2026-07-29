@@ -1,0 +1,61 @@
+# Class 6 Servable Coverage plan, U4: MEAS.LENGTH.UNITS depth batch.
+# Directly targets MISC.MEAS.RULER-FROM-ONE: the "b" distractor reads off
+# the end mark alone, ignoring where the object actually started.
+template_id: TPL.MEASLENGTH.RULER.READING.MCQ.001
+skill_ids:
+  - MEAS.LENGTH.UNITS
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+variables:
+  a:
+    type: int
+    range: [1, 4]
+  b:
+    type: int
+    range: [5, 12]
+constraints:
+  - "a < b"
+
+stem_i18n:
+  en-IN: "A pencil lies along a ruler, touching the {{a}} cm mark at one end and the {{b}} cm mark at the other. How long is the pencil, in centimetres?"
+localization_slots: []
+
+answer: "b - a"
+
+distractors:
+  - expr: "b"
+    misconception_id: MISC.MEAS.RULER-FROM-ONE
+  - expr: "b + a"
+    misconception_id: null
+  - expr: "a"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Find where the pencil starts ({{a}} cm) and where it ends ({{b}} cm)."
+      - "Subtract the start mark from the end mark: {{b}} - {{a}}."
+
+hints_i18n:
+  en-IN:
+    - "Does the pencil start exactly at the 0 mark? Check carefully."
+    - "The length is the end mark minus the start mark, not just the end mark on its own."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

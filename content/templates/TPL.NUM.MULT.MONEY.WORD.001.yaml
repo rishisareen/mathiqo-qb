@@ -1,0 +1,50 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Money-context numeric_entry word problem, medium band.
+template_id: TPL.NUM.MULT.MONEY.WORD.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.MULT
+question_type: numeric_entry
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - money
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  price: { type: int, range: [12, 45] }
+  qty: { type: int, range: [4, 9] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "Each notebook costs Rs {{price}}. What is the total cost of {{qty}} notebooks?"
+
+answer: "price * qty"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Since each notebook costs the same amount, multiply the price by how many you're buying."
+      - "{{price}} x {{qty}} gives the total cost in rupees."
+
+hints_i18n:
+  en-IN:
+    - "Every notebook costs the same amount — how do you find a total for equal-priced items?"
+    - "Multiply the price per notebook by the number of notebooks."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

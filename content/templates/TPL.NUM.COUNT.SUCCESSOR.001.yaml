@@ -1,0 +1,58 @@
+# Class 6 servable coverage plan, U4. NUM.COUNT: reading the counting
+# sequence forward by one (ordering-adjacent counting task). The +2
+# distractor represents skipping a number while counting forward, the
+# skip-variant of the double-count/skip breakdown.
+template_id: TPL.NUM.COUNT.SUCCESSOR.001
+skill_ids:
+  - NUM.COUNT
+question_type: mcq_4
+cognitive_level: recall
+difficulty_prior: easy
+estimated_time_sec: 15
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [10, 995] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "{{name1}} is counting up by ones: ..., {{a}}, ___. What number comes right after {{a}}?"
+localization_slots:
+  - name1
+
+answer: "a + 1"
+
+distractors:
+  - expr: "a + 2"
+    misconception_id: MISC.NUM.COUNT.DOUBLE-COUNT
+  - expr: "a - 1"
+    misconception_id: null
+  - expr: "a"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Counting up means each next number is exactly one more."
+      - "One more than {{a}} is {{a}} + 1."
+
+hints_i18n:
+  en-IN:
+    - "The next counting number is always one more, no skipping."
+    - "Add 1 to {{a}}."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

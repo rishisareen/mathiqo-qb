@@ -1,0 +1,57 @@
+# Class 6 Servable Coverage plan, U4: MEAS.LENGTH.UNITS depth batch.
+# Deliberate certification-format twin of TPL.MEASLENGTH.CONVERT.KM.TO.M.001
+# — see note on TPL.MEASLENGTH.CONVERT.MCQ.M.TO.CM.001.
+template_id: TPL.MEASLENGTH.CONVERT.MCQ.KM.TO.M.001
+skill_ids:
+  - MEAS.LENGTH.UNITS
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+variables:
+  k:
+    type: int
+    range: [1, 9]
+constraints: []
+
+stem_i18n:
+  en-IN: "A hiking trail is {{k}} kilometres long. How many metres is that?"
+localization_slots: []
+
+answer: "k * 1000"
+
+distractors:
+  - expr: "k * 100"
+    misconception_id: null
+  - expr: "k"
+    misconception_id: null
+  - expr: "k + 1000"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "1 kilometre = 1000 metres."
+      - "{{k}} x 1000 = the trail's length in metres."
+
+hints_i18n:
+  en-IN:
+    - "How many metres make up 1 kilometre?"
+    - "Multiply, don't add — every whole kilometre is 1000 m."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

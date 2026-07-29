@@ -1,0 +1,61 @@
+# Class 6 servable coverage plan, U4. NUM.ADD.SUB: hard-band 3-digit
+# subtraction with regrouping — the depth extension of
+# TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001 to a third digit. Hundreds-digit
+# gap between a2 and b2 guarantees A >= B always (constraint-free, zero
+# rejection), matching the 2-digit template's convention.
+template_id: TPL.NUM.ADD.SUB.SUB.3DIGIT.001
+skill_ids:
+  - NUM.ADD.SUB
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: hard
+estimated_time_sec: 50
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a2: { type: int, range: [5, 9] }
+  a1: { type: int, range: [2, 6] }
+  a0: { type: int, range: [0, 9] }
+  b2: { type: int, range: [1, 4] }
+  b1: { type: int, range: [1, 5] }
+  b0: { type: int, range: [0, 9] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "What is {{a2}}{{a1}}{{a0}} - {{b2}}{{b1}}{{b0}}?"
+localization_slots: []
+
+answer: "100*a2 + 10*a1 + a0 - (100*b2 + 10*b1 + b0)"
+
+distractors:
+  - expr: "100*(a2-b2) + 10*(a1-b1) - a0 + b0"
+    misconception_id: MISC.NUM.SUB-SMALLER-FROM-LARGER
+    only_if: "a0 < b0"
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Subtract the ones column first: {{a0}} minus {{b0}}."
+      - "If the top ones digit is smaller, borrow a ten from the tens column."
+      - "Subtract the tens column, then the hundreds column, carrying any borrow through."
+
+hints_i18n:
+  en-IN:
+    - "Work column by column, right to left: ones, then tens, then hundreds."
+    - "Whenever the top digit in a column is smaller, borrow from the next column before subtracting."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.8
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

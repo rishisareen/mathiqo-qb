@@ -1,0 +1,61 @@
+# Class 6 Servable Coverage plan, U4: GEO.POLYGON.PROPS depth batch.
+# Directly targets MISC.GEO.POLYGON.RHOMBUS-AS-SQUARE (U3): the "4"
+# distractor is exactly the error of assuming all-sides-equal must mean
+# square (90-degree) corners, ignoring that this shape's corners are 60/120.
+# Answer is a right-angle-corner count, not a shape name — see
+# TPL.GEO.POLYGONPROPS.CLASSIFY.SQUARE.001 for the numeric-proxy rationale.
+template_id: TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001
+skill_ids:
+  - GEO.POLYGON.PROPS
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+variables:
+  s:
+    type: int
+    range: [3, 9]
+constraints: []
+
+stem_i18n:
+  en-IN: "A shape has 4 sides, all exactly {{s}} cm long. Two of its corners measure 60 degrees and two measure 120 degrees. How many of its corners are square (90-degree) corners?"
+localization_slots: []
+
+answer: "0"
+
+distractors:
+  - expr: "4"
+    misconception_id: MISC.GEO.POLYGON.RHOMBUS-AS-SQUARE
+  - expr: "2"
+    misconception_id: null
+  - expr: "1"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Equal sides alone don't decide the corners — check the actual angles."
+      - "The corners measure 60 and 120 degrees, and neither of those is 90 degrees."
+      - "So none of its corners are square corners: the count is 0."
+
+hints_i18n:
+  en-IN:
+    - "Equal sides alone don't tell you the corners are square — what else do you need to check?"
+    - "Are 60 and 120 degrees ever equal to 90 degrees?"
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

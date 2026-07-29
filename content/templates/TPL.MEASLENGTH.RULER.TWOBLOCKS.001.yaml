@@ -1,0 +1,64 @@
+# Class 6 Servable Coverage plan, U4: MEAS.LENGTH.UNITS depth batch.
+# Hard-band compound scenario targeting MISC.MEAS.RULER-FROM-ONE a second
+# time; wording kept distinct from TPL.MEASLENGTH.RULER.READING.MCQ.001's
+# single-object framing (near-dup gate, U2).
+template_id: TPL.MEASLENGTH.RULER.TWOBLOCKS.001
+skill_ids:
+  - MEAS.LENGTH.UNITS
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+  - games
+
+variables:
+  a:
+    type: int
+    range: [2, 6]
+  b:
+    type: int
+    range: [10, 20]
+constraints:
+  - "a < b"
+
+stem_i18n:
+  en-IN: "{{name1}} lines up two blocks end-to-end along a ruler. The first block's edge is at the {{a}} cm mark, and after placing the second block right after it, the far edge lands on the {{b}} cm mark. What is the total length of both blocks together, in centimetres?"
+localization_slots:
+  - name1
+
+answer: "b - a"
+
+distractors:
+  - expr: "b"
+    misconception_id: MISC.MEAS.RULER-FROM-ONE
+  - expr: "a"
+    misconception_id: null
+  - expr: "b + a"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The blocks together span from the {{a}} cm mark to the {{b}} cm mark."
+      - "Their combined length is the end mark minus the start mark: {{b}} - {{a}}."
+
+hints_i18n:
+  en-IN:
+    - "Where do the two blocks actually begin on the ruler? It isn't the 0 mark."
+    - "Subtract the starting mark from the ending mark — don't just read off the far edge."
+
+difficulty: 0.8
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

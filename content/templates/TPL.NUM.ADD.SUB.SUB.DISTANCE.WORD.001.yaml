@@ -1,0 +1,60 @@
+# Class 6 servable coverage plan, U4. NUM.ADD.SUB: 2-digit subtraction with
+# regrouping dressed as a distance-remaining word problem — application-
+# level sibling of TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001, in the mcq_4
+# format. Tens-digit gap between a1 and b1 guarantees the total is never
+# smaller than the distance ridden (constraint-free, zero rejection).
+template_id: TPL.NUM.ADD.SUB.SUB.DISTANCE.WORD.001
+skill_ids:
+  - NUM.ADD.SUB
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - travel
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a1: { type: int, range: [5, 9] }
+  a0: { type: int, range: [0, 9] }
+  b1: { type: int, range: [1, 4] }
+  b0: { type: int, range: [0, 9] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "A cyclist plans to ride {{a1}}{{a0}} km in total. So far the cyclist has ridden {{b1}}{{b0}} km. How many km are left to ride?"
+localization_slots: []
+
+answer: "10*a1 + a0 - (10*b1 + b0)"
+
+distractors:
+  - expr: "10*(a1-b1) - a0 + b0"
+    misconception_id: MISC.NUM.SUB-SMALLER-FROM-LARGER
+    only_if: "a0 < b0"
+  - expr: "10*a1 + a0 + 10*b1 + b0"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The distance left is the planned total minus the distance already ridden."
+      - "Subtract the ones column first, borrowing from the tens column if needed."
+
+hints_i18n:
+  en-IN:
+    - "This is a subtraction: total planned minus distance already covered."
+    - "If the top ones digit is smaller than the bottom one, borrow a ten first."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

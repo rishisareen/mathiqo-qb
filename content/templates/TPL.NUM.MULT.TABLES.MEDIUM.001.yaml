@@ -1,0 +1,63 @@
+# U4 tier top-up (2026-07-29): NUM.MULT.TABLES previously had only an easy
+# band (TPL.NUM.MULT.TABLES.DIRECT.001, numeric_entry, empty distractors).
+# This medium-band mcq_4 template gives the skill its first distractor-bearing
+# format, tagged with MISC.NUM.MULT.TABLES.REPEATED-ADD-OFFBYONE (added in
+# U3, content/fractions/misconceptions.yaml) — the classic "one extra group"
+# repeated-addition error for a x b. Stem deliberately worded differently from
+# DIRECT.001's "What is {{a}} x {{b}}?" (same a,b domain) rather than reusing
+# it verbatim: an identical rendered stem across two templates is a sanctioned
+# pattern for genuine certification-format twins (tools/item_verify.py's
+# check_embedding_duplicates docstring), but here it isn't one — this
+# instance also carries live mcq_4 distractors DIRECT.001 doesn't, and a
+# same-text stem across templates breaks tests/test_simulation.py's
+# SimulatedStudentInputSource, whose stem->instance lookup is keyed on
+# rendered stem text across the whole bank.
+template_id: TPL.NUM.MULT.TABLES.MEDIUM.001
+skill_ids:
+  - NUM.MULT.TABLES
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: medium
+difficulty: 0.5
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  a:
+    type: int
+    range: [2, 9]
+  b:
+    type: int
+    range: [2, 9]
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: "What do you get when you multiply {{a}} by {{b}}?"
+answer: "a * b"
+distractors:
+  - expr: "a * (b + 1)"
+    misconception_id: MISC.NUM.MULT.TABLES.REPEATED-ADD-OFFBYONE
+  - expr: "a * b + 1"
+    misconception_id: null
+  - expr: "a + b"
+    misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "{{a}} x {{b}} means {{a}} added to itself {{b}} times."
+      - "Recall or work out the multiplication fact for {{a}} and {{b}}."
+hints_i18n:
+  en-IN:
+    - "Count out {{b}} groups of {{a}} — not one group too many."
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

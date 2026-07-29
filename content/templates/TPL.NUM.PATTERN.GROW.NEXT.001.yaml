@@ -1,0 +1,68 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Growing pattern with constant second difference (the jumps themselves
+# grow by a fixed amount, e.g. 2,5,9,14 with jumps 3,4,5) — direct numeric
+# pattern, medium band. t1..t4 are independent declared variables tied by
+# one equality constraint enforcing constant second difference
+# ("t4-2*t3+t2 == t3-2*t2+t1"), plus a strict-increase constraint on the
+# jumps so the constant-difference degenerate case is excluded and the
+# pattern is genuinely growing. The correct extrapolation
+# (3*t4 - 3*t3 + t2) follows from continuing the constant second difference;
+# MISC.NUM.PATTERN-CONSTANT-DIFF's signature error (repeat the last jump:
+# 2*t4 - t3) is the direct distractor this item is built to expose.
+template_id: TPL.NUM.PATTERN.GROW.NEXT.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PATTERN.EXTEND
+question_type: mcq_4
+cognitive_level: procedural
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 55
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  t1: { type: int, range: [1, 5] }
+  t2: { type: int, range: [2, 10] }
+  t3: { type: int, range: [4, 16] }
+  t4: { type: int, range: [6, 22] }
+
+constraints:
+  - "t4 - 2 * t3 + t2 == t3 - 2 * t2 + t1"
+  - "(t2 - t1) < (t3 - t2)"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "Look at this number pattern: {{t1}}, {{t2}}, {{t3}}, {{t4}}, .... What is the next number?"
+
+answer: "3 * t4 - 3 * t3 + t2"
+
+distractors:
+  - expr: "2 * t4 - t3"
+    misconception_id: MISC.NUM.PATTERN-CONSTANT-DIFF
+  - expr: "t4 + (t3 - t2)"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Find the jump between each pair of numbers: {{t2}}-{{t1}}, {{t3}}-{{t2}}, {{t4}}-{{t3}}."
+      - "Notice the jumps themselves are growing by the same amount each time."
+      - "Find the next jump by continuing that growth, then add it to {{t4}}."
+
+hints_i18n:
+  en-IN:
+    - "Look at the jumps between the numbers, not just the numbers themselves — are the jumps staying the same or changing?"
+    - "The jumps are growing by a fixed amount each time — work out the next jump before adding it to {{t4}}."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

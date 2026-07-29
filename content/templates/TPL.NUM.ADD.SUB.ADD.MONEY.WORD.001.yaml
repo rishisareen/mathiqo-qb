@@ -1,0 +1,59 @@
+# Class 6 servable coverage plan, U4. NUM.ADD.SUB: 2-digit addition with
+# regrouping dressed as a savings word problem — application-level sibling
+# of TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001, in the mcq_4 format.
+template_id: TPL.NUM.ADD.SUB.ADD.MONEY.WORD.001
+skill_ids:
+  - NUM.ADD.SUB
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - money
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a1: { type: int, range: [2, 9] }
+  a0: { type: int, range: [1, 9] }
+  b1: { type: int, range: [1, 8] }
+  b0: { type: int, range: [1, 9] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "{{name1}} saved Rs {{a1}}{{a0}} in the first week and Rs {{b1}}{{b0}} in the second week. How much did {{name1}} save in the two weeks altogether?"
+localization_slots:
+  - name1
+
+answer: "10*a1 + a0 + 10*b1 + b0"
+
+distractors:
+  - expr: "100*(a1+b1) + (a0+b0)"
+    misconception_id: MISC.NUM.ADD-NO-CARRY
+    only_if: "a0 + b0 >= 10"
+  - expr: "10*(a1+b1)"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Add the two amounts saved: Rs {{a1}}{{a0}} and Rs {{b1}}{{b0}}."
+      - "Add the ones digits first, then the tens digits, carrying if the ones sum is 10 or more."
+
+hints_i18n:
+  en-IN:
+    - "Add the ones column first, then the tens column."
+    - "Don't forget to carry the extra ten if the ones add up to 10 or more."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

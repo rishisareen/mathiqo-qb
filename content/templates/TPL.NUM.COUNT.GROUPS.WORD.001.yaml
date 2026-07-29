@@ -1,0 +1,53 @@
+# Class 6 servable coverage plan, U4. NUM.COUNT: counting a described
+# collection arranged in equal groups (skip-counting-by-groups, the
+# array/rows-and-columns counting model).
+template_id: TPL.NUM.COUNT.GROUPS.WORD.001
+skill_ids:
+  - NUM.COUNT
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [2, 9] }
+  b: { type: int, range: [2, 12] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "Eggs are arranged on a tray in {{a}} equal rows, with {{b}} eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?"
+localization_slots: []
+
+answer: "a * b"
+
+distractors:
+  - expr: "a + b"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Count the eggs row by row: each of the {{a}} rows has {{b}} eggs."
+      - "Counting one at a time across all rows gives {{a}} groups of {{b}}, which is {{a}} x {{b}}."
+
+hints_i18n:
+  en-IN:
+    - "Counting equal rows one at a time is the same as counting in groups."
+    - "Multiply the number of rows by the number in each row."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

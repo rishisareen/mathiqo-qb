@@ -1,0 +1,49 @@
+# Class 6 Servable Coverage plan, U4: GEO.POLYGON.PROPS depth batch.
+template_id: TPL.GEO.POLYGONPROPS.SIDESPLUSCORNERS.001
+skill_ids:
+  - GEO.POLYGON.PROPS
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: hard
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+variables:
+  n:
+    type: int
+    range: [3, 9]
+constraints: []
+
+stem_i18n:
+  en-IN: "A closed shape has {{n}} straight sides. Since every corner is where exactly two sides meet, it also has {{n}} corners. What do you get if you add the number of sides and the number of corners together?"
+localization_slots: []
+
+answer: "n + n"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The number of corners equals the number of sides: {{n}}."
+      - "Add the two counts together: {{n}} + {{n}}."
+
+hints_i18n:
+  en-IN:
+    - "First check: how many corners does the shape have?"
+    - "Add the side count and the corner count together."
+
+difficulty: 0.8
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

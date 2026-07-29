@@ -1,0 +1,49 @@
+# Class 6 Servable Coverage plan, U4: MEAS.LENGTH.UNITS depth batch.
+template_id: TPL.MEASLENGTH.CONVERT.M.TO.CM.001
+skill_ids:
+  - MEAS.LENGTH.UNITS
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 20
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+variables:
+  m:
+    type: int
+    range: [1, 9]
+constraints: []
+
+stem_i18n:
+  en-IN: "A rope is {{m}} metres long. Since 1 metre = 100 centimetres, how long is the rope in centimetres?"
+localization_slots: []
+
+answer: "m * 100"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Every metre is 100 centimetres."
+      - "{{m}} x 100 = the rope's length in cm."
+
+hints_i18n:
+  en-IN:
+    - "How many centimetres are in 1 metre?"
+    - "Multiply the number of metres by 100."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

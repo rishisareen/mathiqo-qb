@@ -1,0 +1,58 @@
+# U4 tier top-up (2026-07-29): NUM.MULT.TABLES hard band. A missing-factor
+# word problem — the product and one factor are given, the student must
+# recover the other factor (a x ? = product) rather than just recalling a
+# direct fact, which is a genuinely deeper table-reasoning task than either
+# the easy DIRECT template or the medium band's forward "a x b" recall.
+# total is pinned to 60 (range width 1) rather than left free: 60 is the
+# smallest number divisible by every integer from 2 to 6, so every value of
+# `a` in its declared range yields an exact whole-number missing factor with
+# zero constraint-rejection risk under Stage 3's exhaustive enumeration.
+template_id: TPL.NUM.MULT.TABLES.MISSING.001
+skill_ids:
+  - NUM.MULT.TABLES
+question_type: numeric_entry
+cognitive_level: application
+difficulty_prior: hard
+difficulty: 0.8
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  total:
+    type: int
+    range: [60, 60]
+  a:
+    type: int
+    range: [2, 6]
+constraints: []
+localization_slots:
+  - name1
+stem_i18n:
+  en-IN: "{{name1}} has {{total}} marbles and arranges them into {{a}} equal rows. How many marbles are in each row?"
+answer: "simplify(total / a)"
+distractors:
+  - expr: "total - a"
+    misconception_id: null
+  - expr: "total / (a + 1)"
+    misconception_id: MISC.NUM.MULT.TABLES.REPEATED-ADD-OFFBYONE
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The total splits evenly into {{a}} rows, so divide the total by {{a}}."
+      - "{{total}} / {{a}} gives the number of marbles in each row."
+hints_i18n:
+  en-IN:
+    - "Think of it as a x ? = {{total}}, where a is {{a}}."
+    - "Which times-table fact for {{a}} lands on {{total}}?"
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

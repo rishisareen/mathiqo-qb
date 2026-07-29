@@ -1,0 +1,58 @@
+# Class 6 Servable Coverage plan, U4: GEO.SHAPES.2D depth batch.
+# See TPL.GEO.SHAPES2D.ID.CIRCLE.001 for why the answer is a numeric side
+# count rather than a shape name.
+template_id: TPL.GEO.SHAPES2D.ID.RECTANGLE.001
+skill_ids:
+  - GEO.SHAPES.2D
+question_type: mcq_4
+cognitive_level: recall
+difficulty_prior: easy
+estimated_time_sec: 18
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - objects
+
+# item-instance schema requires >=1 variable; this item is a fixed
+# conceptual fact with no natural numeric parameter, so a single-value
+# placeholder variable satisfies the contract without pretending to vary.
+variables:
+  n: { type: int, range: [1, 1] }
+constraints: []
+
+stem_i18n:
+  en-IN: "A door, a book cover, and a brick are all the same kind of shape: straight edges meeting at corners like the corner of a picture frame, longer in one direction than the other, with no curves anywhere. How many straight edges does this kind of shape have?"
+localization_slots: []
+
+answer: "4"
+
+distractors:
+  - expr: "3"
+    misconception_id: null
+  - expr: "0"
+    misconception_id: null
+  - expr: "6"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Count the edges: this kind of shape has straight edges meeting at four picture-frame corners."
+      - "That gives 4 straight edges in total."
+
+hints_i18n:
+  en-IN:
+    - "How many corners does a shape like a door or a book cover have?"
+    - "Each corner is where two edges meet — count the corners to find the edges."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

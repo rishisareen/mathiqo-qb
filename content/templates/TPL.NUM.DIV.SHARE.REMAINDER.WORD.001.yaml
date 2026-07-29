@@ -1,0 +1,73 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Equal-sharing word problem WITH a remainder, asking directly for the
+# leftover amount — the natural home for MISC.NUM.DIV-REMAINDER-DROPPED
+# (reports the quotient and ignores the remainder even though the question
+# needs it). q is a declared helper variable (the quotient) pinned to
+# floor(a/b) via the double inequality "b*q <= a" and "a < b*(q+1)" — the
+# only way to express floor-division exactness with the whitelisted
+# operators (no floor/mod primitive available). "a - b*q >= 1" additionally
+# forces a genuine nonzero remainder. This 3-variable double-inequality
+# construction rejects the large majority of combinations (q is almost
+# always wrong for a given a,b except the one floor value) — tolerated per
+# KTD5, same as the corpus's own reference template.
+template_id: TPL.NUM.DIV.SHARE.REMAINDER.WORD.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.DIV
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 60
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - food
+  - sharing
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [17, 50] }
+  b: { type: int, range: [4, 9] }
+  q: { type: int, range: [1, 12] }
+
+constraints:
+  - "b * q <= a"
+  - "a < b * (q + 1)"
+  - "a - b * q >= 1"
+
+localization_slots:
+  - name1
+  - food
+stem_i18n:
+  en-IN: "{{name1}} has {{a}} {{food}} to share equally among {{b}} friends. How many {{food}} are left over once each friend gets an equal share?"
+
+answer: "a - b * q"
+
+distractors:
+  - expr: "q"
+    misconception_id: MISC.NUM.DIV-REMAINDER-DROPPED
+  - expr: "b - (a - b * q)"
+    misconception_id: null
+  - expr: "a / b"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Divide {{a}} by {{b}}: find how many full, equal shares of {{b}} fit."
+      - "Multiply the number of full shares by {{b}}, then subtract that from {{a}} to find what's left over."
+
+hints_i18n:
+  en-IN:
+    - "First find how many whole shares of {{b}} you can give out from {{a}}."
+    - "What's left after giving out those whole shares is the remainder — the question is asking for that leftover amount, not the number of shares."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"
