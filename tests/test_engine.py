@@ -126,8 +126,10 @@ def make_serve(bank_index: engine.BankIndex, skill_id: str, difficulty: float, c
 
 def test_load_content_surfaces_content_version_from_manifest(content: engine.ContentIndex) -> None:
     """KTD9: content/fractions/manifest.yaml declares content_version
-    "1.0.0" — load_content must read it and surface it on ContentIndex."""
-    assert content.content_version == "1.0.0"
+    "1.1.0" (bumped by the Class 6 Servable Coverage plan's U1 unit_name
+    corrections) — load_content must read it and surface it on
+    ContentIndex."""
+    assert content.content_version == "1.1.0"
 
 
 def test_load_content_version_survives_merged_multi_file_load(fixture_copy: Path) -> None:
@@ -144,7 +146,7 @@ def test_load_content_version_survives_merged_multi_file_load(fixture_copy: Path
     write_yaml(mappings_path, data)
 
     content_index = engine_module.load_content(fixture_copy)
-    assert content_index.content_version == "1.0.0"
+    assert content_index.content_version == "1.1.0"
 
 
 def test_load_content_raises_a_clear_error_when_manifest_is_missing(fixture_copy: Path) -> None:
@@ -198,10 +200,12 @@ def test_load_content_mapping_row_surfaces_learning_objective_and_terminology_ov
 
 def test_load_content_mapping_row_surfaces_structured_unit_fields(content: engine.ContentIndex) -> None:
     """KTD10: a migrated NCERT row carries a structured unit_code/unit_name
-    derived from its syllabus_ref's chapter reference."""
+    derived from its syllabus_ref's chapter reference. unit_name is the
+    real Ganita Prakash 6 chapter title, verified against the published
+    table of contents (Class 6 Servable Coverage plan, U1)."""
     row = content.mappings[("FRAC.ADD.UNLIKE", "IN", "NCERT", 6)]
     assert row.unit_code == "IN-NCERT-G6-CH7"
-    assert row.unit_name == "Class 6, Ch. 7"
+    assert row.unit_name == "Fractions"
 
 
 def test_load_content_mapping_row_unit_fields_absent_for_unitless_curriculum(

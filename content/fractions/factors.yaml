@@ -1,8 +1,10 @@
 # Factors, multiples and primes strand (NUMBER.FACTORS) — Ganita Prakash
 # Class 6 Ch. 5 (Prime Time). Stage 1 drafted 2026-07-27 via
 # tools/stage1_draft.py (file backend), syllabus
-# examples/ncert-factors-excerpt.txt (illustrative, pending verification),
-# accepted by graph_lint on first attempt and promoted after review.
+# examples/ncert-factors-excerpt.txt, accepted by graph_lint on first
+# attempt and promoted after review; the Ch. 5 chapter reference was
+# verified against the published Ganita Prakash 6 table of contents
+# (Class 6 Servable Coverage plan, U1).
 # NUM.LCM (common multiples) already exists in skills.yaml under
 # NUMBER.ARITHMETIC and is referenced/mapped here, not redefined;
 # MISC.NUM.LCM-CONFUSED-WITH-GCF is reused on NUM.HCF since the same
@@ -136,7 +138,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
     unit_code: "IN-NCERT-G6-CH5"
-    unit_name: "Class 6, Ch. 5"
+    unit_name: "Prime Time"
     learning_objective: >
       Finds factors and multiples of whole numbers, recognising that a
       factor divides a number exactly and a multiple contains it exactly.
@@ -149,7 +151,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
     unit_code: "IN-NCERT-G6-CH5"
-    unit_name: "Class 6, Ch. 5"
+    unit_name: "Prime Time"
     learning_objective: >
       Distinguishes prime numbers from composite numbers and explains why
       1 is neither.
@@ -162,7 +164,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
     unit_code: "IN-NCERT-G6-CH5"
-    unit_name: "Class 6, Ch. 5"
+    unit_name: "Prime Time"
     learning_objective: >
       Applies divisibility tests for 2, 4, 5, 8 and 10 by examining the
       digits of a number.
@@ -175,7 +177,7 @@ mappings:
     depth_expectation: easy
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
     unit_code: "IN-NCERT-G6-CH5"
-    unit_name: "Class 6, Ch. 5"
+    unit_name: "Prime Time"
     learning_objective: >
       Identifies common factors of two numbers, including the highest
       common factor.
@@ -191,7 +193,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
     unit_code: "IN-NCERT-G6-CH5"
-    unit_name: "Class 6, Ch. 5"
+    unit_name: "Prime Time"
     learning_objective: >
       Expresses a number as a product of prime factors.
     exam_contexts: [SCHOOL_EXAM]
@@ -203,7 +205,7 @@ mappings:
     depth_expectation: easy
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 5"
     unit_code: "IN-NCERT-G6-CH5"
-    unit_name: "Class 6, Ch. 5"
+    unit_name: "Prime Time"
     learning_objective: >
       Identifies common multiples of two numbers, including the smallest
       common multiple.

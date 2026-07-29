@@ -1,8 +1,10 @@
 # Constructions strand (GEOMETRY.CONSTRUCT) — Ganita Prakash Class 6 Ch. 8
 # (Playing with Constructions). Stage 1 drafted 2026-07-28 via
 # tools/stage1_draft.py (file backend), syllabus
-# examples/ncert-geometry-excerpt.txt (illustrative, pending verification),
-# accepted by graph_lint on first attempt, promoted after review.
+# examples/ncert-geometry-excerpt.txt, accepted by graph_lint on first
+# attempt, promoted after review; the Ch. 8 chapter reference was verified
+# against the published Ganita Prakash 6 table of contents (Class 6
+# Servable Coverage plan, U1).
 skills:
   - skill_id: GEO.CIRCLE.PARTS
     name: "Circles: centre, radius and diameter"
@@ -61,7 +63,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 8"
     unit_code: "IN-NCERT-G6-CH8"
-    unit_name: "Class 6, Ch. 8"
+    unit_name: "Playing with Constructions"
     learning_objective: >
       Uses a ruler and compass to draw circles of a given radius,
       identifying the centre, radius and diameter.
@@ -74,7 +76,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 8"
     unit_code: "IN-NCERT-G6-CH8"
-    unit_name: "Class 6, Ch. 8"
+    unit_name: "Playing with Constructions"
     learning_objective: >
       Constructs squares and rectangles of given side lengths; creates
       and reasons about figures and curve-based art built from circles

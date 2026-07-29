@@ -181,13 +181,16 @@ def test_duplicate_mapping_same_skill_country_curriculum_grade_is_an_error(fixtu
 def test_ncert_row_with_unit_code_loads_and_lints_clean(fixture_copy: Path) -> None:
     """content/fractions/mappings.yaml's FRAC.ADD.UNLIKE/IN/NCERT/6 row was
     migrated (U1) to carry unit_code/unit_name derived from its
-    syllabus_ref's "Ch. 7" — it must still lint clean as shipped."""
+    syllabus_ref's "Ch. 7" — it must still lint clean as shipped. unit_name
+    was verified against the published Ganita Prakash 6 table of contents
+    (Class 6 Servable Coverage plan, U1) and now carries the real chapter
+    title rather than the "Class 6, Ch. 7" placeholder."""
     mappings_path = fixture_copy / "mappings.yaml"
     data = load_yaml(mappings_path)
     row = data["mappings"][0]
     assert row["skill_id"] == "FRAC.ADD.UNLIKE"
     assert row["unit_code"] == "IN-NCERT-G6-CH7"
-    assert row["unit_name"] == "Class 6, Ch. 7"
+    assert row["unit_name"] == "Fractions"
 
     result = graph_lint.lint_directory(fixture_copy, SCHEMAS_DIR)
     assert result.errors == []

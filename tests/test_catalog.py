@@ -56,7 +56,7 @@ def test_list_units_ncert_grade6_has_structured_chapters(content: engine.Content
     by_code = {u.unit_code: u for u in result.units}
     assert NCERT_G6_FRACTIONS_UNIT in by_code
     fractions_unit = by_code[NCERT_G6_FRACTIONS_UNIT]
-    assert fractions_unit.unit_name == "Class 6, Ch. 7"
+    assert fractions_unit.unit_name == "Fractions"
     assert "FRAC.SIMPLIFY" in fractions_unit.skill_ids
     assert "FRAC.EQUIV" in fractions_unit.skill_ids
     # Every unit's skill_ids actually belongs to that unit_code's own rows.

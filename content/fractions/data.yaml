@@ -1,10 +1,12 @@
 # Data-handling strand (DATA.HANDLING) — Ganita Prakash Class 6 Ch. 4 (Data
 # Handling and Presentation) with the Classes 3-4 Maths Mela ladder.
 # Stage 1 drafted 2026-07-28 via tools/stage1_draft.py (file backend),
-# syllabus examples/ncert-data-excerpt.txt (illustrative, pending
-# verification), accepted by graph_lint on first attempt, promoted after
-# review. MISC.DATA.SCALE-IGNORED is listed on both graph nodes — the same
-# scale-blindness fires on pictographs and bar graphs.
+# syllabus examples/ncert-data-excerpt.txt, accepted by graph_lint on first
+# attempt, promoted after review; the Ch. 4 chapter reference was verified
+# against the published Ganita Prakash 6 table of contents (Class 6
+# Servable Coverage plan, U1). MISC.DATA.SCALE-IGNORED is listed on both
+# graph nodes — the same scale-blindness fires on pictographs and bar
+# graphs.
 skills:
   - skill_id: DATA.COLLECT.TALLY
     name: "Collect and organise data"
@@ -112,7 +114,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 4"
     unit_code: "IN-NCERT-G6-CH4"
-    unit_name: "Class 6, Ch. 4"
+    unit_name: "Data Handling and Presentation"
     learning_objective: >
       Collects and organises data using tally marks and frequency tables.
     exam_contexts: [SCHOOL_EXAM]
@@ -137,7 +139,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 4"
     unit_code: "IN-NCERT-G6-CH4"
-    unit_name: "Class 6, Ch. 4"
+    unit_name: "Data Handling and Presentation"
     learning_objective: >
       Reads and draws pictographs with a scale.
     exam_contexts: [SCHOOL_EXAM]
@@ -149,7 +151,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 4"
     unit_code: "IN-NCERT-G6-CH4"
-    unit_name: "Class 6, Ch. 4"
+    unit_name: "Data Handling and Presentation"
     learning_objective: >
       Reads and draws bar graphs, choosing an appropriate scale;
       interprets and compares data presented in tables, pictographs and
