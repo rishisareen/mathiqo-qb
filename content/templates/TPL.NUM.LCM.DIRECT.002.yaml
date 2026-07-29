@@ -26,7 +26,9 @@ constraints:
 - a < b
 localization_slots: []
 stem_i18n:
-  en-IN: What is the lowest common multiple of {{a}} and {{b}}?
+  en-IN: Two runners take {{a}} seconds and {{b}} seconds to complete one lap.
+    If they start together, after how many seconds will they next cross the
+    start line at the same moment?
 answer: lcm(a, b)
 distractors: []
 solution_steps_i18n:
