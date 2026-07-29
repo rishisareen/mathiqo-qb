@@ -1,0 +1,60 @@
+# Class 6 Servable Coverage plan, U4: GEO.POLYGON.PROPS depth batch.
+# Extends property-based reasoning past the four basic GEO.SHAPES.2D shapes
+# to a 5-sided figure. Answer is a side-count DIFFERENCE (1), not a shape
+# name — see TPL.GEO.POLYGONPROPS.CLASSIFY.SQUARE.001 for the numeric-proxy
+# rationale (bank_build.py's numeric-only v1 scope).
+template_id: TPL.GEO.POLYGONPROPS.CLASSIFY.PENTAGON.001
+skill_ids:
+  - GEO.POLYGON.PROPS
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+# item-instance schema requires >=1 variable; this item is a fixed
+# conceptual fact with no natural numeric parameter, so a single-value
+# placeholder variable satisfies the contract without pretending to vary.
+variables:
+  n: { type: int, range: [1, 1] }
+constraints: []
+
+stem_i18n:
+  en-IN: "A pentagon has 5 straight sides and 5 corners, with no curved parts anywhere. A square has 4 straight sides. How many more sides does the pentagon have than the square?"
+localization_slots: []
+
+answer: "5 - 4"
+
+distractors:
+  - expr: "9"
+    misconception_id: null
+  - expr: "0"
+    misconception_id: null
+  - expr: "2"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The pentagon has 5 sides and the square has 4 sides."
+      - "5 - 4 = 1 more side on the pentagon."
+
+hints_i18n:
+  en-IN:
+    - "Count the sides of each shape separately first."
+    - "'How many more' means subtract the smaller count from the larger one."
+
+difficulty: 0.8
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

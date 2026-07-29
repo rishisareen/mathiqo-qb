@@ -1,0 +1,56 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.MEASURE authoring batch.
+# Clock-face turn framing per R7/KTD4 convention for angle content — a text
+# description of a precise figure, diagram_required: true.
+template_id: TPL.GEO.ANGLEMEASURE.CLOCKTURN.001
+skill_ids:
+  - GEO.ANGLE.MEASURE
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - time
+
+variables:
+  h: { type: int, range: [1, 11] }
+constraints:
+  - "h != 6"
+
+stem_i18n:
+  en-IN: "A clock's minute hand starts pointing at the 12 and turns clockwise until it points at the {{h}} mark. Each number on a clock face is 30 degrees apart from the next around the circle. Through how many degrees has the minute hand turned?"
+localization_slots: []
+
+answer: "30 * h"
+
+distractors:
+  - expr: "h"
+    misconception_id: null
+  - expr: "12 * h"
+    misconception_id: null
+  - expr: "360 - 30 * h"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Each of the 12 numbers on a clock face is 30 degrees apart (360 / 12 = 30)."
+      - "Turning from 12 to the {{h}} mark passes {{h}} of these 30-degree gaps: 30 x {{h}}."
+
+hints_i18n:
+  en-IN:
+    - "A full turn around the clock face is 360 degrees, split evenly among the 12 numbers."
+    - "Multiply the number of marks passed by 30 degrees."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,57 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.AREA.FORMULA batch.
+# Real-life tiling word problem combining the rectangle-area formula with a
+# per-square-metre cost rate. Hard band, mcq_4.
+template_id: TPL.MEAS.AREA.FORMULA.TILING.COST.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.AREA.FORMULA
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 60
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - tiling
+  - home
+
+variables:
+  a: { type: int, range: [4, 10] }
+  b: { type: int, range: [3, 9] }
+  rate: { type: int, range: [20, 60] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A rectangular courtyard measuring {{a}} m by {{b}} m is to be tiled. Tiling costs Rs {{rate}} per square metre. What is the total cost of tiling the courtyard, in rupees?"
+
+answer: "a * b * rate"
+
+distractors:
+  - expr: "(a + b) * rate"
+    misconception_id: MISC.MEAS.AREA-ADD-SIDES
+  - expr: "2 * (a + b) * rate"
+    misconception_id: MISC.MEAS.PERIMETER-AREA-CONFUSED
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "First find the courtyard's area: {{a}} x {{b}} square metres."
+      - "Multiply the area by the cost per square metre, Rs {{rate}}, to get the total cost."
+
+hints_i18n:
+  en-IN:
+    - "You need the area of the courtyard first — not its perimeter, and not the sum of its sides."
+    - "Once you have the area, multiply it by the rate per square metre."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

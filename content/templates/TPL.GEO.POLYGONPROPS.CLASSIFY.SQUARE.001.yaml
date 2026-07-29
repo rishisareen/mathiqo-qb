@@ -1,0 +1,60 @@
+# Class 6 Servable Coverage plan, U4: GEO.POLYGON.PROPS depth batch.
+# Answer is a right-angle-corner COUNT, not the shape's name:
+# tools/bank_build.py's _fmt_rational requires every answer/distractor to be
+# an exact sympy.Rational (v1 numeric-only scope), so "what is this shape
+# called" is asked via a numeric proxy rather than a categorical name.
+template_id: TPL.GEO.POLYGONPROPS.CLASSIFY.SQUARE.001
+skill_ids:
+  - GEO.POLYGON.PROPS
+question_type: mcq_4
+cognitive_level: recall
+difficulty_prior: easy
+estimated_time_sec: 18
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+# item-instance schema requires >=1 variable; this item is a fixed
+# conceptual fact with no natural numeric parameter, so a single-value
+# placeholder variable satisfies the contract without pretending to vary.
+variables:
+  n: { type: int, range: [1, 1] }
+constraints: []
+
+stem_i18n:
+  en-IN: "A square has 4 straight sides, all exactly the same length. How many of its corners are square (90-degree) corners?"
+localization_slots: []
+
+answer: "4"
+
+distractors:
+  - expr: "0"
+    misconception_id: null
+  - expr: "2"
+    misconception_id: null
+  - expr: "1"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A square is defined by 4 equal sides AND 4 square (90-degree) corners."
+      - "So all 4 of its corners are square corners."
+
+hints_i18n:
+  en-IN:
+    - "Equal sides alone aren't the whole definition — check the corners too."
+    - "A square needs every one of its corners to be a right angle."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

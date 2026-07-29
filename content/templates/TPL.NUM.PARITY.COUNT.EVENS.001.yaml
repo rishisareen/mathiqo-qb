@@ -1,0 +1,55 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, U5). Counts the even
+# numbers from 1 to n (n itself even), an application-level task built on
+# parity classification rather than a single-number check.
+template_id: TPL.NUM.PARITY.COUNT.EVENS.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PARITY
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [10, 60] }
+
+constraints:
+  - "n % 2 == 0"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "How many even numbers are there from 1 to {{n}} (including {{n}})?"
+
+answer: "n / 2"
+
+distractors:
+  - expr: "n"
+    misconception_id: null
+  - expr: "(n / 2) - 1"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The even numbers from 1 to {{n}} are 2, 4, 6, ..., {{n}} — every second number."
+      - "There are exactly {{n}} / 2 such numbers."
+
+hints_i18n:
+  en-IN:
+    - "Only every second number from 1 to {{n}} is even — don't count the odd numbers too."
+    - "The even numbers are 2, 4, 6, ..., {{n}}: how many terms are in that list?"
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

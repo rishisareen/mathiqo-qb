@@ -1,0 +1,57 @@
+# Class 6 servable coverage, Implementation Unit U7: DATA.BARGRAPH batch.
+# Three-bar total, labeled text table (diagram_required: true). Hard band,
+# mcq_4.
+template_id: TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - DATA.BARGRAPH
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 70
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - weather
+
+variables:
+  g1: { type: int, range: [2, 4] }
+  g2: { type: int, range: [2, 4] }
+  g3: { type: int, range: [2, 4] }
+  k: { type: int, range: [2, 4] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A bar graph shows rainy days per month, with each gridline worth {{k}} mm of rainfall: March reaches {{g1}} gridlines, April reaches {{g2}} gridlines, and May reaches {{g3}} gridlines. What is the combined rainfall shown for all three months?"
+
+answer: "(g1 + g2 + g3) * k"
+
+distractors:
+  - expr: "g1 + g2 + g3"
+    misconception_id: MISC.DATA.SCALE-IGNORED
+  - expr: "(g1 + g2 + g3) * k - 1"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Add the gridlines across all three months: {{g1}} + {{g2}} + {{g3}}."
+      - "Multiply that gridline total by the scale, {{k}}, to get the combined rainfall."
+
+hints_i18n:
+  en-IN:
+    - "Add the gridline counts first, but each gridline is worth more than 1 mm."
+    - "Once you have the total gridlines, multiply by the scale to get the actual total."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

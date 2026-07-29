@@ -1,0 +1,50 @@
+template_id: TPL.NUM.HCF.LIST.001
+skill_ids:
+- NUM.HCF
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- shapes
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  a:
+    type: int
+    range:
+    - 4
+    - 18
+  b:
+    type: int
+    range:
+    - 4
+    - 18
+constraints:
+- a != b
+localization_slots: []
+stem_i18n:
+  en-IN: By listing the factors of {{a}} and {{b}}, find their highest common factor.
+answer: gcd(a, b)
+distractors:
+- expr: lcm(a, b)
+  misconception_id: MISC.NUM.LCM-CONFUSED-WITH-GCF
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Write out all the factors of {{a}} and all the factors of {{b}}.
+    - The factors that appear in both lists are the common factors; the largest of these is the HCF.
+hints_i18n:
+  en-IN:
+  - Circle the factors that {{a}} and {{b}} share, then pick the biggest one.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

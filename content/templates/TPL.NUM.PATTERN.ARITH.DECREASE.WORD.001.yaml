@@ -1,0 +1,66 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Constant-difference DEcreasing sequence in a reducing-pattern word
+# problem — same equality-constrained construction as
+# TPL.NUM.PATTERN.ARITH.WORD.001 (see that file's header), difference sign
+# flipped. Constant difference is genuinely correct here (same reasoning as
+# ARITH.WORD.001); no misconception distractor is forced onto
+# MISC.NUM.PATTERN-CONSTANT-DIFF, which targets a wrongly-assumed constant
+# jump on a pattern whose jump is actually changing — not this template's
+# genuinely-constant case.
+template_id: TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PATTERN.EXTEND
+question_type: numeric_entry
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 55
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - money
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  t1: { type: int, range: [30, 50] }
+  t2: { type: int, range: [18, 40] }
+  t3: { type: int, range: [6, 30] }
+
+constraints:
+  - "t1 - t2 == t2 - t3"
+  - "t1 > t2"
+  - "t3 >= 1"
+
+localization_slots:
+  - name1
+stem_i18n:
+  en-IN: "{{name1}} starts with Rs {{t1}} and spends the same amount each day: Rs {{t2}} left after day 1, Rs {{t3}} left after day 2, following the same steady pattern. How much money will {{name1}} have left after day 3?"
+
+answer: "2 * t3 - t2"
+
+distractors:
+  - expr: "t1 - t2 - t3"
+    misconception_id: null
+  - expr: "t3 - t2 + t1"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Find how much {{name1}} spends each day: {{t1}} - {{t2}}, which equals {{t2}} - {{t3}}."
+      - "Subtract that same daily amount from {{t3}} to find what's left after day 3."
+
+hints_i18n:
+  en-IN:
+    - "How much less money does {{name1}} have each day compared to the day before?"
+    - "Subtract that same daily drop from the amount left after day 2."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

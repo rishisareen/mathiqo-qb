@@ -1,0 +1,51 @@
+# Authored 2026-07-29 (Class 6 servable coverage, Implementation Unit U5).
+# NUM.FACTORS.MULTIPLES, Ch. 5 "Prime Time". Direct kth-multiple recall —
+# no constraints needed, n*k is always the kth multiple of n by definition,
+# so this variant space has zero rejection.
+template_id: TPL.NUM.FACTORS.MULT.KTH.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.FACTORS.MULTIPLES
+question_type: numeric_entry
+cognitive_level: recall
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 20
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [2, 12] }
+  k: { type: int, range: [2, 9] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "What is the {{k}}th multiple of {{n}}?"
+
+answer: "n * k"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The multiples of {{n}} are {{n}}, 2 x {{n}}, 3 x {{n}}, and so on."
+      - "The {{k}}th multiple of {{n}} is {{n}} x {{k}}."
+
+hints_i18n:
+  en-IN:
+    - "Multiply {{n}} by {{k}}."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

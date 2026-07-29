@@ -1,0 +1,54 @@
+# Class 6 Servable Coverage plan, U4: GEO.SHAPES.2D depth batch.
+# numeric_entry (KTD6): low-guess format for this skill.
+template_id: TPL.GEO.SHAPES2D.COUNT.CURVED.CARDS.001
+skill_ids:
+  - GEO.SHAPES.2D
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+
+variables:
+  a:
+    type: int
+    range: [1, 6]
+  b:
+    type: int
+    range: [1, 6]
+constraints: []
+
+stem_i18n:
+  en-IN: "{{name1}} has a set of shape cards: {{a}} cards show a circle and {{b}} cards show a square. How many of the cards have a curved boundary?"
+localization_slots:
+  - name1
+
+answer: "a"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Only the circle cards have a curved boundary; the square cards have straight sides."
+      - "Count the circle cards: {{a}}."
+
+hints_i18n:
+  en-IN:
+    - "Which shape has a curved edge — the circle or the square?"
+    - "Count only the cards showing that shape."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

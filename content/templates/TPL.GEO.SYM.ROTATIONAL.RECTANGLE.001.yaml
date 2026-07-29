@@ -1,0 +1,59 @@
+# U6 authoring increment (Class 6 Ch. 9 Symmetry), drafted 2026-07-29.
+# Named-shape stem: rectangle PQRS with distinct side lengths (not a square),
+# whose rotational order is a fixed fact (2) independent of the exact side
+# lengths — genuine variables carried through the stem for realism.
+template_id: TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001
+skill_ids:
+- GEO.SYM.ROTATIONAL
+question_type: numeric_entry
+cognitive_level: conceptual
+difficulty_prior: medium
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: true
+context_tags:
+- shapes
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  l:
+    type: int
+    range:
+    - 3
+    - 12
+  b:
+    type: int
+    range:
+    - 3
+    - 12
+constraints:
+- l != b
+localization_slots: []
+stem_i18n:
+  en-IN: Rectangle PQRS has PQ = {{l}} cm and QR = {{b}} cm, with PQ not equal
+    to QR. What is the order of its rotational symmetry?
+answer: '2'
+distractors: []
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Turning rectangle PQRS by 180 degrees about its centre maps it exactly
+      onto itself.
+    - Turning it by 90 degrees does not work, since PQ is not equal to QR, so
+      the rectangle is not a square.
+    - It matches itself twice in a full turn, so the order of rotational
+      symmetry is 2.
+hints_i18n:
+  en-IN:
+  - Try turning the rectangle by 180 degrees about its centre — does it look
+    the same?
+  - A 90-degree turn only works for a square, not a general rectangle.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

@@ -1,0 +1,54 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, Implementation Unit
+# U7). INT.CONCEPT hard band, mcq_4 format, application level. The stem
+# explicitly frames the result as "0 minus {{n}}", a subtraction-adjacent
+# reading of the scenario, so the dropped-sign distractor is tagged with
+# MISC.INT.SUB-MAKES-SMALLER (a child who expects subtracting to keep the
+# result "sensible"/non-negative writes {{n}} instead of recognising the
+# true value sits below zero) — added to INT.CONCEPT's misconceptions list
+# in content/fractions/integers.yaml per the "diagnosed here, remediated
+# here" convention, since the registry entry already targeted INT.CONCEPT.
+template_id: TPL.INT.CONCEPT.TEMPDROP.001
+skill_ids:
+  - INT.CONCEPT
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+difficulty: 0.8
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - weather
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  n:
+    type: int
+    range: [1, 15]
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: "At noon, the temperature was 0 degrees. By evening it had dropped by {{n}} degrees — that is, 0 minus {{n}}. Which integer correctly represents the evening temperature?"
+answer: "-n"
+distractors:
+  - expr: "n"
+    misconception_id: MISC.INT.SUB-MAKES-SMALLER
+  - expr: "0"
+    misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Dropping by {{n}} degrees from 0 means moving {{n}} steps to the other side of zero."
+      - "0 minus {{n}} is -{{n}}, not {{n}} — subtracting from 0 crosses over to the negative side."
+hints_i18n:
+  en-IN:
+    - "Dropping below 0 gives a negative number, not just a smaller positive one."
+    - "0 minus {{n}} is written -{{n}}."
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

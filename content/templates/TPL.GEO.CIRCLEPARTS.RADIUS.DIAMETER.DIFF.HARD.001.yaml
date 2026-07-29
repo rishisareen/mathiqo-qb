@@ -1,0 +1,57 @@
+# Class 6 Servable Coverage plan, U6: GEO.CIRCLE.PARTS authoring batch.
+# Hard-band item: asks for the gap between the true diameter and the
+# MISC.GEO.RADIUS-DIAMETER-SWAP error (reporting the radius as if it were
+# the diameter) — forces reasoning about the relationship rather than
+# just recalling it.
+template_id: TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001
+skill_ids:
+  - GEO.CIRCLE.PARTS
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  r: { type: int, range: [3, 20] }
+constraints: []
+
+stem_i18n:
+  en-IN: "A circle has radius {{r}} cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?"
+localization_slots: []
+
+answer: "r"
+
+distractors:
+  - expr: "2 * r"
+    misconception_id: null
+  - expr: "r + 2"
+    misconception_id: null
+  - expr: "0"
+    misconception_id: MISC.GEO.RADIUS-DIAMETER-SWAP
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The true diameter is 2 x {{r}} cm; the student's wrong answer was just {{r}} cm (the radius)."
+      - "The difference is 2 x {{r}} - {{r}}, which is {{r}} cm."
+
+hints_i18n:
+  en-IN:
+    - "Work out the true diameter first, then compare it to what the student actually wrote."
+    - "True diameter minus the student's answer: 2r - r simplifies to r."
+
+difficulty: 0.8
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

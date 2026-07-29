@@ -1,0 +1,61 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.CONCEPT depth batch.
+# Clock-face turn description (KTD4 convention for angle content): the
+# amount of turn is measured as the number of hour-marks passed, a genuine
+# numeric proxy for "angle as amount of turn" independent of any drawn arm
+# length. a and b are drawn from disjoint ranges (a always 1-6, b always
+# 7-12) so a < b holds for every combination — no constraint-rejection
+# needed — and the answer b-a is provably never 0, which keeps every
+# distractor below algebraically distinct from it (see per-pair notes).
+template_id: TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001
+skill_ids:
+  - GEO.ANGLE.CONCEPT
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  a: { type: int, range: [1, 6] }
+  b: { type: int, range: [7, 12] }
+constraints: []
+
+stem_i18n:
+  en-IN: "On a clock face, the hour hand moves from the {{a}} mark to the {{b}} mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?"
+localization_slots: []
+
+answer: "b - a"
+
+distractors:
+  - expr: "b"
+    misconception_id: null
+  - expr: "a + b"
+    misconception_id: null
+  - expr: "2*(b - a)"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved."
+      - "From the {{a}} mark to the {{b}} mark is {{b}} - {{a}} hour-marks of turn."
+
+hints_i18n:
+  en-IN:
+    - "Count only the hour-marks the hand actually passes on its way from {{a}} to {{b}}."
+    - "Subtract the starting mark from the ending mark: {{b}} - {{a}}."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

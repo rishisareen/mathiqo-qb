@@ -1,0 +1,58 @@
+# Class 6 servable coverage plan, U4. NUM.ADD.SUB: three-addend word
+# problem — a genuinely different shape from the two-addend
+# regrouping-focused templates (plain whole-number variables, no
+# digit-decomposition trick), testing that students track every addend
+# rather than just column mechanics.
+template_id: TPL.NUM.ADD.SUB.ADD.MULTI.WORD.001
+skill_ids:
+  - NUM.ADD.SUB
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - shopping
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [15, 30] }
+  b: { type: int, range: [15, 30] }
+  c: { type: int, range: [15, 30] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "A shop sold {{a}} pens on Monday, {{b}} pens on Tuesday, and {{c}} pens on Wednesday. How many pens were sold over the three days in total?"
+localization_slots: []
+
+answer: "a + b + c"
+
+distractors:
+  - expr: "a + b"
+    misconception_id: null
+  - expr: "a + c"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Add all three days' sales together, not just two of them."
+      - "{{a}} + {{b}} + {{c}} is the total sold."
+
+hints_i18n:
+  en-IN:
+    - "Make sure you include all three days in the sum."
+    - "Add the numbers for Monday, Tuesday, and Wednesday together."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

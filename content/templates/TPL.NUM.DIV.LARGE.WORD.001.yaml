@@ -1,0 +1,54 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Larger-dividend depth extension, hard band, numeric_entry, money word
+# problem (distinct stem shape from the bare-computation easy-band drill).
+# Same gcd-based divisibility construction as TPL.NUM.DIV.FACTS.DIRECT.001.
+template_id: TPL.NUM.DIV.LARGE.WORD.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.DIV
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 55
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - money
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [102, 240] }
+  b: { type: int, range: [3, 8] }
+
+constraints:
+  - "gcd(a, b) == b"
+  - "a > b * 10"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A charity collected Rs {{a}} and wants to divide it equally among {{b}} volunteers. How much does each volunteer receive?"
+
+answer: "a / b"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Divide {{a}} by {{b}} one place at a time, starting from the highest place value."
+      - "Check your answer: multiplying it by {{b}} should give back {{a}}."
+
+hints_i18n:
+  en-IN:
+    - "Estimate first — about how many times does {{b}} fit into {{a}}?"
+    - "Work through the hundreds, tens, and ones of {{a}} in turn, dividing by {{b}} as you go."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

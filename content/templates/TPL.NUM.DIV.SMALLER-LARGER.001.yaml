@@ -1,0 +1,62 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Sharing a smaller amount among more people than there are items —
+# carries MISC.NUM.DIV-SMALLER-BY-LARGER (believes a smaller number can't be
+# divided by a larger one, and flips the division). a's range sits entirely
+# below b's range so a < b holds for every combination with zero rejection.
+template_id: TPL.NUM.DIV.SMALLER-LARGER.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.DIV
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 50
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - food
+  - sharing
+accepted_answer_forms: "simplest form only"
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [2, 4] }
+  b: { type: int, range: [5, 8] }
+
+constraints: []
+
+localization_slots:
+  - name1
+stem_i18n:
+  en-IN: "{{name1}} has {{a}} rotis to share equally among {{b}} people. What fraction of a roti does each person get?"
+
+answer: "simplify(a / b)"
+
+distractors:
+  - expr: "simplify(b / a)"
+    misconception_id: MISC.NUM.DIV-SMALLER-BY-LARGER
+  - expr: "b - a"
+    misconception_id: null
+  - expr: "a + b"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "There are fewer rotis ({{a}}) than people ({{b}}), so each person gets less than one whole roti."
+      - "Sharing {{a}} rotis among {{b}} people means each person gets {{a}}/{{b}} of a roti."
+
+hints_i18n:
+  en-IN:
+    - "A smaller number can always be divided by a larger one — it just means each share is less than one whole."
+    - "Put the amount being shared ({{a}}) on top and the number of people ({{b}}) on the bottom."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

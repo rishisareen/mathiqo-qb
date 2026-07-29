@@ -1,0 +1,54 @@
+# Class 6 servable coverage plan, U4. NUM.CMP.ORDER: comparing two numbers
+# with the SAME digit count and the same leading digit, forcing genuine
+# digit-by-digit place-value reasoning past the first digit (no
+# first-digit shortcut available here, unlike the DIGITLEN templates).
+template_id: TPL.NUM.CMP.ORDER.SAMELEN.DIRECT.001
+skill_ids:
+  - NUM.CMP.ORDER
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [340, 349] }
+  b: { type: int, range: [350, 359] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "{{a}} and {{b}} are being placed in order from smallest to largest. Which one comes second?"
+localization_slots: []
+
+answer: "b"
+
+distractors:
+  - expr: "a"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Both numbers have the same number of digits and the same hundreds digit, so compare the tens digit next."
+      - "{{b}} has a bigger tens digit than {{a}}, so {{b}} is larger and comes second when ordering from smallest to largest."
+
+hints_i18n:
+  en-IN:
+    - "When the digit counts match, compare digit by digit from the left."
+    - "If the first digits tie, move to the next digit."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

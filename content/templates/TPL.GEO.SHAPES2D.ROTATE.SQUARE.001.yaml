@@ -1,0 +1,61 @@
+# Class 6 Servable Coverage plan, U4: GEO.SHAPES.2D depth batch.
+# Targets MISC.GEO.ROTATED-NOT-SAME via the "0" distractor: numerically
+# adapted for bank_build.py's numeric-only v1 scope (see
+# TPL.GEO.SHAPES2D.ID.CIRCLE.001) — the registry's signature error is naming
+# a rotated square "a diamond, not a square"; here that same belief is
+# probed by a child claiming the rotated square has lost its 4 right-angle
+# corners (i.e. answering 0) because "it isn't really a square anymore".
+template_id: TPL.GEO.SHAPES2D.ROTATE.SQUARE.001
+skill_ids:
+  - GEO.SHAPES.2D
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - objects
+
+variables:
+  deg:
+    type: int
+    range: [10, 80]
+constraints: []
+
+stem_i18n:
+  en-IN: "A square has 4 equal sides and 4 right-angle (90-degree) corners. It is rotated {{deg}} degrees so it no longer sits flat on one side. How many right-angle corners does it have now?"
+localization_slots: []
+
+answer: "4"
+
+distractors:
+  - expr: "0"
+    misconception_id: MISC.GEO.ROTATED-NOT-SAME
+  - expr: "2"
+    misconception_id: null
+  - expr: "3"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Turning a shape changes the way it looks, but not its sides or corners."
+      - "It still has 4 equal sides and 4 right-angle corners, so the answer is still 4."
+
+hints_i18n:
+  en-IN:
+    - "Did the number of sides or corners change when it was turned?"
+    - "A square rotated onto its corner is sometimes called a 'diamond' by mistake — but its corners are still square (90 degrees)."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

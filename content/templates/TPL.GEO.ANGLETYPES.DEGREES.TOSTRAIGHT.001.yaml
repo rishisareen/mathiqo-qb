@@ -1,0 +1,58 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.TYPES depth batch.
+# Pure computation, no figure to picture (diagram_required: false per the
+# repo convention for straightforward angle arithmetic) — how far a given
+# angle is from a straight angle (180 degrees). n excludes 90 so the
+# distractor "n" (which equals the answer only at n = 90) never collides.
+template_id: TPL.GEO.ANGLETYPES.DEGREES.TOSTRAIGHT.001
+skill_ids:
+  - GEO.ANGLE.TYPES
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+variables:
+  n: { type: int, range: [10, 170] }
+constraints:
+  - "n != 90"
+
+stem_i18n:
+  en-IN: "An angle measures {{n}} degrees. How many more degrees would need to be added to turn it into a straight angle (180 degrees)?"
+localization_slots: []
+
+answer: "180 - n"
+
+distractors:
+  - expr: "n"
+    misconception_id: null
+  - expr: "360 - n"
+    misconception_id: null
+  - expr: "n + 180"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A straight angle measures exactly 180 degrees."
+      - "The extra amount needed is 180 - {{n}} degrees."
+
+hints_i18n:
+  en-IN:
+    - "A straight angle is 180 degrees — how far is {{n}} degrees from that?"
+    - "Subtract the given angle from 180: 180 - {{n}}."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

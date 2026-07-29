@@ -1,0 +1,64 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.AREA.CONCEPT batch.
+# Area of an L-shaped grid found by counting a big block of unit squares and
+# removing a missing corner block — a counting-based (not formula-named)
+# treatment of a composite region. r < p and s < q hold for every declared
+# value automatically (r,s max out below p,q's minimum), so the missing
+# corner is always strictly smaller than the full block and the area is
+# always positive. Hard band, mcq_4.
+template_id: TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.AREA.CONCEPT
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 60
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - home
+  - art
+
+variables:
+  p: { type: int, range: [5, 9] }
+  q: { type: int, range: [5, 9] }
+  r: { type: int, range: [1, 4] }
+  s: { type: int, range: [1, 4] }
+
+constraints:
+  - "r < p"
+  - "s < q"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "An L-shaped grid is a {{p}} row by {{q}} column block of unit squares, with a smaller {{r}} row by {{s}} column corner block missing (not shaded). What is the total shaded area, in square units?"
+
+answer: "p*q - r*s"
+
+distractors:
+  - expr: "p*q + r*s"
+    misconception_id: null
+  - expr: "2*(p+q) - 2*(r+s)"
+    misconception_id: MISC.MEAS.PERIMETER-AREA-CONFUSED
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The full block covers {{p}} x {{q}} unit squares."
+      - "The missing corner removes {{r}} x {{s}} unit squares, so subtract: ({{p}} x {{q}}) - ({{r}} x {{s}})."
+
+hints_i18n:
+  en-IN:
+    - "Start with the area of the whole rectangular block, then take away the missing corner's area."
+    - "The missing corner should be subtracted, not added — it isn't part of the shaded region."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

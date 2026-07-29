@@ -11,7 +11,7 @@ from pathlib import Path
 import jsonschema
 import pytest
 import yaml
-from conftest import FIXTURE_DIR, REPO_ROOT, SCHEMAS_DIR
+from conftest import FIXTURE_DIR, REPO_ROOT, SCHEMAS_DIR, TEMPLATES_DIR
 
 sys.path.insert(0, str(REPO_ROOT))
 from orchestrator import constants  # noqa: E402
@@ -47,6 +47,31 @@ def test_fixture_objects_validate(content_file: Path) -> None:
                 f"{content_file.name}: {obj.get('skill_id') or obj.get('misconception_id')}: "
                 + "; ".join(e.message for e in errors)
             )
+
+
+@pytest.fixture(
+    params=sorted(TEMPLATES_DIR.glob("*.yaml")),
+    ids=lambda p: p.name,
+)
+def template_file(request) -> Path:
+    return request.param
+
+
+def test_template_files_validate_against_item_schema(template_file: Path) -> None:
+    """U4: content/templates/*.yaml (the Generator -> Orchestrator item-record
+    contract, §5.3) must independently validate against
+    schemas/item-record.schema.json, mirroring test_fixture_objects_validate's
+    glob-parametrized idiom above but pointed at the template corpus instead
+    of content/fractions/ — so schema/content drift in item templates fails
+    CI the same way skill/misconception/mapping drift already does."""
+    data = yaml.safe_load(template_file.read_text(encoding="utf-8"))
+    assert isinstance(data, dict), f"{template_file.name}: top level must be a mapping"
+    schema = _load_schema("item-record.schema.json")
+    validator = jsonschema.Draft202012Validator(schema)
+    errors = sorted(validator.iter_errors(data), key=lambda e: list(e.path))
+    assert errors == [], (
+        f"{template_file.name}: " + "; ".join(e.message for e in errors)
+    )
 
 
 def test_schemas_are_valid_json_schema() -> None:

@@ -1,0 +1,56 @@
+# Class 6 servable coverage plan, U7. INT.ADD.SUB: adding two negative
+# integers. The MISC.INT.IGNORE-SIGNS distractor "-a-b" reproduces adding
+# the two digit magnitudes and reporting the result as positive, dropping
+# both minus signs entirely (e.g. -3 + -5 -> 8 instead of -8). Always
+# distinct from the true sum a+b since that would require a+b == 0, which
+# the all-negative domain excludes.
+template_id: TPL.INT.ADD.SUB.ADD.NEGNEG.DIRECT.001
+skill_ids:
+  - INT.ADD.SUB
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [-9, -1] }
+  b: { type: int, range: [-9, -1] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "Find the sum of {{a}} and {{b}}."
+localization_slots: []
+
+answer: "a+b"
+
+distractors:
+  - expr: "-a-b"
+    misconception_id: MISC.INT.IGNORE-SIGNS
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Both {{a}} and {{b}} are below zero, so moving further down from either starting point lands even further below zero."
+      - "Adding two negative numbers always gives a more negative result: {{a}} + {{b}}."
+
+hints_i18n:
+  en-IN:
+    - "When both numbers are negative, the sum is always negative too."
+    - "Add the digit sizes together, then remember to keep the minus sign — don't drop it."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

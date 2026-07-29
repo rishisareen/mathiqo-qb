@@ -1,0 +1,60 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.TYPES depth batch.
+# Hard-band item targeting MISC.GEO.RIGHT-ANGLE-UPRIGHT again: m tilted
+# right angles are drawn, each genuinely 90 degrees between its arms, but a
+# student who thinks a right angle must be upright refuses to count any of
+# them. The answer (m, the correct count) is provably distinct from all
+# three distractors for every m >= 2: 0 and 1 are excluded by range, and
+# m - 1 differs from m by exactly 1 always.
+template_id: TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001
+skill_ids:
+  - GEO.ANGLE.TYPES
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+  - objects
+
+variables:
+  m: { type: int, range: [2, 9] }
+constraints: []
+
+stem_i18n:
+  en-IN: "{{m}} angles are drawn around a page, each tilted at a different angle from upright, but every single one has its arms turned exactly a quarter of a full turn apart (90 degrees). A student who believes a right angle must sit upright, like a wall meeting a floor, refuses to count any of them as right angles, insisting there are 0 right angles among the {{m}} figures. Using the correct definition (a right angle is any angle measuring exactly 90 degrees, tilted or not), how many of the {{m}} figures are actually right angles?"
+localization_slots: []
+
+answer: "m"
+
+distractors:
+  - expr: "0"
+    misconception_id: MISC.GEO.RIGHT-ANGLE-UPRIGHT
+  - expr: "1"
+    misconception_id: null
+  - expr: "m - 1"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A right angle is defined by its measure (90 degrees between its arms), not by whether it looks upright on the page."
+      - "Every one of the {{m}} figures measures exactly 90 degrees, so all {{m}} of them are right angles."
+
+hints_i18n:
+  en-IN:
+    - "Does tilting an angle on the page change how far apart its arms have turned?"
+    - "Every figure here measures 90 degrees between its arms, regardless of tilt, so count all {{m}} of them."
+
+difficulty: 0.8
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,64 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Equal-sharing word problem, exact division (no remainder). Same
+# gcd-based divisibility constraint as TPL.NUM.DIV.FACTS.DIRECT.001; see that
+# file's header note on the resulting elevated (but tolerated, KTD5)
+# constraint-rejection rate.
+template_id: TPL.NUM.DIV.SHARE.WORD.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.DIV
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - food
+  - sharing
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [16, 60] }
+  b: { type: int, range: [2, 8] }
+
+constraints:
+  - "gcd(a, b) == b"
+  - "a > b"
+
+localization_slots:
+  - name1
+  - food
+stem_i18n:
+  en-IN: "{{name1}} has {{a}} {{food}} to share equally among {{b}} friends. How many {{food}} does each friend get?"
+
+answer: "a / b"
+
+distractors:
+  - expr: "a - b"
+    misconception_id: null
+  - expr: "a * b"
+    misconception_id: null
+  - expr: "a + b"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Sharing equally among {{b}} friends means dividing the total by {{b}}."
+      - "{{a}} / {{b}} gives how many each friend gets."
+
+hints_i18n:
+  en-IN:
+    - "Sharing equally means everyone gets the same amount — that's division, not subtraction or multiplication."
+    - "Divide the total number of {{food}} by the number of friends."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

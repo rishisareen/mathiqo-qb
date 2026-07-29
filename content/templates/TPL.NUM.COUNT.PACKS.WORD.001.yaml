@@ -1,0 +1,60 @@
+# Class 6 servable coverage plan, U4. NUM.COUNT: counting a collection that
+# combines full equal groups with extra loose items — a step up in
+# application depth from the pure rows-and-columns counting task.
+template_id: TPL.NUM.COUNT.PACKS.WORD.001
+skill_ids:
+  - NUM.COUNT
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [3, 9] }
+  b: { type: int, range: [2, 6] }
+  c: { type: int, range: [1, 8] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "{{name1}} collects stickers in packs of {{a}}. {{name1}} has {{b}} full packs and {{c}} loose stickers besides. Counting them one at a time, how many stickers does {{name1}} have altogether?"
+localization_slots:
+  - name1
+
+answer: "a*b + c"
+
+distractors:
+  - expr: "a*b"
+    misconception_id: null
+  - expr: "a*(b+c)"
+    misconception_id: null
+  - expr: "a + b + c"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Count the stickers in the full packs first: {{b}} packs of {{a}} is {{b}} x {{a}}."
+      - "Add the {{c}} loose stickers counted separately."
+      - "Total: ({{b}} x {{a}}) + {{c}}."
+
+hints_i18n:
+  en-IN:
+    - "Count the packs first, then add the loose ones separately."
+    - "Don't count the loose stickers as if they made another full pack."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,62 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.CONCEPT depth batch.
+# Hard-band item targeting MISC.GEO.ANGLE-ARM-LENGTH again, this time with
+# two genuinely different turn amounts (p != q) dressed with misleading arm
+# lengths (long arms on the smaller turn, short arms on the bigger one).
+# The misconception distractor 2*p (doubling the long-armed angle's turn,
+# as if long arms make an angle count double) is provably distinct from the
+# answer p+q, from p alone, and from q alone for every p != q — see the
+# per-pair algebra below.
+template_id: TPL.GEO.ANGLECONCEPT.ARMLENGTH.SUM.HARD.001
+skill_ids:
+  - GEO.ANGLE.CONCEPT
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+estimated_time_sec: 50
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  p: { type: int, range: [1, 11] }
+  q: { type: int, range: [1, 11] }
+constraints:
+  - "p != q"
+
+stem_i18n:
+  en-IN: "Two angles share the same vertex. Angle X's arms turn through {{p}} hour-marks of a clock face, but are drawn very long. Angle Y's arms turn through {{q}} hour-marks, but are drawn very short. A student judges the two angles only by how long their arms look, ignoring the actual turn. If you add the two turns together (treating them as one after another starting from the 12), how many hour-marks of turn do Angle X and Angle Y add up to, based on their actual turns and not their arm lengths?"
+localization_slots: []
+
+answer: "p + q"
+
+distractors:
+  - expr: "2*p"
+    misconception_id: MISC.GEO.ANGLE-ARM-LENGTH
+  - expr: "p"
+    misconception_id: null
+  - expr: "q"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "An angle's size is the amount of turn, not the length of its arms — Angle X's real turn is {{p}} hour-marks and Angle Y's is {{q}}, regardless of how they're drawn."
+      - "Adding the two real turns together: {{p}} + {{q}}."
+
+hints_i18n:
+  en-IN:
+    - "Ignore which arms look longer — use only the two turn amounts given, {{p}} and {{q}}."
+    - "Add the two actual turns: {{p}} + {{q}}."
+
+difficulty: 0.8
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

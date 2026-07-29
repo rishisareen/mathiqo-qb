@@ -1,0 +1,57 @@
+# Class 6 servable coverage, Implementation Unit U7: DATA.PICTOGRAPH batch.
+# Basic pictograph reading with a scale key, presented as a labeled text
+# table per the strand's R7/KTD4 convention (diagram_required: true — this
+# is a genuinely figure/table-dependent item). k >= 2 so the answer n*k
+# never collides with the scale-ignored distractor n. Easy band, numeric_entry.
+template_id: TPL.DATA.PICTOGRAPH.SYMBOL.SCALE.TOTAL.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - DATA.PICTOGRAPH
+question_type: numeric_entry
+cognitive_level: conceptual
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  n: { type: int, range: [2, 8] }
+  k: { type: int, range: [2, 6] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A pictograph shows how many storybooks each class read this term. The 'Adventure' row has {{n}} symbols, and the key says 1 symbol = {{k}} books. How many Adventure books were read in total?"
+
+answer: "n * k"
+
+distractors:
+  - expr: "n"
+    misconception_id: MISC.DATA.SCALE-IGNORED
+  - expr: "n * k - 1"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The key says each symbol stands for {{k}} books, not 1."
+      - "Multiply the number of symbols by the key: {{n}} x {{k}}."
+
+hints_i18n:
+  en-IN:
+    - "Check the key before you count — one symbol is worth more than 1."
+    - "Multiply the number of symbols by the key value to get the total."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

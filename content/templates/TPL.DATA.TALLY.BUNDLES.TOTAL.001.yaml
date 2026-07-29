@@ -1,0 +1,56 @@
+# Class 6 servable coverage, Implementation Unit U7: DATA.COLLECT.TALLY batch.
+# Basic bundle-of-five reading: total = 5*bundles + loose strokes. Easy band,
+# numeric_entry. No data table is presented (a single tally count), so
+# diagram_required stays false per the strand's R7/KTD4 convention.
+template_id: TPL.DATA.TALLY.BUNDLES.TOTAL.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - DATA.COLLECT.TALLY
+question_type: numeric_entry
+cognitive_level: conceptual
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+variables:
+  bundles: { type: int, range: [2, 6] }
+  extra: { type: int, range: [0, 4] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A tally chart shows {{bundles}} bundles of five strokes and {{extra}} extra loose strokes. What total frequency does this tally represent?"
+
+answer: "5 * bundles + extra"
+
+distractors:
+  - expr: "bundles + extra"
+    misconception_id: MISC.DATA.TALLY-BUNDLE-MISCOUNT
+  - expr: "4 * bundles + extra"
+    misconception_id: MISC.DATA.TALLY-BUNDLE-MISCOUNT
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Each bundle of five strokes is worth 5, so skip-count the {{bundles}} bundles by fives."
+      - "Add the {{extra}} loose strokes that are not part of a bundle."
+
+hints_i18n:
+  en-IN:
+    - "A bundle of five strokes always stands for 5, no matter how it is drawn."
+    - "Skip-count the bundles by fives first, then add the loose strokes at the end."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

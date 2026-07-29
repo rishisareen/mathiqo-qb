@@ -1,0 +1,61 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.PERIMETER batch.
+# Irregular-polygon perimeter given all five side lengths as separate
+# variables (summed directly, no rectangle/square formula applies). Every
+# side length is stated explicitly in the stem text, so no diagram is needed
+# (R7/KTD4). Hard band, numeric_entry.
+template_id: TPL.MEAS.PERIMETER.PENTAGON.IRREGULAR.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.PERIMETER
+question_type: numeric_entry
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 50
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - gardens
+  - fencing
+
+variables:
+  p: { type: int, range: [3, 7] }
+  q: { type: int, range: [3, 7] }
+  r: { type: int, range: [3, 7] }
+  s: { type: int, range: [3, 7] }
+  t: { type: int, range: [3, 7] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A garden shaped like an irregular pentagon has five straight sides measuring {{p}} m, {{q}} m, {{r}} m, {{s}} m and {{t}} m, one after another. What is the total length of fencing needed to go all the way around it, in metres?"
+
+answer: "p + q + r + s + t"
+
+distractors:
+  - expr: "p + q + r + s"
+    misconception_id: MISC.MEAS.PERIMETER-MISSED-SIDE
+  - expr: "p * q * r * s * t"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The boundary of the garden is made up of all five sides, one after another."
+      - "Add every side length: {{p}} + {{q}} + {{r}} + {{s}} + {{t}}."
+
+hints_i18n:
+  en-IN:
+    - "An irregular shape doesn't have matching opposite sides — you must add each of the five sides given."
+    - "Make sure you've included all five side lengths in your sum, not just some of them."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

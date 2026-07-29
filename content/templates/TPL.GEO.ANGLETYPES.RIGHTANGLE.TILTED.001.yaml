@@ -1,0 +1,59 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.TYPES depth batch.
+# Directly targets MISC.GEO.RIGHT-ANGLE-UPRIGHT: a right angle drawn tilted
+# (not "upright" like a wall meeting a floor) is still a right angle. k is
+# the (irrelevant) tilt amount, a genuine numeric variable that doesn't
+# affect the constant answer (90) but does drive the misconception
+# distractor, which reports the tilt itself as if it were the angle's
+# measure. k's range (5-80) excludes 90 so that distractor never collides.
+template_id: TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001
+skill_ids:
+  - GEO.ANGLE.TYPES
+question_type: mcq_4
+cognitive_level: conceptual
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  k: { type: int, range: [5, 80] }
+constraints: []
+
+stem_i18n:
+  en-IN: "An angle is drawn tilted {{k}} degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) — the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?"
+localization_slots: []
+
+answer: "90"
+
+distractors:
+  - expr: "k"
+    misconception_id: MISC.GEO.RIGHT-ANGLE-UPRIGHT
+  - expr: "180"
+    misconception_id: null
+  - expr: "45"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A right angle is defined by its measure — exactly 90 degrees between its arms — not by which way it is drawn on the page."
+      - "The tilt of {{k}} degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+
+hints_i18n:
+  en-IN:
+    - "Does tilting a shape on the page change how far apart its arms have turned?"
+    - "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

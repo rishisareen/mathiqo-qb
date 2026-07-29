@@ -1,0 +1,51 @@
+# U6 authoring increment (Class 6 Ch. 9 Symmetry), drafted 2026-07-29.
+# Hard/application item: combines the fixed square fact (rotational order 4)
+# with the regular-n-gon rule (order n) into a single sum, so the student
+# must recall and add two separate facts rather than just one.
+template_id: TPL.GEO.SYM.ROTATIONAL.NGON-SQUARE-SUM.001
+skill_ids:
+- GEO.SYM.ROTATIONAL
+question_type: numeric_entry
+cognitive_level: application
+difficulty_prior: hard
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: true
+context_tags:
+- shapes
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  n:
+    type: int
+    range:
+    - 5
+    - 9
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: A square and a regular {{n}}-gon are drawn separately (not
+    overlapping). What is the total order of rotational symmetry across both
+    shapes combined?
+answer: 4 + n
+distractors: []
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - A square has rotational symmetry of order 4.
+    - A regular {{n}}-gon has rotational symmetry of order {{n}}.
+    - 'Total: 4 + {{n}}.'
+hints_i18n:
+  en-IN:
+  - Find each shape's order of rotational symmetry separately, then add them.
+  - A square's order of rotational symmetry is always 4; a regular n-gon's is
+    always n.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.8
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

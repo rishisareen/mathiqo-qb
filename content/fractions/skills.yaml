@@ -134,7 +134,13 @@ skills:
     strand: NUMBER.ARITHMETIC
     canonical_stage: 1
     prerequisites: []
-    misconceptions: []
+    # MISC.NUM.MULT.TABLES.REPEATED-ADD-OFFBYONE added 2026-07-29 (Class 6
+    # Servable Coverage plan, U3): diagnosed here (own core procedure);
+    # registered in misconceptions.yaml, following this file's existing
+    # convention of registering its own nodes' misconceptions there (see
+    # MISC.NUM.LCM-CONFUSED-WITH-GCF, MISC.FRAC.MIXED-NO-REGROUP).
+    misconceptions:
+      - MISC.NUM.MULT.TABLES.REPEATED-ADD-OFFBYONE
 
   # --- Stage 1 drafted 2026-07-27 via tools/stage1_draft.py, syllabus
   # examples/ncert-fractions-excerpt.txt (illustrative, not a real NCERT

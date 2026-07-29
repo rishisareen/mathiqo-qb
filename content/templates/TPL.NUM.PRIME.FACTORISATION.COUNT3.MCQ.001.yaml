@@ -1,0 +1,60 @@
+template_id: TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001
+skill_ids:
+- NUM.PRIME.FACTORISATION
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: medium
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- sports
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  p:
+    type: int
+    range:
+    - 2
+    - 11
+  q:
+    type: int
+    range:
+    - 2
+    - 11
+constraints:
+- p != 4
+- p != 6
+- p != 8
+- p != 9
+- p != 10
+- q != 4
+- q != 6
+- q != 8
+- q != 9
+- q != 10
+- p != q
+localization_slots: []
+stem_i18n:
+  en-IN: The number {{p}} x {{p}} x {{q}} is built from two different prime numbers. How many prime factors does it have, counted with repetition?
+answer: '3'
+distractors:
+- expr: '2'
+  misconception_id: MISC.NUM.COMPOSITE-FACTORS-LEFT
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Do not stop at {{p}} x {{p}} x {{q}} treating "{{p}} x {{p}}" as one leftover chunk — {{p}} and {{q}} are each already prime.
+    - Counted with repetition, {{p}} appears twice and {{q}} once, so there are 3 prime factors in total.
+hints_i18n:
+  en-IN:
+  - Make sure every factor you count is actually prime, not a product still waiting to be broken down.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

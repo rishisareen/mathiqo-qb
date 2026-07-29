@@ -1,0 +1,58 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.TYPES depth batch.
+# Pure computation (diagram_required: false): tests the right-angle
+# boundary (90 degrees) that separates acute from obtuse, by asking how
+# far past it an obtuse angle sits. n is constrained strictly above 90 (and
+# below 180) so the subtraction never needs an absolute-value builtin
+# (none exists in this repo's expression grammar).
+template_id: TPL.GEO.ANGLETYPES.DEGREES.FROMRIGHT.001
+skill_ids:
+  - GEO.ANGLE.TYPES
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: medium
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+variables:
+  n: { type: int, range: [91, 179] }
+constraints: []
+
+stem_i18n:
+  en-IN: "An angle measures {{n}} degrees, which is more than a right angle (90 degrees) but less than a straight angle (180 degrees), so it is obtuse. How many degrees more than a right angle is it?"
+localization_slots: []
+
+answer: "n - 90"
+
+distractors:
+  - expr: "n"
+    misconception_id: null
+  - expr: "180 - n"
+    misconception_id: null
+  - expr: "90 - n"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A right angle measures exactly 90 degrees."
+      - "The amount past a right angle is {{n}} - 90 degrees."
+
+hints_i18n:
+  en-IN:
+    - "A right angle is 90 degrees — how much bigger than that is {{n}} degrees?"
+    - "Subtract 90 from the given angle: {{n}} - 90."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

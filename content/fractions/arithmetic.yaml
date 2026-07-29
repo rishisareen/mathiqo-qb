@@ -1,9 +1,10 @@
 # Whole-number arithmetic strand (NUMBER.ARITHMETIC) — backward closure for
 # the Class 6 map plus the Class 6 Number Play treatment. Stage 1 drafted
 # 2026-07-27 via tools/stage1_draft.py (file backend), syllabus
-# examples/ncert-arithmetic-excerpt.txt (illustrative, pending verification
-# against the actual textbook PDFs), accepted by graph_lint on first
-# attempt and promoted after review. Extends the existing NUM.MULT.TABLES /
+# examples/ncert-arithmetic-excerpt.txt, accepted by graph_lint on first
+# attempt and promoted after review; the Class 6 (Ch. 3) chapter reference
+# was verified against the published Ganita Prakash 6 table of contents
+# (Class 6 Servable Coverage plan, U1). Extends the existing NUM.MULT.TABLES /
 # NUM.LCM nodes in skills.yaml; misconception and mapping sections follow
 # the skills, all three drafted in the same run.
 skills:
@@ -15,7 +16,10 @@ skills:
     strand: NUMBER.ARITHMETIC
     canonical_stage: 0
     prerequisites: []
-    misconceptions: []
+    # MISC.NUM.COUNT.DOUBLE-COUNT added 2026-07-29 (Class 6 Servable
+    # Coverage plan, U3): diagnosed here (own core procedure).
+    misconceptions:
+      - MISC.NUM.COUNT.DOUBLE-COUNT
 
   - skill_id: NUM.PLACE.VALUE
     name: "Place value of whole numbers"
@@ -71,7 +75,10 @@ skills:
       - NUM.MULT.TABLES
       - NUM.PLACE.VALUE
       - NUM.ADD.SUB
-    misconceptions: []
+    # MISC.NUM.MULT.NO-SHIFT added 2026-07-29 (Class 6 Servable Coverage
+    # plan, U3): diagnosed here (own core procedure).
+    misconceptions:
+      - MISC.NUM.MULT.NO-SHIFT
 
   - skill_id: NUM.DIV
     name: "Divide whole numbers"
@@ -103,6 +110,26 @@ skills:
 # Registry entries: the node-referenced entries drafted inline with the
 # strand, plus the misconceptions-step additions.
 misconceptions:
+  - misconception_id: MISC.NUM.COUNT.DOUBLE-COUNT
+    belief: "Counting means saying the number words while pointing, even if a pointing and a word don't line up one-to-one"
+    signature_error: "Counting a row of 8 buttons, points at one button twice while saying 'six, seven' and reaches 'nine' for a row of 8"
+    remediation_target: NUM.COUNT
+    remediation_asset: "micro-explainers/MISC.NUM.COUNT.DOUBLE-COUNT.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} sometimes points at the same object twice (or skips one) while counting aloud, so the count doesn't match the actual number of objects — touching each object once while saying its number helps."
+    child_feedback_i18n:
+      en-IN: "You touched one button twice while counting, so your count went higher than the real number of buttons. Touch each object exactly once as you say its number, so every object gets one word and every word gets one object."
+
+  - misconception_id: MISC.NUM.MULT.NO-SHIFT
+    belief: "Every partial product in multi-digit multiplication is written starting in the ones column, with no shift"
+    signature_error: "23 x 14 computed as 23 x 4 = 92 and 23 x 1 = 23, with the 23 written directly under the 92 instead of shifted one place left, giving 92 + 23 = 115 instead of 92 + 230 = 322"
+    remediation_target: NUM.MULT
+    remediation_asset: "micro-explainers/MISC.NUM.MULT.NO-SHIFT.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} multiplies each digit correctly but lines up every partial product under the ones column, forgetting that the product from the tens digit needs to shift one place left before adding."
+    child_feedback_i18n:
+      en-IN: "You multiplied correctly, but wrote 23 (from the tens digit) directly under 92 instead of shifting it one place left. That 1 in 14 is really 10, so its product needs an extra 0 at the end before you add — 230, not 23."
+
   - misconception_id: MISC.NUM.PLACE-FACE-VALUE
     belief: "A digit is worth its face value wherever it stands"
     signature_error: "In 47, the 4 is worth 4 (instead of 40)"
@@ -226,7 +253,7 @@ mappings:
     depth_expectation: hard
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 3"
     unit_code: "IN-NCERT-G6-CH3"
-    unit_name: "Class 6, Ch. 3"
+    unit_name: "Number Play"
     learning_objective: >
       Revisits place value through digit games and puzzles (digit sums,
       palindromic numbers, Kaprekar routine); arranges digits to make
@@ -374,7 +401,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 3"
     unit_code: "IN-NCERT-G6-CH3"
-    unit_name: "Class 6, Ch. 3"
+    unit_name: "Number Play"
     learning_objective: >
       Estimates quantities and results of operations, judging the
       reasonableness of an answer.

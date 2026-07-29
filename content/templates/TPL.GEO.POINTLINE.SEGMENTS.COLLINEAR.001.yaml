@@ -1,0 +1,58 @@
+# Class 6 Servable Coverage plan, U6: GEO.POINT.LINE depth batch.
+# Numeric-proxy combinatorial fact: n points marked on a straight line
+# determine n(n-1)/2 distinct line segments (each pair of points is one
+# segment). n starts at 4 (not 3) so the "n" distractor (naive point-count)
+# never numerically coincides with the answer (at n=3 both equal 3).
+template_id: TPL.GEO.POINTLINE.SEGMENTS.COLLINEAR.001
+skill_ids:
+  - GEO.POINT.LINE
+question_type: numeric_entry
+cognitive_level: application
+difficulty_prior: easy
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+  - objects
+
+variables:
+  n: { type: int, range: [4, 7] }
+constraints: []
+
+stem_i18n:
+  en-IN: "{{n}} points are marked on a straight line, no two in the same place. Counting every pair of these points as the two endpoints of a line segment, how many different line segments do the {{n}} points determine in total?"
+localization_slots: []
+
+answer: "n*(n-1)/2"
+
+distractors:
+  - expr: "n"
+    misconception_id: null
+  - expr: "n - 1"
+    misconception_id: null
+  - expr: "n*(n-1)"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Every pair of the {{n}} points gives one line segment, and order doesn't matter — the segment from point 1 to point 2 is the same segment as from point 2 to point 1."
+      - "The number of pairs from {{n}} points is n(n-1)/2 = {{n}}({{n}}-1)/2."
+
+hints_i18n:
+  en-IN:
+    - "Try it with just 3 points first — how many segments can you draw between them?"
+    - "Each point pairs with every other point once. That's n(n-1) ordered pairs, but each segment gets counted twice (once from each end), so divide by 2."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

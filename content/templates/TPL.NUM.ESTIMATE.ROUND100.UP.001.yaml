@@ -1,0 +1,61 @@
+# Authored 2026-07-29 (Class 6 servable coverage, Implementation Unit U5).
+# NUM.ESTIMATE round-up sibling of TPL.NUM.ESTIMATE.ROUND100.DOWN.001 — `rem`
+# range [50,99] this time so every variant genuinely rounds up (zero
+# constraint-rejection). MISC.NUM.ROUND-TRUNCATE lands on 100*hundreds
+# (one hundred short), so it is used here as a live distractor, mirroring
+# the ROUND10.UP.001 design.
+template_id: TPL.NUM.ESTIMATE.ROUND100.UP.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.ESTIMATE
+question_type: mcq_4
+cognitive_level: procedural
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - money
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  hundreds: { type: int, range: [10, 59] }
+  rem: { type: int, range: [50, 99] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "Round the number 100 x {{hundreds}} + {{rem}} to the nearest 100."
+
+answer: "100 * (hundreds + 1)"
+
+distractors:
+  - expr: "100 * hundreds"
+    misconception_id: MISC.NUM.ROUND-TRUNCATE
+  - expr: "100 * (hundreds + 2)"
+    misconception_id: null
+  - expr: "100 * hundreds + rem"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The remainder {{rem}} is 50 or more, so round up."
+      - "Rounding up means moving to the next hundred after {{hundreds}} hundreds."
+      - "The rounded number is 100 x ({{hundreds}} + 1)."
+
+hints_i18n:
+  en-IN:
+    - "A remainder of 50 or more rounds up, not down."
+    - "Don't just drop the last two digits — check which hundred is nearer first."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

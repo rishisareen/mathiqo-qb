@@ -1,0 +1,50 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, U5). nth cube number,
+# the third figurate family named in NUM.PATTERN.FIGURATE's own description
+# (triangular, square, cube), as a low-guess numeric_entry item.
+template_id: TPL.NUM.PATTERN.FIGURATE.CUBE.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PATTERN.FIGURATE
+question_type: numeric_entry
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [1, 10] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "Cube numbers count the unit cubes that fill an n x n x n cube: 1, 8, 27, ... What is the {{n}}th cube number?"
+
+answer: "n * n * n"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The nth cube number is n multiplied by itself three times: n x n x n."
+      - "With n = {{n}}, the cube number is {{n}} x {{n}} x {{n}}."
+
+hints_i18n:
+  en-IN:
+    - "Picture a solid cube made of unit cubes, {{n}} along each edge — how many unit cubes are used in total?"
+    - "First find the square number {{n}} x {{n}}, then multiply that result by {{n}} once more."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

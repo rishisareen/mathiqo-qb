@@ -29,7 +29,10 @@ skills:
     canonical_stage: 1
     prerequisites:
       - GEO.SHAPES.2D
-    misconceptions: []
+    # MISC.GEO.POLYGON.RHOMBUS-AS-SQUARE added 2026-07-29 (Class 6 Servable
+    # Coverage plan, U3): diagnosed here (own core procedure).
+    misconceptions:
+      - MISC.GEO.POLYGON.RHOMBUS-AS-SQUARE
 
   - skill_id: GEO.POINT.LINE
     name: "Points, line segments, rays and lines"
@@ -83,6 +86,16 @@ skills:
 
 
 misconceptions:
+  - misconception_id: MISC.GEO.POLYGON.RHOMBUS-AS-SQUARE
+    belief: "Any four-sided shape with all sides equal is a square"
+    signature_error: "Given a slanted rhombus with all four sides 5 cm but angles of 60 and 120 degrees, calls it a square because the sides look equal"
+    remediation_target: GEO.POLYGON.PROPS
+    remediation_asset: "micro-explainers/MISC.GEO.POLYGON.RHOMBUS-AS-SQUARE.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} names any shape with four equal sides a square, without also checking whether the corners are square (90 degrees) — a rhombus can have equal sides and still be slanted."
+    child_feedback_i18n:
+      en-IN: "All four sides being equal isn't enough to call it a square — you also need to check the corners. This shape's corners are slanted, not square (90 degrees), so it's a rhombus, not a square."
+
   - misconception_id: MISC.GEO.ROTATED-NOT-SAME
     belief: "A shape turned on its corner becomes a different shape"
     signature_error: "A square rotated 45 degrees is called 'a diamond, not a square'"
@@ -184,7 +197,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 2"
     unit_code: "IN-NCERT-G6-CH2"
-    unit_name: "Class 6, Ch. 2"
+    unit_name: "Lines and Angles"
     learning_objective: >
       Understands an angle as formed by two rays from a common vertex;
       compares angles.
@@ -197,7 +210,7 @@ mappings:
     depth_expectation: easy
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 2"
     unit_code: "IN-NCERT-G6-CH2"
-    unit_name: "Class 6, Ch. 2"
+    unit_name: "Lines and Angles"
     learning_objective: >
       Identifies and names points, line segments, rays and lines.
     exam_contexts: [SCHOOL_EXAM]
@@ -209,7 +222,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 2"
     unit_code: "IN-NCERT-G6-CH2"
-    unit_name: "Class 6, Ch. 2"
+    unit_name: "Lines and Angles"
     learning_objective: >
       Classifies angles as acute, right, obtuse, straight and reflex.
     exam_contexts: [SCHOOL_EXAM]
@@ -221,7 +234,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 2"
     unit_code: "IN-NCERT-G6-CH2"
-    unit_name: "Class 6, Ch. 2"
+    unit_name: "Lines and Angles"
     learning_objective: >
       Measures angles in degrees using a protractor and draws an angle of
       a given measure.

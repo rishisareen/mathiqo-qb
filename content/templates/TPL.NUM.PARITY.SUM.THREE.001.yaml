@@ -1,0 +1,56 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, U5). Hard-band depth
+# on parity-of-sums: three addends (odd + odd + even) instead of two, so the
+# learner must chain the odd+odd=even and even+even=even rules rather than
+# apply a single memorized fact.
+template_id: TPL.NUM.PARITY.SUM.THREE.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PARITY
+question_type: numeric_entry
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [1, 32] }
+  b: { type: int, range: [1, 32] }
+  c: { type: int, range: [1, 32] }
+
+constraints:
+  - "a % 2 == 1"
+  - "b % 2 == 1"
+  - "c % 2 == 0"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "{{a}} and {{b}} are both odd numbers, and {{c}} is an even number. Is {{a}} + {{b}} + {{c}} odd or even? Type 0 for even or 1 for odd."
+
+answer: "(a + b + c) % 2"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "First add the two odd numbers: {{a}} + {{b}} is even, because odd + odd always leaves no unpaired left over."
+      - "Now add the even number {{c}} to that even result: even + even is always even, so {{a}} + {{b}} + {{c}} is even."
+
+hints_i18n:
+  en-IN:
+    - "Work it out in two steps: first find the parity of {{a}} + {{b}}, then combine that with {{c}}."
+    - "odd + odd is even, and even + even is even — chain the two rules together."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

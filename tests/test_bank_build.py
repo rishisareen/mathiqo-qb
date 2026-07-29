@@ -162,6 +162,118 @@ def test_flagged_but_not_hard_failed_template_still_builds(tmp_path: Path) -> No
     assert len(per_template["TPL.FRAC.ADD.UNLIKE.WORD.001"]) == 3
 
 
+def test_derived_value_only_computed_when_referenced_in_text(tmp_path: Path) -> None:
+    """A template unrelated to the unlike-fraction-addition family can still
+    coincidentally declare variables a, b, c, d (e.g. a place-value item:
+    thousands/hundreds/tens/ones) — a superset of DERIVED_VALUE_RULES' "a2"
+    requirement ({a, b, d}). compute_derived must not evaluate "a2" (which
+    divides by b) just because the required variables happen to be declared;
+    it must only evaluate a derived value the template's own text actually
+    references. Regression test: this previously crashed materialize_instance
+    with ZeroDivisionError whenever b == 0, a value with no meaning at all in
+    a template that never mentions {{a2}}."""
+    template = {
+        "template_id": "TPL.TEST.BUILD.PLACEVALUE.001",
+        "template_version": "1.0.0",
+        "bank_version": "dev",
+        "graph_version": "1.0.0",
+        "skill_ids": ["NUM.COUNT"],
+        "question_type": "numeric_entry",
+        "cognitive_level": "procedural",
+        "difficulty": 0.8,
+        "estimated_time_sec": 50,
+        "calculator_allowed": False,
+        "diagram_required": False,
+        "variables": {
+            "a": {"type": "int", "range": [1, 3]},
+            "b": {"type": "int", "range": [0, 3]},  # 0 is valid and expected here
+            "c": {"type": "int", "range": [0, 3]},
+            "d": {"type": "int", "range": [0, 3]},
+        },
+        "constraints": [],
+        "stem_i18n": {"en-IN": "A number is made up of {{a}} thousands, {{b}} hundreds, {{c}} tens, and {{d}} ones. What is the number?"},
+        "localization_slots": [],
+        "answer": "1000*a + 100*b + 10*c + d",
+        "distractors": [{"expr": "a + b + c + d", "misconception_id": None}],
+        "solution_steps_i18n": {"en-IN": {"canonical": ["Add the place values."]}},
+        "hints_i18n": {"en-IN": ["Each place is worth ten times the one to its right."]},
+        "tts": False,
+        "context_tags": [],
+        "exam_contexts": ["SCHOOL_EXAM"],
+        "provenance": {"generator_version": "test", "reviewer": "test", "date": "2026-07-29"},
+    }
+    dest = tmp_path / "templates"
+    dest.mkdir()
+    write_yaml(dest / "placevalue.yaml", template)
+    manifest, per_template = bank_build.run_build(dest, LOCALE_PACK, "dev", pool_cap=10)
+    assert len(per_template["TPL.TEST.BUILD.PLACEVALUE.001"]) > 0
+    # A variant where the rendered b happens to be "0" is exactly the crash case.
+    assert any(i["variables"]["b"] == 0 for i in per_template["TPL.TEST.BUILD.PLACEVALUE.001"])
+
+
+# --- KTD2: embedding-duplicate check warns but never refuses the build ------
+
+def _dup_pair_dir(tmp_path: Path) -> Path:
+    """Two near-duplicate synthetic templates (same shape, same skill,
+    matching canonical answer, only variable names differ — mirrors
+    tests/test_item_verify.py's own near-duplicate fixtures) written to a
+    tmp templates dir. bank_build's all-templates loop naturally uses each
+    template's siblings in this same walk as its dedup corpus (KTD2)."""
+
+    def _template(template_id: str, var_names: tuple[str, str, str]) -> dict:
+        x, y, z = var_names
+        return {
+            "template_id": template_id,
+            "template_version": "1.0.0",
+            "bank_version": "dev",
+            "graph_version": "1.0.0",
+            "skill_ids": ["FRAC.ADD.UNLIKE"],
+            "question_type": "numeric_entry",
+            "cognitive_level": "application",
+            "difficulty": 0.2,
+            "estimated_time_sec": 30,
+            "calculator_allowed": False,
+            "diagram_required": False,
+            "variables": {
+                x: {"type": "int", "range": [1, 3]},
+                y: {"type": "int", "range": [4, 6]},
+                z: {"type": "int", "range": [1, 3]},
+            },
+            "constraints": [f"{x} < {y}", f"{z} < {y}"],
+            "stem_i18n": {"en-IN": f"What is {{{{{x}}}}}/{{{{{y}}}}} plus {{{{{z}}}}}/{{{{{y}}}}}?"},
+            "localization_slots": [],
+            "answer": f"simplify(({x} + {z}) / {y})",
+            "distractors": [{"expr": f"{x} * {z}", "misconception_id": None}],
+            "solution_steps_i18n": {"en-IN": {"canonical": ["Step."]}},
+            "hints_i18n": {"en-IN": ["Hint."]},
+            "tts": False,
+            "context_tags": ["food"],
+            "exam_contexts": ["SCHOOL_EXAM"],
+            "provenance": {"generator_version": "test", "reviewer": "test", "date": "2026-07-29"},
+        }
+
+    dest = tmp_path / "templates"
+    dest.mkdir()
+    write_yaml(dest / "a.yaml", _template("TPL.TEST.BUILD.DUP.A.001", ("a", "b", "c")))
+    write_yaml(dest / "b.yaml", _template("TPL.TEST.BUILD.DUP.B.001", ("x", "y", "z")))
+    return dest
+
+
+def test_near_duplicate_pair_warns_to_stderr_and_still_builds(tmp_path: Path, capsys: pytest.CaptureFixture) -> None:
+    templates_dir = _dup_pair_dir(tmp_path)
+    manifest, per_template = bank_build.run_build(templates_dir, LOCALE_PACK, "dev", pool_cap=5)
+
+    assert set(per_template) == {"TPL.TEST.BUILD.DUP.A.001", "TPL.TEST.BUILD.DUP.B.001"}
+    assert len(per_template["TPL.TEST.BUILD.DUP.A.001"]) == 5
+    assert len(per_template["TPL.TEST.BUILD.DUP.B.001"]) == 5
+
+    err = capsys.readouterr().err
+    assert "TPL.TEST.BUILD.DUP.A.001" in err
+    assert "FLAGGED_FOR_REGENERATION" in err
+    assert "near-duplicate of TPL.TEST.BUILD.DUP.B.001" in err
+    assert "building anyway" in err
+
+
 def test_non_v1_question_type_hard_errors_naming_template(tmp_path: Path) -> None:
     template = copy.deepcopy(_synthetic_mcq_template())
     template["question_type"] = "fill_in_blank"

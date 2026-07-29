@@ -1,0 +1,62 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). 3-cycle repeating pattern in a weekly-chore word problem — same
+# repeating-cycle construction as TPL.NUM.PATTERN.REPEAT.NEXT.001, one cycle
+# longer, mcq_4 with a plausible off-by-one-position distractor.
+template_id: TPL.NUM.PATTERN.REPEAT.WORD.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PATTERN.EXTEND
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [1, 6] }
+  b: { type: int, range: [1, 6] }
+  c: { type: int, range: [1, 6] }
+
+constraints:
+  - "a != b"
+  - "b != c"
+  - "a != c"
+
+localization_slots:
+  - name1
+stem_i18n:
+  en-IN: "{{name1}} waters {{a}} plants on day 1, {{b}} plants on day 2, {{c}} plants on day 3, then the same pattern repeats: {{a}} plants on day 4, {{b}} plants on day 5, {{c}} plants on day 6, and so on. How many plants will {{name1}} water on day 7?"
+
+answer: "a"
+
+distractors:
+  - expr: "c"
+    misconception_id: null
+  - expr: "b"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The watering pattern repeats every 3 days: {{a}}, {{b}}, {{c}}, then it starts over."
+      - "Day 7 is one day after day 6, which is the third day of the second repeat — so day 7 starts a new cycle, just like day 1 and day 4."
+      - "Day 7 matches day 1 and day 4, so {{name1}} waters {{a}} plants."
+
+hints_i18n:
+  en-IN:
+    - "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle."
+    - "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

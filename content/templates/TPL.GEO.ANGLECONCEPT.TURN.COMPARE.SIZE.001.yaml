@@ -1,0 +1,59 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.CONCEPT depth batch.
+# Comparing two angles by their actual clock-face turn, not by arm length
+# (which is never mentioned as a measure here). p and q are drawn from
+# disjoint ranges (p always 7-12, q always 1-6) so p > q always holds,
+# giving a clean subtraction without needing an absolute-value builtin
+# (none exists in this repo's expression grammar).
+template_id: TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001
+skill_ids:
+  - GEO.ANGLE.CONCEPT
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: medium
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  p: { type: int, range: [7, 12] }
+  q: { type: int, range: [1, 6] }
+constraints: []
+
+stem_i18n:
+  en-IN: "Two angles share the same vertex. Angle M's arms turn through {{p}} hour-marks (from the 12 to the {{p}} mark), and Angle N's arms turn through {{q}} hour-marks (from the 12 to the {{q}} mark). By how many hour-marks of turn is Angle M bigger than Angle N?"
+localization_slots: []
+
+answer: "p - q"
+
+distractors:
+  - expr: "p"
+    misconception_id: null
+  - expr: "q"
+    misconception_id: null
+  - expr: "p + q"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "An angle's size is the amount of turn between its arms, so compare {{p}} hour-marks to {{q}} hour-marks directly."
+      - "The difference in turn is {{p}} - {{q}}."
+
+hints_i18n:
+  en-IN:
+    - "Ignore how long the arms are drawn — compare only the number of hour-marks each angle turns through."
+    - "Subtract the smaller turn from the bigger one: {{p}} - {{q}}."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

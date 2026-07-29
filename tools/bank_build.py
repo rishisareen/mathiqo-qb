@@ -192,17 +192,37 @@ def _fmt_unsimplified_distractor(expr: str, values: Mapping[str, int]) -> str:
     return f"{n}/{d}"
 
 
-def compute_derived(values: Mapping[str, int]) -> dict[str, sympy.Basic]:
+def compute_derived(template: Mapping[str, object], values: Mapping[str, int]) -> dict[str, sympy.Basic]:
     """Derived solution-step/hint values (lcm, a2, c2, sum, final, ...)
-    available for this variant's declared variables — reuses
-    item_verify.DERIVED_VALUE_RULES (KTD5) rather than re-deriving the same
-    lcm/a2/c2/sum/final formulas Stage 3's check_slots already validated
-    against."""
+    actually referenced by this template's stem/solution_steps/hints text —
+    reuses item_verify.DERIVED_VALUE_RULES (KTD5) rather than re-deriving the
+    same lcm/a2/c2/sum/final formulas Stage 3's check_slots already validated
+    against.
+
+    Only evaluates a rule when its name is both computable (required
+    variables declared) AND actually referenced in text — NOT merely
+    whenever the required variables happen to be a subset of this
+    template's declared variables. A rule's formula can assume things true
+    only of the family it was written for (e.g. "a2"'s divisor `b` is never
+    0 in the unlike-fraction-addition family it was designed for) — a
+    same-named but otherwise unrelated template (a place-value item
+    declaring variables a, b, c, d, where b legitimately ranges over 0) would
+    otherwise have that unused rule evaluated anyway and crash on an
+    assumption that was never actually asked of it. check_slots (Stage 3)
+    already computes this same "required <= declared" set for a different
+    purpose — allowing referenced derived names to pass slot-resolution
+    without a hard fail, not evaluating them — so it has no need for the
+    additional referenced-in-text filter this eager evaluation step does."""
     var_names = set(values)
+    referenced = item_verify._slot_names(  # noqa: SLF001
+        item_verify._i18n_strings(template.get("stem_i18n"))
+        + item_verify._i18n_strings(template.get("solution_steps_i18n"))
+        + item_verify._i18n_strings(template.get("hints_i18n"))
+    )
     return {
         name: fn(values)
         for name, (required, fn) in item_verify.DERIVED_VALUE_RULES.items()
-        if required <= var_names
+        if required <= var_names and name in referenced
     }
 
 
@@ -300,7 +320,7 @@ def materialize_instance(
 ) -> dict:
     """Dress and fully compute one concrete instance (§5.1, R11: everything a
     child could see is materialized here, offline, once)."""
-    derived = compute_derived(values)
+    derived = compute_derived(template, values)
     slot_names = list(template.get("localization_slots") or [])
     locale_values = dress_slots(slot_names, pack, base_index=rank)
 
@@ -449,11 +469,17 @@ def run_build(
     manifest_templates = []
     per_template_instances: dict[str, list[dict]] = {}
 
-    for path in template_paths:
-        template = item_verify.load_template(path)  # schema-validates or HardFails
+    # Load every template up front so the all-templates loop below can pass
+    # each one, as it verifies, the rest of this same walk as its
+    # near-duplicate corpus (KTD2) — the corpus for bank_build's dedup pass
+    # is naturally every other template already loaded in this walk.
+    loaded = [(path, item_verify.load_template(path)) for path in template_paths]
+    all_templates = [template for _, template in loaded]
 
+    for path, template in loaded:
+        corpus = [t for t in all_templates if t is not template]
         try:
-            report = item_verify.verify_template(template)
+            report = item_verify.verify_template(template, corpus)
         except item_verify.HardFail as exc:
             raise BuildError(f"{path.name}: Stage 3 verification hard-failed: {exc}") from exc
 

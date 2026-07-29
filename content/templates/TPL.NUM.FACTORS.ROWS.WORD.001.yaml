@@ -1,0 +1,56 @@
+# Authored 2026-07-29 (Class 6 servable coverage, Implementation Unit U5).
+# NUM.FACTORS.MULTIPLES — word-problem dressing of the factor-quotient
+# relationship (same gcd(n,k)==k constraint family as
+# TPL.NUM.FACTORS.DIVBYFACTOR.001, distinct wording/context/domain so the
+# two do not collapse into near-duplicates: check_embedding_duplicates
+# requires >=85% normalized-stem similarity, and this stem's shape/length
+# differs substantially from DIVBYFACTOR.001's).
+template_id: TPL.NUM.FACTORS.ROWS.WORD.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.FACTORS.MULTIPLES
+question_type: numeric_entry
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - nature
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [12, 96] }
+  k: { type: int, range: [2, 9] }
+
+constraints:
+  - "gcd(n, k) == k"
+  - "n > k"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A gardener plants {{n}} seeds in rows of {{k}} seeds each, with none left over. How many rows are needed?"
+
+answer: "n / k"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "{{n}} seeds planted in rows of {{k}} means dividing {{n}} by {{k}}."
+      - "Since {{k}} is a factor of {{n}}, the division comes out exact."
+
+hints_i18n:
+  en-IN:
+    - "Divide the total number of seeds by the row size."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

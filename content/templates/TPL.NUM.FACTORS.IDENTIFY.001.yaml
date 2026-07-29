@@ -1,0 +1,64 @@
+# Authored 2026-07-29 (Class 6 servable coverage, Implementation Unit U5).
+# NUM.FACTORS.MULTIPLES — "which of these is a factor of n" identification.
+# f is constrained to be a genuine factor of n via gcd(n,f)==f. The swap
+# distractor n*2 is a genuine multiple of n offered as if it were a factor
+# (MISC.NUM.FACTOR-MULTIPLE-SWAP) — collision-safe by construction since f's
+# domain [2,9] and n*2's domain [24,96] (n >= 12) never overlap; n-1 and
+# n+1 are likewise always well above f's max of 9 (n >= 12), so no combo of
+# this template's variant space can ever collide, by range separation alone
+# rather than a runtime primality check.
+template_id: TPL.NUM.FACTORS.IDENTIFY.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.FACTORS.MULTIPLES
+question_type: mcq_4
+cognitive_level: conceptual
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [12, 48] }
+  f: { type: int, range: [2, 9] }
+
+constraints:
+  - "gcd(n, f) == f"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "Which of the following is a factor of {{n}}?"
+
+answer: "f"
+
+distractors:
+  - expr: "n * 2"
+    misconception_id: MISC.NUM.FACTOR-MULTIPLE-SWAP
+  - expr: "n - 1"
+    misconception_id: null
+  - expr: "n + 1"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A factor of {{n}} divides {{n}} exactly, with no remainder."
+      - "{{f}} divides {{n}} exactly, so {{f}} is a factor of {{n}}."
+
+hints_i18n:
+  en-IN:
+    - "A factor is always less than or equal to the number itself."
+    - "A multiple of {{n}} (like double {{n}}) is not the same as a factor of {{n}}."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

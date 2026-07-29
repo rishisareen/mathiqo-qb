@@ -1,0 +1,50 @@
+template_id: TPL.NUM.HCF.HARD.001
+skill_ids:
+- NUM.HCF
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: hard
+estimated_time_sec: 55
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- travel
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  a:
+    type: int
+    range:
+    - 40
+    - 70
+  b:
+    type: int
+    range:
+    - 20
+    - 50
+constraints:
+- a != b
+localization_slots: []
+stem_i18n:
+  en-IN: What is the highest common factor of {{a}} and {{b}}?
+answer: gcd(a, b)
+distractors:
+- expr: lcm(a, b)
+  misconception_id: MISC.NUM.LCM-CONFUSED-WITH-GCF
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Break {{a}} and {{b}} down into their prime factors.
+    - Multiply together the prime factors common to both, using the lowest power each shares, to get the HCF.
+hints_i18n:
+  en-IN:
+  - Prime-factorise both numbers, then multiply the primes they share.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.8
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

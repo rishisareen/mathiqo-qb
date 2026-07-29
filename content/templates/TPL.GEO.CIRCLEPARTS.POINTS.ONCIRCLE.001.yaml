@@ -1,0 +1,63 @@
+# Class 6 Servable Coverage plan, U6: GEO.CIRCLE.PARTS authoring batch.
+# Point-classification counting (numeric proxy for "which points lie on the
+# circle"), directly exercising MISC.GEO.CENTRE-ON-CIRCLE via the
+# "on_circle + 1" distractor that wrongly folds the centre O into the
+# count. Variables are named on_circle/off_circle rather than bare on/off
+# because bare "on"/"off" are YAML 1.1 boolean literals — pyyaml parses an
+# unquoted "on:" mapping key as the boolean True, silently dropping the
+# variable name (caught by item_verify.py's HARD_FAIL undeclared-slot check).
+template_id: TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001
+skill_ids:
+  - GEO.CIRCLE.PARTS
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  on_circle: { type: int, range: [2, 8] }
+  off_circle: { type: int, range: [2, 6] }
+constraints:
+  - "on_circle != off_circle"
+  - "off_circle != on_circle + 1"
+
+stem_i18n:
+  en-IN: "A circle is drawn with centre O. Also marked are {{on_circle}} points that lie exactly on the circle itself, and {{off_circle}} other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?"
+localization_slots: []
+
+answer: "on_circle"
+
+distractors:
+  - expr: "on_circle + 1"
+    misconception_id: MISC.GEO.CENTRE-ON-CIRCLE
+  - expr: "on_circle + off_circle"
+    misconception_id: null
+  - expr: "off_circle"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle."
+      - "Only the {{on_circle}} points described as lying exactly on the circle count — the {{off_circle}} others (inside or outside) don't."
+
+hints_i18n:
+  en-IN:
+    - "The centre is a special point — it's the same distance from every point on the circle, but it isn't itself one of those points."
+    - "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

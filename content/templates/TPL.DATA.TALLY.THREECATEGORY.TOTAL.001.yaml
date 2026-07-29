@@ -1,0 +1,61 @@
+# Class 6 servable coverage, Implementation Unit U7: DATA.COLLECT.TALLY batch.
+# Three-category labeled tally table (R7/KTD4 convention: diagram_required:
+# true). Hard band, mcq_4; six variables kept to small ranges (2*5 each) so
+# the full Cartesian product stays at 1,000 combos, well under the ~5,000
+# ceiling for multi-variable templates.
+template_id: TPL.DATA.TALLY.THREECATEGORY.TOTAL.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - DATA.COLLECT.TALLY
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 70
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  b1: { type: int, range: [5, 6] }
+  e1: { type: int, range: [0, 4] }
+  b2: { type: int, range: [3, 4] }
+  e2: { type: int, range: [0, 4] }
+  b3: { type: int, range: [1, 2] }
+  e3: { type: int, range: [0, 4] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A survey tally for favourite pets recorded: Dog — {{b1}} bundles of five and {{e1}} strokes; Cat — {{b2}} bundles of five and {{e2}} strokes; Bird — {{b3}} bundles of five and {{e3}} strokes. How many children in total were surveyed across all three pets?"
+
+answer: "5 * (b1 + b2 + b3) + (e1 + e2 + e3)"
+
+distractors:
+  - expr: "(b1 + e1) + (b2 + e2) + (b3 + e3)"
+    misconception_id: MISC.DATA.TALLY-BUNDLE-MISCOUNT
+  - expr: "4 * (b1 + b2 + b3) + (e1 + e2 + e3)"
+    misconception_id: MISC.DATA.TALLY-BUNDLE-MISCOUNT
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Find each pet's total separately: 5 x bundles + loose strokes."
+      - "Add the three totals together for the grand total surveyed."
+
+hints_i18n:
+  en-IN:
+    - "Work out Dog, Cat and Bird's totals one at a time before adding them."
+    - "Every bundle in every category is worth 5 — don't count any bundle as just 1."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,59 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.AREA.CONCEPT batch.
+# Part-square estimation at depth: whole unit squares plus half unit squares.
+# The half-square count is written as "2 x {{j}}" directly in the stem so it
+# is always even by construction (j whole pairs of halves) — this avoids any
+# fractional-answer risk or constraint-rejection from a parity constraint.
+# Easy band, numeric_entry.
+template_id: TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.AREA.CONCEPT
+question_type: numeric_entry
+cognitive_level: conceptual
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+  - art
+
+variables:
+  n: { type: int, range: [4, 20] }
+  j: { type: int, range: [1, 6] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A shape drawn on a grid covers {{n}} whole unit squares, plus 2 x {{j}} half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?"
+
+answer: "n + j"
+
+distractors:
+  - expr: "n + 2 * j"
+    misconception_id: null
+  - expr: "n"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Every two half unit squares combine to make one whole unit square, so 2 x {{j}} half squares make {{j}} whole squares."
+      - "Add these to the {{n}} whole squares already counted: {{n}} + {{j}}."
+
+hints_i18n:
+  en-IN:
+    - "Two half unit squares together make one whole unit square — don't count each half as a whole square by itself."
+    - "Work out how many whole squares the half squares make, then add that to {{n}}."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

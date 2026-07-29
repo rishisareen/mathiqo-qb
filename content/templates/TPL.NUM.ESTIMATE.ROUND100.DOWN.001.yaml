@@ -1,0 +1,53 @@
+# Authored 2026-07-29 (Class 6 servable coverage, Implementation Unit U5).
+# NUM.ESTIMATE, nearest-hundred round-down sibling of the ROUND10 pair —
+# same zero-rejection pattern, this time splitting the number into
+# `hundreds` and a `rem` (remainder under 100) pre-restricted to [0,49] so
+# every variant genuinely rounds down.
+template_id: TPL.NUM.ESTIMATE.ROUND100.DOWN.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.ESTIMATE
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - money
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  hundreds: { type: int, range: [10, 59] }
+  rem: { type: int, range: [0, 49] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "The number 100 x {{hundreds}} + {{rem}} is rounded to the nearest 100. What is the result?"
+
+answer: "100 * hundreds"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The remainder {{rem}} is less than 50, so round down."
+      - "Rounded to the nearest 100, the number is 100 x {{hundreds}}."
+
+hints_i18n:
+  en-IN:
+    - "Is the remainder closer to 0 or to 100?"
+    - "A remainder below 50 always rounds down."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

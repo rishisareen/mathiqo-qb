@@ -1,0 +1,56 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, Implementation Unit
+# U7, data/number-line/integers authoring increment). FRAC.NUMLINE easy band:
+# reading a proper-fraction point on a 0-to-1 number line divided into equal
+# parts, per R7/KTD4 the position is described in text rather than an image
+# (this repo serves numeric mcq_4/numeric_entry answers only, KD4). Exercises
+# MISC.FRAC.NUMLINE-COUNT-MARKS: counting tick marks instead of the equal
+# intervals between them.
+template_id: TPL.FRAC.NUMLINE.READ.001
+skill_ids:
+  - FRAC.NUMLINE
+question_type: mcq_4
+cognitive_level: recall
+difficulty_prior: easy
+difficulty: 0.2
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - measurement
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  d:
+    type: int
+    range: [4, 8]
+  k:
+    type: int
+    range: [1, 7]
+constraints:
+  - "k < d"
+localization_slots: []
+stem_i18n:
+  en-IN: "A ruler-like strip stretches from 0 to 1, split into {{d}} equal-sized gaps side by side. Counting {{k}} gaps across starting from 0, which fraction lands on that mark?"
+answer: "simplify(k / d)"
+distractors:
+  - expr: "(k + 1) / d"
+    misconception_id: MISC.FRAC.NUMLINE-COUNT-MARKS
+  - expr: "k / (d + 1)"
+    misconception_id: MISC.FRAC.NUMLINE-COUNT-MARKS
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are {{d}} spaces between 0 and 1."
+      - "The point is {{k}} spaces to the right of 0, so the fraction is {{k}} out of {{d}}."
+hints_i18n:
+  en-IN:
+    - "Count the equal spaces between the tick marks, not the tick marks themselves."
+    - "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

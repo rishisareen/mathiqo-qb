@@ -1,0 +1,56 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Rows-by-columns array word problem, medium band.
+template_id: TPL.NUM.MULT.ARRAY.WORD.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.MULT
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 50
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  rows: { type: int, range: [11, 24] }
+  cols: { type: int, range: [6, 9] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A classroom has chairs arranged in {{rows}} rows, with {{cols}} chairs in each row. How many chairs are there altogether?"
+
+answer: "rows * cols"
+
+distractors:
+  - expr: "rows + cols"
+    misconception_id: null
+  - expr: "rows * cols - rows"
+    misconception_id: null
+  - expr: "(rows + 1) * cols"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Picture the chairs as an array of {{rows}} rows and {{cols}} columns."
+      - "Multiply rows by columns: {{rows}} x {{cols}}."
+
+hints_i18n:
+  en-IN:
+    - "An array's total is rows times columns, not rows plus columns."
+    - "Multiply the number of rows by the number of chairs in each row."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

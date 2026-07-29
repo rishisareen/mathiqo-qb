@@ -1,0 +1,60 @@
+# Class 6 Servable Coverage plan, U4: MEAS.LENGTH.UNITS depth batch.
+template_id: TPL.MEASLENGTH.COMPARE.DOORWAY.001
+skill_ids:
+  - MEAS.LENGTH.UNITS
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+estimated_time_sec: 50
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+  - objects
+
+variables:
+  m:
+    type: int
+    range: [1, 3]
+  cm:
+    type: int
+    range: [30, 90]
+constraints:
+  - "m * 100 > cm"
+
+stem_i18n:
+  en-IN: "A doorway is {{m}} metres tall. A bookshelf is {{cm}} centimetres tall. How many centimetres taller is the doorway than the bookshelf?"
+localization_slots: []
+
+answer: "m * 100 - cm"
+
+distractors:
+  - expr: "m - cm"
+    misconception_id: null
+  - expr: "cm - m * 100"
+    misconception_id: null
+  - expr: "m * 100 + cm"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Convert the doorway's height to centimetres first: {{m}} x 100 cm."
+      - "Now both heights are in the same unit, so subtract: ({{m}} x 100) - {{cm}}."
+
+hints_i18n:
+  en-IN:
+    - "You can't compare metres and centimetres directly — convert to the same unit first."
+    - "Once both heights are in centimetres, subtract the smaller from the larger."
+
+difficulty: 0.8
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,57 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.AREA.CONCEPT batch.
+# Area as counting unit squares, introduced via rows/columns of a shaded
+# grid (the row-by-column bridge NCERT uses before the formula is named).
+# Easy band, numeric_entry.
+template_id: TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.AREA.CONCEPT
+question_type: numeric_entry
+cognitive_level: conceptual
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+  - art
+
+variables:
+  r: { type: int, range: [3, 9] }
+  c: { type: int, range: [3, 9] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A grid is drawn on squared paper with {{r}} rows and {{c}} columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units."
+
+answer: "r * c"
+
+distractors:
+  - expr: "2 * (r + c)"
+    misconception_id: MISC.MEAS.PERIMETER-AREA-CONFUSED
+  - expr: "r + c"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Each row has {{c}} unit squares, and there are {{r}} rows."
+      - "Count the total unit squares by multiplying: {{r}} x {{c}}."
+
+hints_i18n:
+  en-IN:
+    - "You could count every square one by one, or find a faster way using the rows and columns."
+    - "Each of the {{r}} rows has the same number of squares, {{c}}. Multiply instead of counting one by one."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,61 @@
+# Class 6 servable coverage, Implementation Unit U7: DATA.PICTOGRAPH batch.
+# Half-symbol reading: total = n*k + k/2, with k constrained even so the half
+# symbol contributes a whole number of units. The "k % 2 == 0" constraint
+# necessarily rejects the odd half of k's domain (same tolerated-rejection
+# idiom as TPL.NUM.DIV.GROUPSFIT.DIRECT.001's gcd constraint) — expect a
+# FLAGGED-for-rejection verdict, not a HARD_FAIL. Medium band, mcq_4,
+# labeled text table (diagram_required: true).
+template_id: TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - DATA.PICTOGRAPH
+question_type: mcq_4
+cognitive_level: conceptual
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 55
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - food
+
+variables:
+  n: { type: int, range: [2, 5] }
+  k: { type: int, range: [2, 6] }
+
+constraints:
+  - "k % 2 == 0"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A pictograph shows fruit sold at the school stall. Mangoes are shown with {{n}} whole symbols and one half symbol; the key is 1 symbol = {{k}} mangoes. How many mangoes were sold in total?"
+
+answer: "n * k + k / 2"
+
+distractors:
+  - expr: "(n + 1) * k"
+    misconception_id: MISC.DATA.HALF-SYMBOL-WHOLE
+  - expr: "n"
+    misconception_id: MISC.DATA.SCALE-IGNORED
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Each whole symbol is worth {{k}}, so the {{n}} whole symbols are worth {{n}} x {{k}}."
+      - "A half symbol is worth half the key, {{k}} / 2, not a whole key's worth."
+      - "Add the whole-symbol total and the half-symbol value together."
+
+hints_i18n:
+  en-IN:
+    - "Don't round the half symbol up to a whole one — it's worth exactly half the key."
+    - "Work out the whole symbols first, then add half of the key's value for the half symbol."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

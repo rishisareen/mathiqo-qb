@@ -1,0 +1,60 @@
+# Class 6 servable coverage, Implementation Unit U6: MEAS.PERIMETER batch.
+# Purpose-built to exercise MISC.MEAS.PERIMETER-MISSED-SIDE: the rectangle's
+# length and width are each stated once, so a student who forgets the figure
+# has two of each lands on a+b instead of 2*(a+b). Medium band, mcq_4.
+template_id: TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - MEAS.PERIMETER
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - fencing
+  - land
+
+variables:
+  a: { type: int, range: [5, 18] }
+  b: { type: int, range: [3, 10] }
+
+constraints:
+  - "a > b"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A rectangular plot of land measures {{a}} m by {{b}} m — its length is {{a}} m and its width is {{b}} m. What is the total perimeter of the plot, in metres?"
+
+answer: "2 * (a + b)"
+
+distractors:
+  - expr: "a + b"
+    misconception_id: MISC.MEAS.PERIMETER-MISSED-SIDE
+  - expr: "a * b"
+    misconception_id: MISC.MEAS.PERIMETER-AREA-CONFUSED
+  - expr: "2 * a + b"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The plot has two sides of length {{a}} m and two sides of width {{b}} m, even though each is only labelled once."
+      - "Perimeter = {{a}} + {{a}} + {{b}} + {{b}} = 2 x ({{a}} + {{b}})."
+
+hints_i18n:
+  en-IN:
+    - "The plot is a rectangle — it has four sides in total, not just the two you were given lengths for."
+    - "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

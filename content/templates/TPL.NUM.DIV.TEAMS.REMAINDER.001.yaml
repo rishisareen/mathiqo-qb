@@ -1,0 +1,65 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Remainder-as-answer item in a sports/teams context, numeric_entry —
+# deliberately a different question_type from the food-sharing remainder
+# item (TPL.NUM.DIV.SHARE.REMAINDER.WORD.001, mcq_4) even though both share
+# the q-pinned-by-double-inequality construction: numeric_entry still records
+# a tagged distractor (matching the corpus's TPL.FRAC.DIV.WHOLE.NUM.001
+# pattern) so a submitted wrong numeric answer equal to the quotient alone
+# can still be attributed to MISC.NUM.DIV-REMAINDER-DROPPED on the backend,
+# even with no MCQ options to select from.
+template_id: TPL.NUM.DIV.TEAMS.REMAINDER.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.DIV
+question_type: numeric_entry
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 55
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - sports
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [17, 50] }
+  b: { type: int, range: [4, 9] }
+  q: { type: int, range: [1, 12] }
+
+constraints:
+  - "b * q <= a"
+  - "a < b * (q + 1)"
+  - "a - b * q >= 1"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A coach has {{a}} players and wants to form teams of {{b}} players each. After forming as many full teams as possible, how many players are left without a team?"
+
+answer: "a - b * q"
+
+distractors:
+  - expr: "q"
+    misconception_id: MISC.NUM.DIV-REMAINDER-DROPPED
+  - expr: "b - (a - b * q)"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Divide {{a}} by {{b}} to find how many full teams can be formed."
+      - "Multiply the number of full teams by {{b}}, then subtract from {{a}} to find how many players are left over."
+
+hints_i18n:
+  en-IN:
+    - "First work out how many complete teams of {{b}} you can form from {{a}} players."
+    - "The players who don't fit into a full team are the ones left over — that's what the question is asking for, not the number of teams."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

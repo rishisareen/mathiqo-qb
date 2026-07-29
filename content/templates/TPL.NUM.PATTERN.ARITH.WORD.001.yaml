@@ -1,0 +1,63 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Constant-difference sequence in a savings word problem — same
+# equality-constrained construction as TPL.NUM.PATTERN.ARITH.NEXT.001 (see
+# that file's header for why: stems can only substitute bare declared
+# variables, never a computed start+step expression), different stem shape
+# and context. Constant difference is genuinely correct here; no
+# misconception distractor forced.
+template_id: TPL.NUM.PATTERN.ARITH.WORD.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PATTERN.EXTEND
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 50
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - money
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  t1: { type: int, range: [2, 12] }
+  t2: { type: int, range: [6, 25] }
+  t3: { type: int, range: [10, 38] }
+
+constraints:
+  - "t3 - t2 == t2 - t1"
+  - "t2 > t1"
+
+localization_slots:
+  - name1
+stem_i18n:
+  en-IN: "{{name1}} is saving money each week: Rs {{t1}} in week 1, Rs {{t2}} in week 2, and Rs {{t3}} in week 3, following the same pattern each week. How much will {{name1}} save in week 4?"
+
+answer: "2 * t3 - t2"
+
+distractors:
+  - expr: "t1 + t2 + t3"
+    misconception_id: null
+  - expr: "t3 + (t3 - t1)"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Find how much more {{name1}} saves each week: the difference between {{t2}} and {{t1}}, or between {{t3}} and {{t2}}."
+      - "Add that same weekly increase to {{t3}} to find week 4's savings."
+
+hints_i18n:
+  en-IN:
+    - "How much more does {{name1}} save each week compared to the week before?"
+    - "Add that weekly increase to the amount saved in week 3."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,60 @@
+# Class 6 servable coverage plan, U7. INT.CMP.ORDER: identifying the smallest
+# of three negative integers, the harder three-way sibling of
+# TPL.INT.CMP.ORDER.NEGNEG.DIRECT.001. Disjoint ranges (a in [-30,-21], b in
+# [-20,-11], c in [-10,-1]) guarantee a < b < c with zero rejection. c has
+# the smallest digit magnitude of the three, so the "c" distractor reproduces
+# MISC.INT.BIGGER-ABS: reasoning by digit size alone picks the smallest-digit
+# number as "smallest" when it is actually the largest (closest to zero).
+template_id: TPL.INT.CMP.ORDER.THREE.MIN.001
+skill_ids:
+  - INT.CMP.ORDER
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [-30, -21] }
+  b: { type: int, range: [-20, -11] }
+  c: { type: int, range: [-10, -1] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "Look at these three integers: {{a}}, {{b}}, {{c}}. Which one is the smallest?"
+localization_slots: []
+
+answer: "a"
+
+distractors:
+  - expr: "c"
+    misconception_id: MISC.INT.BIGGER-ABS
+  - expr: "b"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "On the number line, {{a}} is furthest below zero of the three, so it is the smallest."
+      - "{{c}} has the smallest digit, but being closest to zero it is actually the largest of the three, not the smallest."
+
+hints_i18n:
+  en-IN:
+    - "Place all three on the number line — which one is furthest to the left?"
+    - "The integer furthest below zero is the smallest, even if its digit looks bigger."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.8
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,53 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, U5). Digit-sum
+# puzzle — the Class 6 depth extension named directly in NUM.PLACE.VALUE's
+# NCERT mapping row ("digit sums, palindromic numbers, Kaprekar-style
+# routines").
+template_id: TPL.NUM.PLACE.VALUE.DIGITSUM.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PLACE.VALUE
+question_type: numeric_entry
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  h: { type: int, range: [1, 9] }
+  t: { type: int, range: [0, 9] }
+  o: { type: int, range: [0, 9] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "What is the sum of the digits of the number {{h}}{{t}}{{o}}?"
+
+answer: "h + t + o"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Identify each digit of {{h}}{{t}}{{o}}: {{h}}, {{t}}, and {{o}}."
+      - "Add the digits themselves (not their place values): {{h}} + {{t}} + {{o}}."
+
+hints_i18n:
+  en-IN:
+    - "This asks for the sum of the digits, not the value of the number itself."
+    - "List out each digit of {{h}}{{t}}{{o}} on its own, then add them up."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

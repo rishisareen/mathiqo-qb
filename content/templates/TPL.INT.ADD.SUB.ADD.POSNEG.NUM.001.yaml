@@ -1,0 +1,56 @@
+# Class 6 servable coverage plan, U7. INT.ADD.SUB: adding a negative integer
+# to a positive one, certified in the low-guess numeric_entry format (KTD6).
+# The MISC.INT.IGNORE-SIGNS distractor "a - b" reproduces the signature
+# error exactly: with b negative, a - b = a + |b|, i.e. the sum of the two
+# digit magnitudes as if both numbers were positive (e.g. -3 + 5 -> 8).
+template_id: TPL.INT.ADD.SUB.ADD.POSNEG.NUM.001
+skill_ids:
+  - INT.ADD.SUB
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [1, 9] }
+  b: { type: int, range: [-9, -1] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "What is {{a}} + {{b}}?"
+localization_slots: []
+
+answer: "a + b"
+
+distractors:
+  - expr: "a - b"
+    misconception_id: MISC.INT.IGNORE-SIGNS
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Start at {{a}} on the number line."
+      - "Adding a negative number means moving left (down) on the number line, not right."
+      - "Moving left from {{a}} by the size of {{b}} lands on {{a}} + {{b}}."
+
+hints_i18n:
+  en-IN:
+    - "Adding a negative number moves you left on the number line, not right."
+    - "Don't just add the digits — the sign of {{b}} tells you which direction to move."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

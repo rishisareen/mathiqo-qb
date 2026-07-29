@@ -1,0 +1,59 @@
+# Class 6 Servable Coverage plan, U4: GEO.POLYGON.PROPS depth batch.
+# Hard-band item: the greatest-possible-right-angle fact (answer 1) is a
+# distinct fact/answer from the other classify items, avoiding any
+# near-duplicate collision (U2) by construction.
+template_id: TPL.GEO.POLYGONPROPS.CLASSIFY.TRIANGLE.001
+skill_ids:
+  - GEO.POLYGON.PROPS
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+# item-instance schema requires >=1 variable; this item is a fixed
+# conceptual fact with no natural numeric parameter, so a single-value
+# placeholder variable satisfies the contract without pretending to vary.
+variables:
+  n: { type: int, range: [1, 1] }
+constraints: []
+
+stem_i18n:
+  en-IN: "A triangle has 3 straight sides and 3 corners, and its corner angles always add up to 180 degrees in total. What is the greatest number of square (90-degree) corners it can have at the same time?"
+localization_slots: []
+
+answer: "1"
+
+distractors:
+  - expr: "3"
+    misconception_id: null
+  - expr: "2"
+    misconception_id: null
+  - expr: "0"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The three corner angles of a triangle always add up to 180 degrees."
+      - "Two square (90-degree) corners alone would already add up to 180 degrees, leaving nothing for the third corner — so a triangle can have at most 1 square corner."
+
+hints_i18n:
+  en-IN:
+    - "What do the three corner angles of any triangle always add up to?"
+    - "If two corners were both 90 degrees, how much would be left over for the third corner?"
+
+difficulty: 0.8
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

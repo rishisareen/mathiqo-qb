@@ -1,0 +1,50 @@
+# U6 authoring increment (Class 6 Ch. 9 Symmetry), drafted 2026-07-29.
+# A regular n-gon always has exactly n lines of symmetry (one through each
+# vertex/midpoint pair) — a clean, always-true fact that yields a genuine
+# integer variable without any fixed-shape placeholder.
+template_id: TPL.GEO.SYM.LINE.REGULAR-NGON.001
+skill_ids:
+- GEO.SYM.LINE
+question_type: numeric_entry
+cognitive_level: recall
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: true
+context_tags:
+- shapes
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  n:
+    type: int
+    range:
+    - 3
+    - 10
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: A regular polygon has {{n}} sides (a regular {{n}}-gon, with all sides
+    and all angles equal). How many lines of symmetry does it have?
+answer: n
+distractors: []
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - A regular {{n}}-gon has one line of symmetry through each vertex (or the
+      midpoint of the opposite side).
+    - It has {{n}} sides, so it has exactly {{n}} lines of symmetry.
+hints_i18n:
+  en-IN:
+  - Think about how many sides (and vertices) the regular polygon has.
+  - For any regular polygon, the number of lines of symmetry equals the number
+    of sides.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

@@ -29,10 +29,23 @@ skills:
     prerequisites:
       - GEO.SHAPES.2D
       - GEO.ANGLE.CONCEPT
-    misconceptions: []
+    # MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE added 2026-07-29 (Class 6
+    # Servable Coverage plan, U3): diagnosed here (own core procedure).
+    misconceptions:
+      - MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE
 
 
 misconceptions:
+  - misconception_id: MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE
+    belief: "The starting position counts as an extra match on top of the turns that bring the figure back to look the same"
+    signature_error: "For a square, which looks the same after turns of 90, 180, 270 and 360 degrees (order 4), counts the untouched starting position as a fifth match and gives the order as 5"
+    remediation_target: GEO.SYM.ROTATIONAL
+    remediation_asset: "micro-explainers/MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}} adds one extra match for the starting position when counting the order of rotational symmetry — the full turn back to start is already one of the matches, not an extra one."
+    child_feedback_i18n:
+      en-IN: "You counted the starting position as an extra match, but the turn all the way back to start (360 degrees) is already one of your matches, not a bonus one. Count only the turns where the figure looks the same — for this square that's 4, not 5."
+
   - misconception_id: MISC.GEO.RECT-DIAGONAL-SYM
     belief: "The diagonal of a rectangle is a line of symmetry"
     signature_error: "Draws the diagonals of a (non-square) rectangle as its lines of symmetry"
@@ -90,7 +103,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 9"
     unit_code: "IN-NCERT-G6-CH9"
-    unit_name: "Class 6, Ch. 9"
+    unit_name: "Symmetry"
     learning_objective: >
       Identifies lines of symmetry (reflection symmetry) in 2-D figures,
       including figures with several lines of symmetry; completes figures
@@ -104,7 +117,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 9"
     unit_code: "IN-NCERT-G6-CH9"
-    unit_name: "Class 6, Ch. 9"
+    unit_name: "Symmetry"
     learning_objective: >
       Understands rotational symmetry and finds the order of rotational
       symmetry of a figure.

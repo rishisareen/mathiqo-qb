@@ -1,0 +1,62 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Growing (constant second-difference) pattern in a theatre-seating
+# word problem, hard band — same construction as
+# TPL.NUM.PATTERN.GROW.NEXT.001 (see that file's header), different stem
+# shape and larger ranges. Also carries MISC.NUM.PATTERN-CONSTANT-DIFF.
+template_id: TPL.NUM.PATTERN.GROW.WORD.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PATTERN.EXTEND
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 65
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  t1: { type: int, range: [3, 7] }
+  t2: { type: int, range: [6, 12] }
+  t3: { type: int, range: [10, 17] }
+  t4: { type: int, range: [15, 24] }
+
+constraints:
+  - "t4 - 2 * t3 + t2 == t3 - 2 * t2 + t1"
+  - "(t2 - t1) < (t3 - t2)"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A theatre's rows have {{t1}}, {{t2}}, {{t3}} and {{t4}} seats respectively — each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?"
+
+answer: "3 * t4 - 3 * t3 + t2"
+
+distractors:
+  - expr: "2 * t4 - t3"
+    misconception_id: MISC.NUM.PATTERN-CONSTANT-DIFF
+  - expr: "t4 + t2 - t1"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Work out how many seats are added row to row: {{t2}}-{{t1}}, {{t3}}-{{t2}}, {{t4}}-{{t3}}."
+      - "Those added-seat amounts are themselves increasing by a fixed amount each row."
+      - "Find the next added-seat amount and add it to {{t4}}."
+
+hints_i18n:
+  en-IN:
+    - "Look at how many MORE seats each row has than the one before — is that extra amount the same every time, or changing?"
+    - "The amount added grows by a fixed extra amount each row — work out how much the next row adds before adding it to {{t4}}."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

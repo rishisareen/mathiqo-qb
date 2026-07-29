@@ -1,0 +1,47 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, Implementation Unit
+# U7). INT.CONCEPT easy band, mcq_4 format — the temperature-below-zero
+# context named in the skill description. Pure reading item, so the
+# "dropped sign" distractor is left untagged (no registered misconception
+# fits a plain notation slip with no subtraction/comparison in play).
+template_id: TPL.INT.CONCEPT.TEMP.001
+skill_ids:
+  - INT.CONCEPT
+question_type: mcq_4
+cognitive_level: recall
+difficulty_prior: easy
+difficulty: 0.2
+estimated_time_sec: 20
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - weather
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  n:
+    type: int
+    range: [1, 15]
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: "On a cold night, the thermometer reads {{n}} degrees below zero. Which integer represents this reading?"
+answer: "-n"
+distractors:
+  - expr: "n"
+    misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "\"Below zero\" means on the other side of zero from the positive numbers, so it's written with a minus sign."
+      - "{{n}} degrees below zero is written as -{{n}}."
+hints_i18n:
+  en-IN:
+    - "Below zero always gets a minus sign in front of the number."
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

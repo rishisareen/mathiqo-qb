@@ -1,0 +1,57 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Plain two-digit by two-digit word problem (no digit decomposition,
+# unlike the SHIFT-family templates) — medium band, bakery context.
+template_id: TPL.NUM.MULT.2D2D.WORD.002
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.MULT
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 55
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - food
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [12, 25] }
+  b: { type: int, range: [14, 29] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A bakery baked {{a}} trays of cookies, with {{b}} cookies on each tray. How many cookies did the bakery bake in total?"
+
+answer: "a * b"
+
+distractors:
+  - expr: "a + b"
+    misconception_id: null
+  - expr: "a * (b - 1)"
+    misconception_id: null
+  - expr: "(a + 1) * b"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Each tray has the same number of cookies, so multiply trays by cookies-per-tray."
+      - "{{a}} x {{b}} gives the total number of cookies."
+
+hints_i18n:
+  en-IN:
+    - "Since every tray has the same number of cookies, multiplying gives the total faster than adding tray by tray."
+    - "Multiply the number of trays by the number of cookies on each tray."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,54 @@
+# Class 6 servable coverage plan, U4. NUM.CMP.ORDER: hard-band digit-length
+# comparison with larger numbers (3-digit vs 4-digit), spelling out the
+# digit counts explicitly in the stem to stay textually distinct from
+# TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001.
+template_id: TPL.NUM.CMP.ORDER.BIGNUM.DIRECT.001
+skill_ids:
+  - NUM.CMP.ORDER
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: hard
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [900, 999] }
+  b: { type: int, range: [1000, 1099] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "One number is {{b}}, which has four digits. Another number is {{a}}, which has three digits. Which number is bigger?"
+localization_slots: []
+
+answer: "b"
+
+distractors:
+  - expr: "a"
+    misconception_id: MISC.NUM.FIRST-DIGIT-CMP
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "{{b}} has four digits and {{a}} has only three digits."
+      - "A four-digit number is always bigger than a three-digit number, no matter what the individual digits are."
+
+hints_i18n:
+  en-IN:
+    - "Count the digits in each number."
+    - "More digits always means a bigger number."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.8
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,50 @@
+template_id: TPL.NUM.LCM.WORD.001
+skill_ids:
+- NUM.LCM
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: hard
+estimated_time_sec: 50
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- travel
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  a:
+    type: int
+    range:
+    - 4
+    - 12
+  b:
+    type: int
+    range:
+    - 5
+    - 15
+constraints:
+- a != b
+localization_slots: []
+stem_i18n:
+  en-IN: Two bus routes leave the depot together this morning. Route A repeats every {{a}} days and Route B repeats every {{b}} days. After how many days do they next leave together?
+answer: lcm(a, b)
+distractors:
+- expr: gcd(a, b)
+  misconception_id: MISC.NUM.LCM-CONFUSED-WITH-GCF
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - The routes leave together again on a day that is a multiple of both {{a}} and {{b}}.
+    - The soonest such day is the lowest common multiple of {{a}} and {{b}}, not their highest common factor.
+hints_i18n:
+  en-IN:
+  - You need a day count that both {{a}} and {{b}} divide into, not a number that divides both of them.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.8
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

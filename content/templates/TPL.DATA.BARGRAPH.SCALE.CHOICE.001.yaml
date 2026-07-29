@@ -1,0 +1,62 @@
+# Class 6 servable coverage, Implementation Unit U7: DATA.BARGRAPH batch.
+# "Choosing an appropriate scale" — the reverse direction of GRIDLINE.VALUE:
+# given the tallest value to display and the number of gridlines available,
+# find the value each gridline should represent. Uses the same gcd-exact-
+# division idiom as TPL.NUM.DIV.GROUPSFIT.DIRECT.001 (gcd(m, g) == g), so
+# some rejection is expected and tolerated (KTD5). Medium band, mcq_4; no
+# data table is presented here (a single axis-design question), so
+# diagram_required stays false per the R7/KTD4 convention.
+template_id: TPL.DATA.BARGRAPH.SCALE.CHOICE.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - DATA.BARGRAPH
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 55
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+variables:
+  m: { type: int, range: [20, 100] }
+  g: { type: int, range: [4, 10] }
+
+constraints:
+  - "gcd(m, g) == g"
+  - "m > g"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A bar graph needs {{g}} gridlines on its vertical axis to reach a tallest value of exactly {{m}} units at the top gridline. What value should each gridline represent?"
+
+answer: "m / g"
+
+distractors:
+  - expr: "m"
+    misconception_id: MISC.DATA.SCALE-IGNORED
+  - expr: "m - g"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The top gridline must show the full value, {{m}}, spread evenly over {{g}} gridlines."
+      - "Divide the tallest value by the number of gridlines: {{m}} / {{g}}."
+
+hints_i18n:
+  en-IN:
+    - "The scale is the value of one gridline, not the whole axis."
+    - "Divide the total value by the number of gridlines to find the scale."
+
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

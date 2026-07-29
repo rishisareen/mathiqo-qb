@@ -35,9 +35,13 @@ Verdicts (CLI exit codes):
                                 above 30% — heavy dropping silently skews the
                                 variant distribution (§3 Stage 3)
 
-Language-level-vs-grade and embedding duplicate detection are also listed
-under §3 Stage 3 but are out of scope for v1; see the stub hooks at the
-bottom of this file.
+Language-level-vs-grade detection is out of scope for v1 (see the stub hook
+near the bottom of this file). Embedding-based duplicate detection (KTD2) IS
+implemented, but deliberately not as a literal embedding index: this repo
+has zero ML dependencies, so the duplicate gate is deterministic composite
+text-similarity — the same SequenceMatcher-at-0.85 convention
+tools/graph_lint.py:68-71 already uses as the sanctioned stand-in for this
+exact design-doc §3 check. See ``check_embedding_duplicates`` below.
 """
 
 from __future__ import annotations
@@ -47,6 +51,7 @@ import json
 import re
 import sys
 from dataclasses import asdict, dataclass, field
+from difflib import SequenceMatcher
 from functools import lru_cache
 from itertools import product
 from pathlib import Path
@@ -392,8 +397,21 @@ def build_domains(template: Mapping[str, object]) -> dict[str, list[int]]:
     return domains
 
 
-def verify_template(template: Mapping[str, object]) -> VerifyReport:
-    """Run the full Stage 3 gate on an already schema-valid template dict."""
+def verify_template(
+    template: Mapping[str, object],
+    corpus: Iterable[Mapping[str, object]] = (),
+) -> VerifyReport:
+    """Run the full Stage 3 gate on an already schema-valid template dict.
+
+    ``corpus`` is the bank of other templates to check for near-duplicates
+    against (KTD2's ``check_embedding_duplicates``) — e.g. every other
+    template in the same ``--templates-dir`` walk, or the ``--corpus`` CLI
+    flag's directory. Default ``()`` (no corpus) preserves exact prior
+    behavior for every existing caller that verifies a single template in
+    isolation: the embedding-duplicate check is skipped (listed in
+    ``skipped_checks``, matching the pre-KTD2 stub's always-empty result)
+    rather than silently running against nothing.
+    """
     template_id = str(template["template_id"])
     domains = build_domains(template)
     var_names = tuple(domains)
@@ -453,6 +471,17 @@ def verify_template(template: Mapping[str, object]) -> VerifyReport:
             "variant distribution"
         )
 
+    skipped_checks = ["language_level_vs_grade"]
+    corpus_list = list(corpus)
+    if corpus_list:
+        reasons.extend(check_embedding_duplicates(template, corpus_list))
+    else:
+        # No corpus supplied (default single-template call) — same
+        # back-compat stub result as before KTD2, not "ran and found
+        # nothing" (an empty --corpus dir would be a different, deliberate
+        # case a caller doesn't hit via the default).
+        skipped_checks.append("embedding_duplicates")
+
     return VerifyReport(
         template_id=template_id,
         total_combos=total,
@@ -464,7 +493,7 @@ def verify_template(template: Mapping[str, object]) -> VerifyReport:
         collision_rate=round(collision_rate, 6),
         verdict=FLAGGED if reasons else PASS,
         reasons=reasons,
-        skipped_checks=["language_level_vs_grade", "embedding_duplicates"],
+        skipped_checks=skipped_checks,
     )
 
 
@@ -479,18 +508,172 @@ def check_language_level_vs_grade(template: Mapping[str, object]) -> list[str]:
     return []
 
 
+# KTD2: deterministic composite text-similarity is the sanctioned stand-in
+# for the design doc's §3 embedding-duplicate check (this repo has zero ML
+# dependencies) — same SequenceMatcher-at-0.85 convention graph_lint.py:71
+# already established for near-duplicate skill names.
+EMBEDDING_DUP_STEM_THRESHOLD = 0.85
+
+_STEM_SLOT_TOKEN = "@@slot@@"  # collapses every {{name}} to one token
+
+
+def _stem_locale_text(template: Mapping[str, object]) -> str | None:
+    """The stem text of some declared locale — "en-IN" preferred, else the
+    lexicographically first locale present (deterministic when it isn't)."""
+    stem_i18n = template.get("stem_i18n")
+    if not isinstance(stem_i18n, Mapping) or not stem_i18n:
+        return None
+    if "en-IN" in stem_i18n:
+        return str(stem_i18n["en-IN"])
+    return str(stem_i18n[sorted(stem_i18n)[0]])
+
+
+def _normalized_stem(template: Mapping[str, object]) -> str | None:
+    """Lowercased stem text with every ``{{slot}}`` — variable or
+    localization slot alike — canonicalized to one placeholder token, so two
+    templates with the same stem *shape* but different slot names compare
+    equal: ``"{{a}}/{{b}} + {{c}}/{{b}}"`` and ``"{{x}}/{{y}} + {{z}}/{{y}}"``
+    both normalize to the identical token sequence (KTD2)."""
+    text = _stem_locale_text(template)
+    if text is None:
+        return None
+    collapsed = _SLOT_RE.sub(_STEM_SLOT_TOKEN, text.lower())
+    return re.sub(r"\s+", " ", collapsed).strip()
+
+
+def _canonical_answer(template: Mapping[str, object]) -> str | None:
+    """Sympy-simplified answer expression, with its free symbols alpha-
+    renamed (name-sorted -> ``_v0``, ``_v1``, ...) so two templates whose
+    answer is the same formula shape under different variable *names*
+    compare equal — mirroring ``_normalized_stem``'s slot canonicalization.
+    Parses via this module's own AST-based ``_parse`` (never a fresh unsafe
+    eval, per KTD2). Returns ``None`` rather than raising when a template
+    can't supply one (missing/malformed fields, unparseable expression) —
+    this hook must never HARD_FAIL a template on account of a *different*
+    template's malformed corpus entry; an unparseable case just drops out of
+    duplicate comparison instead of participating."""
+    variables = template.get("variables")
+    answer = template.get("answer")
+    if not isinstance(variables, Mapping) or not isinstance(answer, str):
+        return None
+    var_names = tuple(sorted(variables))
+    try:
+        parsed = _materialize(_parse(answer, var_names))
+        symbols = sorted(parsed.free_symbols, key=lambda s: s.name)
+        renamed = parsed.subs({s: sympy.Symbol(f"_v{i}") for i, s in enumerate(symbols)})
+        simplified = sympy.simplify(renamed)
+    except Exception:
+        return None
+    return str(simplified)
+
+
 def check_embedding_duplicates(
     template: Mapping[str, object], bank: Iterable[Mapping[str, object]] = ()
 ) -> list[str]:
-    """Stub. §3 Stage 3 lists embedding-based duplicate detection of near-
-    identical templates already in the bank; needs the embedding index from
-    Stage 5 infrastructure. Returns findings; always empty until implemented."""
-    return []
+    """§3 Stage 3 near-duplicate-template detection (KTD2).
+
+    Flags a corpus entry when its normalized stem shape is highly similar
+    (``SequenceMatcher`` ratio >= ``EMBEDDING_DUP_STEM_THRESHOLD``, matching
+    graph_lint.py's 0.85 convention), its canonical (sympy-simplified,
+    symbol-renamed) answer expression matches exactly, AND its
+    ``question_type`` matches. That combination catches genuine
+    near-duplicates (same shape, same answer structure, same served format)
+    without false-positiving on two deliberately-real patterns confirmed
+    against the actual content/templates/ corpus while tuning this check:
+      - legitimate tier siblings — same skill, different stem wording/
+        numbers, different difficulty band — whose stems are not actually
+        similar once slots are canonicalized (stem-similarity gate handles
+        this on its own);
+      - deliberate certification-format pairs — e.g.
+        TPL.FRAC.DIV.FRAC.DIRECT.001 (mcq_4) and TPL.FRAC.DIV.FRAC.NUM.001
+        (numeric_entry): same skill, same stem, same answer, promoted on
+        purpose to serve the identical math in both a guessable and a
+        low-guess format (student-model doc §7). Without the
+        question_type gate these are text-identical and would always
+        flag; requiring a matching question_type is what tells a real
+        near-duplicate apart from an intentional format twin.
+
+    ``skill_ids`` overlap is reported inside the finding text as corroborating
+    context but is deliberately NOT a required gate: an identical stem shape
+    with a matching answer and question_type under a *different* skill_id is
+    still flagged (catches mis-tagged copies) rather than waved through for
+    lacking skill overlap.
+
+    Returns findings (never raises) — template_id of the colliding bank
+    entry plus why. ``verify_template`` folds these into ``reasons`` and the
+    verdict becomes FLAGGED_FOR_REGENERATION, never a hard refusal: Stage 4
+    human review adjudicates every finding (KTD2)."""
+    my_id = template.get("template_id")
+    my_stem = _normalized_stem(template)
+    my_answer = _canonical_answer(template)
+    if my_stem is None or my_answer is None:
+        return []
+    my_skills = set(template.get("skill_ids") or [])
+    my_question_type = template.get("question_type")
+
+    findings: list[str] = []
+    for other in bank:
+        other_id = other.get("template_id")
+        if other_id == my_id:
+            continue
+        if other.get("question_type") != my_question_type:
+            continue
+        other_stem = _normalized_stem(other)
+        other_answer = _canonical_answer(other)
+        if other_stem is None or other_answer is None:
+            continue
+        if other_answer != my_answer:
+            continue
+        ratio = SequenceMatcher(None, my_stem, other_stem).ratio()
+        if ratio < EMBEDDING_DUP_STEM_THRESHOLD:
+            continue
+        skill_overlap = bool(my_skills & set(other.get("skill_ids") or []))
+        note = "" if skill_overlap else " — DIFFERENT skill_ids, possible mis-tagged copy"
+        findings.append(
+            f"{my_id} is a near-duplicate of {other_id}: normalized-stem similarity "
+            f"{ratio:.2%} >= {EMBEDDING_DUP_STEM_THRESHOLD:.0%} with a matching canonical "
+            f"answer expression and question_type{note}"
+        )
+    return findings
 
 
 # ---------------------------------------------------------------------------
 # CLI
 # ---------------------------------------------------------------------------
+
+def load_corpus(corpus_dir: Path, exclude_path: Path) -> list[dict]:
+    """Every other template YAML in ``corpus_dir``, as the duplicate-
+    detection corpus for the ``--corpus`` flag (KTD2) — excludes the
+    template under test itself, matched first by resolved path (the common
+    case: the template under test lives inside ``corpus_dir``) and also by
+    ``template_id`` (a copy of it at a different path shouldn't self-flag
+    either). A corpus entry that isn't valid YAML or isn't a mapping is
+    skipped rather than hard-failing the whole run — a malformed *other*
+    file shouldn't block verifying the template actually under test."""
+    exclude_resolved = exclude_path.resolve()
+    exclude_id = None
+    try:
+        loaded = yaml.safe_load(exclude_path.read_text(encoding="utf-8"))
+        if isinstance(loaded, dict):
+            exclude_id = loaded.get("template_id")
+    except (OSError, yaml.YAMLError):
+        pass
+
+    corpus: list[dict] = []
+    for path in sorted(corpus_dir.glob("*.yaml")) + sorted(corpus_dir.glob("*.yml")):
+        if path.resolve() == exclude_resolved:
+            continue
+        try:
+            data = yaml.safe_load(path.read_text(encoding="utf-8"))
+        except yaml.YAMLError:
+            continue
+        if not isinstance(data, dict):
+            continue
+        if exclude_id is not None and data.get("template_id") == exclude_id:
+            continue
+        corpus.append(data)
+    return corpus
+
 
 def _print_summary(report: VerifyReport) -> None:
     print(f"{report.template_id} — Stage 3 verification")
@@ -512,11 +695,17 @@ def main(argv: list[str] | None = None) -> int:
     parser = argparse.ArgumentParser(description=__doc__.splitlines()[0])
     parser.add_argument("template", type=Path, help="path to the item template YAML")
     parser.add_argument("--report", type=Path, help="optional path to write a JSON report")
+    parser.add_argument(
+        "--corpus", type=Path,
+        help="dir of other template YAMLs to check for near-duplicates against "
+        "(§3 Stage 3 embedding-duplicate check, KTD2); omit to skip that check",
+    )
     args = parser.parse_args(argv)
 
     try:
         template = load_template(args.template)
-        report = verify_template(template)
+        corpus = load_corpus(args.corpus, args.template) if args.corpus else ()
+        report = verify_template(template, corpus)
     except HardFail as exc:
         print(f"HARD_FAIL: {exc}")
         if args.report:

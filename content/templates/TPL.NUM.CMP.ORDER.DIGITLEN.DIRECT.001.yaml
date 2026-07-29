@@ -1,0 +1,53 @@
+# Class 6 servable coverage plan, U4. NUM.CMP.ORDER: comparing two numbers
+# with different digit counts — the classic setup for
+# MISC.NUM.FIRST-DIGIT-CMP ("91 > 234 because 9 > 2").
+template_id: TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001
+skill_ids:
+  - NUM.CMP.ORDER
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 20
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [50, 99] }
+  b: { type: int, range: [100, 149] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "Which number is greater: {{a}} or {{b}}?"
+localization_slots: []
+
+answer: "b"
+
+distractors:
+  - expr: "a"
+    misconception_id: MISC.NUM.FIRST-DIGIT-CMP
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "{{b}} has more digits than {{a}}, so it is the larger number regardless of the first digit."
+      - "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+
+hints_i18n:
+  en-IN:
+    - "Count the digits in each number first."
+    - "A number with more digits is always bigger, no matter what the first digit is."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -4,9 +4,11 @@
 # mapping rows for the existing FRAC.* nodes, which previously had only
 # the single FRAC.ADD.UNLIKE row (kept in mappings.yaml, not repeated
 # here). Stage 1 drafted 2026-07-28 via tools/stage1_draft.py (file
-# backend), syllabus examples/ncert-fractions-ganita-excerpt.txt
-# (illustrative, pending verification), accepted by graph_lint on first
-# attempt, promoted after review. Mixed/improper conversion stays inside
+# backend), syllabus examples/ncert-fractions-ganita-excerpt.txt, accepted
+# by graph_lint on first attempt, promoted after review; the Ch. 7 chapter
+# reference was verified against the published Ganita Prakash 6 table of
+# contents (Class 6 Servable Coverage plan, U1). Mixed/improper conversion
+# stays inside
 # FRAC.MIXED.ADD per the core doc's own §1.2a worked example.
 skills:
   - skill_id: FRAC.NUMLINE
@@ -131,7 +133,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
     unit_code: "IN-NCERT-G6-CH7"
-    unit_name: "Class 6, Ch. 7"
+    unit_name: "Fractions"
     learning_objective: >
       Places and reads fractions on the number line.
     exam_contexts: [SCHOOL_EXAM]
@@ -143,7 +145,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
     unit_code: "IN-NCERT-G6-CH7"
-    unit_name: "Class 6, Ch. 7"
+    unit_name: "Fractions"
     learning_objective: >
       Generates and recognises equivalent fractions.
     exam_contexts: [SCHOOL_EXAM]
@@ -155,7 +157,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
     unit_code: "IN-NCERT-G6-CH7"
-    unit_name: "Class 6, Ch. 7"
+    unit_name: "Fractions"
     learning_objective: >
       Compares and orders fractions.
     exam_contexts: [SCHOOL_EXAM]
@@ -167,7 +169,7 @@ mappings:
     depth_expectation: easy
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
     unit_code: "IN-NCERT-G6-CH7"
-    unit_name: "Class 6, Ch. 7"
+    unit_name: "Fractions"
     learning_objective: >
       Expresses a fraction in lowest form.
     exam_contexts: [SCHOOL_EXAM]
@@ -181,7 +183,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
     unit_code: "IN-NCERT-G6-CH7"
-    unit_name: "Class 6, Ch. 7"
+    unit_name: "Fractions"
     learning_objective: >
       Adds and subtracts fractions with like denominators.
     exam_contexts: [SCHOOL_EXAM]
@@ -193,7 +195,7 @@ mappings:
     depth_expectation: easy
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 7"
     unit_code: "IN-NCERT-G6-CH7"
-    unit_name: "Class 6, Ch. 7"
+    unit_name: "Fractions"
     learning_objective: >
       Expresses improper fractions as mixed numbers and vice versa;
       begins adding and subtracting such fractions.

@@ -1,0 +1,61 @@
+# Class 6 Servable Coverage plan, U6: GEO.ANGLE.MEASURE authoring batch.
+# Drawing-verification style (brief's second suggested pattern): a correctly
+# drawn angle should read its own value on a correctly-placed protractor;
+# the MISC.GEO.PROTRACTOR-WRONG-SCALE distractor is the outer-scale misread
+# of that same correctly-drawn angle.
+template_id: TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001
+skill_ids:
+  - GEO.ANGLE.MEASURE
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  n: { type: int, range: [15, 165] }
+constraints:
+  - "n != 90"
+  - "n != 85"
+  - "n != 95"
+
+stem_i18n:
+  en-IN: "{{name1}} draws an angle of exactly {{n}} degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?"
+localization_slots:
+  - name1
+
+answer: "n"
+
+distractors:
+  - expr: "180 - n"
+    misconception_id: MISC.GEO.PROTRACTOR-WRONG-SCALE
+  - expr: "n + 10"
+    misconception_id: null
+  - expr: "n - 10"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value."
+      - "The classmate's protractor should read {{n}} degrees, the same as the angle {{name1}} drew."
+
+hints_i18n:
+  en-IN:
+    - "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn."
+    - "Watch out for reading the wrong scale — that would give 180 minus the true value instead."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

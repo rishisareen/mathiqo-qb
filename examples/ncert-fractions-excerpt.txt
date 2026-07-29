@@ -1,10 +1,16 @@
-# PLACEHOLDER — replace with the real NCERT chapter text before a genuine
-# Stage 1 drafting run. Drafts are only as verifiable as this input: the
-# mapping prompt forbids grade placements that are not supported by the text
-# below, so a placeholder yields a placeholder mapping.
+# SUPERSEDED for NCERT mapping purposes by
+# examples/ncert-fractions-ganita-excerpt.txt (which reflects the current
+# Ganita Prakash / Maths Mela series); kept here only as the original Stage
+# 1 drafting fixture (tools/stage1_draft.py, tests/test_stage1_draft.py).
+# Its Class 6 line below was cross-checked during the Class 6 Servable
+# Coverage plan (U1, 2026-07-29) against NCERT's official Ganita Prakash
+# Grade 6 table of contents (ncert.nic.in/textbook/pdf/fegp1ps.pdf) —
+# Chapter 7 is indeed "Fractions" — but this file's Class 7 line reflects
+# the pre-NEP "Fractions and Decimals" chapter title, not the current
+# Ganita Prakash 7 title; see ncert-fractions-ganita-excerpt.txt for the
+# current series' Class 7 reference.
 #
-# Representative syllabus-style excerpt (Class 5–6, fractions), illustrative
-# only:
+# Representative syllabus-style excerpt (Class 5-6, fractions):
 #
 # Class 5, Maths, Ch. 4 (Parts and Wholes): identifies and represents halves,
 # thirds, quarters and other unit fractions of a whole and of a set; compares

@@ -1,0 +1,55 @@
+# Class 6 servable coverage plan, U7. INT.CMP.ORDER: comparing two negative
+# integers directly. Disjoint ranges (a in [-5,-1], b in [-9,-6]) guarantee
+# a is always the one closer to zero (the true greater value) with zero
+# rejection, while b always has the bigger digit magnitude, so the "b"
+# distractor exactly reproduces MISC.INT.BIGGER-ABS ("-5 > -2 because 5 > 2").
+template_id: TPL.INT.CMP.ORDER.NEGNEG.DIRECT.001
+skill_ids:
+  - INT.CMP.ORDER
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: easy
+estimated_time_sec: 20
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [-5, -1] }
+  b: { type: int, range: [-9, -6] }
+
+constraints: []
+
+stem_i18n:
+  en-IN: "Out of the two integers {{a}} and {{b}}, which one is bigger?"
+localization_slots: []
+
+answer: "a"
+
+distractors:
+  - expr: "b"
+    misconception_id: MISC.INT.BIGGER-ABS
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "On the number line, {{a}} sits closer to zero than {{b}} does."
+      - "The integer closer to zero is the greater one, so {{a}} is greater even though its digit may look smaller."
+
+hints_i18n:
+  en-IN:
+    - "Picture both numbers on the number line — which one sits further to the right?"
+    - "For negative numbers, the one closer to zero is the greater one, even if it looks smaller by its digit."
+
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

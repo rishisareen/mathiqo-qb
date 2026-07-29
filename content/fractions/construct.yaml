@@ -1,8 +1,10 @@
 # Constructions strand (GEOMETRY.CONSTRUCT) — Ganita Prakash Class 6 Ch. 8
 # (Playing with Constructions). Stage 1 drafted 2026-07-28 via
 # tools/stage1_draft.py (file backend), syllabus
-# examples/ncert-geometry-excerpt.txt (illustrative, pending verification),
-# accepted by graph_lint on first attempt, promoted after review.
+# examples/ncert-geometry-excerpt.txt, accepted by graph_lint on first
+# attempt, promoted after review; the Ch. 8 chapter reference was verified
+# against the published Ganita Prakash 6 table of contents (Class 6
+# Servable Coverage plan, U1).
 skills:
   - skill_id: GEO.CIRCLE.PARTS
     name: "Circles: centre, radius and diameter"
@@ -28,10 +30,23 @@ skills:
       - GEO.POINT.LINE
       - GEO.CIRCLE.PARTS
       - GEO.POLYGON.PROPS
-    misconceptions: []
+    # MISC.GEO.CONSTRUCT.COMPASS-SLIP added 2026-07-29 (Class 6 Servable
+    # Coverage plan, U3): diagnosed here (own core procedure).
+    misconceptions:
+      - MISC.GEO.CONSTRUCT.COMPASS-SLIP
 
 
 misconceptions:
+  - misconception_id: MISC.GEO.CONSTRUCT.COMPASS-SLIP
+    belief: "The compass opening doesn't need to stay fixed while marking off equal lengths"
+    signature_error: "Constructing a square of side 4 cm by walking the compass around to mark each side, the opening drifts between arcs, so the four sides come out as 4 cm, 4.3 cm, 3.6 cm and 4 cm instead of all equal"
+    remediation_target: GEO.CONSTRUCT.BASIC
+    remediation_asset: "micro-explainers/MISC.GEO.CONSTRUCT.COMPASS-SLIP.v1"
+    parent_summary_i18n:
+      en-IN: "{{name}}'s compass opening sometimes shifts partway through a construction, so sides meant to be equal come out slightly different lengths — locking the screw and checking the opening against the ruler before each arc fixes this."
+    child_feedback_i18n:
+      en-IN: "Your sides came out different lengths because the compass opening moved between arcs. Once you set the compass to a length, don't touch the opening again until you're done — check it against your ruler before you start."
+
   - misconception_id: MISC.GEO.RADIUS-DIAMETER-SWAP
     belief: "Radius and diameter are interchangeable names for the width of a circle"
     signature_error: "Asked to draw a circle of radius 4 cm, sets the compass to 8 cm (or reports the diameter when asked for the radius)"
@@ -61,7 +76,7 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 8"
     unit_code: "IN-NCERT-G6-CH8"
-    unit_name: "Class 6, Ch. 8"
+    unit_name: "Playing with Constructions"
     learning_objective: >
       Uses a ruler and compass to draw circles of a given radius,
       identifying the centre, radius and diameter.
@@ -74,11 +89,13 @@ mappings:
     depth_expectation: medium
     syllabus_ref: "Class 6, Maths (Ganita Prakash), Ch. 8"
     unit_code: "IN-NCERT-G6-CH8"
-    unit_name: "Class 6, Ch. 8"
+    unit_name: "Playing with Constructions"
     learning_objective: >
-      Constructs squares and rectangles of given side lengths; creates
-      and reasons about figures and curve-based art built from circles
-      and line segments.
+      Recognises the geometric properties a correct ruler-and-compass
+      construction preserves — equal side lengths and right-angle corners
+      in squares and rectangles, and the fixed-distance-from-centre
+      property of circle-based figures — and reasons about those
+      properties without requiring physical construction.
     exam_contexts: [SCHOOL_EXAM]
     pedagogy_notes: >
       Construction is taught through exploratory drawing and art, not

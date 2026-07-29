@@ -1,0 +1,67 @@
+# U6 authoring increment (Class 6 Ch. 9 Symmetry), drafted 2026-07-29.
+# Named-shape stem: triangle ABC with two equal sides and a distinct base,
+# explicitly isosceles-not-equilateral. Distractors probe confusing this
+# with an equilateral triangle's 3 lines, or under/over-counting.
+template_id: TPL.GEO.SYM.LINE.ISOSCELES-TRI.001
+skill_ids:
+- GEO.SYM.LINE
+question_type: mcq_4
+cognitive_level: conceptual
+difficulty_prior: medium
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: true
+context_tags:
+- shapes
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  p:
+    type: int
+    range:
+    - 4
+    - 10
+  q:
+    type: int
+    range:
+    - 3
+    - 9
+constraints:
+- p != q
+- 2*p > q
+localization_slots: []
+stem_i18n:
+  en-IN: Triangle ABC has AB = AC = {{p}} cm and BC = {{q}} cm, with AB not
+    equal to BC (so ABC is isosceles but not equilateral). How many lines of
+    symmetry does it have?
+answer: '1'
+distractors:
+- expr: '3'
+  misconception_id: null
+- expr: '0'
+  misconception_id: null
+- expr: '2'
+  misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Triangle ABC has two equal sides (AB = AC) but its third side BC is
+      different, so it is isosceles, not equilateral.
+    - It has exactly one line of symmetry — the line from A to the midpoint of
+      BC.
+    - An equilateral triangle would have 3 lines of symmetry, but here the
+      sides are not all equal, so only one fold line works.
+hints_i18n:
+  en-IN:
+  - Which vertex sits between the two equal sides?
+  - Only the fold line through that vertex and the midpoint of the opposite
+    side makes the two halves match.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

@@ -1,0 +1,57 @@
+# U4 tier top-up (2026-07-29): FRAC.UNIT hard band. Extends the single-step
+# "1/b of a number is q, find the number" reasoning in
+# TPL.FRAC.UNIT.WHOLE.001 into a two-step chain: recover the whole from one
+# unit fraction, then take a *different* unit fraction of that same whole —
+# deeper unit-fraction reasoning than either existing easy-band template.
+template_id: TPL.FRAC.UNIT.WHOLE.HARD.001
+skill_ids:
+  - FRAC.UNIT
+question_type: numeric_entry
+cognitive_level: application
+difficulty_prior: hard
+difficulty: 0.8
+estimated_time_sec: 55
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - food
+exam_contexts:
+  - SCHOOL_EXAM
+variables:
+  q:
+    type: int
+    range: [2, 6]
+  b:
+    type: int
+    range: [2, 4]
+  c:
+    type: int
+    range: [5, 7]
+constraints: []
+localization_slots: []
+stem_i18n:
+  en-IN: "1/{{b}} of a number is {{q}}. What is 1/{{c}} of the same number?"
+answer: "simplify(q * b / c)"
+distractors:
+  - expr: "q * c / b"
+    misconception_id: null
+  - expr: "q * b * c"
+    misconception_id: MISC.FRAC.BIGGER-DENOM
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "First find the whole number: since 1/{{b}} of it is {{q}}, the whole is {{b}} times as much."
+      - "The whole number is {{q}} x {{b}}."
+      - "Now find 1/{{c}} of that same whole: divide the whole by {{c}}."
+hints_i18n:
+  en-IN:
+    - "Work out the whole number first, then take the new fraction of it."
+    - "Multiply by the first denominator to undo it, then divide by the second denominator."
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

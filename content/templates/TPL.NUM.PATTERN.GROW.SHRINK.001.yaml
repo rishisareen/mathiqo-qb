@@ -1,0 +1,69 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Reducing pattern: the values still increase, but the jump between them
+# gets smaller each time (constant second difference, negative) — e.g.
+# 5, 9, 12, 14 with jumps 4, 3, 2. Same equality-constrained construction as
+# TPL.NUM.PATTERN.GROW.NEXT.001 (see that file's header), with the jump
+# inequality flipped to force strictly shrinking (rather than growing) jumps.
+# The extrapolation formula 3*t4-3*t3+t2 is direction-agnostic — it is
+# exactly the constant-second-difference continuation regardless of whether
+# the jumps are growing or shrinking. MISC.NUM.PATTERN-CONSTANT-DIFF still
+# applies: assuming the last (smallest) jump repeats is still wrong here.
+template_id: TPL.NUM.PATTERN.GROW.SHRINK.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PATTERN.EXTEND
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 50
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  t1: { type: int, range: [5, 10] }
+  t2: { type: int, range: [11, 18] }
+  t3: { type: int, range: [15, 23] }
+  t4: { type: int, range: [18, 27] }
+
+constraints:
+  - "t4 - 2 * t3 + t2 == t3 - 2 * t2 + t1"
+  - "(t2 - t1) > (t3 - t2)"
+  - "(t3 - t2) > (t4 - t3)"
+  - "(t4 - t3) >= 1"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "Look at this number pattern: {{t1}}, {{t2}}, {{t3}}, {{t4}}, .... What is the next number?"
+
+answer: "3 * t4 - 3 * t3 + t2"
+
+distractors:
+  - expr: "2 * t4 - t3"
+    misconception_id: MISC.NUM.PATTERN-CONSTANT-DIFF
+  - expr: "t4 - (t3 - t2)"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Find the jump between each pair of numbers: {{t2}}-{{t1}}, {{t3}}-{{t2}}, {{t4}}-{{t3}}."
+      - "Notice the jumps are getting smaller by the same amount each time."
+      - "Work out the next jump by continuing that shrinking pattern, then add it to {{t4}}."
+
+hints_i18n:
+  en-IN:
+    - "Look at the jumps between the numbers — are they staying the same size, or getting smaller each time?"
+    - "The jumps shrink by a fixed amount each step — find the next jump before adding it to {{t4}}."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

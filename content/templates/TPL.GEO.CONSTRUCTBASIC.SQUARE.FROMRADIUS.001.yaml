@@ -1,0 +1,52 @@
+# Class 6 Servable Coverage plan, U6: GEO.CONSTRUCT.BASIC authoring batch.
+# Combines a circle-based length with a fixed-compass square construction
+# (skill description: "figures ... built from circles and line segments").
+# Same 4*r canonical formula as TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001
+# but numeric_entry, so the near-duplicate gate never compares them
+# (matching convention already used elsewhere in this corpus).
+template_id: TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001
+skill_ids:
+  - GEO.CONSTRUCT.BASIC
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: true
+context_tags:
+  - school
+
+variables:
+  r: { type: int, range: [3, 20] }
+constraints: []
+
+stem_i18n:
+  en-IN: "A circle has radius {{r}} cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed {{r}} cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?"
+localization_slots: []
+
+answer: "4 * r"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Each side of the square equals the fixed compass opening: {{r}} cm."
+      - "Perimeter = 4 x {{r}} cm."
+
+hints_i18n:
+  en-IN:
+    - "All four sides of a correctly constructed square are equal to the compass opening used."
+    - "Multiply the side length by 4."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,62 @@
+# Class 6 Servable Coverage plan, U4: GEO.POLYGON.PROPS depth batch.
+# Answer is a count of equal-length side PAIRS (2), deliberately a different
+# fact/answer from TPL.GEO.POLYGONPROPS.CLASSIFY.SQUARE.001's right-angle
+# count (4), so the two "how many..." classification items can't collide on
+# the near-duplicate gate (U2) regardless of stem wording.
+template_id: TPL.GEO.POLYGONPROPS.CLASSIFY.RECTANGLE.001
+skill_ids:
+  - GEO.POLYGON.PROPS
+question_type: mcq_4
+cognitive_level: recall
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+variables:
+  a:
+    type: int
+    range: [2, 6]
+  b:
+    type: int
+    range: [7, 11]
+constraints: []
+
+stem_i18n:
+  en-IN: "A rectangle has one pair of sides {{a}} cm long and the other pair {{b}} cm long — the two pairs are different lengths, so it isn't a square. How many pairs of equal-length sides does it have in total?"
+localization_slots: []
+
+answer: "2"
+
+distractors:
+  - expr: "4"
+    misconception_id: null
+  - expr: "1"
+    misconception_id: null
+  - expr: "0"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The {{a}} cm sides are opposite each other, and so are the {{b}} cm sides."
+      - "That's one pair of equal {{a}} cm sides and one pair of equal {{b}} cm sides — 2 pairs in total."
+
+hints_i18n:
+  en-IN:
+    - "Which sides are opposite each other, and are those opposite sides equal?"
+    - "Count the matching pairs, not the individual sides."
+
+difficulty: 0.2
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

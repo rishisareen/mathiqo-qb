@@ -1,0 +1,66 @@
+# Authored 2026-07-29 (Class 6 servable coverage, Implementation Unit U5).
+# NUM.ESTIMATE — estimating a sum by rounding both addends to the nearest
+# 10 before adding, per the "estimate before computing" strand of this
+# skill. Both addends use the tens/ones split (ones in [1,4], round-down,
+# zero rejection) so the item stays purely about the estimation step rather
+# than about direction judgement (already covered by the ROUND10 pair).
+# ones is restricted to [1,4] rather than [0,4] specifically so the "exact
+# sum" distractor can never collide with the rounded-sum answer (a zero
+# ones digit on both addends would make the two coincide).
+template_id: TPL.NUM.ESTIMATE.SUM.ROUND10.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.ESTIMATE
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a_tens: { type: int, range: [1, 8] }
+  a_ones: { type: int, range: [1, 4] }
+  b_tens: { type: int, range: [1, 8] }
+  b_ones: { type: int, range: [1, 4] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "One box has 10 x {{a_tens}} + {{a_ones}} pencils and another box has 10 x {{b_tens}} + {{b_ones}} pencils. Round each amount to the nearest 10, then estimate the total."
+
+answer: "10 * a_tens + 10 * b_tens"
+
+distractors:
+  - expr: "10 * a_tens + a_ones + 10 * b_tens + b_ones"
+    misconception_id: null
+  - expr: "10 * a_tens + a_ones + 10 * b_tens"
+    misconception_id: null
+  - expr: "10 * (a_tens + 1) + 10 * (b_tens + 1)"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Round the first amount to the nearest 10: 10 x {{a_tens}}."
+      - "Round the second amount to the nearest 10: 10 x {{b_tens}}."
+      - "Add the rounded amounts for the estimate."
+
+hints_i18n:
+  en-IN:
+    - "Round each number first — don't add the exact amounts."
+    - "Both ones digits here are below 5, so both round down."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

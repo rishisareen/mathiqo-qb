@@ -1,0 +1,63 @@
+# Authored 2026-07-29 (Class 6 servable coverage, Implementation Unit U5).
+# NUM.PRIME — direct "which of these is prime" identification. n is curated
+# to {2,3,5,7} (range [2,7] excluding 4 and 6), guaranteed prime by the
+# author, never tested at runtime. Distractors are fixed constants clear of
+# n's domain: 1 (MISC.NUM.ONE-IS-PRIME — a child who believes 1 is prime),
+# and 4, 9 (composite traps, untagged). 1, 4, 9 are all outside {2,3,5,7}
+# so none can ever collide with the answer n; 1, 4, 9 are also pairwise
+# distinct constants, so no distractor-distractor collision is possible.
+template_id: TPL.NUM.PRIME.IDENTIFY.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PRIME
+question_type: mcq_4
+cognitive_level: conceptual
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [2, 7] }
+
+constraints:
+  - "n != 4"
+  - "n != 6"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "Which of the following is a prime number?"
+
+answer: "n"
+
+distractors:
+  - expr: "1"
+    misconception_id: MISC.NUM.ONE-IS-PRIME
+  - expr: "4"
+    misconception_id: null
+  - expr: "9"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "{{n}} has exactly two factors: 1 and {{n}} itself."
+      - "That makes {{n}} prime."
+
+hints_i18n:
+  en-IN:
+    - "A prime number has exactly two different factors."
+    - "1 has only one factor, so it is not prime."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

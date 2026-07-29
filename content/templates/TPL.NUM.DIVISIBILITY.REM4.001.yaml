@@ -1,0 +1,46 @@
+template_id: TPL.NUM.DIVISIBILITY.REM4.001
+skill_ids:
+- NUM.DIVISIBILITY
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: medium
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- sports
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  n:
+    type: int
+    range:
+    - 20
+    - 199
+constraints:
+- n % 4 != n % 10
+localization_slots: []
+stem_i18n:
+  en-IN: What is the remainder when {{n}} is divided by 4?
+answer: n % 4
+distractors:
+- expr: n % 10
+  misconception_id: MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - The test for 4 needs more than just the last digit — look at the last two digits of {{n}}.
+    - Divide that two-digit number by 4; the remainder is the same as dividing {{n}} itself by 4.
+hints_i18n:
+  en-IN:
+  - Checking only the last digit works for tests of 2, 5 and 10, but not for 4.
+  - Look at the number formed by the last two digits of {{n}}.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

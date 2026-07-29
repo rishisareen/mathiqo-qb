@@ -1,0 +1,65 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). "How many groups of X fit in Y" WITH a leftover, hard band — the
+# correct answer here IS the quotient (full boxes only, remainder correctly
+# discarded), so MISC.NUM.DIV-REMAINDER-DROPPED does NOT apply as a
+# distractor (dropping the remainder is the right move for "how many full
+# boxes"); distractors instead target rounding up and reporting the raw
+# unsimplified fraction. Same q-pinned-by-double-inequality construction as
+# TPL.NUM.DIV.SHARE.REMAINDER.WORD.001 (see that file's header note on the
+# resulting elevated, tolerated rejection rate).
+template_id: TPL.NUM.DIV.GROUPSFIT.REMAINDER.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.DIV
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 60
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - food
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  a: { type: int, range: [15, 45] }
+  b: { type: int, range: [3, 7] }
+  q: { type: int, range: [2, 11] }
+
+constraints:
+  - "b * q <= a"
+  - "a < b * (q + 1)"
+  - "a - b * q >= 1"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "{{a}} mangoes need to be packed into boxes of {{b}} each. How many FULL boxes can be packed?"
+
+answer: "q"
+
+distractors:
+  - expr: "q + 1"
+    misconception_id: null
+  - expr: "a / b"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Divide {{a}} by {{b}}: find how many whole times {{b}} fits into {{a}}."
+      - "Any mangoes left over aren't enough for another full box, so they don't count as an extra box."
+
+hints_i18n:
+  en-IN:
+    - "Divide {{a}} by {{b}} and see how many whole groups you get."
+    - "A few leftover mangoes that don't fill a whole box don't count as a full box."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

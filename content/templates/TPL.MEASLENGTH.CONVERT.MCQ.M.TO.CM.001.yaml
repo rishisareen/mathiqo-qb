@@ -1,0 +1,59 @@
+# Class 6 Servable Coverage plan, U4: MEAS.LENGTH.UNITS depth batch.
+# Deliberate certification-format twin of TPL.MEASLENGTH.CONVERT.M.TO.CM.001
+# (same skill/stem/answer, mcq_4 instead of numeric_entry) — student-model
+# doc §7 low-guess-vs-guessable pairing; the near-dup gate (U2) exempts
+# question_type twins on purpose.
+template_id: TPL.MEASLENGTH.CONVERT.MCQ.M.TO.CM.001
+skill_ids:
+  - MEAS.LENGTH.UNITS
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+
+variables:
+  m:
+    type: int
+    range: [1, 9]
+constraints: []
+
+stem_i18n:
+  en-IN: "A ribbon is {{m}} metres long. How many centimetres is that?"
+localization_slots: []
+
+answer: "m * 100"
+
+distractors:
+  - expr: "m * 10"
+    misconception_id: null
+  - expr: "m"
+    misconception_id: null
+  - expr: "m + 100"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "1 metre = 100 centimetres."
+      - "{{m}} x 100 = the ribbon's length in cm."
+
+hints_i18n:
+  en-IN:
+    - "How many centimetres make up 1 metre?"
+    - "Multiply, don't add — every whole metre is 100 cm."
+
+difficulty: 0.5
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+tts: false
+exam_contexts:
+  - SCHOOL_EXAM
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

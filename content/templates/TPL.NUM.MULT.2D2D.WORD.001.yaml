@@ -1,0 +1,62 @@
+# Stage 2 authored 2026-07-29 (Class 6 servable coverage, Implementation Unit
+# U4). Two-digit by two-digit word problem carrying MISC.NUM.MULT.NO-SHIFT in
+# a stadium-seating context — deliberately distinct stem shape from
+# TPL.NUM.MULT.2D2D.SHIFT.001 (multi-sentence word problem vs. a bare "x"
+# computation) even though both share the same underlying digit-decomposition
+# construction for the second (rows) factor.
+template_id: TPL.NUM.MULT.2D2D.WORD.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.MULT
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 95
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - sports
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  s: { type: int, range: [11, 29] }
+  rt: { type: int, range: [1, 9] }
+  ro: { type: int, range: [0, 9] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A stadium has {{rt}}{{ro}} rows of seats, with {{s}} seats in each row. How many seats are there in the stadium altogether?"
+
+answer: "s * (rt * 10 + ro)"
+
+distractors:
+  - expr: "s * ro + s * rt"
+    misconception_id: MISC.NUM.MULT.NO-SHIFT
+  - expr: "s + rt * 10 + ro"
+    misconception_id: null
+  - expr: "s * ro"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Split the number of rows, {{rt}}{{ro}}, into tens and ones: {{rt}} tens and {{ro}} ones."
+      - "Multiply {{s}} by the ones digit {{ro}}, and multiply {{s}} by the tens digit {{rt}} shifted one place left (that is, multiplied by 10)."
+      - "Add the two partial products to get the total number of seats."
+
+hints_i18n:
+  en-IN:
+    - "Break the number of rows into tens and ones before multiplying."
+    - "The tens-digit partial product is worth ten times as much — remember to shift it one place left before adding."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,52 @@
+template_id: TPL.NUM.PRIME.FACTORISATION.COUNT3.001
+skill_ids:
+- NUM.PRIME.FACTORISATION
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty_prior: medium
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- shapes
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  p:
+    type: int
+    range:
+    - 2
+    - 7
+  q:
+    type: int
+    range:
+    - 2
+    - 7
+constraints:
+- p != 4
+- p != 6
+- q != 4
+- q != 6
+- p != q
+localization_slots: []
+stem_i18n:
+  en-IN: A number is written as {{p}} x {{p}} x {{q}}, where {{p}} and {{q}} are different prime numbers. How many prime factors does the number have, counted with repetition?
+answer: '3'
+distractors: []
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Every factor in {{p}} x {{p}} x {{q}} is already prime, since {{p}} and {{q}} are prime.
+    - Counting with repetition, {{p}} appears twice and {{q}} appears once, giving 3 prime factors in total.
+hints_i18n:
+  en-IN:
+  - Count every factor in the product, including repeats of the same prime.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

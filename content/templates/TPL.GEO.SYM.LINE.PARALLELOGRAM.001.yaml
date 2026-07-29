@@ -1,0 +1,66 @@
+# U6 authoring increment (Class 6 Ch. 9 Symmetry), drafted 2026-07-29.
+# Named-shape stem: parallelogram WXYZ with unequal adjacent sides and no
+# right angle, so it is neither a rectangle nor a rhombus. Distractor 2
+# targets MISC.GEO.PARALLELOGRAM-LINE-SYM: wrongly claiming the diagonals
+# are lines of symmetry, when the matching halves actually come from
+# rotation, not reflection.
+template_id: TPL.GEO.SYM.LINE.PARALLELOGRAM.001
+skill_ids:
+- GEO.SYM.LINE
+question_type: mcq_4
+cognitive_level: conceptual
+difficulty_prior: medium
+estimated_time_sec: 40
+calculator_allowed: false
+diagram_required: true
+context_tags:
+- shapes
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  a:
+    type: int
+    range:
+    - 3
+    - 10
+  b:
+    type: int
+    range:
+    - 3
+    - 10
+constraints:
+- a != b
+localization_slots: []
+stem_i18n:
+  en-IN: Parallelogram WXYZ has WX = {{a}} cm and XY = {{b}} cm, with WX not
+    equal to XY, and none of its angles is a right angle. How many lines of
+    symmetry does it have?
+answer: '0'
+distractors:
+- expr: '2'
+  misconception_id: MISC.GEO.PARALLELOGRAM-LINE-SYM
+- expr: '1'
+  misconception_id: null
+- expr: '4'
+  misconception_id: null
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Try folding parallelogram WXYZ along either diagonal, WY or XZ — the two
+      halves do not land on top of each other.
+    - The two halves of a slanted parallelogram match only when you turn
+      (rotate) the shape, not when you fold it.
+    - So a parallelogram like this has 0 lines of symmetry.
+hints_i18n:
+  en-IN:
+  - Fold along each diagonal — do the corners line up exactly?
+  - Matching by turning the shape is not the same as matching by folding it.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'
