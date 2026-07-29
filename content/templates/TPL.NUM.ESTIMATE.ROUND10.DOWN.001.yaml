@@ -1,0 +1,60 @@
+# Authored 2026-07-29 (Class 6 servable coverage, Implementation Unit U5).
+# NUM.ESTIMATE, Ch. 3 "Number Play". Declares the number to be rounded via
+# its tens/ones split directly, with `ones` pre-restricted to [0,4] by the
+# variable's own range rather than a modulo constraint on a single "n"
+# variable — this keeps constraint-rejection at zero (no combo is ever
+# discarded) while still guaranteeing the round-down direction for every
+# variant, per the lesson-notes convention for this skill. Round-truncate
+# (MISC.NUM.ROUND-TRUNCATE) always rounds down, so it would coincide with
+# the correct answer on every round-down variant here — deliberately not
+# used as a distractor on this template; it is used on the round-up sibling
+# (TPL.NUM.ESTIMATE.ROUND10.UP.001) instead, where it actually diverges.
+template_id: TPL.NUM.ESTIMATE.ROUND10.DOWN.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.ESTIMATE
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  tens: { type: int, range: [10, 89] }
+  ones: { type: int, range: [0, 4] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A number has {{tens}} tens and {{ones}} ones. What is this number rounded to the nearest 10?"
+
+answer: "10 * tens"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The number is 10 x {{tens}} + {{ones}}."
+      - "Look at the ones digit, {{ones}}: it is less than 5, so round down."
+      - "Rounded to the nearest 10, the number is 10 x {{tens}}."
+
+hints_i18n:
+  en-IN:
+    - "Is the ones digit closer to 0 or to 10?"
+    - "A ones digit below 5 always rounds down."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

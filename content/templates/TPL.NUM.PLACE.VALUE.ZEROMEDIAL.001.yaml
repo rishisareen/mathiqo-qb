@@ -1,0 +1,58 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, U5). Forces a 0 in
+# the tens place (h hundreds, 0 tens, o ones) so the correct standard form
+# needs the placeholder zero written in — directly targets
+# MISC.NUM.ZERO-PLACEHOLDER, whose signature error is exactly "10*h + o"
+# (concatenating the nonzero digits and skipping the medial zero, e.g.
+# writing "three hundred five" as 35 instead of 305).
+template_id: TPL.NUM.PLACE.VALUE.ZEROMEDIAL.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PLACE.VALUE
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  h: { type: int, range: [1, 9] }
+  o: { type: int, range: [1, 9] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "Write the number that has {{h}} hundreds, 0 tens, and {{o}} ones, in standard form."
+
+answer: "100 * h + o"
+
+distractors:
+  - expr: "10 * h + o"
+    misconception_id: MISC.NUM.ZERO-PLACEHOLDER
+  - expr: "100 * h + 10 * o"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "There are {{h}} hundreds, 0 tens, and {{o}} ones — every place needs a digit, even the tens place with 0."
+      - "Writing the digits in order (hundreds, tens, ones) gives {{h}}0{{o}}, which is 100 x {{h}} + {{o}}."
+
+hints_i18n:
+  en-IN:
+    - "Don't skip the tens place just because it's 0 — every place still needs a digit written in."
+    - "The number has three digits: hundreds, tens, ones. The tens digit here is 0, so the number is {{h}}0{{o}}."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

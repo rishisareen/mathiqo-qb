@@ -1,0 +1,54 @@
+template_id: TPL.NUM.PRIME.FACTORISATION.COUNT2.MCQ.001
+skill_ids:
+- NUM.PRIME.FACTORISATION
+question_type: mcq_4
+cognitive_level: application
+difficulty_prior: easy
+estimated_time_sec: 35
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- sharing
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  p:
+    type: int
+    range:
+    - 2
+    - 7
+  q:
+    type: int
+    range:
+    - 2
+    - 7
+constraints:
+- p != 4
+- p != 6
+- q != 4
+- q != 6
+- p != q
+localization_slots: []
+stem_i18n:
+  en-IN: Meera says a certain number equals {{p}} x {{q}}, the product of two different prime numbers. How many prime factors does that number have?
+answer: '2'
+distractors:
+- expr: '1'
+  misconception_id: MISC.NUM.COMPOSITE-FACTORS-LEFT
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Do not treat {{p}} x {{q}} as a single un-broken-down chunk — check whether each factor is already prime.
+    - '{{p}} and {{q}} are both prime, so the product has 2 prime factors: {{p}} and {{q}}.'
+hints_i18n:
+  en-IN:
+  - The product has more than one prime factor — count each one separately.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.2
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

@@ -1,0 +1,62 @@
+# Authored 2026-07-29 (Class 6 servable coverage, Implementation Unit U5).
+# NUM.ESTIMATE round-up sibling of TPL.NUM.ESTIMATE.ROUND10.DOWN.001 — same
+# tens/ones declaration pattern, `ones` range [5,9] this time so every
+# variant genuinely rounds up (zero constraint-rejection). This is where
+# MISC.NUM.ROUND-TRUNCATE actually diverges from the correct answer (it
+# chops the ones digit off and always lands on 10*tens, one ten short of
+# the correct rounded-up value), so it is used here as a live distractor.
+template_id: TPL.NUM.ESTIMATE.ROUND10.UP.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.ESTIMATE
+question_type: mcq_4
+cognitive_level: procedural
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  tens: { type: int, range: [10, 89] }
+  ones: { type: int, range: [5, 9] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "Round the number 10 x {{tens}} + {{ones}} to the nearest 10."
+
+answer: "10 * tens + 10"
+
+distractors:
+  - expr: "10 * tens"
+    misconception_id: MISC.NUM.ROUND-TRUNCATE
+  - expr: "10 * tens + 20"
+    misconception_id: null
+  - expr: "10 * tens + ones + 10"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Look at the ones digit, {{ones}}: it is 5 or more, so round up."
+      - "Rounding up means moving to the next ten after {{tens}} tens."
+      - "The rounded number is 10 x ({{tens}} + 1)."
+
+hints_i18n:
+  en-IN:
+    - "A ones digit of 5 or more rounds up, not down."
+    - "Don't just chop off the ones digit — check which ten is nearer first."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

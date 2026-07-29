@@ -1,0 +1,59 @@
+# Authored 2026-07-29 (Class 6 servable coverage, Implementation Unit U5).
+# NUM.PRIME — companion to TPL.NUM.PRIME.COUNTLIST.001, asking for the
+# composite count in the same style of list instead of the prime count.
+# Same curated list {{n}}, 1, 4, 9 (n in {2,3,5,7}): the composite count is
+# always exactly 2 (just 4 and 9 — n is prime, 1 is neither), which
+# specifically exercises "why 1 is neither prime nor composite" from this
+# skill's description. Kept as a plain numeric_entry (no misconception
+# distractors attached to this one — COUNTLIST.001 already carries both
+# NUM.PRIME misconceptions) so the skill has >= 1 numeric_entry format.
+template_id: TPL.NUM.PRIME.COUNTLIST.COMPOSITE.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PRIME
+question_type: numeric_entry
+cognitive_level: conceptual
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [2, 7] }
+
+constraints:
+  - "n != 4"
+  - "n != 6"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "How many composite numbers are in this list: {{n}}, 1, 4, 9?"
+
+answer: "2"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "{{n}} is prime, so it is not composite."
+      - "1 is neither prime nor composite, so it does not count either."
+      - "4 and 9 are composite (4 = 2 x 2, 9 = 3 x 3), so the count is 2."
+
+hints_i18n:
+  en-IN:
+    - "A composite number has more than two factors."
+    - "1 is a special case — it is neither prime nor composite."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

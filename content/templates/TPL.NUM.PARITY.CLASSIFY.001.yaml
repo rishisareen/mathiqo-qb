@@ -1,0 +1,51 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, Implementation Unit
+# U5, Number-chapters authoring increment). Direct classification of a
+# number's parity as a numeric proxy (0 = even, 1 = odd) — the low-guess
+# numeric_entry certification format for NUM.PARITY (student-model doc §7).
+template_id: TPL.NUM.PARITY.CLASSIFY.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PARITY
+question_type: numeric_entry
+cognitive_level: recall
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 20
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [1, 98] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "Is {{n}} odd or even? Type 0 for even or 1 for odd."
+
+answer: "n % 2"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Try to split {{n}} into pairs. If nothing is left over, it is even (0); if one is left over, it is odd (1)."
+      - "Check the last digit of {{n}}: 0, 2, 4, 6, 8 mean even; 1, 3, 5, 7, 9 mean odd."
+
+hints_i18n:
+  en-IN:
+    - "Look at only the last digit of {{n}} — the rest of the number doesn't change whether it's odd or even."
+    - "If the last digit is 0, 2, 4, 6, or 8, the number is even. Otherwise it's odd."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

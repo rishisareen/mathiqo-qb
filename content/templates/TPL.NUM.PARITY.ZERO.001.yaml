@@ -1,0 +1,58 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, U5). Counts the even
+# numbers from 0 up to n inclusive, so the count only comes out right if the
+# learner treats 0 as even and includes it — directly targets
+# MISC.NUM.ZERO-PARITY (a learner who thinks 0 is neither odd nor even
+# leaves it out of the list and undercounts by one).
+template_id: TPL.NUM.PARITY.ZERO.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PARITY
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [10, 40] }
+
+constraints:
+  - "n % 2 == 0"
+
+localization_slots:
+  - name1
+stem_i18n:
+  en-IN: "{{name1}} lists every even number starting from 0 up to {{n}}: 0, 2, 4, 6, ..., {{n}}. How many even numbers are in {{name1}}'s list, counting 0?"
+
+answer: "(n / 2) + 1"
+
+distractors:
+  - expr: "n / 2"
+    misconception_id: MISC.NUM.ZERO-PARITY
+  - expr: "n"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The list is 0, 2, 4, ..., {{n}}, which has one more entry than just counting 2, 4, ..., {{n}} because 0 is also even and belongs in the list."
+      - "There are {{n}} / 2 even numbers from 2 to {{n}}, plus 1 more for 0, giving ({{n}} / 2) + 1."
+
+hints_i18n:
+  en-IN:
+    - "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even."
+    - "Don't forget to count 0 itself as one of the even numbers in the list."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

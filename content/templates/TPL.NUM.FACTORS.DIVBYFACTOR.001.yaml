@@ -1,0 +1,54 @@
+# Authored 2026-07-29 (Class 6 servable coverage, Implementation Unit U5).
+# NUM.FACTORS.MULTIPLES — the sibling factor-quotient item to
+# TPL.NUM.LCM.DIRECT.001's family: gcd(n,k) == k is the clean "k divides n
+# exactly" constraint (per U5 lesson notes), so n / k is guaranteed to be a
+# whole number for every surviving variant.
+template_id: TPL.NUM.FACTORS.DIVBYFACTOR.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.FACTORS.MULTIPLES
+question_type: numeric_entry
+cognitive_level: procedural
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 30
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [6, 60] }
+  k: { type: int, range: [2, 9] }
+
+constraints:
+  - "gcd(n, k) == k"
+  - "n > k"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "{{k}} is a factor of {{n}}. What is {{n}} divided by {{k}}?"
+
+answer: "n / k"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Since {{k}} is a factor of {{n}}, {{n}} divides by {{k}} exactly."
+      - "{{n}} divided by {{k}} gives a whole number with no remainder."
+
+hints_i18n:
+  en-IN:
+    - "Divide {{n}} by {{k}} — it should come out exactly, with nothing left over."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

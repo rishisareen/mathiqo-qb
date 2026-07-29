@@ -1,0 +1,46 @@
+template_id: TPL.NUM.DIVISIBILITY.REM8.001
+skill_ids:
+- NUM.DIVISIBILITY
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: hard
+estimated_time_sec: 50
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- travel
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  n:
+    type: int
+    range:
+    - 100
+    - 499
+constraints:
+- n % 8 != n % 10
+localization_slots: []
+stem_i18n:
+  en-IN: What is the remainder when {{n}} is divided by 8?
+answer: n % 8
+distractors:
+- expr: n % 10
+  misconception_id: MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - The shortcut of checking only the last digit does not work for 8.
+    - Look at the number formed by the last three digits of {{n}} and divide that by 8; the remainder matches the remainder of {{n}} itself.
+hints_i18n:
+  en-IN:
+  - The last-digit shortcut works for 2, 5 and 10 — but 8 needs more digits of the number examined.
+  - Try dividing the last three digits of {{n}} by 8.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.8
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

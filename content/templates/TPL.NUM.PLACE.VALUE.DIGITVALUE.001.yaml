@@ -1,0 +1,59 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, U5). Directly targets
+# MISC.NUM.PLACE-FACE-VALUE (treating a digit as its face value regardless
+# of place). t is kept in [1, 9] (not [0, 9]) so the face-value distractor
+# "t" never numerically coincides with the correct "10*t" (that only happens
+# at t = 0, which is excluded) — a real, not just coincidental, collision
+# would otherwise fire on every t = 0 variant.
+template_id: TPL.NUM.PLACE.VALUE.DIGITVALUE.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PLACE.VALUE
+question_type: mcq_4
+cognitive_level: recall
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  h: { type: int, range: [1, 9] }
+  t: { type: int, range: [1, 9] }
+  o: { type: int, range: [0, 9] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "In the number {{h}}{{t}}{{o}}, what is the value of the digit {{t}} (the tens digit)?"
+
+answer: "10 * t"
+
+distractors:
+  - expr: "t"
+    misconception_id: MISC.NUM.PLACE-FACE-VALUE
+  - expr: "100 * t"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The digit {{t}} sits in the tens place of {{h}}{{t}}{{o}}."
+      - "A digit's value is the digit times its place, so {{t}} in the tens place is worth {{t}} x 10."
+
+hints_i18n:
+  en-IN:
+    - "Which place does the digit {{t}} sit in — ones, tens, or hundreds?"
+    - "A digit's value is its face value multiplied by what its place is worth, not the face value alone."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

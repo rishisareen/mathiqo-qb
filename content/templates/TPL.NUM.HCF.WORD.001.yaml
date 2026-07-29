@@ -1,0 +1,48 @@
+template_id: TPL.NUM.HCF.WORD.001
+skill_ids:
+- NUM.HCF
+question_type: numeric_entry
+cognitive_level: application
+difficulty_prior: medium
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- sharing
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  a:
+    type: int
+    range:
+    - 12
+    - 36
+  b:
+    type: int
+    range:
+    - 12
+    - 36
+constraints:
+- a != b
+localization_slots: []
+stem_i18n:
+  en-IN: A teacher has {{a}} pencils and {{b}} erasers. She wants to make identical gift bags, using every pencil and eraser with none left over. What is the greatest number of bags she can make?
+answer: gcd(a, b)
+distractors: []
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - The number of bags must divide both {{a}} and {{b}} exactly, since nothing is left over.
+    - The greatest such number is the highest common factor of {{a}} and {{b}}.
+hints_i18n:
+  en-IN:
+  - Find a number that divides both {{a}} and {{b}} exactly — the greatest one gives the most bags.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.5
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

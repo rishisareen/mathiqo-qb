@@ -1,0 +1,63 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, U5). Hard-band depth:
+# the difference between two consecutive square numbers (a classic figurate
+# "explain why the pattern continues" insight — the gap grows by 2 each
+# time). m and n are declared as two independent variables constrained to be
+# consecutive (n - m == 1) rather than computing n - 1 inside the stem,
+# since stems can only substitute bare declared variables (see
+# TPL.NUM.PATTERN.ARITH.WORD.001's header for why). The MISC.NUM.SQUARE-
+# DOUBLES distractor models a learner who computes n*n and m*m as 2*n and
+# 2*m (doubling instead of squaring), so their "difference" collapses to
+# 2*(n - m).
+template_id: TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PATTERN.FIGURATE
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 60
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  m: { type: int, range: [1, 14] }
+  n: { type: int, range: [2, 15] }
+
+constraints:
+  - "n - m == 1"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "The {{m}}th square number is {{m}} x {{m}} and the {{n}}th square number is {{n}} x {{n}}, where {{n}} = {{m}} + 1. What is the difference between the {{n}}th square number and the {{m}}th square number?"
+
+answer: "n * n - m * m"
+
+distractors:
+  - expr: "n - m"
+    misconception_id: null
+  - expr: "2 * (n - m)"
+    misconception_id: MISC.NUM.SQUARE-DOUBLES
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "Work out each square number separately: {{m}} x {{m}} and {{n}} x {{n}}."
+      - "Subtract: ({{n}} x {{n}}) - ({{m}} x {{m}}) is the answer — this is always an odd number, one more than twice the smaller root."
+
+hints_i18n:
+  en-IN:
+    - "Compute the two square numbers first, then subtract them — don't just subtract {{n}} and {{m}} themselves."
+    - "Squaring a number means multiplying it by itself, not doubling it, so work out {{n}} x {{n}} and {{m}} x {{m}} fully before subtracting."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

@@ -1,0 +1,66 @@
+# Authored 2026-07-29 (Class 6 servable coverage, Implementation Unit U5).
+# NUM.PRIME — three-distinct-primes variant of the factor-count proxy
+# (TPL.NUM.PRIME.FACTORCOUNT.001's sibling): p, q, r curated to
+# {2,3,5,7} and pairwise distinct. A product of three different primes
+# always has exactly 8 factors (every subset of {p,q,r} multiplies to a
+# distinct factor: 2^3 = 8 subsets), a fact the author guarantees by the
+# curated domain, not tested at runtime.
+template_id: TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PRIME
+question_type: numeric_entry
+cognitive_level: conceptual
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 50
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  p: { type: int, range: [2, 7] }
+  q: { type: int, range: [2, 7] }
+  r: { type: int, range: [2, 7] }
+
+constraints:
+  - "p != 4"
+  - "p != 6"
+  - "q != 4"
+  - "q != 6"
+  - "r != 4"
+  - "r != 6"
+  - "p != q"
+  - "p != r"
+  - "q != r"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "The number {{p}} x {{q}} x {{r}} is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?"
+
+answer: "8"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "{{p}}, {{q}} and {{r}} are all prime, so each only divides the product on its own or in a group."
+      - "Every choice of including or leaving out each prime gives a different factor."
+      - "That gives 2 x 2 x 2 = 8 factors in total."
+
+hints_i18n:
+  en-IN:
+    - "Try listing every product you can make from {{p}}, {{q}}, {{r}} — including using none, one, two, or all three."
+    - "A product of three different primes always has exactly 8 factors."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

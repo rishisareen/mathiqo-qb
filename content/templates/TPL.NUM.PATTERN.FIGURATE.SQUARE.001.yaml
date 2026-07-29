@@ -1,0 +1,54 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, U5). nth square
+# number directly targets MISC.NUM.SQUARE-DOUBLES (treating "square of n" as
+# doubling instead of n x n).
+template_id: TPL.NUM.PATTERN.FIGURATE.SQUARE.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PATTERN.FIGURATE
+question_type: mcq_4
+cognitive_level: recall
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [2, 15] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the {{n}}th square number?"
+
+answer: "n * n"
+
+distractors:
+  - expr: "2 * n"
+    misconception_id: MISC.NUM.SQUARE-DOUBLES
+  - expr: "n * (n + 1)"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The nth square number is n multiplied by itself, not n doubled."
+      - "With n = {{n}}, the square number is {{n}} x {{n}}."
+
+hints_i18n:
+  en-IN:
+    - "Picture an {{n}} by {{n}} grid of dots — how many dots is that in total?"
+    - "Squaring a number means multiplying it by itself, not adding it to itself."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

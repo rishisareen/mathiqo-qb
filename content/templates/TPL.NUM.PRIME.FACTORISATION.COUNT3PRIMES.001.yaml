@@ -1,0 +1,63 @@
+template_id: TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001
+skill_ids:
+- NUM.PRIME.FACTORISATION
+question_type: mcq_4
+cognitive_level: procedural
+difficulty_prior: hard
+estimated_time_sec: 55
+calculator_allowed: false
+diagram_required: false
+context_tags:
+- travel
+exam_contexts:
+- SCHOOL_EXAM
+variables:
+  p:
+    type: int
+    range:
+    - 2
+    - 7
+  q:
+    type: int
+    range:
+    - 2
+    - 7
+  r:
+    type: int
+    range:
+    - 2
+    - 7
+constraints:
+- p != 4
+- p != 6
+- q != 4
+- q != 6
+- r != 4
+- r != 6
+- p != q
+- p != r
+- q != r
+localization_slots: []
+stem_i18n:
+  en-IN: A number is written as {{p}} x {{q}} x {{r}}, where {{p}}, {{q}} and {{r}} are three different prime numbers. How many prime factors does the number have, counted with repetition?
+answer: '3'
+distractors:
+- expr: '2'
+  misconception_id: MISC.NUM.COMPOSITE-FACTORS-LEFT
+solution_steps_i18n:
+  en-IN:
+    canonical:
+    - Check each of the three factors {{p}}, {{q}} and {{r}} — none of them can be broken down further since all three are prime.
+    - Every factor in the product is prime, so the number has 3 prime factors.
+hints_i18n:
+  en-IN:
+  - Do not stop early by grouping two of the primes together as if they were still one factor — count all three separately.
+template_version: 1.0.0
+bank_version: dev
+graph_version: 1.0.0
+difficulty: 0.8
+tts: false
+provenance:
+  generator_version: claude-agent/1.0
+  reviewer: rishi
+  date: '2026-07-29'

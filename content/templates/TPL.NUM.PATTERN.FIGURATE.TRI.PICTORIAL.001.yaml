@@ -1,0 +1,58 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, U5). Same triangular-
+# number fact as TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001 but in a pictorial
+# word-problem stem and mcq_4 format — an intentional certification-format
+# twin (student-model doc §7), not a duplicate: different question_type
+# bypasses the near-duplicate gate by design (see item_verify.py's
+# check_embedding_duplicates docstring).
+template_id: TPL.NUM.PATTERN.FIGURATE.TRI.PICTORIAL.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PATTERN.FIGURATE
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - food
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [3, 12] }
+
+constraints: []
+
+localization_slots:
+  - food
+stem_i18n:
+  en-IN: "{{food}} pieces are stacked in a triangular pile: row 1 has 1 piece, row 2 has 2 pieces, and so on, each row one more than the last, up to row {{n}}. How many {{food}} pieces are in the pile in total?"
+
+answer: "n * (n + 1) / 2"
+
+distractors:
+  - expr: "n * n"
+    misconception_id: null
+  - expr: "n * (n - 1) / 2"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The pile has 1 + 2 + 3 + ... + {{n}} pieces, one row for each of the {{n}} rows."
+      - "That sum is the {{n}}th triangular number: n x (n + 1) / 2 with n = {{n}}."
+
+hints_i18n:
+  en-IN:
+    - "Add up the pieces in every row from row 1 to row {{n}}."
+    - "This is the same pattern as the triangular numbers: 1, 3, 6, 10, ..."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

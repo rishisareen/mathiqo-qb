@@ -1,0 +1,63 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, U5). Hard-band depth:
+# builds a 3-digit palindrome h-t-h and asks for its standard form, the
+# palindromic-number digit puzzle named in NUM.PLACE.VALUE's Class 6 mapping
+# row. The MISC.NUM.PLACE-FACE-VALUE distractor "2*h + t" models a learner
+# who sums the face values of the three digits (h, t, h) with no place
+# multipliers at all, and never numerically collides with the correct
+# 101*h + 10*t (2h + t = 101h + 10t forces -99h = 9t, impossible for
+# h >= 1, t >= 0). The second distractor "110*h + t" (swapping which digit
+# gets the tens-multiplier) collides with the answer only when h == t — a
+# coincidental subset of variants, not an algebraic identity, per the
+# distractor-collision convention documented in tools/item_verify.py.
+template_id: TPL.NUM.PLACE.VALUE.PALINDROME.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PLACE.VALUE
+question_type: mcq_4
+cognitive_level: application
+difficulty: 0.8
+difficulty_prior: hard
+estimated_time_sec: 55
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  h: { type: int, range: [1, 9] }
+  t: { type: int, range: [0, 9] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "A palindrome number reads the same forwards and backwards. Using the digits {{h}}, {{t}}, {{h}} as the hundreds, tens, and ones digits, what is the palindrome {{h}}{{t}}{{h}} in standard form?"
+
+answer: "101 * h + 10 * t"
+
+distractors:
+  - expr: "2 * h + t"
+    misconception_id: MISC.NUM.PLACE-FACE-VALUE
+  - expr: "110 * h + t"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The palindrome has hundreds digit {{h}}, tens digit {{t}}, and ones digit {{h}} again."
+      - "Multiply each digit by its place and add: (100 x {{h}}) + (10 x {{t}}) + (1 x {{h}}), which is 101 x {{h}} + 10 x {{t}}."
+
+hints_i18n:
+  en-IN:
+    - "Write out the three digits in order — hundreds, tens, ones — and give each one its own place value before adding."
+    - "The hundreds digit and the ones digit are both {{h}}, but they're worth very different amounts because they're in different places."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

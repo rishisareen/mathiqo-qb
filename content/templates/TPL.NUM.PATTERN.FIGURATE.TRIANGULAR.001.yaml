@@ -1,0 +1,50 @@
+# Authored 2026-07-29 (Class 6 Servable Coverage plan, U5). nth triangular
+# number as a low-guess numeric_entry item — the core figurate-sequence
+# recall fact (Ganita Prakash 6 Ch. 1).
+template_id: TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PATTERN.FIGURATE
+question_type: numeric_entry
+cognitive_level: recall
+difficulty: 0.2
+difficulty_prior: easy
+estimated_time_sec: 25
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - school
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [1, 15] }
+
+constraints: []
+
+localization_slots: []
+stem_i18n:
+  en-IN: "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the {{n}}th triangular number?"
+
+answer: "n * (n + 1) / 2"
+
+distractors: []
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n."
+      - "Use the shortcut n x (n + 1) / 2 with n = {{n}}."
+
+hints_i18n:
+  en-IN:
+    - "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row {{n}}."
+    - "Add the row counts together, or use n x (n + 1) / 2."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"

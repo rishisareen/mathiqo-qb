@@ -1,0 +1,68 @@
+# Authored 2026-07-29 (Class 6 servable coverage, Implementation Unit U5).
+# NUM.PRIME — "how many primes in this fixed list" proxy. The list is
+# {{n}}, 1, 4, 9 where n is curated to {2,3,5,7} (guaranteed prime) and
+# 1, 4, 9 are fixed, author-verified non-primes (1 is neither prime nor
+# composite; 4 = 2x2, 9 = 3x3 are composite) — so the true prime count is
+# always exactly 1, a fact guaranteed by the curated domain, not computed
+# at runtime. Distractor "2" (MISC.NUM.ONE-IS-PRIME) represents wrongly
+# also counting the "1" in the list as prime. Distractor "0"
+# (MISC.NUM.TWO-NOT-PRIME) represents wrongly excluding {{n}} from the
+# count specifically when {{n}} == 2 (the only even prime) for being even
+# — guarded with only_if so it is only offered on those variants.
+template_id: TPL.NUM.PRIME.COUNTLIST.001
+template_version: "1.0.0"
+bank_version: "dev"
+graph_version: "1.0.0"
+skill_ids:
+  - NUM.PRIME
+question_type: mcq_4
+cognitive_level: conceptual
+difficulty: 0.5
+difficulty_prior: medium
+estimated_time_sec: 45
+calculator_allowed: false
+diagram_required: false
+context_tags:
+  - games
+exam_contexts:
+  - SCHOOL_EXAM
+
+variables:
+  n: { type: int, range: [2, 7] }
+
+constraints:
+  - "n != 4"
+  - "n != 6"
+
+localization_slots: []
+stem_i18n:
+  en-IN: "How many prime numbers are in this list: {{n}}, 1, 4, 9?"
+
+answer: "1"
+
+distractors:
+  - expr: "2"
+    misconception_id: MISC.NUM.ONE-IS-PRIME
+  - expr: "0"
+    misconception_id: MISC.NUM.TWO-NOT-PRIME
+    only_if: "n == 2"
+  - expr: "3"
+    misconception_id: null
+
+solution_steps_i18n:
+  en-IN:
+    canonical:
+      - "1 is not prime — it has only one factor, itself."
+      - "4 and 9 are composite: 4 = 2 x 2 and 9 = 3 x 3."
+      - "Only {{n}} is prime, so the count is 1."
+
+hints_i18n:
+  en-IN:
+    - "Check each number in the list: does it have exactly two different factors?"
+    - "Remember, 1 is neither prime nor composite — don't count it."
+
+tts: false
+provenance:
+  generator_version: "claude-agent/1.0"
+  reviewer: "rishi"
+  date: "2026-07-29"
