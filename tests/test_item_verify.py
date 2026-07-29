@@ -265,3 +265,161 @@ def test_clean_template_passes(tmp_path: Path) -> None:
     assert report.dropped_variants == 1
     assert report.verdict == item_verify.PASS
     assert _verify_tmp(tmp_path, template) == 0
+
+
+# --- KTD2: check_embedding_duplicates -----------------------------------------
+
+def _dup_template(**overrides) -> dict:
+    """A small, exact synthetic template for near-duplicate-detection
+    assertions — same "clean template" convention as the fixtures above."""
+    base = {
+        "template_id": "TPL.TEST.DUP.A.001",
+        "template_version": "1.0.0",
+        "bank_version": "2026.07-dev",
+        "graph_version": "1.0.0",
+        "skill_ids": ["FRAC.ADD.UNLIKE"],
+        "question_type": "numeric_entry",
+        "cognitive_level": "application",
+        "difficulty": 0.2,
+        "estimated_time_sec": 30,
+        "calculator_allowed": False,
+        "diagram_required": False,
+        "variables": {
+            "a": {"type": "int", "range": [1, 3]},
+            "b": {"type": "int", "range": [4, 6]},
+            "c": {"type": "int", "range": [1, 3]},
+        },
+        "constraints": ["a < b", "c < b"],
+        "stem_i18n": {"en-IN": "What is {{a}}/{{b}} plus {{c}}/{{b}}?"},
+        "localization_slots": [],
+        "answer": "simplify((a + c) / b)",
+        "distractors": [{"expr": "a * c", "misconception_id": None}],
+        "solution_steps_i18n": {"en-IN": {"canonical": ["Add {{a}} and {{c}}.", "Result over {{b}}."]}},
+        "hints_i18n": {"en-IN": ["Same denominator already."]},
+        "tts": False,
+        "context_tags": ["food"],
+        "exam_contexts": ["SCHOOL_EXAM"],
+        "provenance": {"generator_version": "test", "reviewer": "test", "date": "2026-07-29"},
+    }
+    base.update(overrides)
+    return base
+
+
+def _dup_sibling(**overrides) -> dict:
+    """Same shape as _dup_template but with variable names x/y/z instead of
+    a/b/c — used to prove near-duplicate detection is variable-name
+    invariant (KTD2's own example: "{{a}}/{{b}} + {{c}}/{{b}}" and
+    "{{x}}/{{y}} + {{z}}/{{y}}" compare as identical shape)."""
+    base = _dup_template(
+        template_id="TPL.TEST.DUP.B.001",
+        variables={
+            "x": {"type": "int", "range": [1, 3]},
+            "y": {"type": "int", "range": [4, 6]},
+            "z": {"type": "int", "range": [1, 3]},
+        },
+        constraints=["x < y", "z < y"],
+        stem_i18n={"en-IN": "What is {{x}}/{{y}} plus {{z}}/{{y}}?"},
+        answer="simplify((x + z) / y)",
+        distractors=[{"expr": "x * z", "misconception_id": None}],
+    )
+    base.update(overrides)
+    return base
+
+
+def test_check_embedding_duplicates_flags_near_duplicate_across_renamed_variables() -> None:
+    template = _dup_template()
+    bank_entry = _dup_sibling()
+    findings = item_verify.check_embedding_duplicates(template, [bank_entry])
+    assert findings
+    assert "TPL.TEST.DUP.A.001" in findings[0]
+    assert "TPL.TEST.DUP.B.001" in findings[0]
+
+
+def test_check_embedding_duplicates_does_not_flag_tier_siblings() -> None:
+    """Same skill, same answer formula, genuinely distinct stem wording (a
+    direct-computation stem vs a word-problem stem) — a tier sibling, not a
+    duplicate, must not be flagged."""
+    template = _dup_template()
+    tier_sibling = _dup_template(
+        template_id="TPL.TEST.DUP.WORD.001",
+        difficulty=0.5,
+        localization_slots=["name1"],
+        stem_i18n={
+            "en-IN": (
+                "{{name1}} ate {{a}}/{{b}} of a pizza and later ate {{c}}/{{b}} "
+                "more of the same pizza. What fraction of the pizza did "
+                "{{name1}} eat in total?"
+            )
+        },
+    )
+    assert item_verify.check_embedding_duplicates(template, [tier_sibling]) == []
+
+
+def test_check_embedding_duplicates_flags_despite_different_skill_ids() -> None:
+    """Identical stem shape and matching answer under a *different*
+    skill_id is still flagged — catches mis-tagged copies rather than being
+    waved through for lacking skill_ids overlap."""
+    template = _dup_template()
+    mistagged = _dup_sibling(
+        template_id="TPL.TEST.DUP.MISTAG.001",
+        skill_ids=["FRAC.SUB.UNLIKE"],
+    )
+    findings = item_verify.check_embedding_duplicates(template, [mistagged])
+    assert findings
+    assert "TPL.TEST.DUP.MISTAG.001" in findings[0]
+    assert "different skill_ids" in findings[0].lower()
+
+
+def test_check_embedding_duplicates_no_bank_returns_empty() -> None:
+    assert item_verify.check_embedding_duplicates(_dup_template(), []) == []
+
+
+def test_verify_template_without_corpus_skips_check_back_compat() -> None:
+    """No corpus passed (the default, every pre-KTD2 caller) — behavior is
+    byte-identical to before: embedding_duplicates stays in skipped_checks
+    and the verdict is unaffected by anything that would otherwise dedup."""
+    report = item_verify.verify_template(_dup_template())
+    assert "embedding_duplicates" in report.skipped_checks
+    assert "language_level_vs_grade" in report.skipped_checks
+    assert report.verdict == item_verify.PASS
+    assert report.reasons == []
+
+
+def test_verify_template_with_corpus_flags_near_duplicate(tmp_path: Path) -> None:
+    template = _dup_template()
+    bank_entry = _dup_sibling()
+    report = item_verify.verify_template(template, [bank_entry])
+    assert "embedding_duplicates" not in report.skipped_checks
+    assert report.verdict == item_verify.FLAGGED
+    assert any("TPL.TEST.DUP.A.001" in r and "TPL.TEST.DUP.B.001" in r for r in report.reasons)
+
+    # Full CLI pipeline: exit code 2, both ids named in the printed report.
+    write_yaml(tmp_path / "TPL.TEST.DUP.A.001.yaml", template)
+    write_yaml(tmp_path / "TPL.TEST.DUP.B.001.yaml", bank_entry)
+    report_path = tmp_path / "report.json"
+    rc = item_verify.main([
+        str(tmp_path / "TPL.TEST.DUP.A.001.yaml"),
+        "--corpus", str(tmp_path),
+        "--report", str(report_path),
+    ])
+    assert rc == 2
+    payload = json.loads(report_path.read_text(encoding="utf-8"))
+    assert payload["verdict"] == item_verify.FLAGGED
+    assert any("TPL.TEST.DUP.B.001" in r for r in payload["reasons"])
+
+
+def test_verify_template_with_corpus_does_not_flag_distinct_templates(tmp_path: Path) -> None:
+    """A --corpus dir with only genuinely distinct content produces no
+    embedding_duplicates finding (no false positive)."""
+    template = _dup_template()
+    distinct = _dup_template(
+        template_id="TPL.TEST.DUP.UNRELATED.001",
+        stem_i18n={"en-IN": "How many quarters are in {{a}} whole pizzas?"},
+        answer="a * 4",
+        constraints=[],
+        distractors=[{"expr": "a / 4", "misconception_id": None}],
+    )
+    write_yaml(tmp_path / "TPL.TEST.DUP.A.001.yaml", template)
+    write_yaml(tmp_path / "TPL.TEST.DUP.UNRELATED.001.yaml", distinct)
+    rc = item_verify.main([str(tmp_path / "TPL.TEST.DUP.A.001.yaml"), "--corpus", str(tmp_path)])
+    assert rc == 0

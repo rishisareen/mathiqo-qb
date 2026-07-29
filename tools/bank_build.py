@@ -449,11 +449,17 @@ def run_build(
     manifest_templates = []
     per_template_instances: dict[str, list[dict]] = {}
 
-    for path in template_paths:
-        template = item_verify.load_template(path)  # schema-validates or HardFails
+    # Load every template up front so the all-templates loop below can pass
+    # each one, as it verifies, the rest of this same walk as its
+    # near-duplicate corpus (KTD2) — the corpus for bank_build's dedup pass
+    # is naturally every other template already loaded in this walk.
+    loaded = [(path, item_verify.load_template(path)) for path in template_paths]
+    all_templates = [template for _, template in loaded]
 
+    for path, template in loaded:
+        corpus = [t for t in all_templates if t is not template]
         try:
-            report = item_verify.verify_template(template)
+            report = item_verify.verify_template(template, corpus)
         except item_verify.HardFail as exc:
             raise BuildError(f"{path.name}: Stage 3 verification hard-failed: {exc}") from exc
 

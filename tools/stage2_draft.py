@@ -119,6 +119,18 @@ def load_skill_context(content_dir: Path, skill_id: str) -> tuple[dict, list[dic
     return skill_node, skill_miscs, exam_contexts
 
 
+def load_corpus_templates(templates_dir: Path) -> list[dict]:
+    """Every already-published template in templates_dir, as the near-
+    duplicate detection corpus (§3 Stage 3 embedding-duplicate check, KTD2)
+    for a freshly drafted template — a draft is never compared against
+    itself since it doesn't exist in templates_dir yet (accepted drafts land
+    in staging/accepted/, never here, per the module docstring)."""
+    return [
+        item_verify.load_template(path)
+        for path in sorted(templates_dir.glob("*.yaml")) + sorted(templates_dir.glob("*.yml"))
+    ]
+
+
 def load_existing_template_ids(templates_dir: Path) -> list[str]:
     """template_ids already published, so a draft never collides with one."""
     ids: list[str] = []
@@ -273,6 +285,7 @@ def run_template_draft(
     skill_id: str,
     scaffold: dict[str, Any],
     max_retries: int,
+    corpus: list[dict],
 ) -> DraftOutcome:
     """Draft -> verify -> bounce loop for one template. First try plus
     max_retries re-prompts. Both HARD_FAIL and FLAGGED_FOR_REGENERATION
@@ -302,7 +315,7 @@ def run_template_draft(
             full = fill_scaffolding(content, **scaffold)
             try:
                 item_verify.validate_against_item_schema(full, str(content["template_id"]))
-                report = item_verify.verify_template(full)
+                report = item_verify.verify_template(full, corpus)
             except item_verify.HardFail as exc:
                 last_errors = [str(exc)]
             else:
@@ -405,6 +418,7 @@ def main(argv: list[str] | None = None) -> int:
 
     skill_node, skill_miscs, exam_contexts_hint = load_skill_context(args.content_dir, args.skill)
     known_ids = set(load_existing_template_ids(args.templates_dir))
+    corpus = load_corpus_templates(args.templates_dir)
     args.staging_dir.mkdir(parents=True, exist_ok=True)
     template_prompt = (PROMPTS_DIR / "draft_template.md").read_text(encoding="utf-8")
 
@@ -441,6 +455,7 @@ def main(argv: list[str] | None = None) -> int:
         slots = build_slots(args.skill, skill_node, skill_miscs, exam_contexts_hint, sorted(known_ids))
         outcome = run_template_draft(
             slot, template_prompt, slots, backend, known_ids, args.skill, scaffold, args.max_retries,
+            corpus,
         )
         if outcome.accepted:
             out_path = write_accepted(args.staging_dir, outcome, meta)

@@ -129,6 +129,31 @@ def test_flagged_bounces_back_with_rates_then_accepts(tmp_path: Path, monkeypatc
     assert manifest["template_id"] == "TPL.FRAC.ADD.UNLIKE.CMP.001"
 
 
+# --- End-to-end: near-duplicate bounces then accepts (KTD2) -------------------
+
+def test_near_duplicate_bounces_back_naming_colliding_id_then_accepts(
+    tmp_path: Path, monkeypatch: pytest.MonkeyPatch
+) -> None:
+    """The first draft (near_duplicate_then_clean/01.yaml) is a near-
+    duplicate of the real TPL.FRAC.ADD.UNLIKE.DIRECT.001 fixture in
+    content/templates/ — same stem shape (variables renamed p/q/r/s in place
+    of a/b/c/k) and the same canonical answer. The corpus loaded from
+    --templates-dir (content/templates/) must catch it and bounce with the
+    colliding template_id named in the feedback, same mechanism as any other
+    FLAGGED verdict."""
+    rc, staging, scenario = run_driver(tmp_path, "near_duplicate_then_clean", monkeypatch)
+
+    assert rc == 0
+    prompt_2 = (scenario / "received-prompt-2.md").read_text(encoding="utf-8")
+    assert "Previous draft failed these checks" in prompt_2
+    assert "TPL.FRAC.ADD.UNLIKE.DIRECT.001" in prompt_2  # the colliding template id, named
+    assert "near-duplicate" in prompt_2
+
+    manifest = read_manifest(staging, 1)
+    assert manifest["retries_used"] == 1
+    assert manifest["template_id"] == "TPL.FRAC.ADD.UNLIKE.CMP.001"
+
+
 # --- End-to-end: persistent failure quarantined -------------------------------
 
 def test_persistent_failure_quarantined_after_max_retries(tmp_path: Path, monkeypatch: pytest.MonkeyPatch) -> None:
