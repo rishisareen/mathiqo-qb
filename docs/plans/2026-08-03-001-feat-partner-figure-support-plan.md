@@ -13,7 +13,7 @@ execution: code
 
 ## Goal Capsule
 
-- **Objective:** figure-dependent skills serve through the partner API with machine-renderable figure data — an optional, Mathiqo-owned structured `figures` field on the item schema, covering every figure-dependent template in the audited census (the 55 currently marked `diagram_required: true` plus audit findings such as ruler, area-grid, and rotation templates).
+- **Objective:** figure-dependent skills serve through the partner API with machine-renderable figure data — an optional, Mathiqo-owned structured `figures` field on the item schema, covering every figure-dependent template in the audited census — 78 templates, recorded in `docs/plans/2026-08-03-001-figure-census.md`.
 - **Product authority:** this plan; `STRATEGY.md` for the select-only and offline-verification constraints. Supersedes the "render stays dormant" clause of KTD4 in `docs/plans/2026-07-29-001-feat-class6-servable-coverage-plan.md`; that plan's KD4 deferral of construct/draw answer models stands.
 - **Execution profile:** schema and pipeline changes land first behind the existing test suite; content re-annotation follows in two waves; serving needs no code change. No `template_version` bumps anywhere (KTD3).
 - **Stop conditions:** surface rather than guess if (a) the census audit finds a template whose figure cannot be expressed by the kind set even after adding grid/ruler kinds, (b) a figure-integrity rule would require weakening an existing verification gate, or (c) partner review (R12) rejects the union shape.
@@ -95,7 +95,7 @@ flowchart TB
 ### Dependencies / Assumptions
 
 - Assumption: the partner's renderer can consume a superset of their proposed union; they have offered their rendering component, which R12's review confirms.
-- Assumption: the audited census is expressible in roughly 10–12 kinds (KTD6); the census audit (U1) validates this before the schema freezes.
+- Resolved by U1: the census is 78 templates expressible in twelve kinds (KTD6), with one template held out of scope — see `docs/plans/2026-08-03-001-figure-census.md`.
 
 ### Sources / Research
 
@@ -106,7 +106,8 @@ flowchart TB
 - `tools/bank_build.py` — substitution map assembly at 313–329 (`str(int)` variables, `_fmt_rational` derived values, locale slot values), instance dict at 361–380, `variant_signature` over `(template_id, template_version, variables)` at 258–276, verification inheritance via `verify_template` at 479–484, FLAGGED templates still build at 487–492.
 - `tools/item_verify.py` — schema validation 376–382, slot checks 312–345 (stem/hints/solution_steps only), expression pre-parse 428–434, per-variant enumeration 437–450, `DERIVED_VALUE_RULES` registry pattern at 107, HardFail semantics in module docstring 30–36.
 - `docs/plans/2026-07-29-001-feat-class6-servable-coverage-plan.md` — KD4 (line 39), R7 (line 68), AE5 (line 91), KTD4 (line 155): the settled text-figure conventions this plan partially supersedes.
-- Template census: 55 of 238 templates carry `diagram_required: true` — GEO 37, DATA 11, FRAC 6, INT 1. Known mis-annotated visual templates outside the 55: `TPL.MEASLENGTH.RULER.READING.001`, `TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001`, `TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001`, `TPL.GEO.SHAPES2D.ROTATE.*`, `TPL.NUM.PATTERN.FIGURATE.TRI.PICTORIAL.001`.
+- Template census after the U1 audit: 78 of 238 templates — GEO 39, MEAS 9, DATA 13, FRAC 8, NUM 5, MEASLENGTH 3, INT 1. The pre-audit annotation had 55; see `docs/plans/2026-08-03-001-figure-census.md` for the corrections and per-kind assignment.
+- Suite baseline before figure work: 263 tests, 382s, dominated by the session-scoped bank build over all 238 templates.
 
 ---
 
@@ -121,7 +122,8 @@ flowchart TB
 - KTD3. **Re-annotation does not bump `template_version`** (session-settled: user-approved via scoping synthesis — chosen over per-template version bumps: `variant_signature` hashes `(template_id, template_version, variables)` and the seen filter and ingest guard key on it, so bumps would reset every student's seen-state; figures derive from variables, making them presentation-layer, which the signature already excludes by design). Record this rationale in the signature comment at `tools/bank_build.py:261-267`. Cites R2, R10.
 - KTD4. **Figure expressions evaluate through the existing symbolic primitives** — `item_verify.evaluate_expression` for exact sympy rationals, `_fmt_rational` for formatting. Non-integer values serialize as exact rational strings matching the `answer` pattern (`^-?\d+(/\d+)?$`); integers as JSON integers; no floats anywhere in the contract. Cites R7, R8.
 - KTD5. **Figure integrity is a per-kind rule registry in `item_verify`, following the `DERIVED_VALUE_RULES` pattern**: each kind declares (a) structural well-formedness, (b) value-consistency rules against the variable assignment, and (c) an answer-leak rule asserting the answer-designating label is absent (e.g., number-line read items never label the queried tick; gridline-value items never label the queried bar). Two kind-independent structural rules ride alongside: every figure label map covers every language present in `stem_i18n`, and every `{{slot}}` in a label resolves exactly as `check_slots` resolves stem slots. Checks run per-variant inside the existing enumeration loop and raise `HardFail` — a FLAG would still build (`tools/bank_build.py:487-492`). `bank_build` inherits the gate via its `verify_template` call and adds a final structural assertion at materialization. Cites R9.
-- KTD6. **Kind set: ten core kinds, frozen only after the census audit (U1) and partner review (R12)** — `bar-graph` (bars, gridline scale, unit), `pictograph` (rows with whole + half counts, key value), `tally-chart` (rows with five-bundles + loose strokes), `number-line` (min/max/divisions, marked points with rational or negative positions), `angle` (degrees expression, reflex support, optional clock or protractor context), `circle` (shown parts, lengths, unit), `point-line` (element count expressions with labels — counts are variables in `TPL.GEO.POINTLINE.*`), `shape` (named polygon, sides expression, labeled measurements), `region` (a whole divided into parts with a shaded count — the part-whole fraction stems), `array` (rows of repeated marks with a count expression per row — pictorial figurate patterns, where the row count is itself a variable). The audit is expected to add `grid-region` (area counting) and a ruler variant of `number-line`. Every kind that enumerates elements accepts a count expression rather than a fixed element list, since point-line, symmetry, and figurate templates all vary their element count by variable. Cites R1, R13.
+- KTD6. **Kind set: twelve kinds, fixed by the census audit and frozen after partner review (R12)** — `bar-graph` (bars, gridline scale, unit), `pictograph` (rows with whole + half counts, key value), `tally-chart` (rows with five-bundles + loose strokes), `number-line` (min/max/divisions, marked points with rational or negative positions), `angle` (degrees expression plus a context: bare, clock face with numbered hour marks, protractor overlay naming the emphasised scale, or a reflex arc), `circle` (shown parts, lengths, unit, and construction context — a segment drawn as diameter with endpoints and centre marked), `point-line` (element count expressions with labels), `shape` (named polygon, sides expression, per-side labels, applied rotation, symmetry axis or order), `region` (a whole divided into parts with per-part weights and a shaded-index set — the parts are deliberately unequal — plus a shape identifier the templates do not currently declare), `array` (rows of repeated marks with a count expression per row), `grid-region` (unit-square grid with a shaded cell set, including L-shapes and diagonal half-fills), `ruler` (scale range, numbered majors, minor ticks, and the measured object's span, which deliberately starts off-zero). Per-kind data requirements and the full assignment are in `docs/plans/2026-08-03-001-figure-census.md`. Cites R1, R13.
+- KTD9. **Repetition of one kind is an in-kind count expression; the `figures` array carries only genuinely distinct figures.** `TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001` shows `m` tilted right angles where `m` is a variable, so an array whose length varies per instance would otherwise be required. Keeping repetition inside the kind leaves array length fixed per template and matches the count-expression rule every element-enumerating kind already follows. Cites R1; extends KTD1.
 - KTD7. **Figure label text follows the repo's i18n convention**: leaf label fields on the template side are language-keyed maps (like `stem_i18n`) whose values may contain `{{slots}}`; bank build materializes them to the instance's single `language` through the same substitutions dict as the stem, so locale dressing (names, foods) stays consistent between stem and figure within an instance. Cites R6.
 - KTD8. **`diagram_required` stays as the authoring annotation**; the census audit flips it where wrong, and a repo-wide coverage test enforces `diagram_required: true` ⇒ `figures` present so AE5 holds durably, not just at ship time. Cites R10, R13.
 
@@ -152,7 +154,7 @@ Pipeline placement: schema (U2) → verification rules (U3) → materialization 
 
 ### Assumptions
 
-- The session-scoped real-bank fixture (`tests/conftest.py:50-60`) absorbs figure materialization cost without meaningfully slowing the suite.
+- The session-scoped real-bank fixture (`tests/conftest.py:50-60`) absorbs figure materialization cost without meaningfully slowing the suite. The pre-figure baseline is 382s, so U4 should re-measure rather than assume headroom.
 - The partner deck (`docs/Mathiqo-Partner-Integration.pptx`) can be updated with one figure-support slide without restructuring.
 
 ---
@@ -251,7 +253,7 @@ Pipeline placement: schema (U2) → verification rules (U3) → materialization 
 - **Goal:** the data-and-number census templates carry verified figures.
 - **Requirements:** R6, R7, R10; KD3.
 - **Dependencies:** U3, U4, U5.
-- **Files:** the 18 census templates under `content/templates/` with prefixes `TPL.DATA.*` (11), `TPL.FRAC.*` (6), `TPL.INT.*` (1), plus U1 additions in these strands (e.g., `TPL.NUM.PATTERN.FIGURATE.TRI.PICTORIAL.001`); `content/` manifest for the `content_version` bump (with U7).
+- **Files:** the 27 wave-1 census templates under `content/templates/` — `TPL.DATA.*` (13), `TPL.FRAC.*` (8), `TPL.NUM.*` (5), `TPL.INT.*` (1); `content/` manifest for the `content_version` bump.
 - **Approach:** per template, author the `figure` block from the stem's existing text description — bar-graph gridlines/scale, pictograph keys and half symbols, tally five-bundles plus loose, number-line divisions and marked points — without rewording stems (R6) and without `template_version` bumps (KTD3).
 - **Test scenarios:** none new — U2–U5's gates (schema validation, per-variant integrity, coverage, real-bank build) check every template as it lands. Test expectation: none — content-only unit verified by existing gates.
 - **Verification:** full suite green with all wave-1 templates carrying figures; spot-check one built instance per kind for stem/figure agreement. Build and activate an interim bank here so Strand D figures serve while wave 2 proceeds — existing `--bank-version` plus `tools/bank_activate.py`, no new mechanism.
@@ -261,7 +263,7 @@ Pipeline placement: schema (U2) → verification rules (U3) → materialization 
 - **Goal:** the spatial census templates carry verified figures, including the awkward cases.
 - **Requirements:** R6, R7, R10; KD3.
 - **Dependencies:** U3, U4, U5; the R12 review returned, or the user explicitly waived waiting.
-- **Files:** the 37 `TPL.GEO.*` census templates plus U1 additions (`TPL.MEASLENGTH.RULER.READING.001`, `TPL.MEAS.AREA.*`, `TPL.GEO.SHAPES2D.ROTATE.*`) under `content/templates/`; `content/` manifest `content_version` bump.
+- **Files:** the 51 wave-2 census templates under `content/templates/` — `TPL.GEO.*` (39), `TPL.MEAS.*` (9), `TPL.MEASLENGTH.*` (3); `content/` manifest `content_version` bump.
 - **Approach:** author per KTD6 kinds, explicitly covering: reflex angles to 350° (`REFLEX.HARD`, `CLOCKTURN`), clock-context angles, protractor dual-scale items (`SCALE.INNER/OUTER`), two-figure comparison templates (KTD1 array), variable-count point-line figures, n-gon symmetry shapes, and the audit's grid-region/ruler figures.
 - **Test scenarios:** none new — existing gates check each template. Test expectation: none — content-only unit verified by existing gates.
 - **Verification:** full suite green; AE5's coverage test passes unconditionally (tighten the U5 gate here); spot-check the five comparison templates render two figures.
