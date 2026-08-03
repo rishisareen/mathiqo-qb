@@ -423,3 +423,265 @@ def test_verify_template_with_corpus_does_not_flag_distinct_templates(tmp_path: 
     write_yaml(tmp_path / "TPL.TEST.DUP.UNRELATED.001.yaml", distinct)
     rc = item_verify.main([str(tmp_path / "TPL.TEST.DUP.A.001.yaml"), "--corpus", str(tmp_path)])
     assert rc == 0
+
+
+# --- KTD5: figure integrity (R9) ----------------------------------------------
+
+def _figure_template(**overrides) -> dict:
+    """A clean pictograph-figure template: one row of `n` whole symbols plus a
+    half symbol, each whole symbol worth `2*k` (so the key is always even, as a
+    half symbol requires). Answer is the row total, which no label carries."""
+    base = {
+        "template_id": "TPL.TEST.FIG.PICTOGRAPH.001",
+        "template_version": "1.0.0",
+        "bank_version": "2026.07-dev",
+        "graph_version": "1.0.0",
+        "skill_ids": ["DATA.PICTOGRAPH.READ"],
+        "question_type": "numeric_entry",
+        "cognitive_level": "application",
+        "difficulty": 0.3,
+        "estimated_time_sec": 45,
+        "calculator_allowed": False,
+        "diagram_required": True,
+        "variables": {
+            "n": {"type": "int", "range": [2, 5]},
+            "k": {"type": "int", "range": [1, 3]},
+        },
+        "constraints": ["n >= 2"],
+        "stem_i18n": {
+            "en-IN": (
+                "Each symbol stands for 2 x {{k}} mangoes. The row shows {{n}} whole "
+                "symbols and one half symbol. How many mangoes is that?"
+            )
+        },
+        "localization_slots": [],
+        "answer": "2*k*n + k",
+        "distractors": [{"expr": "2*k*n", "misconception_id": None}],
+        "figure": [
+            {
+                "kind": "pictograph",
+                "key_expr": "2*k",
+                "unit": "mangoes",
+                "rows": [
+                    {"label_i18n": {"en-IN": "Mangoes"}, "whole_expr": "n", "half": True}
+                ],
+            }
+        ],
+        "solution_steps_i18n": {
+            "en-IN": {"canonical": ["Each whole symbol is 2 x {{k}}.", "Add the half symbol."]}
+        },
+        "hints_i18n": {"en-IN": ["Count the whole symbols first."]},
+        "tts": False,
+        "context_tags": ["food"],
+        "exam_contexts": ["SCHOOL_EXAM"],
+        "provenance": {"generator_version": "test", "reviewer": "test", "date": "2026-08-03"},
+    }
+    base.update(overrides)
+    return base
+
+
+def _numberline_template(label_i18n: dict | None, **overrides) -> dict:
+    """A read-the-value number-line template. `label_i18n` is the label on the
+    queried point: ``{"en-IN": "{{p}}"}`` leaks the answer, ``{"en-IN": "A"}``
+    is the legitimate way to mark it."""
+    point: dict = {"position_expr": "p"}
+    if label_i18n is not None:
+        point["label_i18n"] = label_i18n
+    base = _figure_template(
+        template_id="TPL.TEST.FIG.NUMBERLINE.001",
+        skill_ids=["INT.CONCEPT.POINT"],
+        variables={"p": {"type": "int", "range": [1, 5]}},
+        constraints=["p >= 1"],
+        stem_i18n={"en-IN": "What number does the marked point on the number line show?"},
+        answer="p",
+        distractors=[{"expr": "p + 1", "misconception_id": None}],
+        figure=[
+            {
+                "kind": "number-line",
+                "min_expr": "0",
+                "max_expr": "6",
+                "divisions_expr": "1",
+                "points": [point],
+            }
+        ],
+        solution_steps_i18n={"en-IN": {"canonical": ["Read the tick the point sits on."]}},
+        hints_i18n={"en-IN": ["Count the ticks from zero."]},
+    )
+    base.update(overrides)
+    return base
+
+
+def test_well_formed_figure_passes_full_enumeration(tmp_path: Path) -> None:
+    """Happy path: a consistent pictograph figure survives every variant."""
+    template = _figure_template()
+    report = item_verify.verify_template(template)
+    assert report.total_combos == 12  # n in [2,5] x k in [1,3]
+    assert report.valid_combos == 12
+    assert report.dropped_variants == 0
+    assert report.verdict == item_verify.PASS
+    assert _verify_tmp(tmp_path, template) == 0
+
+
+def test_figure_expression_over_undeclared_variable_hard_fails(tmp_path: Path) -> None:
+    """Caught by the pre-parse pass, before deep enumeration."""
+    template = _figure_template()
+    template["figure"][0]["key_expr"] = "2*z"
+    with pytest.raises(item_verify.HardFail, match="undeclared"):
+        item_verify.verify_template(template)
+    assert _verify_tmp(tmp_path, template) == 1
+
+
+def test_figure_expression_unevaluable_at_one_variant_hard_fails(tmp_path: Path) -> None:
+    """A whole count of n/(4 - n) symbols: 1 at n = 2 and 3 at n = 3, but a
+    division by zero at the enumerated n = 4."""
+    template = _figure_template()
+    template["figure"][0]["rows"][0]["whole_expr"] = "n/(4 - n)"
+    assert item_verify.evaluate_expression("n/(4 - n)", {"n": 2, "k": 1}) == 1
+    with pytest.raises(item_verify.HardFail, match="exact rational"):
+        item_verify.verify_template(template)
+    assert _verify_tmp(tmp_path, template) == 1
+
+
+def test_figure_label_on_queried_tick_leaks_the_answer(tmp_path: Path) -> None:
+    """The general leak rule: a label that renders to the variant's answer."""
+    leaking = _numberline_template({"en-IN": "{{p}}"})
+    with pytest.raises(item_verify.HardFail, match="leaks the answer"):
+        item_verify.verify_template(leaking)
+    assert _verify_tmp(tmp_path, leaking) == 1
+
+
+def test_non_answer_point_label_is_allowed(tmp_path: Path) -> None:
+    """Marking the queried point with a name, not its value, is fine — and an
+    unlabelled point is fine too."""
+    named = _numberline_template({"en-IN": "A"})
+    assert item_verify.verify_template(named).verdict == item_verify.PASS
+    assert _verify_tmp(tmp_path, named) == 0
+    assert item_verify.verify_template(_numberline_template(None)).verdict == item_verify.PASS
+
+
+def test_figure_label_missing_a_stem_language_hard_fails(tmp_path: Path) -> None:
+    template = _figure_template()
+    template["stem_i18n"]["hi-IN"] = "Kitne aam hain?"
+    with pytest.raises(item_verify.HardFail, match="hi-IN"):
+        item_verify.verify_template(template)
+    assert _verify_tmp(tmp_path, template) == 1
+
+
+def test_figure_label_with_undeclared_slot_hard_fails(tmp_path: Path) -> None:
+    template = _figure_template()
+    template["figure"][0]["rows"][0]["label_i18n"]["en-IN"] = "{{wizard}} mangoes"
+    with pytest.raises(item_verify.HardFail, match="wizard"):
+        item_verify.verify_template(template)
+    assert _verify_tmp(tmp_path, template) == 1
+
+
+def test_figure_violation_hard_fails_rather_than_flagging(tmp_path: Path) -> None:
+    """A FLAG still builds (tools/bank_build.py warns and continues), so a
+    figure-inconsistent template must hard-fail: exit 1, never 2, and
+    verify_template must raise instead of returning a FLAGGED report."""
+    leaking = _numberline_template({"en-IN": "{{p}}"})
+    rc = _verify_tmp(tmp_path, leaking)
+    assert rc == item_verify.EXIT_CODES[item_verify.HARD_FAIL] == 1
+    assert rc != item_verify.EXIT_CODES[item_verify.FLAGGED]
+    with pytest.raises(item_verify.HardFail):
+        item_verify.verify_template(leaking)
+
+
+@pytest.mark.parametrize(
+    "figure, match",
+    [
+        pytest.param(
+            {
+                "kind": "pictograph",
+                "key_expr": "2*k + 1",
+                "rows": [{"label_i18n": {"en-IN": "Mangoes"}, "whole_expr": "n", "half": True}],
+            },
+            "even key",
+            id="half-symbol-with-odd-key",
+        ),
+        pytest.param(
+            {
+                "kind": "region",
+                "shape": "bar",
+                "parts": [
+                    {"weight_expr": "1", "shaded": True},
+                    {"weight_expr": "k", "shaded": True},
+                ],
+            },
+            "one shaded and one unshaded",
+            id="region-with-nothing-unshaded",
+        ),
+        pytest.param(
+            {
+                "kind": "grid-region",
+                "cols_expr": "n",
+                "rows_expr": "n",
+                "fill": "block-minus-corner",
+                "cutout_cols_expr": "n",
+                "cutout_rows_expr": "1",
+            },
+            "strictly smaller",
+            id="grid-cutout-as-wide-as-the-block",
+        ),
+        pytest.param(
+            {
+                "kind": "ruler",
+                "min_expr": "n",
+                "max_expr": "n",
+                "major_expr": "1",
+                "minor_expr": "1",
+                "unit": "cm",
+                "objects": [{"start_expr": "n", "end_expr": "n"}],
+            },
+            "less than",
+            id="ruler-with-empty-range",
+        ),
+        pytest.param(
+            {
+                "kind": "ruler",
+                "min_expr": "0",
+                "max_expr": "10",
+                "major_expr": "1",
+                "minor_expr": "1",
+                "unit": "cm",
+                "objects": [{"start_expr": "2", "end_expr": "2 + n*10"}],
+            },
+            "within the ruler",
+            id="ruler-object-running-off-the-scale",
+        ),
+    ],
+)
+def test_per_kind_figure_rules_hard_fail(figure: dict, match: str) -> None:
+    template = _figure_template(figure=[figure])
+    with pytest.raises(item_verify.HardFail, match=match):
+        item_verify.verify_template(template)
+
+
+def test_array_per_row_expression_binds_the_row_index() -> None:
+    """per_row_expr is the one field evaluated over a symbol that is not a
+    declared variable: "i", the one-based row index (a triangular pile)."""
+    triangular = _figure_template(
+        template_id="TPL.TEST.FIG.ARRAY.001",
+        answer="n*(n + 1)/2",
+        distractors=[{"expr": "n*n", "misconception_id": None}],
+        figure=[{"kind": "array", "rows_expr": "n", "per_row_expr": "i", "icon": "dot"}],
+    )
+    assert item_verify.verify_template(triangular).verdict == item_verify.PASS
+
+    # "i" is bound, not declared — an actually undeclared symbol still fails.
+    empty_rows = _figure_template(
+        figure=[{"kind": "array", "rows_expr": "n", "per_row_expr": "i - 1"}],
+    )
+    with pytest.raises(item_verify.HardFail, match="positive whole number of marks"):
+        item_verify.verify_template(empty_rows)
+    with pytest.raises(item_verify.HardFail, match="undeclared"):
+        item_verify.verify_template(
+            _figure_template(figure=[{"kind": "array", "rows_expr": "n", "per_row_expr": "j"}])
+        )
+
+
+def test_unregistered_figure_kind_hard_fails() -> None:
+    """Fail closed: a kind with no registered rules never slips through."""
+    template = _figure_template(figure=[{"kind": "hologram", "rows_expr": "n"}])
+    with pytest.raises(item_verify.HardFail, match="no figure rules are registered"):
+        item_verify.verify_template(template)
