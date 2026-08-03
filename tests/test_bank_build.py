@@ -536,3 +536,33 @@ def test_missing_locale_category_hard_errors(tmp_path: Path) -> None:
     write_yaml(dest / "t.yaml", template)
     with pytest.raises(bank_build.BuildError, match="currency"):
         bank_build.run_build(dest, LOCALE_PACK, "dev", pool_cap=10)
+
+
+# --- Figure key is always present on new instances (U2) --------------------
+
+def test_instances_carry_explicit_null_figures(synthetic_dir: Path) -> None:
+    """A template with no figure still materializes the key as null, so
+    "this item has no figure" is stated rather than inferred from absence.
+    Instances from banks built before figure support omit the key entirely,
+    which is why the schema leaves it optional (KTD2) -- those banks stay
+    valid and keep serving through a rollover."""
+    _, per_template = bank_build.run_build(synthetic_dir, LOCALE_PACK, "dev", pool_cap=10)
+    instances = per_template["TPL.TEST.BUILD.MCQ.001"]
+    assert instances, "expected the synthetic template to produce instances"
+    assert all("figures" in inst for inst in instances)
+    assert all(inst["figures"] is None for inst in instances)
+
+    validator = _instance_schema_validator()
+    for inst in instances:
+        assert list(validator.iter_errors(inst)) == []
+
+
+def test_pre_figure_instance_still_validates(synthetic_dir: Path) -> None:
+    """The compatibility guarantee KTD2 rests on: an instance shaped the way
+    bank_build wrote them before this change -- no figures key at all -- must
+    still pass the current schema, because retained banks keep serving
+    in-flight sessions through a rollover."""
+    _, per_template = bank_build.run_build(synthetic_dir, LOCALE_PACK, "dev", pool_cap=10)
+    legacy = dict(per_template["TPL.TEST.BUILD.MCQ.001"][0])
+    legacy.pop("figures")
+    assert list(_instance_schema_validator().iter_errors(legacy)) == []

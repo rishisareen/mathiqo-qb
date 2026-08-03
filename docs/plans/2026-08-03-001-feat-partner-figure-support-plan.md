@@ -90,6 +90,7 @@ flowchart TB
 - Early-grades figure kinds (fraction circles, base-10 blocks as render components) beyond what the audited census needs — deferred until early-grades content is authored.
 - The partner's own rendering component — theirs to build; we supply data and examples.
 - Serving pre-rendered images or SVG — outside the product's identity: the contract serves render data, never rendered artifacts, for localization and select-only reasons.
+- 3D solids: `TPL.NUM.PATTERN.FIGURATE.CUBE.001` (a solid cube of unit cubes) stays text-only and out of the census — the only known exclusion, since a 3D projection kind would serve one template. Name it explicitly in the partner docs so the exclusion is visible rather than discovered.
 - Figure support in the Stage 1/Stage 2 drafting prompts is limited to awareness (drafted visual templates must declare figures); richer figure-drafting assistance is follow-up work.
 
 ### Dependencies / Assumptions
@@ -107,7 +108,7 @@ flowchart TB
 - `tools/item_verify.py` — schema validation 376–382, slot checks 312–345 (stem/hints/solution_steps only), expression pre-parse 428–434, per-variant enumeration 437–450, `DERIVED_VALUE_RULES` registry pattern at 107, HardFail semantics in module docstring 30–36.
 - `docs/plans/2026-07-29-001-feat-class6-servable-coverage-plan.md` — KD4 (line 39), R7 (line 68), AE5 (line 91), KTD4 (line 155): the settled text-figure conventions this plan partially supersedes.
 - Template census after the U1 audit: 78 of 238 templates — GEO 39, MEAS 9, DATA 13, FRAC 8, NUM 5, MEASLENGTH 3, INT 1. The pre-audit annotation had 55; see `docs/plans/2026-08-03-001-figure-census.md` for the corrections and per-kind assignment.
-- Suite baseline before figure work: 263 tests, 382s, dominated by the session-scoped bank build over all 238 templates.
+- Suite reference point measured at U2 (schemas in, no figures authored yet): 769 tests, 731s, dominated by the session-scoped bank build over all 238 templates.
 
 ---
 
@@ -154,7 +155,7 @@ Pipeline placement: schema (U2) → verification rules (U3) → materialization 
 
 ### Assumptions
 
-- The session-scoped real-bank fixture (`tests/conftest.py:50-60`) absorbs figure materialization cost without meaningfully slowing the suite. The pre-figure baseline is 382s, so U4 should re-measure rather than assume headroom.
+- The session-scoped real-bank fixture (`tests/conftest.py:50-60`) absorbs figure materialization cost without meaningfully slowing the suite. The suite already runs 731s with no figures authored, so U4 should re-measure rather than assume headroom.
 - The partner deck (`docs/Mathiqo-Partner-Integration.pptx`) can be updated with one figure-support slide without restructuring.
 
 ---

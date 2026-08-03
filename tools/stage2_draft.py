@@ -37,8 +37,9 @@ v1 scope restrictions enforced by this harness (core doc §4), stricter than
 the bare item-record schema allows: question_type must be mcq_4 or
 numeric_entry; skill_ids must be exactly the one skill being drafted for
 (single-skill items only — no exam-context multi-skill drafting here);
-early-grade `render` props (§2.9) are out of scope, since the v1 slice
-targets canonical stages ≈ Classes 3-6, not Classes 1-3.
+and a template whose `diagram_required` is true must declare a `figure`,
+since a figure-dependent item that ships without render data forces the
+consumer back to re-authoring the visual itself.
 """
 
 from __future__ import annotations

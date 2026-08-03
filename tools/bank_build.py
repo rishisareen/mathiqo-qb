@@ -377,6 +377,7 @@ def materialize_instance(
         "distractors": distractors,
         "hints": hints,
         "solution_steps": solution_steps,
+        "figures": None,
     }
 
 

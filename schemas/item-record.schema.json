@@ -39,7 +39,7 @@
     "template_version": {
       "type": "string",
       "minLength": 1,
-      "description": "Version of this template; carried on every attempt event so any answer traces to the exact content that produced it (§5.3)."
+      "description": "Version of this template, covering the answer-relevant content; carried on every attempt event (§5.3). Presentation-layer edits that leave the mathematics untouched — adding a figure to a stem that already described it in words — reuse the version deliberately, so variant signatures and student seen-state survive the rebuild. To trace the exact bytes behind a given answer, use the attempt's bank_version with that bank manifest's per-template source_sha256."
     },
     "bank_version": {
       "type": "string",
@@ -216,18 +216,11 @@
       },
       "description": "The hint ladder, keyed by language (§2.8), ordered from lightest to strongest nudge. Hints are evidence, not just help (§2.3)."
     },
-    "render": {
-      "type": "object",
-      "required": ["component"],
-      "properties": {
-        "component": {
-          "type": "string",
-          "minLength": 1,
-          "description": "Component from the fixed §2.9 library, e.g. fraction_circle, fraction_bar, counting_set, number_line, base10_blocks, clock_face."
-        }
-      },
-      "additionalProperties": true,
-      "description": "Structured visual spec for early grades (§2.9): render props, not images and not prose. Property values may be template expressions like \"{{b}}\"."
+    "figure": {
+      "type": "array",
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/figureSpec" },
+      "description": "Structured visual stimulus: render data, not images and not prose. Optional — omit it on text-only templates. Every figure-dependent template declares one (diagram_required: true), and the stem keeps its text description alongside so text-only consumers, TTS, and accessibility are unaffected. Values are expressions over the same variables the stem uses, evaluated offline by Stage 5; the array carries genuinely distinct figures, while a kind that repeats one element takes a count expression instead."
     },
     "tts": {
       "type": "boolean",
@@ -282,6 +275,284 @@
       "additionalProperties": {
         "type": "string",
         "minLength": 1
+      }
+    },
+    "expr": {
+      "type": "string",
+      "minLength": 1,
+      "description": "A template expression over declared variables, e.g. \"n\" or \"30*h\". Stage 3 pre-parses it and Stage 5 evaluates it per variant; it never reaches a served instance unevaluated."
+    },
+    "figureSpec": {
+      "oneOf": [
+        { "$ref": "#/$defs/figBarGraph" },
+        { "$ref": "#/$defs/figPictograph" },
+        { "$ref": "#/$defs/figTallyChart" },
+        { "$ref": "#/$defs/figNumberLine" },
+        { "$ref": "#/$defs/figAngle" },
+        { "$ref": "#/$defs/figCircle" },
+        { "$ref": "#/$defs/figPointLine" },
+        { "$ref": "#/$defs/figShape" },
+        { "$ref": "#/$defs/figRegion" },
+        { "$ref": "#/$defs/figArray" },
+        { "$ref": "#/$defs/figGridRegion" },
+        { "$ref": "#/$defs/figRuler" }
+      ],
+      "description": "One authored figure, discriminated by kind. Twelve kinds cover the Class 6 census (docs/plans/2026-08-03-001-figure-census.md). Values are expressions, not numbers — the figure is materialized offline alongside the stem."
+    },
+    "figBarGraph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "scale_expr", "bars"],
+      "properties": {
+        "kind": { "const": "bar-graph" },
+        "scale_expr": { "$ref": "#/$defs/expr", "description": "Value represented by one gridline." },
+        "unit": { "type": "string", "minLength": 1 },
+        "bars": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label_i18n", "gridlines_expr"],
+            "properties": {
+              "label_i18n": { "$ref": "#/$defs/i18nText" },
+              "gridlines_expr": { "$ref": "#/$defs/expr" }
+            }
+          },
+          "description": "Bar heights are whole gridline counts, so a bar top always lands on a gridline."
+        }
+      }
+    },
+    "figPictograph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "key_expr", "rows"],
+      "properties": {
+        "kind": { "const": "pictograph" },
+        "key_expr": { "$ref": "#/$defs/expr", "description": "Value one whole symbol represents; constrained even wherever a row uses a half symbol." },
+        "unit": { "type": "string", "minLength": 1 },
+        "icon": { "type": "string", "minLength": 1 },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label_i18n", "whole_expr"],
+            "properties": {
+              "label_i18n": { "$ref": "#/$defs/i18nText" },
+              "whole_expr": { "$ref": "#/$defs/expr" },
+              "half": { "type": "boolean", "description": "Draws a trailing half-clipped symbol worth key/2." }
+            }
+          }
+        }
+      }
+    },
+    "figTallyChart": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "rows"],
+      "properties": {
+        "kind": { "const": "tally-chart" },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label_i18n", "bundles_expr", "loose_expr"],
+            "properties": {
+              "label_i18n": { "$ref": "#/$defs/i18nText" },
+              "bundles_expr": { "$ref": "#/$defs/expr", "description": "Groups of five: four verticals crossed by a diagonal." },
+              "loose_expr": { "$ref": "#/$defs/expr", "description": "Ungrouped strokes, always fewer than five." }
+            }
+          }
+        }
+      }
+    },
+    "figNumberLine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "min_expr", "max_expr", "divisions_expr", "points"],
+      "properties": {
+        "kind": { "const": "number-line" },
+        "min_expr": { "$ref": "#/$defs/expr", "description": "May be negative — the integer line is centred on zero." },
+        "max_expr": { "$ref": "#/$defs/expr" },
+        "divisions_expr": { "$ref": "#/$defs/expr", "description": "Sub-divisions per whole unit; 1 gives integer ticks only." },
+        "points": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["position_expr"],
+            "properties": {
+              "position_expr": { "$ref": "#/$defs/expr", "description": "Rational or negative positions are expected." },
+              "label_i18n": { "$ref": "#/$defs/i18nText", "description": "Omit on read-the-value items — labelling the queried point leaks the answer." }
+            }
+          }
+        }
+      }
+    },
+    "figAngle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "degrees_expr", "context"],
+      "properties": {
+        "kind": { "const": "angle" },
+        "degrees_expr": { "$ref": "#/$defs/expr", "description": "May exceed 180 — the reflex context draws the major arc." },
+        "context": {
+          "enum": ["bare", "clock", "protractor", "reflex"],
+          "description": "clock draws a numbered hour-marked face; protractor overlays both scales."
+        },
+        "scale": { "enum": ["inner", "outer"], "description": "Which protractor scale the item reads; protractor context only." },
+        "tilt_expr": { "$ref": "#/$defs/expr", "description": "Rotation off upright, so a right angle is not axis-aligned." },
+        "arm_length_expr": { "$ref": "#/$defs/expr", "description": "Set where arm length is the contrast the item tests." },
+        "count_expr": { "$ref": "#/$defs/expr", "description": "Repeats this angle count times at differing tilts (KTD9) rather than varying the figures array length." }
+      }
+    },
+    "figCircle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind"],
+      "properties": {
+        "kind": { "const": "circle" },
+        "construction": {
+          "enum": ["none", "segment-as-diameter"],
+          "description": "segment-as-diameter marks the segment, its endpoints, and the centre."
+        },
+        "length_part": { "enum": ["radius", "diameter"] },
+        "length_expr": { "$ref": "#/$defs/expr" },
+        "unit": { "type": "string", "minLength": 1 },
+        "points_on_expr": { "$ref": "#/$defs/expr" },
+        "points_off_expr": { "$ref": "#/$defs/expr", "description": "Points inside or outside; exact placement is renderer layout freedom (R7)." }
+      }
+    },
+    "figPointLine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "elements"],
+      "properties": {
+        "kind": { "const": "point-line" },
+        "collinear": { "type": "boolean" },
+        "elements": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["element", "count_expr"],
+            "properties": {
+              "element": { "enum": ["point", "segment", "ray", "line"] },
+              "count_expr": { "$ref": "#/$defs/expr", "description": "Counts are variables across this family, so elements are never a fixed list." },
+              "labels": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+            }
+          }
+        }
+      }
+    },
+    "figShape": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "shape"],
+      "properties": {
+        "kind": { "const": "shape" },
+        "shape": {
+          "enum": ["rectangle", "square", "triangle", "isosceles-triangle", "parallelogram", "pentagon", "regular-ngon", "circle", "prism", "composite-l"],
+          "description": "regular-ngon takes its side count from sides_expr."
+        },
+        "sides_expr": { "$ref": "#/$defs/expr" },
+        "vertex_labels": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "side_labels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["side", "value_expr"],
+            "properties": {
+              "side": { "type": "integer", "minimum": 0, "description": "Zero-based side index; label only the sides the item gives, since some items turn on a side being unlabelled." },
+              "value_expr": { "$ref": "#/$defs/expr" },
+              "unit": { "type": "string", "minLength": 1 }
+            }
+          }
+        },
+        "rotation_expr": { "$ref": "#/$defs/expr", "description": "Degrees applied to the drawn shape." },
+        "symmetry": { "enum": ["none", "lines", "order"], "description": "Whether to draw symmetry axes or mark rotational order." }
+      }
+    },
+    "figRegion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "shape", "parts"],
+      "properties": {
+        "kind": { "const": "region" },
+        "shape": { "enum": ["bar", "rectangle", "circle"], "description": "The whole being divided. Stems say only \"a shape\", so the figure names it." },
+        "parts": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["weight_expr", "shaded"],
+            "properties": {
+              "weight_expr": { "$ref": "#/$defs/expr", "description": "Relative size. Parts are deliberately unequal in two of the three part-whole items." },
+              "shaded": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+    "figArray": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "rows_expr", "per_row_expr"],
+      "properties": {
+        "kind": { "const": "array" },
+        "rows_expr": { "$ref": "#/$defs/expr" },
+        "per_row_expr": { "$ref": "#/$defs/expr", "description": "Marks in row i, one-based; \"i\" builds a triangular pile, a constant builds a rectangle." },
+        "icon": { "type": "string", "minLength": 1 }
+      }
+    },
+    "figGridRegion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "cols_expr", "rows_expr", "fill"],
+      "properties": {
+        "kind": { "const": "grid-region" },
+        "cols_expr": { "$ref": "#/$defs/expr" },
+        "rows_expr": { "$ref": "#/$defs/expr" },
+        "fill": { "enum": ["all", "block-minus-corner", "half-squares"] },
+        "cutout_cols_expr": { "$ref": "#/$defs/expr", "description": "Unshaded corner width; block-minus-corner only." },
+        "cutout_rows_expr": { "$ref": "#/$defs/expr" },
+        "half_cells_expr": { "$ref": "#/$defs/expr", "description": "Diagonally half-filled cells; their arrangement is deterministic renderer layout freedom (R7)." }
+      }
+    },
+    "figRuler": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "min_expr", "max_expr", "major_expr", "minor_expr", "unit", "objects"],
+      "properties": {
+        "kind": { "const": "ruler" },
+        "min_expr": { "$ref": "#/$defs/expr" },
+        "max_expr": { "$ref": "#/$defs/expr" },
+        "major_expr": { "$ref": "#/$defs/expr", "description": "Numbered tick interval." },
+        "minor_expr": { "$ref": "#/$defs/expr" },
+        "unit": { "type": "string", "minLength": 1 },
+        "objects": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["start_expr", "end_expr"],
+            "properties": {
+              "label_i18n": { "$ref": "#/$defs/i18nText" },
+              "start_expr": { "$ref": "#/$defs/expr", "description": "Deliberately non-zero on the items that test reading from an offset." },
+              "end_expr": { "$ref": "#/$defs/expr" }
+            }
+          },
+          "description": "Two abutting objects share a join whose position no variable pins; the renderer picks it deterministically (R7)."
+        }
       }
     }
   }
