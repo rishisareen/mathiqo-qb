@@ -41,7 +41,11 @@ Per template this tool:
      substitution into stem/hints/solution steps (reusing
      item_verify.DERIVED_VALUE_RULES — the same lcm/a2/c2/sum/final formulas
      Stage 3 already verifies against, KTD5), and exact symbolic computation
-     of the canonical answer string and the full distractor value set.
+     of the canonical answer string and the full distractor value set. A
+     template that declares a figure also gets it materialized here — every
+     expression evaluated to an exact rational and every label rendered
+     through the same substitutions dict as the stem — so the served instance
+     carries concrete figure data and never an expression (R7, R8).
   5. normalizes accepted_answer_forms into simplest_form_only (KTD8): true
      iff the template's free-text field starts with "simplest form only"
      (case-insensitive), false when absent or phrased otherwise.
@@ -236,6 +240,171 @@ def render_text(text: str, substitutions: Mapping[str, str]) -> str:
     return _SLOT_RE.sub(_sub, text)
 
 
+# ---------------------------------------------------------------------------
+# Figure materialization (R7, R8; KTD4, KTD7)
+# ---------------------------------------------------------------------------
+#
+# The template side is expression-valued and language-keyed; the instance side
+# is concrete and single-language. The transformation is driven by the same
+# naming convention item_verify walks figures by (`*_expr`, `*_i18n`) rather
+# than a per-kind field list, so it is the *convention* that is encoded here,
+# not twelve field lists: "scale_expr" -> "scale", "label_i18n" -> "label",
+# everything else (kind, unit, icon, half, shaded, enums) passing through
+# verbatim. A thirteenth kind materializes without a change to this file.
+#
+# Every value goes through item_verify.evaluate_expression and _fmt_rational —
+# the same pair the answer string goes through — so figure arithmetic is exact
+# sympy rationals and never a float (KTD4). Integrity is already settled by
+# then: run_build's verify_template call runs item_verify.check_figures for
+# every enumerated variant, so materialization evaluates figures it knows are
+# well-formed and consistent, and only asserts that nothing was left behind.
+
+_EXPR_SUFFIX = "_expr"
+_I18N_SUFFIX = "_i18n"
+
+# The one kind whose shape changes rather than being renamed: the template
+# declares rows_expr (how many rows) and per_row_expr (marks in row i,
+# one-based), while the instance carries `rows` as the already-expanded list of
+# per-row counts. Both source fields are consumed by _expand_array_rows, so the
+# convention-driven walk must skip them.
+_ARRAY_EXPANDED_FIELDS = frozenset({"rows_expr", "per_row_expr"})
+
+
+def _fmt_figure_value(expr: str, values: Mapping[str, int], label: str) -> int | str:
+    """One concrete figure quantity per KTD4: a JSON integer for a whole
+    number, an exact reduced "p/q" string otherwise (the same convention as
+    `answer`), never a float. Both the evaluation and the formatting are
+    borrowed, not re-implemented — the boundary at the top of this module."""
+    try:
+        canonical = _fmt_rational(item_verify.evaluate_expression(expr, values))
+    except (item_verify.HardFail, BuildError) as exc:
+        raise BuildError(f"{label}: {exc}") from exc
+    return canonical if "/" in canonical else int(canonical)
+
+
+def _render_figure_label(
+    label_map: object, substitutions: Mapping[str, str], language: str, label: str
+) -> str:
+    """KTD7: a language-keyed label map collapses to this instance's single
+    language and renders through render_text with the *same* substitutions dict
+    as the stem, so locale dressing stays consistent between the two. Stage 3
+    already guarantees the language is present and the slots resolve; this
+    names the template if that ever stops being true."""
+    if not isinstance(label_map, Mapping) or language not in label_map:
+        raise BuildError(f"{label}: no {language!r} entry to render this figure label from")
+    return render_text(str(label_map[language]), substitutions)
+
+
+def _materialize_figure_node(
+    node: object,
+    values: Mapping[str, int],
+    substitutions: Mapping[str, str],
+    language: str,
+    path: str,
+) -> object:
+    if isinstance(node, Mapping):
+        materialized: dict[str, object] = {}
+        for key, value in node.items():
+            name = str(key)
+            child = f"{path}.{name}"
+            if name.endswith(_EXPR_SUFFIX):
+                materialized[name[: -len(_EXPR_SUFFIX)]] = _fmt_figure_value(str(value), values, child)
+            elif name.endswith(_I18N_SUFFIX):
+                materialized[name[: -len(_I18N_SUFFIX)]] = _render_figure_label(
+                    value, substitutions, language, child
+                )
+            else:
+                materialized[name] = _materialize_figure_node(
+                    value, values, substitutions, language, child
+                )
+        return materialized
+    if isinstance(node, list):
+        return [
+            _materialize_figure_node(item, values, substitutions, language, f"{path}[{index}]")
+            for index, item in enumerate(node)
+        ]
+    return node
+
+
+def _expand_array_rows(figure: Mapping[str, object], values: Mapping[str, int], path: str) -> list:
+    """Evaluate per_row_expr once per row with the row index bound, expanding
+    the template's two expressions into the instance's per-row list. The bound
+    symbol comes from item_verify.FIGURE_BOUND_SYMBOLS rather than a literal
+    "i" here, so the binding convention has exactly one definition — the one
+    the verification rule already enforces against."""
+    bound = item_verify.FIGURE_BOUND_SYMBOLS[("array", "per_row_expr")][0]
+    rows = _fmt_figure_value(str(figure.get("rows_expr")), values, f"{path}.rows_expr")
+    if not isinstance(rows, int) or rows < 1:
+        raise BuildError(f"{path}.rows_expr: expected a positive whole row count, got {rows!r}")
+    per_row = str(figure.get("per_row_expr"))
+    return [
+        _fmt_figure_value(per_row, {**values, bound: row}, f"{path}.per_row_expr (row {row})")
+        for row in range(1, rows + 1)
+    ]
+
+
+def materialize_figures(
+    template: Mapping[str, object],
+    values: Mapping[str, int],
+    substitutions: Mapping[str, str],
+    language: str,
+) -> list[dict] | None:
+    """This variant's figures, fully concrete — or None when the template
+    declares none (KTD2: absence is stated, not inferred)."""
+    declared = item_verify.figures(template)
+    if not declared:
+        return None
+
+    materialized = []
+    for index, figure in enumerate(declared):
+        path = f"figure[{index}]"
+        kind = str(figure.get("kind"))
+        expanded = _ARRAY_EXPANDED_FIELDS if kind == "array" else frozenset()
+        concrete = _materialize_figure_node(
+            {k: v for k, v in figure.items() if str(k) not in expanded},
+            values,
+            substitutions,
+            language,
+            path,
+        )
+        if kind == "array":
+            concrete["rows"] = _expand_array_rows(figure, values, path)  # type: ignore[index]
+        materialized.append(concrete)  # type: ignore[arg-type]
+    return materialized
+
+
+def assert_figures_materialized(figures: list[dict] | None, label: str) -> None:
+    """The final figure gate before schema validation.
+
+    The schema catches a wrong *shape*; this catches a figure that is still
+    half-authored — an unmaterialized `*_expr`/`*_i18n` key the convention walk
+    somehow skipped, a leftover `{{slot}}` in a label, or a float where KTD4
+    admits only integers and exact "p/q" strings. Any of the three would reach
+    a partner as data they cannot render, so the build refuses instead."""
+    if figures is None:
+        return
+    pending: list[tuple[str, object]] = [
+        (f"{label} figures[{index}]", figure) for index, figure in enumerate(figures)
+    ]
+    while pending:
+        path, node = pending.pop()
+        if isinstance(node, Mapping):
+            for key, value in node.items():
+                name = str(key)
+                if name.endswith(_EXPR_SUFFIX) or name.endswith(_I18N_SUFFIX):
+                    raise BuildError(f"{path}.{name} survived figure materialization unevaluated")
+                pending.append((f"{path}.{name}", value))
+        elif isinstance(node, list):
+            pending.extend((f"{path}[{i}]", item) for i, item in enumerate(node))
+        elif isinstance(node, float):
+            raise BuildError(
+                f"{path} materialized to the float {node!r}; a figure quantity is a whole "
+                'number or an exact "p/q" string (KTD4)'
+            )
+        elif isinstance(node, str) and _SLOT_RE.search(node):
+            raise BuildError(f"{path} still carries an unresolved slot: {node!r}")
+
+
 def compute_simplest_form_only(template: Mapping[str, object]) -> bool:
     """KTD8: true iff accepted_answer_forms starts with "simplest form only"
     (case-insensitive); false when absent or phrased otherwise. Grading
@@ -264,7 +433,16 @@ def compute_variant_signature(
     by rank (dress_slots' base_index) and rank shifts across builds, so
     rendered text is unstable across rebuilds while the mathematical content
     (this signature) is not — the fact that lets seen-state survive a weekly
-    rebuild (KD4)."""
+    rebuild (KD4).
+
+    KTD3: annotating a template with a figure deliberately reuses its existing
+    template_version and therefore leaves this signature byte-identical. A
+    figure derives entirely from the variables, which makes it presentation —
+    the category this signature already excludes by design — and the seen
+    filter and the ingest guard both key on the signature, so a version bump
+    would reset every student's seen-state to buy nothing. The exact-content
+    trace for a re-annotated template is bank_version plus the manifest's
+    source_sha256, not template_version."""
     canonical = json.dumps(
         {
             "template_id": template_id,
@@ -334,6 +512,9 @@ def materialize_instance(
         variant: [render_text(step, substitutions) for step in steps]
         for variant, steps in template["solution_steps_i18n"][language].items()  # type: ignore[index]
     }
+    # Same substitutions dict as the stem, deliberately (KTD7): the figure and
+    # the prose it accompanies must name the same child and the same food.
+    figures = materialize_figures(template, values, substitutions, language)
 
     answer_value = item_verify.evaluate_expression(str(template["answer"]), values)
     answer = _fmt_rational(answer_value)
@@ -357,6 +538,7 @@ def materialize_instance(
     variant_signature = compute_variant_signature(
         str(template["template_id"]), str(template["template_version"]), values
     )
+    assert_figures_materialized(figures, instance_id)
 
     return {
         "item_instance_id": instance_id,
@@ -377,7 +559,7 @@ def materialize_instance(
         "distractors": distractors,
         "hints": hints,
         "solution_steps": solution_steps,
-        "figures": None,
+        "figures": figures,
     }
 
 
