@@ -30,6 +30,16 @@ Tests, each independent and named for the finding it proves:
   - `test_every_non_null_distractor_misconception_id_resolves` (R5):
     every template distractor's `misconception_id` is either null or
     resolves to a real entry in the merged misconception registry.
+  - `test_every_diagram_required_template_declares_a_figure` (figure
+    plan U5, AE5): the forward half of the figure-coverage guarantee —
+    every `diagram_required: true` template carries structured `figure`
+    data, minus `NOT_YET_ANNOTATED`.
+  - `test_every_template_declaring_a_figure_is_diagram_required` (figure
+    plan U5, AE5): the reverse half, unconditional — no allowlist, never
+    had one.
+  - `test_the_not_yet_annotated_allowlist_has_not_gone_stale` (figure
+    plan U5): keeps the allowlist a shrinking ledger rather than a
+    permanent exemption.
 
 Builds its own small full-corpus bank per test that needs one (mirroring
 `tests/test_serving.py`'s `full_banks_dir`/`full_facade` pattern) rather
@@ -375,3 +385,184 @@ def test_every_non_null_distractor_misconception_id_resolves() -> None:
                 unresolved.append((name, value))
 
     assert not unresolved, f"distractors with a non-null misconception_id that doesn't resolve: {unresolved}"
+
+
+# ---------------------------------------------------------------------------
+# 8. Figure coverage (partner-figure plan U5, AE5): `diagram_required` and
+#    the structured `figure` block agree in both directions.
+#
+#    The forward direction carries a temporary exemption; the reverse never
+#    did. `NOT_YET_ANNOTATED` is a *shrinking ledger*, not a config knob: it
+#    was seeded with all 78 census templates
+#    (docs/plans/2026-08-03-001-figure-census.md) at a moment when none were
+#    annotated, wave 1 (U6) deletes its 27 entries as they land, wave 2 (U7)
+#    empties it — and the same commit that empties it deletes the constant,
+#    `_stale_allowlist_entries`, and the `- NOT_YET_ANNOTATED` term below,
+#    leaving the forward direction as unconditional as the reverse one.
+#
+#    Nothing may ever be *added* here. The allowlist-hygiene test below makes
+#    a stale entry fail exactly as loudly as an unannotated template, so the
+#    list cannot quietly rot into a permanent exemption.
+# ---------------------------------------------------------------------------
+
+NOT_YET_ANNOTATED = frozenset(
+    {
+        "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+        "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+        "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+        "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+        "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+        "TPL.DATA.PICTOGRAPH.SYMBOL.SCALE.TOTAL.001",
+        "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+        "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+        "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+        "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+        "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+        "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+        "TPL.DATA.TALLY.TWOCATEGORY.DIFFERENCE.001",
+        "TPL.FRAC.NUMLINE.DEPTH.001",
+        "TPL.FRAC.NUMLINE.IDENTIFY.001",
+        "TPL.FRAC.NUMLINE.READ.001",
+        "TPL.FRAC.NUMLINE.SEGMENT.001",
+        "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+        "TPL.FRAC.PARTWHOLE.DIRECT.001",
+        "TPL.FRAC.PARTWHOLE.HARD.001",
+        "TPL.FRAC.PARTWHOLE.MEDIUM.001",
+        "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001",
+        "TPL.GEO.ANGLECONCEPT.ARMLENGTH.SUM.HARD.001",
+        "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+        "TPL.GEO.ANGLECONCEPT.SHARED.VERTEX.RAYS.001",
+        "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+        "TPL.GEO.ANGLEMEASURE.CLOCKTURN.001",
+        "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+        "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+        "TPL.GEO.ANGLEMEASURE.SCALE.INNER.001",
+        "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+        "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001",
+        "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+        "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+        "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+        "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+        "TPL.GEO.CONSTRUCTBASIC.RECTANGLE.PERIMETER.001",
+        "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+        "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+        "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001",
+        "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+        "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001",
+        "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+        "TPL.GEO.POINTLINE.SEGMENTS.COLLINEAR.001",
+        "TPL.GEO.SHAPES2D.ID.CIRCLE.001",
+        "TPL.GEO.SHAPES2D.ID.RECTANGLE.001",
+        "TPL.GEO.SHAPES2D.ID.TRIANGLE.001",
+        "TPL.GEO.SHAPES2D.ROTATE.SQUARE.001",
+        "TPL.GEO.SHAPES2D.ROTATE.SQUARE.HARD.001",
+        "TPL.GEO.SHAPES2D.ROTATE.TRIANGLE.001",
+        "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+        "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+        "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+        "TPL.GEO.SYM.LINE.REGULAR-NGON.001",
+        "TPL.GEO.SYM.LINE.SQUARE-NGON-SUM.001",
+        "TPL.GEO.SYM.ROTATIONAL.NGON-SQUARE-SUM.001",
+        "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+        "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+        "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001",
+        "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON.001",
+        "TPL.INT.CONCEPT.POINT.001",
+        "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+        "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+        "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+        "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+        "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+        "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+        "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+        "TPL.MEAS.PERIMETER.PENTAGON.IRREGULAR.001",
+        "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+        "TPL.MEASLENGTH.RULER.READING.001",
+        "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+        "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+        "TPL.NUM.COUNT.GROUPS.WORD.001",
+        "TPL.NUM.COUNT.OBJECTS.DIRECT.001",
+        "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+        "TPL.NUM.PATTERN.FIGURATE.TRI.PICTORIAL.001",
+        "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    }
+)
+
+_ANNOTATE_HINT = (
+    "author a `figure:` block on it (schemas/item-record.schema.json's twelve-kind "
+    "union; the kind each census template renders as is in "
+    "docs/plans/2026-08-03-001-figure-census.md), then delete its entry from "
+    "NOT_YET_ANNOTATED in this file"
+)
+
+
+def _figure_annotation() -> tuple[set, set]:
+    """(template_ids with `diagram_required: true`, template_ids declaring a
+    non-empty `figure`) — read straight off `content/templates/`, since a
+    template that never materializes an instance must still be caught."""
+    diagram_required: set = set()
+    declares_figure: set = set()
+    for name, template in _load_all_templates().items():
+        template_id = template.get("template_id") or name
+        if template.get("diagram_required") is True:
+            diagram_required.add(template_id)
+        if template.get("figure"):
+            declares_figure.add(template_id)
+    return diagram_required, declares_figure
+
+
+def test_every_diagram_required_template_declares_a_figure() -> None:
+    """AE5, forward: a figure-dependent template ships with the machine-
+    renderable figure data a partner needs, not just prose in the stem."""
+    diagram_required, declares_figure = _figure_annotation()
+
+    unannotated = diagram_required - declares_figure - NOT_YET_ANNOTATED
+    assert not unannotated, (
+        f"template(s) marked diagram_required: true with no `figure` block: "
+        f"{sorted(unannotated)} — {_ANNOTATE_HINT}. (Adding an entry to "
+        "NOT_YET_ANNOTATED is never the fix: that list only ever shrinks.)"
+    )
+
+
+def test_every_template_declaring_a_figure_is_diagram_required() -> None:
+    """AE5, reverse — unconditional, no allowlist: a template carrying a
+    figure is by definition figure-dependent, so `diagram_required: false`
+    next to a `figure` block means one of the two is wrong."""
+    diagram_required, declares_figure = _figure_annotation()
+
+    mismatched = declares_figure - diagram_required
+    assert not mismatched, (
+        f"template(s) declaring a `figure` block but not marked diagram_required: true: "
+        f"{sorted(mismatched)} — set `diagram_required: true` on them, or drop the "
+        "`figure` block if the item really doesn't depend on a visual"
+    )
+
+
+def test_the_not_yet_annotated_allowlist_has_not_gone_stale() -> None:
+    """The allowlist is a shrinking ledger of pending work, so an entry that
+    has been *done* is as much a failure as one that hasn't: otherwise wave
+    1 could land without its exemptions being retired, and the forward test
+    above would keep passing over templates it no longer covers."""
+    diagram_required, declares_figure = _figure_annotation()
+
+    # The ratchet: seeded at the census's 78, and it only ever goes down.
+    # Never raise this number — a new visual template ships with its figure.
+    assert len(NOT_YET_ANNOTATED) <= 78, (
+        f"NOT_YET_ANNOTATED has grown to {len(NOT_YET_ANNOTATED)} entries: it was seeded "
+        "with the 78 census templates and only ever shrinks. A newly authored "
+        "diagram_required template ships with its `figure`; it is never allowlisted."
+    )
+
+    already_annotated = sorted(NOT_YET_ANNOTATED & declares_figure)
+    assert not already_annotated, (
+        f"NOT_YET_ANNOTATED still exempts template(s) that now declare a `figure`: "
+        f"{already_annotated} — delete those entries from NOT_YET_ANNOTATED in this "
+        "file; the guard only holds while the list is exactly the work still pending"
+    )
+
+    not_figure_dependent = sorted(NOT_YET_ANNOTATED - diagram_required)
+    assert not not_figure_dependent, (
+        f"NOT_YET_ANNOTATED names template(s) that no longer exist or are no longer "
+        f"diagram_required: true: {not_figure_dependent} — delete those entries; the "
+        "allowlist exempts pending census work and nothing else"
+    )

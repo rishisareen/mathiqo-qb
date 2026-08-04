@@ -304,6 +304,55 @@ def test_check_v1_restrictions_rejects_bad_difficulty_prior() -> None:
     assert any("difficulty_prior" in e for e in errors)
 
 
+# --- The figure restriction (partner-figure plan U5) ---------------------------
+#
+# The same two-directional rule tests/test_content_coverage.py enforces over
+# the published corpus, applied one draft earlier so a figure-less visual
+# template is bounced back to the LLM instead of reaching content/templates/
+# and failing the corpus guard after the fact.
+
+
+def _figure_bearing_content() -> dict:
+    content = _valid_content()
+    content["diagram_required"] = True
+    content["figure"] = [
+        {
+            "kind": "number-line",
+            "min_expr": "0",
+            "max_expr": "1",
+            "divisions_expr": "b",
+            "points": [{"position_expr": "a/b"}],
+        }
+    ]
+    return content
+
+
+def test_check_response_shape_accepts_a_drafted_figure() -> None:
+    """`figure` is content the LLM drafts (it is authored per template from
+    the stem's own variables), not publishing scaffolding the harness fills."""
+    data, error = stage2_draft.check_response_shape(yaml.safe_dump(_figure_bearing_content()))
+    assert error is None
+    assert data["figure"][0]["kind"] == "number-line"
+
+
+def test_check_v1_restrictions_accepts_a_figure_bearing_draft() -> None:
+    assert stage2_draft.check_v1_restrictions(_figure_bearing_content(), "FRAC.ADD.UNLIKE") == []
+
+
+def test_check_v1_restrictions_rejects_diagram_required_without_a_figure() -> None:
+    content = _valid_content()
+    content["diagram_required"] = True  # visual item, no render data
+    errors = stage2_draft.check_v1_restrictions(content, "FRAC.ADD.UNLIKE")
+    assert any("figure" in e for e in errors), errors
+
+
+def test_check_v1_restrictions_rejects_a_figure_without_diagram_required() -> None:
+    content = _figure_bearing_content()
+    content["diagram_required"] = False  # carries a figure but claims to be text-only
+    errors = stage2_draft.check_v1_restrictions(content, "FRAC.ADD.UNLIKE")
+    assert any("diagram_required" in e for e in errors), errors
+
+
 # --- Unit tests: check_template_id_collision -----------------------------------
 
 def test_check_template_id_collision_detects_existing_id() -> None:
