@@ -811,11 +811,15 @@ protractor overlay | `reflex` — the arc drawn on the >180° side).
 reads — present **only** with `context: "protractor"`), `tilt` (degrees of
 rotation away from upright), `arm_length` (relative, for items that turn on
 arm length not mattering), `count` (≥1; draw this same angle `count` times at
-differing tilts — see fact 1).
+differing tilts — see fact 1), `shared_vertex` (a string tag — see below).
 
-`context` bounds `degrees`, which is always positive: `bare` and `protractor`
-never exceed 180, `reflex` is strictly between 180 and 360, and `clock` runs
-up to 360.
+`context` bounds `degrees`, which is always positive: `protractor` never
+exceeds 180 (a single scale can't show more), `reflex` is strictly between
+180 and 360, and `bare` and `clock` may both run up to — `bare` not
+including, `clock` including — 360. A plain angle is not restricted to the
+"interior" ≤180° case: an item measuring a turn in hour-marks, for example,
+needs `bare` across its whole 30°–330° domain, not only the half of it a
+protractor could show.
 
 ```json
 { "kind": "angle", "degrees": 335, "context": "reflex" }
@@ -825,6 +829,20 @@ up to 360.
 { "kind": "angle", "degrees": 90, "context": "bare", "count": 4 }
 ```
 
+**`shared_vertex` ties two angle entries together.** Two angles in the same
+`figures` array carrying the same `shared_vertex` string meet at that one
+point rather than floating independently — draw them from a common vertex.
+An entry with no `shared_vertex` is an independent angle. The tag's value
+carries no meaning beyond equality; treat it as an opaque grouping key, not a
+label to render.
+
+```json
+[
+  { "kind": "angle", "degrees": 120, "context": "bare", "arm_length": 3, "shared_vertex": "O" },
+  { "kind": "angle", "degrees": 60,  "context": "bare", "arm_length": 1, "shared_vertex": "O" }
+]
+```
+
 #### `circle`
 
 A circle, optionally with a named length and marked points. Everything but
@@ -832,11 +850,17 @@ A circle, optionally with a named length and marked points. Everything but
 **Optional:** `construction` (`none` | `segment-as-diameter`, which draws the
 segment with its endpoints and the centre marked), `length_part` (`radius` |
 `diameter`) with `length` and `unit`, `points_on` (points marked exactly on
-the circle), `points_off` (points marked inside or outside it, never on it).
+the circle), `points_off` (points marked inside or outside it, never on it),
+`centre_marked` (boolean — draws and labels the centre point O even when
+`construction` doesn't already imply it).
 
 `length_part` and `length` always arrive together or not at all —
 `length_part` names *which* length `length` is, so a length without it would
-be unrenderable.
+be unrenderable. `centre_marked` is independent of `construction`: an item
+that counts or references the centre as a point distinct from `points_on` /
+`points_off` sets it explicitly, rather than relying on
+`construction: "segment-as-diameter"` (which marks the centre only as a
+side effect of drawing the diameter).
 
 ```json
 {
@@ -846,7 +870,7 @@ be unrenderable.
 ```
 
 ```json
-{ "kind": "circle", "points_on": 2, "points_off": 5 }
+{ "kind": "circle", "points_on": 2, "points_off": 5, "centre_marked": true }
 ```
 
 #### `point-line`
@@ -875,17 +899,50 @@ One 2D figure, optionally labelled, rotated, or symmetry-marked.
 `isosceles-triangle` | `parallelogram` | `pentagon` | `regular-ngon` |
 `circle` | `prism` | `composite-l`). **Optional:** `sides` (always present for
 `regular-ngon`, which has no fixed side count; implied by `shape` otherwise),
-`vertex_labels` (in drawing order), `side_labels[]`,
-`rotation` (degrees applied), `symmetry` (`none` | `lines` — draw the axes |
-`order` — mark the rotational order).
+`vertex_labels` (in drawing order), `side_labels[]`, `rotation` (degrees
+applied), `symmetry` (`none` | `lines` — draw the axes | `order` — mark the
+rotational order), `altitude` with `altitude_unit`, `caption`.
 
-`side_labels` is **sparse and index-addressed**: each entry carries `side`
-(a plain JSON integer index, 0-based, in the same order as `vertex_labels`),
-`value`, and an optional `unit`. Only the sides the item actually states are
-present, and some items turn on a side being deliberately unlabelled — do not
-infer a missing side's length, and do not assume the indices are contiguous.
-`side` is the one figure field that is always an integer and never a rational
-string.
+**Side-index convention.** `side_labels` is **sparse and index-addressed**:
+each entry carries `side` (a plain JSON integer, 0-based — the only figure
+field that is always an integer, never a rational string), `value`, and an
+optional `unit`. Only the sides an item actually states are present; do not
+infer a missing side's length. The index itself is pinned: **side `i` runs
+from vertex `i` to vertex `i+1`, wrapping, walking the outline
+counter-clockwise.** When `vertex_labels` is given, vertex `0` is
+`vertex_labels[0]` and the array is already in that walking order — side `0`
+is the edge `vertex_labels[0]` → `vertex_labels[1]`, and so on. When
+`vertex_labels` is absent, vertex `0` is the shape's bottom-left vertex in
+its default upright orientation.
+
+`composite-l` is the one shape whose six sides are not a single labelled
+loop, and it is the case where getting the index wrong is easy to miss:
+
+```json
+{
+  "kind": "shape", "shape": "composite-l",
+  "side_labels": [
+    { "side": 0, "value": 3, "unit": "m" },
+    { "side": 1, "value": 3, "unit": "m" },
+    { "side": 3, "value": 6, "unit": "m" },
+    { "side": 4, "value": 5, "unit": "m" }
+  ]
+}
+```
+
+Sides `0`–`1` are the lower section's two given sides in stem order, `3`–`4`
+are the upper section's two given sides in stem order, and `2` and `5` — the
+step between sections and the outer closing edge — are derived from the
+other four and are never labelled.
+
+`altitude` is a height drawn as a dashed line from apex to base, for when an
+item states a height that is not itself a side of the shape (a triangle
+inscribed in a rectangle whose height the stem gives). It carries its own
+`altitude_unit`, independent of any `side_labels[].unit`.
+
+`caption` distinguishes one figure from its siblings when an item's
+`figures` array holds more than one `shape` — render it as a label near the
+figure, not as part of the shape itself. Absent on every single-figure item.
 
 ```json
 {
@@ -901,14 +958,23 @@ string.
 
 ```json
 {
-  "kind": "shape", "shape": "composite-l",
-  "side_labels": [
-    { "side": 0, "value": 3, "unit": "m" },
-    { "side": 1, "value": 3, "unit": "m" },
-    { "side": 3, "value": 6, "unit": "m" },
-    { "side": 4, "value": 5, "unit": "m" }
-  ]
+  "kind": "shape", "shape": "triangle",
+  "side_labels": [ { "side": 0, "value": 4, "unit": "cm" } ],
+  "altitude": 3, "altitude_unit": "cm"
 }
+```
+
+```json
+[
+  {
+    "kind": "shape", "shape": "rectangle", "caption": "Rectangle A",
+    "side_labels": [ { "side": 0, "value": 6, "unit": "cm" }, { "side": 1, "value": 2, "unit": "cm" } ]
+  },
+  {
+    "kind": "shape", "shape": "rectangle", "caption": "Rectangle B",
+    "side_labels": [ { "side": 0, "value": 7, "unit": "cm" }, { "side": 1, "value": 1, "unit": "cm" } ]
+  }
+]
 ```
 
 #### `region`

@@ -52,16 +52,19 @@ hints_i18n:
 figure:
   # The triangle the item asks about, with the base the stem gives it
   # (2 x k cm -- written as the same product the stem writes, so it stays
-  # even by construction). The surrounding rectangle's height h is not a
-  # side of the triangle and the shape kind has no altitude field, so it
-  # stays in the stem text rather than being asserted as a side length the
-  # stem never gives. The area is of course never labelled.
+  # even by construction). h is the surrounding rectangle's height, not a
+  # triangle side, so it is never a side_labels entry; altitude_expr draws
+  # it as the dashed apex-to-base line it actually is, matching the stem's
+  # own "height measuring {{h}} cm" rather than leaving it unvisualized.
+  # The area is of course never labelled.
   - kind: shape
     shape: triangle
     side_labels:
       - side: 0
         value_expr: "2 * k"
         unit: "cm"
+    altitude_expr: "h"
+    altitude_unit: "cm"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM
