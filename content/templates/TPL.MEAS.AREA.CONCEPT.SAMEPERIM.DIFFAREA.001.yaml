@@ -56,6 +56,30 @@ hints_i18n:
     - "Equal perimeter does not mean equal area — work out each rectangle's area separately."
     - "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
 
+figure:
+  # Two rectangles, in the stem's order: A is a by b, B transfers k cm from
+  # the width to the length. Drawing both is the point of the item -- seeing
+  # the same perimeter wrapped around two different shapes is what breaks
+  # MISC.MEAS.SAME-PERIMETER-SAME-AREA. Only side lengths are labelled;
+  # labelling either area would hand over the difference being asked for.
+  - kind: shape
+    shape: rectangle
+    side_labels:
+      - side: 0
+        value_expr: "a"
+        unit: "cm"
+      - side: 1
+        value_expr: "b"
+        unit: "cm"
+  - kind: shape
+    shape: rectangle
+    side_labels:
+      - side: 0
+        value_expr: "a + k"
+        unit: "cm"
+      - side: 1
+        value_expr: "b - k"
+        unit: "cm"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

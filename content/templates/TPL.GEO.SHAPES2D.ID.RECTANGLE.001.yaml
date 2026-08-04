@@ -49,6 +49,13 @@ difficulty: 0.2
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The door/book-cover/brick shape the stem describes without naming: straight
+  # edges, picture-frame corners, longer one way than the other, no curves. The
+  # stem gives no measurements, so no side carries a label — the edge count is
+  # the answer and is left for the child to read off the drawing.
+  - kind: shape
+    shape: rectangle
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

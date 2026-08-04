@@ -45,6 +45,16 @@ template_version: 1.0.0
 bank_version: dev
 graph_version: 1.0.0
 difficulty: 0.2
+figure:
+  # The single regular polygon the stem describes, its side count taken from
+  # the same variable the stem prints. No side lengths are given, so no side
+  # carries a label.
+  # symmetry: none -- the child is asked to work the symmetry out, so
+  # drawing the axes or marking the order would hand over the answer.
+  - kind: shape
+    shape: regular-ngon
+    sides_expr: "n"
+    symmetry: none
 tts: false
 provenance:
   generator_version: claude-agent/1.0

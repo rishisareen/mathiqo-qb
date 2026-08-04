@@ -55,6 +55,24 @@ difficulty: 0.8
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # A 30 cm ruler (b reaches 20) numbered every centimetre with half-
+  # centimetre ticks. The stem pins only the span the two blocks cover
+  # together -- from the a cm mark to the b cm mark, never from 0 -- and no
+  # variable says where one block ends and the next begins, so the join is
+  # left to the renderer to place deterministically (R7) rather than
+  # invented here.
+  - kind: ruler
+    min_expr: "0"
+    max_expr: "30"
+    major_expr: "1"
+    minor_expr: "1/2"
+    unit: "cm"
+    objects:
+      - label_i18n:
+          en-IN: "Two blocks, end-to-end"
+        start_expr: "a"
+        end_expr: "b"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

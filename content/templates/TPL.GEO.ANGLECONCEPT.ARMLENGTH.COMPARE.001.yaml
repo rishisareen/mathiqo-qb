@@ -51,6 +51,19 @@ difficulty: 0.2
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # Two angles with the SAME turn -- x hour-marks, i.e. 30*x degrees each --
+  # drawn with very different arm lengths. Two entries because the two angles
+  # differ (in arm length only); equal degrees_expr is exactly why the answer
+  # is 0, so drawing them unequal would contradict the stem.
+  - kind: angle
+    degrees_expr: "30*x"
+    context: clock
+    arm_length_expr: "1"
+  - kind: angle
+    degrees_expr: "30*x"
+    context: clock
+    arm_length_expr: "3"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

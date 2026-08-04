@@ -49,6 +49,13 @@ difficulty: 0.2
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # One arm position under a protractor. The angle drawn is the n degrees the
+  # inner scale reads; the item reads the OUTER scale at that same arm.
+  - kind: angle
+    degrees_expr: "n"
+    context: protractor
+    scale: outer
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

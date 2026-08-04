@@ -52,6 +52,13 @@ difficulty: 0.2
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The correctly drawn n-degree angle seen under a correctly placed
+  # protractor, with the inner scale -- the one the classmate reads -- named.
+  - kind: angle
+    degrees_expr: "n"
+    context: protractor
+    scale: inner
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

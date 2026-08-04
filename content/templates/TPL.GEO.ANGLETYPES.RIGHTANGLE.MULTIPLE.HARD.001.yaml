@@ -51,6 +51,14 @@ difficulty: 0.8
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # m right angles, each exactly 90 degrees and each at a different tilt. m
+  # is a variable, so the repetition is count_expr inside one figure (which
+  # is what draws them at differing tilts) rather than m array entries.
+  - kind: angle
+    degrees_expr: "90"
+    context: bare
+    count_expr: "m"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

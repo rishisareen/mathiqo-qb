@@ -44,6 +44,23 @@ difficulty: 0.2
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # A 15 cm ruler numbered every centimetre with half-centimetre ticks, and
+  # the eraser laid from the a cm mark to the b cm mark. a is often not 0 --
+  # that offset is the whole skill, so the object's start stays exactly
+  # where the stem puts it. Neither mark is called a length: the reading is
+  # the student's job.
+  - kind: ruler
+    min_expr: "0"
+    max_expr: "15"
+    major_expr: "1"
+    minor_expr: "1/2"
+    unit: "cm"
+    objects:
+      - label_i18n:
+          en-IN: "Eraser"
+        start_expr: "a"
+        end_expr: "b"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

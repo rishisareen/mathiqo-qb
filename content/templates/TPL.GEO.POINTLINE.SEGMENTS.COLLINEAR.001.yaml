@@ -49,6 +49,17 @@ difficulty: 0.2
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # n points marked on one straight line, so collinear. The segments the
+  # question counts are deliberately NOT drawn -- the student determines them
+  # from the points, and drawing them would hand over the answer.
+  - kind: point-line
+    collinear: true
+    elements:
+      - element: line
+        count_expr: "1"
+      - element: point
+        count_expr: "n"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

@@ -47,6 +47,12 @@ difficulty: 0.5
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The minute hand's clockwise turn from the 12 to the h mark on a numbered
+  # clock face, at the stem's stated 30 degrees per mark.
+  - kind: angle
+    degrees_expr: "30*h"
+    context: clock
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

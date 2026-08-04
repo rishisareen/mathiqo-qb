@@ -51,6 +51,24 @@ difficulty: 0.2
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # k line segments, each carrying the two-letter name the stem's
+  # misconception hinges on. k is a variable, so the segments are one
+  # count_expr element; the label pool just supplies names for as many
+  # segments as k reaches (k <= 8).
+  - kind: point-line
+    elements:
+      - element: segment
+        count_expr: "k"
+        labels:
+          - "AB"
+          - "CD"
+          - "EF"
+          - "GH"
+          - "IJ"
+          - "KL"
+          - "MN"
+          - "RS"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

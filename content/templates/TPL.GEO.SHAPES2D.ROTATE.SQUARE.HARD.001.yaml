@@ -52,6 +52,14 @@ difficulty: 0.8
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The square after the page is spun {{n}} quarter-turns: a quarter-turn is
+  # 90 degrees, so the applied rotation is 90*n. The stem gives no side
+  # lengths, so no side carries a label, and the sides-plus-corners total the
+  # item asks for is left for the child to count off the drawing.
+  - kind: shape
+    shape: square
+    rotation_expr: "90*n"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

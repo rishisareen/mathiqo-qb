@@ -49,6 +49,17 @@ difficulty: 0.2
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The constructed square, labelled with the one side length the stem gives.
+  # The other three follow from the fixed compass opening — that all four are
+  # equal is the property the item tests, so the square shape carries it rather
+  # than three repeated labels. The perimeter is never drawn: it is the answer.
+  - kind: shape
+    shape: square
+    side_labels:
+      - side: 0
+        value_expr: "n"
+        unit: "cm"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

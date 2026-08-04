@@ -49,6 +49,19 @@ hints_i18n:
     - "First work out the area of the whole surrounding rectangle."
     - "The triangle is exactly half the rectangle's area — don't forget to halve it, and don't just add the base and height."
 
+figure:
+  # The triangle the item asks about, with the base the stem gives it
+  # (2 x k cm -- written as the same product the stem writes, so it stays
+  # even by construction). The surrounding rectangle's height h is not a
+  # side of the triangle and the shape kind has no altitude field, so it
+  # stays in the stem text rather than being asserted as a side length the
+  # stem never gives. The area is of course never labelled.
+  - kind: shape
+    shape: triangle
+    side_labels:
+      - side: 0
+        value_expr: "2 * k"
+        unit: "cm"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

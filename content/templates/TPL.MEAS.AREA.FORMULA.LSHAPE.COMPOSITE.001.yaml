@@ -49,6 +49,28 @@ hints_i18n:
     - "Split the L-shape into its two rectangular sections and find each area on its own."
     - "Add the two section areas — don't just add all four side lengths, and don't treat it as one big rectangle."
 
+figure:
+  # One L-shaped hall, not two loose rectangles: the two sections share the
+  # step that makes it an L. Walking the six-sided outline from the first
+  # section's bottom edge, side 0 is that section's a and side 1 its b;
+  # sides 3 and 4 are the second section's d and c. Sides 2 and 5 -- the
+  # step (a - c) and the full height (b + d) -- are derived, not given in
+  # the stem, so they stay unlabelled. The total area is never labelled.
+  - kind: shape
+    shape: composite-l
+    side_labels:
+      - side: 0
+        value_expr: "a"
+        unit: "m"
+      - side: 1
+        value_expr: "b"
+        unit: "m"
+      - side: 3
+        value_expr: "d"
+        unit: "m"
+      - side: 4
+        value_expr: "c"
+        unit: "m"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

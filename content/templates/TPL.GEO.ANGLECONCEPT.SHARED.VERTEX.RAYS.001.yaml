@@ -52,6 +52,18 @@ difficulty: 0.5
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # n rays drawn from the one shared vertex O, like spokes from a hub. The
+  # ray count is a variable, so it is a single count_expr element rather than
+  # an enumerated list; the angles the question counts are not drawn.
+  - kind: point-line
+    elements:
+      - element: point
+        count_expr: "1"
+        labels:
+          - "O"
+      - element: ray
+        count_expr: "n"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

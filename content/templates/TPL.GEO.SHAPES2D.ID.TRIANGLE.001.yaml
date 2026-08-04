@@ -49,6 +49,12 @@ difficulty: 0.2
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The wedge-shaped road sign the stem describes without naming: three sharp
+  # corners, no curved edges. The stem gives no measurements, so no side
+  # carries a label — the edge count is the answer.
+  - kind: shape
+    shape: triangle
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

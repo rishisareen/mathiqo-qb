@@ -50,6 +50,14 @@ hints_i18n:
     - "You're counting how many tiles cover the floor, not the distance around its edge."
     - "Multiply the number of rows by the number of columns."
 
+figure:
+  # The tiled floor exactly as the stem states it: a rows of b columns,
+  # covered edge-to-edge, so every cell is filled. Nothing here states the
+  # tile count -- the student still has to count or multiply.
+  - kind: grid-region
+    cols_expr: "b"
+    rows_expr: "a"
+    fill: all
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

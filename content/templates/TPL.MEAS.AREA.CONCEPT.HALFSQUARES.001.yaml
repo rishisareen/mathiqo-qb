@@ -50,6 +50,19 @@ hints_i18n:
     - "Two half unit squares together make one whole unit square — don't count each half as a whole square by itself."
     - "Work out how many whole squares the half squares make, then add that to {{n}}."
 
+figure:
+  # The covered region is n whole unit squares plus 2 x {{j}} half ones, so
+  # it occupies n + 2*j cells of which 2*j are diagonally half-filled --
+  # that leaves exactly n whole squares, which is what the stem states. The
+  # half count is written as the same "2 x j" product the stem writes, so it
+  # stays even by construction. The stem fixes no width or height for the
+  # region and n + 2*j need not factor, so the cells are authored as one row
+  # and the renderer is left to place the half-filled ones (R7).
+  - kind: grid-region
+    cols_expr: "n + 2 * j"
+    rows_expr: "1"
+    fill: half-squares
+    half_cells_expr: "2 * j"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

@@ -43,6 +43,14 @@ difficulty: 0.5
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # One arm position under a protractor. The outer scale reads m there, so
+  # the inner scale -- the scale this item reads -- reads 180 - m at the same
+  # arm, which is the angle actually drawn.
+  - kind: angle
+    degrees_expr: "180 - m"
+    context: protractor
+    scale: inner
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

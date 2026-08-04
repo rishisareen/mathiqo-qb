@@ -57,6 +57,22 @@ template_version: 1.0.0
 bank_version: dev
 graph_version: 1.0.0
 difficulty: 0.5
+figure:
+  # The labelled rectangle the stem describes: PQRS with the two given sides,
+  # opposite sides left bare since the stem states each length once.
+  # symmetry: none -- the child is asked to work the symmetry out, so
+  # drawing the axes or marking the order would hand over the answer.
+  - kind: shape
+    shape: rectangle
+    vertex_labels: ["P", "Q", "R", "S"]
+    side_labels:
+      - side: 0
+        value_expr: "l"
+        unit: cm
+      - side: 1
+        value_expr: "b"
+        unit: cm
+    symmetry: none
 tts: false
 provenance:
   generator_version: claude-agent/1.0

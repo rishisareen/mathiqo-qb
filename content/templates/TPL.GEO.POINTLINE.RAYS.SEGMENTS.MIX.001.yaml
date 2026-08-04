@@ -53,6 +53,16 @@ difficulty: 0.5
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # r rays (one fixed endpoint each) and s segments (two each), the two
+  # figure types the item asks the student to total separately. Both counts
+  # are variables, so each element carries its own count_expr.
+  - kind: point-line
+    elements:
+      - element: ray
+        count_expr: "r"
+      - element: segment
+        count_expr: "s"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

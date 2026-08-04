@@ -51,6 +51,20 @@ hints_i18n:
     - "The plot is a rectangle — it has four sides in total, not just the two you were given lengths for."
     - "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
 
+figure:
+  # Exactly one length and one width are labelled, matching the stem: the
+  # item only works because the two opposite sides are left unlabelled, so a
+  # student who forgets they exist lands on a+b. Labelling all four sides
+  # would destroy the misconception this template is built to catch.
+  - kind: shape
+    shape: rectangle
+    side_labels:
+      - side: 0
+        value_expr: "a"
+        unit: "m"
+      - side: 1
+        value_expr: "b"
+        unit: "m"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

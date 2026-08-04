@@ -52,6 +52,14 @@ difficulty: 0.5
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The square after the turn the stem describes: rotated by {{deg}} degrees,
+  # the same variable the stem prints, so it visibly no longer sits flat on a
+  # side. Drawing it upright would erase the whole premise. No side labels —
+  # the stem gives no lengths, only that the four sides are equal.
+  - kind: shape
+    shape: square
+    rotation_expr: "deg"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

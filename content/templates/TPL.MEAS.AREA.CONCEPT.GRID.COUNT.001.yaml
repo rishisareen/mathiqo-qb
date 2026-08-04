@@ -48,6 +48,13 @@ hints_i18n:
     - "You could count every square one by one, or find a faster way using the rows and columns."
     - "Each of the {{r}} rows has the same number of squares, {{c}}. Multiply instead of counting one by one."
 
+figure:
+  # r rows by c columns of unit squares with every square shaded, which is
+  # what the stem says. The shaded count is left for the student to find.
+  - kind: grid-region
+    cols_expr: "c"
+    rows_expr: "r"
+    fill: all
 tts: false
 exam_contexts:
   - SCHOOL_EXAM
