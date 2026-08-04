@@ -29,6 +29,15 @@ constraints:
 localization_slots: []
 stem_i18n:
   en-IN: "On a number line, each whole number from 0 to 2 is split into {{d}} equal steps. A grasshopper hops {{k}} steps from 0. Which fraction represents where the grasshopper lands?"
+# The landing point is unlabelled: its value IS the answer (k/d)
+# (figure plan R9 leak rule).
+figure:
+  - kind: number-line
+    min_expr: "0"
+    max_expr: "2"
+    divisions_expr: "d"
+    points:
+      - position_expr: "k / d"
 answer: "simplify(k / d)"
 distractors: []
 solution_steps_i18n:

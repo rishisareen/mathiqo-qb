@@ -45,6 +45,21 @@ template_version: 1.0.0
 bank_version: dev
 graph_version: 1.0.0
 difficulty: 0.2
+figure:
+  # The whole divided into b equal parts, a of them shaded (KTD9: authored as
+  # groups, since b varies per variant and a static list would contradict the
+  # stem on most of them). The stem says only "a shape"; a rectangle keeps this
+  # easy band visually parallel to the unequal-parts bands, where the only
+  # difference that matters is that those parts are NOT equal.
+  - kind: region
+    shape: rectangle
+    parts:
+      - weight_expr: "1"
+        count_expr: "a"
+        shaded: true
+      - weight_expr: "1"
+        count_expr: "b - a"
+        shaded: false
 tts: false
 provenance:
   generator_version: stage2-gen/0.1.0

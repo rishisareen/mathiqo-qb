@@ -28,6 +28,14 @@ stem_i18n:
 localization_slots:
   - name1
 
+# A single row of {{a}} bottle caps, exactly as the stem lines them up: one
+# row, a marks in it. Unlabelled — the count is the answer.
+figure:
+  - kind: array
+    rows_expr: "1"
+    per_row_expr: "a"
+    icon: "bottle-cap"
+
 answer: "a"
 
 distractors:

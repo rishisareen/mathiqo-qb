@@ -28,6 +28,17 @@ localization_slots: []
 stem_i18n:
   en-IN: "A tally chart shows {{bundles}} bundles of five strokes and {{extra}} extra loose strokes. What total frequency does this tally represent?"
 
+# The single unnamed tally row the stem describes: {{bundles}} groups of five
+# plus {{extra}} ungrouped strokes. The row carries no count label — the total
+# is what the item asks for.
+figure:
+  - kind: tally-chart
+    rows:
+      - label_i18n:
+          en-IN: "Tally"
+        bundles_expr: "bundles"
+        loose_expr: "extra"
+
 answer: "5 * bundles + extra"
 
 distractors:

@@ -47,6 +47,19 @@ hints_i18n:
     - "Turn both symbol counts into rupees using the key before comparing."
     - "Find each class's total savings, then subtract the smaller from the larger."
 
+figure:
+  - kind: pictograph
+    key_expr: "k"
+    unit: "rupees"
+    icon: "jar"
+    rows:
+      - label_i18n:
+          en-IN: "Class A"
+        whole_expr: "n1"
+      - label_i18n:
+          en-IN: "Class B"
+        whole_expr: "n2"
+
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

@@ -47,6 +47,14 @@ hints_i18n:
     - "Look at the axis scale before reading the bar's height."
     - "Multiply the gridline count by the value each gridline represents."
 
+figure:
+  - kind: bar-graph
+    scale_expr: "k"
+    bars:
+      - label_i18n:
+          en-IN: "Tuesday"
+        gridlines_expr: "g"
+
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

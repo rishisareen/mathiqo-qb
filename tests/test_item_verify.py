@@ -608,8 +608,8 @@ def test_figure_violation_hard_fails_rather_than_flagging(tmp_path: Path) -> Non
                     {"weight_expr": "k", "shaded": True},
                 ],
             },
-            "one shaded and one unshaded",
-            id="region-with-nothing-unshaded",
+            "disagree",
+            id="region-shading-everything-when-the-answer-is-not-one",
         ),
         pytest.param(
             {
@@ -685,3 +685,84 @@ def test_unregistered_figure_kind_hard_fails() -> None:
     template = _figure_template(figure=[{"kind": "hologram", "rows_expr": "n"}])
     with pytest.raises(item_verify.HardFail, match="no figure rules are registered"):
         item_verify.verify_template(template)
+
+
+# --- The region rule checks area against the answer, not shading heuristics --
+
+def _region_template(**overrides) -> dict:
+    """A part-whole template: a whole cut into `s` small pieces plus one large
+    piece worth `k` of them, with `shaded` small pieces shaded."""
+    base = _figure_template(
+        template_id="TPL.TEST.FIG.REGION.001",
+        skill_ids=["FRAC.PARTWHOLE"],
+        variables={
+            "s": {"type": "int", "range": [3, 5]},
+            "k": {"type": "int", "range": [2, 4]},
+            "shaded": {"type": "int", "range": [1, 2]},
+        },
+        stem_i18n={
+            "en-IN": (
+                "A rectangle is cut into {{s}} small equal pieces and 1 large piece "
+                "worth {{k}} small ones. {{shaded}} small pieces are shaded. "
+                "What fraction of the area is shaded?"
+            )
+        },
+        solution_steps_i18n={
+            "en-IN": {"canonical": ["Count in small-piece units: {{s}} + {{k}} in all."]}
+        },
+        hints_i18n={"en-IN": ["The large piece is worth {{k}} small ones."]},
+        constraints=["shaded < s"],
+        answer="simplify(shaded / (s + k))",
+        figure=[
+            {
+                "kind": "region",
+                "shape": "rectangle",
+                "parts": [
+                    {"weight_expr": "1", "count_expr": "shaded", "shaded": True},
+                    {"weight_expr": "1", "count_expr": "s - shaded", "shaded": False},
+                    {"weight_expr": "k", "count_expr": "1", "shaded": False},
+                ],
+            }
+        ],
+    )
+    base.update(overrides)
+    return base
+
+
+def test_region_matching_the_answer_passes() -> None:
+    """The unequal large piece is what makes these items hard: counting pieces
+    gives shaded/(s+1), counting area gives shaded/(s+k). The figure must
+    encode the second."""
+    report = item_verify.verify_template(_region_template())
+    assert report.verdict in {item_verify.PASS, item_verify.FLAGGED}
+
+
+def test_region_drawing_equal_parts_is_caught() -> None:
+    """Drawing the large piece the same size as a small one leaves a figure a
+    child can read correctly and still be marked wrong -- the exact failure the
+    area check exists to stop. Shading heuristics cannot see it: one piece is
+    shaded, one is not, and the piece count is right."""
+    template = _region_template()
+    template["figure"][0]["parts"][2]["weight_expr"] = "1"
+    with pytest.raises(item_verify.HardFail, match="disagree"):
+        item_verify.verify_template(template)
+
+
+def test_region_may_shade_the_whole_when_the_answer_is_one() -> None:
+    """A fully planted garden is a legitimate variant, so shading everything is
+    only wrong when it contradicts the answer."""
+    whole = _region_template(
+        answer="1",
+        figure=[
+            {
+                "kind": "region",
+                "shape": "rectangle",
+                "parts": [
+                    {"weight_expr": "1", "count_expr": "s", "shaded": True},
+                    {"weight_expr": "k", "count_expr": "1", "shaded": True},
+                ],
+            }
+        ],
+    )
+    report = item_verify.verify_template(whole)
+    assert report.verdict in {item_verify.PASS, item_verify.FLAGGED}

@@ -343,6 +343,40 @@ def _expand_array_rows(figure: Mapping[str, object], values: Mapping[str, int], 
     ]
 
 
+def _expand_region_parts(
+    figure: Mapping[str, object], values: Mapping[str, int], path: str
+) -> list[dict]:
+    """Expand each authored part group into one instance part per drawn piece.
+
+    Every part-whole stem varies its piece count by variable ("divided into
+    {{b}} equal parts"), so the template authors groups — "a shaded pieces of
+    weight 1", "b - a unshaded" — and this turns them into the flat list a
+    renderer draws. Without it a statically-enumerated parts list would agree
+    with its stem on one variant and contradict it on the rest, and the Stage 3
+    region rule would not catch it: that rule checks weights and shading, not
+    piece count."""
+    expanded: list[dict] = []
+    for index, part in enumerate(figure.get("parts") or []):  # type: ignore[union-attr]
+        part_path = f"{path}.parts[{index}]"
+        count_expr = part.get("count_expr")
+        count = (
+            _fmt_figure_value(str(count_expr), values, f"{part_path}.count_expr")
+            if count_expr is not None
+            else 1
+        )
+        if not isinstance(count, int) or count < 0:
+            raise BuildError(
+                f"{part_path}.count_expr: expected a whole piece count, got {count!r}"
+            )
+        weight = _fmt_figure_value(str(part.get("weight_expr")), values, f"{part_path}.weight_expr")
+        expanded.extend({"weight": weight, "shaded": bool(part.get("shaded"))} for _ in range(count))
+    if len(expanded) < 2:
+        raise BuildError(
+            f"{path}.parts expanded to {len(expanded)} piece(s); a divided whole needs at least two"
+        )
+    return expanded
+
+
 def materialize_figures(
     template: Mapping[str, object],
     values: Mapping[str, int],
@@ -369,6 +403,8 @@ def materialize_figures(
         )
         if kind == "array":
             concrete["rows"] = _expand_array_rows(figure, values, path)  # type: ignore[index]
+        elif kind == "region":
+            concrete["parts"] = _expand_region_parts(figure, values, path)  # type: ignore[index]
         materialized.append(concrete)  # type: ignore[arg-type]
     return materialized
 

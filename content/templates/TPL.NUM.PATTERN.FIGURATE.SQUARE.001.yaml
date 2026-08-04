@@ -28,6 +28,14 @@ localization_slots: []
 stem_i18n:
   en-IN: "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the {{n}}th square number?"
 
+# The {{n}}th square arrangement the stem names: an n x n square of dots, so
+# every row holds n dots. Unlabelled — the dot count is the answer.
+figure:
+  - kind: array
+    rows_expr: "n"
+    per_row_expr: "n"
+    icon: "dot"
+
 answer: "n * n"
 
 distractors:

@@ -48,6 +48,21 @@ hints_i18n:
     - "Add up the symbols first, but remember each symbol is worth more than 1 vehicle."
     - "Once you have the total number of symbols, multiply by the key."
 
+figure:
+  - kind: pictograph
+    key_expr: "k"
+    unit: "vehicles"
+    rows:
+      - label_i18n:
+          en-IN: "Cars"
+        whole_expr: "n1"
+      - label_i18n:
+          en-IN: "Bikes"
+        whole_expr: "n2"
+      - label_i18n:
+          en-IN: "Buses"
+        whole_expr: "n3"
+
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

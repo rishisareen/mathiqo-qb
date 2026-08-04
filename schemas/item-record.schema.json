@@ -489,16 +489,18 @@
         "shape": { "enum": ["bar", "rectangle", "circle"], "description": "The whole being divided. Stems say only \"a shape\", so the figure names it." },
         "parts": {
           "type": "array",
-          "minItems": 2,
+          "minItems": 1,
           "items": {
             "type": "object",
             "additionalProperties": false,
             "required": ["weight_expr", "shaded"],
             "properties": {
               "weight_expr": { "$ref": "#/$defs/expr", "description": "Relative size. Parts are deliberately unequal in two of the three part-whole items." },
-              "shaded": { "type": "boolean" }
+              "shaded": { "type": "boolean" },
+              "count_expr": { "$ref": "#/$defs/expr", "description": "How many identical parts this entry stands for; defaults to 1. Every part-whole stem varies its piece count by variable, so a statically-enumerated list would contradict the stem on most variants. Bank build expands this into one instance part per drawn piece, the way the array kind expands its rows." }
             }
-          }
+          },
+          "description": "Authored as groups of identical pieces; the materialized instance carries one entry per drawn piece."
         }
       }
     },

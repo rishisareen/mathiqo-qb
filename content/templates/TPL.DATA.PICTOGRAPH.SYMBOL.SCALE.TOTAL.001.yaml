@@ -48,6 +48,15 @@ hints_i18n:
     - "Check the key before you count — one symbol is worth more than 1."
     - "Multiply the number of symbols by the key value to get the total."
 
+figure:
+  - kind: pictograph
+    key_expr: "k"
+    unit: "books"
+    rows:
+      - label_i18n:
+          en-IN: "Adventure"
+        whole_expr: "n"
+
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

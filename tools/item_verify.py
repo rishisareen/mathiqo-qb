@@ -640,16 +640,34 @@ def _rule_shape(figure: Mapping[str, object], values: Mapping[str, int]) -> None
 
 def _rule_region(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
     parts = list(figure.get("parts") or [])  # type: ignore[arg-type]
+    # Each authored entry is a *group* of identical pieces (count_expr,
+    # defaulting to 1), so the shading and total-piece checks below count
+    # drawn pieces rather than authored entries — a group whose count
+    # evaluates to zero on this variant contributes nothing to either.
+    drawn_shaded = 0
+    drawn_total = 0
     for index, part in enumerate(parts):
-        weight = _expr_rat(part, "weight_expr", values, f"parts[{index}].")
+        prefix = f"parts[{index}]."
+        weight = _expr_rat(part, "weight_expr", values, prefix)
         if weight is not None and weight <= 0:
             raise HardFail(f"parts[{index}].weight_expr (relative size) must be positive, got {weight}")
-    shaded = [bool(part.get("shaded")) for part in parts]
-    if not any(shaded) or all(shaded):
+        if "count_expr" in part:
+            count = _expr_int(part, "count_expr", values, prefix)
+            if count is None or count < 0:
+                raise HardFail(
+                    f"parts[{index}].count_expr must be a whole piece count, got {count}"
+                )
+        else:
+            count = 1
+        drawn_total += count
+        if bool(part.get("shaded")):
+            drawn_shaded += count
+    if drawn_total < 2:
         raise HardFail(
-            f"a part-whole region needs at least one shaded and one unshaded part, "
-            f"got {sum(shaded)} shaded of {len(shaded)}"
+            f"a divided whole needs at least two pieces, got {drawn_total}"
         )
+    if drawn_shaded == 0:
+        raise HardFail("a part-whole region needs at least one shaded piece, got none")
 
 
 def _rule_array(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
@@ -812,6 +830,37 @@ def _check_label_leak(
                 )
 
 
+def _check_region_matches_answer(
+    figure: Mapping[str, object], values: Mapping[str, int], answer_key: tuple
+) -> None:
+    """A part-whole region's shaded area must equal the fraction it asks for.
+
+    This is the strongest consistency rule any kind has, and it is the one
+    that matters: these items ask "what fraction is shaded?", so a figure
+    whose shaded area disagrees with the answer marks the child wrong for
+    reading the picture correctly. It also subsumes shading heuristics — a
+    fully-shaded whole is fine precisely when the answer is 1.
+    """
+    shaded_area = sympy.Rational(0)
+    total_area = sympy.Rational(0)
+    for index, part in enumerate(figure.get("parts") or []):  # type: ignore[union-attr]
+        prefix = f"parts[{index}]."
+        weight = _expr_rat(part, "weight_expr", values, prefix)
+        count = _expr_int(part, "count_expr", values, prefix) if "count_expr" in part else 1
+        if weight is None or count is None:
+            return  # the kind rule already reported the unevaluable expression
+        total_area += weight * count
+        if bool(part.get("shaded")):
+            shaded_area += weight * count
+    if total_area == 0:
+        raise HardFail("a part-whole region has zero total area")
+    if _rational_key(shaded_area / total_area) != answer_key:
+        raise HardFail(
+            f"the figure shades {shaded_area}/{total_area} of the whole, which is not this "
+            f"variant's answer — the drawn region and the expected answer disagree"
+        )
+
+
 def check_figures(template: Mapping[str, object], values: Mapping[str, int]) -> None:
     """Run every figure rule for one variant; any violation is a HardFail."""
     declared = figures(template)
@@ -828,6 +877,8 @@ def check_figures(template: Mapping[str, object], values: Mapping[str, int]) -> 
                 _exact(expr, values, path)
             for rule in FIGURE_KIND_RULES[kind]:
                 rule(figure, values)
+            if kind == "region":
+                _check_region_matches_answer(figure, values, answer_key)
             _check_label_leak(figure, substitutions, answer_key)
         except HardFail as exc:
             raise HardFail(f"figure[{index}] ({kind}) at {dict(values)}: {exc}") from exc
