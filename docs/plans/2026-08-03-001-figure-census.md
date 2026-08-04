@@ -1,6 +1,6 @@
 # Figure Census — Class 6 Templates
 
-Companion artifact to `docs/plans/2026-08-03-001-feat-partner-figure-support-plan.md` (U1). It records which templates are figure-dependent and which kind each one renders as. U5's not-yet-annotated allowlist and the U6/U7 file lists both derive from this list.
+Companion artifact to `docs/plans/2026-08-03-001-feat-partner-figure-support-plan.md` (U1). It records which templates are figure-dependent and which kind each one renders as. The two content waves and the coverage guard both derived from this list; the census is now fully annotated.
 
 **Census: 78 of 238 templates.** The pre-audit annotation had 55. The audit flipped 27 templates to `diagram_required: true` and 4 off it; no `template_version` changed (KTD3).
 
@@ -42,9 +42,9 @@ Twelve kinds cover the census, matching KTD6 once `grid-region` and `ruler` are 
 ## Kind requirements the audit fixed
 
 - **`angle` carries a context.** Bare angle, clock face with numbered hour marks (5 templates), protractor overlay naming which scale is emphasised (4 templates), and a reflex arc drawn on the >180° side (1 template, up to 350°).
-- **`region` needs unequal parts.** Two of the three part-whole items divide a whole into `s` small pieces *plus* one piece of relative size `k`. The kind carries per-part weights and a shaded-index set, not "n equal parts, m shaded". `FRAC.PARTWHOLE.DIRECT.001` also says only "A shape" with no variable naming it — the figure must carry a shape identifier the template does not currently declare.
+- **`region` needs unequal parts.** Two of the three part-whole items divide a whole into `s` small pieces *plus* one piece of relative size `k`. The kind carries per-part weights, a count expression per group, and a shaded flag on each -- not "n equal parts, m shaded". `FRAC.PARTWHOLE.DIRECT.001` also says only "A shape" with no variable naming it — the figure must carry a shape identifier the template does not currently declare.
 - **`circle` needs construction context.** `CIRCLE.FROMSEGMENT` draws a segment as the diameter with endpoints and centre marked; a bare circle does not express it.
-- **`shape` needs per-side labels, rotation state, and symmetry marks.** `PERIMETER.RECT.MISSEDSIDE` works only when exactly one length and one width are labelled; the rotation items need an applied rotation; symmetry items need axis or order rendering.
+- **`shape` needs per-side labels and rotation state, and must NOT draw symmetry.** `PERIMETER.RECT.MISSEDSIDE` works only when exactly one length and one width are labelled; the rotation items need an applied rotation. The symmetry items authored `symmetry: none` deliberately: drawing the fold lines or marking the rotational order answers the question the item asks, and the verification gate cannot catch it, since its leak rule reads label maps and shapes carry none.
 - **`ruler` needs scale plus object span.** Range, numbered major ticks, minor ticks, and the measured object's start and end marks — where the start is deliberately non-zero in two of the three.
 - **Repetition is in-kind, not array-level.** `ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD` shows `m` tilted right angles where `m` is a variable (2–9). A kind that repeats one element takes a count expression internally; the `figures` array is reserved for genuinely distinct figures (`SQUARE.FROMRADIUS`'s circle plus square, the five two-figure comparisons).
 

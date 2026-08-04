@@ -655,7 +655,362 @@ across bank rebuilds of the same rendered item), `skill_ids`, `question_type`
 (`mcq_4` | `numeric_entry`), `difficulty` (0-1), `language`, `locale`,
 `variables`, `stem` (fully rendered, nothing left to resolve client-side),
 `answer`, `distractors` (each tagged with its `misconception_id` where
-applicable), `hints`, `solution_steps`.
+applicable), `hints`, `solution_steps`, `figures` (the item's structured
+visual stimulus, or `null` — optional and nullable, see the next subsection).
+
+### Figures (`figures`, on the item instance)
+
+An item that needs a chart, a number line, a protractor reading, or a
+labelled shape carries that figure as structured data on the instance, so you
+render it yourself rather than re-authoring it. Values are already concrete —
+every expression evaluated, every label rendered into the instance's own
+language and locale dressing — so a renderer draws the figure without
+resolving anything.
+
+**Read these five facts before writing a renderer.**
+
+1. **`figures` is an array, and repetition is never expressed by repeating
+   elements.** Most items carry exactly one element. A few carry two, and only
+   when the item genuinely shows two distinct figures — an item comparing two
+   angles, or one showing a square alongside a regular n-gon. When an item
+   shows the *same* shape several times, that count lives **inside** the kind
+   (`angle.count`, `point-line.elements[].count`), never as repeated array
+   elements. No item in the bank carries more than two.
+2. **Non-integer quantities are exact rational strings, never floats.** A
+   figure quantity is either a plain JSON integer (`4`) or a canonical
+   `"p/q"` string (`"5/3"`, `"-1/4"`, `"1/2"`) — the same convention the
+   `answer` field uses. A renderer that does arithmetic on a position or a
+   tick spacing **must parse the string**; `JSON.parse` alone leaves you with
+   `"5/8"`, not `0.625`. No figure field is ever a float.
+3. **`figures` is `null` when an item has no figure, and absent entirely on
+   instances from banks built before this shipped.** Both mean "no figure";
+   treat a missing key exactly like `null`. Newer banks always state the key.
+4. **This is a versioned instance-schema revision, and adding an optional
+   field is non-breaking.** If you validate instances against a **pinned
+   local copy** of [`schemas/item-instance.schema.json`](../schemas/item-instance.schema.json),
+   re-fetch it — a pinned older copy has no `figures` property and, under
+   `additionalProperties: false`, will reject every new instance. A consumer
+   that simply ignores unknown fields needs no change at all.
+5. **The stem still describes the figure in words.** Every figure-bearing
+   stem is self-contained prose ("A bar graph shows rainy days per month,
+   with each gridline worth 4 mm…"), so a consumer that ignores `figures`
+   entirely can still serve every item, unchanged. The field is strictly
+   additive — a better rendering of an item you could already serve, never a
+   precondition for serving it.
+
+**Missing information in a figure is usually the question.** Do not "helpfully"
+fill it in. A number-line point carries no `label` when its position *is* the
+answer; a symmetry item carries `symmetry: "none"` because drawing the fold
+lines would answer the question; a perimeter item labels only two sides of a
+rectangle; a ruler item starts the object away from zero. The build enforces
+the first case directly — a figure label that renders to that variant's answer
+is refused at verification — so an absent label is a decision, not a gap.
+
+**One known exclusion.** `TPL.NUM.PATTERN.FIGURATE.CUBE.001` asks the student
+to picture an n×n×n solid of unit cubes. No kind expresses a 3D solid, so
+that template stays text-only and its instances carry `figures: null`. It is
+the only figure-dependent item in the bank without a structured figure; you
+will not find others by probing.
+
+**Kind discrimination.** Every element carries a `kind` string from a closed
+set of twelve, and `kind` alone determines the rest of the object's shape.
+Switch on it. Objects are `additionalProperties: false` — the fields listed
+per kind below are exactly what you can receive.
+
+**Two field names collide across kinds — don't share a parser.**
+`bar-graph.scale` is a *quantity* (the value one gridline is worth);
+`angle.scale` is a *string enum* (`inner` | `outer`). Likewise `array.rows`
+is a list of counts, `grid-region.rows` is a single count, and
+`pictograph.rows` / `tally-chart.rows` are lists of objects.
+
+Every JSON block below is verbatim output from an actual bank build.
+
+#### `bar-graph`
+
+Labelled bars measured in gridlines. `scale` is the value **one gridline** is
+worth, so a bar's real value is `gridlines × scale` — never read `gridlines`
+as the value. **Required:** `scale`, `bars[]` (each with `label`,
+`gridlines`). **Optional:** `unit`.
+
+```json
+{
+  "kind": "bar-graph", "scale": 4, "unit": "mm",
+  "bars": [
+    { "label": "March", "gridlines": 2 },
+    { "label": "April", "gridlines": 3 },
+    { "label": "May", "gridlines": 2 }
+  ]
+}
+```
+
+#### `pictograph`
+
+Rows of repeated symbols against a key. `key` is the value **one whole
+symbol** is worth; a row's value is `whole × key`, plus `key/2` when `half`
+is `true` (a trailing half-clipped symbol). **Required:** `key`, `rows[]`
+(each with `label`, `whole`). **Optional:** `unit`, `icon` (a hint at what to
+draw, e.g. `"jar"`); per row, `half`.
+
+```json
+{
+  "kind": "pictograph", "key": 4, "unit": "mangoes",
+  "rows": [ { "label": "Mangoes", "whole": 2, "half": true } ]
+}
+```
+
+#### `tally-chart`
+
+Rows of tally marks split into five-stroke bundles plus loose strokes. A
+row's frequency is `bundles × 5 + loose`. **Required:** `rows[]` (each with
+`label`, `bundles`, `loose`). `loose` is always present, `0` included, and is
+always 0-4 — a fifth loose stroke would close another bundle.
+
+```json
+{
+  "kind": "tally-chart",
+  "rows": [
+    { "label": "Dog", "bundles": 5, "loose": 0 },
+    { "label": "Cat", "bundles": 3, "loose": 3 },
+    { "label": "Bird", "bundles": 1, "loose": 0 }
+  ]
+}
+```
+
+#### `number-line`
+
+A line from `min` to `max` cut into `divisions` equal gaps, with marked
+points. `divisions` is the count of gaps **per unit interval**, not across
+the whole line — the example below spans 0 to 3 with 4 gaps per unit, so a
+point at `9/4` sits on the ninth tick. **Required:** `min`, `max`,
+`divisions`, `points[]` (each with `position`). **Optional:** per point,
+`label`.
+
+```json
+{
+  "kind": "number-line", "min": 0, "max": 3, "divisions": 4,
+  "points": [ { "position": "9/4" } ]
+}
+```
+
+`min`, `max`, and `position` all go negative on integer-line items, and
+`divisions: 1` means whole-number ticks only:
+
+```json
+{
+  "kind": "number-line", "min": -3, "max": 3, "divisions": 1,
+  "points": [ { "position": -2, "label": "P" } ]
+}
+```
+
+#### `angle`
+
+One angle, drawn in a stated context. **Required:** `degrees`, `context`
+(`bare` | `clock` — a clock face with numbered hour marks | `protractor` — a
+protractor overlay | `reflex` — the arc drawn on the >180° side).
+**Optional:** `scale` (`inner` | `outer`, which protractor scale the item
+reads — present **only** with `context: "protractor"`), `tilt` (degrees of
+rotation away from upright), `arm_length` (relative, for items that turn on
+arm length not mattering), `count` (≥1; draw this same angle `count` times at
+differing tilts — see fact 1).
+
+`context` bounds `degrees`, which is always positive: `bare` and `protractor`
+never exceed 180, `reflex` is strictly between 180 and 360, and `clock` runs
+up to 360.
+
+```json
+{ "kind": "angle", "degrees": 335, "context": "reflex" }
+```
+
+```json
+{ "kind": "angle", "degrees": 90, "context": "bare", "count": 4 }
+```
+
+#### `circle`
+
+A circle, optionally with a named length and marked points. Everything but
+`kind` is optional — a bare `{"kind": "circle"}` is a valid figure.
+**Optional:** `construction` (`none` | `segment-as-diameter`, which draws the
+segment with its endpoints and the centre marked), `length_part` (`radius` |
+`diameter`) with `length` and `unit`, `points_on` (points marked exactly on
+the circle), `points_off` (points marked inside or outside it, never on it).
+
+`length_part` and `length` always arrive together or not at all —
+`length_part` names *which* length `length` is, so a length without it would
+be unrenderable.
+
+```json
+{
+  "kind": "circle", "construction": "segment-as-diameter",
+  "length_part": "diameter", "length": 8, "unit": "cm"
+}
+```
+
+```json
+{ "kind": "circle", "points_on": 2, "points_off": 5 }
+```
+
+#### `point-line`
+
+Points and one-dimensional elements drawn on a page. **Required:**
+`elements[]` (each with `element` — `point` | `segment` | `ray` | `line` —
+and `count`). **Optional:** `collinear` (`true` when the elements must be
+drawn on one straight line); per element, `labels` (the names to use). When
+`labels` is present it is **at least as long as `count`, and often longer** —
+it's the authored name pool, so take the first `count` of them in order.
+
+```json
+{
+  "kind": "point-line", "collinear": true,
+  "elements": [
+    { "element": "segment", "count": 1, "labels": ["PQ"] },
+    { "element": "point", "count": 1 }
+  ]
+}
+```
+
+#### `shape`
+
+One 2D figure, optionally labelled, rotated, or symmetry-marked.
+**Required:** `shape` (`rectangle` | `square` | `triangle` |
+`isosceles-triangle` | `parallelogram` | `pentagon` | `regular-ngon` |
+`circle` | `prism` | `composite-l`). **Optional:** `sides` (always present for
+`regular-ngon`, which has no fixed side count; implied by `shape` otherwise),
+`vertex_labels` (in drawing order), `side_labels[]`,
+`rotation` (degrees applied), `symmetry` (`none` | `lines` — draw the axes |
+`order` — mark the rotational order).
+
+`side_labels` is **sparse and index-addressed**: each entry carries `side`
+(a plain JSON integer index, 0-based, in the same order as `vertex_labels`),
+`value`, and an optional `unit`. Only the sides the item actually states are
+present, and some items turn on a side being deliberately unlabelled — do not
+infer a missing side's length, and do not assume the indices are contiguous.
+`side` is the one figure field that is always an integer and never a rational
+string.
+
+```json
+{
+  "kind": "shape", "shape": "rectangle",
+  "vertex_labels": ["P", "Q", "R", "S"],
+  "side_labels": [
+    { "side": 0, "value": 3, "unit": "cm" },
+    { "side": 1, "value": 8, "unit": "cm" }
+  ],
+  "symmetry": "none"
+}
+```
+
+```json
+{
+  "kind": "shape", "shape": "composite-l",
+  "side_labels": [
+    { "side": 0, "value": 3, "unit": "m" },
+    { "side": 1, "value": 3, "unit": "m" },
+    { "side": 3, "value": 6, "unit": "m" },
+    { "side": 4, "value": 5, "unit": "m" }
+  ]
+}
+```
+
+#### `region`
+
+A whole cut into parts, some shaded — the part-whole fraction diagram.
+**Required:** `shape` (`bar` | `rectangle` | `circle`), `parts[]` (at least
+two, each with `weight` and `shaded`). `weight` is a **relative** size, and
+parts are genuinely unequal wherever the item depends on it, so never render
+this as "n equal parts, m shaded" — size each part in proportion to its
+weight against the sum of all weights.
+
+```json
+{
+  "kind": "region", "shape": "rectangle",
+  "parts": [
+    { "weight": 1, "shaded": true },
+    { "weight": 1, "shaded": false },
+    { "weight": 1, "shaded": false },
+    { "weight": 3, "shaded": false }
+  ]
+}
+```
+
+#### `array`
+
+Rows of identical marks — dot patterns, counted objects, figurate numbers.
+**Required:** `rows[]`, one count per row, already expanded (the example
+below is the third triangular number). **Optional:** `icon` (what to draw,
+e.g. `"dot"`, `"bottle-cap"`, `"egg"`).
+
+```json
+{ "kind": "array", "icon": "dot", "rows": [1, 2, 3] }
+```
+
+#### `grid-region`
+
+A shaded region on squared paper. **Required:** `cols`, `rows`, `fill`
+(`all` | `block-minus-corner` — a rectangular block with a corner block
+removed | `half-squares` — some cells shaded diagonally in half).
+The optional fields are **tied to the fill and mutually exclusive**:
+`block-minus-corner` always carries `cutout_cols` and `cutout_rows` (the
+removed corner block, strictly smaller than the grid in both dimensions) and
+never `half_cells`; `half-squares` always carries `half_cells` (how many of
+the `cols × rows` cells are half-shaded) and never the cutout pair; `all`
+carries neither.
+
+Where the cutout corner sits, and which cells are the half ones, is **your
+renderer's choice** — no field pins it down. Make the choice deterministic so
+the same instance always draws identically.
+
+```json
+{
+  "kind": "grid-region", "cols": 7, "rows": 5,
+  "fill": "block-minus-corner", "cutout_cols": 3, "cutout_rows": 1
+}
+```
+
+#### `ruler`
+
+A ruler scale with measured objects laid against it. **Required:** `min`,
+`max`, `major` (numbered-tick spacing), `minor` (unnumbered-tick spacing —
+routinely a rational like `"1/2"`), `unit`, `objects[]` (each with `start`
+and `end` in ruler coordinates). **Optional:** per object, `label`. An
+object's `start` is deliberately non-zero on several items — the length is
+`end - start`, never `end`. `minor` never exceeds `major`, and every object's
+span lies inside `[min, max]`.
+
+One item labels a single span "two blocks, end-to-end"; where the two blocks
+meet inside that span is your renderer's choice, and should be deterministic.
+
+```json
+{
+  "kind": "ruler", "min": 0, "max": 30, "major": 1, "minor": "1/2", "unit": "cm",
+  "objects": [ { "label": "Two blocks, end-to-end", "start": 2, "end": 11 } ]
+}
+```
+
+#### A two-figure item
+
+Two elements mean two genuinely distinct figures, drawn side by side. Below,
+an item comparing two rectangles of equal perimeter and different area; the
+other two-figure shapes in the bank are two angles compared, and a circle
+alongside a square constructed from its radius.
+
+```json
+[
+  {
+    "kind": "shape", "shape": "rectangle",
+    "side_labels": [
+      { "side": 0, "value": 6, "unit": "cm" },
+      { "side": 1, "value": 4, "unit": "cm" }
+    ]
+  },
+  {
+    "kind": "shape", "shape": "rectangle",
+    "side_labels": [
+      { "side": 0, "value": 7, "unit": "cm" },
+      { "side": 1, "value": 3, "unit": "cm" }
+    ]
+  }
+]
+```
 
 ---
 
