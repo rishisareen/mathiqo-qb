@@ -101,6 +101,9 @@ class HardFail(Exception):
 # needs; a derived name is available only when all of them are declared.
 # v1 ships the unlike-fraction-addition family used by §2.2 — new template
 # families extend this registry.
+#
+# FIGURE_KIND_RULES (below, after check_slots — it needs this module's rational
+# evaluation helpers) is the same registry shape for figure integrity (KTD5).
 # ---------------------------------------------------------------------------
 DerivedRule = tuple[frozenset[str], Callable[[Mapping[str, int]], object]]
 
@@ -344,6 +347,542 @@ def check_slots(template: Mapping[str, object]) -> None:
             "not a variable, localization slot, or computable derived value"
         )
 
+    # KTD5's two kind-independent structural rules: a figure label map covers
+    # every language the stem is authored in (bank_build materializes the
+    # figure into the instance's single language through the same dict as the
+    # stem, so a missing language is a crash at build time), and a label slot
+    # resolves exactly the way a *stem* slot resolves — variable or locale
+    # slot, never a derived value (a figure is stimulus, not exposition).
+    stem_languages = set(template["stem_i18n"])  # type: ignore[arg-type]
+    for index, figure in enumerate(figures(template)):
+        for path, label_map in _figure_label_maps(figure):
+            missing = stem_languages - set(label_map)
+            if missing:
+                raise HardFail(
+                    f"figure[{index}] {path} is missing language(s) {sorted(missing)} "
+                    "present in stem_i18n: every figure label covers every stem language"
+                )
+            undeclared = _slot_names(_i18n_strings(label_map)) - variables - locale_slots
+            if undeclared:
+                raise HardFail(
+                    f"figure[{index}] {path} references undeclared slots {sorted(undeclared)}: "
+                    "not in localization_slots and not a template variable"
+                )
+
+
+# ---------------------------------------------------------------------------
+# Figure integrity (R9, KTD5): a per-kind rule registry in the
+# DERIVED_VALUE_RULES shape — each kind declares the structural and
+# value-consistency invariants that the JSON Schema cannot express (it knows
+# required keys and enums, not that a half symbol needs an even key or that a
+# cutout must fit inside its block). Every expression evaluates through
+# evaluate_expression, so all figure arithmetic is exact sympy rationals and
+# never a float (KTD4). Violations are HardFail, never FLAG: a FLAG still
+# builds (tools/bank_build.py:487-492), so a figure-inconsistent template has
+# to hard-fail to actually refuse the build.
+#
+# Label *wording* against stem prose stays Stage 4 human review; what is
+# machine-checked here is well-formedness, consistency with the variable
+# assignment, and the answer leak.
+# ---------------------------------------------------------------------------
+
+FigureRule = Callable[[Mapping[str, object], Mapping[str, int]], None]
+
+# Symbols an expression field may use beyond the declared template variables.
+# figArray's per_row_expr is evaluated once per row with "i" bound to the
+# one-based row index ("i" builds a triangular pile, a constant a rectangle).
+FIGURE_BOUND_SYMBOLS: dict[tuple[str, str], tuple[str, ...]] = {
+    ("array", "per_row_expr"): ("i",),
+}
+
+# A label that renders to a bare number is compared against the answer; the
+# answer pattern is the same ^-?\d+(/\d+)?$ shape the instance schema uses.
+_NUMERIC_LABEL_RE = re.compile(r"^-?\d+(?:/\d+)?$")
+
+# Shapes whose side count is fixed by the name (regular-ngon's comes from
+# sides_expr; circle/prism/composite-l have no meaningful side count).
+_SHAPE_SIDE_COUNTS = {
+    "triangle": 3,
+    "isosceles-triangle": 3,
+    "rectangle": 4,
+    "square": 4,
+    "parallelogram": 4,
+    "pentagon": 5,
+}
+
+
+def figures(template: Mapping[str, object]) -> list[Mapping[str, object]]:
+    """The template's authored figures ("figure"), or [] when it declares none."""
+    declared = template.get("figure")
+    if not isinstance(declared, list):
+        return []
+    return [f for f in declared if isinstance(f, Mapping)]
+
+
+def _walk_keyed(node: object, suffix: str, path: str = "") -> Iterable[tuple[str, str, object]]:
+    """Yield (dotted path, key, value) for every mapping key ending in ``suffix``.
+
+    Walking by key suffix rather than a per-kind field list means a new kind
+    (or a new field on an existing kind) gets its expressions pre-parsed and
+    its labels slot-checked for free — the naming convention (``*_expr``,
+    ``*_i18n``) is the same across all twelve kinds in the item-record schema.
+    """
+    if isinstance(node, Mapping):
+        for key, value in node.items():
+            child = f"{path}.{key}" if path else str(key)
+            if str(key).endswith(suffix):
+                yield child, str(key), value
+            else:
+                yield from _walk_keyed(value, suffix, child)
+    elif isinstance(node, list):
+        for index, item in enumerate(node):
+            yield from _walk_keyed(item, suffix, f"{path}[{index}]")
+
+
+def _figure_expressions(figure: Mapping[str, object]) -> list[tuple[str, str, str]]:
+    return [(p, k, v) for p, k, v in _walk_keyed(figure, "_expr") if isinstance(v, str)]
+
+
+def _figure_label_maps(figure: Mapping[str, object]) -> list[tuple[str, Mapping]]:
+    return [(p, v) for p, _k, v in _walk_keyed(figure, "_i18n") if isinstance(v, Mapping)]
+
+
+def _exact(expr: str, values: Mapping[str, int], label: str) -> sympy.Rational:
+    """Evaluate a figure expression to an exact rational or hard-fail.
+
+    Anything that is not a Rational at this variant — a leftover free symbol,
+    a division by zero (sympy's ``zoo``), an irrational — cannot be rendered
+    and cannot be serialized under the contract's rational-string rule (KTD4).
+    """
+    value = evaluate_expression(expr, values)
+    if not isinstance(value, sympy.Rational):
+        raise HardFail(
+            f"{label}: expression {expr!r} did not evaluate to an exact rational "
+            f"(got {value}) at {dict(values)}"
+        )
+    return value
+
+
+def _expr_rat(
+    node: Mapping[str, object], key: str, values: Mapping[str, int], prefix: str = "",
+    *, required: bool = True,
+) -> sympy.Rational | None:
+    expr = node.get(key)
+    if expr is None:
+        if required:
+            raise HardFail(f"{prefix}{key} is required")
+        return None
+    return _exact(str(expr), values, f"{prefix}{key}")
+
+
+def _expr_int(
+    node: Mapping[str, object], key: str, values: Mapping[str, int], prefix: str = "",
+    *, required: bool = True,
+) -> int | None:
+    value = _expr_rat(node, key, values, prefix, required=required)
+    if value is None:
+        return None
+    if value.q != 1:
+        raise HardFail(
+            f"{prefix}{key} ({node[key]!r}) must be a whole number, got {value} at {dict(values)}"
+        )
+    return int(value)
+
+
+def _rule_bar_graph(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
+    scale = _expr_int(figure, "scale_expr", values)
+    if scale is not None and scale <= 0:
+        raise HardFail(f"scale_expr (value per gridline) must be positive, got {scale}")
+    for index, bar in enumerate(figure.get("bars") or []):  # type: ignore[union-attr]
+        count = _expr_int(bar, "gridlines_expr", values, f"bars[{index}].")
+        if count is not None and count < 0:
+            raise HardFail(f"bars[{index}].gridlines_expr must not be negative, got {count}")
+
+
+def _rule_pictograph(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
+    key = _expr_int(figure, "key_expr", values)
+    if key is not None and key <= 0:
+        raise HardFail(f"key_expr (value of one whole symbol) must be positive, got {key}")
+    rows = list(figure.get("rows") or [])  # type: ignore[arg-type]
+    if key is not None and key % 2 != 0 and any(row.get("half") for row in rows):
+        raise HardFail(
+            f"a row drawn with a half symbol is worth key/2, which requires an even key, "
+            f"but key_expr evaluates to {key} at {dict(values)}"
+        )
+    for index, row in enumerate(rows):
+        whole = _expr_int(row, "whole_expr", values, f"rows[{index}].")
+        if whole is not None and whole < 0:
+            raise HardFail(f"rows[{index}].whole_expr must not be negative, got {whole}")
+
+
+def _rule_tally_chart(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
+    for index, row in enumerate(figure.get("rows") or []):  # type: ignore[union-attr]
+        prefix = f"rows[{index}]."
+        bundles = _expr_int(row, "bundles_expr", values, prefix)
+        loose = _expr_int(row, "loose_expr", values, prefix)
+        if bundles is not None and bundles < 0:
+            raise HardFail(f"{prefix}bundles_expr must not be negative, got {bundles}")
+        if loose is not None and not 0 <= loose <= 4:
+            raise HardFail(
+                f"{prefix}loose_expr counts ungrouped strokes, which are always fewer "
+                f"than five, got {loose}"
+            )
+
+
+def _rule_number_line(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
+    low = _expr_rat(figure, "min_expr", values)
+    high = _expr_rat(figure, "max_expr", values)
+    if low is not None and high is not None and low >= high:
+        raise HardFail(f"min_expr must be less than max_expr, got [{low}, {high}]")
+    divisions = _expr_int(figure, "divisions_expr", values)
+    if divisions is not None and divisions < 1:
+        raise HardFail(f"divisions_expr (sub-divisions per unit) must be at least 1, got {divisions}")
+    for index, point in enumerate(figure.get("points") or []):  # type: ignore[union-attr]
+        position = _expr_rat(point, "position_expr", values, f"points[{index}].")
+        if position is None:
+            continue
+        if low is not None and high is not None and not low <= position <= high:
+            raise HardFail(
+                f"points[{index}].position_expr is {position}, outside the line [{low}, {high}]"
+            )
+        if divisions is not None and divisions >= 1 and (position * divisions).q != 1:
+            raise HardFail(
+                f"points[{index}].position_expr is {position}, which lands between ticks "
+                f"on a line divided into {divisions}ths — an unreadable point"
+            )
+
+
+def _rule_angle(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
+    degrees = _expr_rat(figure, "degrees_expr", values)
+    context = str(figure.get("context"))
+    if degrees is not None:
+        if degrees <= 0:
+            raise HardFail(f"degrees_expr must be positive, got {degrees}")
+        if context == "reflex" and not 180 < degrees < 360:
+            raise HardFail(
+                f"the reflex context draws the major arc, so degrees_expr must be strictly "
+                f"between 180 and 360, got {degrees}"
+            )
+        if context == "clock" and degrees > 360:
+            raise HardFail(f"a turn on a clock face cannot exceed 360 degrees, got {degrees}")
+        if context in {"bare", "protractor"} and degrees > 180:
+            raise HardFail(
+                f"degrees_expr is {degrees}: an angle above 180 needs the reflex context "
+                f"(or the clock face), not {context!r}"
+            )
+    if "scale" in figure and context != "protractor":
+        raise HardFail(
+            f"scale names which protractor scale the item reads, so it belongs to the "
+            f"protractor context only, not {context!r}"
+        )
+    count = _expr_int(figure, "count_expr", values, required=False)
+    if count is not None and count < 1:
+        raise HardFail(f"count_expr repeats the angle, so it must be at least 1, got {count}")
+    arm = _expr_rat(figure, "arm_length_expr", values, required=False)
+    if arm is not None and arm <= 0:
+        raise HardFail(f"arm_length_expr must be positive, got {arm}")
+
+
+def _rule_circle(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
+    has_part = "length_part" in figure
+    has_length = "length_expr" in figure
+    if has_part != has_length:
+        raise HardFail(
+            "length_part and length_expr are given together or not at all — a length "
+            "without the part it measures is unrenderable"
+        )
+    length = _expr_rat(figure, "length_expr", values, required=False)
+    if length is not None and length <= 0:
+        raise HardFail(f"length_expr must be positive, got {length}")
+    for key in ("points_on_expr", "points_off_expr"):
+        count = _expr_int(figure, key, values, required=False)
+        if count is not None and count < 0:
+            raise HardFail(f"{key} must not be negative, got {count}")
+
+
+def _rule_point_line(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
+    for index, element in enumerate(figure.get("elements") or []):  # type: ignore[union-attr]
+        count = _expr_int(element, "count_expr", values, f"elements[{index}].")
+        if count is not None and count < 0:
+            raise HardFail(f"elements[{index}].count_expr must not be negative, got {count}")
+        labels = element.get("labels")
+        if isinstance(labels, list) and count is not None and len(labels) < count:
+            raise HardFail(
+                f"elements[{index}] draws {count} {element.get('element')}(s) but declares "
+                f"only {len(labels)} label(s) at {dict(values)}"
+            )
+
+
+def _rule_shape(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
+    shape = str(figure.get("shape"))
+    sides = _expr_int(figure, "sides_expr", values, required=False)
+    if shape == "regular-ngon":
+        if sides is None:
+            raise HardFail("a regular-ngon takes its side count from sides_expr, which is absent")
+        if sides < 3:
+            raise HardFail(f"a regular-ngon needs at least 3 sides, got {sides}")
+    elif shape in _SHAPE_SIDE_COUNTS:
+        expected = _SHAPE_SIDE_COUNTS[shape]
+        if sides is not None and sides != expected:
+            raise HardFail(f"a {shape} has {expected} sides, but sides_expr evaluates to {sides}")
+        sides = expected
+    for index, side_label in enumerate(figure.get("side_labels") or []):  # type: ignore[union-attr]
+        position = side_label.get("side")
+        if sides is not None and isinstance(position, int) and position >= sides:
+            raise HardFail(
+                f"side_labels[{index}] labels side {position} (zero-based) of a "
+                f"{sides}-sided {shape}"
+            )
+        value = _expr_rat(side_label, "value_expr", values, f"side_labels[{index}].")
+        if value is not None and value <= 0:
+            raise HardFail(f"side_labels[{index}].value_expr must be positive, got {value}")
+
+
+def _rule_region(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
+    parts = list(figure.get("parts") or [])  # type: ignore[arg-type]
+    # Each authored entry is a *group* of identical pieces (count_expr,
+    # defaulting to 1), so the shading and total-piece checks below count
+    # drawn pieces rather than authored entries — a group whose count
+    # evaluates to zero on this variant contributes nothing to either.
+    drawn_shaded = 0
+    drawn_total = 0
+    for index, part in enumerate(parts):
+        prefix = f"parts[{index}]."
+        weight = _expr_rat(part, "weight_expr", values, prefix)
+        if weight is not None and weight <= 0:
+            raise HardFail(f"parts[{index}].weight_expr (relative size) must be positive, got {weight}")
+        if "count_expr" in part:
+            count = _expr_int(part, "count_expr", values, prefix)
+            if count is None or count < 0:
+                raise HardFail(
+                    f"parts[{index}].count_expr must be a whole piece count, got {count}"
+                )
+        else:
+            count = 1
+        drawn_total += count
+        if bool(part.get("shaded")):
+            drawn_shaded += count
+    if drawn_total < 2:
+        raise HardFail(
+            f"a divided whole needs at least two pieces, got {drawn_total}"
+        )
+    if drawn_shaded == 0:
+        raise HardFail("a part-whole region needs at least one shaded piece, got none")
+
+
+def _rule_array(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
+    bound = FIGURE_BOUND_SYMBOLS[("array", "per_row_expr")][0]
+    if bound in values:
+        raise HardFail(
+            f"an array figure evaluates per_row_expr with {bound!r} bound to the row index, "
+            f"so the template must not also declare a variable named {bound!r}"
+        )
+    rows = _expr_int(figure, "rows_expr", values)
+    if rows is None:
+        return
+    if rows < 1:
+        raise HardFail(f"rows_expr must be at least 1, got {rows}")
+    per_row = str(figure.get("per_row_expr"))
+    for row in range(1, rows + 1):
+        marks = _exact(per_row, {**values, bound: row}, f"per_row_expr (row {row})")
+        if marks.q != 1 or int(marks) < 1:
+            raise HardFail(
+                f"per_row_expr must be a positive whole number of marks, got {marks} "
+                f"in row {row} at {dict(values)}"
+            )
+
+
+def _rule_grid_region(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
+    cols = _expr_int(figure, "cols_expr", values)
+    rows = _expr_int(figure, "rows_expr", values)
+    if cols is None or rows is None:
+        return
+    if cols < 1 or rows < 1:
+        raise HardFail(f"a grid needs at least one cell, got {cols}x{rows}")
+    fill = str(figure.get("fill"))
+    cutout_cols = _expr_int(figure, "cutout_cols_expr", values, required=False)
+    cutout_rows = _expr_int(figure, "cutout_rows_expr", values, required=False)
+    half_cells = _expr_int(figure, "half_cells_expr", values, required=False)
+
+    if fill == "block-minus-corner":
+        if cutout_cols is None or cutout_rows is None:
+            raise HardFail(
+                "the block-minus-corner fill needs both cutout_cols_expr and cutout_rows_expr"
+            )
+        if not (1 <= cutout_cols < cols and 1 <= cutout_rows < rows):
+            raise HardFail(
+                f"the cutout ({cutout_cols}x{cutout_rows}) must be strictly smaller than the "
+                f"{cols}x{rows} block in both dimensions at {dict(values)}"
+            )
+    elif cutout_cols is not None or cutout_rows is not None:
+        raise HardFail(f"cutout_* belongs to the block-minus-corner fill, not {fill!r}")
+
+    if fill == "half-squares":
+        if half_cells is None:
+            raise HardFail("the half-squares fill needs half_cells_expr")
+        if not 1 <= half_cells <= cols * rows:
+            raise HardFail(
+                f"half_cells_expr is {half_cells}, outside the {cols * rows} cells of the grid"
+            )
+    elif half_cells is not None:
+        raise HardFail(f"half_cells_expr belongs to the half-squares fill, not {fill!r}")
+
+
+def _rule_ruler(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
+    low = _expr_rat(figure, "min_expr", values)
+    high = _expr_rat(figure, "max_expr", values)
+    if low is None or high is None:
+        return
+    if low >= high:
+        raise HardFail(f"min_expr must be less than max_expr on a ruler scale, got [{low}, {high}]")
+    major = _expr_rat(figure, "major_expr", values)
+    minor = _expr_rat(figure, "minor_expr", values)
+    if major is not None and major <= 0:
+        raise HardFail(f"major_expr (numbered tick interval) must be positive, got {major}")
+    if minor is not None and minor <= 0:
+        raise HardFail(f"minor_expr must be positive, got {minor}")
+    if major is not None and minor is not None and minor > major:
+        raise HardFail(
+            f"the minor tick interval ({minor}) must not exceed the numbered interval ({major})"
+        )
+    for index, obj in enumerate(figure.get("objects") or []):  # type: ignore[union-attr]
+        prefix = f"objects[{index}]."
+        start = _expr_rat(obj, "start_expr", values, prefix)
+        end = _expr_rat(obj, "end_expr", values, prefix)
+        if start is None or end is None:
+            continue
+        if start >= end:
+            raise HardFail(f"{prefix}start_expr ({start}) must be less than end_expr ({end})")
+        if start < low or end > high:
+            raise HardFail(
+                f"objects[{index}] spans [{start}, {end}], which must lie within the ruler "
+                f"scale [{low}, {high}]"
+            )
+
+
+FIGURE_KIND_RULES: dict[str, tuple[FigureRule, ...]] = {
+    "bar-graph": (_rule_bar_graph,),
+    "pictograph": (_rule_pictograph,),
+    "tally-chart": (_rule_tally_chart,),
+    "number-line": (_rule_number_line,),
+    "angle": (_rule_angle,),
+    "circle": (_rule_circle,),
+    "point-line": (_rule_point_line,),
+    "shape": (_rule_shape,),
+    "region": (_rule_region,),
+    "array": (_rule_array,),
+    "grid-region": (_rule_grid_region,),
+    "ruler": (_rule_ruler,),
+}
+
+
+def check_figure_expressions(
+    template: Mapping[str, object], sorted_var_names: tuple[str, ...]
+) -> None:
+    """Pre-parse every figure expression, mirroring the answer/distractor pass.
+
+    An expression over an undeclared variable fails here — before deep
+    enumeration — rather than surviving substitution as a leftover free symbol
+    and being caught one variant at a time.
+    """
+    declared = set(sorted_var_names)
+    for index, figure in enumerate(figures(template)):
+        kind = str(figure.get("kind"))
+        if kind not in FIGURE_KIND_RULES:
+            raise HardFail(
+                f"figure[{index}]: no figure rules are registered for kind {kind!r} — "
+                "a new kind must declare its integrity rules in FIGURE_KIND_RULES"
+            )
+        for path, key, expr in _figure_expressions(figure):
+            parsed = _parse(expr, sorted_var_names)
+            allowed = declared | set(FIGURE_BOUND_SYMBOLS.get((kind, key), ()))
+            undeclared = sorted(s.name for s in parsed.free_symbols if s.name not in allowed)
+            if undeclared:
+                raise HardFail(
+                    f"figure[{index}] ({kind}) {path}: expression {expr!r} references "
+                    f"undeclared variables {undeclared}"
+                )
+
+
+def _check_label_leak(
+    figure: Mapping[str, object], substitutions: Mapping[str, str], answer_key: tuple
+) -> None:
+    """One general answer-leak rule, in place of a per-kind one (KTD5).
+
+    A label that renders to this variant's answer value gives the answer away
+    — a number-line read item labelling the queried tick, a gridline-value
+    item labelling the queried bar. Only the *variable* slots are substituted
+    (locale dressing is chosen at build time and always renders to words, never
+    to a number), and only a label that renders to a bare rational is compared:
+    label wording against stem prose is Stage 4 human review, not this gate.
+    """
+    for path, label_map in _figure_label_maps(figure):
+        for language, text in label_map.items():
+            rendered = _SLOT_RE.sub(
+                lambda m: substitutions.get(m.group(1), m.group(0)), str(text)
+            ).strip()
+            if not _NUMERIC_LABEL_RE.fullmatch(rendered):
+                continue
+            if _rational_key(sympy.Rational(rendered)) == answer_key:
+                raise HardFail(
+                    f"{path}[{language}] renders to {rendered!r}, which is this variant's "
+                    "answer: the label leaks the answer"
+                )
+
+
+def _check_region_matches_answer(
+    figure: Mapping[str, object], values: Mapping[str, int], answer_key: tuple
+) -> None:
+    """A part-whole region's shaded area must equal the fraction it asks for.
+
+    This is the strongest consistency rule any kind has, and it is the one
+    that matters: these items ask "what fraction is shaded?", so a figure
+    whose shaded area disagrees with the answer marks the child wrong for
+    reading the picture correctly. It also subsumes shading heuristics — a
+    fully-shaded whole is fine precisely when the answer is 1.
+    """
+    shaded_area = sympy.Rational(0)
+    total_area = sympy.Rational(0)
+    for index, part in enumerate(figure.get("parts") or []):  # type: ignore[union-attr]
+        prefix = f"parts[{index}]."
+        weight = _expr_rat(part, "weight_expr", values, prefix)
+        count = _expr_int(part, "count_expr", values, prefix) if "count_expr" in part else 1
+        if weight is None or count is None:
+            return  # the kind rule already reported the unevaluable expression
+        total_area += weight * count
+        if bool(part.get("shaded")):
+            shaded_area += weight * count
+    if total_area == 0:
+        raise HardFail("a part-whole region has zero total area")
+    if _rational_key(shaded_area / total_area) != answer_key:
+        raise HardFail(
+            f"the figure shades {shaded_area}/{total_area} of the whole, which is not this "
+            f"variant's answer — the drawn region and the expected answer disagree"
+        )
+
+
+def check_figures(template: Mapping[str, object], values: Mapping[str, int]) -> None:
+    """Run every figure rule for one variant; any violation is a HardFail."""
+    declared = figures(template)
+    if not declared:
+        return
+    answer_key = _rational_key(evaluate_expression(str(template["answer"]), values))
+    substitutions = {name: str(value) for name, value in values.items()}
+    for index, figure in enumerate(declared):
+        kind = str(figure.get("kind"))
+        try:
+            for path, key, expr in _figure_expressions(figure):
+                if (kind, key) in FIGURE_BOUND_SYMBOLS:
+                    continue  # evaluated by its kind rule, which binds the extra symbol
+                _exact(expr, values, path)
+            for rule in FIGURE_KIND_RULES[kind]:
+                rule(figure, values)
+            if kind == "region":
+                _check_region_matches_answer(figure, values, answer_key)
+            _check_label_leak(figure, substitutions, answer_key)
+        except HardFail as exc:
+            raise HardFail(f"figure[{index}] ({kind}) at {dict(values)}: {exc}") from exc
+
 
 # ---------------------------------------------------------------------------
 # Template loading and the exhaustive enumeration
@@ -432,8 +971,10 @@ def verify_template(
         _parse(str(distractor["expr"]), sorted_var_names)
         if distractor.get("only_if") is not None:
             _parse(str(distractor["only_if"]), sorted_var_names)
+    check_figure_expressions(template, sorted_var_names)
 
     # One exhaustive pass over the full Cartesian product (§3 Stage 3).
+    has_figures = bool(figures(template))
     total = valid = dropped_variants = 0
     drops_by_distractor: dict[str, int] = {}
     for combo in product(*domains.values()):
@@ -442,6 +983,8 @@ def verify_template(
         if not all(evaluate_condition(c, values) for c in constraints):
             continue
         valid += 1
+        if has_figures:
+            check_figures(template, values)
         colliding = check_variant(template, values)
         if colliding:
             dropped_variants += 1

@@ -189,3 +189,86 @@ def test_fixture_covers_expected_misconceptions() -> None:
         "MISC.FRAC.BIGGER-DENOM": "FRAC.UNIT",
     }
     assert targets.items() >= expected.items()
+
+# --- Figure union shape (U2) -----------------------------------------------
+# The figure field is the partner-facing render contract: consumers validate
+# and codegen against it, so the union has to reject a malformed kind rather
+# than pass it through as free-form props the way the removed `render` field
+# did.
+
+def _item_record_validator() -> jsonschema.Draft202012Validator:
+    return jsonschema.Draft202012Validator(_load_schema("item-record.schema.json"))
+
+
+def _template_with_figure(figure: object) -> dict:
+    """A minimal schema-valid template carrying the given figure value."""
+    return {
+        "template_id": "TPL.TEST.FIGURE.001",
+        "template_version": "1.0.0",
+        "bank_version": "dev",
+        "graph_version": "1.0.0",
+        "skill_ids": ["DATA.PICTOGRAPH"],
+        "question_type": "mcq_4",
+        "cognitive_level": "application",
+        "difficulty": 0.4,
+        "estimated_time_sec": 30,
+        "calculator_allowed": False,
+        "diagram_required": True,
+        "variables": {"n": {"type": "int", "range": [1, 4]}, "k": {"type": "int", "range": [2, 6]}},
+        "constraints": ["n < k"],
+        "stem_i18n": {"en-IN": "One symbol stands for {{k}} mangoes. How many do {{n}} symbols show?"},
+        "localization_slots": [],
+        "answer": "n * k",
+        "distractors": [{"expr": "n + k", "misconception_id": None}],
+        "solution_steps_i18n": {"en-IN": {"canonical": ["Multiply {{n}} by {{k}}."]}},
+        "hints_i18n": {"en-IN": ["Each symbol is worth more than one."]},
+        "tts": False,
+        "context_tags": ["food"],
+        "exam_contexts": ["SCHOOL_EXAM"],
+        "provenance": {"generator_version": "test", "reviewer": "test", "date": "2026-08-03"},
+        "figure": figure,
+    }
+
+
+def test_well_formed_figure_validates() -> None:
+    template = _template_with_figure(
+        [
+            {
+                "kind": "pictograph",
+                "key_expr": "k",
+                "rows": [{"label_i18n": {"en-IN": "Mangoes"}, "whole_expr": "n", "half": True}],
+            }
+        ]
+    )
+    assert list(_item_record_validator().iter_errors(template)) == []
+
+
+def test_unknown_figure_kind_is_rejected() -> None:
+    template = _template_with_figure([{"kind": "hologram", "whatever_expr": "n"}])
+    assert list(_item_record_validator().iter_errors(template)) != []
+
+
+def test_figure_kind_rejects_unknown_property() -> None:
+    """Each kind is closed, so a typo'd field fails here instead of reaching a
+    partner renderer that silently ignores it."""
+    template = _template_with_figure(
+        [{"kind": "angle", "degrees_expr": "30*h", "context": "clock", "degrese_expr": "30"}]
+    )
+    assert list(_item_record_validator().iter_errors(template)) != []
+
+
+def test_empty_figure_array_is_rejected() -> None:
+    """Absence is expressed by omitting the field, never by an empty array --
+    otherwise a figure-dependent template could satisfy the coverage guard
+    while shipping nothing to draw."""
+    assert list(_item_record_validator().iter_errors(_template_with_figure([]))) != []
+
+
+def test_render_field_is_gone() -> None:
+    """The dormant early-grades render field was superseded by figure; a
+    template still carrying it must fail rather than validate as a no-op."""
+    template = _template_with_figure(
+        [{"kind": "angle", "degrees_expr": "90", "context": "bare"}]
+    )
+    template["render"] = {"component": "number_line"}
+    assert list(_item_record_validator().iter_errors(template)) != []

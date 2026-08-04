@@ -12,7 +12,7 @@ difficulty_prior: medium
 difficulty: 0.5
 estimated_time_sec: 45
 calculator_allowed: false
-diagram_required: false
+diagram_required: true
 context_tags:
   - shapes
 exam_contexts:
@@ -54,6 +54,23 @@ hints_i18n:
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # s small pieces of equal size plus one large piece worth k of them. Only
+  # small pieces are shaded here, so the large piece stays unshaded -- that
+  # unequal size is the whole point of the item, and drawing the parts equal
+  # would quietly make the pictured fraction disagree with the answer.
+  - kind: region
+    shape: rectangle
+    parts:
+      - weight_expr: "1"
+        count_expr: "shaded"
+        shaded: true
+      - weight_expr: "1"
+        count_expr: "s - shaded"
+        shaded: false
+      - weight_expr: "k"
+        count_expr: "1"
+        shaded: false
 tts: false
 provenance:
   generator_version: "claude-agent/1.0"

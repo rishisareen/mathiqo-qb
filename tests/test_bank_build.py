@@ -536,3 +536,233 @@ def test_missing_locale_category_hard_errors(tmp_path: Path) -> None:
     write_yaml(dest / "t.yaml", template)
     with pytest.raises(bank_build.BuildError, match="currency"):
         bank_build.run_build(dest, LOCALE_PACK, "dev", pool_cap=10)
+
+
+# --- Figure key is always present on new instances (U2) --------------------
+
+def test_instances_carry_explicit_null_figures(synthetic_dir: Path) -> None:
+    """A template with no figure still materializes the key as null, so
+    "this item has no figure" is stated rather than inferred from absence.
+    Instances from banks built before figure support omit the key entirely,
+    which is why the schema leaves it optional (KTD2) -- those banks stay
+    valid and keep serving through a rollover."""
+    _, per_template = bank_build.run_build(synthetic_dir, LOCALE_PACK, "dev", pool_cap=10)
+    instances = per_template["TPL.TEST.BUILD.MCQ.001"]
+    assert instances, "expected the synthetic template to produce instances"
+    assert all("figures" in inst for inst in instances)
+    assert all(inst["figures"] is None for inst in instances)
+
+    validator = _instance_schema_validator()
+    for inst in instances:
+        assert list(validator.iter_errors(inst)) == []
+
+
+def test_pre_figure_instance_still_validates(synthetic_dir: Path) -> None:
+    """The compatibility guarantee KTD2 rests on: an instance shaped the way
+    bank_build wrote them before this change -- no figures key at all -- must
+    still pass the current schema, because retained banks keep serving
+    in-flight sessions through a rollover."""
+    _, per_template = bank_build.run_build(synthetic_dir, LOCALE_PACK, "dev", pool_cap=10)
+    legacy = dict(per_template["TPL.TEST.BUILD.MCQ.001"][0])
+    legacy.pop("figures")
+    assert list(_instance_schema_validator().iter_errors(legacy)) == []
+
+
+# --- U4: figure materialization (R7, R8; KTD3, KTD4, KTD7) ------------------
+# The synthetic MCQ template declares a in [1,3], b in [4,6], c in [1,3] with
+# a < b and c < b, so every figure below is authored to stay well-formed (and
+# to pass item_verify's per-variant figure gate) across that whole domain.
+
+SYNTHETIC_ID = "TPL.TEST.BUILD.MCQ.001"
+
+_BAR_GRAPH_FIGURE = [
+    {
+        "kind": "bar-graph",
+        "scale_expr": "b",
+        "unit": "books",
+        "bars": [
+            {"label_i18n": {"en-IN": "{{name1}}"}, "gridlines_expr": "a"},
+            {"label_i18n": {"en-IN": "{{food}} stall"}, "gridlines_expr": "c + 1"},
+        ],
+    }
+]
+
+# key_expr is 2*a so it is always even, which the half-symbol row requires;
+# the number line spans [-b, b] in quarters, so -c/4 is a non-integer negative
+# that still lands exactly on a tick.
+_RATIONAL_FIGURE = [
+    {
+        "kind": "pictograph",
+        "key_expr": "2*a",
+        "unit": "books",
+        "icon": "book",
+        "rows": [{"label_i18n": {"en-IN": "{{name1}}"}, "whole_expr": "c", "half": True}],
+    },
+    {
+        "kind": "number-line",
+        "min_expr": "-b",
+        "max_expr": "b",
+        "divisions_expr": "4",
+        "points": [{"position_expr": "-c/4"}, {"position_expr": "-a"}],
+    },
+]
+
+
+def _figured_template(figure: list[dict]) -> dict:
+    template = copy.deepcopy(_synthetic_mcq_template())
+    template["diagram_required"] = True
+    template["figure"] = figure
+    return template
+
+
+def _build_figured(tmp_path: Path, figure: list[dict], pool_cap: int = 1000) -> list[dict]:
+    dest = tmp_path / "templates"
+    dest.mkdir(parents=True)
+    write_yaml(dest / "figured.yaml", _figured_template(figure))
+    _, per_template = bank_build.run_build(dest, LOCALE_PACK, "dev", pool_cap=pool_cap)
+    return per_template[SYNTHETIC_ID]
+
+
+def _assert_no_floats(node: object, path: str = "figures") -> None:
+    """KTD4 admits exactly two serializations for a figure quantity: a JSON
+    integer or an exact "p/q" string. A float anywhere means the evaluation
+    left sympy's exact rationals."""
+    if isinstance(node, dict):
+        for key, value in node.items():
+            _assert_no_floats(value, f"{path}.{key}")
+    elif isinstance(node, list):
+        for index, value in enumerate(node):
+            _assert_no_floats(value, f"{path}[{index}]")
+    else:
+        assert not isinstance(node, float), f"{path} is a float ({node!r})"
+
+
+def _expected_value(value: sympy.Rational) -> int | str:
+    return int(value) if value.q == 1 else f"{value.p}/{value.q}"
+
+
+def test_bar_graph_figure_materializes_to_the_variable_assignment(tmp_path: Path) -> None:
+    """Covers AE1: a figure-bearing template builds, and every materialized
+    value is the template expression evaluated at that instance's own variable
+    assignment — with the instance still schema-valid."""
+    instances = _build_figured(tmp_path, copy.deepcopy(_BAR_GRAPH_FIGURE))
+    validator = _instance_schema_validator()
+    assert instances, "expected the figure-bearing template to produce instances"
+    for instance in instances:
+        a = instance["variables"]["a"]
+        b = instance["variables"]["b"]
+        c = instance["variables"]["c"]
+        figures = instance["figures"]
+        assert figures is not None and len(figures) == 1
+        figure = figures[0]
+        assert figure["kind"] == "bar-graph"
+        assert figure["unit"] == "books"  # a non-expression field passes through
+        assert figure["scale"] == b
+        assert [bar["gridlines"] for bar in figure["bars"]] == [a, c + 1]
+        assert "scale_expr" not in figure
+        assert all("label_i18n" not in bar and "gridlines_expr" not in bar for bar in figure["bars"])
+        _assert_no_floats(figures)
+        assert list(validator.iter_errors(instance)) == []
+
+
+def test_figure_values_serialize_as_integers_and_exact_rational_strings(tmp_path: Path) -> None:
+    """KTD4: whole numbers are JSON integers, non-integer rationals are exact
+    "p/q" strings matching the answer convention, negatives are preserved, and
+    nothing is ever a float."""
+    instances = _build_figured(tmp_path, copy.deepcopy(_RATIONAL_FIGURE))
+    validator = _instance_schema_validator()
+    assert instances
+    for instance in instances:
+        a = instance["variables"]["a"]
+        b = instance["variables"]["b"]
+        c = instance["variables"]["c"]
+        pictograph, number_line = instance["figures"]
+
+        assert pictograph["key"] == 2 * a and isinstance(pictograph["key"], int)
+        row = pictograph["rows"][0]
+        assert row["whole"] == c and isinstance(row["whole"], int)
+        assert row["half"] is True
+
+        assert number_line["min"] == -b and isinstance(number_line["min"], int)
+        assert number_line["max"] == b
+        assert number_line["divisions"] == 4
+        position = number_line["points"][0]["position"]
+        expected = sympy.Rational(-c, 4)
+        assert position == _expected_value(expected)
+        assert isinstance(position, str) and "/" in position  # c in [1,3] never reduces to a whole
+        assert _as_rational(position) == expected
+        assert number_line["points"][1]["position"] == -a
+
+        _assert_no_floats(instance["figures"])
+        assert list(validator.iter_errors(instance)) == []
+
+
+def test_array_figure_expands_per_row_expression_once_per_row(tmp_path: Path) -> None:
+    """The one kind that is not a mechanical rename: the template declares
+    rows_expr and per_row_expr (marks in row i, one-based), and the instance
+    carries the already-expanded per-row counts."""
+    triangular = _build_figured(
+        tmp_path / "tri", [{"kind": "array", "rows_expr": "a", "per_row_expr": "i", "icon": "dot"}]
+    )
+    assert triangular
+    for instance in triangular:
+        a = instance["variables"]["a"]
+        figure = instance["figures"][0]
+        assert figure["kind"] == "array"
+        assert figure["icon"] == "dot"
+        assert figure["rows"] == list(range(1, a + 1))
+        assert "rows_expr" not in figure and "per_row_expr" not in figure and "per_row" not in figure
+
+    rectangular = _build_figured(
+        tmp_path / "rect", [{"kind": "array", "rows_expr": "a", "per_row_expr": "c"}]
+    )
+    for instance in rectangular:
+        a = instance["variables"]["a"]
+        c = instance["variables"]["c"]
+        assert instance["figures"][0]["rows"] == [c] * a
+
+    validator = _instance_schema_validator()
+    for instance in triangular + rectangular:
+        assert list(validator.iter_errors(instance)) == []
+
+
+def test_figure_labels_share_the_stems_locale_dressing(tmp_path: Path) -> None:
+    """KTD7: a figure label goes through render_text with the *same*
+    substitutions dict as the stem, so the name and food a figure shows are the
+    name and food the stem tells the story about — within one instance."""
+    instances = _build_figured(tmp_path, copy.deepcopy(_BAR_GRAPH_FIGURE), pool_cap=6)
+    dressings = set()
+    for instance in instances:
+        bars = instance["figures"][0]["bars"]
+        name_label = bars[0]["label"]
+        food_label = bars[1]["label"]
+        assert food_label.endswith(" stall")
+        food = food_label[: -len(" stall")]
+        assert instance["stem"].startswith(f"{name_label} has ")
+        assert f"of a {food}." in instance["stem"]
+        assert "{{" not in name_label and "{{" not in food_label
+        dressings.add((name_label, food))
+    assert len(dressings) > 1, "expected rank rotation to dress instances differently"
+
+
+def test_adding_a_figure_leaves_variant_signatures_byte_identical(tmp_path: Path) -> None:
+    """KTD3 regression: figures are presentation, which the signature already
+    excludes by design. Annotating a template must not shift a single
+    signature — a shift would reset every student's seen-state."""
+    plain_dir = tmp_path / "plain"
+    plain_dir.mkdir()
+    write_yaml(plain_dir / "t.yaml", _synthetic_mcq_template())
+    figured_dir = tmp_path / "figured"
+    figured_dir.mkdir()
+    write_yaml(figured_dir / "t.yaml", _figured_template(copy.deepcopy(_BAR_GRAPH_FIGURE)))
+
+    _, plain = bank_build.run_build(plain_dir, LOCALE_PACK, "dev", pool_cap=1000)
+    _, figured = bank_build.run_build(figured_dir, LOCALE_PACK, "dev", pool_cap=1000)
+
+    def by_variables(instances: list[dict]) -> dict:
+        return {tuple(sorted(i["variables"].items())): i["variant_signature"] for i in instances}
+
+    assert by_variables(plain[SYNTHETIC_ID]) == by_variables(figured[SYNTHETIC_ID])
+    # ...and the comparison is not vacuous: the figure really did land.
+    assert all(i["figures"] is None for i in plain[SYNTHETIC_ID])
+    assert all(i["figures"] is not None for i in figured[SYNTHETIC_ID])

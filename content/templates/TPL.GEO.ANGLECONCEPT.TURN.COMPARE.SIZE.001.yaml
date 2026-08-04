@@ -50,6 +50,17 @@ difficulty: 0.5
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # Angle M turns p hour-marks and Angle N turns q, both from the 12 on a
+  # numbered clock face (30 degrees per mark). Two entries because the two
+  # turns genuinely differ. The stem states no arm lengths, so the figure
+  # asserts none.
+  - kind: angle
+    degrees_expr: "30*p"
+    context: clock
+  - kind: angle
+    degrees_expr: "30*q"
+    context: clock
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

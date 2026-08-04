@@ -16,7 +16,7 @@ difficulty: 0.5
 difficulty_prior: medium
 estimated_time_sec: 45
 calculator_allowed: false
-diagram_required: false
+diagram_required: true
 context_tags:
   - food
 exam_contexts:
@@ -31,6 +31,14 @@ localization_slots:
   - food
 stem_i18n:
   en-IN: "{{food}} pieces are stacked in a triangular pile: row 1 has 1 piece, row 2 has 2 pieces, and so on, each row one more than the last, up to row {{n}}. How many {{food}} pieces are in the pile in total?"
+
+# The pile the stem describes: {{n}} rows, row i holding i pieces (row 1 has
+# 1, row 2 has 2, and so on). No icon — the piece is the {{food}} localization
+# slot, and icon is a verbatim string the build never substitutes slots into.
+figure:
+  - kind: array
+    rows_expr: "n"
+    per_row_expr: "i"
 
 answer: "n * (n + 1) / 2"
 

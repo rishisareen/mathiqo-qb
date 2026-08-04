@@ -12,7 +12,7 @@ cognitive_level: application
 difficulty_prior: medium
 estimated_time_sec: 30
 calculator_allowed: false
-diagram_required: false
+diagram_required: true
 context_tags:
   - objects
 
@@ -49,6 +49,14 @@ difficulty: 0.5
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The triangle after the turns the stem describes: {{n}} turns of a third of
+  # a full turn each, so the applied rotation is 120*n degrees and its point
+  # ends up facing a different way. No side lengths are given, so no side
+  # carries a label — the sides-plus-corners total is the answer.
+  - kind: shape
+    shape: triangle
+    rotation_expr: "120*n"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

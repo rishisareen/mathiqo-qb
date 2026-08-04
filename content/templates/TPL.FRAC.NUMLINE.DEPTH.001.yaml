@@ -31,6 +31,15 @@ constraints:
 localization_slots: []
 stem_i18n:
   en-IN: "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into {{d}} equal parts. What fraction is marked at the point that is {{k}} parts to the right of 0?"
+# The marked point carries no label: its value IS the answer (k/d), so a label
+# would hand it to the student (figure plan R9 leak rule).
+figure:
+  - kind: number-line
+    min_expr: "0"
+    max_expr: "2"
+    divisions_expr: "d"
+    points:
+      - position_expr: "k / d"
 answer: "simplify(k / d)"
 distractors:
   - expr: "(k + 1) / d"

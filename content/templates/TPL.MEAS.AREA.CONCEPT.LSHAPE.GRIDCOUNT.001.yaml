@@ -17,7 +17,7 @@ difficulty: 0.8
 difficulty_prior: hard
 estimated_time_sec: 60
 calculator_allowed: false
-diagram_required: false
+diagram_required: true
 context_tags:
   - home
   - art
@@ -55,6 +55,17 @@ hints_i18n:
     - "Start with the area of the whole rectangular block, then take away the missing corner's area."
     - "The missing corner should be subtracted, not added — it isn't part of the shaded region."
 
+figure:
+  # The p by q block with the r by s corner left unshaded, exactly as the
+  # stem describes it. The declared ranges already force r < p and s < q, so
+  # the cutout is always strictly smaller than the block in both directions
+  # and the L never degenerates into a plain rectangle or a hole.
+  - kind: grid-region
+    cols_expr: "q"
+    rows_expr: "p"
+    fill: block-minus-corner
+    cutout_cols_expr: "s"
+    cutout_rows_expr: "r"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

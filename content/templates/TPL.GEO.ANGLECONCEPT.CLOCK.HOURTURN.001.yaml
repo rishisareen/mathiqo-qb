@@ -52,6 +52,12 @@ difficulty: 0.2
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The hour hand's turn from the a mark to the b mark on a numbered clock
+  # face: b - a hour-marks, which is 30 degrees per mark.
+  - kind: angle
+    degrees_expr: "30*(b - a)"
+    context: clock
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

@@ -47,6 +47,17 @@ hints_i18n:
     - "Convert both gridline counts to actual values using the scale first."
     - "Find each bar's value, then subtract the smaller from the larger."
 
+figure:
+  - kind: bar-graph
+    scale_expr: "k"
+    bars:
+      - label_i18n:
+          en-IN: "Bar A"
+        gridlines_expr: "g1"
+      - label_i18n:
+          en-IN: "Bar B"
+        gridlines_expr: "g2"
+
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

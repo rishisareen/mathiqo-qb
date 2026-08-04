@@ -53,6 +53,19 @@ difficulty: 0.8
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # Angle X turns p hour-marks (30*p degrees) but is drawn with long arms;
+  # Angle Y turns q hour-marks with short arms. Two genuinely different
+  # angles, so two entries; arm_length_expr carries the misleading contrast
+  # the item is about, and never touches the turns that are added.
+  - kind: angle
+    degrees_expr: "30*p"
+    context: clock
+    arm_length_expr: "3"
+  - kind: angle
+    degrees_expr: "30*q"
+    context: clock
+    arm_length_expr: "1"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

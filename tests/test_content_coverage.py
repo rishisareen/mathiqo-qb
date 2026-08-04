@@ -30,6 +30,16 @@ Tests, each independent and named for the finding it proves:
   - `test_every_non_null_distractor_misconception_id_resolves` (R5):
     every template distractor's `misconception_id` is either null or
     resolves to a real entry in the merged misconception registry.
+  - `test_every_diagram_required_template_declares_a_figure` (figure
+    plan U5, AE5): the forward half of the figure-coverage guarantee —
+    every `diagram_required: true` template carries structured `figure`
+    data.
+  - `test_every_template_declaring_a_figure_is_diagram_required` (figure
+    plan U5, AE5): the reverse half, unconditional — no allowlist, never
+    had one.
+  - `test_the_not_yet_annotated_allowlist_has_not_gone_stale` (figure
+    plan U5): keeps the allowlist a shrinking ledger rather than a
+    permanent exemption.
 
 Builds its own small full-corpus bank per test that needs one (mirroring
 `tests/test_serving.py`'s `full_banks_dir`/`full_facade` pattern) rather
@@ -375,3 +385,62 @@ def test_every_non_null_distractor_misconception_id_resolves() -> None:
                 unresolved.append((name, value))
 
     assert not unresolved, f"distractors with a non-null misconception_id that doesn't resolve: {unresolved}"
+
+
+# ---------------------------------------------------------------------------
+# 8. Figure coverage (partner-figure plan U5, AE5): `diagram_required` and
+#    the structured `figure` block agree in both directions.
+#
+#    Both directions are unconditional. A shrinking NOT_YET_ANNOTATED ledger
+#    carried the forward direction while the two content waves landed; the
+#    census is now fully annotated, so the ledger and its hygiene test are
+#    gone and a figure-dependent template simply ships with its figure.
+# ---------------------------------------------------------------------------
+
+
+_ANNOTATE_HINT = (
+    "author a `figure:` block on it (schemas/item-record.schema.json's twelve-kind "
+    "union; the kind each census template renders as is in "
+    "docs/plans/2026-08-03-001-figure-census.md)"
+)
+
+
+def _figure_annotation() -> tuple[set, set]:
+    """(template_ids with `diagram_required: true`, template_ids declaring a
+    non-empty `figure`) — read straight off `content/templates/`, since a
+    template that never materializes an instance must still be caught."""
+    diagram_required: set = set()
+    declares_figure: set = set()
+    for name, template in _load_all_templates().items():
+        template_id = template.get("template_id") or name
+        if template.get("diagram_required") is True:
+            diagram_required.add(template_id)
+        if template.get("figure"):
+            declares_figure.add(template_id)
+    return diagram_required, declares_figure
+
+
+def test_every_diagram_required_template_declares_a_figure() -> None:
+    """AE5, forward: a figure-dependent template ships with the machine-
+    renderable figure data a partner needs, not just prose in the stem."""
+    diagram_required, declares_figure = _figure_annotation()
+
+    unannotated = diagram_required - declares_figure
+    assert not unannotated, (
+        f"template(s) marked diagram_required: true with no `figure` block: "
+        f"{sorted(unannotated)} — {_ANNOTATE_HINT}."
+    )
+
+
+def test_every_template_declaring_a_figure_is_diagram_required() -> None:
+    """AE5, reverse — unconditional, no allowlist: a template carrying a
+    figure is by definition figure-dependent, so `diagram_required: false`
+    next to a `figure` block means one of the two is wrong."""
+    diagram_required, declares_figure = _figure_annotation()
+
+    mismatched = declares_figure - diagram_required
+    assert not mismatched, (
+        f"template(s) declaring a `figure` block but not marked diagram_required: true: "
+        f"{sorted(mismatched)} — set `diagram_required: true` on them, or drop the "
+        "`figure` block if the item really doesn't depend on a visual"
+    )

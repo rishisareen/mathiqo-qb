@@ -1,5 +1,6 @@
 # Class 6 Servable Coverage plan, U4 (Foundations authoring increment):
-# GEO.SHAPES.2D depth batch. Text-only (KD4 v1 scope constraint, no diagrams).
+# GEO.SHAPES.2D depth batch. Figure-dependent: the stem points at a shape the
+# child has to see, so it carries a structured figure alongside the text.
 # Answer is a straight-side COUNT, not the shape's name: tools/bank_build.py's
 # _fmt_rational requires every answer/distractor to be an exact sympy.Rational
 # (v1 numeric-only scope), so "which shape is this" is asked via a numeric
@@ -12,7 +13,7 @@ cognitive_level: recall
 difficulty_prior: easy
 estimated_time_sec: 15
 calculator_allowed: false
-diagram_required: false
+diagram_required: true
 context_tags:
   - objects
 
@@ -52,6 +53,12 @@ difficulty: 0.2
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The "this shape" the stem points at: a bare circle, boundary curved all
+  # the way round. No length is drawn -- the stem states no measurement, and
+  # n is the [1, 1] placeholder variable, not a radius. Nothing is labelled,
+  # so the drawn shape shows the 0 straight sides rather than stating them.
+  - kind: circle
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

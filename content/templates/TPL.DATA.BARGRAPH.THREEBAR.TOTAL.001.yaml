@@ -48,6 +48,21 @@ hints_i18n:
     - "Add the gridline counts first, but each gridline is worth more than 1 mm."
     - "Once you have the total gridlines, multiply by the scale to get the actual total."
 
+figure:
+  - kind: bar-graph
+    scale_expr: "k"
+    unit: "mm"
+    bars:
+      - label_i18n:
+          en-IN: "March"
+        gridlines_expr: "g1"
+      - label_i18n:
+          en-IN: "April"
+        gridlines_expr: "g2"
+      - label_i18n:
+          en-IN: "May"
+        gridlines_expr: "g3"
+
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

@@ -1,7 +1,8 @@
 # Class 6 servable coverage, Implementation Unit U6: MEAS.PERIMETER batch.
 # Irregular-polygon perimeter given all five side lengths as separate
 # variables (summed directly, no rectangle/square formula applies). Every
-# side length is stated explicitly in the stem text, so no diagram is needed
+# side length is stated in the stem text, and the figure carries the same five
+# sides as render data
 # (R7/KTD4). Hard band, numeric_entry.
 template_id: TPL.MEAS.PERIMETER.PENTAGON.IRREGULAR.001
 template_version: "1.0.0"
@@ -15,7 +16,7 @@ difficulty: 0.8
 difficulty_prior: hard
 estimated_time_sec: 50
 calculator_allowed: false
-diagram_required: false
+diagram_required: true
 context_tags:
   - gardens
   - fencing
@@ -52,6 +53,29 @@ hints_i18n:
     - "An irregular shape doesn't have matching opposite sides — you must add each of the five sides given."
     - "Make sure you've included all five side lengths in your sum, not just some of them."
 
+figure:
+  # Irregular pentagon with all five sides labelled, in the same order the
+  # stem lists them ("one after another"). Every side is given in the text,
+  # so labelling all five leaks nothing: the answer is their sum, which the
+  # figure never states.
+  - kind: shape
+    shape: pentagon
+    side_labels:
+      - side: 0
+        value_expr: "p"
+        unit: "m"
+      - side: 1
+        value_expr: "q"
+        unit: "m"
+      - side: 2
+        value_expr: "r"
+        unit: "m"
+      - side: 3
+        value_expr: "s"
+        unit: "m"
+      - side: 4
+        value_expr: "t"
+        unit: "m"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

@@ -50,6 +50,14 @@ difficulty: 0.2
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # One right angle -- 90 degrees between the arms, as the stem states --
+  # rotated k degrees off upright. The tilt is the misconception distractor's
+  # value and never changes the measure.
+  - kind: angle
+    degrees_expr: "90"
+    context: bare
+    tilt_expr: "k"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

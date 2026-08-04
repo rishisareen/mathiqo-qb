@@ -34,6 +34,25 @@ localization_slots: []
 stem_i18n:
   en-IN: "A class tally for favourite ice-cream flavours shows: Vanilla — {{b1}} bundles of five and {{e1}} strokes; Chocolate — {{b2}} bundles of five and {{e2}} strokes; Strawberry — {{b3}} bundles of five and {{e3}} strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?"
 
+# The three flavour rows the stem lists, in stem order: Vanilla (b1, e1),
+# Chocolate (b2, e2), Strawberry (b3, e3). Labels are the stem's own flavour
+# words; no row carries a count, so neither total nor the difference is shown.
+figure:
+  - kind: tally-chart
+    rows:
+      - label_i18n:
+          en-IN: "Vanilla"
+        bundles_expr: "b1"
+        loose_expr: "e1"
+      - label_i18n:
+          en-IN: "Chocolate"
+        bundles_expr: "b2"
+        loose_expr: "e2"
+      - label_i18n:
+          en-IN: "Strawberry"
+        bundles_expr: "b3"
+        loose_expr: "e3"
+
 answer: "(5 * b1 + e1) - (5 * b3 + e3)"
 
 distractors:

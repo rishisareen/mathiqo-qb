@@ -1,5 +1,5 @@
 # U6 authoring increment (Class 6 Ch. 9 Symmetry), drafted 2026-07-29.
-# Named-shape stem (KTD4 convention for this text-only strand): rectangle
+# Named-shape stem, now carrying a structured figure alongside it: rectangle
 # PQRS with distinct side lengths, so it is explicitly not a square.
 # Distractor 2 + 2 targets MISC.GEO.RECT-DIAGONAL-SYM: wrongly counting the
 # two diagonals as extra lines of symmetry beyond the true two.
@@ -60,6 +60,24 @@ template_version: 1.0.0
 bank_version: dev
 graph_version: 1.0.0
 difficulty: 0.5
+figure:
+  # Rectangle PQRS with the two adjacent sides the stem gives, PQ = {{l}} and
+  # QR = {{b}}; the opposite sides follow from the shape and stay unlabelled.
+  # l != b is a constraint, so the drawing is never a square — a square would
+  # have 4 fold lines instead of the 2 this item is about.
+  # symmetry: none -- the child is asked to work the symmetry out, so
+  # drawing the axes or marking the order would hand over the answer.
+  - kind: shape
+    shape: rectangle
+    vertex_labels: ["P", "Q", "R", "S"]
+    side_labels:
+      - side: 0        # PQ
+        value_expr: "l"
+        unit: "cm"
+      - side: 1        # QR
+        value_expr: "b"
+        unit: "cm"
+    symmetry: none
 tts: false
 provenance:
   generator_version: claude-agent/1.0

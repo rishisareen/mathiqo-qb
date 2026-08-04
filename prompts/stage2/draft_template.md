@@ -51,6 +51,11 @@ Olympiad-style wrapper (core doc §2.10).
   day one.
 - `solution_steps_i18n` is keyed by pedagogy variant; use `canonical` unless
   you have a specific reason to key by curriculum.
+- `diagram_required` and `figure` MUST agree, both ways. If the item cannot be
+  answered without seeing a visual, set `diagram_required: true` AND draft a
+  `figure` block for it. If it needs no visual, set `diagram_required: false`
+  AND omit `figure` entirely. A `figure` on a `diagram_required: false` draft
+  is rejected just as a missing one on a `diagram_required: true` draft is.
 
 ## Existing template ids (never reuse; propose a new one)
 
@@ -71,8 +76,10 @@ after your draft passes verification — do not include those fields.
 
 ## Output contract
 
-Output a single YAML mapping with exactly these keys, each validating against
-the corresponding property of this JSON Schema (core doc §2.2, §5.3):
+Output a single YAML mapping with exactly these keys — every one below except
+the two marked optional (`accepted_answer_forms` and `figure`) — each
+validating against the corresponding property of this JSON Schema (core doc
+§2.2, §5.3):
 
 ```json
 {{schema_json}}
@@ -88,7 +95,9 @@ Field-by-field:
   constraint set targets (§2.3).
 - `estimated_time_sec` — integer ≥ 1; realistic time for a student at this
   skill and tier.
-- `calculator_allowed`, `diagram_required` — booleans.
+- `calculator_allowed`, `diagram_required` — booleans. `diagram_required: true`
+  means the item cannot be answered without seeing a visual, and obliges a
+  `figure` (below).
 - `accepted_answer_forms` — optional free text, e.g. `"simplest form only"`
   (§2.2), when the skill has a canonical answer form worth stating.
 - `context_tags` — surface contexts for locale-pack rotation, e.g.
@@ -122,6 +131,27 @@ Field-by-field:
   — ordered, one string per step (§2.2).
 - `hints_i18n` — `{"en-IN": ["hint 1", "hint 2", ...]}` — ordered lightest to
   strongest (§2.3).
+- `figure` — REQUIRED when `diagram_required` is true, omitted entirely
+  otherwise. An array of kind-tagged figure objects (`kind: bar-graph`,
+  `pictograph`, `tally-chart`, `number-line`, `angle`, `circle`, `point-line`,
+  `shape`, `region`, `array`, `grid-region`, `ruler`) giving the visual as
+  *render data*, so a consumer can draw it without parsing your prose. The
+  schema above defines each kind's fields exactly; every kind is closed, so an
+  invented field or a typo'd kind is a hard fail. Rules:
+  - Every `*_expr` field is an expression over the SAME variables the stem
+    uses (e.g. `divisions_expr: "b"`), never a hardcoded number where a
+    variable governs it, and never a decimal — figure arithmetic is exact.
+  - Every `*_i18n` field is a language-keyed label map exactly like
+    `stem_i18n`, using the same `{{a}}` / `{{name1}}` slots. Labels may
+    reference variables and localization slots only.
+  - The stem still describes the figure in words — the figure is added
+    alongside it, never a replacement for it. The two must agree: if the stem
+    says four bars, the figure has four bars with those values.
+  - Never label the thing the item asks for. A label that renders to the
+    answer gives it away and is rejected.
+  - When a figure repeats one element `n` times, use that kind's own count
+    expression; the `figure` array is only for genuinely distinct figures
+    (e.g. a circle plus a square, or two shapes being compared).
 
 {{verify_feedback}}
 

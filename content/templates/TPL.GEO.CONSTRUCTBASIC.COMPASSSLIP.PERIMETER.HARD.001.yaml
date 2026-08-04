@@ -50,6 +50,28 @@ difficulty: 0.8
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The square as it actually came out, not as it was meant to: three sides at
+  # {{n}} cm and the fourth at {{n}} + {{k}} cm, where the compass drifted.
+  # All four sides carry their own label because that visible discrepancy IS
+  # the item — a figure showing four equal sides would picture the 4*n
+  # distractor instead of the stem. The wrong perimeter is the answer and is
+  # never drawn as a total.
+  - kind: shape
+    shape: square
+    side_labels:
+      - side: 0
+        value_expr: "n"
+        unit: "cm"
+      - side: 1
+        value_expr: "n"
+        unit: "cm"
+      - side: 2
+        value_expr: "n"
+        unit: "cm"
+      - side: 3        # the side the compass drift made too long
+        value_expr: "n + k"
+        unit: "cm"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

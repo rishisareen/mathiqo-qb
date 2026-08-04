@@ -16,7 +16,7 @@ difficulty: 0.5
 difficulty_prior: medium
 estimated_time_sec: 45
 calculator_allowed: false
-diagram_required: false
+diagram_required: true
 context_tags:
   - school
 
@@ -29,6 +29,17 @@ constraints: []
 localization_slots: []
 stem_i18n:
   en-IN: "A record of attendance is marked with {{bundles}} groups of five strokes (four strokes with one line crossing them) plus {{extra}} single strokes with no crossing line. How many students does this record show in total?"
+
+# The attendance record the stem describes: {{bundles}} crossed groups of five
+# plus {{extra}} single uncrossed strokes. The crossing stroke the stem spells
+# out is how a bundle is drawn, so it is bundles_expr, not a loose stroke.
+figure:
+  - kind: tally-chart
+    rows:
+      - label_i18n:
+          en-IN: "Attendance"
+        bundles_expr: "bundles"
+        loose_expr: "extra"
 
 answer: "5 * bundles + extra"
 

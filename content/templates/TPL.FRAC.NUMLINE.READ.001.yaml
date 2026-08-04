@@ -31,6 +31,15 @@ constraints:
 localization_slots: []
 stem_i18n:
   en-IN: "A ruler-like strip stretches from 0 to 1, split into {{d}} equal-sized gaps side by side. Counting {{k}} gaps across starting from 0, which fraction lands on that mark?"
+# The queried mark carries no label: its value IS the answer (k/d)
+# (figure plan R9 leak rule).
+figure:
+  - kind: number-line
+    min_expr: "0"
+    max_expr: "1"
+    divisions_expr: "d"
+    points:
+      - position_expr: "k / d"
 answer: "simplify(k / d)"
 distractors:
   - expr: "(k + 1) / d"

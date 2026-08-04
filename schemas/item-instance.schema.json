@@ -149,6 +149,288 @@
         "minItems": 1
       },
       "description": "Rendered solution steps keyed by pedagogy variant (\"canonical\", \"NCERT\", ...), mirroring the template's solution_steps_i18n[language] (§2.2) — fully substituted offline (R11)."
+    },
+    "figures": {
+      "type": ["array", "null"],
+      "minItems": 1,
+      "items": { "$ref": "#/$defs/figure" },
+      "description": "The materialized visual stimulus, or null when this item has none. Every instance built after figure support shipped carries the key explicitly; instances from earlier banks omit it entirely, which is why this property is optional rather than required. Values are concrete — every expression already evaluated and every label already rendered into this instance's language and dressing, so a consumer draws the figure without resolving anything (§5.1, R11). The stem still describes the figure in words, so a consumer that ignores this field can answer the item unchanged."
+    }
+  },
+  "$defs": {
+    "value": {
+      "oneOf": [
+        { "type": "integer" },
+        { "type": "string", "pattern": "^-?\\d+(/\\d+)?$" }
+      ],
+      "description": "A materialized figure quantity: a plain integer, or an exact rational as \"p/q\" following the same convention as answer. Never a float — figure positions like thirds must stay exact."
+    },
+    "figure": {
+      "oneOf": [
+        { "$ref": "#/$defs/figBarGraph" },
+        { "$ref": "#/$defs/figPictograph" },
+        { "$ref": "#/$defs/figTallyChart" },
+        { "$ref": "#/$defs/figNumberLine" },
+        { "$ref": "#/$defs/figAngle" },
+        { "$ref": "#/$defs/figCircle" },
+        { "$ref": "#/$defs/figPointLine" },
+        { "$ref": "#/$defs/figShape" },
+        { "$ref": "#/$defs/figRegion" },
+        { "$ref": "#/$defs/figArray" },
+        { "$ref": "#/$defs/figGridRegion" },
+        { "$ref": "#/$defs/figRuler" }
+      ],
+      "description": "One materialized figure, discriminated by kind — the concrete counterpart of item-record.schema.json's figureSpec. Twelve kinds cover the Class 6 census."
+    },
+    "figBarGraph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "scale", "bars"],
+      "properties": {
+        "kind": { "const": "bar-graph" },
+        "scale": { "$ref": "#/$defs/value", "description": "Value represented by one gridline." },
+        "unit": { "type": "string", "minLength": 1 },
+        "bars": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "gridlines"],
+            "properties": {
+              "label": { "type": "string", "minLength": 1 },
+              "gridlines": { "$ref": "#/$defs/value" }
+            }
+          }
+        }
+      }
+    },
+    "figPictograph": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "key", "rows"],
+      "properties": {
+        "kind": { "const": "pictograph" },
+        "key": { "$ref": "#/$defs/value" },
+        "unit": { "type": "string", "minLength": 1 },
+        "icon": { "type": "string", "minLength": 1 },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "whole"],
+            "properties": {
+              "label": { "type": "string", "minLength": 1 },
+              "whole": { "$ref": "#/$defs/value" },
+              "half": { "type": "boolean", "description": "A trailing half-clipped symbol worth key/2." }
+            }
+          }
+        }
+      }
+    },
+    "figTallyChart": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "rows"],
+      "properties": {
+        "kind": { "const": "tally-chart" },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["label", "bundles", "loose"],
+            "properties": {
+              "label": { "type": "string", "minLength": 1 },
+              "bundles": { "$ref": "#/$defs/value" },
+              "loose": { "$ref": "#/$defs/value" }
+            }
+          }
+        }
+      }
+    },
+    "figNumberLine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "min", "max", "divisions", "points"],
+      "properties": {
+        "kind": { "const": "number-line" },
+        "min": { "$ref": "#/$defs/value" },
+        "max": { "$ref": "#/$defs/value" },
+        "divisions": { "$ref": "#/$defs/value" },
+        "points": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["position"],
+            "properties": {
+              "position": { "$ref": "#/$defs/value" },
+              "label": { "type": "string", "minLength": 1 }
+            }
+          }
+        }
+      }
+    },
+    "figAngle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "degrees", "context"],
+      "properties": {
+        "kind": { "const": "angle" },
+        "degrees": { "$ref": "#/$defs/value" },
+        "context": { "enum": ["bare", "clock", "protractor", "reflex"] },
+        "scale": { "enum": ["inner", "outer"] },
+        "tilt": { "$ref": "#/$defs/value" },
+        "arm_length": { "$ref": "#/$defs/value" },
+        "count": { "$ref": "#/$defs/value", "description": "Draw this angle count times at differing tilts." }
+      }
+    },
+    "figCircle": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind"],
+      "properties": {
+        "kind": { "const": "circle" },
+        "construction": { "enum": ["none", "segment-as-diameter"] },
+        "length_part": { "enum": ["radius", "diameter"] },
+        "length": { "$ref": "#/$defs/value" },
+        "unit": { "type": "string", "minLength": 1 },
+        "points_on": { "$ref": "#/$defs/value" },
+        "points_off": { "$ref": "#/$defs/value" }
+      }
+    },
+    "figPointLine": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "elements"],
+      "properties": {
+        "kind": { "const": "point-line" },
+        "collinear": { "type": "boolean" },
+        "elements": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["element", "count"],
+            "properties": {
+              "element": { "enum": ["point", "segment", "ray", "line"] },
+              "count": { "$ref": "#/$defs/value" },
+              "labels": { "type": "array", "items": { "type": "string", "minLength": 1 } }
+            }
+          }
+        }
+      }
+    },
+    "figShape": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "shape"],
+      "properties": {
+        "kind": { "const": "shape" },
+        "shape": { "enum": ["rectangle", "square", "triangle", "isosceles-triangle", "parallelogram", "pentagon", "regular-ngon", "circle", "prism", "composite-l"] },
+        "sides": { "$ref": "#/$defs/value" },
+        "vertex_labels": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "side_labels": {
+          "type": "array",
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["side", "value"],
+            "properties": {
+              "side": { "type": "integer", "minimum": 0 },
+              "value": { "$ref": "#/$defs/value" },
+              "unit": { "type": "string", "minLength": 1 }
+            }
+          },
+          "description": "Only the sides the item states are labelled; some items turn on a side being unlabelled."
+        },
+        "rotation": { "$ref": "#/$defs/value" },
+        "symmetry": { "enum": ["none", "lines", "order"] }
+      }
+    },
+    "figRegion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "shape", "parts"],
+      "properties": {
+        "kind": { "const": "region" },
+        "shape": { "enum": ["bar", "rectangle", "circle"] },
+        "parts": {
+          "type": "array",
+          "minItems": 2,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["weight", "shaded"],
+            "properties": {
+              "weight": { "$ref": "#/$defs/value", "description": "Relative size; parts are unequal wherever the item depends on it." },
+              "shaded": { "type": "boolean" }
+            }
+          }
+        }
+      }
+    },
+    "figArray": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "rows"],
+      "properties": {
+        "kind": { "const": "array" },
+        "rows": {
+          "type": "array",
+          "minItems": 1,
+          "items": { "$ref": "#/$defs/value" },
+          "description": "Marks per row, already expanded from the template's row-index expression."
+        },
+        "icon": { "type": "string", "minLength": 1 }
+      }
+    },
+    "figGridRegion": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "cols", "rows", "fill"],
+      "properties": {
+        "kind": { "const": "grid-region" },
+        "cols": { "$ref": "#/$defs/value" },
+        "rows": { "$ref": "#/$defs/value" },
+        "fill": { "enum": ["all", "block-minus-corner", "half-squares"] },
+        "cutout_cols": { "$ref": "#/$defs/value" },
+        "cutout_rows": { "$ref": "#/$defs/value" },
+        "half_cells": { "$ref": "#/$defs/value" }
+      }
+    },
+    "figRuler": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["kind", "min", "max", "major", "minor", "unit", "objects"],
+      "properties": {
+        "kind": { "const": "ruler" },
+        "min": { "$ref": "#/$defs/value" },
+        "max": { "$ref": "#/$defs/value" },
+        "major": { "$ref": "#/$defs/value" },
+        "minor": { "$ref": "#/$defs/value" },
+        "unit": { "type": "string", "minLength": 1 },
+        "objects": {
+          "type": "array",
+          "minItems": 1,
+          "items": {
+            "type": "object",
+            "additionalProperties": false,
+            "required": ["start", "end"],
+            "properties": {
+              "label": { "type": "string", "minLength": 1 },
+              "start": { "$ref": "#/$defs/value" },
+              "end": { "$ref": "#/$defs/value" }
+            }
+          }
+        }
+      }
     }
   }
 }

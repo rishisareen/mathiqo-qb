@@ -9,7 +9,7 @@ cognitive_level: procedural
 difficulty_prior: easy
 estimated_time_sec: 25
 calculator_allowed: false
-diagram_required: false
+diagram_required: true
 context_tags:
   - school
 exam_contexts:
@@ -24,6 +24,14 @@ constraints: []
 stem_i18n:
   en-IN: "Eggs are arranged on a tray in {{a}} equal rows, with {{b}} eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?"
 localization_slots: []
+
+# The tray the stem describes: {{a}} equal rows with {{b}} eggs in every row,
+# so per_row_expr is the constant b (a rectangle), not the row index.
+figure:
+  - kind: array
+    rows_expr: "a"
+    per_row_expr: "b"
+    icon: "egg"
 
 answer: "a * b"
 

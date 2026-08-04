@@ -59,6 +59,16 @@ difficulty: 0.8
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The stem's split exactly: a full lines (which stop nowhere, so no
+  # endpoints) and the remaining n - a line segments. Both counts are
+  # expressions over the template's variables.
+  - kind: point-line
+    elements:
+      - element: line
+        count_expr: "a"
+      - element: segment
+        count_expr: "n - a"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

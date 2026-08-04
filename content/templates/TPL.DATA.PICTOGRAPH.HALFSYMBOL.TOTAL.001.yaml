@@ -52,6 +52,16 @@ hints_i18n:
     - "Don't round the half symbol up to a whole one — it's worth exactly half the key."
     - "Work out the whole symbols first, then add half of the key's value for the half symbol."
 
+figure:
+  - kind: pictograph
+    key_expr: "k"
+    unit: "mangoes"
+    rows:
+      - label_i18n:
+          en-IN: "Mangoes"
+        whole_expr: "n"
+        half: true
+
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

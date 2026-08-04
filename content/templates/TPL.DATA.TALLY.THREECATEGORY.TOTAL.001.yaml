@@ -33,6 +33,25 @@ localization_slots: []
 stem_i18n:
   en-IN: "A survey tally for favourite pets recorded: Dog — {{b1}} bundles of five and {{e1}} strokes; Cat — {{b2}} bundles of five and {{e2}} strokes; Bird — {{b3}} bundles of five and {{e3}} strokes. How many children in total were surveyed across all three pets?"
 
+# The three pet rows the stem lists, in stem order: Dog (b1, e1), Cat
+# (b2, e2), Bird (b3, e3). No row carries a count — the grand total across
+# the three rows is what the item asks for.
+figure:
+  - kind: tally-chart
+    rows:
+      - label_i18n:
+          en-IN: "Dog"
+        bundles_expr: "b1"
+        loose_expr: "e1"
+      - label_i18n:
+          en-IN: "Cat"
+        bundles_expr: "b2"
+        loose_expr: "e2"
+      - label_i18n:
+          en-IN: "Bird"
+        bundles_expr: "b3"
+        loose_expr: "e3"
+
 answer: "5 * (b1 + b2 + b3) + (e1 + e2 + e3)"
 
 distractors:

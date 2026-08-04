@@ -41,6 +41,20 @@ difficulty: 0.5
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The constructed rectangle, labelled with one length and one width — the two
+  # measurements the stem gives. The opposite sides stay unlabelled: they
+  # follow from "opposite sides come out exactly equal", which is the property
+  # the item tests. The perimeter itself is never drawn; it is the answer.
+  - kind: shape
+    shape: rectangle
+    side_labels:
+      - side: 0        # one length
+        value_expr: "l"
+        unit: "cm"
+      - side: 1        # one width
+        value_expr: "w"
+        unit: "cm"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

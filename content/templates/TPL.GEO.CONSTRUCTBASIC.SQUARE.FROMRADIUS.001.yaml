@@ -43,6 +43,32 @@ difficulty: 0.5
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # Two genuinely distinct figures, per the census: the circle the radius
+  # comes from, then the square constructed off it. The stem sets each side
+  # equal to the radius (the compass keeps a fixed r cm opening), so every
+  # side carries r -- the same expression as the circle's radius, which is
+  # what makes the two figures agree. Only the given r is labelled; the
+  # asked-for perimeter 4 * r appears nowhere.
+  - kind: circle
+    length_part: radius
+    length_expr: "r"
+    unit: "cm"
+  - kind: shape
+    shape: square
+    side_labels:
+      - side: 0
+        value_expr: "r"
+        unit: "cm"
+      - side: 1
+        value_expr: "r"
+        unit: "cm"
+      - side: 2
+        value_expr: "r"
+        unit: "cm"
+      - side: 3
+        value_expr: "r"
+        unit: "cm"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

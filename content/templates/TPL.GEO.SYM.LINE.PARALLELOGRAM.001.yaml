@@ -59,6 +59,23 @@ template_version: 1.0.0
 bank_version: dev
 graph_version: 1.0.0
 difficulty: 0.5
+figure:
+  # Parallelogram WXYZ with the two given side lengths. Its angles are drawn
+  # oblique, since the stem rules out the right-angled case whose fold lines
+  # would make the answer different.
+  # symmetry: none -- the child is asked to work the symmetry out, so
+  # drawing the axes or marking the order would hand over the answer.
+  - kind: shape
+    shape: parallelogram
+    vertex_labels: ["W", "X", "Y", "Z"]
+    side_labels:
+      - side: 0
+        value_expr: "a"
+        unit: cm
+      - side: 1
+        value_expr: "b"
+        unit: cm
+    symmetry: none
 tts: false
 provenance:
   generator_version: claude-agent/1.0

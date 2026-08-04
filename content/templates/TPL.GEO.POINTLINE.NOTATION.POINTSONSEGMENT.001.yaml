@@ -49,6 +49,19 @@ difficulty: 0.5
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # Segment PQ plus the m extra points marked strictly between P and Q, so
+  # every point drawn lies on that one segment (collinear). m is a variable,
+  # hence count_expr rather than an enumerated set of points.
+  - kind: point-line
+    collinear: true
+    elements:
+      - element: segment
+        count_expr: "1"
+        labels:
+          - "PQ"
+      - element: point
+        count_expr: "m"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

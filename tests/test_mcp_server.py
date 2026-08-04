@@ -2,7 +2,9 @@
 (every facade operation exposed as exactly one tool, every tool resolves
 to exactly one facade operation), the end-to-end smoke flow, consumer_id
 attribution from server config (never the payload), the declared progress
-summary shape, and the declared interface version.
+summary shape, and the declared interface version. Also the figure plan's
+U5 wire proof: a materialized figure travels the batch response verbatim
+while the attempt-event write path stays figure-free.
 
 Guarded: the whole file is skipped (not failed) when the `mcp` SDK isn't
 installed, per the plan's "suite still green without it" contract.
@@ -21,6 +23,7 @@ from pathlib import Path
 
 import jsonschema
 import pytest
+import yaml
 
 pytest.importorskip("mcp")
 
@@ -36,6 +39,7 @@ from mcp.shared.memory import create_connected_server_and_client_session  # noqa
 TEMPLATES_DIR = REPO_ROOT / "content" / "templates"
 LOCALE_PACK = REPO_ROOT / "content" / "locales" / "en-IN.yaml"
 NUM_TEMPLATE = TEMPLATES_DIR / "TPL.FRAC.ADD.LIKE.NUM.001.yaml"
+FIGURE_TEMPLATE_ID = NUM_TEMPLATE.stem
 SKILL_ID = "FRAC.ADD.LIKE"
 # U11: a real skill in the content graph the built bank (only NUM_TEMPLATE,
 # which mints FRAC.ADD.LIKE instances alone) has zero instances for — the
@@ -72,15 +76,58 @@ def _templates_dir(tmp_path: Path) -> Path:
     return dest
 
 
+# The synthetic figure the wire test below serves. No *real* template
+# declares a `figure` yet (the census re-annotation is the figure plan's U6
+# and U7), so this module authors one onto its own tmp-dir copy of
+# NUM_TEMPLATE rather than waiting on content: the thing under test is the
+# transport, and a synthetic figure exercises it exactly as a real one would
+# — bank_build materializes it through the same path, so it goes through the
+# full Stage 3 figure gate on the way in.
+#
+# Deliberately built to exercise all three of materialization's outputs on
+# one figure: an integer (`divisions` from `b`), an exact rational string
+# (`position` from `a/b`), and a label rendered through the stem's own
+# substitution dict (`label` from `label_i18n`).
+FIGURE_TEMPLATE_FIGURE = [
+    {
+        "kind": "number-line",
+        "min_expr": "0",
+        "max_expr": "1",
+        "divisions_expr": "b",
+        "points": [
+            {"position_expr": "a/b", "label_i18n": {"en-IN": "{{a}} of {{b}}"}},
+        ],
+    }
+]
+
+
+def _figure_templates_dir(tmp_path: Path) -> Path:
+    """A one-template dir whose copy of NUM_TEMPLATE carries a figure."""
+    dest = tmp_path / "figure-templates"
+    dest.mkdir(exist_ok=True)
+    template = yaml.safe_load(NUM_TEMPLATE.read_text(encoding="utf-8"))
+    template["diagram_required"] = True  # a figure-bearing template is figure-dependent
+    template["figure"] = FIGURE_TEMPLATE_FIGURE
+    (dest / NUM_TEMPLATE.name).write_text(yaml.safe_dump(template, sort_keys=False), encoding="utf-8")
+    return dest
+
+
 @pytest.fixture()
 def content() -> engine.ContentIndex:
     return engine.load_content(REPO_ROOT / "content" / "fractions")
 
 
-def _build_facade(tmp_path: Path, content: engine.ContentIndex, **facade_kwargs) -> serving.ServingFacade:
+def _build_facade(
+    tmp_path: Path,
+    content: engine.ContentIndex,
+    templates_dir: Path | None = None,
+    **facade_kwargs,
+) -> serving.ServingFacade:
     banks_dir = tmp_path / "banks"
     banks_dir.mkdir()
-    manifest, per_template = bank_build.run_build(_templates_dir(tmp_path), LOCALE_PACK, "mcp-build", pool_cap=5)
+    if templates_dir is None:
+        templates_dir = _templates_dir(tmp_path)
+    manifest, per_template = bank_build.run_build(templates_dir, LOCALE_PACK, "mcp-build", pool_cap=5)
     bank_build.write_bank(banks_dir, "mcp-build", manifest, per_template)
     (banks_dir / serving.ACTIVE_POINTER_NAME).write_text("mcp-build", encoding="utf-8")
     logs_dir = tmp_path / "logs"
@@ -780,6 +827,133 @@ def test_fetch_batch_returns_declared_shape(facade: serving.ServingFacade) -> No
     assert 0 < body["count_returned"] <= 5
     assert {item["rung"] for item in body["items"]} <= {"target", "easier", "harder"}
     assert {item["context"] for item in body["items"]} <= {"practice", "probe"}
+
+
+# --- Figures over the wire (partner-figure plan U5; R5, AE1-AE3) -------------
+
+
+def _figure_bearing_batch(tmp_path: Path, content: engine.ContentIndex, student_id: str) -> tuple[dict, Path]:
+    """fetch_batch over MCP against a bank built from a figure-bearing
+    template; returns (batch body, banks dir)."""
+    facade = _build_facade(tmp_path, content, templates_dir=_figure_templates_dir(tmp_path))
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            opened = await client.call_tool("open_session", _open_args(student_id))
+            session_id = opened.structuredContent["session_id"]
+            fetched = await client.call_tool(
+                "fetch_batch", {"session_id": session_id, "skill_id": SKILL_ID, "batch_size": 5}
+            )
+            assert not fetched.isError
+            return fetched.structuredContent
+
+    return _run(flow()), tmp_path / "banks"
+
+
+def test_fetch_batch_serves_materialized_figures_verbatim(
+    tmp_path: Path, content: engine.ContentIndex
+) -> None:
+    """R5/AE1-AE2: a figure reaches a partner through the *existing* batch
+    response — no new batch-schema field, nothing stripped, nothing
+    reshaped. The strong form of "verbatim" here is whole-instance equality
+    against the JSON bank_build wrote to disk, which also covers AE2's
+    "all pre-existing instance fields unchanged" in the same assertion."""
+    body, banks_dir = _figure_bearing_batch(tmp_path, content, "stu-figure-batch")
+
+    # The batch contract is unchanged by figures — same schema, still valid.
+    _assert_valid("batch-result.schema.json", body)
+    assert body["count_returned"] > 0, "figure-bearing skill served no items at all"
+
+    from_bank = {
+        instance["item_instance_id"]: instance
+        for instance in json.loads(
+            (banks_dir / "mcp-build" / "instances" / f"{FIGURE_TEMPLATE_ID}.json").read_text(
+                encoding="utf-8"
+            )
+        )
+    }
+
+    for item in body["items"]:
+        instance = item["instance"]
+        assert instance == from_bank[instance["item_instance_id"]], (
+            "the served instance differs from the one bank_build materialized offline "
+            "— serving must pass instances through untouched (KD5, KD6)"
+        )
+
+        figures = instance["figures"]
+        assert figures is not None, f"{instance['item_instance_id']} served figures: null"
+        assert len(figures) == 1
+        figure = figures[0]
+
+        # Concrete on the wire: every expression evaluated, every label
+        # rendered, and no authoring artifact (`*_expr`, `*_i18n`) left.
+        assert figure["kind"] == "number-line"
+        assert not [k for k in figure if k.endswith("_expr") or k.endswith("_i18n")]
+        variables = instance["variables"]
+        assert figure["min"] == 0
+        assert figure["max"] == 1
+        assert figure["divisions"] == variables["b"]
+        point = figure["points"][0]
+        assert point["position"] == f"{variables['a']}/{variables['b']}"
+        assert point["label"] == f"{variables['a']} of {variables['b']}", (
+            "the figure label must render through the same substitutions as the stem (KTD7)"
+        )
+
+    # KD3: the stem keeps describing the figure in words, so a consumer that
+    # ignores `figures` answers the item exactly as before.
+    assert all(item["instance"]["stem"] for item in body["items"])
+
+
+def test_attempt_on_a_figure_bearing_item_validates_against_the_unchanged_attempt_schema(
+    tmp_path: Path, content: engine.ContentIndex
+) -> None:
+    """R4/AE3: figures are stimulus-only. An attempt against a figure-bearing
+    item logs an event that still validates against the untouched
+    schemas/attempt-event.schema.json, and carries no figure data — the
+    write path never learned about figures and must not start now."""
+    student_id = "stu-figure-attempt"
+    facade = _build_facade(tmp_path, content, templates_dir=_figure_templates_dir(tmp_path))
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            opened = await client.call_tool("open_session", _open_args(student_id))
+            session_id = opened.structuredContent["session_id"]
+            fetched = await client.call_tool(
+                "fetch_batch", {"session_id": session_id, "skill_id": SKILL_ID, "batch_size": 1}
+            )
+            instance = fetched.structuredContent["items"][0]["instance"]
+            assert instance["figures"], "fixture assumption: the served item carries a figure"
+            submitted = await client.call_tool("submit_attempt", _submit_args(session_id, instance))
+            assert not submitted.isError, submitted.content
+            assert submitted.structuredContent["logged"] is True
+            return instance
+
+    instance = _run(flow())
+
+    schema = json.loads(
+        (REPO_ROOT / "schemas" / "attempt-event.schema.json").read_text(encoding="utf-8")
+    )
+    validator = jsonschema.Draft202012Validator(schema)
+    events = [
+        json.loads(line)
+        for line in (tmp_path / "logs" / f"{student_id}.jsonl").read_text(encoding="utf-8").splitlines()
+        if line.strip()
+    ]
+    assert len(events) == 1, f"expected exactly one logged attempt, got {len(events)}"
+    event = events[0]
+    errors = sorted(validator.iter_errors(event), key=lambda e: list(e.path))
+    assert errors == [], "; ".join(e.message for e in errors)
+
+    assert event["item_instance_id"] == instance["item_instance_id"]
+    assert not [key for key in event if "figure" in key.lower()], (
+        f"figure data leaked into the attempt-event write path: {sorted(event)}"
+    )
+    assert set(event) <= set(schema["properties"]), (
+        "the logged attempt carries field(s) the attempt-event contract doesn't declare: "
+        f"{sorted(set(event) - set(schema['properties']))}"
+    )
 
 
 def test_refill_batch_returns_declared_shape_including_no_further_items(

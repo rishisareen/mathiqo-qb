@@ -47,6 +47,18 @@ hints_i18n:
     - "Convert both symbol counts to actual votes using the key before comparing."
     - "Find each category's total first, then subtract."
 
+figure:
+  - kind: pictograph
+    key_expr: "k"
+    unit: "votes"
+    rows:
+      - label_i18n:
+          en-IN: "Zoo"
+        whole_expr: "n1"
+      - label_i18n:
+          en-IN: "Museum"
+        whole_expr: "n2"
+
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

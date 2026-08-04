@@ -49,6 +49,16 @@ difficulty: 0.2
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The construction itself: the n cm segment drawn as the diameter, with its
+  # endpoints and the centre marked (segment-as-diameter), which a bare circle
+  # cannot express. The labelled length is the *given* diameter n, never the
+  # asked-for radius n / 2.
+  - kind: circle
+    construction: segment-as-diameter
+    length_part: diameter
+    length_expr: "n"
+    unit: "cm"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

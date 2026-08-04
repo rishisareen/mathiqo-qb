@@ -13,7 +13,7 @@ difficulty_prior: hard
 difficulty: 0.8
 estimated_time_sec: 60
 calculator_allowed: false
-diagram_required: false
+diagram_required: true
 accepted_answer_forms: simplest form only
 context_tags:
   - shapes
@@ -54,6 +54,22 @@ hints_i18n:
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # Same unequal split as the medium band, but here the large plot IS planted
+  # along with shaded_small of the small ones -- forgetting it is exactly the
+  # misconception this item tests, so the figure must show it shaded.
+  - kind: region
+    shape: rectangle
+    parts:
+      - weight_expr: "1"
+        count_expr: "shaded_small"
+        shaded: true
+      - weight_expr: "1"
+        count_expr: "s - shaded_small"
+        shaded: false
+      - weight_expr: "k"
+        count_expr: "1"
+        shaded: true
 tts: false
 provenance:
   generator_version: "claude-agent/1.0"

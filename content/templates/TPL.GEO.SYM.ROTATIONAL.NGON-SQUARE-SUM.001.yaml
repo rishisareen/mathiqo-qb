@@ -44,6 +44,20 @@ template_version: 1.0.0
 bank_version: dev
 graph_version: 1.0.0
 difficulty: 0.8
+figure:
+  # Two genuinely distinct shapes, in the order the stem names them -- a square
+  # and a regular {{n}}-gon -- drawn separately, since the item sums what each
+  # contributes. Distinct shapes are what the array is for; a repeated shape
+  # would instead carry a count inside its own entry.
+  # symmetry: none -- the child is asked to work the symmetry out, so
+  # drawing the axes or marking the order would hand over the answer.
+  - kind: shape
+    shape: square
+    symmetry: none
+  - kind: shape
+    shape: regular-ngon
+    sides_expr: "n"
+    symmetry: none
 tts: false
 provenance:
   generator_version: claude-agent/1.0

@@ -33,6 +33,21 @@ localization_slots: []
 stem_i18n:
   en-IN: "A class tally for favourite sport shows: Cricket — {{b1}} bundles of five and {{e1}} loose strokes; Football — {{b2}} bundles of five and {{e2}} loose strokes. How many more students chose Cricket than Football?"
 
+# The two sport rows the stem lists, in stem order: Cricket (b1, e1) and
+# Football (b2, e2). Neither row carries a count, so the difference the item
+# asks for is not shown.
+figure:
+  - kind: tally-chart
+    rows:
+      - label_i18n:
+          en-IN: "Cricket"
+        bundles_expr: "b1"
+        loose_expr: "e1"
+      - label_i18n:
+          en-IN: "Football"
+        bundles_expr: "b2"
+        loose_expr: "e2"
+
 answer: "(5 * b1 + e1) - (5 * b2 + e2)"
 
 distractors:

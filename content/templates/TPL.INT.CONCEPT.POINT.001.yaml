@@ -25,6 +25,19 @@ constraints: []
 localization_slots: []
 stem_i18n:
   en-IN: "On a number line, 0 is marked at the centre. A point P lies {{n}} units to the left of 0. Write the integer represented by point P."
+# Zero-centred by construction (the bounds are symmetric about 0) with integer
+# ticks only, so "{{n}} units to the left of 0" is countable off the line. The
+# point carries the stem's own name "P", never its value: the value IS the
+# answer (-n), and a numeric label there would leak it (figure plan R9).
+figure:
+  - kind: number-line
+    min_expr: "-n - 1"
+    max_expr: "n + 1"
+    divisions_expr: "1"
+    points:
+      - position_expr: "-n"
+        label_i18n:
+          en-IN: "P"
 answer: "-n"
 distractors: []
 solution_steps_i18n:

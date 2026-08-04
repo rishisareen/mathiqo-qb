@@ -37,8 +37,14 @@ v1 scope restrictions enforced by this harness (core doc §4), stricter than
 the bare item-record schema allows: question_type must be mcq_4 or
 numeric_entry; skill_ids must be exactly the one skill being drafted for
 (single-skill items only — no exam-context multi-skill drafting here);
-early-grade `render` props (§2.9) are out of scope, since the v1 slice
-targets canonical stages ≈ Classes 3-6, not Classes 1-3.
+and `diagram_required` must agree with `figure` in both directions — a
+template whose `diagram_required` is true must declare a `figure`, since a
+figure-dependent item that ships without render data forces the consumer
+back to re-authoring the visual itself, and a template declaring a `figure`
+must mark itself `diagram_required`, since it is figure-dependent by
+construction. `tests/test_content_coverage.py` holds the published corpus to
+that same pair of rules; enforcing them here keeps a draft from reaching
+content/templates/ and regressing the guarantee after the fact.
 """
 
 from __future__ import annotations
@@ -82,13 +88,16 @@ CONTENT_FIELDS = frozenset({
     "diagram_required", "accepted_answer_forms", "context_tags",
     "exam_contexts", "variables", "constraints", "stem_i18n",
     "localization_slots", "answer", "distractors", "solution_steps_i18n",
-    "hints_i18n",
+    "hints_i18n", "figure",
 })
-# accepted_answer_forms is optional per the item-record schema; everything
-# else in CONTENT_FIELDS is required *of the LLM's draft* by this harness
-# (difficulty_prior is optional in the bare schema but required here, since
-# the harness's difficulty-scalar fill depends on an explicit E/M/H choice).
-REQUIRED_CONTENT_FIELDS = CONTENT_FIELDS - {"accepted_answer_forms"}
+# accepted_answer_forms and figure are optional per the item-record schema;
+# everything else in CONTENT_FIELDS is required *of the LLM's draft* by this
+# harness (difficulty_prior is optional in the bare schema but required here,
+# since the harness's difficulty-scalar fill depends on an explicit E/M/H
+# choice). `figure` is conditionally required instead — see
+# check_v1_restrictions: unconditionally requiring it would demand a figure
+# on every text-only draft.
+REQUIRED_CONTENT_FIELDS = CONTENT_FIELDS - {"accepted_answer_forms", "figure"}
 SCAFFOLD_FIELDS = frozenset({
     "template_version", "bank_version", "graph_version", "tts",
     "difficulty", "provenance",
@@ -233,6 +242,24 @@ def check_v1_restrictions(content: dict, skill_id: str) -> list[str]:
         errors.append(
             f"difficulty_prior {difficulty_prior!r} must be one of "
             f"{sorted(DIFFICULTY_BAND_MIDPOINT)}"
+        )
+    # diagram_required and figure agree in both directions — the same rule
+    # tests/test_content_coverage.py holds the published corpus to, enforced
+    # one stage earlier so a figure-less visual draft bounces back to the LLM
+    # rather than landing in content/templates/ and regressing the guarantee.
+    diagram_required = content.get("diagram_required") is True
+    has_figure = bool(content.get("figure"))
+    if diagram_required and not has_figure:
+        errors.append(
+            "diagram_required is true but no `figure` is declared: a figure-dependent item "
+            "must carry structured render data (see the figure union in the schema above), "
+            "since shipping the visual as stem prose alone forces the consumer to re-author it"
+        )
+    if has_figure and not diagram_required:
+        errors.append(
+            "a `figure` is declared but diagram_required is not true: an item carrying a "
+            "figure is figure-dependent by definition — set diagram_required: true, or drop "
+            "the figure if the item does not actually need a visual"
         )
     return errors
 

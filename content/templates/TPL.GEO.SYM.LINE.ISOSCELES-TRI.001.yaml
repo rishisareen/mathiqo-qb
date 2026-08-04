@@ -60,6 +60,27 @@ template_version: 1.0.0
 bank_version: dev
 graph_version: 1.0.0
 difficulty: 0.5
+figure:
+  # Triangle ABC as the stem names it: the two equal sides AB and CA at {{p}}
+  # and the distinct base BC at {{q}}, so the drawing shows isosceles-but-not-
+  # equilateral rather than only asserting it. Drawing the base equal to the
+  # legs would make the pictured shape have 3 fold lines, not the 1 asked for.
+  # symmetry: none -- the child is asked to work the symmetry out, so
+  # drawing the axes or marking the order would hand over the answer.
+  - kind: shape
+    shape: isosceles-triangle
+    vertex_labels: ["A", "B", "C"]
+    side_labels:
+      - side: 0        # AB
+        value_expr: "p"
+        unit: "cm"
+      - side: 1        # BC, the base
+        value_expr: "q"
+        unit: "cm"
+      - side: 2        # CA
+        value_expr: "p"
+        unit: "cm"
+    symmetry: none
 tts: false
 provenance:
   generator_version: claude-agent/1.0

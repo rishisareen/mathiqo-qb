@@ -51,6 +51,13 @@ difficulty: 0.8
 template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
+figure:
+  # The reflex angle at the point: the major arc that is left of the full
+  # 360-degree turn once the measured non-reflex n degrees is taken out. The
+  # reflex context is what makes 360 - n (190..350 here) drawable at all.
+  - kind: angle
+    degrees_expr: "360 - n"
+    context: reflex
 tts: false
 exam_contexts:
   - SCHOOL_EXAM
