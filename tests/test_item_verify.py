@@ -649,12 +649,117 @@ def test_figure_violation_hard_fails_rather_than_flagging(tmp_path: Path) -> Non
             "within the ruler",
             id="ruler-object-running-off-the-scale",
         ),
+        pytest.param(
+            {"kind": "angle", "degrees_expr": "360", "context": "bare"},
+            "below 360",
+            id="bare-angle-at-a-full-turn",
+        ),
+        pytest.param(
+            {"kind": "angle", "degrees_expr": "181", "context": "protractor"},
+            "protractor scale",
+            id="protractor-angle-above-180",
+        ),
     ],
 )
 def test_per_kind_figure_rules_hard_fail(figure: dict, match: str) -> None:
     template = _figure_template(figure=[figure])
     with pytest.raises(item_verify.HardFail, match=match):
         item_verify.verify_template(template)
+
+
+# --- The bare-angle relaxation actually widens what passes, not just moves
+#     where it fails -------------------------------------------------------
+
+@pytest.mark.parametrize("degrees", [90, 181, 270, 359])
+def test_bare_angle_above_180_now_passes(degrees: int) -> None:
+    """Angles measured in hour-marks range 30-330 depending on the variable,
+    so context: bare must cover the whole span, not just the interior-angle
+    half of it -- this is what let the arm-length items stop borrowing the
+    clock face just to express a turn over 180."""
+    template = _figure_template(figure=[{"kind": "angle", "degrees_expr": str(degrees), "context": "bare"}])
+    report = item_verify.verify_template(template)
+    assert report.verdict in {item_verify.PASS, item_verify.FLAGGED}
+
+
+# --- shared_vertex: a tag with no partner is an authoring mistake ----------
+
+def test_shared_vertex_with_no_partner_hard_fails() -> None:
+    template = _figure_template(
+        figure=[{"kind": "angle", "degrees_expr": "60", "context": "bare", "shared_vertex": "O"}]
+    )
+    with pytest.raises(item_verify.HardFail, match="shared_vertex"):
+        item_verify.verify_template(template)
+
+
+def test_shared_vertex_paired_across_two_angles_passes() -> None:
+    template = _figure_template(
+        figure=[
+            {"kind": "angle", "degrees_expr": "60", "context": "bare", "shared_vertex": "O"},
+            {"kind": "angle", "degrees_expr": "40", "context": "bare", "shared_vertex": "O"},
+        ]
+    )
+    report = item_verify.verify_template(template)
+    assert report.verdict in {item_verify.PASS, item_verify.FLAGGED}
+
+
+def test_two_different_shared_vertex_tags_both_paired_passes() -> None:
+    """Two independent shared vertices in one figure (e.g. two separate
+    angle pairs) is legitimate -- pairing is checked per tag, not assuming a
+    single shared vertex per template."""
+    template = _figure_template(
+        figure=[
+            {"kind": "angle", "degrees_expr": "60", "context": "bare", "shared_vertex": "O"},
+            {"kind": "angle", "degrees_expr": "40", "context": "bare", "shared_vertex": "O"},
+            {"kind": "angle", "degrees_expr": "50", "context": "bare", "shared_vertex": "P"},
+            {"kind": "angle", "degrees_expr": "70", "context": "bare", "shared_vertex": "P"},
+        ]
+    )
+    report = item_verify.verify_template(template)
+    assert report.verdict in {item_verify.PASS, item_verify.FLAGGED}
+
+
+# --- altitude_expr on figShape ----------------------------------------------
+
+def test_negative_altitude_hard_fails() -> None:
+    template = _figure_template(
+        figure=[{"kind": "shape", "shape": "triangle", "altitude_expr": "-n", "altitude_unit": "cm"}]
+    )
+    with pytest.raises(item_verify.HardFail, match="altitude_expr must be positive"):
+        item_verify.verify_template(template)
+
+
+def test_positive_altitude_passes() -> None:
+    template = _figure_template(
+        figure=[{"kind": "shape", "shape": "triangle", "altitude_expr": "n", "altitude_unit": "cm"}]
+    )
+    report = item_verify.verify_template(template)
+    assert report.verdict in {item_verify.PASS, item_verify.FLAGGED}
+
+
+# --- caption_i18n and centre_marked are inert w.r.t. verification, but must
+#     survive the label-language and slot-resolution checks like any other
+#     *_i18n field ------------------------------------------------------
+
+def test_caption_missing_a_stem_language_hard_fails() -> None:
+    """caption_i18n is discovered by the same _i18n-suffix walk as every
+    other figure label, so a caption authored in a language the stem does
+    not use must be caught the same way a pictograph row label would be."""
+    template = _figure_template(
+        figure=[{"kind": "shape", "shape": "rectangle", "caption_i18n": {"hi-IN": "Aayat A"}}]
+    )
+    with pytest.raises(item_verify.HardFail):
+        item_verify.verify_template(template)
+
+
+def test_circle_centre_marked_and_caption_pass_together() -> None:
+    template = _figure_template(
+        figure=[
+            {"kind": "circle", "centre_marked": True},
+            {"kind": "shape", "shape": "rectangle", "caption_i18n": {"en-IN": "Rectangle A"}},
+        ]
+    )
+    report = item_verify.verify_template(template)
+    assert report.verdict in {item_verify.PASS, item_verify.FLAGGED}
 
 
 def test_array_per_row_expression_binds_the_row_index() -> None:

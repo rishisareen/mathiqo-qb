@@ -55,15 +55,19 @@ template_version: "1.0.0"
 bank_version: "dev"
 graph_version: "1.0.0"
 figure:
-  # A plain circle carrying the two marked-point groups the stem states: the
-  # on_circle points sit exactly on the boundary, the off_circle points are
-  # inside or outside it. Which side of the boundary each off-circle point
-  # lands on is renderer layout freedom (R7) -- the stem deliberately does not
-  # split them, so no variable pins it down. No length is drawn: the stem
-  # gives none, and this item counts points rather than measuring anything.
+  # A circle carrying the two marked-point groups the stem states, plus the
+  # centre O marked as a distinct point -- MISC.GEO.CENTRE-ON-CIRCLE is
+  # exactly the mistake of folding O into the on-circle count, so drawing it
+  # visibly separate from both groups reinforces the stem's "besides the
+  # centre" wording rather than leaving it to be inferred. Which side of the
+  # boundary each off-circle point lands on is renderer layout freedom (R7)
+  # -- the stem deliberately does not split them, so no variable pins it
+  # down. No length is drawn: the stem gives none, and this item counts
+  # points rather than measuring anything.
   - kind: circle
     points_on_expr: "on_circle"
     points_off_expr: "off_circle"
+    centre_marked: true
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

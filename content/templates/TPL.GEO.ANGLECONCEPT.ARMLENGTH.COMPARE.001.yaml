@@ -55,14 +55,18 @@ figure:
   # Two angles with the SAME turn -- x hour-marks, i.e. 30*x degrees each --
   # drawn with very different arm lengths. Two entries because the two angles
   # differ (in arm length only); equal degrees_expr is exactly why the answer
-  # is 0, so drawing them unequal would contradict the stem.
+  # is 0, so drawing them unequal would contradict the stem. context: bare
+  # rather than clock -- the item is about arm length, and a numbered clock
+  # face has hands of fixed length, which would undercut the exact contrast
+  # being tested; a bare angle carries arm_length_expr freely. degrees_expr
+  # reaches up to 330 at x=11, inside the bare context's <360 bound.
   - kind: angle
     degrees_expr: "30*x"
-    context: clock
+    context: bare
     arm_length_expr: "1"
   - kind: angle
     degrees_expr: "30*x"
-    context: clock
+    context: bare
     arm_length_expr: "3"
 tts: false
 exam_contexts:
