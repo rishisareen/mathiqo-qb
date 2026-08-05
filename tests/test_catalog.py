@@ -189,9 +189,9 @@ def test_every_response_stamps_content_version(content: engine.ContentIndex):
 
 
 def _facade(content: engine.ContentIndex) -> serving.ServingFacade:
-    # No banks_dir/logs_dir needed: none of the U7 methods touch sessions
-    # or the bank, so a facade constructed purely for catalog reads never
-    # exercises them.
+    # No banks_dir/logs_dir needed: none of the U7 methods touch sessions,
+    # and `list_skills`'s best-effort bank resolution degrades cleanly with
+    # no banks_dir configured (KD3) rather than requiring one.
     return serving.ServingFacade(banks_dir=None, logs_dir=None, content=content, bank_lookup=lambda v: None)
 
 
@@ -200,7 +200,25 @@ def test_facade_passthroughs_delegate_to_catalog_module(content: engine.ContentI
 
     assert facade.list_curricula() == catalog.list_curricula(content)
     assert facade.list_units("IN", "NCERT", 6) == catalog.list_units(content, "IN", "NCERT", 6)
-    assert facade.list_skills("IN", "NCERT", 6, unit_code=NCERT_G6_FRACTIONS_UNIT) == catalog.list_skills(
-        content, "IN", "NCERT", 6, unit_code=NCERT_G6_FRACTIONS_UNIT
-    )
     assert facade.get_skill_graph("FRAC.SIMPLIFY") == catalog.get_skill_graph(content, "FRAC.SIMPLIFY")
+
+    # list_skills is no longer a pure passthrough (it annotates servability,
+    # U14) so it's compared field-by-field against the catalog result rather
+    # than by whole-object equality; with no bank resolvable here it
+    # degrades to servable=False for every skill (KD3).
+    catalog_result = catalog.list_skills(content, "IN", "NCERT", 6, unit_code=NCERT_G6_FRACTIONS_UNIT)
+    facade_result = facade.list_skills("IN", "NCERT", 6, unit_code=NCERT_G6_FRACTIONS_UNIT)
+    assert facade_result.content_version == catalog_result.content_version
+    assert facade_result.country == catalog_result.country
+    assert facade_result.curriculum == catalog_result.curriculum
+    assert facade_result.grade == catalog_result.grade
+    assert facade_result.unit_code == catalog_result.unit_code
+    assert facade_result.bank_version is None
+    assert [
+        (s.skill_id, s.depth_expectation, s.learning_objective, s.terminology_overrides, s.unit_code, s.unit_name)
+        for s in facade_result.skills
+    ] == [
+        (s.skill_id, s.depth_expectation, s.learning_objective, s.terminology_overrides, s.unit_code, s.unit_name)
+        for s in catalog_result.skills
+    ]
+    assert all(s.servable is False for s in facade_result.skills)

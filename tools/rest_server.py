@@ -456,7 +456,7 @@ def build_app(
 
     @app.get(
         "/catalog/skills", operation_id="list_skills",
-        summary="The mapped skills for a curriculum scope, each with its curriculum-local presentation.",
+        summary="The mapped skills for a curriculum scope, each with its curriculum-local presentation and servability against the ACTIVE bank.",
     )
     def list_skills(
         country: str = Query(...), curriculum: str = Query(...), grade: int = Query(...),

@@ -340,7 +340,7 @@ the reference orchestrator itself uses):
 | `find_student(attributes)` | `ServingFacade.find_student` | Exact-match lookup by registration attributes; no fuzzy matching. |
 | `list_curricula()` | `ServingFacade.list_curricula` | Every covered (country, curriculum, grade) triple (R1). |
 | `list_units(country, curriculum, grade)` | `ServingFacade.list_units` | Structured chapter list (R2); a unit-less curriculum returns its skills directly. |
-| `list_skills(country, curriculum, grade, unit_code?)` | `ServingFacade.list_skills` | Mapped skills with curriculum-local presentation — learning objective, depth expectation, terminology overrides (R3). |
+| `list_skills(country, curriculum, grade, unit_code?)` | `ServingFacade.list_skills` | Mapped skills with curriculum-local presentation — learning objective, depth expectation, terminology overrides (R3). Each skill also carries `servable`, checked against the currently `ACTIVE` bank build named in the response's `bank_version` — never used to drop a skill, only to flag it. With no bank resolvable, every skill is `servable: false` and `bank_version` is `null`; the catalog still answers rather than erroring (KD3). |
 | `get_skill_graph(skill_ids?)` | `ServingFacade.get_skill_graph` | Canonical, curriculum-neutral skill graph: prerequisites, depth, strand, misconceptions (R4). |
 | `fetch_batch(session_id, skill_id, batch_size?)` | `ServingFacade.fetch_batch` | A difficulty-laddered batch plus the branching policy and misconception feedback sidecar (R8-R10, R18). |
 | `refill_batch(session_id, skill_id, attempts_flushed)` | `ServingFacade.refill_batch` | Re-plans from the student's current state; carries `supersede` when the plan materially changed (R12). |
@@ -456,6 +456,15 @@ one):
 
 Auto-generated OpenAPI docs (schemas, no credentials) are available at
 `/docs` and `/openapi.json` once the server is running.
+
+**`GET /catalog/skills` servability.** Same shared serializer as the MCP
+tool: each skill carries `servable` against the response's own
+`bank_version`, `false`/`null` respectively when no bank resolves. This is
+a point-in-time read against whatever build is `ACTIVE` at call time — a
+partner should re-fetch (or compare `bank_version` against
+`recommend_next`'s) rather than cache servability across a bank repoint,
+since neither a newly-servable skill nor one a repoint just dropped is
+reflected until the next call.
 
 ## Run the tests
 

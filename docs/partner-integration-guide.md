@@ -419,7 +419,7 @@ availability):
 |---|---|---|
 | `interface_version` | `server_info` (MCP only) | The MCP/REST contract itself — this guide's shape. |
 | `content_version` | Catalog, skill-graph, recommendation, and batch responses | The content-pack manifest build (curriculum mappings, skill graph). |
-| `bank_version` | Session-open, batch, and candidate responses | The specific item bank build a session is pinned to. |
+| `bank_version` | Session-open, batch, candidate, recommendation, and `list_skills` responses | The specific item bank build — the one a session is pinned to, or (on `list_skills`) the one `servable` was checked against. `null` there when no bank resolved. |
 | `policy_version` | The batch policy object | The client-side branching-policy shape (`rules`/`floor`/`low_water`). |
 
 Cache aggressively on `content_version`/`bank_version` where it helps your
@@ -585,16 +585,32 @@ is populated only when `has_units` is `false`.
 {
   "content_version": "string", "country": "string", "curriculum": "string", "grade": 6,
   "unit_code": "string | null",
+  "bank_version": "string | null",
   "skills": [
     {
       "skill_id": "string", "depth_expectation": "string",
       "learning_objective": "string | null",
       "terminology_overrides": { "<canonical_term>": "<curriculum_local_term>" },
-      "unit_code": "string | null", "unit_name": "string | null"
+      "unit_code": "string | null", "unit_name": "string | null",
+      "servable": true
     }
   ]
 }
 ```
+
+`servable` is `true` when the bank build named by this response's
+`bank_version` holds at least one item for that skill. A skill is never
+dropped for being unservable — it stays advertised and flagged, so you can
+tell "we cover this" apart from "we can serve this today". When no bank
+resolves at all, `bank_version` is `null` and every skill comes back
+`servable: false`; the catalog still answers rather than erroring.
+
+Two cautions. It is a point-in-time read against whatever build was
+`ACTIVE` at call time, so re-fetch (or compare `bank_version` against what
+`recommend_next` returns) rather than caching servability across a bank
+repoint. And it is student-independent — `servable: true` means the bank
+holds items for that skill, not that a *particular* student has unseen
+items left, which is what `get_candidates` and `recommend_next` answer.
 
 ### `get_skill_graph` response — [`schemas/api/catalog-skill-graph.schema.json`](../schemas/api/catalog-skill-graph.schema.json)
 

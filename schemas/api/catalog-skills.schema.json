@@ -2,10 +2,10 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://mathiqo.dev/schemas/api/catalog-skills.schema.json",
   "title": "MCP list_skills Response",
-  "description": "Serving-integrity contract U11/R15: `tools/mcp_server.py`'s `list_skills` tool response, built by `_serialize_skills`. U7/R3: the mapped skills for a (country, curriculum, grade) scope, optionally narrowed to one unit_code, each carrying its curriculum-local presentation straight off the mapping row (orchestrator/catalog.py's SkillsResult). An unmatched scope or unit_code returns skills=[], never an error (plan point 6).",
+  "description": "Serving-integrity contract U11/R15: `tools/mcp_server.py`'s `list_skills` tool response, built by `_serialize_skills`. U7/R3: the mapped skills for a (country, curriculum, grade) scope, optionally narrowed to one unit_code, each carrying its curriculum-local presentation straight off the mapping row (orchestrator/catalog.py's SkillsResult). An unmatched scope or unit_code returns skills=[], never an error (plan point 6). U14: each skill also carries `servable`, checked against `bank_version`'s build (`orchestrator/serving.py`'s `ServingFacade.list_skills`) — the positive-polarity counterpart of `recommendation-result.schema.json`'s `unservable`; the catalog answers 'what can I bind to' rather than 'what got flagged', so the two fields are deliberately opposite in sense, not just in name.",
   "type": "object",
   "additionalProperties": false,
-  "required": ["content_version", "country", "curriculum", "grade", "unit_code", "skills"],
+  "required": ["content_version", "country", "curriculum", "grade", "unit_code", "bank_version", "skills"],
   "properties": {
     "content_version": { "type": "string", "minLength": 1 },
     "country": { "type": "string", "minLength": 1 },
@@ -14,6 +14,10 @@
     "unit_code": {
       "type": ["string", "null"],
       "description": "The narrowing filter this result was built with, echoed back verbatim; null when the call didn't narrow to one unit."
+    },
+    "bank_version": {
+      "type": ["string", "null"],
+      "description": "The bank build every skill's `servable` was checked against (U14). Null when no bank could be resolved or loaded (no ACTIVE pointer configured, or the resolved build failed to load) — in that case every skill is `servable: false`, but the catalog itself still answers rather than erroring (KD3)."
     },
     "skills": {
       "type": "array",
@@ -27,7 +31,8 @@
           "learning_objective",
           "terminology_overrides",
           "unit_code",
-          "unit_name"
+          "unit_name",
+          "servable"
         ],
         "properties": {
           "skill_id": { "type": "string", "minLength": 1 },
@@ -39,7 +44,11 @@
             "description": "Curriculum-local term substitutions, keyed by the canonical term they replace."
           },
           "unit_code": { "type": ["string", "null"] },
-          "unit_name": { "type": ["string", "null"] }
+          "unit_name": { "type": ["string", "null"] },
+          "servable": {
+            "type": "boolean",
+            "description": "True when the bank build named by this response's bank_version holds at least one instance for this skill (U14) — never used to drop a skill from the list, only to annotate it."
+          }
         }
       }
     }

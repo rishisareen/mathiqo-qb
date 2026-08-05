@@ -638,6 +638,35 @@ class RecommendationsResult:
     recommendations: List[RecommendedSkill] = field(default_factory=list)
 
 
+@dataclass
+class ServableSkill:
+    """One entry of `ServingFacade.list_skills`'s response: `catalog.MappedSkill`'s
+    curriculum-local presentation (never the catalog dataclass itself, same
+    reshaping rationale as `RecommendedSkill`) plus `servable` — True when
+    the checked bank build holds at least one raw instance for this skill
+    (the deferred catalog-honesty question from
+    docs/plans/2026-07-29-001-feat-class6-servable-coverage-plan.md)."""
+
+    skill_id: str
+    depth_expectation: str
+    learning_objective: Optional[str]
+    terminology_overrides: Dict[str, str]
+    unit_code: Optional[str]
+    unit_name: Optional[str]
+    servable: bool
+
+
+@dataclass
+class CatalogSkillsResult:
+    content_version: str
+    country: str
+    curriculum: str
+    grade: int
+    unit_code: Optional[str]  # the narrowing filter this result was built with, if any
+    bank_version: Optional[str]  # the build `servable` was checked against; None when none resolved
+    skills: List[ServableSkill] = field(default_factory=list)
+
+
 class ServingFacade:
     """Constructed once per process (or per test) against a banks
     directory (KTD3's ACTIVE pointer plus KTD7's retained-build lookup) and
@@ -650,8 +679,9 @@ class ServingFacade:
     `BankIndex` per session and only ever submits events stamped with that
     one version, so `engine.make_static_bank_lookup(bank)` is both
     sufficient and avoids requiring a registry directory that caller
-    doesn't have). `banks_dir`/`logs_dir` may then be `None` — nothing
-    reads them unless `open_session` is actually called.
+    doesn't have). `banks_dir`/`logs_dir` may then be `None` — `open_session`
+    requires them, and `recommend_next`/`list_skills` tolerate a `None`
+    `banks_dir` by degrading (KD3: the catalog stays open regardless).
 
     `identity`, when given, is an already-constructed `IdentityRegistry`
     (U4) — this facade never derives its path or constructs one itself,
@@ -1431,13 +1461,16 @@ class ServingFacade:
 
     # -- U7 catalog / skill-graph reads --------------------------------------
     #
-    # KD3's student-independent discovery layer (R1-R4): pure reads over
+    # KD3's student-independent discovery layer (R1-R4): reads over
     # `self.content`, delegated straight to orchestrator/catalog.py. No
     # session, no consumer_id, no `_check_linked` — R17's link enforcement
     # gates student-scoped operations (open_session, submit_attempt,
     # get_progress, close_session*); this layer is explicitly the one KD3
     # says stays open regardless (a partner asking "what does Mathiqo
-    # cover" needs no student context to ask it).
+    # cover" needs no student context to ask it). `list_skills` is the one
+    # exception to "pure": it additionally annotates each skill against a
+    # bank build (best-effort, degrading rather than raising — KD3 still
+    # holds), same posture as `recommend_next`'s own `unservable` field.
 
     def list_curricula(self) -> catalog_module.CatalogResult:
         return catalog_module.list_curricula(self.content)
@@ -1446,9 +1479,89 @@ class ServingFacade:
         return catalog_module.list_units(self.content, country, curriculum, grade)
 
     def list_skills(
-        self, country: str, curriculum: str, grade: int, unit_code: Optional[str] = None
-    ) -> catalog_module.SkillsResult:
-        return catalog_module.list_skills(self.content, country, curriculum, grade, unit_code)
+        self,
+        country: str,
+        curriculum: str,
+        grade: int,
+        unit_code: Optional[str] = None,
+        bank_version: Optional[str] = None,
+    ) -> CatalogSkillsResult:
+        """U7/R3 plus the deferred servability question it left open: every
+        mapped skill for this scope, each carrying `servable` — True when
+        the checked bank build holds at least one raw instance for it
+        (`engine.bank_pool_for_skill`, the same predicate
+        `rank_serve_candidates`'s remediation/stepdown/prereq_probe/
+        placement branches use for their own `unservable` verdict — one
+        predicate, two callers).
+
+        Checks the currently `ACTIVE` build by default; pass `bank_version`
+        to check a specific retained build instead (mirroring
+        `recommend_next`'s own resolution, minus the `session` option —
+        this catalog read has no session to pin against). KD3: the catalog
+        stays open regardless of bank state — when no bank can be resolved
+        or loaded at all (`banks_dir` is `None` with no explicit
+        `bank_version`, no `ACTIVE` pointer, or the resolved build fails to
+        load), every skill comes back `servable=False` with
+        `bank_version=None` rather than raising."""
+        result = catalog_module.list_skills(self.content, country, curriculum, grade, unit_code)
+        bank, resolved_version = self._resolve_bank_for_catalog(bank_version)
+        skills = [
+            ServableSkill(
+                skill_id=mapped.skill_id,
+                depth_expectation=mapped.depth_expectation,
+                learning_objective=mapped.learning_objective,
+                terminology_overrides=mapped.terminology_overrides,
+                unit_code=mapped.unit_code,
+                unit_name=mapped.unit_name,
+                servable=bank is not None and bool(engine.bank_pool_for_skill(bank, mapped.skill_id)),
+            )
+            for mapped in result.skills
+        ]
+        return CatalogSkillsResult(
+            content_version=result.content_version,
+            country=result.country,
+            curriculum=result.curriculum,
+            grade=result.grade,
+            unit_code=result.unit_code,
+            bank_version=resolved_version,
+            skills=skills,
+        )
+
+    def _resolve_bank_for_catalog(
+        self, bank_version: Optional[str]
+    ) -> Tuple[Optional[engine.BankIndex], Optional[str]]:
+        """Best-effort bank resolution for catalog reads (KD3): returns
+        `(None, None)` instead of raising when nothing can be resolved or
+        loaded — a `None` `banks_dir` with no explicit `bank_version`
+        (`read_active_bank_version` would `TypeError`), a missing `ACTIVE`
+        pointer (`NoActiveBankError`), or `self.bank_lookup` itself failing
+        (a missing/corrupt build on disk, an unknown version against a
+        static lookup) — so `list_skills` degrades to all-`servable=False`
+        rather than regressing catalog availability over a bank-state
+        problem.
+
+        The version returned is the loaded bank's own `bank_version` (its
+        manifest identity), never the `ACTIVE` pointer text that resolved
+        it — `open_session` and `recommend_next` both stamp
+        `bank.bank_version`, and a build directory whose name differs from
+        its manifest would otherwise make this surface disagree with them
+        about which build a partner is looking at.
+
+        The degrade is logged: a swallowed exception here is
+        indistinguishable in the response from a deployment that simply has
+        no bank yet, so without the warning a corrupt build would silently
+        advertise the whole catalog as unservable."""
+        try:
+            bank = self.bank_lookup(bank_version or read_active_bank_version(self.banks_dir))
+            return bank, bank.bank_version
+        except Exception as exc:
+            logger.warning(
+                "catalog servability degraded: bank_version=%r could not be resolved or loaded (%s) — "
+                "reporting servable=False for every skill",
+                bank_version,
+                exc,
+            )
+            return None, None
 
     def get_skill_graph(
         self, skill_ids: "Optional[str | List[str]]" = None
