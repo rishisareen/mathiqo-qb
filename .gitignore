@@ -4,3 +4,17 @@ __pycache__/
 *.pyc
 .DS_Store
 .claude/settings.local.json
+
+# Built banks are image artifacts, not source — reproducible from
+# content/templates via tools/bank_build.py.
+banks/
+logs/
+staging/
+
+# Bearer-token table ({token: consumer_id}). Never commit.
+credentials.json
+*.credentials.json
+
+# Append-only identity registry — state, and it holds registration attributes.
+identity.jsonl
+*.identity.jsonl

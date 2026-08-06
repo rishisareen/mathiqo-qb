@@ -1,0 +1,26 @@
+# The image builds its own bank (see Dockerfile), so a local banks/ must not be
+# copied in — it would be overwritten anyway, but copying it first wastes the
+# layer and makes the image's provenance ambiguous.
+banks/
+logs/
+staging/
+
+# NEVER bake credentials into the image. The bearer-token table is mounted as a
+# secret at runtime; a copy inside the image would ship every partner's token to
+# anyone who can pull it.
+credentials.json
+*.credentials.json
+
+.venv/
+__pycache__/
+*.pyc
+.pytest_cache/
+.git/
+.github/
+.DS_Store
+tests/
+docs/
+*.pptx
+*.pdf
+identity.jsonl
+*.identity.jsonl

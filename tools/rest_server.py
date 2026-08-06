@@ -82,7 +82,11 @@ from pydantic import BaseModel  # noqa: E402
 
 from orchestrator import batch as batch_module  # noqa: E402
 from orchestrator import constants, engine, serving, signals  # noqa: E402
-from orchestrator.identity import AttributeMismatchError, UnknownStudentError  # noqa: E402
+from orchestrator.identity import (  # noqa: E402
+    AttributeMismatchError,
+    IdentityRegistry,
+    UnknownStudentError,
+)
 
 import mcp_server  # noqa: E402  (reuse its _serialize_* builders — R15)
 
@@ -539,6 +543,15 @@ def main(argv: "list[str] | None" = None) -> int:
         "--credentials-file", required=True, type=Path,
         help="JSON file of {token: consumer_id} (KTD15/KTD16) — resolved per-request, never taken from a request body",
     )
+    parser.add_argument(
+        "--identity-file", type=Path, default=None,
+        help=(
+            "JSONL identity registry, created on first write. WITHOUT this, the facade is "
+            "built with no registry: register_student/link_student/find_student all fail, "
+            "AND every link check is skipped, so a session opens for any student_id from "
+            "any consumer. Pass it on any deployment that means to enforce R17."
+        ),
+    )
     parser.add_argument("--host", default="127.0.0.1", help="bind host (default 127.0.0.1)")
     parser.add_argument("--port", type=int, default=8000, help="bind port (default 8000)")
     args = parser.parse_args(argv)
@@ -555,7 +568,23 @@ def main(argv: "list[str] | None" = None) -> int:
 
     credentials = _load_credentials(args.credentials_file)
     content = engine.load_content(args.content)
-    facade = serving.ServingFacade(args.banks_dir, args.logs_dir, content)
+
+    # The identity registry is optional here for the same reason it is optional
+    # on the facade — a single-consumer deployment that issues its own ids has
+    # no use for it. But "absent" is not a neutral default: it silently disables
+    # the link check on every consumer-facing operation, so say which mode this
+    # process is in rather than leaving the operator to infer it from a 400.
+    identity = IdentityRegistry(args.identity_file) if args.identity_file else None
+    if identity is None:
+        print(
+            "warning: no --identity-file; registration is unavailable and link "
+            "checks are DISABLED (any consumer may open a session for any student_id)",
+            file=sys.stderr,
+        )
+
+    facade = serving.ServingFacade(
+        args.banks_dir, args.logs_dir, content, identity=identity,
+    )
     app = build_app(facade, credentials)
 
     import uvicorn
