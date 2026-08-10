@@ -1,0 +1,884 @@
+[
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 3 cm; the student's wrong answer was just 3 cm (the radius).",
+        "The difference is 2 x 3 - 3, which is 3 cm."
+      ]
+    },
+    "stem": "A circle has radius 3 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 3
+    },
+    "variant_signature": "2dac9c9dec1d4f80b65db5561eda0f107a863541cb7381de398e13425e1d4e5b"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 4 cm; the student's wrong answer was just 4 cm (the radius).",
+        "The difference is 2 x 4 - 4, which is 4 cm."
+      ]
+    },
+    "stem": "A circle has radius 4 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 4
+    },
+    "variant_signature": "cc46fc83f76dab2461b0536f59dafcb4785fb7d3299c04d709f8ad2bc11ace8a"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 5 cm; the student's wrong answer was just 5 cm (the radius).",
+        "The difference is 2 x 5 - 5, which is 5 cm."
+      ]
+    },
+    "stem": "A circle has radius 5 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 5
+    },
+    "variant_signature": "76bd6d27b7bea4455dec6fa43b70e060937cfa0d8e8035ae666dc5428f23b79a"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 6 cm; the student's wrong answer was just 6 cm (the radius).",
+        "The difference is 2 x 6 - 6, which is 6 cm."
+      ]
+    },
+    "stem": "A circle has radius 6 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 6
+    },
+    "variant_signature": "ce38eb1e767baa6e93ab34ebaf527993f23c443f8e3321d86a5217afae5a6049"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 7 cm; the student's wrong answer was just 7 cm (the radius).",
+        "The difference is 2 x 7 - 7, which is 7 cm."
+      ]
+    },
+    "stem": "A circle has radius 7 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 7
+    },
+    "variant_signature": "4732c3ac8751d90acff95f00051c71edd99241627221ac0d7af7e0eb8d96200c"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 8 cm; the student's wrong answer was just 8 cm (the radius).",
+        "The difference is 2 x 8 - 8, which is 8 cm."
+      ]
+    },
+    "stem": "A circle has radius 8 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 8
+    },
+    "variant_signature": "3c036a33d3c8988db78641a4c86cd1d55dffa8b65508f567fd6ff56c903cfbe1"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 9 cm; the student's wrong answer was just 9 cm (the radius).",
+        "The difference is 2 x 9 - 9, which is 9 cm."
+      ]
+    },
+    "stem": "A circle has radius 9 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 9
+    },
+    "variant_signature": "212552cf82fa33fa752145ec51a34916bef93be669411944442477fdb85def7e"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 10 cm; the student's wrong answer was just 10 cm (the radius).",
+        "The difference is 2 x 10 - 10, which is 10 cm."
+      ]
+    },
+    "stem": "A circle has radius 10 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 10
+    },
+    "variant_signature": "97dcca636e6ad7ea401e7958635c119c6eea7f66c8b70d43261bc1c845deb94c"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 11 cm; the student's wrong answer was just 11 cm (the radius).",
+        "The difference is 2 x 11 - 11, which is 11 cm."
+      ]
+    },
+    "stem": "A circle has radius 11 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 11
+    },
+    "variant_signature": "484e72fb7e9192c72f0d873db1229d9e4faded7303c30a521d7e8837280da344"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 12 cm; the student's wrong answer was just 12 cm (the radius).",
+        "The difference is 2 x 12 - 12, which is 12 cm."
+      ]
+    },
+    "stem": "A circle has radius 12 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 12
+    },
+    "variant_signature": "89e9c7a4f9015f4697bb7dc1a1f154e48b438050294c77055e8bcf0df4753bf5"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 13 cm; the student's wrong answer was just 13 cm (the radius).",
+        "The difference is 2 x 13 - 13, which is 13 cm."
+      ]
+    },
+    "stem": "A circle has radius 13 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 13
+    },
+    "variant_signature": "aee83774faf064ccd9b80546cdc75ed2c2055c0e4805fa8eeb237184fb84ac91"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 14 cm; the student's wrong answer was just 14 cm (the radius).",
+        "The difference is 2 x 14 - 14, which is 14 cm."
+      ]
+    },
+    "stem": "A circle has radius 14 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 14
+    },
+    "variant_signature": "0f6782795adc31eff25cea90fa2fd491f88b9edf9c6bee5a93d608e3498ff00e"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 15 cm; the student's wrong answer was just 15 cm (the radius).",
+        "The difference is 2 x 15 - 15, which is 15 cm."
+      ]
+    },
+    "stem": "A circle has radius 15 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 15
+    },
+    "variant_signature": "5b064c33f6f0931e22bafaeda08979772816f47da92af4863ee688018822e610"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 16 cm; the student's wrong answer was just 16 cm (the radius).",
+        "The difference is 2 x 16 - 16, which is 16 cm."
+      ]
+    },
+    "stem": "A circle has radius 16 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 16
+    },
+    "variant_signature": "cec01f73481d59bcadf9439b6b84320237b3c68132d0717a957696b467f1a242"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 17 cm; the student's wrong answer was just 17 cm (the radius).",
+        "The difference is 2 x 17 - 17, which is 17 cm."
+      ]
+    },
+    "stem": "A circle has radius 17 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 17
+    },
+    "variant_signature": "503891cfb5bc209f62a6eeb2949a30a6c61350c5786afd919a360c7f3e769acc"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 18 cm; the student's wrong answer was just 18 cm (the radius).",
+        "The difference is 2 x 18 - 18, which is 18 cm."
+      ]
+    },
+    "stem": "A circle has radius 18 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 18
+    },
+    "variant_signature": "5dff8a844fa46a9ceadd0d2c8361f2a2f211a0b65cc1e32c3ce174380e78645d"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "38"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 19 cm; the student's wrong answer was just 19 cm (the radius).",
+        "The difference is 2 x 19 - 19, which is 19 cm."
+      ]
+    },
+    "stem": "A circle has radius 19 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 19
+    },
+    "variant_signature": "ad724a4326c5f019ad1546ba31b1c4c4724ccb5b64909f1c4a8a4934d829af12"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": "MISC.GEO.RADIUS-DIAMETER-SWAP",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the true diameter first, then compare it to what the student actually wrote.",
+      "True diameter minus the student's answer: 2r - r simplifies to r."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The true diameter is 2 x 20 cm; the student's wrong answer was just 20 cm (the radius).",
+        "The difference is 2 x 20 - 20, which is 20 cm."
+      ]
+    },
+    "stem": "A circle has radius 20 cm. Asked for the diameter, a student instead writes down the radius value itself, thinking radius and diameter are the same length. By how many centimetres is the TRUE diameter bigger than the student's (wrong) answer?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 20
+    },
+    "variant_signature": "1693ff760321d9ef931e79f115bcdc08490e8a324b86a0831a5828d704fd7871"
+  }
+]

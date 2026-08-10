@@ -264,16 +264,21 @@ def _serialize_units(result: catalog_module.UnitsResult) -> dict[str, Any]:
     }
 
 
-def _serialize_skills(result: catalog_module.SkillsResult) -> dict[str, Any]:
+def _serialize_skills(result: serving.CatalogSkillsResult) -> dict[str, Any]:
     """`list_skills`'s declared contract: R3's curriculum-local
     presentation (learning objective, depth expectation, terminology
-    overrides) per mapped skill."""
+    overrides) per mapped skill, plus `servable` — True when the checked
+    bank build (`bank_version`, null if none resolved) holds at least one
+    instance for that skill. Resolved from `ServingFacade.list_skills`
+    (U14), which degrades to `servable=False`/`bank_version=null` rather
+    than raising when no bank can be resolved or loaded (KD3)."""
     return {
         "content_version": result.content_version,
         "country": result.country,
         "curriculum": result.curriculum,
         "grade": result.grade,
         "unit_code": result.unit_code,
+        "bank_version": result.bank_version,
         "skills": [
             {
                 "skill_id": skill.skill_id,
@@ -282,6 +287,7 @@ def _serialize_skills(result: catalog_module.SkillsResult) -> dict[str, Any]:
                 "terminology_overrides": dict(skill.terminology_overrides),
                 "unit_code": skill.unit_code,
                 "unit_name": skill.unit_name,
+                "servable": skill.servable,
             }
             for skill in result.skills
         ],
@@ -658,7 +664,13 @@ def build_server(facade: serving.ServingFacade, consumer_id: str, name: str = "m
         """U7/R3: the mapped skills for a curriculum scope, each with its
         curriculum-local presentation (learning objective, depth
         expectation, terminology overrides). `unit_code`, when given,
-        narrows to just that chapter's skills."""
+        narrows to just that chapter's skills.
+
+        Each entry also carries `servable` (U14) — True when the currently
+        `ACTIVE` bank build has at least one instance for that skill, never
+        dropped when false — with `bank_version` naming the checked build
+        (`null` if no bank could be resolved, in which case every skill is
+        `servable=False`; the catalog stays open regardless, KD3)."""
         return _serialize_skills(facade.list_skills(country, curriculum, grade, unit_code))
 
     @mcp.tool()

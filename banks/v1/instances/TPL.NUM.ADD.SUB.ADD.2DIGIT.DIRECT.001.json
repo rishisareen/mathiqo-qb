@@ -1,0 +1,1802 @@
+[
+  {
+    "answer": "86",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 1 + 5.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 2 + 6."
+      ]
+    },
+    "stem": "What is 21 + 65?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 1,
+      "a1": 2,
+      "b0": 5,
+      "b1": 6
+    },
+    "variant_signature": "d4ac756872a6b2e28dc4c6fc06924d05e2a0252ded334147b211052dca05ab4f"
+  },
+  {
+    "answer": "71",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "611"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 3 + 8.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 2 + 4."
+      ]
+    },
+    "stem": "What is 23 + 48?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 2,
+      "b0": 8,
+      "b1": 4
+    },
+    "variant_signature": "6b9bd3006b5694e84dc920236c6a4a862a3619d6fb48fd71efca64ef69e8e505"
+  },
+  {
+    "answer": "58",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 5 + 3.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 2 + 3."
+      ]
+    },
+    "stem": "What is 25 + 33?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 2,
+      "b0": 3,
+      "b1": 3
+    },
+    "variant_signature": "993185c963c28f74492d001a98053b174e2144795865b7b7d68bc4c61f3af02d"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "314"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 7 + 7.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 2 + 1."
+      ]
+    },
+    "stem": "What is 27 + 17?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 2,
+      "b0": 7,
+      "b1": 1
+    },
+    "variant_signature": "fae426e78855a6266ba3cb92042593532a5888263cf64afc146eb7b15b12b282"
+  },
+  {
+    "answer": "109",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 8 + 1.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 2 + 8."
+      ]
+    },
+    "stem": "What is 28 + 81?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 8,
+      "a1": 2,
+      "b0": 1,
+      "b1": 8
+    },
+    "variant_signature": "4acb12d7886f654278b6aa0275af6f5bc894fdbd724942249ce0a9aa083b901b"
+  },
+  {
+    "answer": "96",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 1 + 5.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 3 + 6."
+      ]
+    },
+    "stem": "What is 31 + 65?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 1,
+      "a1": 3,
+      "b0": 5,
+      "b1": 6
+    },
+    "variant_signature": "a6b12a3272dd4450619867dd025921cc7a09101ccc7f66dacc5d24e57b327b40"
+  },
+  {
+    "answer": "81",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "711"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 3 + 8.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 3 + 4."
+      ]
+    },
+    "stem": "What is 33 + 48?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 3,
+      "b0": 8,
+      "b1": 4
+    },
+    "variant_signature": "f7c6a3fc62ab510f8c79240a1dd4523fb654a91f5e0d9275eb581087d4e2d9a0"
+  },
+  {
+    "answer": "68",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 5 + 3.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 3 + 3."
+      ]
+    },
+    "stem": "What is 35 + 33?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 3,
+      "b0": 3,
+      "b1": 3
+    },
+    "variant_signature": "c95ad0b1b2516ebf055da6bafbc6ad455bceba062411c3c65f649737aa554832"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "414"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 7 + 7.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 3 + 1."
+      ]
+    },
+    "stem": "What is 37 + 17?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 3,
+      "b0": 7,
+      "b1": 1
+    },
+    "variant_signature": "5cdca632f5689b7b1f541f869255bd84f760f9a5daa556216a2b40763a9e9390"
+  },
+  {
+    "answer": "119",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 8 + 1.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 3 + 8."
+      ]
+    },
+    "stem": "What is 38 + 81?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 8,
+      "a1": 3,
+      "b0": 1,
+      "b1": 8
+    },
+    "variant_signature": "6804621c4bb4699a28fe0c7a398c42cc11cd232a53c333035cb96b50c2db61c5"
+  },
+  {
+    "answer": "106",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 1 + 5.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 4 + 6."
+      ]
+    },
+    "stem": "What is 41 + 65?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 1,
+      "a1": 4,
+      "b0": 5,
+      "b1": 6
+    },
+    "variant_signature": "06268215d0abbfabde023bd998f8a7246ae3636c40581fcd4dfc07b07d38b7b7"
+  },
+  {
+    "answer": "91",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "811"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 3 + 8.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 4 + 4."
+      ]
+    },
+    "stem": "What is 43 + 48?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 4,
+      "b0": 8,
+      "b1": 4
+    },
+    "variant_signature": "4bfdee7f73f0023e221ccf0449d07ad543e9cfd33006d6b63fbf72c7aef62542"
+  },
+  {
+    "answer": "78",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 5 + 3.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 4 + 3."
+      ]
+    },
+    "stem": "What is 45 + 33?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 4,
+      "b0": 3,
+      "b1": 3
+    },
+    "variant_signature": "18cb352b2093a17eb315a3dacc0b9907332a4790ed5abb4061caded71134f59a"
+  },
+  {
+    "answer": "64",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "514"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 7 + 7.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 4 + 1."
+      ]
+    },
+    "stem": "What is 47 + 17?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 4,
+      "b0": 7,
+      "b1": 1
+    },
+    "variant_signature": "f8e6527c0bcf6248929aa108bf4399342a4253610ad7f96753fe7c1a35bb2a72"
+  },
+  {
+    "answer": "129",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 8 + 1.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 4 + 8."
+      ]
+    },
+    "stem": "What is 48 + 81?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 8,
+      "a1": 4,
+      "b0": 1,
+      "b1": 8
+    },
+    "variant_signature": "7a644002f1b35227210fb74be0eca353bb501d17b1e09e90ade969d61df3f04b"
+  },
+  {
+    "answer": "116",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 1 + 5.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 5 + 6."
+      ]
+    },
+    "stem": "What is 51 + 65?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 1,
+      "a1": 5,
+      "b0": 5,
+      "b1": 6
+    },
+    "variant_signature": "33f3c975f6f86c18eae305bab28fb09feb0290af7bbbe7a37e41ac70034ef045"
+  },
+  {
+    "answer": "101",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "911"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 3 + 8.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 5 + 4."
+      ]
+    },
+    "stem": "What is 53 + 48?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 5,
+      "b0": 8,
+      "b1": 4
+    },
+    "variant_signature": "e3b810a69061139e3e3c275eadbd6fa4aeb8e956630bd05a21edf9feafc3d9a7"
+  },
+  {
+    "answer": "88",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 5 + 3.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 5 + 3."
+      ]
+    },
+    "stem": "What is 55 + 33?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 5,
+      "b0": 3,
+      "b1": 3
+    },
+    "variant_signature": "d2d2666709c36ccf7a5325180f4dfc5c8c0c8d59bbd539eaf36df060a387a983"
+  },
+  {
+    "answer": "74",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "614"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 7 + 7.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 5 + 1."
+      ]
+    },
+    "stem": "What is 57 + 17?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 5,
+      "b0": 7,
+      "b1": 1
+    },
+    "variant_signature": "38ca22aaaa160ea8297fd914d04de1faa0580efd42caac50ddbe69fb9501228c"
+  },
+  {
+    "answer": "139",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 8 + 1.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 5 + 8."
+      ]
+    },
+    "stem": "What is 58 + 81?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 8,
+      "a1": 5,
+      "b0": 1,
+      "b1": 8
+    },
+    "variant_signature": "3200f790b0f959eccd3d5dd164ae74a1a948a01826949ef4dc4fdfa969658e37"
+  },
+  {
+    "answer": "126",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 1 + 5.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 6 + 6."
+      ]
+    },
+    "stem": "What is 61 + 65?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 1,
+      "a1": 6,
+      "b0": 5,
+      "b1": 6
+    },
+    "variant_signature": "667bd41ed3b6e9f80f51336f92af860eef3c7911e93530d4f4334fcb9976b76f"
+  },
+  {
+    "answer": "111",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "1011"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 3 + 8.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 6 + 4."
+      ]
+    },
+    "stem": "What is 63 + 48?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 6,
+      "b0": 8,
+      "b1": 4
+    },
+    "variant_signature": "e289dd11bcca2192661370ebbdaf2c9bb6a8ded1895555408d737c27ddec47ad"
+  },
+  {
+    "answer": "98",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 5 + 3.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 6 + 3."
+      ]
+    },
+    "stem": "What is 65 + 33?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 6,
+      "b0": 3,
+      "b1": 3
+    },
+    "variant_signature": "ff7093c574ed94e89aceabf9c56225d2f5b2ea3cd5fba8b425c12b8c45d79fe0"
+  },
+  {
+    "answer": "84",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "714"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 7 + 7.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 6 + 1."
+      ]
+    },
+    "stem": "What is 67 + 17?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 6,
+      "b0": 7,
+      "b1": 1
+    },
+    "variant_signature": "c9d4130b75d20de4db23d07e507edec811bfefcb0a9c3d5358331eb6a3131ca3"
+  },
+  {
+    "answer": "149",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 8 + 1.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 6 + 8."
+      ]
+    },
+    "stem": "What is 68 + 81?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 8,
+      "a1": 6,
+      "b0": 1,
+      "b1": 8
+    },
+    "variant_signature": "86972b6fab21d1fcbc22ec49757f0576b4c475df33653eacaccface7a4298ce8"
+  },
+  {
+    "answer": "136",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 1 + 5.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 7 + 6."
+      ]
+    },
+    "stem": "What is 71 + 65?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 1,
+      "a1": 7,
+      "b0": 5,
+      "b1": 6
+    },
+    "variant_signature": "73fe4185d069d7b31bd6fa6180f194572720b76d73e8ade2b0066b131d3665d3"
+  },
+  {
+    "answer": "121",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "1111"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 3 + 8.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 7 + 4."
+      ]
+    },
+    "stem": "What is 73 + 48?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 7,
+      "b0": 8,
+      "b1": 4
+    },
+    "variant_signature": "a19d38223c35421460b82d98f7764ece521d32e65b19f02a880a3ea1b8c5b950"
+  },
+  {
+    "answer": "108",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 5 + 3.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 7 + 3."
+      ]
+    },
+    "stem": "What is 75 + 33?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 7,
+      "b0": 3,
+      "b1": 3
+    },
+    "variant_signature": "80cc6fa82749a947505fdc673da8abc10f9ad434cd2c2f66ebef46f584f1a45b"
+  },
+  {
+    "answer": "94",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "814"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 7 + 7.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 7 + 1."
+      ]
+    },
+    "stem": "What is 77 + 17?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 7,
+      "b0": 7,
+      "b1": 1
+    },
+    "variant_signature": "bae6ab8cd0098cf99feffbe2a104bab8f1a7958445d5546062bc8a7774ff7775"
+  },
+  {
+    "answer": "159",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 8 + 1.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 7 + 8."
+      ]
+    },
+    "stem": "What is 78 + 81?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 8,
+      "a1": 7,
+      "b0": 1,
+      "b1": 8
+    },
+    "variant_signature": "02a44a2c736aeb3800ff41c0e56f7f8bf56fac21a7cac438bcff04b17918e95c"
+  },
+  {
+    "answer": "146",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 1 + 5.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 8 + 6."
+      ]
+    },
+    "stem": "What is 81 + 65?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 1,
+      "a1": 8,
+      "b0": 5,
+      "b1": 6
+    },
+    "variant_signature": "03e19217ab181a78caea02e25a7101224bfa68e654b55e8044473fd36ea675b1"
+  },
+  {
+    "answer": "131",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "1211"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 3 + 8.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 8 + 4."
+      ]
+    },
+    "stem": "What is 83 + 48?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 8,
+      "b0": 8,
+      "b1": 4
+    },
+    "variant_signature": "d4913bc415394979d461aa53c912845a278191a1ed79b003e11ffd7632b0231f"
+  },
+  {
+    "answer": "118",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 5 + 3.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 8 + 3."
+      ]
+    },
+    "stem": "What is 85 + 33?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 8,
+      "b0": 3,
+      "b1": 3
+    },
+    "variant_signature": "5c69593819607a7d17a7fba6b2d4472cfffa7d46537caf5ec79d369be8ea111b"
+  },
+  {
+    "answer": "104",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "914"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 7 + 7.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 8 + 1."
+      ]
+    },
+    "stem": "What is 87 + 17?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 8,
+      "b0": 7,
+      "b1": 1
+    },
+    "variant_signature": "af44614126e427d4b27f7b58362312c243c1cc4ce947e15fd7531f106073284a"
+  },
+  {
+    "answer": "169",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 8 + 1.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 8 + 8."
+      ]
+    },
+    "stem": "What is 88 + 81?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 8,
+      "a1": 8,
+      "b0": 1,
+      "b1": 8
+    },
+    "variant_signature": "20065517daca295d7f165cce4911de11a6d5d903a31cb92b7384f868014f4221"
+  },
+  {
+    "answer": "156",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 1 + 5.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 9 + 6."
+      ]
+    },
+    "stem": "What is 91 + 65?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 1,
+      "a1": 9,
+      "b0": 5,
+      "b1": 6
+    },
+    "variant_signature": "476ec1b04d20a42f9718d5e911514597566be5df529490ce00ac1779d895cdad"
+  },
+  {
+    "answer": "141",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "1311"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 3 + 8.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 9 + 4."
+      ]
+    },
+    "stem": "What is 93 + 48?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 9,
+      "b0": 8,
+      "b1": 4
+    },
+    "variant_signature": "2b1c0f3507b475e21b23d4d23fc2b8de53de941c519b783f84e062eb4ab2a21a"
+  },
+  {
+    "answer": "128",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 5 + 3.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 9 + 3."
+      ]
+    },
+    "stem": "What is 95 + 33?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 9,
+      "b0": 3,
+      "b1": 3
+    },
+    "variant_signature": "a6115923bfc819e64c73d2770c31a7f9b6d176897f3028abb39d3a1c1139a196"
+  },
+  {
+    "answer": "114",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "1014"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 7 + 7.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 9 + 1."
+      ]
+    },
+    "stem": "What is 97 + 17?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 9,
+      "b0": 7,
+      "b1": 1
+    },
+    "variant_signature": "1c99542a57c65cbc32f4b39225254f57daf9a033a3e13d24aa329991a39f628e"
+  },
+  {
+    "answer": "179",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the ones column first, then the tens column.",
+      "If a column adds to 10 or more, carry the extra ten to the next column."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones digits first: 8 + 1.",
+        "If the ones sum is 10 or more, write the ones digit and carry 1 to the tens column.",
+        "Add the tens digits, plus any carry: 9 + 8."
+      ]
+    },
+    "stem": "What is 98 + 81?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 8,
+      "a1": 9,
+      "b0": 1,
+      "b1": 8
+    },
+    "variant_signature": "e6a0be1ba30a9c7bda57a2b2b6c26bdd226757f56568a9348611ac971b020cca"
+  }
+]

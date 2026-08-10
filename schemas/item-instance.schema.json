@@ -287,8 +287,7 @@
         "scale": { "enum": ["inner", "outer"] },
         "tilt": { "$ref": "#/$defs/value" },
         "arm_length": { "$ref": "#/$defs/value" },
-        "count": { "$ref": "#/$defs/value", "description": "Draw this angle count times at differing tilts." },
-        "shared_vertex": { "type": "string", "minLength": 1, "description": "The same tag on two entries in this figures array means they meet at one vertex." }
+        "count": { "$ref": "#/$defs/value", "description": "Draw this angle count times at differing tilts." }
       }
     },
     "figCircle": {
@@ -302,8 +301,7 @@
         "length": { "$ref": "#/$defs/value" },
         "unit": { "type": "string", "minLength": 1 },
         "points_on": { "$ref": "#/$defs/value" },
-        "points_off": { "$ref": "#/$defs/value" },
-        "centre_marked": { "type": "boolean" }
+        "points_off": { "$ref": "#/$defs/value" }
       }
     },
     "figPointLine": {
@@ -353,10 +351,7 @@
           "description": "Only the sides the item states are labelled; some items turn on a side being unlabelled."
         },
         "rotation": { "$ref": "#/$defs/value" },
-        "symmetry": { "enum": ["none", "lines", "order"] },
-        "altitude": { "$ref": "#/$defs/value" },
-        "altitude_unit": { "type": "string", "minLength": 1 },
-        "caption": { "type": "string", "minLength": 1 }
+        "symmetry": { "enum": ["none", "lines", "order"] }
       }
     },
     "figRegion": {

@@ -1,0 +1,1602 @@
+[
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -9 (a negative number) is the same as adding the positive version of -9.",
+        "So -9 - -9 is really -9 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -9 - -9.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -9,
+      "b": -9
+    },
+    "variant_signature": "810de87bbb4a5d57abcee2d56d4f473121e04ff2b886ad7d6ae0b4d709d4a67e"
+  },
+  {
+    "answer": "-2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -7 (a negative number) is the same as adding the positive version of -7.",
+        "So -9 - -7 is really -9 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -9 - -7.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -9,
+      "b": -7
+    },
+    "variant_signature": "7eef2bc4b0611d9e11cd2e10991f6e55d1e41bb6797b1e2ca0bb7295d2e591d8"
+  },
+  {
+    "answer": "-4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -5 (a negative number) is the same as adding the positive version of -5.",
+        "So -9 - -5 is really -9 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -9 - -5.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -9,
+      "b": -5
+    },
+    "variant_signature": "bd3ca36283fb53289991c8b665f66824561597ec2bb5c409425dfe050a571ea3"
+  },
+  {
+    "answer": "-6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -3 (a negative number) is the same as adding the positive version of -3.",
+        "So -9 - -3 is really -9 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -9 - -3.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -9,
+      "b": -3
+    },
+    "variant_signature": "e229c19f1c190b7f05cdd9da64818d8519919edb3eb73a87ed5cf16ea4125ad7"
+  },
+  {
+    "answer": "-8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -1 (a negative number) is the same as adding the positive version of -1.",
+        "So -9 - -1 is really -9 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -9 - -1.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -9,
+      "b": -1
+    },
+    "variant_signature": "81839ddd8a324b2f3862c58cb5f182b095ec2a351be3d8d7b26f624c800a7181"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -8 (a negative number) is the same as adding the positive version of -8.",
+        "So -8 - -8 is really -8 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -8 - -8.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -8,
+      "b": -8
+    },
+    "variant_signature": "358d73d3b2a3b29b373c08ae09f8884123a85ff06411f5a57049c41c76d2fdd2"
+  },
+  {
+    "answer": "-2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -6 (a negative number) is the same as adding the positive version of -6.",
+        "So -8 - -6 is really -8 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -8 - -6.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -8,
+      "b": -6
+    },
+    "variant_signature": "5282a9eb1de46f382b0f7d5f954b422ec925585782c41c6b69072c8d26fb51bc"
+  },
+  {
+    "answer": "-4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -4 (a negative number) is the same as adding the positive version of -4.",
+        "So -8 - -4 is really -8 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -8 - -4.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -8,
+      "b": -4
+    },
+    "variant_signature": "2b368fb7eacc4db0e4ad9767097ead580522390d23b92f212da30f4f8ac0bc4b"
+  },
+  {
+    "answer": "-6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -2 (a negative number) is the same as adding the positive version of -2.",
+        "So -8 - -2 is really -8 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -8 - -2.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -8,
+      "b": -2
+    },
+    "variant_signature": "398947e8e47e2aa1b7df3930d47219769d2f485351552e90349dd8e5a82f6320"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -9 (a negative number) is the same as adding the positive version of -9.",
+        "So -7 - -9 is really -7 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -7 - -9.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -7,
+      "b": -9
+    },
+    "variant_signature": "483c5515f13cf5c8593dc91877d0617d9e4798ca4c01af48e7dd24be40dcfa80"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -7 (a negative number) is the same as adding the positive version of -7.",
+        "So -7 - -7 is really -7 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -7 - -7.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -7,
+      "b": -7
+    },
+    "variant_signature": "bbe62567f479002554f1eaf1a6c0934d808e7f1e7d0b1e2f6a584bf2593afd21"
+  },
+  {
+    "answer": "-2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -5 (a negative number) is the same as adding the positive version of -5.",
+        "So -7 - -5 is really -7 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -7 - -5.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -7,
+      "b": -5
+    },
+    "variant_signature": "9514f8ea80cf47dfe530b8b949096f2073a1d1651b167c30402806d5ce43bc06"
+  },
+  {
+    "answer": "-4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -3 (a negative number) is the same as adding the positive version of -3.",
+        "So -7 - -3 is really -7 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -7 - -3.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -7,
+      "b": -3
+    },
+    "variant_signature": "a5465828d087d7cf8579da4df6d9ebb005b0235bd8c641a858617f1e4af02eb1"
+  },
+  {
+    "answer": "-6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -1 (a negative number) is the same as adding the positive version of -1.",
+        "So -7 - -1 is really -7 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -7 - -1.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -7,
+      "b": -1
+    },
+    "variant_signature": "ecd5d7871bb8f595b0320be374a7289ae3c423434a3d8c539f5601ecfeae471e"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -8 (a negative number) is the same as adding the positive version of -8.",
+        "So -6 - -8 is really -6 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -6 - -8.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -6,
+      "b": -8
+    },
+    "variant_signature": "70ebdd16f6a3e3e6d551658fc25410134cc7e49ef93be4879eae4860d8ae44cf"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -6 (a negative number) is the same as adding the positive version of -6.",
+        "So -6 - -6 is really -6 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -6 - -6.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -6,
+      "b": -6
+    },
+    "variant_signature": "1ab9e533bddbd6d809da468fad2beb26f442ee663e81d1e247ff8613eac0a978"
+  },
+  {
+    "answer": "-2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -4 (a negative number) is the same as adding the positive version of -4.",
+        "So -6 - -4 is really -6 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -6 - -4.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -6,
+      "b": -4
+    },
+    "variant_signature": "ddebe63177df74a3d4edf9fe8f43fffa64d7791c514c393f05bb3a0d2e1efbbe"
+  },
+  {
+    "answer": "-4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -2 (a negative number) is the same as adding the positive version of -2.",
+        "So -6 - -2 is really -6 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -6 - -2.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -6,
+      "b": -2
+    },
+    "variant_signature": "4dfa1f6b6aedbd7ec1e4b87736429c8886377868106b6edb58d1f2aebc6ba00d"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -9 (a negative number) is the same as adding the positive version of -9.",
+        "So -5 - -9 is really -5 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -5 - -9.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -5,
+      "b": -9
+    },
+    "variant_signature": "dddff43f4d45e001c92b33a31c229110198981b78a4f8f3808e8b8cb898281ec"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -7 (a negative number) is the same as adding the positive version of -7.",
+        "So -5 - -7 is really -5 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -5 - -7.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -5,
+      "b": -7
+    },
+    "variant_signature": "2df616324981afd09d303c0ebca5a1860b8e94030d4b3201cfa84916c1366754"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -5 (a negative number) is the same as adding the positive version of -5.",
+        "So -5 - -5 is really -5 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -5 - -5.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -5,
+      "b": -5
+    },
+    "variant_signature": "d551c6b1108f18871acce55c950e9e137cd02af0d954d94a7fa70e820c832d03"
+  },
+  {
+    "answer": "-2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -3 (a negative number) is the same as adding the positive version of -3.",
+        "So -5 - -3 is really -5 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -5 - -3.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -5,
+      "b": -3
+    },
+    "variant_signature": "ffda0e3cabdc55182b7ef5029271908c296f0a6aa89f9b1d42b3406f701de4ef"
+  },
+  {
+    "answer": "-4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -1 (a negative number) is the same as adding the positive version of -1.",
+        "So -5 - -1 is really -5 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -5 - -1.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -5,
+      "b": -1
+    },
+    "variant_signature": "b0c42be67bcd0d5c5f3e3ee7757c6d61feb68987f148071b4d282caf874b6d42"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -8 (a negative number) is the same as adding the positive version of -8.",
+        "So -4 - -8 is really -4 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -4 - -8.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -4,
+      "b": -8
+    },
+    "variant_signature": "5523d9266130d7519335f900b2603c819f96099e347b9c8ed6337d5ce669503a"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -6 (a negative number) is the same as adding the positive version of -6.",
+        "So -4 - -6 is really -4 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -4 - -6.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -4,
+      "b": -6
+    },
+    "variant_signature": "89049e92da27e264194ae278cd08d747c126a41f08da486873c3dd02a157e2c2"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -4 (a negative number) is the same as adding the positive version of -4.",
+        "So -4 - -4 is really -4 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -4 - -4.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -4,
+      "b": -4
+    },
+    "variant_signature": "489224be570647fb4c846d935a7e1a5f6bcbf62e75edfeef7dce9cb5545c04c5"
+  },
+  {
+    "answer": "-2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -2 (a negative number) is the same as adding the positive version of -2.",
+        "So -4 - -2 is really -4 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -4 - -2.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -4,
+      "b": -2
+    },
+    "variant_signature": "3aae17e03b91de9d2e51e0f2d0038d515350a06608cf21cce669c612ce17ca9e"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-11"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -8 (a negative number) is the same as adding the positive version of -8.",
+        "So -3 - -8 is really -3 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -3 - -8.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -3,
+      "b": -8
+    },
+    "variant_signature": "e03ae63ed573827a8c05f3e1cb9aab120644251cbc9f0cba0a48ab6ffe08aeff"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -6 (a negative number) is the same as adding the positive version of -6.",
+        "So -3 - -6 is really -3 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -3 - -6.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -3,
+      "b": -6
+    },
+    "variant_signature": "4750238753d9de54b3aa80a81ed0bafe91e72bf01c2648706e17c4775adcb5ab"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -4 (a negative number) is the same as adding the positive version of -4.",
+        "So -3 - -4 is really -3 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -3 - -4.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -3,
+      "b": -4
+    },
+    "variant_signature": "13b1287a12e9a152d819c19e862f7136f4d294dba519e1515abd760a66a5d4b4"
+  },
+  {
+    "answer": "-1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -2 (a negative number) is the same as adding the positive version of -2.",
+        "So -3 - -2 is really -3 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -3 - -2.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -3,
+      "b": -2
+    },
+    "variant_signature": "03f97b384a60bacb78de6e1650e2ada5492e07467b0d648c1cf6896588dd7766"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-11"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -9 (a negative number) is the same as adding the positive version of -9.",
+        "So -2 - -9 is really -2 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -2 - -9.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -2,
+      "b": -9
+    },
+    "variant_signature": "eddcd4a2cac7a314989d1497a732dc144c10f8680c88cf67b2157af4cff7dbe0"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -7 (a negative number) is the same as adding the positive version of -7.",
+        "So -2 - -7 is really -2 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -2 - -7.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -2,
+      "b": -7
+    },
+    "variant_signature": "ea5bf058a422d370ebe3fa50ab1262b335081b6148fa8b725a749913cd0a63f9"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -5 (a negative number) is the same as adding the positive version of -5.",
+        "So -2 - -5 is really -2 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -2 - -5.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -2,
+      "b": -5
+    },
+    "variant_signature": "4d7197ca8383d5775f0fe04a9c85af4bc193861bb0c981854d1ce3aec5b22a74"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -3 (a negative number) is the same as adding the positive version of -3.",
+        "So -2 - -3 is really -2 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -2 - -3.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -2,
+      "b": -3
+    },
+    "variant_signature": "0a53d20d26c35f8d988fd97db416675a4427d8066822b58c94f75cb777e244fa"
+  },
+  {
+    "answer": "-1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -1 (a negative number) is the same as adding the positive version of -1.",
+        "So -2 - -1 is really -2 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -2 - -1.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -2,
+      "b": -1
+    },
+    "variant_signature": "cd2d73450938729cc4ae49e55a9ec05d384deedaac1db7bb70e6cb825744959c"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -8 (a negative number) is the same as adding the positive version of -8.",
+        "So -1 - -8 is really -1 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -1 - -8.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -1,
+      "b": -8
+    },
+    "variant_signature": "94071e514f21913b0db6fe4d5d71794bb9f4aca7f55161ac791a8edbc935fbc4"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -6 (a negative number) is the same as adding the positive version of -6.",
+        "So -1 - -6 is really -1 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -1 - -6.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -1,
+      "b": -6
+    },
+    "variant_signature": "f420c7bf8b0f757b66b3255c029c52b2f2919a320cb3beebb3f4e6d7befdf116"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -4 (a negative number) is the same as adding the positive version of -4.",
+        "So -1 - -4 is really -1 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -1 - -4.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -1,
+      "b": -4
+    },
+    "variant_signature": "869f478ab92812af05ca9a1c21655cb5a8e6a60493140705864bba3a85ae002b"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two negatives in a row (subtracting a negative) turn into addition.",
+      "Don't assume subtracting always makes the answer smaller \u2014 check the sign of what you're subtracting."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Subtracting -2 (a negative number) is the same as adding the positive version of -2.",
+        "So -1 - -2 is really -1 plus a positive number, which moves you up the number line, not down."
+      ]
+    },
+    "stem": "Work out -1 - -2.",
+    "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": -1,
+      "b": -2
+    },
+    "variant_signature": "a3a4f60e0762234b18d9e05ae5bd709312b9f98990ae19868e977d823249837f"
+  }
+]

@@ -1,0 +1,1484 @@
+[
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 4,
+        "points_on": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 2 points described as lying exactly on the circle count \u2014 the 4 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 2 points that lie exactly on the circle itself, and 4 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 4,
+      "on_circle": 2
+    },
+    "variant_signature": "4c95dedfe1e779d62604dddf6bd04850991cddfc7bb3eaa7c1af48501f114305"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 5,
+        "points_on": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 2 points described as lying exactly on the circle count \u2014 the 5 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 2 points that lie exactly on the circle itself, and 5 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 5,
+      "on_circle": 2
+    },
+    "variant_signature": "738bb7dac8dcfc5b271f9e819d336d42a6160ba1c1cbfc82c6b6f0b8ee7c29c3"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 6,
+        "points_on": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 2 points described as lying exactly on the circle count \u2014 the 6 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 2 points that lie exactly on the circle itself, and 6 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 6,
+      "on_circle": 2
+    },
+    "variant_signature": "3d654213fba0fb831a1bd44c64bb3681ff0f2b294a697ed350f25e97c3ea63c6"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 2,
+        "points_on": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 3 points described as lying exactly on the circle count \u2014 the 2 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 3 points that lie exactly on the circle itself, and 2 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 2,
+      "on_circle": 3
+    },
+    "variant_signature": "e4f133c25459dd3c364cadd6492e70034442e0b28049497cb23f0bbefb1f2dd5"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 5,
+        "points_on": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 3 points described as lying exactly on the circle count \u2014 the 5 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 3 points that lie exactly on the circle itself, and 5 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 5,
+      "on_circle": 3
+    },
+    "variant_signature": "f10ea40f8516cfd2fd7fa831879f18d5cee18c3dbd1806e758383dbff45fbf7f"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 6,
+        "points_on": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 3 points described as lying exactly on the circle count \u2014 the 6 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 3 points that lie exactly on the circle itself, and 6 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 6,
+      "on_circle": 3
+    },
+    "variant_signature": "0b83411a9abe2a12daa26d03ba7117a7873ef51dac43676d70210817dba6df16"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 2,
+        "points_on": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 4 points described as lying exactly on the circle count \u2014 the 2 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 4 points that lie exactly on the circle itself, and 2 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 2,
+      "on_circle": 4
+    },
+    "variant_signature": "1abcbf6ca11f8b6a9b4cd633c9c20da94588fa00c9bb470bbe338b05b24db720"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 3,
+        "points_on": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 4 points described as lying exactly on the circle count \u2014 the 3 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 4 points that lie exactly on the circle itself, and 3 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 3,
+      "on_circle": 4
+    },
+    "variant_signature": "c6bbd3e10c0de78c151da69cdb4f725657df12db2fe9a731318c5e28a00f1de4"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 6,
+        "points_on": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 4 points described as lying exactly on the circle count \u2014 the 6 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 4 points that lie exactly on the circle itself, and 6 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 6,
+      "on_circle": 4
+    },
+    "variant_signature": "4500a067d22c12e54c0b9bc5431505189f5f7f4db9ca66a62a565eca8e076c71"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 2,
+        "points_on": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 5 points described as lying exactly on the circle count \u2014 the 2 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 5 points that lie exactly on the circle itself, and 2 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 2,
+      "on_circle": 5
+    },
+    "variant_signature": "6dd23870f1de6ab67ad0cce13561f1f7b1ed32c2ccff842827f3b881661ec06e"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 3,
+        "points_on": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 5 points described as lying exactly on the circle count \u2014 the 3 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 5 points that lie exactly on the circle itself, and 3 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 3,
+      "on_circle": 5
+    },
+    "variant_signature": "963f88799e8c07569e55f2632db4f755ec5d97ac59531fb766a73020f2287ebe"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 4,
+        "points_on": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 5 points described as lying exactly on the circle count \u2014 the 4 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 5 points that lie exactly on the circle itself, and 4 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 4,
+      "on_circle": 5
+    },
+    "variant_signature": "131f13077ba571b5e7026acd45f0abaaa3a9769b4ed766ba84d2060d70617fd6"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 2,
+        "points_on": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 6 points described as lying exactly on the circle count \u2014 the 2 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 6 points that lie exactly on the circle itself, and 2 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 2,
+      "on_circle": 6
+    },
+    "variant_signature": "cf277fc8d73ac10677ec770987c55028cea02283e95a59b0aabded10ee5e7356"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 3,
+        "points_on": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 6 points described as lying exactly on the circle count \u2014 the 3 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 6 points that lie exactly on the circle itself, and 3 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 3,
+      "on_circle": 6
+    },
+    "variant_signature": "75208e3465ced50cb3558b5e990c10230fcf77d81524a070cbc8524e6f52eb53"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 4,
+        "points_on": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 6 points described as lying exactly on the circle count \u2014 the 4 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 6 points that lie exactly on the circle itself, and 4 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 4,
+      "on_circle": 6
+    },
+    "variant_signature": "9848f1368b2b4210efc1e2ccf7b7c4f1d030b18c47a5cbcf86e3616000bc2432"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 5,
+        "points_on": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 6 points described as lying exactly on the circle count \u2014 the 5 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 6 points that lie exactly on the circle itself, and 5 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 5,
+      "on_circle": 6
+    },
+    "variant_signature": "5c7d665733ae2f86bbdd00fc2db048ec59de520790364b8e3ce57afaf0548d0f"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 2,
+        "points_on": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 7 points described as lying exactly on the circle count \u2014 the 2 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 7 points that lie exactly on the circle itself, and 2 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 2,
+      "on_circle": 7
+    },
+    "variant_signature": "e738908a97c80578a2c9bb040c59a594dd85cb5c0ce137ebdbb28720818ba8f2"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 3,
+        "points_on": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 7 points described as lying exactly on the circle count \u2014 the 3 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 7 points that lie exactly on the circle itself, and 3 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 3,
+      "on_circle": 7
+    },
+    "variant_signature": "d98b3ba24ae8361629a0b5345bfb31d37cb3eb8052b919355576769ab6836f18"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 4,
+        "points_on": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 7 points described as lying exactly on the circle count \u2014 the 4 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 7 points that lie exactly on the circle itself, and 4 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 4,
+      "on_circle": 7
+    },
+    "variant_signature": "a78eefb042ef121eefb04be39627d5f6dfe89d23e5af1ba2d45db1aed86ac3f8"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 5,
+        "points_on": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 7 points described as lying exactly on the circle count \u2014 the 5 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 7 points that lie exactly on the circle itself, and 5 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 5,
+      "on_circle": 7
+    },
+    "variant_signature": "8ad1c4d200be361d7d07ce0687ab77b8d549861ee1180257df72d8df8011ab89"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 6,
+        "points_on": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 7 points described as lying exactly on the circle count \u2014 the 6 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 7 points that lie exactly on the circle itself, and 6 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 6,
+      "on_circle": 7
+    },
+    "variant_signature": "898e6a15224a9417ca189d6d4d1ab75623705b952818fcf545ba00a333217636"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 2,
+        "points_on": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 8 points described as lying exactly on the circle count \u2014 the 2 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 8 points that lie exactly on the circle itself, and 2 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 2,
+      "on_circle": 8
+    },
+    "variant_signature": "46fd14740a5110fe7c65d352395e565b5626ae08e81d7e6e33cf861489d65155"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 3,
+        "points_on": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 8 points described as lying exactly on the circle count \u2014 the 3 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 8 points that lie exactly on the circle itself, and 3 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 3,
+      "on_circle": 8
+    },
+    "variant_signature": "d7e0827db6e6adbfd091eb3beea3d330831d18a8b2163e3094db471e57ec1714"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 4,
+        "points_on": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 8 points described as lying exactly on the circle count \u2014 the 4 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 8 points that lie exactly on the circle itself, and 4 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 4,
+      "on_circle": 8
+    },
+    "variant_signature": "47c2da3ddafa410cf4553a12fe025393619b8d6717456207d03f534ff7c1e8b9"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 5,
+        "points_on": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 8 points described as lying exactly on the circle count \u2014 the 5 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 8 points that lie exactly on the circle itself, and 5 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 5,
+      "on_circle": 8
+    },
+    "variant_signature": "ef5ba21c2e93bec0568bdf96d508c836215c93597718838b898c19c5d12f21ae"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CENTRE-ON-CIRCLE",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "centre_marked": true,
+        "kind": "circle",
+        "points_off": 6,
+        "points_on": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The centre is a special point \u2014 it's the same distance from every point on the circle, but it isn't itself one of those points.",
+      "Count only the points stated to lie exactly on the circle; ignore the centre and the points that are inside or outside."
+    ],
+    "item_instance_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CIRCLE.PARTS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The centre O is inside the circle, not on it, so it never counts toward the points lying on the circle.",
+        "Only the 8 points described as lying exactly on the circle count \u2014 the 6 others (inside or outside) don't."
+      ]
+    },
+    "stem": "A circle is drawn with centre O. Also marked are 8 points that lie exactly on the circle itself, and 6 other points that lie either inside or outside the circle (not on it). Besides the centre, how many of these marked points lie exactly on the circle?",
+    "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "off_circle": 6,
+      "on_circle": 8
+    },
+    "variant_signature": "bfc346047b1c91dd7498185c4c833126468cf9314f798fa75677688620fd02b2"
+  }
+]

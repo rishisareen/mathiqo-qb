@@ -1,0 +1,1882 @@
+[
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 1, 2, 3, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Ravi waters 1 plants."
+      ]
+    },
+    "stem": "Ravi waters 1 plants on day 1, 2 plants on day 2, 3 plants on day 3, then the same pattern repeats: 1 plants on day 4, 2 plants on day 5, 3 plants on day 6, and so on. How many plants will Ravi water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 2,
+      "c": 3
+    },
+    "variant_signature": "31a403d98f150a310e46d3def952ee03d3009714ddd48303139f40a847a7668b"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 1, 2, 6, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Priya waters 1 plants."
+      ]
+    },
+    "stem": "Priya waters 1 plants on day 1, 2 plants on day 2, 6 plants on day 3, then the same pattern repeats: 1 plants on day 4, 2 plants on day 5, 6 plants on day 6, and so on. How many plants will Priya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 2,
+      "c": 6
+    },
+    "variant_signature": "7e3e0e92db219e87f06b6fa440b40a8500891a76c8bf55d507b67032631fc36b"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 1, 3, 5, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Arjun waters 1 plants."
+      ]
+    },
+    "stem": "Arjun waters 1 plants on day 1, 3 plants on day 2, 5 plants on day 3, then the same pattern repeats: 1 plants on day 4, 3 plants on day 5, 5 plants on day 6, and so on. How many plants will Arjun water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 5
+    },
+    "variant_signature": "57ee957c946c7ce486409a5b3cb62dd9fb9cbcaf6404caffb99a40b27a7a99fa"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 1, 4, 3, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Meera waters 1 plants."
+      ]
+    },
+    "stem": "Meera waters 1 plants on day 1, 4 plants on day 2, 3 plants on day 3, then the same pattern repeats: 1 plants on day 4, 4 plants on day 5, 3 plants on day 6, and so on. How many plants will Meera water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 3
+    },
+    "variant_signature": "a98a20160ec8678c621b9a9e5eb0f2236160676352092793874a51ede17349e5"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 1, 5, 2, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Diya waters 1 plants."
+      ]
+    },
+    "stem": "Diya waters 1 plants on day 1, 5 plants on day 2, 2 plants on day 3, then the same pattern repeats: 1 plants on day 4, 5 plants on day 5, 2 plants on day 6, and so on. How many plants will Diya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 5,
+      "c": 2
+    },
+    "variant_signature": "3e87c4d1a2d54b39a3e62ed3fcee56f6fe2a446d7e21d61e516dfd239630d3cc"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 1, 5, 6, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Kabir waters 1 plants."
+      ]
+    },
+    "stem": "Kabir waters 1 plants on day 1, 5 plants on day 2, 6 plants on day 3, then the same pattern repeats: 1 plants on day 4, 5 plants on day 5, 6 plants on day 6, and so on. How many plants will Kabir water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 5,
+      "c": 6
+    },
+    "variant_signature": "4d406e604327cb130d87ef12687d0fa7bb5a4ff1b238626374c42ff9968d1556"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 1, 6, 4, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Ananya waters 1 plants."
+      ]
+    },
+    "stem": "Ananya waters 1 plants on day 1, 6 plants on day 2, 4 plants on day 3, then the same pattern repeats: 1 plants on day 4, 6 plants on day 5, 4 plants on day 6, and so on. How many plants will Ananya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 6,
+      "c": 4
+    },
+    "variant_signature": "1272b49707a03941f4bcd5fffbdace0805ac79ab67dcf55a07d25e88ccc44fbe"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 2, 1, 4, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Vihaan waters 2 plants."
+      ]
+    },
+    "stem": "Vihaan waters 2 plants on day 1, 1 plants on day 2, 4 plants on day 3, then the same pattern repeats: 2 plants on day 4, 1 plants on day 5, 4 plants on day 6, and so on. How many plants will Vihaan water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 1,
+      "c": 4
+    },
+    "variant_signature": "1a5cc1223c368f8ea85cdde6e88db532231d60e8d6c412105bf574bce945b669"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 2, 3, 1, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Ravi waters 2 plants."
+      ]
+    },
+    "stem": "Ravi waters 2 plants on day 1, 3 plants on day 2, 1 plants on day 3, then the same pattern repeats: 2 plants on day 4, 3 plants on day 5, 1 plants on day 6, and so on. How many plants will Ravi water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 1
+    },
+    "variant_signature": "625d4b23a5cab61fafc892f6d9916c922ff29baf4821f03d2e016041ff18aaca"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 2, 3, 6, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Priya waters 2 plants."
+      ]
+    },
+    "stem": "Priya waters 2 plants on day 1, 3 plants on day 2, 6 plants on day 3, then the same pattern repeats: 2 plants on day 4, 3 plants on day 5, 6 plants on day 6, and so on. How many plants will Priya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "c47e2a00ca5152b74a3140451ee0353cb72af4006cdf384e72ccfd4acf7b8081"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 2, 4, 5, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Arjun waters 2 plants."
+      ]
+    },
+    "stem": "Arjun waters 2 plants on day 1, 4 plants on day 2, 5 plants on day 3, then the same pattern repeats: 2 plants on day 4, 4 plants on day 5, 5 plants on day 6, and so on. How many plants will Arjun water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 5
+    },
+    "variant_signature": "626f246ecd7e94bc3e0954ea07f3b57a4a1901544753ef757cfb6f7b67e0aefe"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 2, 5, 3, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Meera waters 2 plants."
+      ]
+    },
+    "stem": "Meera waters 2 plants on day 1, 5 plants on day 2, 3 plants on day 3, then the same pattern repeats: 2 plants on day 4, 5 plants on day 5, 3 plants on day 6, and so on. How many plants will Meera water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 5,
+      "c": 3
+    },
+    "variant_signature": "e907296b0f82b7c11101a2e0b1bc1e4382a97b58988e4ba0620758f2440613f2"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 2, 6, 1, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Diya waters 2 plants."
+      ]
+    },
+    "stem": "Diya waters 2 plants on day 1, 6 plants on day 2, 1 plants on day 3, then the same pattern repeats: 2 plants on day 4, 6 plants on day 5, 1 plants on day 6, and so on. How many plants will Diya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 6,
+      "c": 1
+    },
+    "variant_signature": "0373e386c2007ff854adebcada3425dc5bd146d38db0f6dc65aedaa4aa711582"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 2, 6, 5, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Kabir waters 2 plants."
+      ]
+    },
+    "stem": "Kabir waters 2 plants on day 1, 6 plants on day 2, 5 plants on day 3, then the same pattern repeats: 2 plants on day 4, 6 plants on day 5, 5 plants on day 6, and so on. How many plants will Kabir water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 6,
+      "c": 5
+    },
+    "variant_signature": "d2d2311d98ccd8585406fa3420c3b84722c0d05826affa9850f2d6725fb1adef"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 3, 1, 5, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Ananya waters 3 plants."
+      ]
+    },
+    "stem": "Ananya waters 3 plants on day 1, 1 plants on day 2, 5 plants on day 3, then the same pattern repeats: 3 plants on day 4, 1 plants on day 5, 5 plants on day 6, and so on. How many plants will Ananya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 1,
+      "c": 5
+    },
+    "variant_signature": "cd8ccfa6832a5a2794c82bb9449518ab7fbab36b56c0f3b97f6181427f968d40"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 3, 2, 4, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Vihaan waters 3 plants."
+      ]
+    },
+    "stem": "Vihaan waters 3 plants on day 1, 2 plants on day 2, 4 plants on day 3, then the same pattern repeats: 3 plants on day 4, 2 plants on day 5, 4 plants on day 6, and so on. How many plants will Vihaan water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 2,
+      "c": 4
+    },
+    "variant_signature": "8e3090f7e6203b022c6e2079ffd9cea7609f65a7bb890281a75c1a8d8b0d87fa"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 3, 4, 1, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Ravi waters 3 plants."
+      ]
+    },
+    "stem": "Ravi waters 3 plants on day 1, 4 plants on day 2, 1 plants on day 3, then the same pattern repeats: 3 plants on day 4, 4 plants on day 5, 1 plants on day 6, and so on. How many plants will Ravi water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 4,
+      "c": 1
+    },
+    "variant_signature": "4b1f2623cc7bd7a37aba178640f71da01e54bc916e497ccf031c8a6a8f748d7d"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 3, 4, 6, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Priya waters 3 plants."
+      ]
+    },
+    "stem": "Priya waters 3 plants on day 1, 4 plants on day 2, 6 plants on day 3, then the same pattern repeats: 3 plants on day 4, 4 plants on day 5, 6 plants on day 6, and so on. How many plants will Priya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 4,
+      "c": 6
+    },
+    "variant_signature": "9da9957080619dd374ebfad35ce7dfd2ab5588ed7ef8717fe4362e6a7c8863c8"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 3, 5, 4, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Arjun waters 3 plants."
+      ]
+    },
+    "stem": "Arjun waters 3 plants on day 1, 5 plants on day 2, 4 plants on day 3, then the same pattern repeats: 3 plants on day 4, 5 plants on day 5, 4 plants on day 6, and so on. How many plants will Arjun water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 5,
+      "c": 4
+    },
+    "variant_signature": "246dc9ba35b6c92f519746bbc2370dd009d30109e040d10ce508c97298c3e1b6"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 3, 6, 2, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Meera waters 3 plants."
+      ]
+    },
+    "stem": "Meera waters 3 plants on day 1, 6 plants on day 2, 2 plants on day 3, then the same pattern repeats: 3 plants on day 4, 6 plants on day 5, 2 plants on day 6, and so on. How many plants will Meera water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 6,
+      "c": 2
+    },
+    "variant_signature": "8699c6267ca7b72879f77757fae5f1e3b5672c6546dc92946015ac75c8da628b"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 4, 1, 2, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Diya waters 4 plants."
+      ]
+    },
+    "stem": "Diya waters 4 plants on day 1, 1 plants on day 2, 2 plants on day 3, then the same pattern repeats: 4 plants on day 4, 1 plants on day 5, 2 plants on day 6, and so on. How many plants will Diya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 1,
+      "c": 2
+    },
+    "variant_signature": "450a39d4866e6513fde5eb41080041faf796807c597fd147e247b27bad5c7fe4"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 4, 1, 6, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Kabir waters 4 plants."
+      ]
+    },
+    "stem": "Kabir waters 4 plants on day 1, 1 plants on day 2, 6 plants on day 3, then the same pattern repeats: 4 plants on day 4, 1 plants on day 5, 6 plants on day 6, and so on. How many plants will Kabir water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 1,
+      "c": 6
+    },
+    "variant_signature": "4a00e193c00657cb3ab531d9032a57d20e16b9f527428bec2fd44ebaf16ddcfc"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 4, 2, 5, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Ananya waters 4 plants."
+      ]
+    },
+    "stem": "Ananya waters 4 plants on day 1, 2 plants on day 2, 5 plants on day 3, then the same pattern repeats: 4 plants on day 4, 2 plants on day 5, 5 plants on day 6, and so on. How many plants will Ananya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 2,
+      "c": 5
+    },
+    "variant_signature": "0a76e351a50f4b0519442f4211c4a35f51aa241ce6dec178e58ddce70f42a113"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 4, 3, 2, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Vihaan waters 4 plants."
+      ]
+    },
+    "stem": "Vihaan waters 4 plants on day 1, 3 plants on day 2, 2 plants on day 3, then the same pattern repeats: 4 plants on day 4, 3 plants on day 5, 2 plants on day 6, and so on. How many plants will Vihaan water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 3,
+      "c": 2
+    },
+    "variant_signature": "7ef531b2652b6f40b07eeda6880687f641419e4e4d4f28e610ba4611b50424f7"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 4, 5, 1, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Ravi waters 4 plants."
+      ]
+    },
+    "stem": "Ravi waters 4 plants on day 1, 5 plants on day 2, 1 plants on day 3, then the same pattern repeats: 4 plants on day 4, 5 plants on day 5, 1 plants on day 6, and so on. How many plants will Ravi water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 5,
+      "c": 1
+    },
+    "variant_signature": "61b9c13cea6142a0c10a0a94410fd7002f7438b7bbcf0bc7e55b6e2df3394291"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 4, 5, 6, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Priya waters 4 plants."
+      ]
+    },
+    "stem": "Priya waters 4 plants on day 1, 5 plants on day 2, 6 plants on day 3, then the same pattern repeats: 4 plants on day 4, 5 plants on day 5, 6 plants on day 6, and so on. How many plants will Priya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 5,
+      "c": 6
+    },
+    "variant_signature": "f877cf1018bcd972591e722dfd5c2a64d68a9a8c7e74129cbc9067de7111a9dd"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 4, 6, 3, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Arjun waters 4 plants."
+      ]
+    },
+    "stem": "Arjun waters 4 plants on day 1, 6 plants on day 2, 3 plants on day 3, then the same pattern repeats: 4 plants on day 4, 6 plants on day 5, 3 plants on day 6, and so on. How many plants will Arjun water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 6,
+      "c": 3
+    },
+    "variant_signature": "611cbbd74853ed3ed8f19271cd68c1d4a7243a054b4e51666b7f9a6bb8a731c0"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 5, 1, 3, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Meera waters 5 plants."
+      ]
+    },
+    "stem": "Meera waters 5 plants on day 1, 1 plants on day 2, 3 plants on day 3, then the same pattern repeats: 5 plants on day 4, 1 plants on day 5, 3 plants on day 6, and so on. How many plants will Meera water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 1,
+      "c": 3
+    },
+    "variant_signature": "5fe824d5e48885a748fe653c3c55737d3b4935083e886068c16b9063a989f058"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 5, 2, 1, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Diya waters 5 plants."
+      ]
+    },
+    "stem": "Diya waters 5 plants on day 1, 2 plants on day 2, 1 plants on day 3, then the same pattern repeats: 5 plants on day 4, 2 plants on day 5, 1 plants on day 6, and so on. How many plants will Diya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 2,
+      "c": 1
+    },
+    "variant_signature": "e4f864a196a3b3b73bc43b08e6a206d114684b3790b997aaccc2596d1f33c27e"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 5, 2, 6, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Kabir waters 5 plants."
+      ]
+    },
+    "stem": "Kabir waters 5 plants on day 1, 2 plants on day 2, 6 plants on day 3, then the same pattern repeats: 5 plants on day 4, 2 plants on day 5, 6 plants on day 6, and so on. How many plants will Kabir water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 2,
+      "c": 6
+    },
+    "variant_signature": "04518197cd8cb9073ce1c744da768e43af7a4e9528a5ea3175dc135f731f02fc"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 5, 3, 4, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Ananya waters 5 plants."
+      ]
+    },
+    "stem": "Ananya waters 5 plants on day 1, 3 plants on day 2, 4 plants on day 3, then the same pattern repeats: 5 plants on day 4, 3 plants on day 5, 4 plants on day 6, and so on. How many plants will Ananya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 3,
+      "c": 4
+    },
+    "variant_signature": "805eca803e066fb6233316a73fdec19b1142ddee3f23769693739b7aa5db6dcf"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 5, 4, 2, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Vihaan waters 5 plants."
+      ]
+    },
+    "stem": "Vihaan waters 5 plants on day 1, 4 plants on day 2, 2 plants on day 3, then the same pattern repeats: 5 plants on day 4, 4 plants on day 5, 2 plants on day 6, and so on. How many plants will Vihaan water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 4,
+      "c": 2
+    },
+    "variant_signature": "cd4bb34c4f46642bb8c46021037746384411a6d080dc9e4f57de6c90d0d5b737"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 5, 6, 1, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Ravi waters 5 plants."
+      ]
+    },
+    "stem": "Ravi waters 5 plants on day 1, 6 plants on day 2, 1 plants on day 3, then the same pattern repeats: 5 plants on day 4, 6 plants on day 5, 1 plants on day 6, and so on. How many plants will Ravi water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 6,
+      "c": 1
+    },
+    "variant_signature": "2d385ccc66e5b29d0aaf98f2e7db0bf229f6f8c825a45e7580b5774f586c7098"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 5, 6, 4, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Priya waters 5 plants."
+      ]
+    },
+    "stem": "Priya waters 5 plants on day 1, 6 plants on day 2, 4 plants on day 3, then the same pattern repeats: 5 plants on day 4, 6 plants on day 5, 4 plants on day 6, and so on. How many plants will Priya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 6,
+      "c": 4
+    },
+    "variant_signature": "fe30ff0d4e78a67eb8b3af35fba18214a9a0e94f428049bae303b9810870e193"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 6, 1, 4, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Arjun waters 6 plants."
+      ]
+    },
+    "stem": "Arjun waters 6 plants on day 1, 1 plants on day 2, 4 plants on day 3, then the same pattern repeats: 6 plants on day 4, 1 plants on day 5, 4 plants on day 6, and so on. How many plants will Arjun water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 1,
+      "c": 4
+    },
+    "variant_signature": "60600ea7101997e1bbfb9842880a21b3c317a7c59dc7c23a219bfa278ca54de4"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 6, 2, 3, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Meera waters 6 plants."
+      ]
+    },
+    "stem": "Meera waters 6 plants on day 1, 2 plants on day 2, 3 plants on day 3, then the same pattern repeats: 6 plants on day 4, 2 plants on day 5, 3 plants on day 6, and so on. How many plants will Meera water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 2,
+      "c": 3
+    },
+    "variant_signature": "02a8776bb47f4cb8ed871a610b79e064bf69f680d422b97908fc3977811b517b"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 6, 3, 1, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Diya waters 6 plants."
+      ]
+    },
+    "stem": "Diya waters 6 plants on day 1, 3 plants on day 2, 1 plants on day 3, then the same pattern repeats: 6 plants on day 4, 3 plants on day 5, 1 plants on day 6, and so on. How many plants will Diya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 3,
+      "c": 1
+    },
+    "variant_signature": "5f09b603d4b1dffbf23608d2b0bffaa105f553872e44e41d70da5fef6af8f2e8"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 6, 3, 5, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Kabir waters 6 plants."
+      ]
+    },
+    "stem": "Kabir waters 6 plants on day 1, 3 plants on day 2, 5 plants on day 3, then the same pattern repeats: 6 plants on day 4, 3 plants on day 5, 5 plants on day 6, and so on. How many plants will Kabir water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 3,
+      "c": 5
+    },
+    "variant_signature": "5f5bc6aeaac1ef39f5a915a1fb2a4342b43042c4be12c4519da17f91330c7ed6"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 6, 4, 3, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Ananya waters 6 plants."
+      ]
+    },
+    "stem": "Ananya waters 6 plants on day 1, 4 plants on day 2, 3 plants on day 3, then the same pattern repeats: 6 plants on day 4, 4 plants on day 5, 3 plants on day 6, and so on. How many plants will Ananya water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 4,
+      "c": 3
+    },
+    "variant_signature": "dd12a0bfe785fa4b64bb1b3c86c59ba9dfd7d401e59fda1699b0842b548840ca"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Write out which day of the 3-day cycle each day number falls on: day 1, 4, 7 are all the same position in the cycle.",
+      "Day 7 lines up with day 1 and day 4 in the repeating pattern."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.WORD.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The watering pattern repeats every 3 days: 6, 5, 2, then it starts over.",
+        "Day 7 is one day after day 6, which is the third day of the second repeat \u2014 so day 7 starts a new cycle, just like day 1 and day 4.",
+        "Day 7 matches day 1 and day 4, so Vihaan waters 6 plants."
+      ]
+    },
+    "stem": "Vihaan waters 6 plants on day 1, 5 plants on day 2, 2 plants on day 3, then the same pattern repeats: 6 plants on day 4, 5 plants on day 5, 2 plants on day 6, and so on. How many plants will Vihaan water on day 7?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 5,
+      "c": 2
+    },
+    "variant_signature": "3f1e6a2b67f0a3e4bdd551a5e2fd59fed2275722b4fc321d5a83090eed44a5ef"
+  }
+]

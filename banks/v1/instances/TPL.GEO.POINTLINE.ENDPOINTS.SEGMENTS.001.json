@@ -1,0 +1,485 @@
+[
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 2,
+            "element": "segment",
+            "labels": [
+              "AB",
+              "CD",
+              "EF",
+              "GH",
+              "IJ",
+              "KL",
+              "MN",
+              "RS"
+            ]
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does a line segment stop somewhere, or does it go on forever like a line does?",
+      "Each segment has 2 fixed endpoints. Multiply that by the number of segments, 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A line segment always has exactly 2 fixed endpoints \u2014 it stops at both ends, unlike a line, which extends forever and has none.",
+        "With 2 segments and 2 endpoints each, the total is 2 x 2 = 2*2."
+      ]
+    },
+    "stem": "2 line segments are drawn on a page, each named with two letters like AB. A student mixes up 'line' and 'line segment', and thinks that because these figures have two-letter names, they must be full lines that extend forever in both directions \u2014 so none of them really has any fixed endpoints. Using the correct definition of a line segment (a figure with two fixed endpoints that does not extend further), what is the total number of fixed endpoints across all 2 segments?",
+    "template_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2
+    },
+    "variant_signature": "5c8fa32faf3af8ffbeeffce06a99c8514f4d11b40c741154b9f38d23685ea7b3"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 3,
+            "element": "segment",
+            "labels": [
+              "AB",
+              "CD",
+              "EF",
+              "GH",
+              "IJ",
+              "KL",
+              "MN",
+              "RS"
+            ]
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does a line segment stop somewhere, or does it go on forever like a line does?",
+      "Each segment has 2 fixed endpoints. Multiply that by the number of segments, 3."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A line segment always has exactly 2 fixed endpoints \u2014 it stops at both ends, unlike a line, which extends forever and has none.",
+        "With 3 segments and 2 endpoints each, the total is 2 x 3 = 2*3."
+      ]
+    },
+    "stem": "3 line segments are drawn on a page, each named with two letters like AB. A student mixes up 'line' and 'line segment', and thinks that because these figures have two-letter names, they must be full lines that extend forever in both directions \u2014 so none of them really has any fixed endpoints. Using the correct definition of a line segment (a figure with two fixed endpoints that does not extend further), what is the total number of fixed endpoints across all 3 segments?",
+    "template_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3
+    },
+    "variant_signature": "8e02014a36a0ab3774b26a4ba6a8bdea113063984554ef3a08cb3b88902e663a"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 4,
+            "element": "segment",
+            "labels": [
+              "AB",
+              "CD",
+              "EF",
+              "GH",
+              "IJ",
+              "KL",
+              "MN",
+              "RS"
+            ]
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does a line segment stop somewhere, or does it go on forever like a line does?",
+      "Each segment has 2 fixed endpoints. Multiply that by the number of segments, 4."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A line segment always has exactly 2 fixed endpoints \u2014 it stops at both ends, unlike a line, which extends forever and has none.",
+        "With 4 segments and 2 endpoints each, the total is 2 x 4 = 2*4."
+      ]
+    },
+    "stem": "4 line segments are drawn on a page, each named with two letters like AB. A student mixes up 'line' and 'line segment', and thinks that because these figures have two-letter names, they must be full lines that extend forever in both directions \u2014 so none of them really has any fixed endpoints. Using the correct definition of a line segment (a figure with two fixed endpoints that does not extend further), what is the total number of fixed endpoints across all 4 segments?",
+    "template_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4
+    },
+    "variant_signature": "5c738841c7a76e14b629ff48399e7aa115c044aa19ccd45bb6724f69965bcb7c"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 5,
+            "element": "segment",
+            "labels": [
+              "AB",
+              "CD",
+              "EF",
+              "GH",
+              "IJ",
+              "KL",
+              "MN",
+              "RS"
+            ]
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does a line segment stop somewhere, or does it go on forever like a line does?",
+      "Each segment has 2 fixed endpoints. Multiply that by the number of segments, 5."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A line segment always has exactly 2 fixed endpoints \u2014 it stops at both ends, unlike a line, which extends forever and has none.",
+        "With 5 segments and 2 endpoints each, the total is 2 x 5 = 2*5."
+      ]
+    },
+    "stem": "5 line segments are drawn on a page, each named with two letters like AB. A student mixes up 'line' and 'line segment', and thinks that because these figures have two-letter names, they must be full lines that extend forever in both directions \u2014 so none of them really has any fixed endpoints. Using the correct definition of a line segment (a figure with two fixed endpoints that does not extend further), what is the total number of fixed endpoints across all 5 segments?",
+    "template_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5
+    },
+    "variant_signature": "712bcf8cd8680533e9f44763810670a30420ce65059d94946c6c38c7d71cb368"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 6,
+            "element": "segment",
+            "labels": [
+              "AB",
+              "CD",
+              "EF",
+              "GH",
+              "IJ",
+              "KL",
+              "MN",
+              "RS"
+            ]
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does a line segment stop somewhere, or does it go on forever like a line does?",
+      "Each segment has 2 fixed endpoints. Multiply that by the number of segments, 6."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A line segment always has exactly 2 fixed endpoints \u2014 it stops at both ends, unlike a line, which extends forever and has none.",
+        "With 6 segments and 2 endpoints each, the total is 2 x 6 = 2*6."
+      ]
+    },
+    "stem": "6 line segments are drawn on a page, each named with two letters like AB. A student mixes up 'line' and 'line segment', and thinks that because these figures have two-letter names, they must be full lines that extend forever in both directions \u2014 so none of them really has any fixed endpoints. Using the correct definition of a line segment (a figure with two fixed endpoints that does not extend further), what is the total number of fixed endpoints across all 6 segments?",
+    "template_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 6
+    },
+    "variant_signature": "8473d49eb154df55629e8f51b125acc580368a3b3b97f4d526a5672056d05353"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 7,
+            "element": "segment",
+            "labels": [
+              "AB",
+              "CD",
+              "EF",
+              "GH",
+              "IJ",
+              "KL",
+              "MN",
+              "RS"
+            ]
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does a line segment stop somewhere, or does it go on forever like a line does?",
+      "Each segment has 2 fixed endpoints. Multiply that by the number of segments, 7."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A line segment always has exactly 2 fixed endpoints \u2014 it stops at both ends, unlike a line, which extends forever and has none.",
+        "With 7 segments and 2 endpoints each, the total is 2 x 7 = 2*7."
+      ]
+    },
+    "stem": "7 line segments are drawn on a page, each named with two letters like AB. A student mixes up 'line' and 'line segment', and thinks that because these figures have two-letter names, they must be full lines that extend forever in both directions \u2014 so none of them really has any fixed endpoints. Using the correct definition of a line segment (a figure with two fixed endpoints that does not extend further), what is the total number of fixed endpoints across all 7 segments?",
+    "template_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 7
+    },
+    "variant_signature": "1654c642b74bc8d55ab1b465830b7f593b259f33d768654b79f4eb14f5fe9fe8"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 8,
+            "element": "segment",
+            "labels": [
+              "AB",
+              "CD",
+              "EF",
+              "GH",
+              "IJ",
+              "KL",
+              "MN",
+              "RS"
+            ]
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does a line segment stop somewhere, or does it go on forever like a line does?",
+      "Each segment has 2 fixed endpoints. Multiply that by the number of segments, 8."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A line segment always has exactly 2 fixed endpoints \u2014 it stops at both ends, unlike a line, which extends forever and has none.",
+        "With 8 segments and 2 endpoints each, the total is 2 x 8 = 2*8."
+      ]
+    },
+    "stem": "8 line segments are drawn on a page, each named with two letters like AB. A student mixes up 'line' and 'line segment', and thinks that because these figures have two-letter names, they must be full lines that extend forever in both directions \u2014 so none of them really has any fixed endpoints. Using the correct definition of a line segment (a figure with two fixed endpoints that does not extend further), what is the total number of fixed endpoints across all 8 segments?",
+    "template_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 8
+    },
+    "variant_signature": "749629b2198d41d6f7b13c5c1c4f95d36c03f0abc31a90c20f23d91125d13127"
+  }
+]

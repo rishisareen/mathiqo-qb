@@ -788,6 +788,31 @@ def test_list_skills_returns_declared_shape(facade: serving.ServingFacade) -> No
     assert any(s["skill_id"] == SKILL_ID for s in result.structuredContent["skills"])
 
 
+def test_list_skills_reports_servable_honestly_over_the_wire(facade: serving.ServingFacade) -> None:
+    """U14's catalog-honesty regression: the built bank ("mcp-build", the
+    only template minting FRAC.ADD.LIKE instances) leaves EMPTY_POOL_SKILL_ID
+    (FRAC.EQUIV) with zero instances — it must still be advertised, just
+    flagged `servable: false`, never dropped."""
+    server = mcp_server.build_server(facade, "test.consumer")
+
+    async def flow():
+        async with create_connected_server_and_client_session(server) as client:
+            return await client.call_tool(
+                "list_skills", {"country": "IN", "curriculum": "NCERT", "grade": 6}
+            )
+
+    result = _run(flow())
+    assert not result.isError
+    body = result.structuredContent
+    _assert_valid("catalog-skills.schema.json", body)
+    assert body["bank_version"] == "mcp-build"
+
+    by_id = {s["skill_id"]: s for s in body["skills"]}
+    assert by_id[SKILL_ID]["servable"] is True
+    assert EMPTY_POOL_SKILL_ID in by_id
+    assert by_id[EMPTY_POOL_SKILL_ID]["servable"] is False
+
+
 def test_get_skill_graph_returns_declared_shape(facade: serving.ServingFacade) -> None:
     server = mcp_server.build_server(facade, "test.consumer")
 

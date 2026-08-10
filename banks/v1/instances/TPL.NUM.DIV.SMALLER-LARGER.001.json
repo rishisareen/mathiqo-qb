@@ -1,0 +1,602 @@
+[
+  {
+    "answer": "2/5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-SMALLER-BY-LARGER",
+        "unsimplified": false,
+        "value": "5/2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A smaller number can always be divided by a larger one \u2014 it just means each share is less than one whole.",
+      "Put the amount being shared (2) on top and the number of people (5) on the bottom."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.SMALLER-LARGER.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "There are fewer rotis (2) than people (5), so each person gets less than one whole roti.",
+        "Sharing 2 rotis among 5 people means each person gets 2/5 of a roti."
+      ]
+    },
+    "stem": "Ravi has 2 rotis to share equally among 5 people. What fraction of a roti does each person get?",
+    "template_id": "TPL.NUM.DIV.SMALLER-LARGER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 5
+    },
+    "variant_signature": "338d3e9157bc1d65d5ada76c0cafd96194f7b5b807065b3efa011c0811b00794"
+  },
+  {
+    "answer": "1/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-SMALLER-BY-LARGER",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A smaller number can always be divided by a larger one \u2014 it just means each share is less than one whole.",
+      "Put the amount being shared (2) on top and the number of people (6) on the bottom."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.SMALLER-LARGER.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "There are fewer rotis (2) than people (6), so each person gets less than one whole roti.",
+        "Sharing 2 rotis among 6 people means each person gets 2/6 of a roti."
+      ]
+    },
+    "stem": "Priya has 2 rotis to share equally among 6 people. What fraction of a roti does each person get?",
+    "template_id": "TPL.NUM.DIV.SMALLER-LARGER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 6
+    },
+    "variant_signature": "db125968246e383add605270eca1ba8f01712f71baa6976265307f1230f87d48"
+  },
+  {
+    "answer": "2/7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-SMALLER-BY-LARGER",
+        "unsimplified": false,
+        "value": "7/2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A smaller number can always be divided by a larger one \u2014 it just means each share is less than one whole.",
+      "Put the amount being shared (2) on top and the number of people (7) on the bottom."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.SMALLER-LARGER.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "There are fewer rotis (2) than people (7), so each person gets less than one whole roti.",
+        "Sharing 2 rotis among 7 people means each person gets 2/7 of a roti."
+      ]
+    },
+    "stem": "Arjun has 2 rotis to share equally among 7 people. What fraction of a roti does each person get?",
+    "template_id": "TPL.NUM.DIV.SMALLER-LARGER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 7
+    },
+    "variant_signature": "d6fc3c5ffe8854685d308b13e722257eb042c4082bc8a55e06cbf774ca9cd00b"
+  },
+  {
+    "answer": "1/4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-SMALLER-BY-LARGER",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A smaller number can always be divided by a larger one \u2014 it just means each share is less than one whole.",
+      "Put the amount being shared (2) on top and the number of people (8) on the bottom."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.SMALLER-LARGER.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "There are fewer rotis (2) than people (8), so each person gets less than one whole roti.",
+        "Sharing 2 rotis among 8 people means each person gets 2/8 of a roti."
+      ]
+    },
+    "stem": "Meera has 2 rotis to share equally among 8 people. What fraction of a roti does each person get?",
+    "template_id": "TPL.NUM.DIV.SMALLER-LARGER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 8
+    },
+    "variant_signature": "5c6f8ad12ca5f1b17ee3967f28ed9474d049615d23d9b81413d9f9249dcd7366"
+  },
+  {
+    "answer": "3/5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-SMALLER-BY-LARGER",
+        "unsimplified": false,
+        "value": "5/3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A smaller number can always be divided by a larger one \u2014 it just means each share is less than one whole.",
+      "Put the amount being shared (3) on top and the number of people (5) on the bottom."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.SMALLER-LARGER.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "There are fewer rotis (3) than people (5), so each person gets less than one whole roti.",
+        "Sharing 3 rotis among 5 people means each person gets 3/5 of a roti."
+      ]
+    },
+    "stem": "Diya has 3 rotis to share equally among 5 people. What fraction of a roti does each person get?",
+    "template_id": "TPL.NUM.DIV.SMALLER-LARGER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 5
+    },
+    "variant_signature": "0c6b2cec6cb6fb72946495e4be2fc6ab9b354c3a4dc0b3c50128f0de8c0c6241"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-SMALLER-BY-LARGER",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A smaller number can always be divided by a larger one \u2014 it just means each share is less than one whole.",
+      "Put the amount being shared (3) on top and the number of people (6) on the bottom."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.SMALLER-LARGER.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "There are fewer rotis (3) than people (6), so each person gets less than one whole roti.",
+        "Sharing 3 rotis among 6 people means each person gets 3/6 of a roti."
+      ]
+    },
+    "stem": "Kabir has 3 rotis to share equally among 6 people. What fraction of a roti does each person get?",
+    "template_id": "TPL.NUM.DIV.SMALLER-LARGER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 6
+    },
+    "variant_signature": "3f7957639645874a34fa5da9f8bc301db6b5eb7382199e266f8bd9507d390088"
+  },
+  {
+    "answer": "3/7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-SMALLER-BY-LARGER",
+        "unsimplified": false,
+        "value": "7/3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A smaller number can always be divided by a larger one \u2014 it just means each share is less than one whole.",
+      "Put the amount being shared (3) on top and the number of people (7) on the bottom."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.SMALLER-LARGER.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "There are fewer rotis (3) than people (7), so each person gets less than one whole roti.",
+        "Sharing 3 rotis among 7 people means each person gets 3/7 of a roti."
+      ]
+    },
+    "stem": "Ananya has 3 rotis to share equally among 7 people. What fraction of a roti does each person get?",
+    "template_id": "TPL.NUM.DIV.SMALLER-LARGER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 7
+    },
+    "variant_signature": "8462e8bf049235f440a29b24e754832b0716209369e1e68ebd1eb0df3a1df405"
+  },
+  {
+    "answer": "3/8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-SMALLER-BY-LARGER",
+        "unsimplified": false,
+        "value": "8/3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A smaller number can always be divided by a larger one \u2014 it just means each share is less than one whole.",
+      "Put the amount being shared (3) on top and the number of people (8) on the bottom."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.SMALLER-LARGER.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "There are fewer rotis (3) than people (8), so each person gets less than one whole roti.",
+        "Sharing 3 rotis among 8 people means each person gets 3/8 of a roti."
+      ]
+    },
+    "stem": "Vihaan has 3 rotis to share equally among 8 people. What fraction of a roti does each person get?",
+    "template_id": "TPL.NUM.DIV.SMALLER-LARGER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 8
+    },
+    "variant_signature": "f80eb557747d896da4c7d21fd785a5586c63ff16bdf4395f4558bad8a5812d31"
+  },
+  {
+    "answer": "4/5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-SMALLER-BY-LARGER",
+        "unsimplified": false,
+        "value": "5/4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A smaller number can always be divided by a larger one \u2014 it just means each share is less than one whole.",
+      "Put the amount being shared (4) on top and the number of people (5) on the bottom."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.SMALLER-LARGER.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "There are fewer rotis (4) than people (5), so each person gets less than one whole roti.",
+        "Sharing 4 rotis among 5 people means each person gets 4/5 of a roti."
+      ]
+    },
+    "stem": "Ravi has 4 rotis to share equally among 5 people. What fraction of a roti does each person get?",
+    "template_id": "TPL.NUM.DIV.SMALLER-LARGER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 5
+    },
+    "variant_signature": "4e18796c47f08cf00707ca2ba8d844d4e287195a20b8b325161cddbf8071698f"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-SMALLER-BY-LARGER",
+        "unsimplified": false,
+        "value": "3/2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A smaller number can always be divided by a larger one \u2014 it just means each share is less than one whole.",
+      "Put the amount being shared (4) on top and the number of people (6) on the bottom."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.SMALLER-LARGER.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "There are fewer rotis (4) than people (6), so each person gets less than one whole roti.",
+        "Sharing 4 rotis among 6 people means each person gets 4/6 of a roti."
+      ]
+    },
+    "stem": "Priya has 4 rotis to share equally among 6 people. What fraction of a roti does each person get?",
+    "template_id": "TPL.NUM.DIV.SMALLER-LARGER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 6
+    },
+    "variant_signature": "4df6370d298383481064c8517aa6d69c8b59e21cc359bfffcf6218680cd11aa2"
+  },
+  {
+    "answer": "4/7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-SMALLER-BY-LARGER",
+        "unsimplified": false,
+        "value": "7/4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A smaller number can always be divided by a larger one \u2014 it just means each share is less than one whole.",
+      "Put the amount being shared (4) on top and the number of people (7) on the bottom."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.SMALLER-LARGER.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "There are fewer rotis (4) than people (7), so each person gets less than one whole roti.",
+        "Sharing 4 rotis among 7 people means each person gets 4/7 of a roti."
+      ]
+    },
+    "stem": "Arjun has 4 rotis to share equally among 7 people. What fraction of a roti does each person get?",
+    "template_id": "TPL.NUM.DIV.SMALLER-LARGER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 7
+    },
+    "variant_signature": "2948357d7601fc1b6890880103c5584ba6a24f64e9def9d13b909e677f0a809f"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-SMALLER-BY-LARGER",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A smaller number can always be divided by a larger one \u2014 it just means each share is less than one whole.",
+      "Put the amount being shared (4) on top and the number of people (8) on the bottom."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.SMALLER-LARGER.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "There are fewer rotis (4) than people (8), so each person gets less than one whole roti.",
+        "Sharing 4 rotis among 8 people means each person gets 4/8 of a roti."
+      ]
+    },
+    "stem": "Meera has 4 rotis to share equally among 8 people. What fraction of a roti does each person get?",
+    "template_id": "TPL.NUM.DIV.SMALLER-LARGER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 8
+    },
+    "variant_signature": "e5b923574fa93e97b6174791d27a2c4c89954c059fa50a792e6f38f89c2d62c0"
+  }
+]

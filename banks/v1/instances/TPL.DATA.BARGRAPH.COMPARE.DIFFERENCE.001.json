@@ -1,0 +1,2242 @@
+[
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 5,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 1,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 5 x 2, and Bar B's value is 1 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 5 gridlines and Bar B reaches 1 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 5,
+      "g2": 1,
+      "k": 2
+    },
+    "variant_signature": "0761e379d1f291d3dff553ff05b74836f7fc57e1ba0c630b7e30afb48c81b3f1"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 5,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 1,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 5 x 4, and Bar B's value is 1 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 5 gridlines and Bar B reaches 1 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 5,
+      "g2": 1,
+      "k": 4
+    },
+    "variant_signature": "090799fe7cff4defed20ce39abe42e84e685e5a5b83dc11803143fab1040f7ee"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 5,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 2,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 5 x 2, and Bar B's value is 2 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 5 gridlines and Bar B reaches 2 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 5,
+      "g2": 2,
+      "k": 2
+    },
+    "variant_signature": "79568de9e7c413e050c6351f7540312c96097af0968cc0dc4ed94f90ef48d361"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 5,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 2,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 5 x 4, and Bar B's value is 2 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 5 gridlines and Bar B reaches 2 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 5,
+      "g2": 2,
+      "k": 4
+    },
+    "variant_signature": "3dce319160497ef444e2dc95e5366ce6b4502aabdcde62041073581f91955f87"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 5,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 3,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 5 x 2, and Bar B's value is 3 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 5 gridlines and Bar B reaches 3 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 5,
+      "g2": 3,
+      "k": 2
+    },
+    "variant_signature": "b681eaec86d400ddc64be97a9d5552602c78d5920d6536c5f27784a6d7d3da2a"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 5,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 3,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 5 x 4, and Bar B's value is 3 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 5 gridlines and Bar B reaches 3 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 5,
+      "g2": 3,
+      "k": 4
+    },
+    "variant_signature": "87773d7a586454825d76f188b86e7d784419f58b57e6f78cfadb563facedb0ac"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 5,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 4,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 5 x 2, and Bar B's value is 4 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 5 gridlines and Bar B reaches 4 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 5,
+      "g2": 4,
+      "k": 2
+    },
+    "variant_signature": "f4ce9e3f6a85bfc4ee2bdfa4e7fa3af5c541d643d83a64289e21000de48e8efa"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 5,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 4,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 5 x 4, and Bar B's value is 4 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 5 gridlines and Bar B reaches 4 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 5,
+      "g2": 4,
+      "k": 4
+    },
+    "variant_signature": "9ed57538f29579bba17e498b51d7927bd3418a899f8aab443e6db23e59c01184"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 6,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 1,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 6 x 2, and Bar B's value is 1 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 6 gridlines and Bar B reaches 1 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 6,
+      "g2": 1,
+      "k": 2
+    },
+    "variant_signature": "ca22e979f26b31edd898d2398893ebbbea514e529b2b865f4d91a3220a730e9d"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 6,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 1,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 6 x 4, and Bar B's value is 1 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 6 gridlines and Bar B reaches 1 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 6,
+      "g2": 1,
+      "k": 4
+    },
+    "variant_signature": "e24215a3c56e9f4d39b4e32a238cfd8fb3b3269d7125819cf7b8b374b0878fd7"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 6,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 2,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 6 x 2, and Bar B's value is 2 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 6 gridlines and Bar B reaches 2 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 6,
+      "g2": 2,
+      "k": 2
+    },
+    "variant_signature": "c941e902629728e250f2f14419f2d6122d72be55622a149b4db8382afeb79602"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 6,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 2,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 6 x 4, and Bar B's value is 2 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 6 gridlines and Bar B reaches 2 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 6,
+      "g2": 2,
+      "k": 4
+    },
+    "variant_signature": "51ba88a0d47afd842708481976ffd30efcd83adc9a07fe384034290953c09b55"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 6,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 3,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 6 x 2, and Bar B's value is 3 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 6 gridlines and Bar B reaches 3 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 6,
+      "g2": 3,
+      "k": 2
+    },
+    "variant_signature": "59ba1c5e42be450a05b19857e045de26a885bd26832b53d884e1832686028f60"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 6,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 3,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 6 x 4, and Bar B's value is 3 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 6 gridlines and Bar B reaches 3 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 6,
+      "g2": 3,
+      "k": 4
+    },
+    "variant_signature": "2bbae56afa24a6192d4e0e870c06ce66f5a5f8c484bb5f17a894f67af380039c"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 6,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 4,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 6 x 2, and Bar B's value is 4 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 6 gridlines and Bar B reaches 4 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 6,
+      "g2": 4,
+      "k": 2
+    },
+    "variant_signature": "bd86a5e495a57ce80fc832a65f05ddca4bc9c842f0895b98f0fdc99510e39ec9"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 6,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 4,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 6 x 4, and Bar B's value is 4 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 6 gridlines and Bar B reaches 4 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 6,
+      "g2": 4,
+      "k": 4
+    },
+    "variant_signature": "57de750d94f164b87fef43ec4e54b5021deec34f1ee3992e799f81636811dc84"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 7,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 1,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 7 x 2, and Bar B's value is 1 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 7 gridlines and Bar B reaches 1 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 7,
+      "g2": 1,
+      "k": 2
+    },
+    "variant_signature": "483609af12f91c4454d551a9cd7ce1c0e5b60456bfa8dcc8fc8b7c44b0268887"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 7,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 1,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 7 x 4, and Bar B's value is 1 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 7 gridlines and Bar B reaches 1 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 7,
+      "g2": 1,
+      "k": 4
+    },
+    "variant_signature": "4d18e5c962afab7f8573a5db5363bacb0b00b468ce4a877ef3be659aa4b2f486"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 7,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 2,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 7 x 2, and Bar B's value is 2 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 7 gridlines and Bar B reaches 2 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 7,
+      "g2": 2,
+      "k": 2
+    },
+    "variant_signature": "75a72507a5490c07b8afe15bc14ed750b7111746c6ffdb8c04fcf4e3d5daefb4"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 7,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 2,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 7 x 4, and Bar B's value is 2 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 7 gridlines and Bar B reaches 2 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 7,
+      "g2": 2,
+      "k": 4
+    },
+    "variant_signature": "284e8dce217959087fb0e7b3f138ca01e18ecbaf7597f237db463c632111b6fa"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 7,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 3,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 7 x 2, and Bar B's value is 3 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 7 gridlines and Bar B reaches 3 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 7,
+      "g2": 3,
+      "k": 2
+    },
+    "variant_signature": "af0c9a9c4957b41e884386a8883ca32020fcb8c031a64ed1f9481bfbda02186e"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 7,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 3,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 7 x 4, and Bar B's value is 3 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 7 gridlines and Bar B reaches 3 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 7,
+      "g2": 3,
+      "k": 4
+    },
+    "variant_signature": "01791c2b45139ff4dc3839d20984ffc7f2865f7e7aa61884ccb306f89ac04081"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 7,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 4,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 7 x 2, and Bar B's value is 4 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 7 gridlines and Bar B reaches 4 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 7,
+      "g2": 4,
+      "k": 2
+    },
+    "variant_signature": "5332675f0ff5bd55fd5583902037c90fd6d65c922e6b0cf312b2806110e15215"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 7,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 4,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 7 x 4, and Bar B's value is 4 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 7 gridlines and Bar B reaches 4 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 7,
+      "g2": 4,
+      "k": 4
+    },
+    "variant_signature": "d18a5d2f66aa73942833d5c522441bc46396ef9e736a92cf21752a065ec9dc2b"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 8,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 1,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 8 x 2, and Bar B's value is 1 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 8 gridlines and Bar B reaches 1 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 8,
+      "g2": 1,
+      "k": 2
+    },
+    "variant_signature": "e0fe022d7b58cef79a1f540b02c9067e73255b2491cebb93de49377cdb47879b"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 8,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 1,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 8 x 4, and Bar B's value is 1 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 8 gridlines and Bar B reaches 1 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 8,
+      "g2": 1,
+      "k": 4
+    },
+    "variant_signature": "d822035170cf37e8ac7b38ff30ade6a6e870ba9f5f1ee03e624c6009c4c8e8dc"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 8,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 2,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 8 x 2, and Bar B's value is 2 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 8 gridlines and Bar B reaches 2 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 8,
+      "g2": 2,
+      "k": 2
+    },
+    "variant_signature": "2ca0a61bbb0399a292849ab04ab643399fb13e6adb4aabedc6440fbfd5af8d98"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 8,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 2,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 8 x 4, and Bar B's value is 2 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 8 gridlines and Bar B reaches 2 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 8,
+      "g2": 2,
+      "k": 4
+    },
+    "variant_signature": "36f6c74d1a2a22ca0f5c29d3fb2a2c6ca615012f7c219288e1edeb844a24a095"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 8,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 3,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 8 x 2, and Bar B's value is 3 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 8 gridlines and Bar B reaches 3 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 8,
+      "g2": 3,
+      "k": 2
+    },
+    "variant_signature": "9af50f09a635d0fe06bb0ede5843a071739e35761ce2f39e5d4909e9e0ca4b3c"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 8,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 3,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 8 x 4, and Bar B's value is 3 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 8 gridlines and Bar B reaches 3 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 8,
+      "g2": 3,
+      "k": 4
+    },
+    "variant_signature": "b4bc22a6912dd576b6390350fc0c3215e56c72f7a1822d150f552c224867c8db"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 8,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 4,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 8 x 2, and Bar B's value is 4 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 8 gridlines and Bar B reaches 4 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 8,
+      "g2": 4,
+      "k": 2
+    },
+    "variant_signature": "6b2a7a612eb75ea66684ee6d885ae115f8577ea730be77b68c15ff6989b320b3"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 8,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 4,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 8 x 4, and Bar B's value is 4 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 8 gridlines and Bar B reaches 4 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 8,
+      "g2": 4,
+      "k": 4
+    },
+    "variant_signature": "3d7939c671312089a4875ecf31929b1b351c454be2d65e0532ac460d7d609fbd"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 9,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 1,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 9 x 2, and Bar B's value is 1 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 9 gridlines and Bar B reaches 1 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 9,
+      "g2": 1,
+      "k": 2
+    },
+    "variant_signature": "379f2cb34eb81536f4120a2f5140cc263e121a45dc6675940dae30890dba7d85"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 9,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 1,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 9 x 4, and Bar B's value is 1 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 9 gridlines and Bar B reaches 1 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 9,
+      "g2": 1,
+      "k": 4
+    },
+    "variant_signature": "10cebbc1d5ad9f9baa6f69fa1d0b72282a90b5758e62bca573b78950bb548ab4"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 9,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 2,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 9 x 2, and Bar B's value is 2 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 9 gridlines and Bar B reaches 2 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 9,
+      "g2": 2,
+      "k": 2
+    },
+    "variant_signature": "7c8d1b214bd76db2a0cf0bd0fdb3f05d2fc297cdd900592e22f3a89d404f51fc"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 9,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 2,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 9 x 4, and Bar B's value is 2 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 9 gridlines and Bar B reaches 2 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 9,
+      "g2": 2,
+      "k": 4
+    },
+    "variant_signature": "a2052c94af7bcbe85f289fcab40693a3b05ad2aea54252051c29b605a532e717"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 9,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 3,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 9 x 2, and Bar B's value is 3 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 9 gridlines and Bar B reaches 3 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 9,
+      "g2": 3,
+      "k": 2
+    },
+    "variant_signature": "e9039834e2a26e9b00bac191e6b470bceb2f0f6a1e7510e1bb23d90f0feafc40"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 9,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 3,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 9 x 4, and Bar B's value is 3 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 9 gridlines and Bar B reaches 3 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 9,
+      "g2": 3,
+      "k": 4
+    },
+    "variant_signature": "1bb71f454ecb5e11b2ef67f8902f260872992ca95461324f5e30a8dcf9177231"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 9,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 4,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 9 x 2, and Bar B's value is 4 x 2.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 9 gridlines and Bar B reaches 4 gridlines; each gridline represents 2 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 9,
+      "g2": 4,
+      "k": 2
+    },
+    "variant_signature": "63677879e4a7a907d4cfb062f8ed2749715c8fad64b32c7cb4cba7437fa951e8"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 9,
+            "label": "Bar A"
+          },
+          {
+            "gridlines": 4,
+            "label": "Bar B"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both gridline counts to actual values using the scale first.",
+      "Find each bar's value, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Bar A's value is 9 x 4, and Bar B's value is 4 x 4.",
+        "Subtract Bar B's value from Bar A's value to find the difference."
+      ]
+    },
+    "stem": "On a bar graph, Bar A reaches 9 gridlines and Bar B reaches 4 gridlines; each gridline represents 4 units. By how much does Bar A exceed Bar B?",
+    "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 9,
+      "g2": 4,
+      "k": 4
+    },
+    "variant_signature": "5e0d56b572ee69e11e2d7e183974ba489148638483469b9bb007cde392631b10"
+  }
+]

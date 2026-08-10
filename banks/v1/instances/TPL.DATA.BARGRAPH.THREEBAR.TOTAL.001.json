@@ -1,0 +1,2682 @@
+[
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "March"
+          },
+          {
+            "gridlines": 2,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 2 + 2 + 2.",
+        "Multiply that gridline total by the scale, 3, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 3 mm of rainfall: March reaches 2 gridlines, April reaches 2 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 2,
+      "g2": 2,
+      "g3": 2,
+      "k": 3
+    },
+    "variant_signature": "e3d799caa6021513b2b451b1c382dc99cbcc62433774e40aeeb66801f193b99a"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "March"
+          },
+          {
+            "gridlines": 2,
+            "label": "April"
+          },
+          {
+            "gridlines": 3,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 2 + 2 + 3.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 2 gridlines, April reaches 2 gridlines, and May reaches 3 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 2,
+      "g2": 2,
+      "g3": 3,
+      "k": 2
+    },
+    "variant_signature": "9c0b0305330f279afec05daa0eb2a3e581cecbb0502c4e4d3e4c79b013e3e7db"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "March"
+          },
+          {
+            "gridlines": 2,
+            "label": "April"
+          },
+          {
+            "gridlines": 3,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 2 + 2 + 3.",
+        "Multiply that gridline total by the scale, 4, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 4 mm of rainfall: March reaches 2 gridlines, April reaches 2 gridlines, and May reaches 3 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 2,
+      "g2": 2,
+      "g3": 3,
+      "k": 4
+    },
+    "variant_signature": "95cdf54f78171d0faf4035c35c28871ab491f255f52c88922ade983930bfd447"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "March"
+          },
+          {
+            "gridlines": 2,
+            "label": "April"
+          },
+          {
+            "gridlines": 4,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 2 + 2 + 4.",
+        "Multiply that gridline total by the scale, 3, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 3 mm of rainfall: March reaches 2 gridlines, April reaches 2 gridlines, and May reaches 4 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 2,
+      "g2": 2,
+      "g3": 4,
+      "k": 3
+    },
+    "variant_signature": "3fc56223225190344f65b985d9d1c5ebe5bd930cce9bbb2b007f45d051e6c3fd"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "March"
+          },
+          {
+            "gridlines": 3,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 2 + 3 + 2.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 2 gridlines, April reaches 3 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 2,
+      "g2": 3,
+      "g3": 2,
+      "k": 2
+    },
+    "variant_signature": "08e1f31e0415b415bfae810a2ff05090b1fa613bc147e263dbb0750704cd0f29"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "March"
+          },
+          {
+            "gridlines": 3,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 2 + 3 + 2.",
+        "Multiply that gridline total by the scale, 4, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 4 mm of rainfall: March reaches 2 gridlines, April reaches 3 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 2,
+      "g2": 3,
+      "g3": 2,
+      "k": 4
+    },
+    "variant_signature": "53eb689265ddc19925933c5c97f2a67a63f58aab9e583b9ef6b3e94f4dcdea14"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "March"
+          },
+          {
+            "gridlines": 3,
+            "label": "April"
+          },
+          {
+            "gridlines": 3,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 2 + 3 + 3.",
+        "Multiply that gridline total by the scale, 3, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 3 mm of rainfall: March reaches 2 gridlines, April reaches 3 gridlines, and May reaches 3 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 2,
+      "g2": 3,
+      "g3": 3,
+      "k": 3
+    },
+    "variant_signature": "ffdce9d19945de7a0168df6520bc4acc8a2861e7f2a0d8ccdc2a1c94cbbf99cf"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "March"
+          },
+          {
+            "gridlines": 3,
+            "label": "April"
+          },
+          {
+            "gridlines": 4,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 2 + 3 + 4.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 2 gridlines, April reaches 3 gridlines, and May reaches 4 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 2,
+      "g2": 3,
+      "g3": 4,
+      "k": 2
+    },
+    "variant_signature": "5908f43c96ee8abde419f2465b5c20d5d2bb92ec1899672ac17b44d746334c35"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "March"
+          },
+          {
+            "gridlines": 3,
+            "label": "April"
+          },
+          {
+            "gridlines": 4,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 2 + 3 + 4.",
+        "Multiply that gridline total by the scale, 4, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 4 mm of rainfall: March reaches 2 gridlines, April reaches 3 gridlines, and May reaches 4 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 2,
+      "g2": 3,
+      "g3": 4,
+      "k": 4
+    },
+    "variant_signature": "c229f6a3a0916a77f33e76abbd7a19aeca37624fb4bf1576f5e9f4bd66b5cc1a"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 2 + 4 + 2.",
+        "Multiply that gridline total by the scale, 3, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 3 mm of rainfall: March reaches 2 gridlines, April reaches 4 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 2,
+      "g2": 4,
+      "g3": 2,
+      "k": 3
+    },
+    "variant_signature": "5693cd4b0d614dae8fbb961bb553ef97cc19e12dfc6539856f0567d221747239"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 3,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 2 + 4 + 3.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 2 gridlines, April reaches 4 gridlines, and May reaches 3 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 2,
+      "g2": 4,
+      "g3": 3,
+      "k": 2
+    },
+    "variant_signature": "316543d9a4e07ae63ac5dcf96871f920d7edd4061a7e81e6409f0523d06eeaba"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 3,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 2 + 4 + 3.",
+        "Multiply that gridline total by the scale, 4, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 4 mm of rainfall: March reaches 2 gridlines, April reaches 4 gridlines, and May reaches 3 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 2,
+      "g2": 4,
+      "g3": 3,
+      "k": 4
+    },
+    "variant_signature": "4344154540429a22a4c8e380504ad27de3d75f80e74c53fc1d029fd3aedd4210"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 4,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 2 + 4 + 4.",
+        "Multiply that gridline total by the scale, 3, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 3 mm of rainfall: March reaches 2 gridlines, April reaches 4 gridlines, and May reaches 4 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 2,
+      "g2": 4,
+      "g3": 4,
+      "k": 3
+    },
+    "variant_signature": "63d7171ded6f43ffa4d5b5dbe5f791a4bc9cdd614426cb54f84fda0715744c10"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 2,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 2 + 2.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 3 gridlines, April reaches 2 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 2,
+      "g3": 2,
+      "k": 2
+    },
+    "variant_signature": "3759c18a5f706f120d4e6d9eea10c89c22b5831619db2404e9ed911f58020f03"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 2,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 2 + 2.",
+        "Multiply that gridline total by the scale, 4, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 4 mm of rainfall: March reaches 3 gridlines, April reaches 2 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 2,
+      "g3": 2,
+      "k": 4
+    },
+    "variant_signature": "1fa75d947ccf7bbeb42e10247a3e5b9b2c94be6045c7b32b2b15a8eebd034c2d"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 2,
+            "label": "April"
+          },
+          {
+            "gridlines": 3,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 2 + 3.",
+        "Multiply that gridline total by the scale, 3, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 3 mm of rainfall: March reaches 3 gridlines, April reaches 2 gridlines, and May reaches 3 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 2,
+      "g3": 3,
+      "k": 3
+    },
+    "variant_signature": "dfb7bec84c8a0abc86cd4ba253869fdca8212a51b273eca2fa781111632b2a0a"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 2,
+            "label": "April"
+          },
+          {
+            "gridlines": 4,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 2 + 4.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 3 gridlines, April reaches 2 gridlines, and May reaches 4 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 2,
+      "g3": 4,
+      "k": 2
+    },
+    "variant_signature": "4bd3bff14a67caee4f911a4cd1d5e5e847dac9bfa0155b4e77e790292712a3d3"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 2,
+            "label": "April"
+          },
+          {
+            "gridlines": 4,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 2 + 4.",
+        "Multiply that gridline total by the scale, 4, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 4 mm of rainfall: March reaches 3 gridlines, April reaches 2 gridlines, and May reaches 4 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 2,
+      "g3": 4,
+      "k": 4
+    },
+    "variant_signature": "dc0080ced4a450a2d30a24b3a7b365048e55c1a98c1f9263b4dcf6db044adcde"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 3,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 3 + 2.",
+        "Multiply that gridline total by the scale, 3, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 3 mm of rainfall: March reaches 3 gridlines, April reaches 3 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 3,
+      "g3": 2,
+      "k": 3
+    },
+    "variant_signature": "711bd1c734c487ca59a318bd7ff64cca9bdeb4af25e2a008587b8627d49c14be"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 3,
+            "label": "April"
+          },
+          {
+            "gridlines": 3,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 3 + 3.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 3 gridlines, April reaches 3 gridlines, and May reaches 3 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 3,
+      "g3": 3,
+      "k": 2
+    },
+    "variant_signature": "ac4d298cd9592844e257962136f1bad0eeac514aa66c61cf125e1672933d69fb"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 3,
+            "label": "April"
+          },
+          {
+            "gridlines": 3,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 3 + 3.",
+        "Multiply that gridline total by the scale, 4, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 4 mm of rainfall: March reaches 3 gridlines, April reaches 3 gridlines, and May reaches 3 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 3,
+      "g3": 3,
+      "k": 4
+    },
+    "variant_signature": "88c3c3f1df4fa948b89b6415c47c7e499ca615ac17cd588ddab28b06451563d0"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 3,
+            "label": "April"
+          },
+          {
+            "gridlines": 4,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 3 + 4.",
+        "Multiply that gridline total by the scale, 3, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 3 mm of rainfall: March reaches 3 gridlines, April reaches 3 gridlines, and May reaches 4 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 3,
+      "g3": 4,
+      "k": 3
+    },
+    "variant_signature": "3b2c48601a743d2d90c73a57409668e0cd4643830c6935a6b916abbd365e570e"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 4 + 2.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 3 gridlines, April reaches 4 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 4,
+      "g3": 2,
+      "k": 2
+    },
+    "variant_signature": "3d9764c640c1207827f6392996f520a93e9f5d79436931a11b8252b85ffab9aa"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 4 + 2.",
+        "Multiply that gridline total by the scale, 4, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 4 mm of rainfall: March reaches 3 gridlines, April reaches 4 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 4,
+      "g3": 2,
+      "k": 4
+    },
+    "variant_signature": "6f14363e70d47837467c06214e9dd761ac5722c9888c4a85e4f8742a7ce9f1fc"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 3,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 4 + 3.",
+        "Multiply that gridline total by the scale, 3, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 3 mm of rainfall: March reaches 3 gridlines, April reaches 4 gridlines, and May reaches 3 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 4,
+      "g3": 3,
+      "k": 3
+    },
+    "variant_signature": "a8e8b425cbd20bca43e4bef77ab4a1b4d0d9fe422fed8776e19ee31793b96055"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 4,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 4 + 4.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 3 gridlines, April reaches 4 gridlines, and May reaches 4 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 4,
+      "g3": 4,
+      "k": 2
+    },
+    "variant_signature": "7fa0cb4e5d86d5f7ff6562fdd1136a9d050b0b24d0a8d7dae24235d39ff56148"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "43"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 4,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 3 + 4 + 4.",
+        "Multiply that gridline total by the scale, 4, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 4 mm of rainfall: March reaches 3 gridlines, April reaches 4 gridlines, and May reaches 4 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 3,
+      "g2": 4,
+      "g3": 4,
+      "k": 4
+    },
+    "variant_signature": "4d69944b5e45f1cfb0509cfae41db6a5668a4c7fba4a5bee4ebe9d37a30322df"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "March"
+          },
+          {
+            "gridlines": 2,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 4 + 2 + 2.",
+        "Multiply that gridline total by the scale, 3, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 3 mm of rainfall: March reaches 4 gridlines, April reaches 2 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 4,
+      "g2": 2,
+      "g3": 2,
+      "k": 3
+    },
+    "variant_signature": "7b864ce9398db55f2a78d4956e61b5e5119275881a570f94c28b7d98dd2131f4"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "March"
+          },
+          {
+            "gridlines": 2,
+            "label": "April"
+          },
+          {
+            "gridlines": 3,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 4 + 2 + 3.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 4 gridlines, April reaches 2 gridlines, and May reaches 3 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 4,
+      "g2": 2,
+      "g3": 3,
+      "k": 2
+    },
+    "variant_signature": "474bd36c178090bbc552a4fb395365bc07ceaf2fe02333835d41c6a01d30e9fa"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "March"
+          },
+          {
+            "gridlines": 2,
+            "label": "April"
+          },
+          {
+            "gridlines": 3,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 4 + 2 + 3.",
+        "Multiply that gridline total by the scale, 4, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 4 mm of rainfall: March reaches 4 gridlines, April reaches 2 gridlines, and May reaches 3 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 4,
+      "g2": 2,
+      "g3": 3,
+      "k": 4
+    },
+    "variant_signature": "f964795a25e59d310f3e65c9e419c003ca03644025f3b7e418d0ecafa6026313"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "March"
+          },
+          {
+            "gridlines": 2,
+            "label": "April"
+          },
+          {
+            "gridlines": 4,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 4 + 2 + 4.",
+        "Multiply that gridline total by the scale, 3, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 3 mm of rainfall: March reaches 4 gridlines, April reaches 2 gridlines, and May reaches 4 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 4,
+      "g2": 2,
+      "g3": 4,
+      "k": 3
+    },
+    "variant_signature": "34374931a2f998c6826495a79c4a230a5215345289323f429952b11950bb2b08"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "March"
+          },
+          {
+            "gridlines": 3,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 4 + 3 + 2.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 4 gridlines, April reaches 3 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 4,
+      "g2": 3,
+      "g3": 2,
+      "k": 2
+    },
+    "variant_signature": "c997d7ec5a55d05f158b81973048010e3307176694b7b5519298820d8edc58cb"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "March"
+          },
+          {
+            "gridlines": 3,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 4 + 3 + 2.",
+        "Multiply that gridline total by the scale, 4, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 4 mm of rainfall: March reaches 4 gridlines, April reaches 3 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 4,
+      "g2": 3,
+      "g3": 2,
+      "k": 4
+    },
+    "variant_signature": "2230d7b318352cda58478b96ee21ba765db4f6d31c906d7205f07d8a82055e6c"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "March"
+          },
+          {
+            "gridlines": 3,
+            "label": "April"
+          },
+          {
+            "gridlines": 3,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 4 + 3 + 3.",
+        "Multiply that gridline total by the scale, 3, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 3 mm of rainfall: March reaches 4 gridlines, April reaches 3 gridlines, and May reaches 3 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 4,
+      "g2": 3,
+      "g3": 3,
+      "k": 3
+    },
+    "variant_signature": "2d0ea83c0093a8296136a7c83cd9966c659015a79b9eb18e5b40ea2952b0bcaa"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "March"
+          },
+          {
+            "gridlines": 3,
+            "label": "April"
+          },
+          {
+            "gridlines": 4,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 4 + 3 + 4.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 4 gridlines, April reaches 3 gridlines, and May reaches 4 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 4,
+      "g2": 3,
+      "g3": 4,
+      "k": 2
+    },
+    "variant_signature": "12966550ca745b6992b2919b26721747c9d3e030cc0d46fd641b4dfa5d04ccf4"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 4 + 4 + 2.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 4 gridlines, April reaches 4 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 4,
+      "g2": 4,
+      "g3": 2,
+      "k": 2
+    },
+    "variant_signature": "dc4f919643a089c7925bda3468d2ee15f495707acaf3d79d25da4593f64dc6b4"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "39"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 2,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 4 + 4 + 2.",
+        "Multiply that gridline total by the scale, 4, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 4 mm of rainfall: March reaches 4 gridlines, April reaches 4 gridlines, and May reaches 2 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 4,
+      "g2": 4,
+      "g3": 2,
+      "k": 4
+    },
+    "variant_signature": "f8d09cc38895cec016a52bd11342a0ba441ec34a15d44c9f270b42ce99791df5"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 3,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 4 + 4 + 3.",
+        "Multiply that gridline total by the scale, 3, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 3 mm of rainfall: March reaches 4 gridlines, April reaches 4 gridlines, and May reaches 3 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 4,
+      "g2": 4,
+      "g3": 3,
+      "k": 3
+    },
+    "variant_signature": "c01adc764d6d9068ad6c863d71b7fd171f369b9e25bc838295b6ff5e2f28c6df"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 4,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 4 + 4 + 4.",
+        "Multiply that gridline total by the scale, 2, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 2 mm of rainfall: March reaches 4 gridlines, April reaches 4 gridlines, and May reaches 4 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 4,
+      "g2": 4,
+      "g3": 4,
+      "k": 2
+    },
+    "variant_signature": "dcd8857c0001c390946d195fd962fd9afb8fb9cc265b4632a1aabdf239b365ca"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "47"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "March"
+          },
+          {
+            "gridlines": 4,
+            "label": "April"
+          },
+          {
+            "gridlines": 4,
+            "label": "May"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4,
+        "unit": "mm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add the gridline counts first, but each gridline is worth more than 1 mm.",
+      "Once you have the total gridlines, multiply by the scale to get the actual total."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the gridlines across all three months: 4 + 4 + 4.",
+        "Multiply that gridline total by the scale, 4, to get the combined rainfall."
+      ]
+    },
+    "stem": "A bar graph shows rainy days per month, with each gridline worth 4 mm of rainfall: March reaches 4 gridlines, April reaches 4 gridlines, and May reaches 4 gridlines. What is the combined rainfall shown for all three months?",
+    "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g1": 4,
+      "g2": 4,
+      "g3": 4,
+      "k": 4
+    },
+    "variant_signature": "11916f26629ae173a317b1401552e3d8d5ec1859e0023140f921186849f12d06"
+  }
+]

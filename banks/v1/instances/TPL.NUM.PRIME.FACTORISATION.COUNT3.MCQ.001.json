@@ -1,0 +1,782 @@
+[
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 2 x 2 x 3 treating \"2 x 2\" as one leftover chunk \u2014 2 and 3 are each already prime.",
+        "Counted with repetition, 2 appears twice and 3 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 2 x 2 x 3 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 3
+    },
+    "variant_signature": "7f01c8e709219b64ba3499bc3ff40818051c3fc3a422b994e71f42a67effff46"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 2 x 2 x 5 treating \"2 x 2\" as one leftover chunk \u2014 2 and 5 are each already prime.",
+        "Counted with repetition, 2 appears twice and 5 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 2 x 2 x 5 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 5
+    },
+    "variant_signature": "4166b07d871797098eb1065ec8b80f5f671ece968daa47c962794a2a94816123"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 2 x 2 x 7 treating \"2 x 2\" as one leftover chunk \u2014 2 and 7 are each already prime.",
+        "Counted with repetition, 2 appears twice and 7 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 2 x 2 x 7 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 7
+    },
+    "variant_signature": "d423ce9290e2eb28a775baebd24e33f029ba08ce20eef20618f69a4ae5e8675c"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 2 x 2 x 11 treating \"2 x 2\" as one leftover chunk \u2014 2 and 11 are each already prime.",
+        "Counted with repetition, 2 appears twice and 11 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 2 x 2 x 11 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 11
+    },
+    "variant_signature": "20b211d5dfb4a5180a6e82ed4990eaaa3d5a58b6224c29ea4442afabb7c35152"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 3 x 3 x 2 treating \"3 x 3\" as one leftover chunk \u2014 3 and 2 are each already prime.",
+        "Counted with repetition, 3 appears twice and 2 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 3 x 3 x 2 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 2
+    },
+    "variant_signature": "d25d3893dc2d1ae4b2646b1cf869ff5ea9d451efe85610ddfdfef2127e811288"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 3 x 3 x 5 treating \"3 x 3\" as one leftover chunk \u2014 3 and 5 are each already prime.",
+        "Counted with repetition, 3 appears twice and 5 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 3 x 3 x 5 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 5
+    },
+    "variant_signature": "2e7767ca4c3ae85ba56e925a9509fee6b81a4d23715784c2a707e99ca4cbc6a6"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 3 x 3 x 7 treating \"3 x 3\" as one leftover chunk \u2014 3 and 7 are each already prime.",
+        "Counted with repetition, 3 appears twice and 7 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 3 x 3 x 7 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 7
+    },
+    "variant_signature": "fea6d5e0b559daae998549aa5252505dccc69225945acd4cc7d54bcf43701954"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 3 x 3 x 11 treating \"3 x 3\" as one leftover chunk \u2014 3 and 11 are each already prime.",
+        "Counted with repetition, 3 appears twice and 11 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 3 x 3 x 11 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 11
+    },
+    "variant_signature": "6b33e2cc0a396365041b734d781bf42035ceb9d7be1bdf5baa5828ff39d20bf2"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 5 x 5 x 2 treating \"5 x 5\" as one leftover chunk \u2014 5 and 2 are each already prime.",
+        "Counted with repetition, 5 appears twice and 2 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 5 x 5 x 2 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 2
+    },
+    "variant_signature": "98995fe588e6e14c5e067890e92d4ecfe1cf9914b3013346c5b23ca789f8d728"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 5 x 5 x 3 treating \"5 x 5\" as one leftover chunk \u2014 5 and 3 are each already prime.",
+        "Counted with repetition, 5 appears twice and 3 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 5 x 5 x 3 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 3
+    },
+    "variant_signature": "03820cf6e732bfbbd190c07ec70fd0e10f1753f5314c7c30dd9b2b18171c5094"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 5 x 5 x 7 treating \"5 x 5\" as one leftover chunk \u2014 5 and 7 are each already prime.",
+        "Counted with repetition, 5 appears twice and 7 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 5 x 5 x 7 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 7
+    },
+    "variant_signature": "145b5d70cc801d6e909f62f56522c4516cc554ee1c67f9d52df206b2404072f8"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 5 x 5 x 11 treating \"5 x 5\" as one leftover chunk \u2014 5 and 11 are each already prime.",
+        "Counted with repetition, 5 appears twice and 11 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 5 x 5 x 11 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 11
+    },
+    "variant_signature": "30afedec9a4e216977b1f2e276734d464957f7d4d481cc2123b85e209263c260"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 7 x 7 x 2 treating \"7 x 7\" as one leftover chunk \u2014 7 and 2 are each already prime.",
+        "Counted with repetition, 7 appears twice and 2 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 7 x 7 x 2 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 2
+    },
+    "variant_signature": "0cbe3d011c396776a80a30b7d2115ffee834715d39d944f7ac6dfb5c2ff7e678"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 7 x 7 x 3 treating \"7 x 7\" as one leftover chunk \u2014 7 and 3 are each already prime.",
+        "Counted with repetition, 7 appears twice and 3 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 7 x 7 x 3 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 3
+    },
+    "variant_signature": "e11a001593829a3d991532cdfcfea6cba8c456c5f4457f6e5cc5f92be9d5cd9d"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 7 x 7 x 5 treating \"7 x 7\" as one leftover chunk \u2014 7 and 5 are each already prime.",
+        "Counted with repetition, 7 appears twice and 5 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 7 x 7 x 5 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 5
+    },
+    "variant_signature": "743a0c4a3686b7db812fb7ca4f70a544c2fafc59dc1dbae3ab1206d4da5d9c96"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 7 x 7 x 11 treating \"7 x 7\" as one leftover chunk \u2014 7 and 11 are each already prime.",
+        "Counted with repetition, 7 appears twice and 11 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 7 x 7 x 11 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 11
+    },
+    "variant_signature": "0f0df1c659493bb6b91bf8d58d4935e17d2aca113d4ff20b3e7f9c1151c4ee25"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 11 x 11 x 2 treating \"11 x 11\" as one leftover chunk \u2014 11 and 2 are each already prime.",
+        "Counted with repetition, 11 appears twice and 2 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 11 x 11 x 2 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 11,
+      "q": 2
+    },
+    "variant_signature": "05cd4e8d03eb61e96fe47c4c237527cf4b9c1916d1d90fbe006354912b040237"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 11 x 11 x 3 treating \"11 x 11\" as one leftover chunk \u2014 11 and 3 are each already prime.",
+        "Counted with repetition, 11 appears twice and 3 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 11 x 11 x 3 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 11,
+      "q": 3
+    },
+    "variant_signature": "1c3debd274b61da8e7564f17f3dbb996f482ff007c33674e1ee8b18eafefb5b8"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 11 x 11 x 5 treating \"11 x 11\" as one leftover chunk \u2014 11 and 5 are each already prime.",
+        "Counted with repetition, 11 appears twice and 5 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 11 x 11 x 5 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 11,
+      "q": 5
+    },
+    "variant_signature": "51f4e54d4af8ed35629ab8f347da9b64b89afdd1b64b2992c2897e55247b3081"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Make sure every factor you count is actually prime, not a product still waiting to be broken down."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Do not stop at 11 x 11 x 7 treating \"11 x 11\" as one leftover chunk \u2014 11 and 7 are each already prime.",
+        "Counted with repetition, 11 appears twice and 7 once, so there are 3 prime factors in total."
+      ]
+    },
+    "stem": "The number 11 x 11 x 7 is built from two different prime numbers. How many prime factors does it have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 11,
+      "q": 7
+    },
+    "variant_signature": "bfa8f9155495f532567fb817a97c6cee76ecceeea3c8b72943924b7d83a178cf"
+  }
+]

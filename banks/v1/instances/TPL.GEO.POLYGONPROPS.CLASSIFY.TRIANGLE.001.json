@@ -1,0 +1,51 @@
+[
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "What do the three corner angles of any triangle always add up to?",
+      "If two corners were both 90 degrees, how much would be left over for the third corner?"
+    ],
+    "item_instance_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.TRIANGLE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POLYGON.PROPS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The three corner angles of a triangle always add up to 180 degrees.",
+        "Two square (90-degree) corners alone would already add up to 180 degrees, leaving nothing for the third corner \u2014 so a triangle can have at most 1 square corner."
+      ]
+    },
+    "stem": "A triangle has 3 straight sides and 3 corners, and its corner angles always add up to 180 degrees in total. What is the greatest number of square (90-degree) corners it can have at the same time?",
+    "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.TRIANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 1
+    },
+    "variant_signature": "dc404985844d207d3df6320c3892bf4d1d48218a70627128a497f4d1fb69402c"
+  }
+]

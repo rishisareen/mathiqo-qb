@@ -1,0 +1,258 @@
+[
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "collinear": true,
+        "elements": [
+          {
+            "count": 1,
+            "element": "line"
+          },
+          {
+            "count": 4,
+            "element": "point"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try it with just 3 points first \u2014 how many segments can you draw between them?",
+      "Each point pairs with every other point once. That's n(n-1) ordered pairs, but each segment gets counted twice (once from each end), so divide by 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.SEGMENTS.COLLINEAR.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every pair of the 4 points gives one line segment, and order doesn't matter \u2014 the segment from point 1 to point 2 is the same segment as from point 2 to point 1.",
+        "The number of pairs from 4 points is n(n-1)/2 = 4(4-1)/2."
+      ]
+    },
+    "stem": "4 points are marked on a straight line, no two in the same place. Counting every pair of these points as the two endpoints of a line segment, how many different line segments do the 4 points determine in total?",
+    "template_id": "TPL.GEO.POINTLINE.SEGMENTS.COLLINEAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 4
+    },
+    "variant_signature": "45a57daa2abfb9ec065d84042bbd5e000dd03e098f52ff0b543c2e244fdb9bcf"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "collinear": true,
+        "elements": [
+          {
+            "count": 1,
+            "element": "line"
+          },
+          {
+            "count": 5,
+            "element": "point"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try it with just 3 points first \u2014 how many segments can you draw between them?",
+      "Each point pairs with every other point once. That's n(n-1) ordered pairs, but each segment gets counted twice (once from each end), so divide by 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.SEGMENTS.COLLINEAR.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every pair of the 5 points gives one line segment, and order doesn't matter \u2014 the segment from point 1 to point 2 is the same segment as from point 2 to point 1.",
+        "The number of pairs from 5 points is n(n-1)/2 = 5(5-1)/2."
+      ]
+    },
+    "stem": "5 points are marked on a straight line, no two in the same place. Counting every pair of these points as the two endpoints of a line segment, how many different line segments do the 5 points determine in total?",
+    "template_id": "TPL.GEO.POINTLINE.SEGMENTS.COLLINEAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 5
+    },
+    "variant_signature": "c8894361e607ab78822f62aee7f2275eed4d75f25b306a5fce2e5b9e88d2e536"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": [
+      {
+        "collinear": true,
+        "elements": [
+          {
+            "count": 1,
+            "element": "line"
+          },
+          {
+            "count": 6,
+            "element": "point"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try it with just 3 points first \u2014 how many segments can you draw between them?",
+      "Each point pairs with every other point once. That's n(n-1) ordered pairs, but each segment gets counted twice (once from each end), so divide by 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.SEGMENTS.COLLINEAR.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every pair of the 6 points gives one line segment, and order doesn't matter \u2014 the segment from point 1 to point 2 is the same segment as from point 2 to point 1.",
+        "The number of pairs from 6 points is n(n-1)/2 = 6(6-1)/2."
+      ]
+    },
+    "stem": "6 points are marked on a straight line, no two in the same place. Counting every pair of these points as the two endpoints of a line segment, how many different line segments do the 6 points determine in total?",
+    "template_id": "TPL.GEO.POINTLINE.SEGMENTS.COLLINEAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 6
+    },
+    "variant_signature": "62f1c11d5f11340b18137321f6dc91608a64602c28aff7ac1e1b7d0e30b70aa7"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      }
+    ],
+    "figures": [
+      {
+        "collinear": true,
+        "elements": [
+          {
+            "count": 1,
+            "element": "line"
+          },
+          {
+            "count": 7,
+            "element": "point"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try it with just 3 points first \u2014 how many segments can you draw between them?",
+      "Each point pairs with every other point once. That's n(n-1) ordered pairs, but each segment gets counted twice (once from each end), so divide by 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.SEGMENTS.COLLINEAR.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every pair of the 7 points gives one line segment, and order doesn't matter \u2014 the segment from point 1 to point 2 is the same segment as from point 2 to point 1.",
+        "The number of pairs from 7 points is n(n-1)/2 = 7(7-1)/2."
+      ]
+    },
+    "stem": "7 points are marked on a straight line, no two in the same place. Counting every pair of these points as the two endpoints of a line segment, how many different line segments do the 7 points determine in total?",
+    "template_id": "TPL.GEO.POINTLINE.SEGMENTS.COLLINEAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 7
+    },
+    "variant_signature": "f4d25e512ef775a64e53ed3e595691f468194848af4a7708888c8f8550f7809b"
+  }
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "answer": "114",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 1 hundreds, 1 tens, and 4 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 1 x 100, 1 x 10, and 4 x 1.",
+        "Add the three place values together: (100 x 1) + (10 x 1) + 4."
+      ]
+    },
+    "stem": "A number has 1 hundreds, 1 tens, and 4 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 1,
+      "o": 4,
+      "t": 1
+    },
+    "variant_signature": "031ec0f57206c3bb4b56b4224f01d453a8f0d230b8ee28720117d3b34ec3d133"
+  },
+  {
+    "answer": "136",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 1 hundreds, 3 tens, and 6 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 1 x 100, 3 x 10, and 6 x 1.",
+        "Add the three place values together: (100 x 1) + (10 x 3) + 6."
+      ]
+    },
+    "stem": "A number has 1 hundreds, 3 tens, and 6 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 1,
+      "o": 6,
+      "t": 3
+    },
+    "variant_signature": "34c49e2eeef957ea5d20656fb67b4a166ee4d5901fd5636bdb6a52bd2a163cc7"
+  },
+  {
+    "answer": "159",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 1 hundreds, 5 tens, and 9 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 1 x 100, 5 x 10, and 9 x 1.",
+        "Add the three place values together: (100 x 1) + (10 x 5) + 9."
+      ]
+    },
+    "stem": "A number has 1 hundreds, 5 tens, and 9 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 1,
+      "o": 9,
+      "t": 5
+    },
+    "variant_signature": "182e51895a75d0d2923588038f23e31290839a8b1a80755e8f58cd2c29194935"
+  },
+  {
+    "answer": "181",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 1 hundreds, 8 tens, and 1 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 1 x 100, 8 x 10, and 1 x 1.",
+        "Add the three place values together: (100 x 1) + (10 x 8) + 1."
+      ]
+    },
+    "stem": "A number has 1 hundreds, 8 tens, and 1 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 1,
+      "o": 1,
+      "t": 8
+    },
+    "variant_signature": "587435547692b6abea1229f1de675719203a0eb9ccc79d3e294328d4ea8ea099"
+  },
+  {
+    "answer": "204",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 2 hundreds, 0 tens, and 4 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 2 x 100, 0 x 10, and 4 x 1.",
+        "Add the three place values together: (100 x 2) + (10 x 0) + 4."
+      ]
+    },
+    "stem": "A number has 2 hundreds, 0 tens, and 4 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 2,
+      "o": 4,
+      "t": 0
+    },
+    "variant_signature": "6085ff58dbc9e51d23148ad28b94bd749d708638169583796896c290ec2f1028"
+  },
+  {
+    "answer": "226",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 2 hundreds, 2 tens, and 6 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 2 x 100, 2 x 10, and 6 x 1.",
+        "Add the three place values together: (100 x 2) + (10 x 2) + 6."
+      ]
+    },
+    "stem": "A number has 2 hundreds, 2 tens, and 6 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 2,
+      "o": 6,
+      "t": 2
+    },
+    "variant_signature": "f6956efab7bdc461816dee61751bf5c53a03fce727ce1d8f489ce06500475fe7"
+  },
+  {
+    "answer": "249",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 2 hundreds, 4 tens, and 9 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 2 x 100, 4 x 10, and 9 x 1.",
+        "Add the three place values together: (100 x 2) + (10 x 4) + 9."
+      ]
+    },
+    "stem": "A number has 2 hundreds, 4 tens, and 9 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 2,
+      "o": 9,
+      "t": 4
+    },
+    "variant_signature": "fae1f80f21b8d2cd6ff4d908dcfde6ad80346ccfba4e661d73bba85e52731d46"
+  },
+  {
+    "answer": "271",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 2 hundreds, 7 tens, and 1 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 2 x 100, 7 x 10, and 1 x 1.",
+        "Add the three place values together: (100 x 2) + (10 x 7) + 1."
+      ]
+    },
+    "stem": "A number has 2 hundreds, 7 tens, and 1 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 2,
+      "o": 1,
+      "t": 7
+    },
+    "variant_signature": "dd95f2668ecb59a69a2a414696558681c1a0aea569e8c547ec8af3b8fbb5a0ad"
+  },
+  {
+    "answer": "294",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 2 hundreds, 9 tens, and 4 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 2 x 100, 9 x 10, and 4 x 1.",
+        "Add the three place values together: (100 x 2) + (10 x 9) + 4."
+      ]
+    },
+    "stem": "A number has 2 hundreds, 9 tens, and 4 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 2,
+      "o": 4,
+      "t": 9
+    },
+    "variant_signature": "1ed89df368e773f25a99b3c5a5a0b69909a93a8fb9e9b7a38b220a95fac0fec2"
+  },
+  {
+    "answer": "316",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 3 hundreds, 1 tens, and 6 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 3 x 100, 1 x 10, and 6 x 1.",
+        "Add the three place values together: (100 x 3) + (10 x 1) + 6."
+      ]
+    },
+    "stem": "A number has 3 hundreds, 1 tens, and 6 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 3,
+      "o": 6,
+      "t": 1
+    },
+    "variant_signature": "7d4f69a7e5843d6d6adf799014b21588a67d2d8534cc5c91646d194ba841e5ae"
+  },
+  {
+    "answer": "339",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 3 hundreds, 3 tens, and 9 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 3 x 100, 3 x 10, and 9 x 1.",
+        "Add the three place values together: (100 x 3) + (10 x 3) + 9."
+      ]
+    },
+    "stem": "A number has 3 hundreds, 3 tens, and 9 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 3,
+      "o": 9,
+      "t": 3
+    },
+    "variant_signature": "5e4e9e2f5ee30323a01605bc065a5525ab0e68099a8e4ccb2d32eee8a904074b"
+  },
+  {
+    "answer": "361",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 3 hundreds, 6 tens, and 1 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 3 x 100, 6 x 10, and 1 x 1.",
+        "Add the three place values together: (100 x 3) + (10 x 6) + 1."
+      ]
+    },
+    "stem": "A number has 3 hundreds, 6 tens, and 1 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 3,
+      "o": 1,
+      "t": 6
+    },
+    "variant_signature": "6b27100be677ae2a38a77d8a0c5f39ea9d67089ef7b9fd49269fee27a23cc6f1"
+  },
+  {
+    "answer": "384",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 3 hundreds, 8 tens, and 4 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 3 x 100, 8 x 10, and 4 x 1.",
+        "Add the three place values together: (100 x 3) + (10 x 8) + 4."
+      ]
+    },
+    "stem": "A number has 3 hundreds, 8 tens, and 4 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 3,
+      "o": 4,
+      "t": 8
+    },
+    "variant_signature": "e2d946bdc6aba6c3b3df3b635102b5d21613293413840fbbfcb52905870f05b3"
+  },
+  {
+    "answer": "406",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 4 hundreds, 0 tens, and 6 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 4 x 100, 0 x 10, and 6 x 1.",
+        "Add the three place values together: (100 x 4) + (10 x 0) + 6."
+      ]
+    },
+    "stem": "A number has 4 hundreds, 0 tens, and 6 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 4,
+      "o": 6,
+      "t": 0
+    },
+    "variant_signature": "83dd8787caf73300650fb23073f455228a44cf954a1d02ffc68c012ab3d0d42e"
+  },
+  {
+    "answer": "429",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 4 hundreds, 2 tens, and 9 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 4 x 100, 2 x 10, and 9 x 1.",
+        "Add the three place values together: (100 x 4) + (10 x 2) + 9."
+      ]
+    },
+    "stem": "A number has 4 hundreds, 2 tens, and 9 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 4,
+      "o": 9,
+      "t": 2
+    },
+    "variant_signature": "5ee72077c3644064ae4bfabf837c5ac285475c657a9818260ec611a70c4b94a7"
+  },
+  {
+    "answer": "451",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 4 hundreds, 5 tens, and 1 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 4 x 100, 5 x 10, and 1 x 1.",
+        "Add the three place values together: (100 x 4) + (10 x 5) + 1."
+      ]
+    },
+    "stem": "A number has 4 hundreds, 5 tens, and 1 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 4,
+      "o": 1,
+      "t": 5
+    },
+    "variant_signature": "038aa214bd8bdf02a8ebfec5e8ab367405127ad20e65085b819bef68c677f98f"
+  },
+  {
+    "answer": "474",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 4 hundreds, 7 tens, and 4 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 4 x 100, 7 x 10, and 4 x 1.",
+        "Add the three place values together: (100 x 4) + (10 x 7) + 4."
+      ]
+    },
+    "stem": "A number has 4 hundreds, 7 tens, and 4 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 4,
+      "o": 4,
+      "t": 7
+    },
+    "variant_signature": "ae1abccc2103dafdc3bcf16c1e25a50fa96b3de31353c51ecfbce20038c0462f"
+  },
+  {
+    "answer": "496",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 4 hundreds, 9 tens, and 6 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 4 x 100, 9 x 10, and 6 x 1.",
+        "Add the three place values together: (100 x 4) + (10 x 9) + 6."
+      ]
+    },
+    "stem": "A number has 4 hundreds, 9 tens, and 6 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 4,
+      "o": 6,
+      "t": 9
+    },
+    "variant_signature": "b710af2ebb816088bf1af86da862f0742f3f29a09b51d5ffe2d656938273b4e2"
+  },
+  {
+    "answer": "519",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 5 hundreds, 1 tens, and 9 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 5 x 100, 1 x 10, and 9 x 1.",
+        "Add the three place values together: (100 x 5) + (10 x 1) + 9."
+      ]
+    },
+    "stem": "A number has 5 hundreds, 1 tens, and 9 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 5,
+      "o": 9,
+      "t": 1
+    },
+    "variant_signature": "3048e0d28a3955798956d9e4897e470845dec5aea4865eb070dc2bf803285586"
+  },
+  {
+    "answer": "541",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 5 hundreds, 4 tens, and 1 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 5 x 100, 4 x 10, and 1 x 1.",
+        "Add the three place values together: (100 x 5) + (10 x 4) + 1."
+      ]
+    },
+    "stem": "A number has 5 hundreds, 4 tens, and 1 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 5,
+      "o": 1,
+      "t": 4
+    },
+    "variant_signature": "894109ee8bb03dde711d9a33083fc693330ebe8a789d00a923e4e3414a376187"
+  },
+  {
+    "answer": "564",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 5 hundreds, 6 tens, and 4 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 5 x 100, 6 x 10, and 4 x 1.",
+        "Add the three place values together: (100 x 5) + (10 x 6) + 4."
+      ]
+    },
+    "stem": "A number has 5 hundreds, 6 tens, and 4 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 5,
+      "o": 4,
+      "t": 6
+    },
+    "variant_signature": "be3f351f37a5d82c344b6a859d579336649de706f11d79310a0edcb17ad0c12f"
+  },
+  {
+    "answer": "586",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 5 hundreds, 8 tens, and 6 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 5 x 100, 8 x 10, and 6 x 1.",
+        "Add the three place values together: (100 x 5) + (10 x 8) + 6."
+      ]
+    },
+    "stem": "A number has 5 hundreds, 8 tens, and 6 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 5,
+      "o": 6,
+      "t": 8
+    },
+    "variant_signature": "8bfbc82fb4a42703b3b80956a138f95c8309c1b596ff9bf150c462c181a0280d"
+  },
+  {
+    "answer": "609",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 6 hundreds, 0 tens, and 9 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 6 x 100, 0 x 10, and 9 x 1.",
+        "Add the three place values together: (100 x 6) + (10 x 0) + 9."
+      ]
+    },
+    "stem": "A number has 6 hundreds, 0 tens, and 9 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 6,
+      "o": 9,
+      "t": 0
+    },
+    "variant_signature": "02b22883d7ff9f33fd3359ff8047c9dfc764db6a8ed0a639e946ad727508c6c6"
+  },
+  {
+    "answer": "631",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 6 hundreds, 3 tens, and 1 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 6 x 100, 3 x 10, and 1 x 1.",
+        "Add the three place values together: (100 x 6) + (10 x 3) + 1."
+      ]
+    },
+    "stem": "A number has 6 hundreds, 3 tens, and 1 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 6,
+      "o": 1,
+      "t": 3
+    },
+    "variant_signature": "f07cdb493700f0e38e0b49cdc4fb6b6882703568e532fd61ea28449b1afa6971"
+  },
+  {
+    "answer": "654",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 6 hundreds, 5 tens, and 4 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 6 x 100, 5 x 10, and 4 x 1.",
+        "Add the three place values together: (100 x 6) + (10 x 5) + 4."
+      ]
+    },
+    "stem": "A number has 6 hundreds, 5 tens, and 4 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 6,
+      "o": 4,
+      "t": 5
+    },
+    "variant_signature": "b3f6948c4f89f5d9777617c4d5c162547ca3dcaafe6a9c6410d21c1a58cfb63a"
+  },
+  {
+    "answer": "676",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 6 hundreds, 7 tens, and 6 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 6 x 100, 7 x 10, and 6 x 1.",
+        "Add the three place values together: (100 x 6) + (10 x 7) + 6."
+      ]
+    },
+    "stem": "A number has 6 hundreds, 7 tens, and 6 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 6,
+      "o": 6,
+      "t": 7
+    },
+    "variant_signature": "f35f095706bec5064d4967694c35dee0bace9fb2ae64f96f32fae82554c0c5d0"
+  },
+  {
+    "answer": "699",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 6 hundreds, 9 tens, and 9 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 6 x 100, 9 x 10, and 9 x 1.",
+        "Add the three place values together: (100 x 6) + (10 x 9) + 9."
+      ]
+    },
+    "stem": "A number has 6 hundreds, 9 tens, and 9 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 6,
+      "o": 9,
+      "t": 9
+    },
+    "variant_signature": "f3879e3715a692831e25063a8492b3d48e8c8a18c25c639f5b6067a42e650ff8"
+  },
+  {
+    "answer": "721",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 7 hundreds, 2 tens, and 1 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 7 x 100, 2 x 10, and 1 x 1.",
+        "Add the three place values together: (100 x 7) + (10 x 2) + 1."
+      ]
+    },
+    "stem": "A number has 7 hundreds, 2 tens, and 1 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 7,
+      "o": 1,
+      "t": 2
+    },
+    "variant_signature": "bca604d259d32821ec2a2735461170bd248ca29022321f5c149555bf1c844061"
+  },
+  {
+    "answer": "744",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 7 hundreds, 4 tens, and 4 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 7 x 100, 4 x 10, and 4 x 1.",
+        "Add the three place values together: (100 x 7) + (10 x 4) + 4."
+      ]
+    },
+    "stem": "A number has 7 hundreds, 4 tens, and 4 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 7,
+      "o": 4,
+      "t": 4
+    },
+    "variant_signature": "1a42e0027d93c8ac7b6e106d1a21333bb2f9ead2b2f4310546eb4d922ec0791d"
+  },
+  {
+    "answer": "766",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 7 hundreds, 6 tens, and 6 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 7 x 100, 6 x 10, and 6 x 1.",
+        "Add the three place values together: (100 x 7) + (10 x 6) + 6."
+      ]
+    },
+    "stem": "A number has 7 hundreds, 6 tens, and 6 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 7,
+      "o": 6,
+      "t": 6
+    },
+    "variant_signature": "41ac6d4b14357e58009e5f97f6531e10773366d7715fe619b6bfba626f3827b6"
+  },
+  {
+    "answer": "789",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 7 hundreds, 8 tens, and 9 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 7 x 100, 8 x 10, and 9 x 1.",
+        "Add the three place values together: (100 x 7) + (10 x 8) + 9."
+      ]
+    },
+    "stem": "A number has 7 hundreds, 8 tens, and 9 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 7,
+      "o": 9,
+      "t": 8
+    },
+    "variant_signature": "b26c9acd3960cbc5767d0d12bef662506065f9c520f486158c983cabf5bfecf2"
+  },
+  {
+    "answer": "811",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 8 hundreds, 1 tens, and 1 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 8 x 100, 1 x 10, and 1 x 1.",
+        "Add the three place values together: (100 x 8) + (10 x 1) + 1."
+      ]
+    },
+    "stem": "A number has 8 hundreds, 1 tens, and 1 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 8,
+      "o": 1,
+      "t": 1
+    },
+    "variant_signature": "cfa6949c26acb94e955c2caa3c469c8f7cdab2b21502d61e1c982379c89b1eef"
+  },
+  {
+    "answer": "834",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 8 hundreds, 3 tens, and 4 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 8 x 100, 3 x 10, and 4 x 1.",
+        "Add the three place values together: (100 x 8) + (10 x 3) + 4."
+      ]
+    },
+    "stem": "A number has 8 hundreds, 3 tens, and 4 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 8,
+      "o": 4,
+      "t": 3
+    },
+    "variant_signature": "6a9de74d656e006cbce4d9f73285215bb0a675453f06b6dc04a91caa6a1393df"
+  },
+  {
+    "answer": "856",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 8 hundreds, 5 tens, and 6 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 8 x 100, 5 x 10, and 6 x 1.",
+        "Add the three place values together: (100 x 8) + (10 x 5) + 6."
+      ]
+    },
+    "stem": "A number has 8 hundreds, 5 tens, and 6 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 8,
+      "o": 6,
+      "t": 5
+    },
+    "variant_signature": "cabdc9f55a17210981f1954c1d23eacc3c5b5e95fcde5926c9c29162937f6bd1"
+  },
+  {
+    "answer": "879",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 8 hundreds, 7 tens, and 9 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 8 x 100, 7 x 10, and 9 x 1.",
+        "Add the three place values together: (100 x 8) + (10 x 7) + 9."
+      ]
+    },
+    "stem": "A number has 8 hundreds, 7 tens, and 9 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 8,
+      "o": 9,
+      "t": 7
+    },
+    "variant_signature": "0e26717a4c7bde8a2a434ea1b12b2c50f0a5e21a8eeffeddd6805b8d43817ba1"
+  },
+  {
+    "answer": "901",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 9 hundreds, 0 tens, and 1 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 9 x 100, 0 x 10, and 1 x 1.",
+        "Add the three place values together: (100 x 9) + (10 x 0) + 1."
+      ]
+    },
+    "stem": "A number has 9 hundreds, 0 tens, and 1 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 9,
+      "o": 1,
+      "t": 0
+    },
+    "variant_signature": "fe0c4b71efeb819b483e594b64305e406bde66da3d908996e9ff5321776168b2"
+  },
+  {
+    "answer": "924",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 9 hundreds, 2 tens, and 4 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 9 x 100, 2 x 10, and 4 x 1.",
+        "Add the three place values together: (100 x 9) + (10 x 2) + 4."
+      ]
+    },
+    "stem": "A number has 9 hundreds, 2 tens, and 4 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 9,
+      "o": 4,
+      "t": 2
+    },
+    "variant_signature": "c6652e57ec0dfab48b0755e14984b2669b45775a326c7504f1ce28859a6d8ebc"
+  },
+  {
+    "answer": "946",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 9 hundreds, 4 tens, and 6 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 9 x 100, 4 x 10, and 6 x 1.",
+        "Add the three place values together: (100 x 9) + (10 x 4) + 6."
+      ]
+    },
+    "stem": "A number has 9 hundreds, 4 tens, and 6 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 9,
+      "o": 6,
+      "t": 4
+    },
+    "variant_signature": "b4a3bcfe38bcb8fcf84101955f399af070c0049fa9de0547e571875d46e4e886"
+  },
+  {
+    "answer": "969",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 9 hundreds, 6 tens, and 9 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 9 x 100, 6 x 10, and 9 x 1.",
+        "Add the three place values together: (100 x 9) + (10 x 6) + 9."
+      ]
+    },
+    "stem": "A number has 9 hundreds, 6 tens, and 9 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 9,
+      "o": 9,
+      "t": 6
+    },
+    "variant_signature": "8fd82debb4265311d3c496e75927ba74b3a0d18b521edc69984072997ef0f7f4"
+  },
+  {
+    "answer": "991",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Hundreds are worth 100 each, tens are worth 10 each, and ones are worth 1 each.",
+      "Add up 9 hundreds, 9 tens, and 1 ones \u2014 don't forget a digit for every place, even if it happens to be 0."
+    ],
+    "item_instance_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PLACE.VALUE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply each digit by what its place is worth: 9 x 100, 9 x 10, and 1 x 1.",
+        "Add the three place values together: (100 x 9) + (10 x 9) + 1."
+      ]
+    },
+    "stem": "A number has 9 hundreds, 9 tens, and 1 ones. What is the number in standard form?",
+    "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 9,
+      "o": 1,
+      "t": 9
+    },
+    "variant_signature": "faa211d00e8e9922c39f14e688def0d1f76b1fa2dc17296916b2d886d635bd95"
+  }
+]

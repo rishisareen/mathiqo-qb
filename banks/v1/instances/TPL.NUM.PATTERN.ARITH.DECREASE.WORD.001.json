@@ -1,0 +1,1842 @@
+[
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Ravi have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Ravi spends each day: 30 - 22, which equals 22 - 14.",
+        "Subtract that same daily amount from 14 to find what's left after day 3."
+      ]
+    },
+    "stem": "Ravi starts with Rs 30 and spends the same amount each day: Rs 22 left after day 1, Rs 14 left after day 2, following the same steady pattern. How much money will Ravi have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 30,
+      "t2": 22,
+      "t3": 14
+    },
+    "variant_signature": "560100fbc3399c63b0be1a366786fed4188f0971d79aba4f5345e6d88a40ff00"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Priya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Priya spends each day: 30 - 28, which equals 28 - 26.",
+        "Subtract that same daily amount from 26 to find what's left after day 3."
+      ]
+    },
+    "stem": "Priya starts with Rs 30 and spends the same amount each day: Rs 28 left after day 1, Rs 26 left after day 2, following the same steady pattern. How much money will Priya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 30,
+      "t2": 28,
+      "t3": 26
+    },
+    "variant_signature": "5edb67f717f2794a321b8af77e26cddfb65fa8b0a43439c56b805fb791aeed5b"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Arjun have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Arjun spends each day: 31 - 24, which equals 24 - 17.",
+        "Subtract that same daily amount from 17 to find what's left after day 3."
+      ]
+    },
+    "stem": "Arjun starts with Rs 31 and spends the same amount each day: Rs 24 left after day 1, Rs 17 left after day 2, following the same steady pattern. How much money will Arjun have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 31,
+      "t2": 24,
+      "t3": 17
+    },
+    "variant_signature": "9739266e3628c7e43f76aa19cfdbcb58c3886dbb482abc757b43c78fb6754e17"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Meera have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Meera spends each day: 31 - 30, which equals 30 - 29.",
+        "Subtract that same daily amount from 29 to find what's left after day 3."
+      ]
+    },
+    "stem": "Meera starts with Rs 31 and spends the same amount each day: Rs 30 left after day 1, Rs 29 left after day 2, following the same steady pattern. How much money will Meera have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 31,
+      "t2": 30,
+      "t3": 29
+    },
+    "variant_signature": "4770c423f7b4558e581eb7ffef93106a51e77320f3c5967937b502314cf8888c"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Diya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Diya spends each day: 32 - 25, which equals 25 - 18.",
+        "Subtract that same daily amount from 18 to find what's left after day 3."
+      ]
+    },
+    "stem": "Diya starts with Rs 32 and spends the same amount each day: Rs 25 left after day 1, Rs 18 left after day 2, following the same steady pattern. How much money will Diya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 32,
+      "t2": 25,
+      "t3": 18
+    },
+    "variant_signature": "772d5d54c660c830907a4856bb2eb868759d06ae4ca478431d95e97e976e6b7c"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-29"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Kabir have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Kabir spends each day: 32 - 31, which equals 31 - 30.",
+        "Subtract that same daily amount from 30 to find what's left after day 3."
+      ]
+    },
+    "stem": "Kabir starts with Rs 32 and spends the same amount each day: Rs 31 left after day 1, Rs 30 left after day 2, following the same steady pattern. How much money will Kabir have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 32,
+      "t2": 31,
+      "t3": 30
+    },
+    "variant_signature": "55d2d224b6529dc931fe92602d58a9d09741458db07f692153e580544ace37c7"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Ananya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Ananya spends each day: 33 - 26, which equals 26 - 19.",
+        "Subtract that same daily amount from 19 to find what's left after day 3."
+      ]
+    },
+    "stem": "Ananya starts with Rs 33 and spends the same amount each day: Rs 26 left after day 1, Rs 19 left after day 2, following the same steady pattern. How much money will Ananya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 33,
+      "t2": 26,
+      "t3": 19
+    },
+    "variant_signature": "982fbd7f2b99489a1e7a8541963067dfa67c1e24785a145418788874a424143f"
+  },
+  {
+    "answer": "-5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Vihaan have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Vihaan spends each day: 34 - 21, which equals 21 - 8.",
+        "Subtract that same daily amount from 8 to find what's left after day 3."
+      ]
+    },
+    "stem": "Vihaan starts with Rs 34 and spends the same amount each day: Rs 21 left after day 1, Rs 8 left after day 2, following the same steady pattern. How much money will Vihaan have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 34,
+      "t2": 21,
+      "t3": 8
+    },
+    "variant_signature": "da9e5065fdbff30aaa7aaf6da5e50e73b54caee996cfbe022e60c5b2f821663e"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Ravi have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Ravi spends each day: 34 - 27, which equals 27 - 20.",
+        "Subtract that same daily amount from 20 to find what's left after day 3."
+      ]
+    },
+    "stem": "Ravi starts with Rs 34 and spends the same amount each day: Rs 27 left after day 1, Rs 20 left after day 2, following the same steady pattern. How much money will Ravi have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 34,
+      "t2": 27,
+      "t3": 20
+    },
+    "variant_signature": "717ad2965aa28017f0093bcc36eecdc1019b60db5467343abf4d1970230b3bc8"
+  },
+  {
+    "answer": "-7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Priya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Priya spends each day: 35 - 21, which equals 21 - 7.",
+        "Subtract that same daily amount from 7 to find what's left after day 3."
+      ]
+    },
+    "stem": "Priya starts with Rs 35 and spends the same amount each day: Rs 21 left after day 1, Rs 7 left after day 2, following the same steady pattern. How much money will Priya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 35,
+      "t2": 21,
+      "t3": 7
+    },
+    "variant_signature": "e615fe29a6c610c4d8cb5b3ee6fea450a8a2c9484953ca7afd14aa7ce9a987a1"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Arjun have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Arjun spends each day: 35 - 28, which equals 28 - 21.",
+        "Subtract that same daily amount from 21 to find what's left after day 3."
+      ]
+    },
+    "stem": "Arjun starts with Rs 35 and spends the same amount each day: Rs 28 left after day 1, Rs 21 left after day 2, following the same steady pattern. How much money will Arjun have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 35,
+      "t2": 28,
+      "t3": 21
+    },
+    "variant_signature": "f191925b99c86978c2220b8f85fc211fe957a14faf5d125fcfb69b8773d49ab5"
+  },
+  {
+    "answer": "-6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Meera have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Meera spends each day: 36 - 22, which equals 22 - 8.",
+        "Subtract that same daily amount from 8 to find what's left after day 3."
+      ]
+    },
+    "stem": "Meera starts with Rs 36 and spends the same amount each day: Rs 22 left after day 1, Rs 8 left after day 2, following the same steady pattern. How much money will Meera have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 36,
+      "t2": 22,
+      "t3": 8
+    },
+    "variant_signature": "35684ec70be675a0ec0a71a6b57770cab7e8a835635898792b4634f8681d0aa4"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Diya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Diya spends each day: 36 - 30, which equals 30 - 24.",
+        "Subtract that same daily amount from 24 to find what's left after day 3."
+      ]
+    },
+    "stem": "Diya starts with Rs 36 and spends the same amount each day: Rs 30 left after day 1, Rs 24 left after day 2, following the same steady pattern. How much money will Diya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 36,
+      "t2": 30,
+      "t3": 24
+    },
+    "variant_signature": "2577dacc500aa2fa0a363539bf59269f564efa63cffc67e1f25056543590a64e"
+  },
+  {
+    "answer": "-2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Kabir have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Kabir spends each day: 37 - 24, which equals 24 - 11.",
+        "Subtract that same daily amount from 11 to find what's left after day 3."
+      ]
+    },
+    "stem": "Kabir starts with Rs 37 and spends the same amount each day: Rs 24 left after day 1, Rs 11 left after day 2, following the same steady pattern. How much money will Kabir have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 37,
+      "t2": 24,
+      "t3": 11
+    },
+    "variant_signature": "b692205f091f2898cb78f5e6f372a651fbe0a9233f1a5e360998fded7c9ede4c"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Ananya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Ananya spends each day: 37 - 30, which equals 30 - 23.",
+        "Subtract that same daily amount from 23 to find what's left after day 3."
+      ]
+    },
+    "stem": "Ananya starts with Rs 37 and spends the same amount each day: Rs 30 left after day 1, Rs 23 left after day 2, following the same steady pattern. How much money will Ananya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 37,
+      "t2": 30,
+      "t3": 23
+    },
+    "variant_signature": "7ddf0204742f20245b4a9253297633d68b16ab2db2cd9cd1783dafe4ade7ff4d"
+  },
+  {
+    "answer": "-1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Vihaan have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Vihaan spends each day: 38 - 25, which equals 25 - 12.",
+        "Subtract that same daily amount from 12 to find what's left after day 3."
+      ]
+    },
+    "stem": "Vihaan starts with Rs 38 and spends the same amount each day: Rs 25 left after day 1, Rs 12 left after day 2, following the same steady pattern. How much money will Vihaan have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 38,
+      "t2": 25,
+      "t3": 12
+    },
+    "variant_signature": "86ba8fa511eeb2b58256131511943da66be9425706dca3c84c7206aa6193ed6f"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Ravi have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Ravi spends each day: 38 - 31, which equals 31 - 24.",
+        "Subtract that same daily amount from 24 to find what's left after day 3."
+      ]
+    },
+    "stem": "Ravi starts with Rs 38 and spends the same amount each day: Rs 31 left after day 1, Rs 24 left after day 2, following the same steady pattern. How much money will Ravi have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 38,
+      "t2": 31,
+      "t3": 24
+    },
+    "variant_signature": "f4f943e8f277e3064ca870a22189655053ad68d59438531df60be68135d3d2ca"
+  },
+  {
+    "answer": "-3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Priya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Priya spends each day: 39 - 25, which equals 25 - 11.",
+        "Subtract that same daily amount from 11 to find what's left after day 3."
+      ]
+    },
+    "stem": "Priya starts with Rs 39 and spends the same amount each day: Rs 25 left after day 1, Rs 11 left after day 2, following the same steady pattern. How much money will Priya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 39,
+      "t2": 25,
+      "t3": 11
+    },
+    "variant_signature": "bd8edcb5e3e6c680d3bd61bc67539d17c0e93d1c7b41bbdaa048342f08294b74"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "33"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Arjun have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Arjun spends each day: 39 - 33, which equals 33 - 27.",
+        "Subtract that same daily amount from 27 to find what's left after day 3."
+      ]
+    },
+    "stem": "Arjun starts with Rs 39 and spends the same amount each day: Rs 33 left after day 1, Rs 27 left after day 2, following the same steady pattern. How much money will Arjun have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 39,
+      "t2": 33,
+      "t3": 27
+    },
+    "variant_signature": "84977f9cc23cb230dc4c050243236f146181847fbbd7eff134a22cb4bc2bd352"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Meera have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Meera spends each day: 40 - 27, which equals 27 - 14.",
+        "Subtract that same daily amount from 14 to find what's left after day 3."
+      ]
+    },
+    "stem": "Meera starts with Rs 40 and spends the same amount each day: Rs 27 left after day 1, Rs 14 left after day 2, following the same steady pattern. How much money will Meera have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 40,
+      "t2": 27,
+      "t3": 14
+    },
+    "variant_signature": "20efb96c5ff1e62d73890d55d18dc8d553e8effacace4dcc8d19681fc3ee0746"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "34"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Diya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Diya spends each day: 40 - 34, which equals 34 - 28.",
+        "Subtract that same daily amount from 28 to find what's left after day 3."
+      ]
+    },
+    "stem": "Diya starts with Rs 40 and spends the same amount each day: Rs 34 left after day 1, Rs 28 left after day 2, following the same steady pattern. How much money will Diya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 40,
+      "t2": 34,
+      "t3": 28
+    },
+    "variant_signature": "de83c62d6475ee2e2f6f16f531acb65821c89ecbb83081356202cc20288ae663"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Kabir have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Kabir spends each day: 41 - 28, which equals 28 - 15.",
+        "Subtract that same daily amount from 15 to find what's left after day 3."
+      ]
+    },
+    "stem": "Kabir starts with Rs 41 and spends the same amount each day: Rs 28 left after day 1, Rs 15 left after day 2, following the same steady pattern. How much money will Kabir have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 41,
+      "t2": 28,
+      "t3": 15
+    },
+    "variant_signature": "2849ffb8c8c7bd932c072d1e616e0b691c5958faa9dd374fdd842dfa9e84142a"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "34"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Ananya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Ananya spends each day: 41 - 34, which equals 34 - 27.",
+        "Subtract that same daily amount from 27 to find what's left after day 3."
+      ]
+    },
+    "stem": "Ananya starts with Rs 41 and spends the same amount each day: Rs 34 left after day 1, Rs 27 left after day 2, following the same steady pattern. How much money will Ananya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 41,
+      "t2": 34,
+      "t3": 27
+    },
+    "variant_signature": "ebc6ddf8b7ffa39a880c6f5d9fef8109720592e934d709c4add33b39beddb9a9"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Vihaan have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Vihaan spends each day: 42 - 30, which equals 30 - 18.",
+        "Subtract that same daily amount from 18 to find what's left after day 3."
+      ]
+    },
+    "stem": "Vihaan starts with Rs 42 and spends the same amount each day: Rs 30 left after day 1, Rs 18 left after day 2, following the same steady pattern. How much money will Vihaan have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 42,
+      "t2": 30,
+      "t3": 18
+    },
+    "variant_signature": "c62d920e210547c30a669087a0c153ae5319a3cb4e29f64d297afae38bcee305"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Ravi have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Ravi spends each day: 42 - 36, which equals 36 - 30.",
+        "Subtract that same daily amount from 30 to find what's left after day 3."
+      ]
+    },
+    "stem": "Ravi starts with Rs 42 and spends the same amount each day: Rs 36 left after day 1, Rs 30 left after day 2, following the same steady pattern. How much money will Ravi have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 42,
+      "t2": 36,
+      "t3": 30
+    },
+    "variant_signature": "b38b479d719730eadb64c8e49c2004a616f346e36cabae0e02e7754d3e7e49d6"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Priya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Priya spends each day: 43 - 30, which equals 30 - 17.",
+        "Subtract that same daily amount from 17 to find what's left after day 3."
+      ]
+    },
+    "stem": "Priya starts with Rs 43 and spends the same amount each day: Rs 30 left after day 1, Rs 17 left after day 2, following the same steady pattern. How much money will Priya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 43,
+      "t2": 30,
+      "t3": 17
+    },
+    "variant_signature": "8019a84e52c570f65f2f8e0c1dd27228af31c1fd239411ca2005d5da6b251790"
+  },
+  {
+    "answer": "-13",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Arjun have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Arjun spends each day: 44 - 25, which equals 25 - 6.",
+        "Subtract that same daily amount from 6 to find what's left after day 3."
+      ]
+    },
+    "stem": "Arjun starts with Rs 44 and spends the same amount each day: Rs 25 left after day 1, Rs 6 left after day 2, following the same steady pattern. How much money will Arjun have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 44,
+      "t2": 25,
+      "t3": 6
+    },
+    "variant_signature": "e0bff1857ce98ca8b4c65417539b731a0ca788a8eaa732928392f720aa1d4e60"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Meera have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Meera spends each day: 44 - 31, which equals 31 - 18.",
+        "Subtract that same daily amount from 18 to find what's left after day 3."
+      ]
+    },
+    "stem": "Meera starts with Rs 44 and spends the same amount each day: Rs 31 left after day 1, Rs 18 left after day 2, following the same steady pattern. How much money will Meera have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 44,
+      "t2": 31,
+      "t3": 18
+    },
+    "variant_signature": "69303aadf18a6d419a4bf174172509c33ffea2014074083501722faabf815b04"
+  },
+  {
+    "answer": "-12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Diya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Diya spends each day: 45 - 26, which equals 26 - 7.",
+        "Subtract that same daily amount from 7 to find what's left after day 3."
+      ]
+    },
+    "stem": "Diya starts with Rs 45 and spends the same amount each day: Rs 26 left after day 1, Rs 7 left after day 2, following the same steady pattern. How much money will Diya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 45,
+      "t2": 26,
+      "t3": 7
+    },
+    "variant_signature": "827e62199c06880896bfe3889ce4019e9a914ecc30039929989717346836708d"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "33"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Kabir have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Kabir spends each day: 45 - 33, which equals 33 - 21.",
+        "Subtract that same daily amount from 21 to find what's left after day 3."
+      ]
+    },
+    "stem": "Kabir starts with Rs 45 and spends the same amount each day: Rs 33 left after day 1, Rs 21 left after day 2, following the same steady pattern. How much money will Kabir have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 45,
+      "t2": 33,
+      "t3": 21
+    },
+    "variant_signature": "2d4726d76245a6d7c7a979f12f29868fe3f18b96c690292dd8df043b5f12ea62"
+  },
+  {
+    "answer": "-11",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Ananya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Ananya spends each day: 46 - 27, which equals 27 - 8.",
+        "Subtract that same daily amount from 8 to find what's left after day 3."
+      ]
+    },
+    "stem": "Ananya starts with Rs 46 and spends the same amount each day: Rs 27 left after day 1, Rs 8 left after day 2, following the same steady pattern. How much money will Ananya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 46,
+      "t2": 27,
+      "t3": 8
+    },
+    "variant_signature": "17339d9e96d530f26922c819b1a73508c1eeabf4e50e35327a7d4243bdae8e54"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "34"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Vihaan have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Vihaan spends each day: 46 - 34, which equals 34 - 22.",
+        "Subtract that same daily amount from 22 to find what's left after day 3."
+      ]
+    },
+    "stem": "Vihaan starts with Rs 46 and spends the same amount each day: Rs 34 left after day 1, Rs 22 left after day 2, following the same steady pattern. How much money will Vihaan have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 46,
+      "t2": 34,
+      "t3": 22
+    },
+    "variant_signature": "6812cff8ba8f1df32dda1cdd68d72d3233e2e06b62eee78ae1be613c8915748a"
+  },
+  {
+    "answer": "-10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Ravi have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Ravi spends each day: 47 - 28, which equals 28 - 9.",
+        "Subtract that same daily amount from 9 to find what's left after day 3."
+      ]
+    },
+    "stem": "Ravi starts with Rs 47 and spends the same amount each day: Rs 28 left after day 1, Rs 9 left after day 2, following the same steady pattern. How much money will Ravi have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 47,
+      "t2": 28,
+      "t3": 9
+    },
+    "variant_signature": "3553e63f097e1f5ab1bfdaa53365c6dec0031e0b62c839749bca06256a8302aa"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "34"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Priya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Priya spends each day: 47 - 34, which equals 34 - 21.",
+        "Subtract that same daily amount from 21 to find what's left after day 3."
+      ]
+    },
+    "stem": "Priya starts with Rs 47 and spends the same amount each day: Rs 34 left after day 1, Rs 21 left after day 2, following the same steady pattern. How much money will Priya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 47,
+      "t2": 34,
+      "t3": 21
+    },
+    "variant_signature": "b9fa325de60798c8cbd56b7d3fdfe0a9d3f55af412f9fd9c799efddde28f4559"
+  },
+  {
+    "answer": "-9",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Arjun have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Arjun spends each day: 48 - 29, which equals 29 - 10.",
+        "Subtract that same daily amount from 10 to find what's left after day 3."
+      ]
+    },
+    "stem": "Arjun starts with Rs 48 and spends the same amount each day: Rs 29 left after day 1, Rs 10 left after day 2, following the same steady pattern. How much money will Arjun have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 48,
+      "t2": 29,
+      "t3": 10
+    },
+    "variant_signature": "66472231fc6f96a5160b660b66a09b0f80cb9a53a827186698c65d57454204e1"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Meera have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Meera spends each day: 48 - 36, which equals 36 - 24.",
+        "Subtract that same daily amount from 24 to find what's left after day 3."
+      ]
+    },
+    "stem": "Meera starts with Rs 48 and spends the same amount each day: Rs 36 left after day 1, Rs 24 left after day 2, following the same steady pattern. How much money will Meera have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 48,
+      "t2": 36,
+      "t3": 24
+    },
+    "variant_signature": "8412f6bd207b97d7964aaabdc07f3d146e5e5b2479faa62021387a996d857ac3"
+  },
+  {
+    "answer": "-5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Diya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Diya spends each day: 49 - 31, which equals 31 - 13.",
+        "Subtract that same daily amount from 13 to find what's left after day 3."
+      ]
+    },
+    "stem": "Diya starts with Rs 49 and spends the same amount each day: Rs 31 left after day 1, Rs 13 left after day 2, following the same steady pattern. How much money will Diya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 49,
+      "t2": 31,
+      "t3": 13
+    },
+    "variant_signature": "ff1ff6094682ec356ebd88a7bc6a9c832d6bc28909b103e124aecb4794981348"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "37"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Kabir have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Kabir spends each day: 49 - 37, which equals 37 - 25.",
+        "Subtract that same daily amount from 25 to find what's left after day 3."
+      ]
+    },
+    "stem": "Kabir starts with Rs 49 and spends the same amount each day: Rs 37 left after day 1, Rs 25 left after day 2, following the same steady pattern. How much money will Kabir have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 49,
+      "t2": 37,
+      "t3": 25
+    },
+    "variant_signature": "1c2308a74b75602485a95765aece2eba0dac09b28d4b31845539d7b20f5545ac"
+  },
+  {
+    "answer": "-7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Ananya have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Ananya spends each day: 50 - 31, which equals 31 - 12.",
+        "Subtract that same daily amount from 12 to find what's left after day 3."
+      ]
+    },
+    "stem": "Ananya starts with Rs 50 and spends the same amount each day: Rs 31 left after day 1, Rs 12 left after day 2, following the same steady pattern. How much money will Ananya have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 50,
+      "t2": 31,
+      "t3": 12
+    },
+    "variant_signature": "bd4bdaed317d25e98770f96c65058bc0dac1e285e332072beea68a1edba3cb83"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "38"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "How much less money does Vihaan have each day compared to the day before?",
+      "Subtract that same daily drop from the amount left after day 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find how much Vihaan spends each day: 50 - 38, which equals 38 - 26.",
+        "Subtract that same daily amount from 26 to find what's left after day 3."
+      ]
+    },
+    "stem": "Vihaan starts with Rs 50 and spends the same amount each day: Rs 38 left after day 1, Rs 26 left after day 2, following the same steady pattern. How much money will Vihaan have left after day 3?",
+    "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 50,
+      "t2": 38,
+      "t3": 26
+    },
+    "variant_signature": "532355ffb19443852c2370225be98f3916643c58c372b1f8e272a797d1c03189"
+  }
+]

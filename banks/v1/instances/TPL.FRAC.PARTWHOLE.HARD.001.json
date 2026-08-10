@@ -1,0 +1,2561 @@
+[
+  {
+    "answer": "3/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 2
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 2 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 2 of those units.",
+        "Total units in the garden bed: 3 small-plot units + 2 units for the large plot.",
+        "Planted units: 1 small plots (1 units) plus the large plot (2 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 3 small equal-sized plots and 1 large plot that is exactly 2 times the size of a small plot, so the plots are NOT all the same size. 1 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "s": 3,
+      "shaded_small": 1
+    },
+    "variant_signature": "785e096e45e2898613e7f911f5b20d027043489ba5aac44b9d139c708d277837"
+  },
+  {
+    "answer": "4/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "3/4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 2
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 2 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 2 of those units.",
+        "Total units in the garden bed: 3 small-plot units + 2 units for the large plot.",
+        "Planted units: 2 small plots (2 units) plus the large plot (2 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 3 small equal-sized plots and 1 large plot that is exactly 2 times the size of a small plot, so the plots are NOT all the same size. 2 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "s": 3,
+      "shaded_small": 2
+    },
+    "variant_signature": "2352375faafab00b261ddc2588557c51cc1783767a16027736e14b4c9c74c795"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/6"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 3
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 3 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 3 of those units.",
+        "Total units in the garden bed: 3 small-plot units + 3 units for the large plot.",
+        "Planted units: 1 small plots (1 units) plus the large plot (3 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 3 small equal-sized plots and 1 large plot that is exactly 3 times the size of a small plot, so the plots are NOT all the same size. 1 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "s": 3,
+      "shaded_small": 1
+    },
+    "variant_signature": "c58506541535b480c31432936c78692f33ecd6e9bb8e3133d04626208e960a91"
+  },
+  {
+    "answer": "5/6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "3/4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 3
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 3 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 3 of those units.",
+        "Total units in the garden bed: 3 small-plot units + 3 units for the large plot.",
+        "Planted units: 2 small plots (2 units) plus the large plot (3 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 3 small equal-sized plots and 1 large plot that is exactly 3 times the size of a small plot, so the plots are NOT all the same size. 2 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "s": 3,
+      "shaded_small": 2
+    },
+    "variant_signature": "74142539f20a80dabee7ce331825b3e7dd561b6d37d8d1fa2a378acd39c56c4e"
+  },
+  {
+    "answer": "5/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 4
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 4 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 4 of those units.",
+        "Total units in the garden bed: 3 small-plot units + 4 units for the large plot.",
+        "Planted units: 1 small plots (1 units) plus the large plot (4 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 3 small equal-sized plots and 1 large plot that is exactly 4 times the size of a small plot, so the plots are NOT all the same size. 1 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "s": 3,
+      "shaded_small": 1
+    },
+    "variant_signature": "22f442b1c1e6302f9ea8ae60e5197a74d65db709e8dbd982a8f687783750144b"
+  },
+  {
+    "answer": "6/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "3/4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 4
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 4 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 4 of those units.",
+        "Total units in the garden bed: 3 small-plot units + 4 units for the large plot.",
+        "Planted units: 2 small plots (2 units) plus the large plot (4 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 3 small equal-sized plots and 1 large plot that is exactly 4 times the size of a small plot, so the plots are NOT all the same size. 2 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "s": 3,
+      "shaded_small": 2
+    },
+    "variant_signature": "ef8e5972e87ee6b355b52dd5b67758acb834f87c9a3ec885b5b42537391fea74"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/6"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "2/5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 2
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 2 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 2 of those units.",
+        "Total units in the garden bed: 4 small-plot units + 2 units for the large plot.",
+        "Planted units: 1 small plots (1 units) plus the large plot (2 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 4 small equal-sized plots and 1 large plot that is exactly 2 times the size of a small plot, so the plots are NOT all the same size. 1 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "s": 4,
+      "shaded_small": 1
+    },
+    "variant_signature": "f0180c8d8af3d415f517f1c4f187da4a2c3e67a33fb3ba635216d7cab6fb76b8"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "3/5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 2
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 2 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 2 of those units.",
+        "Total units in the garden bed: 4 small-plot units + 2 units for the large plot.",
+        "Planted units: 2 small plots (2 units) plus the large plot (2 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 4 small equal-sized plots and 1 large plot that is exactly 2 times the size of a small plot, so the plots are NOT all the same size. 2 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "s": 4,
+      "shaded_small": 2
+    },
+    "variant_signature": "26e06c48bae185d643bc0daf8406588f16136d09777193d912565d7bf0ea377a"
+  },
+  {
+    "answer": "5/6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "4/5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 2
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 2 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 2 of those units.",
+        "Total units in the garden bed: 4 small-plot units + 2 units for the large plot.",
+        "Planted units: 3 small plots (3 units) plus the large plot (2 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 4 small equal-sized plots and 1 large plot that is exactly 2 times the size of a small plot, so the plots are NOT all the same size. 3 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "s": 4,
+      "shaded_small": 3
+    },
+    "variant_signature": "e95699249a1600d3d01f6c5bc9a8a79021ca90a5afb0a5415e3e3e807c3ac4ce"
+  },
+  {
+    "answer": "4/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "2/5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 3
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 3 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 3 of those units.",
+        "Total units in the garden bed: 4 small-plot units + 3 units for the large plot.",
+        "Planted units: 1 small plots (1 units) plus the large plot (3 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 4 small equal-sized plots and 1 large plot that is exactly 3 times the size of a small plot, so the plots are NOT all the same size. 1 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "s": 4,
+      "shaded_small": 1
+    },
+    "variant_signature": "e68f26f1cb696a62bebefc166f48aad9e93eb31e7e276c9cbb4b18be808619df"
+  },
+  {
+    "answer": "5/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "3/5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 3
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 3 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 3 of those units.",
+        "Total units in the garden bed: 4 small-plot units + 3 units for the large plot.",
+        "Planted units: 2 small plots (2 units) plus the large plot (3 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 4 small equal-sized plots and 1 large plot that is exactly 3 times the size of a small plot, so the plots are NOT all the same size. 2 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "s": 4,
+      "shaded_small": 2
+    },
+    "variant_signature": "94d8c70bfaa61db03678d1cc6e6d91ccc32d826e6146b39ee8ff93db8bc92b9f"
+  },
+  {
+    "answer": "6/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "4/5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 3
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 3 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 3 of those units.",
+        "Total units in the garden bed: 4 small-plot units + 3 units for the large plot.",
+        "Planted units: 3 small plots (3 units) plus the large plot (3 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 4 small equal-sized plots and 1 large plot that is exactly 3 times the size of a small plot, so the plots are NOT all the same size. 3 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "s": 4,
+      "shaded_small": 3
+    },
+    "variant_signature": "fa21d7193f4b5bfb71c294ec59818960ccbc968555a64cc8185ee54ad5491619"
+  },
+  {
+    "answer": "5/8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/8"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "2/5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 4
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 4 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 4 of those units.",
+        "Total units in the garden bed: 4 small-plot units + 4 units for the large plot.",
+        "Planted units: 1 small plots (1 units) plus the large plot (4 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 4 small equal-sized plots and 1 large plot that is exactly 4 times the size of a small plot, so the plots are NOT all the same size. 1 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "s": 4,
+      "shaded_small": 1
+    },
+    "variant_signature": "2e164852978f02e1bbf73f0efc707fad3648cbbb2144c37ff3c43a6bf7d9e148"
+  },
+  {
+    "answer": "3/4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "3/5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 4
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 4 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 4 of those units.",
+        "Total units in the garden bed: 4 small-plot units + 4 units for the large plot.",
+        "Planted units: 2 small plots (2 units) plus the large plot (4 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 4 small equal-sized plots and 1 large plot that is exactly 4 times the size of a small plot, so the plots are NOT all the same size. 2 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "s": 4,
+      "shaded_small": 2
+    },
+    "variant_signature": "16df19c97bea439c416c105ff3a1ac75998414397382b32047535ce887545be4"
+  },
+  {
+    "answer": "7/8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/8"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "4/5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 4
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 4 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 4 of those units.",
+        "Total units in the garden bed: 4 small-plot units + 4 units for the large plot.",
+        "Planted units: 3 small plots (3 units) plus the large plot (4 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 4 small equal-sized plots and 1 large plot that is exactly 4 times the size of a small plot, so the plots are NOT all the same size. 3 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "s": 4,
+      "shaded_small": 3
+    },
+    "variant_signature": "dd82fa447d90d01bd017cae9d12fefe99cfb5e3a409f63bbbd4e5b9418d5496f"
+  },
+  {
+    "answer": "3/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "1/3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 2
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 2 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 2 of those units.",
+        "Total units in the garden bed: 5 small-plot units + 2 units for the large plot.",
+        "Planted units: 1 small plots (1 units) plus the large plot (2 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 5 small equal-sized plots and 1 large plot that is exactly 2 times the size of a small plot, so the plots are NOT all the same size. 1 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "s": 5,
+      "shaded_small": 1
+    },
+    "variant_signature": "50e84b9be5adaaa0424d22fd6b8b2843bfc1333275e75e3e8fbcbdf88f72caa4"
+  },
+  {
+    "answer": "4/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 2
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 2 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 2 of those units.",
+        "Total units in the garden bed: 5 small-plot units + 2 units for the large plot.",
+        "Planted units: 2 small plots (2 units) plus the large plot (2 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 5 small equal-sized plots and 1 large plot that is exactly 2 times the size of a small plot, so the plots are NOT all the same size. 2 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "s": 5,
+      "shaded_small": 2
+    },
+    "variant_signature": "d964a262ae5aae6a48ea2ff2a5d0cf7a6bec87918acb0e31160ea53d3d064ad0"
+  },
+  {
+    "answer": "5/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "2/3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 2
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 2 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 2 of those units.",
+        "Total units in the garden bed: 5 small-plot units + 2 units for the large plot.",
+        "Planted units: 3 small plots (3 units) plus the large plot (2 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 5 small equal-sized plots and 1 large plot that is exactly 2 times the size of a small plot, so the plots are NOT all the same size. 3 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "s": 5,
+      "shaded_small": 3
+    },
+    "variant_signature": "721856bc7ef0f1c28d598b1b37aa709ebf188d2748bc1947df0197eac3c679a6"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/8"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "1/3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 3
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 3 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 3 of those units.",
+        "Total units in the garden bed: 5 small-plot units + 3 units for the large plot.",
+        "Planted units: 1 small plots (1 units) plus the large plot (3 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 5 small equal-sized plots and 1 large plot that is exactly 3 times the size of a small plot, so the plots are NOT all the same size. 1 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "s": 5,
+      "shaded_small": 1
+    },
+    "variant_signature": "6968e33cb43004356965c395e5288342b0cef06e11f37157bc5c7029ce71f623"
+  },
+  {
+    "answer": "5/8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 3
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 3 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 3 of those units.",
+        "Total units in the garden bed: 5 small-plot units + 3 units for the large plot.",
+        "Planted units: 2 small plots (2 units) plus the large plot (3 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 5 small equal-sized plots and 1 large plot that is exactly 3 times the size of a small plot, so the plots are NOT all the same size. 2 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "s": 5,
+      "shaded_small": 2
+    },
+    "variant_signature": "a9a3b0a5623d15c22b17e2885c49721fb18035197407e9711e885f65556e7688"
+  },
+  {
+    "answer": "3/4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/8"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "2/3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 3
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 3 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 3 of those units.",
+        "Total units in the garden bed: 5 small-plot units + 3 units for the large plot.",
+        "Planted units: 3 small plots (3 units) plus the large plot (3 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 5 small equal-sized plots and 1 large plot that is exactly 3 times the size of a small plot, so the plots are NOT all the same size. 3 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "s": 5,
+      "shaded_small": 3
+    },
+    "variant_signature": "21d286a6e91621a987bf7b6f7d5aec2bde7edab2df1efddfe2d1666bde90a1df"
+  },
+  {
+    "answer": "5/9",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/9"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "1/3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 4
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 4 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 4 of those units.",
+        "Total units in the garden bed: 5 small-plot units + 4 units for the large plot.",
+        "Planted units: 1 small plots (1 units) plus the large plot (4 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 5 small equal-sized plots and 1 large plot that is exactly 4 times the size of a small plot, so the plots are NOT all the same size. 1 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "s": 5,
+      "shaded_small": 1
+    },
+    "variant_signature": "21b3c8bb52a6b52581d1af3a3f346053222513cc557442120b95e65ddeddbcce"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2/9"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 4
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 4 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 4 of those units.",
+        "Total units in the garden bed: 5 small-plot units + 4 units for the large plot.",
+        "Planted units: 2 small plots (2 units) plus the large plot (4 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 5 small equal-sized plots and 1 large plot that is exactly 4 times the size of a small plot, so the plots are NOT all the same size. 2 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "s": 5,
+      "shaded_small": 2
+    },
+    "variant_signature": "7b64829516b85ca39054e72958beec26bf65c2d0adb180b49eb39a769a1f77f5"
+  },
+  {
+    "answer": "7/9",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "2/3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 4
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 4 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 4 of those units.",
+        "Total units in the garden bed: 5 small-plot units + 4 units for the large plot.",
+        "Planted units: 3 small plots (3 units) plus the large plot (4 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 5 small equal-sized plots and 1 large plot that is exactly 4 times the size of a small plot, so the plots are NOT all the same size. 3 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "s": 5,
+      "shaded_small": 3
+    },
+    "variant_signature": "53b864b65f068eb53b4f94adda64702eed2e7902e3f224b0332dd6676f7fee0c"
+  },
+  {
+    "answer": "3/8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/8"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "2/7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 2
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 2 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 2 of those units.",
+        "Total units in the garden bed: 6 small-plot units + 2 units for the large plot.",
+        "Planted units: 1 small plots (1 units) plus the large plot (2 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 6 small equal-sized plots and 1 large plot that is exactly 2 times the size of a small plot, so the plots are NOT all the same size. 1 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "s": 6,
+      "shaded_small": 1
+    },
+    "variant_signature": "0e3dc502d905e4b3c4f251dcd0ca1e4e0cfe950478a4eb9b76f6a4aa484ee1a8"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "3/7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 2
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 2 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 2 of those units.",
+        "Total units in the garden bed: 6 small-plot units + 2 units for the large plot.",
+        "Planted units: 2 small plots (2 units) plus the large plot (2 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 6 small equal-sized plots and 1 large plot that is exactly 2 times the size of a small plot, so the plots are NOT all the same size. 2 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "s": 6,
+      "shaded_small": 2
+    },
+    "variant_signature": "ac7c8b1dd2386778e877cb331192dd4e6bf6288240ca3478509052448835d53c"
+  },
+  {
+    "answer": "5/8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/8"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "4/7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 2
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 2 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 2 of those units.",
+        "Total units in the garden bed: 6 small-plot units + 2 units for the large plot.",
+        "Planted units: 3 small plots (3 units) plus the large plot (2 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 6 small equal-sized plots and 1 large plot that is exactly 2 times the size of a small plot, so the plots are NOT all the same size. 3 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "s": 6,
+      "shaded_small": 3
+    },
+    "variant_signature": "710f8b276e4da7164bfc944a635edf36482e7589ae0a31bdb1a1344357be8a86"
+  },
+  {
+    "answer": "4/9",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/9"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "2/7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 3
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 3 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 3 of those units.",
+        "Total units in the garden bed: 6 small-plot units + 3 units for the large plot.",
+        "Planted units: 1 small plots (1 units) plus the large plot (3 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 6 small equal-sized plots and 1 large plot that is exactly 3 times the size of a small plot, so the plots are NOT all the same size. 1 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "s": 6,
+      "shaded_small": 1
+    },
+    "variant_signature": "6ac5a4f66d324337e597d46cb89466f3bbb729df72cdfc1fb2c114ece26304d6"
+  },
+  {
+    "answer": "5/9",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2/9"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "3/7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 3
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 3 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 3 of those units.",
+        "Total units in the garden bed: 6 small-plot units + 3 units for the large plot.",
+        "Planted units: 2 small plots (2 units) plus the large plot (3 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 6 small equal-sized plots and 1 large plot that is exactly 3 times the size of a small plot, so the plots are NOT all the same size. 2 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "s": 6,
+      "shaded_small": 2
+    },
+    "variant_signature": "b27aef0ce5070701748e303f436571d94bb4d8d1748ece557ede207e026edc9d"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "4/7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 3
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 3 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 3 of those units.",
+        "Total units in the garden bed: 6 small-plot units + 3 units for the large plot.",
+        "Planted units: 3 small plots (3 units) plus the large plot (3 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 6 small equal-sized plots and 1 large plot that is exactly 3 times the size of a small plot, so the plots are NOT all the same size. 3 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "s": 6,
+      "shaded_small": 3
+    },
+    "variant_signature": "6733c8517aaf24b5a397f1011fa9b9827148d549cdb531f98926ae28b267325e"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/10"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "2/7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 4
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 4 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 4 of those units.",
+        "Total units in the garden bed: 6 small-plot units + 4 units for the large plot.",
+        "Planted units: 1 small plots (1 units) plus the large plot (4 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 6 small equal-sized plots and 1 large plot that is exactly 4 times the size of a small plot, so the plots are NOT all the same size. 1 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "s": 6,
+      "shaded_small": 1
+    },
+    "variant_signature": "4b97cbdebfb35e007dc88b22d827218d3a2466659a2b0e786ed097e1a63c5703"
+  },
+  {
+    "answer": "3/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "3/7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 4
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 4 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 4 of those units.",
+        "Total units in the garden bed: 6 small-plot units + 4 units for the large plot.",
+        "Planted units: 2 small plots (2 units) plus the large plot (4 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 6 small equal-sized plots and 1 large plot that is exactly 4 times the size of a small plot, so the plots are NOT all the same size. 2 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "s": 6,
+      "shaded_small": 2
+    },
+    "variant_signature": "ca4f701efd4dffa4dbb9efc50a2fe89aec7c63a50c8868243b504067186c019e"
+  },
+  {
+    "answer": "7/10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/10"
+      },
+      {
+        "misconception_id": "MISC.FRAC.UNEQUAL-PARTS",
+        "unsimplified": false,
+        "value": "4/7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "region",
+        "parts": [
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": false,
+            "weight": 1
+          },
+          {
+            "shaded": true,
+            "weight": 4
+          }
+        ],
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget the large plot is also planted \u2014 add its area-units to the small plots' units.",
+      "The large plot is worth 4 small-plot units, not just 1 unit like the others."
+    ],
+    "item_instance_id": "TPL.FRAC.PARTWHOLE.HARD.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.PARTWHOLE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work in units the size of one small plot. The large plot is worth 4 of those units.",
+        "Total units in the garden bed: 6 small-plot units + 4 units for the large plot.",
+        "Planted units: 3 small plots (3 units) plus the large plot (4 units).",
+        "Fraction planted = planted units / total units, simplified."
+      ]
+    },
+    "stem": "A garden bed is divided into 6 small equal-sized plots and 1 large plot that is exactly 4 times the size of a small plot, so the plots are NOT all the same size. 3 of the small plots AND the large plot are planted with flowers. What fraction of the garden bed's area is planted with flowers?",
+    "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "s": 6,
+      "shaded_small": 3
+    },
+    "variant_signature": "bb269e06fc55852fab0b056745bf15d7ac9952562919904d5d62366bbb837edd"
+  }
+]

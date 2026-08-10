@@ -1,0 +1,394 @@
+[
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 3,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't count the starting position as an extra match \u2014 it's the same 0-degree position you return to at the end of the turn.",
+      "The order of rotational symmetry equals the number of sides for a regular polygon."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the positions where the 3-gon looks the same during one full turn, without counting the starting position a second time when you return to it.",
+        "A regular 3-gon matches itself 3 times in a full turn, so its order of rotational symmetry is 3, not 3 + 1."
+      ]
+    },
+    "stem": "A regular 3-gon is rotated about its centre. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 3
+    },
+    "variant_signature": "edabbb0ab012d6589571de0c1b9ccc67a0960381474825fcffc08a7f6addc731"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 4,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't count the starting position as an extra match \u2014 it's the same 0-degree position you return to at the end of the turn.",
+      "The order of rotational symmetry equals the number of sides for a regular polygon."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the positions where the 4-gon looks the same during one full turn, without counting the starting position a second time when you return to it.",
+        "A regular 4-gon matches itself 4 times in a full turn, so its order of rotational symmetry is 4, not 4 + 1."
+      ]
+    },
+    "stem": "A regular 4-gon is rotated about its centre. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 4
+    },
+    "variant_signature": "7695571c8acd1cd89a5876afff6a46895cfd4b57baf28812ced68cec71f7c954"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 5,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't count the starting position as an extra match \u2014 it's the same 0-degree position you return to at the end of the turn.",
+      "The order of rotational symmetry equals the number of sides for a regular polygon."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the positions where the 5-gon looks the same during one full turn, without counting the starting position a second time when you return to it.",
+        "A regular 5-gon matches itself 5 times in a full turn, so its order of rotational symmetry is 5, not 5 + 1."
+      ]
+    },
+    "stem": "A regular 5-gon is rotated about its centre. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 5
+    },
+    "variant_signature": "659371c9ab7a16c2bdaeb4a01fef3696aec91a0ea58c1f225878e51d504afe84"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 6,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't count the starting position as an extra match \u2014 it's the same 0-degree position you return to at the end of the turn.",
+      "The order of rotational symmetry equals the number of sides for a regular polygon."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the positions where the 6-gon looks the same during one full turn, without counting the starting position a second time when you return to it.",
+        "A regular 6-gon matches itself 6 times in a full turn, so its order of rotational symmetry is 6, not 6 + 1."
+      ]
+    },
+    "stem": "A regular 6-gon is rotated about its centre. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 6
+    },
+    "variant_signature": "ab560f019074cad4a8e296875d235586fb20f6a1556038909288312d4b790612"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 7,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't count the starting position as an extra match \u2014 it's the same 0-degree position you return to at the end of the turn.",
+      "The order of rotational symmetry equals the number of sides for a regular polygon."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the positions where the 7-gon looks the same during one full turn, without counting the starting position a second time when you return to it.",
+        "A regular 7-gon matches itself 7 times in a full turn, so its order of rotational symmetry is 7, not 7 + 1."
+      ]
+    },
+    "stem": "A regular 7-gon is rotated about its centre. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 7
+    },
+    "variant_signature": "efdf3e5b0a24b292690577776e365c0c6b3f751d96250dbd8fabe51078db6c3e"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 8,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't count the starting position as an extra match \u2014 it's the same 0-degree position you return to at the end of the turn.",
+      "The order of rotational symmetry equals the number of sides for a regular polygon."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the positions where the 8-gon looks the same during one full turn, without counting the starting position a second time when you return to it.",
+        "A regular 8-gon matches itself 8 times in a full turn, so its order of rotational symmetry is 8, not 8 + 1."
+      ]
+    },
+    "stem": "A regular 8-gon is rotated about its centre. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 8
+    },
+    "variant_signature": "35b28395b3a3b3018364a31107df5e97baa776303d1b1e9a4147c9e24da9dc96"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 9,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't count the starting position as an extra match \u2014 it's the same 0-degree position you return to at the end of the turn.",
+      "The order of rotational symmetry equals the number of sides for a regular polygon."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the positions where the 9-gon looks the same during one full turn, without counting the starting position a second time when you return to it.",
+        "A regular 9-gon matches itself 9 times in a full turn, so its order of rotational symmetry is 9, not 9 + 1."
+      ]
+    },
+    "stem": "A regular 9-gon is rotated about its centre. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 9
+    },
+    "variant_signature": "a3d8d52c8cb507a8cc21ca9378bae2e5820222990a82e6d12c8ced0973cd6d0e"
+  }
+]

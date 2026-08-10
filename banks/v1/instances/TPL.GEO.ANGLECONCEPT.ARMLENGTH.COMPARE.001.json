@@ -1,0 +1,684 @@
+[
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ANGLE-ARM-LENGTH",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "arm_length": 1,
+        "context": "bare",
+        "degrees": 30,
+        "kind": "angle"
+      },
+      {
+        "arm_length": 3,
+        "context": "bare",
+        "degrees": 30,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did the problem say the two angles turn through different amounts, or the same amount?",
+      "Drawing an arm longer doesn't add any turn \u2014 trace the actual turn between the arms instead of comparing their length."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Angle P and Angle Q both turn through the same 1 hour-marks \u2014 an angle's size is the amount of turn between its arms, not how long the arms are drawn.",
+        "Since the turns are equal, the difference between them is 0."
+      ]
+    },
+    "stem": "Angle P is formed by two short arms that turn through 1 hour-marks on a clock face (like the hour hand sweeping from the 12 to the 1 mark). Angle Q is formed by two much longer arms that turn through the exact same 1 hour-marks. A student says Angle Q must be bigger because its arms are drawn longer. Based on the actual turn between the arms (not their length), how many hour-marks bigger is Angle Q than Angle P?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "x": 1
+    },
+    "variant_signature": "e1ff982f97d3eb121272e7fa5c418a04d366276a5c859d487ca129fef060d28e"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ANGLE-ARM-LENGTH",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "arm_length": 1,
+        "context": "bare",
+        "degrees": 60,
+        "kind": "angle"
+      },
+      {
+        "arm_length": 3,
+        "context": "bare",
+        "degrees": 60,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did the problem say the two angles turn through different amounts, or the same amount?",
+      "Drawing an arm longer doesn't add any turn \u2014 trace the actual turn between the arms instead of comparing their length."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Angle P and Angle Q both turn through the same 2 hour-marks \u2014 an angle's size is the amount of turn between its arms, not how long the arms are drawn.",
+        "Since the turns are equal, the difference between them is 0."
+      ]
+    },
+    "stem": "Angle P is formed by two short arms that turn through 2 hour-marks on a clock face (like the hour hand sweeping from the 12 to the 2 mark). Angle Q is formed by two much longer arms that turn through the exact same 2 hour-marks. A student says Angle Q must be bigger because its arms are drawn longer. Based on the actual turn between the arms (not their length), how many hour-marks bigger is Angle Q than Angle P?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "x": 2
+    },
+    "variant_signature": "70b4f9156e5adad465fb42988bc4a2f2af49d87b1c49fd1b3e61be3864c63eb6"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ANGLE-ARM-LENGTH",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "arm_length": 1,
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle"
+      },
+      {
+        "arm_length": 3,
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did the problem say the two angles turn through different amounts, or the same amount?",
+      "Drawing an arm longer doesn't add any turn \u2014 trace the actual turn between the arms instead of comparing their length."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Angle P and Angle Q both turn through the same 3 hour-marks \u2014 an angle's size is the amount of turn between its arms, not how long the arms are drawn.",
+        "Since the turns are equal, the difference between them is 0."
+      ]
+    },
+    "stem": "Angle P is formed by two short arms that turn through 3 hour-marks on a clock face (like the hour hand sweeping from the 12 to the 3 mark). Angle Q is formed by two much longer arms that turn through the exact same 3 hour-marks. A student says Angle Q must be bigger because its arms are drawn longer. Based on the actual turn between the arms (not their length), how many hour-marks bigger is Angle Q than Angle P?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "x": 3
+    },
+    "variant_signature": "dfa6679051370c6125c8ebc79963e48c2d33804fd4356430bcd87b800f8e905e"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ANGLE-ARM-LENGTH",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "arm_length": 1,
+        "context": "bare",
+        "degrees": 120,
+        "kind": "angle"
+      },
+      {
+        "arm_length": 3,
+        "context": "bare",
+        "degrees": 120,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did the problem say the two angles turn through different amounts, or the same amount?",
+      "Drawing an arm longer doesn't add any turn \u2014 trace the actual turn between the arms instead of comparing their length."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Angle P and Angle Q both turn through the same 4 hour-marks \u2014 an angle's size is the amount of turn between its arms, not how long the arms are drawn.",
+        "Since the turns are equal, the difference between them is 0."
+      ]
+    },
+    "stem": "Angle P is formed by two short arms that turn through 4 hour-marks on a clock face (like the hour hand sweeping from the 12 to the 4 mark). Angle Q is formed by two much longer arms that turn through the exact same 4 hour-marks. A student says Angle Q must be bigger because its arms are drawn longer. Based on the actual turn between the arms (not their length), how many hour-marks bigger is Angle Q than Angle P?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "x": 4
+    },
+    "variant_signature": "494972888a24a60c57d7781427bd51bc01e2a67e16670a3822aaef2a47cc2c26"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ANGLE-ARM-LENGTH",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "arm_length": 1,
+        "context": "bare",
+        "degrees": 150,
+        "kind": "angle"
+      },
+      {
+        "arm_length": 3,
+        "context": "bare",
+        "degrees": 150,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did the problem say the two angles turn through different amounts, or the same amount?",
+      "Drawing an arm longer doesn't add any turn \u2014 trace the actual turn between the arms instead of comparing their length."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Angle P and Angle Q both turn through the same 5 hour-marks \u2014 an angle's size is the amount of turn between its arms, not how long the arms are drawn.",
+        "Since the turns are equal, the difference between them is 0."
+      ]
+    },
+    "stem": "Angle P is formed by two short arms that turn through 5 hour-marks on a clock face (like the hour hand sweeping from the 12 to the 5 mark). Angle Q is formed by two much longer arms that turn through the exact same 5 hour-marks. A student says Angle Q must be bigger because its arms are drawn longer. Based on the actual turn between the arms (not their length), how many hour-marks bigger is Angle Q than Angle P?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "x": 5
+    },
+    "variant_signature": "284b522e951ebd44b4b55ecd6ff8a91751365887b9c1d5b940f5fa07b793bc1c"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ANGLE-ARM-LENGTH",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "arm_length": 1,
+        "context": "bare",
+        "degrees": 180,
+        "kind": "angle"
+      },
+      {
+        "arm_length": 3,
+        "context": "bare",
+        "degrees": 180,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did the problem say the two angles turn through different amounts, or the same amount?",
+      "Drawing an arm longer doesn't add any turn \u2014 trace the actual turn between the arms instead of comparing their length."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Angle P and Angle Q both turn through the same 6 hour-marks \u2014 an angle's size is the amount of turn between its arms, not how long the arms are drawn.",
+        "Since the turns are equal, the difference between them is 0."
+      ]
+    },
+    "stem": "Angle P is formed by two short arms that turn through 6 hour-marks on a clock face (like the hour hand sweeping from the 12 to the 6 mark). Angle Q is formed by two much longer arms that turn through the exact same 6 hour-marks. A student says Angle Q must be bigger because its arms are drawn longer. Based on the actual turn between the arms (not their length), how many hour-marks bigger is Angle Q than Angle P?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "x": 6
+    },
+    "variant_signature": "1257852459329d3630668d951d96df0d7185a5450b5de199e57a22a14ec60608"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ANGLE-ARM-LENGTH",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "arm_length": 1,
+        "context": "bare",
+        "degrees": 210,
+        "kind": "angle"
+      },
+      {
+        "arm_length": 3,
+        "context": "bare",
+        "degrees": 210,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did the problem say the two angles turn through different amounts, or the same amount?",
+      "Drawing an arm longer doesn't add any turn \u2014 trace the actual turn between the arms instead of comparing their length."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Angle P and Angle Q both turn through the same 7 hour-marks \u2014 an angle's size is the amount of turn between its arms, not how long the arms are drawn.",
+        "Since the turns are equal, the difference between them is 0."
+      ]
+    },
+    "stem": "Angle P is formed by two short arms that turn through 7 hour-marks on a clock face (like the hour hand sweeping from the 12 to the 7 mark). Angle Q is formed by two much longer arms that turn through the exact same 7 hour-marks. A student says Angle Q must be bigger because its arms are drawn longer. Based on the actual turn between the arms (not their length), how many hour-marks bigger is Angle Q than Angle P?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "x": 7
+    },
+    "variant_signature": "964a00d06d9d7d0396d6753dd32da8768cb3836c12ce07f1ab193c27a71a47c3"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ANGLE-ARM-LENGTH",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "arm_length": 1,
+        "context": "bare",
+        "degrees": 240,
+        "kind": "angle"
+      },
+      {
+        "arm_length": 3,
+        "context": "bare",
+        "degrees": 240,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did the problem say the two angles turn through different amounts, or the same amount?",
+      "Drawing an arm longer doesn't add any turn \u2014 trace the actual turn between the arms instead of comparing their length."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Angle P and Angle Q both turn through the same 8 hour-marks \u2014 an angle's size is the amount of turn between its arms, not how long the arms are drawn.",
+        "Since the turns are equal, the difference between them is 0."
+      ]
+    },
+    "stem": "Angle P is formed by two short arms that turn through 8 hour-marks on a clock face (like the hour hand sweeping from the 12 to the 8 mark). Angle Q is formed by two much longer arms that turn through the exact same 8 hour-marks. A student says Angle Q must be bigger because its arms are drawn longer. Based on the actual turn between the arms (not their length), how many hour-marks bigger is Angle Q than Angle P?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "x": 8
+    },
+    "variant_signature": "8cac024740867ab3c0872781b20b35075bca1eb11f703d94775d01e4b980f1b5"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ANGLE-ARM-LENGTH",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "arm_length": 1,
+        "context": "bare",
+        "degrees": 270,
+        "kind": "angle"
+      },
+      {
+        "arm_length": 3,
+        "context": "bare",
+        "degrees": 270,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did the problem say the two angles turn through different amounts, or the same amount?",
+      "Drawing an arm longer doesn't add any turn \u2014 trace the actual turn between the arms instead of comparing their length."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Angle P and Angle Q both turn through the same 9 hour-marks \u2014 an angle's size is the amount of turn between its arms, not how long the arms are drawn.",
+        "Since the turns are equal, the difference between them is 0."
+      ]
+    },
+    "stem": "Angle P is formed by two short arms that turn through 9 hour-marks on a clock face (like the hour hand sweeping from the 12 to the 9 mark). Angle Q is formed by two much longer arms that turn through the exact same 9 hour-marks. A student says Angle Q must be bigger because its arms are drawn longer. Based on the actual turn between the arms (not their length), how many hour-marks bigger is Angle Q than Angle P?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "x": 9
+    },
+    "variant_signature": "0fb8fff00d5959ed4b14acdb908958dfe35f33765672c9b28cbc21d4bba9aef0"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ANGLE-ARM-LENGTH",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "arm_length": 1,
+        "context": "bare",
+        "degrees": 300,
+        "kind": "angle"
+      },
+      {
+        "arm_length": 3,
+        "context": "bare",
+        "degrees": 300,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did the problem say the two angles turn through different amounts, or the same amount?",
+      "Drawing an arm longer doesn't add any turn \u2014 trace the actual turn between the arms instead of comparing their length."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Angle P and Angle Q both turn through the same 10 hour-marks \u2014 an angle's size is the amount of turn between its arms, not how long the arms are drawn.",
+        "Since the turns are equal, the difference between them is 0."
+      ]
+    },
+    "stem": "Angle P is formed by two short arms that turn through 10 hour-marks on a clock face (like the hour hand sweeping from the 12 to the 10 mark). Angle Q is formed by two much longer arms that turn through the exact same 10 hour-marks. A student says Angle Q must be bigger because its arms are drawn longer. Based on the actual turn between the arms (not their length), how many hour-marks bigger is Angle Q than Angle P?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "x": 10
+    },
+    "variant_signature": "ca739c4f801c4840a51f01a2071fe2bc904a9c5d3d6c2b77c8967473b76ea406"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ANGLE-ARM-LENGTH",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "arm_length": 1,
+        "context": "bare",
+        "degrees": 330,
+        "kind": "angle"
+      },
+      {
+        "arm_length": 3,
+        "context": "bare",
+        "degrees": 330,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did the problem say the two angles turn through different amounts, or the same amount?",
+      "Drawing an arm longer doesn't add any turn \u2014 trace the actual turn between the arms instead of comparing their length."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Angle P and Angle Q both turn through the same 11 hour-marks \u2014 an angle's size is the amount of turn between its arms, not how long the arms are drawn.",
+        "Since the turns are equal, the difference between them is 0."
+      ]
+    },
+    "stem": "Angle P is formed by two short arms that turn through 11 hour-marks on a clock face (like the hour hand sweeping from the 12 to the 11 mark). Angle Q is formed by two much longer arms that turn through the exact same 11 hour-marks. A student says Angle Q must be bigger because its arms are drawn longer. Based on the actual turn between the arms (not their length), how many hour-marks bigger is Angle Q than Angle P?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "x": 11
+    },
+    "variant_signature": "d4cfac2a3ade202e6bcd905ca48e145d35aa6783243bd758b7b6a46e42497aa8"
+  }
+]

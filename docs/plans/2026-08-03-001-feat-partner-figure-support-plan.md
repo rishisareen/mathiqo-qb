@@ -254,7 +254,7 @@ Pipeline placement: schema (U2) → verification rules (U3) → materialization 
 - **Goal:** the data-and-number census templates carry verified figures.
 - **Requirements:** R6, R7, R10; KD3.
 - **Dependencies:** U3, U4, U5.
-- **Files:** the 27 wave-1 census templates under `content/templates/`. `content_version` (`content/fractions/manifest.yaml`) is out of scope — it stamps the skill-graph pack (skills/misconceptions/mappings), which this unit doesn't touch; item templates version independently via `template_version` and `bank_version`.
+- **Files:** the 27 wave-1 census templates under `content/templates/` — `TPL.DATA.*` (13), `TPL.FRAC.*` (8), `TPL.NUM.*` (5), `TPL.INT.*` (1); `content/` manifest for the `content_version` bump.
 - **Approach:** per template, author the `figure` block from the stem's existing text description — bar-graph gridlines/scale, pictograph keys and half symbols, tally five-bundles plus loose, number-line divisions and marked points — without rewording stems (R6) and without `template_version` bumps (KTD3).
 - **Test scenarios:** none new — U2–U5's gates (schema validation, per-variant integrity, coverage, real-bank build) check every template as it lands. Test expectation: none — content-only unit verified by existing gates.
 - **Verification:** full suite green with all wave-1 templates carrying figures; spot-check one built instance per kind for stem/figure agreement. Build and activate an interim bank here so Strand D figures serve while wave 2 proceeds — existing `--bank-version` plus `tools/bank_activate.py`, no new mechanism.
@@ -264,7 +264,7 @@ Pipeline placement: schema (U2) → verification rules (U3) → materialization 
 - **Goal:** the spatial census templates carry verified figures, including the awkward cases.
 - **Requirements:** R6, R7, R10; KD3.
 - **Dependencies:** U3, U4, U5; the R12 review returned, or the user explicitly waived waiting.
-- **Files:** the 51 wave-2 census templates under `content/templates/` — `TPL.GEO.*` (39), `TPL.MEAS.*` (9), `TPL.MEASLENGTH.*` (3). No `content_version` bump, for the same reason as U6.
+- **Files:** the 51 wave-2 census templates under `content/templates/` — `TPL.GEO.*` (39), `TPL.MEAS.*` (9), `TPL.MEASLENGTH.*` (3); `content/` manifest `content_version` bump.
 - **Approach:** author per KTD6 kinds, explicitly covering: reflex angles to 350° (`REFLEX.HARD`, `CLOCKTURN`), clock-context angles, protractor dual-scale items (`SCALE.INNER/OUTER`), two-figure comparison templates (KTD1 array), variable-count point-line figures, n-gon symmetry shapes, and the audit's grid-region/ruler figures.
 - **Test scenarios:** none new — existing gates check each template. Test expectation: none — content-only unit verified by existing gates.
 - **Verification:** full suite green; AE5's coverage test passes unconditionally (tighten the U5 gate here); spot-check the five comparison templates render two figures.
@@ -304,5 +304,5 @@ A shipped bank requires a fresh `--bank-version` build plus `tools/bank_activate
 - Every template in the audited census carries verified figures (AE5 unconditional); zero `template_version` bumps in the diff (KTD3).
 - `render` is gone from `schemas/item-record.schema.json` and unreferenced anywhere.
 - Integration guide and deck updated; the R12 review disposition is recorded — accepted, accepted-with-changes, or explicitly waived — not merely that the packet was sent.
-- `content_version` untouched (correct — this work never changes `content/fractions/{skills,misconceptions,mappings}.yaml`, only `content/templates/`); a bank carrying figures builds under a fresh `bank_version` and is activated so `fetch_batch` serves it.
+- `content_version` bumped alongside the content waves; the interim wave-1 bank and the final bank each build and activate cleanly.
 - No dead-end or experimental code from abandoned approaches remains in the diff.

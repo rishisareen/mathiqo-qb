@@ -1,0 +1,2122 @@
+[
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "fill": "half-squares",
+        "half_cells": 2,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 4."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 1 half squares make 1 whole squares.",
+        "Add these to the 4 whole squares already counted: 4 + 1."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 4 whole unit squares, plus 2 x 1 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 1,
+      "n": 4
+    },
+    "variant_signature": "cb248615a8c59f4759c4079002d9f1c3439b5c2f9c34a6511e93af236d1e19c6"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 10,
+        "fill": "half-squares",
+        "half_cells": 6,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 4."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 3 half squares make 3 whole squares.",
+        "Add these to the 4 whole squares already counted: 4 + 3."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 4 whole unit squares, plus 2 x 3 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 3,
+      "n": 4
+    },
+    "variant_signature": "f309ca06cfa58402c9af14d4e94295630d3486ae08fc046112b6bcf55a395d48"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 16,
+        "fill": "half-squares",
+        "half_cells": 12,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 4."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 6 half squares make 6 whole squares.",
+        "Add these to the 4 whole squares already counted: 4 + 6."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 4 whole unit squares, plus 2 x 6 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 6,
+      "n": 4
+    },
+    "variant_signature": "45aaa9dc33931b5831147a2360f771c8e2ad6ce18e217b1c118249d2e8700557"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "fill": "half-squares",
+        "half_cells": 4,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 5."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 2 half squares make 2 whole squares.",
+        "Add these to the 5 whole squares already counted: 5 + 2."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 5 whole unit squares, plus 2 x 2 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 2,
+      "n": 5
+    },
+    "variant_signature": "fc64553c057be4d015af8609f3d3acc386ab3809d951f10ff1203fc5fb99b318"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 15,
+        "fill": "half-squares",
+        "half_cells": 10,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 5."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 5 half squares make 5 whole squares.",
+        "Add these to the 5 whole squares already counted: 5 + 5."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 5 whole unit squares, plus 2 x 5 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 5,
+      "n": 5
+    },
+    "variant_signature": "b0c82cb5debd3efd311994c7ca2b78ede2b6466cb40227f3c278b6840c896134"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "fill": "half-squares",
+        "half_cells": 2,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 6."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 1 half squares make 1 whole squares.",
+        "Add these to the 6 whole squares already counted: 6 + 1."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 6 whole unit squares, plus 2 x 1 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 1,
+      "n": 6
+    },
+    "variant_signature": "eab8715ef176b6cd96728df23b467e8f214165a0c09c5ba875690b4eed9e6315"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 14,
+        "fill": "half-squares",
+        "half_cells": 8,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 6."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 4 half squares make 4 whole squares.",
+        "Add these to the 6 whole squares already counted: 6 + 4."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 6 whole unit squares, plus 2 x 4 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 4,
+      "n": 6
+    },
+    "variant_signature": "486c82b8b33cb4a46d760668d688889fe07c4e9e677b3e333a28ee6c2ca9b3e4"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 18,
+        "fill": "half-squares",
+        "half_cells": 12,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 6."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 6 half squares make 6 whole squares.",
+        "Add these to the 6 whole squares already counted: 6 + 6."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 6 whole unit squares, plus 2 x 6 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 6,
+      "n": 6
+    },
+    "variant_signature": "32e2129533d413c786955a3674adbd1fd1ef72cbef16187b67beea70de9947cd"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 13,
+        "fill": "half-squares",
+        "half_cells": 6,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 7."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 3 half squares make 3 whole squares.",
+        "Add these to the 7 whole squares already counted: 7 + 3."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 7 whole unit squares, plus 2 x 3 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 3,
+      "n": 7
+    },
+    "variant_signature": "1fdc4c0c70151f6781e1a7ebb506ada434629b0f183b00fbd60e4662cbb7aef6"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 19,
+        "fill": "half-squares",
+        "half_cells": 12,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 7."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 6 half squares make 6 whole squares.",
+        "Add these to the 7 whole squares already counted: 7 + 6."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 7 whole unit squares, plus 2 x 6 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 6,
+      "n": 7
+    },
+    "variant_signature": "008d53e79361ed5afee34f8a0dd37b66313a43b02b9d5093391212c83cc3695c"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 12,
+        "fill": "half-squares",
+        "half_cells": 4,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 8."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 2 half squares make 2 whole squares.",
+        "Add these to the 8 whole squares already counted: 8 + 2."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 8 whole unit squares, plus 2 x 2 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 2,
+      "n": 8
+    },
+    "variant_signature": "279c90bec9da3817bc16300c9ee84e59abcb56a8cb52617511f932d19eea7701"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 18,
+        "fill": "half-squares",
+        "half_cells": 10,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 8."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 5 half squares make 5 whole squares.",
+        "Add these to the 8 whole squares already counted: 8 + 5."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 8 whole unit squares, plus 2 x 5 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 5,
+      "n": 8
+    },
+    "variant_signature": "78d2f8ad6b6be540285034450cf480f4d31655b96d3d1152790101d24da1fc55"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 11,
+        "fill": "half-squares",
+        "half_cells": 2,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 9."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 1 half squares make 1 whole squares.",
+        "Add these to the 9 whole squares already counted: 9 + 1."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 9 whole unit squares, plus 2 x 1 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 1,
+      "n": 9
+    },
+    "variant_signature": "7d3da1b7010e790e00cb1bd653ce326dc23f1a31e401fb7aeabf2eb2adeede3d"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 17,
+        "fill": "half-squares",
+        "half_cells": 8,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 9."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 4 half squares make 4 whole squares.",
+        "Add these to the 9 whole squares already counted: 9 + 4."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 9 whole unit squares, plus 2 x 4 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 4,
+      "n": 9
+    },
+    "variant_signature": "f4068397b45c5f8c429c5fd16d4be353d29072d2f1cb896e403279f6520e9c78"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 21,
+        "fill": "half-squares",
+        "half_cells": 12,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 9."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 6 half squares make 6 whole squares.",
+        "Add these to the 9 whole squares already counted: 9 + 6."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 9 whole unit squares, plus 2 x 6 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 6,
+      "n": 9
+    },
+    "variant_signature": "a53e44c3be122b0c8a36a7b1e88e64881bdc744dbbf860d6bba199bcf5c040cc"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 16,
+        "fill": "half-squares",
+        "half_cells": 6,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 10."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 3 half squares make 3 whole squares.",
+        "Add these to the 10 whole squares already counted: 10 + 3."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 10 whole unit squares, plus 2 x 3 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 3,
+      "n": 10
+    },
+    "variant_signature": "dd5a460df3cbdfb3f9258ac580aee8e89c4a918375646f0dde71d6adb23ca336"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 20,
+        "fill": "half-squares",
+        "half_cells": 10,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 10."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 5 half squares make 5 whole squares.",
+        "Add these to the 10 whole squares already counted: 10 + 5."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 10 whole unit squares, plus 2 x 5 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 5,
+      "n": 10
+    },
+    "variant_signature": "3ac46af837f2cd9bc5dde0ac18f4077614f30684d910bc61fe71630fd9fcd64c"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 15,
+        "fill": "half-squares",
+        "half_cells": 4,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 11."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 2 half squares make 2 whole squares.",
+        "Add these to the 11 whole squares already counted: 11 + 2."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 11 whole unit squares, plus 2 x 2 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 2,
+      "n": 11
+    },
+    "variant_signature": "c911884bbed15e7d45ebf3db65d7e123cecdc3c13941c1b67f7fed3916ef0ca4"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 21,
+        "fill": "half-squares",
+        "half_cells": 10,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 11."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 5 half squares make 5 whole squares.",
+        "Add these to the 11 whole squares already counted: 11 + 5."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 11 whole unit squares, plus 2 x 5 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 5,
+      "n": 11
+    },
+    "variant_signature": "cf13429a450c1107f5e9e8038befa67a19e2930f756158a1a85e1ff6ba2dd198"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 14,
+        "fill": "half-squares",
+        "half_cells": 2,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 12."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 1 half squares make 1 whole squares.",
+        "Add these to the 12 whole squares already counted: 12 + 1."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 12 whole unit squares, plus 2 x 1 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 1,
+      "n": 12
+    },
+    "variant_signature": "716d10bc80a1a7c086d96985070ed774de691d3450825cbf95aa492ef2ffd7b9"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 20,
+        "fill": "half-squares",
+        "half_cells": 8,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 12."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 4 half squares make 4 whole squares.",
+        "Add these to the 12 whole squares already counted: 12 + 4."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 12 whole unit squares, plus 2 x 4 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 4,
+      "n": 12
+    },
+    "variant_signature": "d848e3b72cd53abafbbeb6d095097a65a32660790fe0a233cffb055ff6f532eb"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 24,
+        "fill": "half-squares",
+        "half_cells": 12,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 12."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 6 half squares make 6 whole squares.",
+        "Add these to the 12 whole squares already counted: 12 + 6."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 12 whole unit squares, plus 2 x 6 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 6,
+      "n": 12
+    },
+    "variant_signature": "d4d679ff84036414606b9cf51995f002ebd736dfabfadc8a05962db12e3ae00d"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 19,
+        "fill": "half-squares",
+        "half_cells": 6,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 13."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 3 half squares make 3 whole squares.",
+        "Add these to the 13 whole squares already counted: 13 + 3."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 13 whole unit squares, plus 2 x 3 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 3,
+      "n": 13
+    },
+    "variant_signature": "ae925b25e8e8214abc210f3ca47ea6c331ce5154e62efc0781b4ecd20bf7f06a"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 23,
+        "fill": "half-squares",
+        "half_cells": 10,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 13."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 5 half squares make 5 whole squares.",
+        "Add these to the 13 whole squares already counted: 13 + 5."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 13 whole unit squares, plus 2 x 5 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 5,
+      "n": 13
+    },
+    "variant_signature": "7aeff4ef36bc9cf6acc010050fb82d0b02ba8d2396e758c66db467500865b18f"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 18,
+        "fill": "half-squares",
+        "half_cells": 4,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 14."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 2 half squares make 2 whole squares.",
+        "Add these to the 14 whole squares already counted: 14 + 2."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 14 whole unit squares, plus 2 x 2 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 2,
+      "n": 14
+    },
+    "variant_signature": "fdadca155a80430b518f3da0b96bc720eca54fa4c5d1458e77e5333a65a78134"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 22,
+        "fill": "half-squares",
+        "half_cells": 8,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 14."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 4 half squares make 4 whole squares.",
+        "Add these to the 14 whole squares already counted: 14 + 4."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 14 whole unit squares, plus 2 x 4 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 4,
+      "n": 14
+    },
+    "variant_signature": "885176c91a2957c04cd06fe8ec501585991003ed15a43937790e4e8a24db2985"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 17,
+        "fill": "half-squares",
+        "half_cells": 2,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 15."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 1 half squares make 1 whole squares.",
+        "Add these to the 15 whole squares already counted: 15 + 1."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 15 whole unit squares, plus 2 x 1 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 1,
+      "n": 15
+    },
+    "variant_signature": "634aed1556b9e6997460de8fffc65bf01aa5da736c005f6bc8ba2df2d298d47b"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 21,
+        "fill": "half-squares",
+        "half_cells": 6,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 15."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 3 half squares make 3 whole squares.",
+        "Add these to the 15 whole squares already counted: 15 + 3."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 15 whole unit squares, plus 2 x 3 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 3,
+      "n": 15
+    },
+    "variant_signature": "bf9b374a8ec06ba2e4546b782b77fe8f5a54f8da6ea1c4ee351f92a6ea9b699b"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 27,
+        "fill": "half-squares",
+        "half_cells": 12,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 15."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 6 half squares make 6 whole squares.",
+        "Add these to the 15 whole squares already counted: 15 + 6."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 15 whole unit squares, plus 2 x 6 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 6,
+      "n": 15
+    },
+    "variant_signature": "8f0c117b5206fd17f1e3dd13e647705cdf66468e0a89cd381a32408560446dea"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 22,
+        "fill": "half-squares",
+        "half_cells": 6,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 16."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 3 half squares make 3 whole squares.",
+        "Add these to the 16 whole squares already counted: 16 + 3."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 16 whole unit squares, plus 2 x 3 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 3,
+      "n": 16
+    },
+    "variant_signature": "2ba4eb9c0b6e5d64eafa6b4a3edb68dd517150ca1b10875eca96d0f6d6025a61"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 26,
+        "fill": "half-squares",
+        "half_cells": 10,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 16."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 5 half squares make 5 whole squares.",
+        "Add these to the 16 whole squares already counted: 16 + 5."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 16 whole unit squares, plus 2 x 5 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 5,
+      "n": 16
+    },
+    "variant_signature": "60f74e18baac08bfb2b9806d9579e1092f6aee038477624645998744f02837d0"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 21,
+        "fill": "half-squares",
+        "half_cells": 4,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 17."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 2 half squares make 2 whole squares.",
+        "Add these to the 17 whole squares already counted: 17 + 2."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 17 whole unit squares, plus 2 x 2 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 2,
+      "n": 17
+    },
+    "variant_signature": "75fdd36ad2e3b130c67024323a9fecc1276ec6115b33779fc2207737d4beb923"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 25,
+        "fill": "half-squares",
+        "half_cells": 8,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 17."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 4 half squares make 4 whole squares.",
+        "Add these to the 17 whole squares already counted: 17 + 4."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 17 whole unit squares, plus 2 x 4 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 4,
+      "n": 17
+    },
+    "variant_signature": "6f6d049a50ca5be43569ac40871126be4a1d4bdb65ca29bc733e2fb431199e50"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 20,
+        "fill": "half-squares",
+        "half_cells": 2,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 18."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 1 half squares make 1 whole squares.",
+        "Add these to the 18 whole squares already counted: 18 + 1."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 18 whole unit squares, plus 2 x 1 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 1,
+      "n": 18
+    },
+    "variant_signature": "c37aacf4303f94b4b1851cccb6c8f182fcf633041eb16a2854b449b78c094b96"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 24,
+        "fill": "half-squares",
+        "half_cells": 6,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 18."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 3 half squares make 3 whole squares.",
+        "Add these to the 18 whole squares already counted: 18 + 3."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 18 whole unit squares, plus 2 x 3 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 3,
+      "n": 18
+    },
+    "variant_signature": "62709b713f6d016e6aa04a26547aecdfcfe38a3a9bc47a72c539f5c0dfb0a2ed"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 30,
+        "fill": "half-squares",
+        "half_cells": 12,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 18."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 6 half squares make 6 whole squares.",
+        "Add these to the 18 whole squares already counted: 18 + 6."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 18 whole unit squares, plus 2 x 6 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 6,
+      "n": 18
+    },
+    "variant_signature": "5640633344c54d3904ac5e0008cbb262bde4b922226593e1ea6fa68abefde28f"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 23,
+        "fill": "half-squares",
+        "half_cells": 4,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 19."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 2 half squares make 2 whole squares.",
+        "Add these to the 19 whole squares already counted: 19 + 2."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 19 whole unit squares, plus 2 x 2 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 2,
+      "n": 19
+    },
+    "variant_signature": "af7a6f9daa031c82470a2a1b74b0d7b970f683ab0b96f81263255dec7001d51e"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 29,
+        "fill": "half-squares",
+        "half_cells": 10,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 19."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 5 half squares make 5 whole squares.",
+        "Add these to the 19 whole squares already counted: 19 + 5."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 19 whole unit squares, plus 2 x 5 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 5,
+      "n": 19
+    },
+    "variant_signature": "ae4f95b0b68862867c12d648f173e650bf7a1ce57b0c6135e7dfbe2902b25b5a"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 24,
+        "fill": "half-squares",
+        "half_cells": 4,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 20."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 2 half squares make 2 whole squares.",
+        "Add these to the 20 whole squares already counted: 20 + 2."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 20 whole unit squares, plus 2 x 2 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 2,
+      "n": 20
+    },
+    "variant_signature": "737fa0c445c67fd4cb9d02e1a3615a0848eb00edc00a0dcb798670ee7faea06f"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 28,
+        "fill": "half-squares",
+        "half_cells": 8,
+        "kind": "grid-region",
+        "rows": 1
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Two half unit squares together make one whole unit square \u2014 don't count each half as a whole square by itself.",
+      "Work out how many whole squares the half squares make, then add that to 20."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every two half unit squares combine to make one whole unit square, so 2 x 4 half squares make 4 whole squares.",
+        "Add these to the 20 whole squares already counted: 20 + 4."
+      ]
+    },
+    "stem": "A shape drawn on a grid covers 20 whole unit squares, plus 2 x 4 half unit squares (every two half squares together make one more whole square). What is the shape's total area, in whole square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "j": 4,
+      "n": 20
+    },
+    "variant_signature": "a967267589386dd85074ae837f96bc90e002efe05850d9f0aa58b4860df3e207"
+  }
+]

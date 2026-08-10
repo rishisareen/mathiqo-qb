@@ -1,0 +1,1762 @@
+[
+  {
+    "answer": "1071",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 1 x 1000.",
+        "Hundreds are worth 100 each: 0 x 100.",
+        "Tens are worth 10 each: 7 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 1 thousands, 0 hundreds, 7 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 0,
+      "c": 7,
+      "d": 1
+    },
+    "variant_signature": "8e568568912279ec6205eb80aeb6fd897d483d6dde9c1a9884b89e42681d0641"
+  },
+  {
+    "answer": "1296",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 1 x 1000.",
+        "Hundreds are worth 100 each: 2 x 100.",
+        "Tens are worth 10 each: 9 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 1 thousands, 2 hundreds, 9 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 2,
+      "c": 9,
+      "d": 6
+    },
+    "variant_signature": "0438aaa849267efa42621e0ed3fb075ef2f6738ce2aad014fab2c395d06dbdbf"
+  },
+  {
+    "answer": "1521",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 1 x 1000.",
+        "Hundreds are worth 100 each: 5 x 100.",
+        "Tens are worth 10 each: 2 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 1 thousands, 5 hundreds, 2 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 5,
+      "c": 2,
+      "d": 1
+    },
+    "variant_signature": "f5def8d4c6a1f97af1d6fbfcb9bf242672324dc73b970a0a123809123e1a6526"
+  },
+  {
+    "answer": "1746",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 1 x 1000.",
+        "Hundreds are worth 100 each: 7 x 100.",
+        "Tens are worth 10 each: 4 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 1 thousands, 7 hundreds, 4 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 7,
+      "c": 4,
+      "d": 6
+    },
+    "variant_signature": "668ec0d2a2df261ecb26a9295d2aa764fb90cc589e43b162d7c2f3247e94a72e"
+  },
+  {
+    "answer": "1971",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 1 x 1000.",
+        "Hundreds are worth 100 each: 9 x 100.",
+        "Tens are worth 10 each: 7 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 1 thousands, 9 hundreds, 7 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 9,
+      "c": 7,
+      "d": 1
+    },
+    "variant_signature": "6b3b1c333f62601dcc228588e56f981c01d3805e2cba520db5a8c67858fa562d"
+  },
+  {
+    "answer": "2196",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 2 x 1000.",
+        "Hundreds are worth 100 each: 1 x 100.",
+        "Tens are worth 10 each: 9 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 2 thousands, 1 hundreds, 9 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 1,
+      "c": 9,
+      "d": 6
+    },
+    "variant_signature": "42c14d38b5a315fb52e80991fb56a8cb5efd57db9b75085bb361a419984b4f4f"
+  },
+  {
+    "answer": "2421",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 2 x 1000.",
+        "Hundreds are worth 100 each: 4 x 100.",
+        "Tens are worth 10 each: 2 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 2 thousands, 4 hundreds, 2 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 2,
+      "d": 1
+    },
+    "variant_signature": "5602a9cb6b1b46b9723d7a25e69d54d9683ffb10183e1f71a58718e7cd3994a6"
+  },
+  {
+    "answer": "2646",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 2 x 1000.",
+        "Hundreds are worth 100 each: 6 x 100.",
+        "Tens are worth 10 each: 4 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 2 thousands, 6 hundreds, 4 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 6,
+      "c": 4,
+      "d": 6
+    },
+    "variant_signature": "7df6462840c89ff594c8342e0cea2a3321c9b1efe3b4a19bc8b956d654c3a36e"
+  },
+  {
+    "answer": "2871",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 2 x 1000.",
+        "Hundreds are worth 100 each: 8 x 100.",
+        "Tens are worth 10 each: 7 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 2 thousands, 8 hundreds, 7 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 8,
+      "c": 7,
+      "d": 1
+    },
+    "variant_signature": "6d996da26808cdefb6634ddc2de9144f88e2b960617d001ef48771f2c4cfb996"
+  },
+  {
+    "answer": "3096",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 3 x 1000.",
+        "Hundreds are worth 100 each: 0 x 100.",
+        "Tens are worth 10 each: 9 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 3 thousands, 0 hundreds, 9 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 0,
+      "c": 9,
+      "d": 6
+    },
+    "variant_signature": "e3d7e85c23ab5d31d1d2a40b842c3157e2dc5de911caebfd67dfb61f1d89c941"
+  },
+  {
+    "answer": "3321",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 3 x 1000.",
+        "Hundreds are worth 100 each: 3 x 100.",
+        "Tens are worth 10 each: 2 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 3 thousands, 3 hundreds, 2 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 3,
+      "c": 2,
+      "d": 1
+    },
+    "variant_signature": "81987bdb7206739a17ddbac5653da9c62aaa898b550ffc37780ccb50de16e7e9"
+  },
+  {
+    "answer": "3546",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 3 x 1000.",
+        "Hundreds are worth 100 each: 5 x 100.",
+        "Tens are worth 10 each: 4 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 3 thousands, 5 hundreds, 4 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 5,
+      "c": 4,
+      "d": 6
+    },
+    "variant_signature": "ac0421ac9a96ba2de146382b4cf4d34bdbbca95aa0b644e465eaff2b1cf144b1"
+  },
+  {
+    "answer": "3771",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 3 x 1000.",
+        "Hundreds are worth 100 each: 7 x 100.",
+        "Tens are worth 10 each: 7 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 3 thousands, 7 hundreds, 7 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 7,
+      "c": 7,
+      "d": 1
+    },
+    "variant_signature": "88ce8e5b076efaef209c8f3af25215099a1a1b1cc8f8197fc767000f2a465191"
+  },
+  {
+    "answer": "3996",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 3 x 1000.",
+        "Hundreds are worth 100 each: 9 x 100.",
+        "Tens are worth 10 each: 9 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 3 thousands, 9 hundreds, 9 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 9,
+      "c": 9,
+      "d": 6
+    },
+    "variant_signature": "ef99a85fbb08ef844aeed78d5c735e9f6f9d6b48354ea1212512963eb355d5ef"
+  },
+  {
+    "answer": "4221",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 4 x 1000.",
+        "Hundreds are worth 100 each: 2 x 100.",
+        "Tens are worth 10 each: 2 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 4 thousands, 2 hundreds, 2 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 2,
+      "c": 2,
+      "d": 1
+    },
+    "variant_signature": "f47455aee15ab5b3d15ab96d667bc76badc82b357c24cc5607483b3aa2703e99"
+  },
+  {
+    "answer": "4446",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 4 x 1000.",
+        "Hundreds are worth 100 each: 4 x 100.",
+        "Tens are worth 10 each: 4 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 4 thousands, 4 hundreds, 4 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 4,
+      "c": 4,
+      "d": 6
+    },
+    "variant_signature": "27b2634da5d6e588e3580c7cba4728f1d59fcf40fe523e8bb30aa2996e75ffb9"
+  },
+  {
+    "answer": "4671",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 4 x 1000.",
+        "Hundreds are worth 100 each: 6 x 100.",
+        "Tens are worth 10 each: 7 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 4 thousands, 6 hundreds, 7 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 6,
+      "c": 7,
+      "d": 1
+    },
+    "variant_signature": "a83593408d70c1738802c8ac366e195bef4f40b964e65d474fab87895c91b5bc"
+  },
+  {
+    "answer": "4896",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 4 x 1000.",
+        "Hundreds are worth 100 each: 8 x 100.",
+        "Tens are worth 10 each: 9 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 4 thousands, 8 hundreds, 9 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 8,
+      "c": 9,
+      "d": 6
+    },
+    "variant_signature": "e03bc6c3a206775468d6c4e7087ba357cd5942312ef4819e1789bf4e9529f4df"
+  },
+  {
+    "answer": "5121",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 5 x 1000.",
+        "Hundreds are worth 100 each: 1 x 100.",
+        "Tens are worth 10 each: 2 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 5 thousands, 1 hundreds, 2 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 1,
+      "c": 2,
+      "d": 1
+    },
+    "variant_signature": "8f9e2a6bc3827364eb834614b955aca12d0c2c8a2dcfce818c7df55b97ad398c"
+  },
+  {
+    "answer": "5346",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 5 x 1000.",
+        "Hundreds are worth 100 each: 3 x 100.",
+        "Tens are worth 10 each: 4 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 5 thousands, 3 hundreds, 4 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 3,
+      "c": 4,
+      "d": 6
+    },
+    "variant_signature": "31aa70d4ddef6912465e7ffaebd777a8c417bbd330fe285a99b7c234d85771af"
+  },
+  {
+    "answer": "5571",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 5 x 1000.",
+        "Hundreds are worth 100 each: 5 x 100.",
+        "Tens are worth 10 each: 7 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 5 thousands, 5 hundreds, 7 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 5,
+      "c": 7,
+      "d": 1
+    },
+    "variant_signature": "f065e04c458d75adc5dbd22e603f35e6515655697a4825f7c2c73e35f10686bd"
+  },
+  {
+    "answer": "5796",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 5 x 1000.",
+        "Hundreds are worth 100 each: 7 x 100.",
+        "Tens are worth 10 each: 9 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 5 thousands, 7 hundreds, 9 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 7,
+      "c": 9,
+      "d": 6
+    },
+    "variant_signature": "bfaca9e1998818bdde67c566bdf256056401b8bb01d759eae07ae4c9bde310f2"
+  },
+  {
+    "answer": "6021",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 6 x 1000.",
+        "Hundreds are worth 100 each: 0 x 100.",
+        "Tens are worth 10 each: 2 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 6 thousands, 0 hundreds, 2 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 0,
+      "c": 2,
+      "d": 1
+    },
+    "variant_signature": "95e68cd51046f652e9c2912ce5d0eb8ce1385ed45cca7220deb0634b5611aaac"
+  },
+  {
+    "answer": "6246",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 6 x 1000.",
+        "Hundreds are worth 100 each: 2 x 100.",
+        "Tens are worth 10 each: 4 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 6 thousands, 2 hundreds, 4 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 2,
+      "c": 4,
+      "d": 6
+    },
+    "variant_signature": "8cd61ae6a8db2567e6231f9bf3d480164c1e66e8139d914fb4a49478900bdc92"
+  },
+  {
+    "answer": "6471",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 6 x 1000.",
+        "Hundreds are worth 100 each: 4 x 100.",
+        "Tens are worth 10 each: 7 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 6 thousands, 4 hundreds, 7 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 4,
+      "c": 7,
+      "d": 1
+    },
+    "variant_signature": "fc5ade3210b7d58e0d456bbf1e091790dcde3b82b24e5298d3679dae7327e36e"
+  },
+  {
+    "answer": "6696",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 6 x 1000.",
+        "Hundreds are worth 100 each: 6 x 100.",
+        "Tens are worth 10 each: 9 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 6 thousands, 6 hundreds, 9 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 6,
+      "c": 9,
+      "d": 6
+    },
+    "variant_signature": "13f23a78220752a6d775bfea500d96b5e57572a4bbbecea4fa467f66d4bd74da"
+  },
+  {
+    "answer": "6921",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 6 x 1000.",
+        "Hundreds are worth 100 each: 9 x 100.",
+        "Tens are worth 10 each: 2 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 6 thousands, 9 hundreds, 2 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 9,
+      "c": 2,
+      "d": 1
+    },
+    "variant_signature": "77d2027662d08d2db01fa7c129e116367bfdda2f087cf5fca056c4c6ab492ddc"
+  },
+  {
+    "answer": "7146",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 7 x 1000.",
+        "Hundreds are worth 100 each: 1 x 100.",
+        "Tens are worth 10 each: 4 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 7 thousands, 1 hundreds, 4 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 1,
+      "c": 4,
+      "d": 6
+    },
+    "variant_signature": "7fd322eb9c2d1965a9acfc8f075b8fb51fb89d8dc47523da37ee5606056d4aae"
+  },
+  {
+    "answer": "7371",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 7 x 1000.",
+        "Hundreds are worth 100 each: 3 x 100.",
+        "Tens are worth 10 each: 7 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 7 thousands, 3 hundreds, 7 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 3,
+      "c": 7,
+      "d": 1
+    },
+    "variant_signature": "13d8bdac60b12bddb2fe6c423606acd255624c841786db9951f4cd9b52010679"
+  },
+  {
+    "answer": "7596",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 7 x 1000.",
+        "Hundreds are worth 100 each: 5 x 100.",
+        "Tens are worth 10 each: 9 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 7 thousands, 5 hundreds, 9 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 5,
+      "c": 9,
+      "d": 6
+    },
+    "variant_signature": "87a81609b010f25e356bfb9b90398b0e1b7f270f18a897b9ee64c76961a5a05f"
+  },
+  {
+    "answer": "7821",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 7 x 1000.",
+        "Hundreds are worth 100 each: 8 x 100.",
+        "Tens are worth 10 each: 2 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 7 thousands, 8 hundreds, 2 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 8,
+      "c": 2,
+      "d": 1
+    },
+    "variant_signature": "efc34a34e3f27ecbf924977c80390d3534ef2208af9d458388f51b83232c0ff0"
+  },
+  {
+    "answer": "8046",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 8 x 1000.",
+        "Hundreds are worth 100 each: 0 x 100.",
+        "Tens are worth 10 each: 4 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 8 thousands, 0 hundreds, 4 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 0,
+      "c": 4,
+      "d": 6
+    },
+    "variant_signature": "cf247f4bee38c30df5350f3610faa6d3e71dbef656f90092d606105961f07dea"
+  },
+  {
+    "answer": "8271",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 8 x 1000.",
+        "Hundreds are worth 100 each: 2 x 100.",
+        "Tens are worth 10 each: 7 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 8 thousands, 2 hundreds, 7 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 2,
+      "c": 7,
+      "d": 1
+    },
+    "variant_signature": "f33e53da543c904c362b8ae99cb271066782e99702abb96298a0a1609d88f1f3"
+  },
+  {
+    "answer": "8496",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 8 x 1000.",
+        "Hundreds are worth 100 each: 4 x 100.",
+        "Tens are worth 10 each: 9 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 8 thousands, 4 hundreds, 9 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 4,
+      "c": 9,
+      "d": 6
+    },
+    "variant_signature": "55aedf2f5ebc592fa481b748684ac9873197ced02d70246c5d79557e6223c518"
+  },
+  {
+    "answer": "8721",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 8 x 1000.",
+        "Hundreds are worth 100 each: 7 x 100.",
+        "Tens are worth 10 each: 2 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 8 thousands, 7 hundreds, 2 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 7,
+      "c": 2,
+      "d": 1
+    },
+    "variant_signature": "344e207936d67fc41f6b0a10eff4ea92e96963fc9386222086d4f780332572d0"
+  },
+  {
+    "answer": "8946",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 8 x 1000.",
+        "Hundreds are worth 100 each: 9 x 100.",
+        "Tens are worth 10 each: 4 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 8 thousands, 9 hundreds, 4 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 9,
+      "c": 4,
+      "d": 6
+    },
+    "variant_signature": "c7e348f0b2821077c4afaf4b6bfa66ca881295542a7e72c976786d8dfcfb7a24"
+  },
+  {
+    "answer": "9171",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 9 x 1000.",
+        "Hundreds are worth 100 each: 1 x 100.",
+        "Tens are worth 10 each: 7 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 9 thousands, 1 hundreds, 7 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 1,
+      "c": 7,
+      "d": 1
+    },
+    "variant_signature": "806eecfece93e88fa8c1face4c2c19f4e728fe73e1f72c675c7eff46c49b7663"
+  },
+  {
+    "answer": "9396",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 9 x 1000.",
+        "Hundreds are worth 100 each: 3 x 100.",
+        "Tens are worth 10 each: 9 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 9 thousands, 3 hundreds, 9 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 3,
+      "c": 9,
+      "d": 6
+    },
+    "variant_signature": "9ac7ba4adf2daaf4f186aa05d5e9e23f0ef0384a13936b2c8a5d6dac9d3df481"
+  },
+  {
+    "answer": "9621",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 9 x 1000.",
+        "Hundreds are worth 100 each: 6 x 100.",
+        "Tens are worth 10 each: 2 x 10.",
+        "Add all the place values together with the 1 ones."
+      ]
+    },
+    "stem": "A number is made up of 9 thousands, 6 hundreds, 2 tens, and 1 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 6,
+      "c": 2,
+      "d": 1
+    },
+    "variant_signature": "3cfe2a01439c12d9960dbbbab8b9235062db097a9440e6b4cfec4d1844e2befa"
+  },
+  {
+    "answer": "9846",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Each place is worth ten times the place to its right.",
+      "Add the place values, don't just add the digits."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Thousands are worth 1000 each: 9 x 1000.",
+        "Hundreds are worth 100 each: 8 x 100.",
+        "Tens are worth 10 each: 4 x 10.",
+        "Add all the place values together with the 6 ones."
+      ]
+    },
+    "stem": "A number is made up of 9 thousands, 8 hundreds, 4 tens, and 6 ones. What is the number?",
+    "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 8,
+      "c": 4,
+      "d": 6
+    },
+    "variant_signature": "3d5ff544ac4acf054d12c9c6ffbd0355b3fc83a7da1c500bfa1a494a632c957e"
+  }
+]

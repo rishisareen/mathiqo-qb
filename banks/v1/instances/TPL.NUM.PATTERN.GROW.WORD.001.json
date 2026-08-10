@@ -1,0 +1,1922 @@
+[
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 15."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 6-3, 10-6, 15-10.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 15."
+      ]
+    },
+    "stem": "A theatre's rows have 3, 6, 10 and 15 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 6,
+      "t3": 10,
+      "t4": 15
+    },
+    "variant_signature": "f2b02559e46ac666664133ea180fd7cb4cec92ec82ca47c3486376775c352d87"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 18."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 6-3, 11-6, 18-11.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 18."
+      ]
+    },
+    "stem": "A theatre's rows have 3, 6, 11 and 18 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 6,
+      "t3": 11,
+      "t4": 18
+    },
+    "variant_signature": "fbca2cd439daed678eb5729c23fedf0e8a136b0ce6ba4f4276d9e44e11d88692"
+  },
+  {
+    "answer": "39",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "35"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 24."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 6-3, 13-6, 24-13.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 24."
+      ]
+    },
+    "stem": "A theatre's rows have 3, 6, 13 and 24 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 6,
+      "t3": 13,
+      "t4": 24
+    },
+    "variant_signature": "f230137da49e7d88fe8359bff95bf9c6659dfd3f1c2d2dae09dbf630182e8767"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 18."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 7-3, 12-7, 18-12.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 18."
+      ]
+    },
+    "stem": "A theatre's rows have 3, 7, 12 and 18 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 7,
+      "t3": 12,
+      "t4": 18
+    },
+    "variant_signature": "cac643118fb2ed063d1a3cb352e58c353b8a589a8e6a77ba31100c7b1013ffc7"
+  },
+  {
+    "answer": "37",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 24."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 7-3, 14-7, 24-14.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 24."
+      ]
+    },
+    "stem": "A theatre's rows have 3, 7, 14 and 24 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 7,
+      "t3": 14,
+      "t4": 24
+    },
+    "variant_signature": "264f15953c781a9ac3315c2bf278fced407de0e25f5c2dfa1a9eccba449101c7"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 21."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 8-3, 14-8, 21-14.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 21."
+      ]
+    },
+    "stem": "A theatre's rows have 3, 8, 14 and 21 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 8,
+      "t3": 14,
+      "t4": 21
+    },
+    "variant_signature": "455f16719c1e3ede2f75134d13f13c766552617ed0d1d6863be7897edd0811ac"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 24."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 9-3, 16-9, 24-16.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 24."
+      ]
+    },
+    "stem": "A theatre's rows have 3, 9, 16 and 24 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 9,
+      "t3": 16,
+      "t4": 24
+    },
+    "variant_signature": "ea77ce4ed0043b26813d8b92706ced6184afed3a3b752bcca5a7855623ca4d94"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 16."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 6-4, 10-6, 16-10.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 16."
+      ]
+    },
+    "stem": "A theatre's rows have 4, 6, 10 and 16 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 6,
+      "t3": 10,
+      "t4": 16
+    },
+    "variant_signature": "e6e50ce964a6c8b224e121d1dea6a0980eae7857b828b9963c9f69bc67b3f211"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 6-4, 12-6, 22-12.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 22."
+      ]
+    },
+    "stem": "A theatre's rows have 4, 6, 12 and 22 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 6,
+      "t3": 12,
+      "t4": 22
+    },
+    "variant_signature": "8f1e79b7e41e8fc27f3cd3dc35a80f4f3a3b6fa366923cde2dd29e2926dbff67"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 19."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 7-4, 12-7, 19-12.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 19."
+      ]
+    },
+    "stem": "A theatre's rows have 4, 7, 12 and 19 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 7,
+      "t3": 12,
+      "t4": 19
+    },
+    "variant_signature": "7798a828349da93e24c8cb8deb914e4e37f779591e0eaf185358e305f9eb1621"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 7-4, 13-7, 22-13.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 22."
+      ]
+    },
+    "stem": "A theatre's rows have 4, 7, 13 and 22 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 7,
+      "t3": 13,
+      "t4": 22
+    },
+    "variant_signature": "c56beeac05334dae6a171a7062eab8f77747a89da4a670182ab1015409bd1f01"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 8-4, 14-8, 22-14.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 22."
+      ]
+    },
+    "stem": "A theatre's rows have 4, 8, 14 and 22 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 8,
+      "t3": 14,
+      "t4": 22
+    },
+    "variant_signature": "521d3b2dfd7d2a707ff2a63bbbc4c98b62025d4aca9c64dd446a65a0f2fbd4ed"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "29"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 9-4, 15-9, 22-15.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 22."
+      ]
+    },
+    "stem": "A theatre's rows have 4, 9, 15 and 22 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 9,
+      "t3": 15,
+      "t4": 22
+    },
+    "variant_signature": "836bc23e70ebafc94571e286848961fb55d1d650514abf0e0a16818d968fd61b"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "29"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 20."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 6-5, 11-6, 20-11.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 20."
+      ]
+    },
+    "stem": "A theatre's rows have 5, 6, 11 and 20 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 6,
+      "t3": 11,
+      "t4": 20
+    },
+    "variant_signature": "35d7b3f2274864b014732b0be422b48de30756b9d4cd949cddb2229eac039363"
+  },
+  {
+    "answer": "39",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 23."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 6-5, 12-6, 23-12.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 23."
+      ]
+    },
+    "stem": "A theatre's rows have 5, 6, 12 and 23 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 6,
+      "t3": 12,
+      "t4": 23
+    },
+    "variant_signature": "4d5de4d5b00be1a6fa7527812804e517165e441e52f965edb22efb7b7735d124"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 20."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 7-5, 12-7, 20-12.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 20."
+      ]
+    },
+    "stem": "A theatre's rows have 5, 7, 12 and 20 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 7,
+      "t3": 12,
+      "t4": 20
+    },
+    "variant_signature": "60ff0c0f18c0b1a24fecd6890ad5e64c186e5882e3a336d7eedc4f8874c0197c"
+  },
+  {
+    "answer": "37",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "33"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 23."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 7-5, 13-7, 23-13.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 23."
+      ]
+    },
+    "stem": "A theatre's rows have 5, 7, 13 and 23 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 7,
+      "t3": 13,
+      "t4": 23
+    },
+    "variant_signature": "9d8e2efe0488f93146f560a686b44c58f06059f4c6265eba7d961b98d4f07ad4"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 20."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 8-5, 13-8, 20-13.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 20."
+      ]
+    },
+    "stem": "A theatre's rows have 5, 8, 13 and 20 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 8,
+      "t3": 13,
+      "t4": 20
+    },
+    "variant_signature": "dfabdd2824c3970cf1bcd9029405b916bcd8c9995f0aafa7a14e0ce29290f9f9"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 20."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 9-5, 14-9, 20-14.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 20."
+      ]
+    },
+    "stem": "A theatre's rows have 5, 9, 14 and 20 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 9,
+      "t3": 14,
+      "t4": 20
+    },
+    "variant_signature": "9df285a0d8d09c5862fef7d02fd3c56791718e8c949572616e8e6c0b7f0c8c2d"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 23."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 9-5, 15-9, 23-15.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 23."
+      ]
+    },
+    "stem": "A theatre's rows have 5, 9, 15 and 23 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 9,
+      "t3": 15,
+      "t4": 23
+    },
+    "variant_signature": "6939a0355872ef459647a14ce420d3e843e3b2bb4b09e51298b11060d7a98112"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 18."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 6-6, 10-6, 18-10.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 18."
+      ]
+    },
+    "stem": "A theatre's rows have 6, 6, 10 and 18 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 6,
+      "t3": 10,
+      "t4": 18
+    },
+    "variant_signature": "1721ba05def3f8ee1d09dd5a6c404c27f2d656038bdb8f0ed9e02275bd247a3a"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 21."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 6-6, 11-6, 21-11.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 21."
+      ]
+    },
+    "stem": "A theatre's rows have 6, 6, 11 and 21 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 6,
+      "t3": 11,
+      "t4": 21
+    },
+    "variant_signature": "981e2ce81b4254436a645a9e86817ab0118229674555667c7828e098f368e2d1"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 15."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 7-6, 10-7, 15-10.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 15."
+      ]
+    },
+    "stem": "A theatre's rows have 6, 7, 10 and 15 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 7,
+      "t3": 10,
+      "t4": 15
+    },
+    "variant_signature": "b34784d5656fa7988de7956fab96512dd1dcdd9daa52361508d241c647dcd86f"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 18."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 7-6, 11-7, 18-11.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 18."
+      ]
+    },
+    "stem": "A theatre's rows have 6, 7, 11 and 18 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 7,
+      "t3": 11,
+      "t4": 18
+    },
+    "variant_signature": "7cd1cef83d669f3e780d8c91d4c7e4f99a7707c36062be6e2476653c36085cbf"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "35"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 24."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 7-6, 13-7, 24-13.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 24."
+      ]
+    },
+    "stem": "A theatre's rows have 6, 7, 13 and 24 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 7,
+      "t3": 13,
+      "t4": 24
+    },
+    "variant_signature": "120f9edf835879f2a74f0e80c4d72a4b14ef327fdfbecf843acaf1d7f391827c"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 15."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 8-6, 11-8, 15-11.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 15."
+      ]
+    },
+    "stem": "A theatre's rows have 6, 8, 11 and 15 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 8,
+      "t3": 11,
+      "t4": 15
+    },
+    "variant_signature": "29dde0959239a7470eb65c5141120c11806bd41725a3e4e76d32b39908aacc36"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "29"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 21."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 8-6, 13-8, 21-13.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 21."
+      ]
+    },
+    "stem": "A theatre's rows have 6, 8, 13 and 21 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 8,
+      "t3": 13,
+      "t4": 21
+    },
+    "variant_signature": "a84b23fa6aab32464fe64109f243128f26d26acfce576a02f47a95415afa93f4"
+  },
+  {
+    "answer": "38",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 24."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 8-6, 14-8, 24-14.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 24."
+      ]
+    },
+    "stem": "A theatre's rows have 6, 8, 14 and 24 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 8,
+      "t3": 14,
+      "t4": 24
+    },
+    "variant_signature": "8edec7640f7c59ef2c0ac87f4c355298cd7c6bc26c89c2099c6127666946d605"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 21."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 9-6, 14-9, 21-14.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 21."
+      ]
+    },
+    "stem": "A theatre's rows have 6, 9, 14 and 21 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 9,
+      "t3": 14,
+      "t4": 21
+    },
+    "variant_signature": "ed0495bf319c401bbeeb8e25df4b070afa75a058888e633f8abdac9800f2a79c"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 21."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 10-6, 15-10, 21-15.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 21."
+      ]
+    },
+    "stem": "A theatre's rows have 6, 10, 15 and 21 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 10,
+      "t3": 15,
+      "t4": 21
+    },
+    "variant_signature": "449b5815af413bf715b13597730fb4ea30057d0f3d7069c1a117a553c6acfe9a"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 24."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 10-6, 16-10, 24-16.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 24."
+      ]
+    },
+    "stem": "A theatre's rows have 6, 10, 16 and 24 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 10,
+      "t3": 16,
+      "t4": 24
+    },
+    "variant_signature": "5cd6468065376617313f8efcd8ef67aa81e6a247557beea0331cc0e1cb7f093f"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 19."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 6-7, 10-6, 19-10.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 19."
+      ]
+    },
+    "stem": "A theatre's rows have 7, 6, 10 and 19 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 6,
+      "t3": 10,
+      "t4": 19
+    },
+    "variant_signature": "8c42c2cb179e838e9d40157f4e0eefb4ef06edae6e6c5eb103c3cec204d11cbc"
+  },
+  {
+    "answer": "39",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "33"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 6-7, 11-6, 22-11.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 22."
+      ]
+    },
+    "stem": "A theatre's rows have 7, 6, 11 and 22 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 6,
+      "t3": 11,
+      "t4": 22
+    },
+    "variant_signature": "f4a1370893aeee9a79280c6cb306c20c9582e7d4f36a765567f7b3eda51bbdbc"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 19."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 7-7, 11-7, 19-11.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 19."
+      ]
+    },
+    "stem": "A theatre's rows have 7, 7, 11 and 19 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 7,
+      "t3": 11,
+      "t4": 19
+    },
+    "variant_signature": "019ce355f4a6a52bdaef89205a6b717e7913ac7dd634a8344b14a6cfcbcc2faf"
+  },
+  {
+    "answer": "37",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 7-7, 12-7, 22-12.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 22."
+      ]
+    },
+    "stem": "A theatre's rows have 7, 7, 12 and 22 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 7,
+      "t3": 12,
+      "t4": 22
+    },
+    "variant_signature": "2d2b3b7306e2e91d18f27c8e2584d2d0e5d6b604a1a5502abdd0f1741cddb142"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 19."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 8-7, 12-8, 19-12.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 19."
+      ]
+    },
+    "stem": "A theatre's rows have 7, 8, 12 and 19 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 8,
+      "t3": 12,
+      "t4": 19
+    },
+    "variant_signature": "9fcd1c508e06add48fba368680654146c558efa061b88315ed6c31e0c4ef15c6"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 8-7, 13-8, 22-13.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 22."
+      ]
+    },
+    "stem": "A theatre's rows have 7, 8, 13 and 22 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 8,
+      "t3": 13,
+      "t4": 22
+    },
+    "variant_signature": "3f3eb66bbcd159ff8000398bfcfedd64448e3a3da33756c185f25a0cc4674162"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 19."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 9-7, 13-9, 19-13.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 19."
+      ]
+    },
+    "stem": "A theatre's rows have 7, 9, 13 and 19 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 9,
+      "t3": 13,
+      "t4": 19
+    },
+    "variant_signature": "6d3803e4fbb8f4012b51b8c1b1ee1a7b2493bca7858be0d9fed4ea69818b690a"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 19."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 10-7, 14-10, 19-14.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 19."
+      ]
+    },
+    "stem": "A theatre's rows have 7, 10, 14 and 19 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 10,
+      "t3": 14,
+      "t4": 19
+    },
+    "variant_signature": "9e4c4f0d63d7b5b112b1fe4e82dd656f5d8493334a42162de780482366b74ad7"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "29"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at how many MORE seats each row has than the one before \u2014 is that extra amount the same every time, or changing?",
+      "The amount added grows by a fixed extra amount each row \u2014 work out how much the next row adds before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.WORD.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out how many seats are added row to row: 10-7, 15-10, 22-15.",
+        "Those added-seat amounts are themselves increasing by a fixed amount each row.",
+        "Find the next added-seat amount and add it to 22."
+      ]
+    },
+    "stem": "A theatre's rows have 7, 10, 15 and 22 seats respectively \u2014 each row adds more seats than the row before it, growing by the same extra amount each time. How many seats will the next row have?",
+    "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 10,
+      "t3": 15,
+      "t4": 22
+    },
+    "variant_signature": "fe7619bc61631aaf83271511a534a8c8950be92e4465e5538be76f9ddd49bb7a"
+  }
+]

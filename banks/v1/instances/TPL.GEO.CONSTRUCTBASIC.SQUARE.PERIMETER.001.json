@@ -1,0 +1,734 @@
+[
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A correctly constructed square has four EQUAL sides.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Since the compass opening stayed fixed, all four sides are exactly 3 cm.",
+        "Perimeter = 4 x 3 cm."
+      ]
+    },
+    "stem": "A square is constructed with side length 3 cm, using a compass set once at the start and never adjusted \u2014 so all four sides come out exactly equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 3
+    },
+    "variant_signature": "611e5eba3ba7124ce576e47737b4331c4c66c9bd30ef68798d6224966c12ff8e"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A correctly constructed square has four EQUAL sides.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Since the compass opening stayed fixed, all four sides are exactly 5 cm.",
+        "Perimeter = 4 x 5 cm."
+      ]
+    },
+    "stem": "A square is constructed with side length 5 cm, using a compass set once at the start and never adjusted \u2014 so all four sides come out exactly equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 5
+    },
+    "variant_signature": "41c4de0a9425ac48419b7bd2323b447b6b12f174bbdd077e025fcc3d0aee9569"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A correctly constructed square has four EQUAL sides.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Since the compass opening stayed fixed, all four sides are exactly 6 cm.",
+        "Perimeter = 4 x 6 cm."
+      ]
+    },
+    "stem": "A square is constructed with side length 6 cm, using a compass set once at the start and never adjusted \u2014 so all four sides come out exactly equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 6
+    },
+    "variant_signature": "03c187bb7367c01e702587ef8aac99cb00710c1fb34ca94f7ed726c9776fa5ea"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "29"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "49"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A correctly constructed square has four EQUAL sides.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Since the compass opening stayed fixed, all four sides are exactly 7 cm.",
+        "Perimeter = 4 x 7 cm."
+      ]
+    },
+    "stem": "A square is constructed with side length 7 cm, using a compass set once at the start and never adjusted \u2014 so all four sides come out exactly equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 7
+    },
+    "variant_signature": "fcfeb03ffb151ad6172f48e124e169032c1d0444af9d60303fb61a6f33cff119"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "33"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A correctly constructed square has four EQUAL sides.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Since the compass opening stayed fixed, all four sides are exactly 8 cm.",
+        "Perimeter = 4 x 8 cm."
+      ]
+    },
+    "stem": "A square is constructed with side length 8 cm, using a compass set once at the start and never adjusted \u2014 so all four sides come out exactly equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 8
+    },
+    "variant_signature": "11517ad9d00736bc3f2dc6272122c590d88740709a713651740e6c20467a2318"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "37"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "81"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A correctly constructed square has four EQUAL sides.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Since the compass opening stayed fixed, all four sides are exactly 9 cm.",
+        "Perimeter = 4 x 9 cm."
+      ]
+    },
+    "stem": "A square is constructed with side length 9 cm, using a compass set once at the start and never adjusted \u2014 so all four sides come out exactly equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 9
+    },
+    "variant_signature": "84610295e8856910af0124785087e3d86a7cc458009057e36c14a463233bcec2"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "41"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "39"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "100"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A correctly constructed square has four EQUAL sides.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Since the compass opening stayed fixed, all four sides are exactly 10 cm.",
+        "Perimeter = 4 x 10 cm."
+      ]
+    },
+    "stem": "A square is constructed with side length 10 cm, using a compass set once at the start and never adjusted \u2014 so all four sides come out exactly equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 10
+    },
+    "variant_signature": "0a8924b3ef57b7a37d86e4de2265be52ba2d6d11c4a439d9b853392ab5759108"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "45"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "43"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "121"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A correctly constructed square has four EQUAL sides.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Since the compass opening stayed fixed, all four sides are exactly 11 cm.",
+        "Perimeter = 4 x 11 cm."
+      ]
+    },
+    "stem": "A square is constructed with side length 11 cm, using a compass set once at the start and never adjusted \u2014 so all four sides come out exactly equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 11
+    },
+    "variant_signature": "6162c0041ad61b765ddec1fa4dca0eb930ca7bf0417668412aeb982cbe39f1eb"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "49"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "47"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "144"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A correctly constructed square has four EQUAL sides.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Since the compass opening stayed fixed, all four sides are exactly 12 cm.",
+        "Perimeter = 4 x 12 cm."
+      ]
+    },
+    "stem": "A square is constructed with side length 12 cm, using a compass set once at the start and never adjusted \u2014 so all four sides come out exactly equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 12
+    },
+    "variant_signature": "bf980846b2b9a4a3a3f0ff555a51f6bbb54da7e52fed10f92cf053db69c690fe"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "53"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "51"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "169"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 13
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A correctly constructed square has four EQUAL sides.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Since the compass opening stayed fixed, all four sides are exactly 13 cm.",
+        "Perimeter = 4 x 13 cm."
+      ]
+    },
+    "stem": "A square is constructed with side length 13 cm, using a compass set once at the start and never adjusted \u2014 so all four sides come out exactly equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 13
+    },
+    "variant_signature": "d53f862ac5caa78c67187eb6b9ce5836647e19c629d920e788c9fc0fe49da85c"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "57"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "55"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "196"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 14
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A correctly constructed square has four EQUAL sides.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Since the compass opening stayed fixed, all four sides are exactly 14 cm.",
+        "Perimeter = 4 x 14 cm."
+      ]
+    },
+    "stem": "A square is constructed with side length 14 cm, using a compass set once at the start and never adjusted \u2014 so all four sides come out exactly equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 14
+    },
+    "variant_signature": "1828aa7ace4ac31536ef78dffb3370d6a85228d2273fc1b1a36b7e1258e24caf"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "61"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "59"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "225"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 15
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A correctly constructed square has four EQUAL sides.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Since the compass opening stayed fixed, all four sides are exactly 15 cm.",
+        "Perimeter = 4 x 15 cm."
+      ]
+    },
+    "stem": "A square is constructed with side length 15 cm, using a compass set once at the start and never adjusted \u2014 so all four sides come out exactly equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 15
+    },
+    "variant_signature": "4b8e4f0f009d17571a0f4695c2110a122a9f9d6de82623f3531b7171a91a45b2"
+  }
+]

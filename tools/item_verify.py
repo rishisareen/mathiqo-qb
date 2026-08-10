@@ -565,13 +565,11 @@ def _rule_angle(figure: Mapping[str, object], values: Mapping[str, int]) -> None
             )
         if context == "clock" and degrees > 360:
             raise HardFail(f"a turn on a clock face cannot exceed 360 degrees, got {degrees}")
-        if context == "protractor" and degrees > 180:
+        if context in {"bare", "protractor"} and degrees > 180:
             raise HardFail(
-                f"degrees_expr is {degrees}: a single protractor scale only reads up to 180 "
-                f"degrees, so an angle above that needs the clock face or a bare angle instead"
+                f"degrees_expr is {degrees}: an angle above 180 needs the reflex context "
+                f"(or the clock face), not {context!r}"
             )
-        if context == "bare" and degrees >= 360:
-            raise HardFail(f"degrees_expr must be below 360 in the bare context, got {degrees}")
     if "scale" in figure and context != "protractor":
         raise HardFail(
             f"scale names which protractor scale the item reads, so it belongs to the "
@@ -638,9 +636,6 @@ def _rule_shape(figure: Mapping[str, object], values: Mapping[str, int]) -> None
         value = _expr_rat(side_label, "value_expr", values, f"side_labels[{index}].")
         if value is not None and value <= 0:
             raise HardFail(f"side_labels[{index}].value_expr must be positive, got {value}")
-    altitude = _expr_rat(figure, "altitude_expr", values, required=False)
-    if altitude is not None and altitude <= 0:
-        raise HardFail(f"altitude_expr must be positive, got {altitude}")
 
 
 def _rule_region(figure: Mapping[str, object], values: Mapping[str, int]) -> None:
@@ -887,24 +882,6 @@ def check_figures(template: Mapping[str, object], values: Mapping[str, int]) -> 
             _check_label_leak(figure, substitutions, answer_key)
         except HardFail as exc:
             raise HardFail(f"figure[{index}] ({kind}) at {dict(values)}: {exc}") from exc
-    _check_shared_vertex_tags_are_paired(declared)
-
-
-def _check_shared_vertex_tags_are_paired(declared: list) -> None:
-    """A shared_vertex tag names a vertex two angle figures meet at, so a tag
-    used only once is an authoring mistake (a typo, or a stale tag left after
-    an edit) rather than a real single-angle-sharing-nothing figure."""
-    tags: dict[str, int] = {}
-    for figure in declared:
-        if figure.get("kind") == "angle" and "shared_vertex" in figure:
-            tag = str(figure["shared_vertex"])
-            tags[tag] = tags.get(tag, 0) + 1
-    lonely = sorted(tag for tag, count in tags.items() if count == 1)
-    if lonely:
-        raise HardFail(
-            f"shared_vertex tag(s) {lonely} appear on only one angle figure; a shared vertex "
-            "needs at least two angles tagged with it"
-        )
 
 
 # ---------------------------------------------------------------------------

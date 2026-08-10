@@ -1,0 +1,187 @@
+[
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ONE-IS-PRIME",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": "MISC.NUM.TWO-NOT-PRIME",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Check each number in the list: does it have exactly two different factors?",
+      "Remember, 1 is neither prime nor composite \u2014 don't count it."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.COUNTLIST.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "1 is not prime \u2014 it has only one factor, itself.",
+        "4 and 9 are composite: 4 = 2 x 2 and 9 = 3 x 3.",
+        "Only 2 is prime, so the count is 1."
+      ]
+    },
+    "stem": "How many prime numbers are in this list: 2, 1, 4, 9?",
+    "template_id": "TPL.NUM.PRIME.COUNTLIST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 2
+    },
+    "variant_signature": "081851199f8b0a00148dd642be0caa64752148825225feda59e9069401882f12"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ONE-IS-PRIME",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Check each number in the list: does it have exactly two different factors?",
+      "Remember, 1 is neither prime nor composite \u2014 don't count it."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.COUNTLIST.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "1 is not prime \u2014 it has only one factor, itself.",
+        "4 and 9 are composite: 4 = 2 x 2 and 9 = 3 x 3.",
+        "Only 3 is prime, so the count is 1."
+      ]
+    },
+    "stem": "How many prime numbers are in this list: 3, 1, 4, 9?",
+    "template_id": "TPL.NUM.PRIME.COUNTLIST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 3
+    },
+    "variant_signature": "452bf82be089ccd0c420bb50325b306284c3096dd767286f6cbf8ce345de9445"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ONE-IS-PRIME",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Check each number in the list: does it have exactly two different factors?",
+      "Remember, 1 is neither prime nor composite \u2014 don't count it."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.COUNTLIST.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "1 is not prime \u2014 it has only one factor, itself.",
+        "4 and 9 are composite: 4 = 2 x 2 and 9 = 3 x 3.",
+        "Only 5 is prime, so the count is 1."
+      ]
+    },
+    "stem": "How many prime numbers are in this list: 5, 1, 4, 9?",
+    "template_id": "TPL.NUM.PRIME.COUNTLIST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 5
+    },
+    "variant_signature": "2db2905998f1c0744417615d93a697a02ebec494bfc2cad9f3b6bd77df0310c8"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ONE-IS-PRIME",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Check each number in the list: does it have exactly two different factors?",
+      "Remember, 1 is neither prime nor composite \u2014 don't count it."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.COUNTLIST.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "1 is not prime \u2014 it has only one factor, itself.",
+        "4 and 9 are composite: 4 = 2 x 2 and 9 = 3 x 3.",
+        "Only 7 is prime, so the count is 1."
+      ]
+    },
+    "stem": "How many prime numbers are in this list: 7, 1, 4, 9?",
+    "template_id": "TPL.NUM.PRIME.COUNTLIST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 7
+    },
+    "variant_signature": "2d00ab0fa18d48086a70ba334549dc291b188dba38a1f81bccb8eed13c5ca851"
+  }
+]

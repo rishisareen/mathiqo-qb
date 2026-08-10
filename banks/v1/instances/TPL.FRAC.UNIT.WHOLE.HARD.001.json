@@ -1,0 +1,1882 @@
+[
+  {
+    "answer": "4/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 2, the whole is 2 times as much.",
+        "The whole number is 2 x 2.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/2 of a number is 2. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 5,
+      "q": 2
+    },
+    "variant_signature": "424065add99546a491414e38fff7f68c6d773e63bde31ff2900e5436378aaf6e"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 2, the whole is 2 times as much.",
+        "The whole number is 2 x 2.",
+        "Now find 1/6 of that same whole: divide the whole by 6."
+      ]
+    },
+    "stem": "1/2 of a number is 2. What is 1/6 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 6,
+      "q": 2
+    },
+    "variant_signature": "2adf834f6883bc95321de1e2ea3b383c93e7e2dc2ed514716ba6d8528c332b6a"
+  },
+  {
+    "answer": "4/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 2, the whole is 2 times as much.",
+        "The whole number is 2 x 2.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/2 of a number is 2. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 7,
+      "q": 2
+    },
+    "variant_signature": "b58adbda59924ca1db8fcd565a51ceff71834b09dd93e464abdd9a945befd94b"
+  },
+  {
+    "answer": "6/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 2, the whole is 3 times as much.",
+        "The whole number is 2 x 3.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/3 of a number is 2. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 5,
+      "q": 2
+    },
+    "variant_signature": "4e747cbbc768558473f974de7a614929bd8679c128f6d0dfdedd7ddee6b73dc6"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 2, the whole is 3 times as much.",
+        "The whole number is 2 x 3.",
+        "Now find 1/6 of that same whole: divide the whole by 6."
+      ]
+    },
+    "stem": "1/3 of a number is 2. What is 1/6 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 6,
+      "q": 2
+    },
+    "variant_signature": "8b2fe4f06ae76d8aa27d0bfab3abf525835c0c4880a8ca4707b48511c2950971"
+  },
+  {
+    "answer": "6/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "42"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 2, the whole is 3 times as much.",
+        "The whole number is 2 x 3.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/3 of a number is 2. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 7,
+      "q": 2
+    },
+    "variant_signature": "36e8f57419a4a696ee29c7eb6145db504e41e53c7dff9ac2af856f02c2a9747d"
+  },
+  {
+    "answer": "8/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "40"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/4 of it is 2, the whole is 4 times as much.",
+        "The whole number is 2 x 4.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/4 of a number is 2. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "c": 5,
+      "q": 2
+    },
+    "variant_signature": "712a0b84c2017c4c88ab996d457c3136c62f7d053446e95d5037082349e0d97f"
+  },
+  {
+    "answer": "8/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "56"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/4 of it is 2, the whole is 4 times as much.",
+        "The whole number is 2 x 4.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/4 of a number is 2. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "c": 7,
+      "q": 2
+    },
+    "variant_signature": "b3243d8b55e7e599453b9c5de0f43ea46304cbe496dd1048829d4cf78bba3a56"
+  },
+  {
+    "answer": "6/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 3, the whole is 2 times as much.",
+        "The whole number is 3 x 2.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/2 of a number is 3. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 5,
+      "q": 3
+    },
+    "variant_signature": "ba819535c02fa6872db53c5c553ce23c6c4ea780eeb17066c46d760af3c4453a"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 3, the whole is 2 times as much.",
+        "The whole number is 3 x 2.",
+        "Now find 1/6 of that same whole: divide the whole by 6."
+      ]
+    },
+    "stem": "1/2 of a number is 3. What is 1/6 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 6,
+      "q": 3
+    },
+    "variant_signature": "898bbf6cd0ae6853440cf798d8c783eaa48f555ec1e9ab7f5cadb9c835a15fb1"
+  },
+  {
+    "answer": "6/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "42"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 3, the whole is 2 times as much.",
+        "The whole number is 3 x 2.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/2 of a number is 3. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 7,
+      "q": 3
+    },
+    "variant_signature": "af2b9c2644719bbbb518e58b41ba6a8b088b140983a2bbeac5242cbcecd49635"
+  },
+  {
+    "answer": "9/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 3, the whole is 3 times as much.",
+        "The whole number is 3 x 3.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/3 of a number is 3. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 5,
+      "q": 3
+    },
+    "variant_signature": "552bb31dd130fec9f8a94a5b03f8f56b882d0e196d8418c3ac5bb6eac7a0aa40"
+  },
+  {
+    "answer": "3/2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "54"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 3, the whole is 3 times as much.",
+        "The whole number is 3 x 3.",
+        "Now find 1/6 of that same whole: divide the whole by 6."
+      ]
+    },
+    "stem": "1/3 of a number is 3. What is 1/6 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 6,
+      "q": 3
+    },
+    "variant_signature": "dda7986c1f58be298b6c5fdf50851904d4aed35e87f9d6acb61bef6c9f81d772"
+  },
+  {
+    "answer": "9/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "63"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 3, the whole is 3 times as much.",
+        "The whole number is 3 x 3.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/3 of a number is 3. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 7,
+      "q": 3
+    },
+    "variant_signature": "247aacd0d0acd77c35f0033889ffdcf5d8e99dc6119c9059fef9ec0a8e0e23fa"
+  },
+  {
+    "answer": "12/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "60"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/4 of it is 3, the whole is 4 times as much.",
+        "The whole number is 3 x 4.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/4 of a number is 3. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "c": 5,
+      "q": 3
+    },
+    "variant_signature": "90378fbeb13285ea81259764d6c5b810ca6196d7878d35e65507cc688e66713a"
+  },
+  {
+    "answer": "12/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "84"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/4 of it is 3, the whole is 4 times as much.",
+        "The whole number is 3 x 4.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/4 of a number is 3. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "c": 7,
+      "q": 3
+    },
+    "variant_signature": "8781c6c44381702607e1e20dc9ff4e1a67981802b15ba8f7ec29b144cc0b455d"
+  },
+  {
+    "answer": "8/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "40"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 4, the whole is 2 times as much.",
+        "The whole number is 4 x 2.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/2 of a number is 4. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 5,
+      "q": 4
+    },
+    "variant_signature": "3ea0ec418c890deb3edd691d3b78916a039bd43376222d4d9eaee7e89caa90fb"
+  },
+  {
+    "answer": "4/3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "48"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 4, the whole is 2 times as much.",
+        "The whole number is 4 x 2.",
+        "Now find 1/6 of that same whole: divide the whole by 6."
+      ]
+    },
+    "stem": "1/2 of a number is 4. What is 1/6 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 6,
+      "q": 4
+    },
+    "variant_signature": "e3307af65d459383a436857dfbf482494410de6af45ed4a40bdbb09198437d63"
+  },
+  {
+    "answer": "8/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "56"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 4, the whole is 2 times as much.",
+        "The whole number is 4 x 2.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/2 of a number is 4. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 7,
+      "q": 4
+    },
+    "variant_signature": "69550671cb0f9896279b2f71429a4db49f09edd2b3fa7ac048870e6dde0b799c"
+  },
+  {
+    "answer": "12/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "60"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 4, the whole is 3 times as much.",
+        "The whole number is 4 x 3.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/3 of a number is 4. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 5,
+      "q": 4
+    },
+    "variant_signature": "3d469eed7e7391c57705556b416c57f5de1b502cbdbca137660019f16ccbc8ce"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "72"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 4, the whole is 3 times as much.",
+        "The whole number is 4 x 3.",
+        "Now find 1/6 of that same whole: divide the whole by 6."
+      ]
+    },
+    "stem": "1/3 of a number is 4. What is 1/6 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 6,
+      "q": 4
+    },
+    "variant_signature": "efce3f143e9b591e78e4304d6dbb33d28bd7e30d36e697f6246608ebc944ebd3"
+  },
+  {
+    "answer": "12/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "84"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 4, the whole is 3 times as much.",
+        "The whole number is 4 x 3.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/3 of a number is 4. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 7,
+      "q": 4
+    },
+    "variant_signature": "7484abd4c9c13ae30e0e6ae57d52cf9f498bab1a66cdfcefe8d7877d28b52bb5"
+  },
+  {
+    "answer": "16/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "80"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/4 of it is 4, the whole is 4 times as much.",
+        "The whole number is 4 x 4.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/4 of a number is 4. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "c": 5,
+      "q": 4
+    },
+    "variant_signature": "04b9282653f14168d2e68735a0c982228335293366d9c343e14e0d24fdfc0194"
+  },
+  {
+    "answer": "16/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "112"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/4 of it is 4, the whole is 4 times as much.",
+        "The whole number is 4 x 4.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/4 of a number is 4. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "c": 7,
+      "q": 4
+    },
+    "variant_signature": "a77d95a0db22e60d9a5278fc4c968f7e30dc7648e1b55655df525d56559e6911"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "50"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 5, the whole is 2 times as much.",
+        "The whole number is 5 x 2.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/2 of a number is 5. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 5,
+      "q": 5
+    },
+    "variant_signature": "44e91d5275f19e2d8067c23e57cb0775563c2b289af576aeb92e6b18dcaa91ce"
+  },
+  {
+    "answer": "5/3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "60"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 5, the whole is 2 times as much.",
+        "The whole number is 5 x 2.",
+        "Now find 1/6 of that same whole: divide the whole by 6."
+      ]
+    },
+    "stem": "1/2 of a number is 5. What is 1/6 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 6,
+      "q": 5
+    },
+    "variant_signature": "3a87d0a34f04a4c47ec58b429e1c43187dd25522b638ca123c899207a4d993b7"
+  },
+  {
+    "answer": "10/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "70"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 5, the whole is 2 times as much.",
+        "The whole number is 5 x 2.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/2 of a number is 5. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 7,
+      "q": 5
+    },
+    "variant_signature": "d0d8dfee2d21f6e4a1715ce5f1ba95dd328952da82eccd93dd95317f7c0f07d6"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "75"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 5, the whole is 3 times as much.",
+        "The whole number is 5 x 3.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/3 of a number is 5. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 5,
+      "q": 5
+    },
+    "variant_signature": "5adb82873c4224f5eb2a81539e2f7508afe531e9deaf585bbf70321c4c731694"
+  },
+  {
+    "answer": "5/2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "90"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 5, the whole is 3 times as much.",
+        "The whole number is 5 x 3.",
+        "Now find 1/6 of that same whole: divide the whole by 6."
+      ]
+    },
+    "stem": "1/3 of a number is 5. What is 1/6 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 6,
+      "q": 5
+    },
+    "variant_signature": "05c23841e3c2f4b9a701224516e927ddb4eeb5da45866b1e5e87a5bec8754e0b"
+  },
+  {
+    "answer": "15/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "105"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 5, the whole is 3 times as much.",
+        "The whole number is 5 x 3.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/3 of a number is 5. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 7,
+      "q": 5
+    },
+    "variant_signature": "b66de538ff2d234443811666d5681fe0a91d51f3a525f2ed38d1436afa37964d"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "100"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/4 of it is 5, the whole is 4 times as much.",
+        "The whole number is 5 x 4.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/4 of a number is 5. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "c": 5,
+      "q": 5
+    },
+    "variant_signature": "78be6a308deb65bb1107d18ee995cdb45f981a5df749a4c04c07b3fe568234bf"
+  },
+  {
+    "answer": "20/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "140"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/4 of it is 5, the whole is 4 times as much.",
+        "The whole number is 5 x 4.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/4 of a number is 5. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "c": 7,
+      "q": 5
+    },
+    "variant_signature": "d04dbde3f819e94ac1c5fffba1f1e187c27c2d02f49e149826f1e83d949499c7"
+  },
+  {
+    "answer": "12/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "60"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 6, the whole is 2 times as much.",
+        "The whole number is 6 x 2.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/2 of a number is 6. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 5,
+      "q": 6
+    },
+    "variant_signature": "8781d97c9fcf9f01717a72b0a0c42e5458a251fa69b694b58c8e90f7074b9072"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "72"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 6, the whole is 2 times as much.",
+        "The whole number is 6 x 2.",
+        "Now find 1/6 of that same whole: divide the whole by 6."
+      ]
+    },
+    "stem": "1/2 of a number is 6. What is 1/6 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 6,
+      "q": 6
+    },
+    "variant_signature": "f4c1f04568ca3a7ca4271786de20de55f6a02d71388444758531db0348ef3f07"
+  },
+  {
+    "answer": "12/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "84"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/2 of it is 6, the whole is 2 times as much.",
+        "The whole number is 6 x 2.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/2 of a number is 6. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 2,
+      "c": 7,
+      "q": 6
+    },
+    "variant_signature": "b7cebb7a64b3fa9ceb588ac5533f921d657d540e71acf4a4f1c149d3f1509e6e"
+  },
+  {
+    "answer": "18/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "90"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 6, the whole is 3 times as much.",
+        "The whole number is 6 x 3.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/3 of a number is 6. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 5,
+      "q": 6
+    },
+    "variant_signature": "4232d9558f0af197a09e607e42d9a4d841fb6ed8283be2bcc3cbac3939365eaa"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "108"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 6, the whole is 3 times as much.",
+        "The whole number is 6 x 3.",
+        "Now find 1/6 of that same whole: divide the whole by 6."
+      ]
+    },
+    "stem": "1/3 of a number is 6. What is 1/6 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 6,
+      "q": 6
+    },
+    "variant_signature": "c995d4b36835278774e4446e450e8f690af344b62723bbdc4ec6afdee10d747e"
+  },
+  {
+    "answer": "18/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "126"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/3 of it is 6, the whole is 3 times as much.",
+        "The whole number is 6 x 3.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/3 of a number is 6. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "c": 7,
+      "q": 6
+    },
+    "variant_signature": "c818f7a61076bdc412fe928090d966f99984fe825456d9993d1769d7a539e618"
+  },
+  {
+    "answer": "24/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "120"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/4 of it is 6, the whole is 4 times as much.",
+        "The whole number is 6 x 4.",
+        "Now find 1/5 of that same whole: divide the whole by 5."
+      ]
+    },
+    "stem": "1/4 of a number is 6. What is 1/5 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "c": 5,
+      "q": 6
+    },
+    "variant_signature": "50a45533f4a9cb5400f815e77be5e3dbc603f3aca9fe5a7fe4891ae47303f249"
+  },
+  {
+    "answer": "24/7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.BIGGER-DENOM",
+        "unsimplified": false,
+        "value": "168"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out the whole number first, then take the new fraction of it.",
+      "Multiply by the first denominator to undo it, then divide by the second denominator."
+    ],
+    "item_instance_id": "TPL.FRAC.UNIT.WHOLE.HARD.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.UNIT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the whole number: since 1/4 of it is 6, the whole is 4 times as much.",
+        "The whole number is 6 x 4.",
+        "Now find 1/7 of that same whole: divide the whole by 7."
+      ]
+    },
+    "stem": "1/4 of a number is 6. What is 1/7 of the same number?",
+    "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "c": 7,
+      "q": 6
+    },
+    "variant_signature": "2977e7d0d870d25b0a6357fd74983aa60070a0acee290de835234812fdcc46ab"
+  }
+]

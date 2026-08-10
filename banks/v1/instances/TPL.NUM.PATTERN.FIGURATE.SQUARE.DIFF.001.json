@@ -1,0 +1,632 @@
+[
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 2 and 1 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 2 x 2 and 1 x 1 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 1 x 1 and 2 x 2.",
+        "Subtract: (2 x 2) - (1 x 1) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 1th square number is 1 x 1 and the 2th square number is 2 x 2, where 2 = 1 + 1. What is the difference between the 2th square number and the 1th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 1,
+      "n": 2
+    },
+    "variant_signature": "002cd7d7c1006f50799b92bee04af5e794a736476cef3e689ed125ce3e513a56"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 3 and 2 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 3 x 3 and 2 x 2 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 2 x 2 and 3 x 3.",
+        "Subtract: (3 x 3) - (2 x 2) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 2th square number is 2 x 2 and the 3th square number is 3 x 3, where 3 = 2 + 1. What is the difference between the 3th square number and the 2th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 2,
+      "n": 3
+    },
+    "variant_signature": "d47fbb47c30a2fcd3ca42933fb8ef4c36819a0c44561940b2640f8e1c0ac8d38"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 4 and 3 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 4 x 4 and 3 x 3 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 3 x 3 and 4 x 4.",
+        "Subtract: (4 x 4) - (3 x 3) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 3th square number is 3 x 3 and the 4th square number is 4 x 4, where 4 = 3 + 1. What is the difference between the 4th square number and the 3th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 3,
+      "n": 4
+    },
+    "variant_signature": "8d046bd98b9c834541bd1518da3f9ac1fb0abd9e3335bb9d3abc8f0262fca950"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 5 and 4 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 5 x 5 and 4 x 4 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 4 x 4 and 5 x 5.",
+        "Subtract: (5 x 5) - (4 x 4) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 4th square number is 4 x 4 and the 5th square number is 5 x 5, where 5 = 4 + 1. What is the difference between the 5th square number and the 4th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 4,
+      "n": 5
+    },
+    "variant_signature": "6873f4d0da016b54c2866a5fd3b3f681fa699cb241ba67c1dc749f7a03d693be"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 6 and 5 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 6 x 6 and 5 x 5 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 5 x 5 and 6 x 6.",
+        "Subtract: (6 x 6) - (5 x 5) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 5th square number is 5 x 5 and the 6th square number is 6 x 6, where 6 = 5 + 1. What is the difference between the 6th square number and the 5th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 5,
+      "n": 6
+    },
+    "variant_signature": "bdad4f0ea29960bc09069304b53aef96dfa0c7fd0164f39bbc188813b14e5d0b"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 7 and 6 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 7 x 7 and 6 x 6 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 6 x 6 and 7 x 7.",
+        "Subtract: (7 x 7) - (6 x 6) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 6th square number is 6 x 6 and the 7th square number is 7 x 7, where 7 = 6 + 1. What is the difference between the 7th square number and the 6th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 6,
+      "n": 7
+    },
+    "variant_signature": "e0d3b4fbfdcca960df209fa5ff213e20551db2c0cb627a569bfee917536cdb81"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 8 and 7 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 8 x 8 and 7 x 7 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 7 x 7 and 8 x 8.",
+        "Subtract: (8 x 8) - (7 x 7) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 7th square number is 7 x 7 and the 8th square number is 8 x 8, where 8 = 7 + 1. What is the difference between the 8th square number and the 7th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 7,
+      "n": 8
+    },
+    "variant_signature": "bfce4a99c8c67bdd979660d3e5b2e1f30f2a8b80e0ad9e61624e05e2f8872b37"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 9 and 8 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 9 x 9 and 8 x 8 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 8 x 8 and 9 x 9.",
+        "Subtract: (9 x 9) - (8 x 8) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 8th square number is 8 x 8 and the 9th square number is 9 x 9, where 9 = 8 + 1. What is the difference between the 9th square number and the 8th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 8,
+      "n": 9
+    },
+    "variant_signature": "93118479bd4c082843138f1e39d814022b6aeb0a9217eda01b1b4318d3037cf4"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 10 and 9 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 10 x 10 and 9 x 9 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 9 x 9 and 10 x 10.",
+        "Subtract: (10 x 10) - (9 x 9) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 9th square number is 9 x 9 and the 10th square number is 10 x 10, where 10 = 9 + 1. What is the difference between the 10th square number and the 9th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 9,
+      "n": 10
+    },
+    "variant_signature": "f33caf25df803861d91a86a74c191bd1140f1d8474a778240907b74b3cc56a4b"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 11 and 10 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 11 x 11 and 10 x 10 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 10 x 10 and 11 x 11.",
+        "Subtract: (11 x 11) - (10 x 10) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 10th square number is 10 x 10 and the 11th square number is 11 x 11, where 11 = 10 + 1. What is the difference between the 11th square number and the 10th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 10,
+      "n": 11
+    },
+    "variant_signature": "722e835540c62d959a132eed148a5c7a49e80bfc9ea3029e1b4b1f5c6af6e046"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 12 and 11 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 12 x 12 and 11 x 11 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 11 x 11 and 12 x 12.",
+        "Subtract: (12 x 12) - (11 x 11) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 11th square number is 11 x 11 and the 12th square number is 12 x 12, where 12 = 11 + 1. What is the difference between the 12th square number and the 11th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 11,
+      "n": 12
+    },
+    "variant_signature": "56f76e434c22d77b1857b8c59c786c44bc4e3b50d8060ac1582523dd2af1e104"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 13 and 12 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 13 x 13 and 12 x 12 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 12 x 12 and 13 x 13.",
+        "Subtract: (13 x 13) - (12 x 12) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 12th square number is 12 x 12 and the 13th square number is 13 x 13, where 13 = 12 + 1. What is the difference between the 13th square number and the 12th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 12,
+      "n": 13
+    },
+    "variant_signature": "58adc814f1fd66435d4d7ad30d47deaca83cde2c9057d1033345d631e9087d8f"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 14 and 13 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 14 x 14 and 13 x 13 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 13 x 13 and 14 x 14.",
+        "Subtract: (14 x 14) - (13 x 13) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 13th square number is 13 x 13 and the 14th square number is 14 x 14, where 14 = 13 + 1. What is the difference between the 14th square number and the 13th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 13,
+      "n": 14
+    },
+    "variant_signature": "f6e274826d40ba7b555b82ea047c8b11445cfec1c66c594e94cf647e2cfc1d4b"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Compute the two square numbers first, then subtract them \u2014 don't just subtract 15 and 14 themselves.",
+      "Squaring a number means multiplying it by itself, not doubling it, so work out 15 x 15 and 14 x 14 fully before subtracting."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Work out each square number separately: 14 x 14 and 15 x 15.",
+        "Subtract: (15 x 15) - (14 x 14) is the answer \u2014 this is always an odd number, one more than twice the smaller root."
+      ]
+    },
+    "stem": "The 14th square number is 14 x 14 and the 15th square number is 15 x 15, where 15 = 14 + 1. What is the difference between the 15th square number and the 14th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 14,
+      "n": 15
+    },
+    "variant_signature": "ca8bf25e4f05435cf232ee1508493feb6c46af90ccb765440cc4a7d7facbdc59"
+  }
+]

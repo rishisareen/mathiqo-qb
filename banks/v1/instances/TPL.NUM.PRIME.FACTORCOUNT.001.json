@@ -1,0 +1,422 @@
+[
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "List every number that divides 2 x 3 exactly.",
+      "A product of two different primes always has exactly 4 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "2 and 3 are both prime, so their only factors are 1 and themselves.",
+        "The factors of 2 x 3 are exactly 1, 2, 3, and 2 x 3.",
+        "That is 4 factors in total."
+      ]
+    },
+    "stem": "The number 2 x 3 is formed by multiplying two different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 3
+    },
+    "variant_signature": "755757725353d8fe453b4ce970e6bc31b93e03f181764a4931764d6a5071fc0e"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "List every number that divides 2 x 5 exactly.",
+      "A product of two different primes always has exactly 4 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "2 and 5 are both prime, so their only factors are 1 and themselves.",
+        "The factors of 2 x 5 are exactly 1, 2, 5, and 2 x 5.",
+        "That is 4 factors in total."
+      ]
+    },
+    "stem": "The number 2 x 5 is formed by multiplying two different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 5
+    },
+    "variant_signature": "4b3e7291f028066f1fdd326d7b085f5754322233f2fcb0f00c70430d7bce9011"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "List every number that divides 2 x 7 exactly.",
+      "A product of two different primes always has exactly 4 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "2 and 7 are both prime, so their only factors are 1 and themselves.",
+        "The factors of 2 x 7 are exactly 1, 2, 7, and 2 x 7.",
+        "That is 4 factors in total."
+      ]
+    },
+    "stem": "The number 2 x 7 is formed by multiplying two different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 7
+    },
+    "variant_signature": "930dc01c4bb707f2d68bb64786a6fa7c81a51a82508f6e75a13141acacee54fa"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "List every number that divides 3 x 2 exactly.",
+      "A product of two different primes always has exactly 4 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 and 2 are both prime, so their only factors are 1 and themselves.",
+        "The factors of 3 x 2 are exactly 1, 3, 2, and 3 x 2.",
+        "That is 4 factors in total."
+      ]
+    },
+    "stem": "The number 3 x 2 is formed by multiplying two different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 2
+    },
+    "variant_signature": "8c6eb38c53fb9f8436434b1ce03168c6739b582fad16489371c507d4b13de5eb"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "List every number that divides 3 x 5 exactly.",
+      "A product of two different primes always has exactly 4 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 and 5 are both prime, so their only factors are 1 and themselves.",
+        "The factors of 3 x 5 are exactly 1, 3, 5, and 3 x 5.",
+        "That is 4 factors in total."
+      ]
+    },
+    "stem": "The number 3 x 5 is formed by multiplying two different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 5
+    },
+    "variant_signature": "fe99d5a7809d27e80e36bff40678bc8963ac6e63647aed1838ae91af30ee3dfe"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "List every number that divides 3 x 7 exactly.",
+      "A product of two different primes always has exactly 4 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 and 7 are both prime, so their only factors are 1 and themselves.",
+        "The factors of 3 x 7 are exactly 1, 3, 7, and 3 x 7.",
+        "That is 4 factors in total."
+      ]
+    },
+    "stem": "The number 3 x 7 is formed by multiplying two different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 7
+    },
+    "variant_signature": "c2083ae18b2d38f60d9fe1dd280d8f159a050e71a9a18d323f50f40aca611476"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "List every number that divides 5 x 2 exactly.",
+      "A product of two different primes always has exactly 4 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "5 and 2 are both prime, so their only factors are 1 and themselves.",
+        "The factors of 5 x 2 are exactly 1, 5, 2, and 5 x 2.",
+        "That is 4 factors in total."
+      ]
+    },
+    "stem": "The number 5 x 2 is formed by multiplying two different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 2
+    },
+    "variant_signature": "04497b2d1db77a76b8997626d709687d55f841849b51e63a4de84817c8d1a80e"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "List every number that divides 5 x 3 exactly.",
+      "A product of two different primes always has exactly 4 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "5 and 3 are both prime, so their only factors are 1 and themselves.",
+        "The factors of 5 x 3 are exactly 1, 5, 3, and 5 x 3.",
+        "That is 4 factors in total."
+      ]
+    },
+    "stem": "The number 5 x 3 is formed by multiplying two different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 3
+    },
+    "variant_signature": "fec80bf738728620658e50417a0492d76a34b7185f02c611622db547b94718dc"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "List every number that divides 5 x 7 exactly.",
+      "A product of two different primes always has exactly 4 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "5 and 7 are both prime, so their only factors are 1 and themselves.",
+        "The factors of 5 x 7 are exactly 1, 5, 7, and 5 x 7.",
+        "That is 4 factors in total."
+      ]
+    },
+    "stem": "The number 5 x 7 is formed by multiplying two different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 7
+    },
+    "variant_signature": "089208824fad90d8ae12d39819271567e9788398cdd69fbe1a0ca28a77ebdab7"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "List every number that divides 7 x 2 exactly.",
+      "A product of two different primes always has exactly 4 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "7 and 2 are both prime, so their only factors are 1 and themselves.",
+        "The factors of 7 x 2 are exactly 1, 7, 2, and 7 x 2.",
+        "That is 4 factors in total."
+      ]
+    },
+    "stem": "The number 7 x 2 is formed by multiplying two different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 2
+    },
+    "variant_signature": "a65de46672276d9e47ba75582939d4858d9d36036cccfe31e2043fcd4a0e8373"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "List every number that divides 7 x 3 exactly.",
+      "A product of two different primes always has exactly 4 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "7 and 3 are both prime, so their only factors are 1 and themselves.",
+        "The factors of 7 x 3 are exactly 1, 7, 3, and 7 x 3.",
+        "That is 4 factors in total."
+      ]
+    },
+    "stem": "The number 7 x 3 is formed by multiplying two different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 3
+    },
+    "variant_signature": "9b6ec2d8d9248af06cbe08432513b20fa5be423986cd06962dd56ef491575342"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "List every number that divides 7 x 5 exactly.",
+      "A product of two different primes always has exactly 4 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "7 and 5 are both prime, so their only factors are 1 and themselves.",
+        "The factors of 7 x 5 are exactly 1, 7, 5, and 7 x 5.",
+        "That is 4 factors in total."
+      ]
+    },
+    "stem": "The number 7 x 5 is formed by multiplying two different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 5
+    },
+    "variant_signature": "0d9893904b816550360cdfc71ddbd83621af5b0fb0bf7ad255b7c0aef4aa1237"
+  }
+]

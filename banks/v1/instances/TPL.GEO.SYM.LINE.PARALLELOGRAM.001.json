@@ -1,0 +1,3002 @@
+[
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 3 cm and XY = 4 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 4
+    },
+    "variant_signature": "1ce3e75782d009324aa4e200b4a7b5927fd9124b1a70e6761acc314b9d010803"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 3 cm and XY = 5 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 5
+    },
+    "variant_signature": "1d00bf6cc9565303444770e56dbfc3ed86449420cca0df662c8cb4440e3e1625"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 3 cm and XY = 7 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 7
+    },
+    "variant_signature": "bb1a997c277b8541a0332b0df151d5b981ca5cfcc35392218b6724a9f9cac8d2"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 3 cm and XY = 8 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 8
+    },
+    "variant_signature": "b30d9443f1955b0e5ece20c0d3c5a6ad7f91c6974d256ab13e31de87873b8d35"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 3 cm and XY = 10 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 10
+    },
+    "variant_signature": "1b7fb640e49bca73544aa2b93505fadc85310327b0cfa0e975c30332d3806ff0"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 4 cm and XY = 3 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 3
+    },
+    "variant_signature": "4b62c916b3c8d25b0c63e9e7f3191e59a0c9db8c0f802a369eeaa411dc76eb0a"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 4 cm and XY = 5 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 5
+    },
+    "variant_signature": "36c8e63d43439e8023d1ed8418b12c8a625023cddd065491f4c6f49ee8ad0afb"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 4 cm and XY = 7 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 7
+    },
+    "variant_signature": "873c333a2db1e7fdd36988a19b06c5e91d0d89e13dc934c5698a828f415c79e8"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 4 cm and XY = 8 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 8
+    },
+    "variant_signature": "c4a1d78814b34325a53c02f4f843abd50cdc556c0fd07d1c43b95937f7342724"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 4 cm and XY = 10 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 10
+    },
+    "variant_signature": "792cbc5eae503bc1602944a3543eaa3be740fb18909ace38b2d8d1cfc57af3f8"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 5 cm and XY = 3 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 3
+    },
+    "variant_signature": "8c4c0cbc96829126872ce6689ea1a632fa9988e5774e74825363b62de9be5ce3"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 5 cm and XY = 4 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 4
+    },
+    "variant_signature": "448aa69d129c36da6988089941ee35dc6212572b74e4d1c0fb329eee0379cea3"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 5 cm and XY = 7 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 7
+    },
+    "variant_signature": "a947982426c4ba78563b859b90b06ae5d000ef6c4644878582143fa8ea447123"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 5 cm and XY = 8 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 8
+    },
+    "variant_signature": "c3414065d52bbae3429ce1bed8f949b225456c6913db45a326689641a85f6560"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 5 cm and XY = 10 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 10
+    },
+    "variant_signature": "a22db4587aa86e3ce403ec30064b0eee2a9b4d1713152cbc01486011e0be0a19"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 6 cm and XY = 3 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 3
+    },
+    "variant_signature": "9f9f8eea7bd02f6e3241dac09e23b41cbca0abbad2433c05df89cf9ea892b15d"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 6 cm and XY = 4 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 4
+    },
+    "variant_signature": "f88a4d9f43004799fcd271662c97d9a3406facbafc91246b06f8560a2582311b"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 6 cm and XY = 7 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 7
+    },
+    "variant_signature": "e643a386980cc50478e0232de4ac20fecefde1cf910e5ededfbca90fbec02bc2"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 6 cm and XY = 8 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 8
+    },
+    "variant_signature": "139772a387c8814e039d4358679dc558643a654334a410baf70de3c70e8e16a8"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 6 cm and XY = 10 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 10
+    },
+    "variant_signature": "1f721f3ca4255a0c7e97b0aa101633279031d036589e94e10367d6de2748b778"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 7 cm and XY = 3 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 3
+    },
+    "variant_signature": "33d2827a7ea3b2e1d6e09111bf34f95979f487472866ea2d4d2b02f7ce26bdb8"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 7 cm and XY = 4 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 4
+    },
+    "variant_signature": "d9928256f6d197e2d70ea5f6526e9f23b02e4641539452aa7ccce17cda5c9e60"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 7 cm and XY = 6 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 6
+    },
+    "variant_signature": "19744bd81a431a9e6f4759b5581900957d1867d903155b1ef5f4207b5ca4c2ac"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 7 cm and XY = 8 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 8
+    },
+    "variant_signature": "87ffecd83c0ef3daac10020fc309f20ad0e9a6fde0f18e85977a944ef8420d41"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 7 cm and XY = 10 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 10
+    },
+    "variant_signature": "48c9ac711fc34eff1a46a8927e8e4a98212d2dfcfe564b174cb5c14fb176a3d1"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 8 cm and XY = 3 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 3
+    },
+    "variant_signature": "57fae17f1195ee581556906909ae95f21964e864c726017849adb1e7564eb04c"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 8 cm and XY = 4 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 4
+    },
+    "variant_signature": "ac2da9c5414e0d553259bdb0c2fae71e66af698d4b9e6c134aebc30a5fe6f321"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 8 cm and XY = 6 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 6
+    },
+    "variant_signature": "2e1d7ce04a2e5958e703ca9fcb1ed1625eb3912d989abf460beb3c0fc74bb2d7"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 8 cm and XY = 7 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 7
+    },
+    "variant_signature": "760e54be0adb55d12d9b32d8650b52fc752645734494ed85a50462514d724366"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 8 cm and XY = 10 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 10
+    },
+    "variant_signature": "325a72f0fe3efd7221431bca8bfaa1017c1d3534789d2e0d060489f8b477bcef"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 9 cm and XY = 3 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 3
+    },
+    "variant_signature": "fcd6c7d86ec9c4a77b91565b223f6907a2c317ebe8cad93603e42584ec410a19"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 9 cm and XY = 4 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 4
+    },
+    "variant_signature": "e47baa9830a7c3fc0585d5b4c738b04b9c7f1b2293659acba050ac93c7da0a8e"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 9 cm and XY = 6 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 6
+    },
+    "variant_signature": "a081226a24ee5e90ccfe9f6bc2e43deffcf42a3cdd602ab3b1297791abf797fe"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 9 cm and XY = 7 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 7
+    },
+    "variant_signature": "7576a243e317aa78694ea5fd14da13310ee80d774fe374fac29105f125ec3c89"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 9 cm and XY = 10 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 10
+    },
+    "variant_signature": "a7b8f346b2841dd80ccfa74fa05d79c475d570ff4823e4fd2a0c54842f04198b"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 10 cm and XY = 3 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 3
+    },
+    "variant_signature": "430821ea5ba9bf96aff627bedaa5fd8b3edf264f452a6a0e58fc6bd6c182b317"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 10 cm and XY = 4 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 4
+    },
+    "variant_signature": "306aff73c02429402772738554434c5abe5ca4cf800ec491915d325b5fa17e45"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 10 cm and XY = 6 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 6
+    },
+    "variant_signature": "9bcf5a291cdcd0a99db408916e05608655886bcf17e6cf37775e57e3cb3b6eec"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 10 cm and XY = 7 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 7
+    },
+    "variant_signature": "197bf9d9ce4e9dd4022bba32453d123bf1adc327cdaa94f0754d4e05270fa95b"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PARALLELOGRAM-LINE-SYM",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "parallelogram",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "W",
+          "X",
+          "Y",
+          "Z"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Fold along each diagonal \u2014 do the corners line up exactly?",
+      "Matching by turning the shape is not the same as matching by folding it."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Try folding parallelogram WXYZ along either diagonal, WY or XZ \u2014 the two halves do not land on top of each other.",
+        "The two halves of a slanted parallelogram match only when you turn (rotate) the shape, not when you fold it.",
+        "So a parallelogram like this has 0 lines of symmetry."
+      ]
+    },
+    "stem": "Parallelogram WXYZ has WX = 10 cm and XY = 9 cm, with WX not equal to XY, and none of its angles is a right angle. How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 9
+    },
+    "variant_signature": "1c24ffc5451b5961105f5a0942721b0d466342aca8bfee073711b993fe7fa45b"
+  }
+]

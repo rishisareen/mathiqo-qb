@@ -1,0 +1,1427 @@
+[
+  {
+    "answer": "1/4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 4 spaces between 0 and 1.",
+        "The point is 1 spaces to the right of 0, so the fraction is 1 out of 4."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 4 equal-sized gaps side by side. Counting 1 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 1
+    },
+    "variant_signature": "38382f20e1c7abb674fc1827613937f8a3ee2adb8550fd7a6652e5da85ca75c1"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/2"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 4 spaces between 0 and 1.",
+        "The point is 2 spaces to the right of 0, so the fraction is 2 out of 4."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 4 equal-sized gaps side by side. Counting 2 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 2
+    },
+    "variant_signature": "038bedc21663201d401ff5229109355fb2ac90586aae76f0785129686541d841"
+  },
+  {
+    "answer": "3/4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "3/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 4 spaces between 0 and 1.",
+        "The point is 3 spaces to the right of 0, so the fraction is 3 out of 4."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 4 equal-sized gaps side by side. Counting 3 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 3
+    },
+    "variant_signature": "90e64ecda23987e1eef2600801d942c77ec01a210c1eae2c72cb437c977adf03"
+  },
+  {
+    "answer": "1/5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/6"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 5 spaces between 0 and 1.",
+        "The point is 1 spaces to the right of 0, so the fraction is 1 out of 5."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 5 equal-sized gaps side by side. Counting 1 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 1
+    },
+    "variant_signature": "6eb08cc0151b2885e9ad387f3c3d5e75318ab7e6dcb19c117838644700728c22"
+  },
+  {
+    "answer": "2/5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/3"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "2/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 5 spaces between 0 and 1.",
+        "The point is 2 spaces to the right of 0, so the fraction is 2 out of 5."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 5 equal-sized gaps side by side. Counting 2 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 2
+    },
+    "variant_signature": "4e2a24fcac4933214c7d5860227cc73d23393fab110f13286b1a20ef78167401"
+  },
+  {
+    "answer": "3/5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "4/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "3/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 5 spaces between 0 and 1.",
+        "The point is 3 spaces to the right of 0, so the fraction is 3 out of 5."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 5 equal-sized gaps side by side. Counting 3 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 3
+    },
+    "variant_signature": "efe4ed390e37d8190877ca37c159f5283e2e42068ea7771b761ca3e976cb6fbb"
+  },
+  {
+    "answer": "4/5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/3"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "4/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 5 spaces between 0 and 1.",
+        "The point is 4 spaces to the right of 0, so the fraction is 4 out of 5."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 5 equal-sized gaps side by side. Counting 4 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 4
+    },
+    "variant_signature": "77d1f9684ae0502d5af4ec24c759304dab8b8c3e8912fe423235c5f431c2d794"
+  },
+  {
+    "answer": "1/6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/6"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 6 spaces between 0 and 1.",
+        "The point is 1 spaces to the right of 0, so the fraction is 1 out of 6."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 6 equal-sized gaps side by side. Counting 1 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 1
+    },
+    "variant_signature": "e55ce63fc6ed2a65054ff6a997492353163093333710c4e4bd54ba44b4148a25"
+  },
+  {
+    "answer": "1/3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 6 spaces between 0 and 1.",
+        "The point is 2 spaces to the right of 0, so the fraction is 2 out of 6."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 6 equal-sized gaps side by side. Counting 2 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 2
+    },
+    "variant_signature": "21f099e8e2b47ea2209cde6829d8c7e786cd9d3145a5ba6db32e6a858e4fdf84"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/2"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 6 spaces between 0 and 1.",
+        "The point is 3 spaces to the right of 0, so the fraction is 3 out of 6."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 6 equal-sized gaps side by side. Counting 3 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 3
+    },
+    "variant_signature": "b5cc2216c119477f1b46edce79aff054aaa6d82facfd7100c050698347ce98f9"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/6"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "4/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "2/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 6 spaces between 0 and 1.",
+        "The point is 4 spaces to the right of 0, so the fraction is 4 out of 6."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 6 equal-sized gaps side by side. Counting 4 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 4
+    },
+    "variant_signature": "c7857633acd4b239096123ec89dd166ad90c124f2baea57d16707472cbe4289d"
+  },
+  {
+    "answer": "5/6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "5/6"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 6 spaces between 0 and 1.",
+        "The point is 5 spaces to the right of 0, so the fraction is 5 out of 6."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 6 equal-sized gaps side by side. Counting 5 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 5
+    },
+    "variant_signature": "19b51a4cc7ce75267269476fbcc39fc40a10b0c589d35d00e016a2f4a2f05463"
+  },
+  {
+    "answer": "1/7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/8"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 7,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/7"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 7 spaces between 0 and 1.",
+        "The point is 1 spaces to the right of 0, so the fraction is 1 out of 7."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 7 equal-sized gaps side by side. Counting 1 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 7,
+      "k": 1
+    },
+    "variant_signature": "5e469e2b8d3cc0e7f5a508e4097b283a2c8f34f5a71861f01e35daca1aa149cc"
+  },
+  {
+    "answer": "2/7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/4"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 7,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "2/7"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 7 spaces between 0 and 1.",
+        "The point is 2 spaces to the right of 0, so the fraction is 2 out of 7."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 7 equal-sized gaps side by side. Counting 2 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 7,
+      "k": 2
+    },
+    "variant_signature": "1af88398bc2472dc3c456709ecaa7f45416024f55bc05d300a521d76f0cb1c62"
+  },
+  {
+    "answer": "3/7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "4/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/8"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 7,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "3/7"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 7 spaces between 0 and 1.",
+        "The point is 3 spaces to the right of 0, so the fraction is 3 out of 7."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 7 equal-sized gaps side by side. Counting 3 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 7,
+      "k": 3
+    },
+    "variant_signature": "602f725a12730549719b97595b3e27922fbe27a3c3eb7d68065bd82175436a8d"
+  },
+  {
+    "answer": "4/7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 7,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "4/7"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 7 spaces between 0 and 1.",
+        "The point is 4 spaces to the right of 0, so the fraction is 4 out of 7."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 7 equal-sized gaps side by side. Counting 4 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 7,
+      "k": 4
+    },
+    "variant_signature": "3dcb9e7e5538c1fd70206c247c160e39ebedf8c8d2955a618d68af059558ea1a"
+  },
+  {
+    "answer": "5/7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "6/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/8"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 7,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "5/7"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 7 spaces between 0 and 1.",
+        "The point is 5 spaces to the right of 0, so the fraction is 5 out of 7."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 7 equal-sized gaps side by side. Counting 5 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 7,
+      "k": 5
+    },
+    "variant_signature": "76e3a97e52e10f5a91d7c2d93264253f8a3355584c9eef1a297176e5d687d576"
+  },
+  {
+    "answer": "6/7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/4"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 7,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "6/7"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 7 spaces between 0 and 1.",
+        "The point is 6 spaces to the right of 0, so the fraction is 6 out of 7."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 7 equal-sized gaps side by side. Counting 6 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 7,
+      "k": 6
+    },
+    "variant_signature": "4214c9365a65f8750ec2508b29fa97543803d992b6be2eeb97904fa06006451d"
+  },
+  {
+    "answer": "1/8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/9"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 8,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/8"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 8 spaces between 0 and 1.",
+        "The point is 1 spaces to the right of 0, so the fraction is 1 out of 8."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 8 equal-sized gaps side by side. Counting 1 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 8,
+      "k": 1
+    },
+    "variant_signature": "91d44de0debc0a77e90dbd423459c7e8869c49e54b91d2049779f77487b64a1c"
+  },
+  {
+    "answer": "1/4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/8"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/9"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 8,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 8 spaces between 0 and 1.",
+        "The point is 2 spaces to the right of 0, so the fraction is 2 out of 8."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 8 equal-sized gaps side by side. Counting 2 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 8,
+      "k": 2
+    },
+    "variant_signature": "313b10604a36b5959f726318583189dda3454f7c5792b6602988a2e15e57c3fc"
+  },
+  {
+    "answer": "3/8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/3"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 8,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "3/8"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 8 spaces between 0 and 1.",
+        "The point is 3 spaces to the right of 0, so the fraction is 3 out of 8."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 8 equal-sized gaps side by side. Counting 3 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 8,
+      "k": 3
+    },
+    "variant_signature": "209929a912e68b45231d04c05038879550f09647971aacec6180e0817486f74b"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/8"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "4/9"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 8,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/2"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 8 spaces between 0 and 1.",
+        "The point is 4 spaces to the right of 0, so the fraction is 4 out of 8."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 8 equal-sized gaps side by side. Counting 4 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 8,
+      "k": 4
+    },
+    "variant_signature": "3ac6f9703da218c980c0e6f5b5b82ef25723c574b1b3dfa41c801af82116d130"
+  },
+  {
+    "answer": "5/8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/9"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 8,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "5/8"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 8 spaces between 0 and 1.",
+        "The point is 5 spaces to the right of 0, so the fraction is 5 out of 8."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 8 equal-sized gaps side by side. Counting 5 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 8,
+      "k": 5
+    },
+    "variant_signature": "0c827299ffd2ffffce131a1d068b14b1f0719847f29d24680459bdc353991e9e"
+  },
+  {
+    "answer": "3/4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "7/8"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/3"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 8,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "3/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 8 spaces between 0 and 1.",
+        "The point is 6 spaces to the right of 0, so the fraction is 6 out of 8."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 8 equal-sized gaps side by side. Counting 6 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 8,
+      "k": 6
+    },
+    "variant_signature": "ff4f992b1a390021dc09fcb91681a7d7dd601c960de3c7fc98fc3d70e611666b"
+  },
+  {
+    "answer": "7/8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "7/9"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 8,
+        "kind": "number-line",
+        "max": 1,
+        "min": 0,
+        "points": [
+          {
+            "position": "7/8"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal spaces between the tick marks, not the tick marks themselves.",
+      "The denominator is the total number of equal spaces from 0 to 1; the numerator is how many spaces you've moved from 0."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.READ.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the equal spaces (intervals) the line is divided into, not the tick marks: there are 8 spaces between 0 and 1.",
+        "The point is 7 spaces to the right of 0, so the fraction is 7 out of 8."
+      ]
+    },
+    "stem": "A ruler-like strip stretches from 0 to 1, split into 8 equal-sized gaps side by side. Counting 7 gaps across starting from 0, which fraction lands on that mark?",
+    "template_id": "TPL.FRAC.NUMLINE.READ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 8,
+      "k": 7
+    },
+    "variant_signature": "5f3abaf233b8fa8660dc283ef44c434edfec2ef85a6db3595a473a34ce5455a0"
+  }
+]

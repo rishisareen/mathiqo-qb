@@ -1,0 +1,962 @@
+[
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 2, 3 and 5 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 2 x 3 x 5, where 2, 3 and 5 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 3,
+      "r": 5
+    },
+    "variant_signature": "e2ffd68d1ddc07873f0ea23b150422e2e3aa1750f197fd2f2a1c89c6f6c2f9ee"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 2, 3 and 7 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 2 x 3 x 7, where 2, 3 and 7 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 3,
+      "r": 7
+    },
+    "variant_signature": "2be7a3c99e8368771889ff314a2d96bfc468969c2fa632964314974d9aa2e2fa"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 2, 5 and 3 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 2 x 5 x 3, where 2, 5 and 3 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 5,
+      "r": 3
+    },
+    "variant_signature": "d5b0085a536ac2574f8d7401fb1a39ea8f40f500117a86c4ede1fba4a4b91c64"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 2, 5 and 7 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 2 x 5 x 7, where 2, 5 and 7 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 5,
+      "r": 7
+    },
+    "variant_signature": "ce3367170832a37715054b21ba9087c48493e0660253d271a1687fe226c90f9a"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 2, 7 and 3 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 2 x 7 x 3, where 2, 7 and 3 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 7,
+      "r": 3
+    },
+    "variant_signature": "654c67c1a6f3f054c1b5f3b7224df7476d9ff13849abdbe659665f6ced7e4e13"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 2, 7 and 5 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 2 x 7 x 5, where 2, 7 and 5 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 7,
+      "r": 5
+    },
+    "variant_signature": "5dadddab93e64702a06ef948ad65774290e1d37e62702bcda2362974ffb79d53"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 3, 2 and 5 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 3 x 2 x 5, where 3, 2 and 5 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 2,
+      "r": 5
+    },
+    "variant_signature": "be2c4dade6adadba5cf4090846f6bb8056f359f809cb97ba988509fc9700b07d"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 3, 2 and 7 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 3 x 2 x 7, where 3, 2 and 7 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 2,
+      "r": 7
+    },
+    "variant_signature": "556b81044084ab3c36b2a067be3ba9181911237b86ee590ef0502ba766f000a4"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 3, 5 and 2 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 3 x 5 x 2, where 3, 5 and 2 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 5,
+      "r": 2
+    },
+    "variant_signature": "474a5e9539b4ef54b1bfc0b968b75a69f3b83155e2b3d735dbedb07c02574b4e"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 3, 5 and 7 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 3 x 5 x 7, where 3, 5 and 7 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 5,
+      "r": 7
+    },
+    "variant_signature": "c48ec3f3f76d064824116d5d4c1d8b19a3509f5c924232a1e7aaf42eff43ad42"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 3, 7 and 2 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 3 x 7 x 2, where 3, 7 and 2 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 7,
+      "r": 2
+    },
+    "variant_signature": "ea8f8bb6406147ba303de2b03fae4f653cccb5b32c7ae4fb0218b27702df606e"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 3, 7 and 5 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 3 x 7 x 5, where 3, 7 and 5 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 7,
+      "r": 5
+    },
+    "variant_signature": "e7cdfe72a69e17cb35b9f7f15240e5c52c341491209a23a2cb9bfc368f786bd3"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 5, 2 and 3 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 5 x 2 x 3, where 5, 2 and 3 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 2,
+      "r": 3
+    },
+    "variant_signature": "f707d71671131d4863261dec56393feeb9a9d2f57a3326e18ca7260a35bc3092"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 5, 2 and 7 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 5 x 2 x 7, where 5, 2 and 7 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 2,
+      "r": 7
+    },
+    "variant_signature": "af6f3a82fafe8383d13ade0cf44daacb9960990c2d7e7cf2200d7dab9665592a"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 5, 3 and 2 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 5 x 3 x 2, where 5, 3 and 2 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 3,
+      "r": 2
+    },
+    "variant_signature": "3a6004adc1e355ac00328acc72ea9b8993409c77657ec5cc4b99e096a8b980a9"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 5, 3 and 7 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 5 x 3 x 7, where 5, 3 and 7 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 3,
+      "r": 7
+    },
+    "variant_signature": "7139663a53df61ff04bbf83568f939300b71f1e15f54c74d78d5d0d50a52a39b"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 5, 7 and 2 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 5 x 7 x 2, where 5, 7 and 2 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 7,
+      "r": 2
+    },
+    "variant_signature": "352e4fadf542874f957c0e3cb25d59f8ea3077bef1fb04a6a43351733186b301"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 5, 7 and 3 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 5 x 7 x 3, where 5, 7 and 3 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 7,
+      "r": 3
+    },
+    "variant_signature": "cdad95857f28d947731d51279e99459deb8a091da7fa69a7de2e62dab6276eb7"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 7, 2 and 3 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 7 x 2 x 3, where 7, 2 and 3 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 2,
+      "r": 3
+    },
+    "variant_signature": "226bcb2a8894b1a1d37836cb962fb7a6bb8872dda44e6aefd90870104b401120"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 7, 2 and 5 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 7 x 2 x 5, where 7, 2 and 5 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 2,
+      "r": 5
+    },
+    "variant_signature": "cbe02137f1b4e7775e96457edf1d0b3594126663abe11da37c2fe911fb9f27b1"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 7, 3 and 2 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 7 x 3 x 2, where 7, 3 and 2 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 3,
+      "r": 2
+    },
+    "variant_signature": "b1878c2ad69175701843da111d73366f14a8b9a2f190b59c9ec6f919733ebd4a"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 7, 3 and 5 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 7 x 3 x 5, where 7, 3 and 5 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 3,
+      "r": 5
+    },
+    "variant_signature": "474e6e32decd0d4fedca2e5991586056aabe83d30d741f8ba0ddfb9d654bc316"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 7, 5 and 2 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 7 x 5 x 2, where 7, 5 and 2 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 5,
+      "r": 2
+    },
+    "variant_signature": "1e37a61b50702acf72b45d5938f3897d790d3dffaf7bb1f5386676b92caf62ae"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.COMPOSITE-FACTORS-LEFT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Do not stop early by grouping two of the primes together as if they were still one factor \u2014 count all three separately."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each of the three factors 7, 5 and 3 \u2014 none of them can be broken down further since all three are prime.",
+        "Every factor in the product is prime, so the number has 3 prime factors."
+      ]
+    },
+    "stem": "A number is written as 7 x 5 x 3, where 7, 5 and 3 are three different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 5,
+      "r": 3
+    },
+    "variant_signature": "247bbbe81a94f18f2d41d222f014b0d21ef9400f0f5a339f75c6b50a90ff348f"
+  }
+]

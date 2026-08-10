@@ -1,0 +1,1754 @@
+[
+  {
+    "answer": "451",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "4411"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 5 + 6.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 325 + 126?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 2,
+      "a2": 3,
+      "b0": 6,
+      "b1": 2,
+      "b2": 1
+    },
+    "variant_signature": "c8c38868bf4714837c526d458b43b74995629e9c8991e598f00e4e18aa772a33"
+  },
+  {
+    "answer": "761",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "7511"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 7 + 4.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 327 + 434?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 2,
+      "a2": 3,
+      "b0": 4,
+      "b1": 3,
+      "b2": 4
+    },
+    "variant_signature": "82967fd82fd16f9d6a8445e2a67671d0ee960d87db6f96133ad0909bdb35ebd4"
+  },
+  {
+    "answer": "676",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 3 + 3.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 333 + 343?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 3,
+      "a2": 3,
+      "b0": 3,
+      "b1": 4,
+      "b2": 3
+    },
+    "variant_signature": "1fccf776002982757c2fab7195aacaca6440e78fdcf9158d18228c1d14b50016"
+  },
+  {
+    "answer": "584",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "5714"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 6 + 8.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 336 + 248?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 6,
+      "a1": 3,
+      "a2": 3,
+      "b0": 8,
+      "b1": 4,
+      "b2": 2
+    },
+    "variant_signature": "360c7eb280d1865f40cef816d0d60fa49d69f3951ecc3d795c33698d02a8b611"
+  },
+  {
+    "answer": "556",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "5416"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 9 + 7.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 339 + 217?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 9,
+      "a1": 3,
+      "a2": 3,
+      "b0": 7,
+      "b1": 1,
+      "b2": 2
+    },
+    "variant_signature": "9588bfd986e4eeee492d99b40a86137378bde12a2f4fdc6f61790c02d727e1da"
+  },
+  {
+    "answer": "471",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "4611"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 5 + 6.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 345 + 126?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 4,
+      "a2": 3,
+      "b0": 6,
+      "b1": 2,
+      "b2": 1
+    },
+    "variant_signature": "02e681ea9ccdd7f1b415448b0f124ab9ba9533e64f2af462ae50532a0e8797f8"
+  },
+  {
+    "answer": "781",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "7711"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 7 + 4.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 347 + 434?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 4,
+      "a2": 3,
+      "b0": 4,
+      "b1": 3,
+      "b2": 4
+    },
+    "variant_signature": "083df84cef477e46ecdaf8400d2c8878ea8fe5be9057eb8e27583fad09721871"
+  },
+  {
+    "answer": "696",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 3 + 3.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 353 + 343?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 5,
+      "a2": 3,
+      "b0": 3,
+      "b1": 4,
+      "b2": 3
+    },
+    "variant_signature": "67e77330d8e91b5e483e48ccade9927f6d35f03d6349a43de493f9aecfd34927"
+  },
+  {
+    "answer": "604",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "5914"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 6 + 8.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 356 + 248?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 6,
+      "a1": 5,
+      "a2": 3,
+      "b0": 8,
+      "b1": 4,
+      "b2": 2
+    },
+    "variant_signature": "c1ab02a2a152b1cd9e3a4af1edab317ff29930db62fab2a9d02b3cabc9280979"
+  },
+  {
+    "answer": "576",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "5616"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 9 + 7.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 359 + 217?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 9,
+      "a1": 5,
+      "a2": 3,
+      "b0": 7,
+      "b1": 1,
+      "b2": 2
+    },
+    "variant_signature": "c8d5b82cf8ef91f1721cf6f044a9b04cbb4f20dfdd5be27b57a5e5c371882bc4"
+  },
+  {
+    "answer": "551",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "5411"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 5 + 6.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 425 + 126?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 2,
+      "a2": 4,
+      "b0": 6,
+      "b1": 2,
+      "b2": 1
+    },
+    "variant_signature": "eb8851fbdd4b246284c5e4c306424f3985632c557cef830daa6c2a8a51085a52"
+  },
+  {
+    "answer": "861",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "8511"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 7 + 4.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 427 + 434?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 2,
+      "a2": 4,
+      "b0": 4,
+      "b1": 3,
+      "b2": 4
+    },
+    "variant_signature": "499976561dd9166e7ca21c0d31f39099498fc5819673da61899a038b971b03d5"
+  },
+  {
+    "answer": "776",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 3 + 3.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 433 + 343?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 3,
+      "a2": 4,
+      "b0": 3,
+      "b1": 4,
+      "b2": 3
+    },
+    "variant_signature": "376a6df1cb35c11c2c2a7944c99a33e4744339f6a2c6b2eb15d50c24580f2440"
+  },
+  {
+    "answer": "684",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "6714"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 6 + 8.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 436 + 248?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 6,
+      "a1": 3,
+      "a2": 4,
+      "b0": 8,
+      "b1": 4,
+      "b2": 2
+    },
+    "variant_signature": "2141122f0dc7cba45d9223d965e763715eb6b2fc816c36333f4d7f46ca545746"
+  },
+  {
+    "answer": "656",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "6416"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 9 + 7.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 439 + 217?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 9,
+      "a1": 3,
+      "a2": 4,
+      "b0": 7,
+      "b1": 1,
+      "b2": 2
+    },
+    "variant_signature": "62d16a224e47519c09f36e431b6ae28cdc35dda7bafaf92ad22019ffe0dfeeeb"
+  },
+  {
+    "answer": "571",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "5611"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 5 + 6.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 445 + 126?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 4,
+      "a2": 4,
+      "b0": 6,
+      "b1": 2,
+      "b2": 1
+    },
+    "variant_signature": "f02e1560a950c2954b836e14f226ad13a0b06ae37149cd71111b11c411446532"
+  },
+  {
+    "answer": "881",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "8711"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 7 + 4.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 447 + 434?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 4,
+      "a2": 4,
+      "b0": 4,
+      "b1": 3,
+      "b2": 4
+    },
+    "variant_signature": "807110b719505df37ac1783e50ac2ca83dfc32b4db7bf5d2d3cf58437ef61bf1"
+  },
+  {
+    "answer": "796",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 3 + 3.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 453 + 343?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 5,
+      "a2": 4,
+      "b0": 3,
+      "b1": 4,
+      "b2": 3
+    },
+    "variant_signature": "79861214c7de3dab0461436a5c2e725c8d0db24b06a4af12d5f4e1cf4654d74b"
+  },
+  {
+    "answer": "704",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "6914"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 6 + 8.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 456 + 248?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 6,
+      "a1": 5,
+      "a2": 4,
+      "b0": 8,
+      "b1": 4,
+      "b2": 2
+    },
+    "variant_signature": "efe618a197abff2e7a3c096e59ee3c171c4275e61fa7cd40cb3c1f81ab94a310"
+  },
+  {
+    "answer": "676",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "6616"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 9 + 7.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 459 + 217?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 9,
+      "a1": 5,
+      "a2": 4,
+      "b0": 7,
+      "b1": 1,
+      "b2": 2
+    },
+    "variant_signature": "6dbbda1452463442f56cbc1c2e92f52d2951f621e23d9a62b65ef268a27e0a03"
+  },
+  {
+    "answer": "651",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "6411"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 5 + 6.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 525 + 126?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 2,
+      "a2": 5,
+      "b0": 6,
+      "b1": 2,
+      "b2": 1
+    },
+    "variant_signature": "bae046ee4cd2befbc73f5e2f70c30f6df25ad648d64cd8a250a5526d9d69166c"
+  },
+  {
+    "answer": "961",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "9511"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 7 + 4.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 527 + 434?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 2,
+      "a2": 5,
+      "b0": 4,
+      "b1": 3,
+      "b2": 4
+    },
+    "variant_signature": "9fe8f1bb6cf0619608af0654f022ee840ac781ff1f6c0c403861ca3aef409163"
+  },
+  {
+    "answer": "876",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 3 + 3.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 533 + 343?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 3,
+      "a2": 5,
+      "b0": 3,
+      "b1": 4,
+      "b2": 3
+    },
+    "variant_signature": "30d4ebd3eb57df7b88b88a40e74a36181d8c830ff899e6cc0885b8e887206995"
+  },
+  {
+    "answer": "784",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "7714"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 6 + 8.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 536 + 248?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 6,
+      "a1": 3,
+      "a2": 5,
+      "b0": 8,
+      "b1": 4,
+      "b2": 2
+    },
+    "variant_signature": "c62ed68324e636580c362159f4ce01ef42bde0f5ba7d680ab05ebcace3666a54"
+  },
+  {
+    "answer": "756",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "7416"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 9 + 7.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 539 + 217?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 9,
+      "a1": 3,
+      "a2": 5,
+      "b0": 7,
+      "b1": 1,
+      "b2": 2
+    },
+    "variant_signature": "4157660acfdedcf7cffcf36cb47ba821df00885146465585ba437bc0b719051d"
+  },
+  {
+    "answer": "671",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "6611"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 5 + 6.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 545 + 126?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 4,
+      "a2": 5,
+      "b0": 6,
+      "b1": 2,
+      "b2": 1
+    },
+    "variant_signature": "98c97ec2f12d5c35859a95629f9a3a7d59d69d4d1f1f01217ea5a9013d29e9d2"
+  },
+  {
+    "answer": "981",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "9711"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 7 + 4.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 547 + 434?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 4,
+      "a2": 5,
+      "b0": 4,
+      "b1": 3,
+      "b2": 4
+    },
+    "variant_signature": "f350e095723dbf227ccf94ee31805c7947e3ffbd040f04a6614c5dd38c061901"
+  },
+  {
+    "answer": "896",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 3 + 3.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 553 + 343?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 5,
+      "a2": 5,
+      "b0": 3,
+      "b1": 4,
+      "b2": 3
+    },
+    "variant_signature": "b3dc02aa0ff866a337442a45301f4c6a81c72dbe2a8d8fc1a2f1daf88e385921"
+  },
+  {
+    "answer": "804",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "7914"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 6 + 8.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 556 + 248?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 6,
+      "a1": 5,
+      "a2": 5,
+      "b0": 8,
+      "b1": 4,
+      "b2": 2
+    },
+    "variant_signature": "66d05bc3889c36d1f12745929a4c1f318ac90fffde13a7dacedde5d88afe76ce"
+  },
+  {
+    "answer": "776",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "7616"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 9 + 7.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 559 + 217?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 9,
+      "a1": 5,
+      "a2": 5,
+      "b0": 7,
+      "b1": 1,
+      "b2": 2
+    },
+    "variant_signature": "8ca8c70ae6939e352e3990f3ad3cf29987c525c0042f7bbeb68a31948f89199e"
+  },
+  {
+    "answer": "751",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "7411"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 5 + 6.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 625 + 126?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 2,
+      "a2": 6,
+      "b0": 6,
+      "b1": 2,
+      "b2": 1
+    },
+    "variant_signature": "81c9742ca4fa1b1229045994ed1626af1e03bd89c0715e4f45d5fd7896976305"
+  },
+  {
+    "answer": "1061",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "10511"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 7 + 4.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 627 + 434?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 2,
+      "a2": 6,
+      "b0": 4,
+      "b1": 3,
+      "b2": 4
+    },
+    "variant_signature": "cf1b89cb6a47c88bbf7996ba4c8cea7a598dd5dd5b08093f6f192be9dac3c46c"
+  },
+  {
+    "answer": "976",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 3 + 3.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 633 + 343?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 3,
+      "a2": 6,
+      "b0": 3,
+      "b1": 4,
+      "b2": 3
+    },
+    "variant_signature": "fa3d2cc738b9692766987e49624d499953380ff67e047c669125f0c0619d493d"
+  },
+  {
+    "answer": "884",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "8714"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 6 + 8.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 636 + 248?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 6,
+      "a1": 3,
+      "a2": 6,
+      "b0": 8,
+      "b1": 4,
+      "b2": 2
+    },
+    "variant_signature": "7a1f3a85191089b4f65e16fbd2473c8d30a5d3f4771cf104cb59faa0262bbb2e"
+  },
+  {
+    "answer": "856",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "8416"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 9 + 7.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 639 + 217?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 9,
+      "a1": 3,
+      "a2": 6,
+      "b0": 7,
+      "b1": 1,
+      "b2": 2
+    },
+    "variant_signature": "b71e743eb286874888230f050332c5762c61bb3fc8dd706fbdd4711c9bf2561d"
+  },
+  {
+    "answer": "771",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "7611"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 5 + 6.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 645 + 126?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 5,
+      "a1": 4,
+      "a2": 6,
+      "b0": 6,
+      "b1": 2,
+      "b2": 1
+    },
+    "variant_signature": "ca2e5185f452a28d43a78cab5e2bbabcc10d6c5aa5a2223bc428402edeaab08c"
+  },
+  {
+    "answer": "1081",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "10711"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 7 + 4.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 647 + 434?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 4,
+      "a2": 6,
+      "b0": 4,
+      "b1": 3,
+      "b2": 4
+    },
+    "variant_signature": "8ebe03f1d1f820866242df2f327468b2d501b2bc759ab6f2d81d7c7161d05c00"
+  },
+  {
+    "answer": "996",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 3 + 3.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 653 + 343?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 5,
+      "a2": 6,
+      "b0": 3,
+      "b1": 4,
+      "b2": 3
+    },
+    "variant_signature": "e3fe3bf3add45eecfa9ecddea907276e0eaac70b91441d81fd50ca06d0593f41"
+  },
+  {
+    "answer": "904",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "8914"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 6 + 8.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 656 + 248?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 6,
+      "a1": 5,
+      "a2": 6,
+      "b0": 8,
+      "b1": 4,
+      "b2": 2
+    },
+    "variant_signature": "219d1f39a9a68bd39b4e184eb676d1279bc04550ae48efe88fbbd1a18c5b61f5"
+  },
+  {
+    "answer": "876",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ADD-NO-CARRY",
+        "unsimplified": false,
+        "value": "8616"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work column by column, right to left: ones, then tens, then hundreds.",
+      "Carry the extra ten (or hundred) forward whenever a column adds to 10 or more."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the ones column first: 9 + 7.",
+        "Carry to the tens column if the ones sum is 10 or more.",
+        "Add the tens column, then the hundreds column, carrying as needed at each step."
+      ]
+    },
+    "stem": "What is 659 + 217?",
+    "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 9,
+      "a1": 5,
+      "a2": 6,
+      "b0": 7,
+      "b1": 1,
+      "b2": 2
+    },
+    "variant_signature": "edc52f8cc30eb410de7561684cc19a8c80260597e8897e41ef83fa29c2a33d5c"
+  }
+]

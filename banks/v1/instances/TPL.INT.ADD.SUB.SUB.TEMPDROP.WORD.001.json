@@ -1,0 +1,1602 @@
+[
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 1 - -9.",
+        "Since -9 is below zero, subtracting it adds its distance from zero on top of 1."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 1\u00b0C. By evening it had dropped to -9\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": -9
+    },
+    "variant_signature": "8bfadb33fe9f84487229bfa01b7f6ea3484884cf4979720d2519b996abf61a86"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 1 - -7.",
+        "Since -7 is below zero, subtracting it adds its distance from zero on top of 1."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 1\u00b0C. By evening it had dropped to -7\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": -7
+    },
+    "variant_signature": "637a2c48c7ee782c7ee654157e716831405a299bfed78f28509d246962973989"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 1 - -5.",
+        "Since -5 is below zero, subtracting it adds its distance from zero on top of 1."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 1\u00b0C. By evening it had dropped to -5\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": -5
+    },
+    "variant_signature": "b351628465cc52f74eeee633c1e1f973c964bedeca119b9ee063df8c927cf3a5"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 1 - -3.",
+        "Since -3 is below zero, subtracting it adds its distance from zero on top of 1."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 1\u00b0C. By evening it had dropped to -3\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": -3
+    },
+    "variant_signature": "c3a21750891780f121dcb9f118c5a7e7b88cb031a95371cdd90d777ee3ec395c"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 1 - -1.",
+        "Since -1 is below zero, subtracting it adds its distance from zero on top of 1."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 1\u00b0C. By evening it had dropped to -1\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": -1
+    },
+    "variant_signature": "f172eae025d08f0fceda27c1b31dc9522d27e603d0cefd86408590746ba40b92"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 2 - -8.",
+        "Since -8 is below zero, subtracting it adds its distance from zero on top of 2."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 2\u00b0C. By evening it had dropped to -8\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": -8
+    },
+    "variant_signature": "adf4b6d873eca66cf6a9353f6f1c9b74d0a0e309ec75e8c87a9665fe21a2d34f"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 2 - -6.",
+        "Since -6 is below zero, subtracting it adds its distance from zero on top of 2."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 2\u00b0C. By evening it had dropped to -6\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": -6
+    },
+    "variant_signature": "56de6c293ac30bd0e195ba4867b9c6939eb6c39146975b4622dde55a9b53c1f8"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 2 - -4.",
+        "Since -4 is below zero, subtracting it adds its distance from zero on top of 2."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 2\u00b0C. By evening it had dropped to -4\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": -4
+    },
+    "variant_signature": "fe977041925d93ae2fa572ea4ea9f6b021026df06fcbbd89bb98267773e4408e"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 2 - -2.",
+        "Since -2 is below zero, subtracting it adds its distance from zero on top of 2."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 2\u00b0C. By evening it had dropped to -2\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": -2
+    },
+    "variant_signature": "311e4ac58b0d8246401452f9e03e69d799b7467305a26f8405f7f5b1373e36f9"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 3 - -9.",
+        "Since -9 is below zero, subtracting it adds its distance from zero on top of 3."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 3\u00b0C. By evening it had dropped to -9\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": -9
+    },
+    "variant_signature": "bbee8c22d289554c6a9377ffa5cb8881b16df3d2e03b15f2cbde0f01e5f2711d"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 3 - -7.",
+        "Since -7 is below zero, subtracting it adds its distance from zero on top of 3."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 3\u00b0C. By evening it had dropped to -7\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": -7
+    },
+    "variant_signature": "d81f87d07301acf2a1d322aaf5a6e363eb8627593aa6d95490d65431454525e8"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 3 - -5.",
+        "Since -5 is below zero, subtracting it adds its distance from zero on top of 3."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 3\u00b0C. By evening it had dropped to -5\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": -5
+    },
+    "variant_signature": "71b5d777eee1b437c9e8460b1b68889ad6948284072667b79b560b81548faeb5"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 3 - -3.",
+        "Since -3 is below zero, subtracting it adds its distance from zero on top of 3."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 3\u00b0C. By evening it had dropped to -3\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": -3
+    },
+    "variant_signature": "62f85fede656838c481ef61b0305977bc8c0581d45815a257cb8edc74dad6fdc"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 3 - -1.",
+        "Since -1 is below zero, subtracting it adds its distance from zero on top of 3."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 3\u00b0C. By evening it had dropped to -1\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": -1
+    },
+    "variant_signature": "942801a265c549bea59b6ff03e1a46279ca6fd4602dc87821dd98604cffc5868"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 4 - -8.",
+        "Since -8 is below zero, subtracting it adds its distance from zero on top of 4."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 4\u00b0C. By evening it had dropped to -8\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": -8
+    },
+    "variant_signature": "9c7e960383f3299e9dc9860dca9a084d4b3c12eeae752c139b3689dd24dcaea7"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 4 - -6.",
+        "Since -6 is below zero, subtracting it adds its distance from zero on top of 4."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 4\u00b0C. By evening it had dropped to -6\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": -6
+    },
+    "variant_signature": "b0c9a44fd7588f3d62544d20cadcb47bec5a44ed18f15849aaa158bd870f9f97"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 4 - -4.",
+        "Since -4 is below zero, subtracting it adds its distance from zero on top of 4."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 4\u00b0C. By evening it had dropped to -4\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": -4
+    },
+    "variant_signature": "c5c941da925a299e2ee22836925d2fd2804a1f0b2bc5116343375b1d0f74a59d"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 4 - -2.",
+        "Since -2 is below zero, subtracting it adds its distance from zero on top of 4."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 4\u00b0C. By evening it had dropped to -2\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": -2
+    },
+    "variant_signature": "c74c9ce9db9244731cfaa1a1c87328a771c9a2ea6de19e7077b8abf067deb7e6"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 5 - -9.",
+        "Since -9 is below zero, subtracting it adds its distance from zero on top of 5."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 5\u00b0C. By evening it had dropped to -9\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": -9
+    },
+    "variant_signature": "1aa205dbc9021db70c34674d4d2880538ae6f0882c5057cd4dd631a69610b81b"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 5 - -7.",
+        "Since -7 is below zero, subtracting it adds its distance from zero on top of 5."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 5\u00b0C. By evening it had dropped to -7\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": -7
+    },
+    "variant_signature": "29a0e4814c7db24b78c13247b1dbf1b8ae00072cb2111aab64fc1797e5d84b78"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 5 - -4.",
+        "Since -4 is below zero, subtracting it adds its distance from zero on top of 5."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 5\u00b0C. By evening it had dropped to -4\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": -4
+    },
+    "variant_signature": "4b80563fbf3de0206dfe76387cc8499bbba361dd91c14070676bbcb1dcd38a7f"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 5 - -2.",
+        "Since -2 is below zero, subtracting it adds its distance from zero on top of 5."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 5\u00b0C. By evening it had dropped to -2\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": -2
+    },
+    "variant_signature": "134180681479c7ac2a479b7e97ef392736a37041098784330a93a503e73711ec"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 6 - -9.",
+        "Since -9 is below zero, subtracting it adds its distance from zero on top of 6."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 6\u00b0C. By evening it had dropped to -9\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": -9
+    },
+    "variant_signature": "a89557c71de7dab9d56491b4784bd00c6e7407e1bf4213c8633311cd98caf834"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 6 - -7.",
+        "Since -7 is below zero, subtracting it adds its distance from zero on top of 6."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 6\u00b0C. By evening it had dropped to -7\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": -7
+    },
+    "variant_signature": "1bfa15605564f9e9b298c95f13719d734f40bba31663b88850c942801238990f"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 6 - -5.",
+        "Since -5 is below zero, subtracting it adds its distance from zero on top of 6."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 6\u00b0C. By evening it had dropped to -5\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": -5
+    },
+    "variant_signature": "e40c61f620e61ef70b4662fb82e1b35d3952b6d50efcfa39f99f65e09696b994"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 6 - -3.",
+        "Since -3 is below zero, subtracting it adds its distance from zero on top of 6."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 6\u00b0C. By evening it had dropped to -3\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": -3
+    },
+    "variant_signature": "d7b2e7929f0a12434249aba66e707326846fb7ea129b04c8556787e709bcec8f"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 6 - -1.",
+        "Since -1 is below zero, subtracting it adds its distance from zero on top of 6."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 6\u00b0C. By evening it had dropped to -1\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": -1
+    },
+    "variant_signature": "cb95b78142d0231082877a1a44ae771ce35a44bd88894c220a88cdef00a4c122"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 7 - -8.",
+        "Since -8 is below zero, subtracting it adds its distance from zero on top of 7."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 7\u00b0C. By evening it had dropped to -8\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": -8
+    },
+    "variant_signature": "57227a9708611e3278b59ca70b375a5a6e06dc7493bd66cf4eabfb4bdf705ddc"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 7 - -6.",
+        "Since -6 is below zero, subtracting it adds its distance from zero on top of 7."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 7\u00b0C. By evening it had dropped to -6\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": -6
+    },
+    "variant_signature": "fde5f7f56ca40ec556c13edd56c2765abf7b9e08c6d763a0eb600b05660eec39"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 7 - -4.",
+        "Since -4 is below zero, subtracting it adds its distance from zero on top of 7."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 7\u00b0C. By evening it had dropped to -4\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": -4
+    },
+    "variant_signature": "f4c18d6f9724e13bbf2087279f8ceb2cfa7632064bf257d456faed84a7736fdd"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 7 - -2.",
+        "Since -2 is below zero, subtracting it adds its distance from zero on top of 7."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 7\u00b0C. By evening it had dropped to -2\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": -2
+    },
+    "variant_signature": "31540209b483a4c40cc930f4ebad0846a610d7a3bf3bc5853d8e9432055f9261"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "-1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 8 - -9.",
+        "Since -9 is below zero, subtracting it adds its distance from zero on top of 8."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 8\u00b0C. By evening it had dropped to -9\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": -9
+    },
+    "variant_signature": "98c0ef298b54ce26a7b7d39ec6390cc46db0bbbc1af69f4ef3a22ec281e6e003"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 8 - -7.",
+        "Since -7 is below zero, subtracting it adds its distance from zero on top of 8."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 8\u00b0C. By evening it had dropped to -7\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": -7
+    },
+    "variant_signature": "0b5daf28b295ffbb87c322a0f89f536fb77b095ab4434f31a7a3a4eeb4b08f55"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 8 - -5.",
+        "Since -5 is below zero, subtracting it adds its distance from zero on top of 8."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 8\u00b0C. By evening it had dropped to -5\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": -5
+    },
+    "variant_signature": "3d2fafd201142ec27668edbea644547b8fc9fe919e338795609ac1df64d3082b"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 8 - -3.",
+        "Since -3 is below zero, subtracting it adds its distance from zero on top of 8."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 8\u00b0C. By evening it had dropped to -3\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": -3
+    },
+    "variant_signature": "0d27f853f86bc37d1f78b34bdd5f8274ad96d10bc085394fed59ee2041b81f14"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 8 - -1.",
+        "Since -1 is below zero, subtracting it adds its distance from zero on top of 8."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 8\u00b0C. By evening it had dropped to -1\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": -1
+    },
+    "variant_signature": "04238eb81a9e2384b42d86ac480068da2af4af68019402ef07c800ac544df834"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 9 - -8.",
+        "Since -8 is below zero, subtracting it adds its distance from zero on top of 9."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 9\u00b0C. By evening it had dropped to -8\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": -8
+    },
+    "variant_signature": "36601b4704874877fc8e3dc902d0916fd6f5a94b9ecc3e9c9f72dba0b80a0f4e"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 9 - -6.",
+        "Since -6 is below zero, subtracting it adds its distance from zero on top of 9."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 9\u00b0C. By evening it had dropped to -6\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": -6
+    },
+    "variant_signature": "80e5942a985cdaa262a8227cf36202a01c1fbd088857725a0f1a2f60e1a9aeb5"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 9 - -4.",
+        "Since -4 is below zero, subtracting it adds its distance from zero on top of 9."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 9\u00b0C. By evening it had dropped to -4\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": -4
+    },
+    "variant_signature": "65a44e492a98d15b4bcafd89e77c9fbde1d9827b50b77e40b4f481042cdef544"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.INT.SUB-MAKES-SMALLER",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The amount the temperature fell is the start reading minus the end reading.",
+      "Subtracting a negative ending temperature makes the fall bigger, not smaller."
+    ],
+    "item_instance_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "INT.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The fall in temperature is the starting reading minus the ending reading: 9 - -2.",
+        "Since -2 is below zero, subtracting it adds its distance from zero on top of 9."
+      ]
+    },
+    "stem": "The temperature at the start of the day was 9\u00b0C. By evening it had dropped to -2\u00b0C. By how many degrees did the temperature fall?",
+    "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": -2
+    },
+    "variant_signature": "c831690f5d03390c56059ebf3c4e8a64f8e76c6278841186deb9f76b863c3cf2"
+  }
+]

@@ -11,6 +11,7 @@ exercise schema-valid instances and cross-build variant_signature overlap
 
 from __future__ import annotations
 
+import logging
 import shutil
 import threading
 import time
@@ -1173,6 +1174,232 @@ def test_recommend_next_flags_a_bank_absent_skill_as_unservable_without_dropping
     assert len(placement_entries) == 1
     assert placement_entries[0].reason == "placement"
     assert placement_entries[0].unservable is True
+
+
+# --- list_skills servability annotation (U14) --------------------------------
+
+
+def test_list_skills_flags_servable_and_unservable_skills_against_the_active_build(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """`facade`/`banks_dir` hold instances for only FRAC.ADD.LIKE — every
+    other mapped IN/NCERT grade-6 skill must come back `servable=False`,
+    never dropped, with `bank_version` naming the checked build."""
+    bank_activate.activate(banks_dir, "build-a")
+
+    result = facade.list_skills("IN", "NCERT", 6)
+
+    assert result.bank_version == "build-a"
+    by_id = {s.skill_id: s for s in result.skills}
+    assert by_id  # fixture assumption: IN/NCERT grade 6 maps at least one skill
+    assert by_id[SKILL_ID].servable is True
+    assert any(not s.servable for s_id, s in by_id.items() if s_id != SKILL_ID)
+
+
+def test_list_skills_unit_code_narrowing_preserves_servable_verdicts(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """Scoping to a chapter (same "IN-NCERT-G6-CH7" unit the recommend_next
+    scope test uses) shrinks the skill set without changing any surviving
+    skill's `servable` verdict."""
+    bank_activate.activate(banks_dir, "build-a")
+    unit_code = "IN-NCERT-G6-CH7"
+
+    unscoped = {s.skill_id: s.servable for s in facade.list_skills("IN", "NCERT", 6).skills}
+    scoped_result = facade.list_skills("IN", "NCERT", 6, unit_code=unit_code)
+
+    assert scoped_result.skills
+    assert set(s.skill_id for s in scoped_result.skills) < set(unscoped)
+    for skill in scoped_result.skills:
+        assert skill.servable == unscoped[skill.skill_id]
+
+
+def test_list_skills_with_no_active_pointer_degrades_to_all_unservable(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """No `ACTIVE` pointer written at all (KD3: the catalog stays open
+    regardless) — every skill comes back `servable=False`, `bank_version`
+    is `None`, and nothing raises."""
+    result = facade.list_skills("IN", "NCERT", 6)
+
+    assert result.bank_version is None
+    assert result.skills
+    assert all(not s.servable for s in result.skills)
+
+
+def test_list_skills_with_unloadable_active_build_degrades_to_all_unservable(
+    banks_dir: Path, facade: serving.ServingFacade, caplog: pytest.LogCaptureFixture
+) -> None:
+    """The `ACTIVE` pointer resolves to a real directory, but that build has
+    no `manifest.json` (a corrupt/partial build on disk) — `bank_lookup`
+    itself raises past `read_active_bank_version`'s own directory check, and
+    `list_skills` must still degrade instead of propagating the failure.
+
+    The degrade must also be *audible*: the response alone cannot tell an
+    operator apart from a deployment that simply has no bank yet, so a
+    corrupt build has to leave a warning behind rather than silently
+    advertising the whole catalog as unservable."""
+    broken_version = "build-broken"
+    (banks_dir / broken_version).mkdir()
+    (banks_dir / serving.ACTIVE_POINTER_NAME).write_text(broken_version, encoding="utf-8")
+
+    with caplog.at_level(logging.WARNING, logger="orchestrator.serving"):
+        result = facade.list_skills("IN", "NCERT", 6)
+
+    assert result.bank_version is None
+    assert result.skills
+    assert all(not s.servable for s in result.skills)
+    assert any("catalog servability degraded" in record.message for record in caplog.records)
+
+
+def test_list_skills_bank_version_names_the_manifest_not_the_pointer(
+    banks_dir: Path, facade: serving.ServingFacade, tmp_path: Path
+) -> None:
+    """`bank_version` must name the build's own manifest identity, the same
+    thing `open_session` and `recommend_next` stamp — not the `ACTIVE`
+    pointer text that resolved it. A build directory whose name differs from
+    its manifest's `bank_version` would otherwise make the catalog disagree
+    with every other surface about which build a partner is looking at."""
+    _build(banks_dir, "build-real", pool_cap=2, templates_dir=_templates_dir(tmp_path))
+    # Publish that build under a directory name that is NOT its manifest id.
+    shutil.copytree(banks_dir / "build-real", banks_dir / "alias-dir")
+    (banks_dir / serving.ACTIVE_POINTER_NAME).write_text("alias-dir", encoding="utf-8")
+
+    catalog_result = facade.list_skills("IN", "NCERT", 6)
+    session = _open(facade, "sess-alias", "stu-alias")
+
+    assert catalog_result.bank_version == "build-real"
+    assert catalog_result.bank_version == session.bank.bank_version
+
+
+def test_list_skills_with_banks_dir_none_and_static_lookup(content: engine.ContentIndex) -> None:
+    """The internal session runner's shape (KTD3's docstring): a facade
+    constructed with `banks_dir=None` and a static in-memory `bank_lookup`.
+    An explicit `bank_version` naming a loaded build annotates against it;
+    omitting it, or naming a build the static lookup doesn't have, degrades
+    to all-unservable rather than raising."""
+    bank = engine.BankIndex(
+        bank_version="static-build",
+        instances_by_skill={SKILL_ID: [{"item_instance_id": "inst-1", "difficulty": 1.0}]},
+        by_id={},
+    )
+    facade_static = serving.ServingFacade(
+        banks_dir=None, logs_dir=None, content=content, bank_lookup=engine.make_static_bank_lookup(bank)
+    )
+
+    with_version = facade_static.list_skills("IN", "NCERT", 6, bank_version="static-build")
+    assert with_version.bank_version == "static-build"
+    by_id = {s.skill_id: s for s in with_version.skills}
+    assert by_id[SKILL_ID].servable is True
+
+    without_version = facade_static.list_skills("IN", "NCERT", 6)
+    assert without_version.bank_version is None
+    assert all(not s.servable for s in without_version.skills)
+
+    unknown_version = facade_static.list_skills("IN", "NCERT", 6, bank_version="nope")
+    assert unknown_version.bank_version is None
+    assert all(not s.servable for s in unknown_version.skills)
+
+
+def test_list_skills_explicit_bank_version_overrides_the_active_pointer(
+    banks_dir: Path, facade: serving.ServingFacade, tmp_path: Path
+) -> None:
+    """An explicit `bank_version` checks that retained build *instead of*
+    whatever is currently `ACTIVE` — the precedence the `bank_version or
+    read_active_bank_version(...)` resolution promises. Without a competing
+    `ACTIVE` pointer in the fixture, an implementation that preferred the
+    active build whenever one existed would satisfy every other test here."""
+    # "build-a" (the fixture's ACTIVE) holds FRAC.ADD.LIKE; "build-empty" holds nothing.
+    empty_templates = tmp_path / "empty_templates"
+    empty_templates.mkdir()
+    shutil.copy(NUM_TEMPLATE, empty_templates / NUM_TEMPLATE.name)
+    _build(banks_dir, "build-b", pool_cap=2, templates_dir=empty_templates)
+    bank_activate.activate(banks_dir, "build-a")
+
+    active = facade.list_skills("IN", "NCERT", 6)
+    explicit = facade.list_skills("IN", "NCERT", 6, bank_version="build-b")
+
+    assert active.bank_version == "build-a"
+    assert explicit.bank_version == "build-b"  # the argument won, not the ACTIVE pointer
+
+
+def test_list_skills_unknown_scope_returns_empty_with_version_stamped(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """Plan-point-6's "not covered, not an error" contract, preserved
+    through the servability annotation: an unmatched scope still returns
+    `skills=[]` with `content_version` and `bank_version` both present."""
+    bank_activate.activate(banks_dir, "build-a")
+
+    result = facade.list_skills("ZZ", "NOWHERE", 99)
+
+    assert result.skills == []
+    assert result.content_version == facade.content.content_version
+    assert result.bank_version == "build-a"
+
+
+def test_list_skills_parity_with_recommend_next_for_non_review_reasons(
+    full_banks_dir: Path, full_facade: serving.ServingFacade
+) -> None:
+    """For the same student/scope/build, every skill appearing in both
+    results with a `recommend_next` reason other than "review" must agree
+    with `list_skills` on servability (`unservable == not servable`, R3).
+    `recommend_next`'s placement/frontier scan ranges over the whole skill
+    graph, not just skills mapped to this curriculum/grade, so some ranked
+    skills (e.g. a foundation like FRAC.UNIT, mapped elsewhere) legitimately
+    have no `list_skills` counterpart here — AE3 scopes the check to skills
+    "appearing in both" for exactly this reason. A fresh student has no
+    certified skills yet, so no due-review candidate exists here either,
+    keeping the parity check within R3's non-review scope without needing
+    to construct one."""
+    bank_activate.activate(full_banks_dir, "full-build")
+    student_id = "stu-servable-parity"
+    now = log_module.parse_timestamp("2026-07-27T12:00:00")
+
+    recommendations = full_facade.recommend_next(
+        student_id, "IN", "NCERT", 6, consumer_id=constants.CONSUMER_ID_INTERNAL, now=now
+    )
+    assert recommendations.recommendations
+    assert not any(r.reason == "review" for r in recommendations.recommendations)
+
+    catalog_result = full_facade.list_skills("IN", "NCERT", 6)
+    servable_by_id = {s.skill_id: s.servable for s in catalog_result.skills}
+
+    compared = [r for r in recommendations.recommendations if r.skill_id in servable_by_id]
+    assert compared, "fixture assumption: at least one recommendation is also a mapped IN/NCERT grade-6 skill"
+    for r in compared:
+        assert r.unservable == (not servable_by_id[r.skill_id])
+
+
+def test_list_skills_parity_holds_on_a_bank_that_serves_almost_nothing(
+    banks_dir: Path, facade: serving.ServingFacade
+) -> None:
+    """The `full-build` parity check above compares a bank that serves every
+    mapped skill, so on its own it would still pass against a `servable`
+    hardcoded to True. This runs the same `unservable == not servable`
+    invariant against the narrow `build-a` bank, whose compared rows are all
+    unservable — so the two tests together pin both verdicts and neither
+    constant can satisfy the pair."""
+    bank_activate.activate(banks_dir, "build-a")
+    student_id = "stu-servable-parity-narrow"
+    now = log_module.parse_timestamp("2026-07-27T12:00:00")
+
+    recommendations = facade.recommend_next(
+        student_id, "IN", "NCERT", 6, consumer_id=constants.CONSUMER_ID_INTERNAL, now=now
+    )
+    assert not any(r.reason == "review" for r in recommendations.recommendations)
+
+    servable_by_id = {s.skill_id: s.servable for s in facade.list_skills("IN", "NCERT", 6).skills}
+    compared = [r for r in recommendations.recommendations if r.skill_id in servable_by_id]
+
+    assert compared, "fixture assumption: at least one recommendation is a mapped IN/NCERT grade-6 skill"
+    assert not any(servable_by_id[r.skill_id] for r in compared), (
+        "fixture assumption: this bank holds instances for FRAC.ADD.LIKE alone, which is "
+        "prerequisite-gated out of a fresh student's recommendations — so every compared row "
+        "is unservable here, which is exactly what makes this the falsifying counterpart"
+    )
+    for r in compared:
+        assert r.unservable == (not servable_by_id[r.skill_id])
 
 
 def test_recommend_next_and_get_progress_succeed_for_second_linked_consumer_while_first_holds_the_session(

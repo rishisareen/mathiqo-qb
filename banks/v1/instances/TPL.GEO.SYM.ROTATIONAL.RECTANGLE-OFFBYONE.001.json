@@ -1,0 +1,2962 @@
+[
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 3 cm and QR = 5 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 5,
+      "l": 3
+    },
+    "variant_signature": "ae2fa09e6f150a5014129fc4a13e1ff0f68c34de71acae753d56336f6d9ebb34"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 3 cm and QR = 7 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 7,
+      "l": 3
+    },
+    "variant_signature": "768bb5b0164fd1baf43a72dd5afcb8d005b3e364fac3ca2eaf3ec3b7371265a2"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 3 cm and QR = 9 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 9,
+      "l": 3
+    },
+    "variant_signature": "82b4d9b9abb6252c830a787be522f0d30d0cc064748ca808d6b261ae766f462e"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 3 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 3
+    },
+    "variant_signature": "d51b9522318dee50018c37908e7975acba59c117904e7358cf8ca7ca4a283543"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 4 cm and QR = 5 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 5,
+      "l": 4
+    },
+    "variant_signature": "b7ab48e2a6ed0fdfcc051d43af2ee80f1b59e5d6545853b41f99d9729be9b554"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 4 cm and QR = 7 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 7,
+      "l": 4
+    },
+    "variant_signature": "88248c8fd00831500ac233a43aff8b95cbde9da90d502f3708438a7a1db9cf7a"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 4 cm and QR = 9 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 9,
+      "l": 4
+    },
+    "variant_signature": "1d5548107c55d3b5b7261e404e551c0316c113f33d2e5345bba182248b810bf5"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 4 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 4
+    },
+    "variant_signature": "2ca2a5fb1de0c15aad3e201829cec601e7504dcadc0ce9509bc3b727873209f6"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 5 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 5
+    },
+    "variant_signature": "12e12761e6bc64f6469a6736780c991307091da344d245ff30472a4bfaf75b54"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 5 cm and QR = 7 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 7,
+      "l": 5
+    },
+    "variant_signature": "39ecc7d1105e470d468e74ff8aaf6af392dd7c7c3c7dece67f078d92e9ad9976"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 5 cm and QR = 9 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 9,
+      "l": 5
+    },
+    "variant_signature": "15e48e2f256a5c01307690961cc349a57517575d407598516224864c763489f1"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 5 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 5
+    },
+    "variant_signature": "68a8d121a506a6e2036770a18f8313906704bb59eeaee94b9e21681bae07e717"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 6 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 6
+    },
+    "variant_signature": "99733235430f0b1ce897caac00e4af536a12f5656719b751ba65ff026e65d9c6"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 6 cm and QR = 7 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 7,
+      "l": 6
+    },
+    "variant_signature": "f78cefff526d1b02fe5a3e698f3929cfab2dd1f3975c9e42978ddf7783801469"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 6 cm and QR = 9 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 9,
+      "l": 6
+    },
+    "variant_signature": "222b6152a729d0f639acb8886593fa70cf6b3bb8fc7fa44e1bc43808a92f7cd1"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 6 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 6
+    },
+    "variant_signature": "ad795147afd78234f1f38ea5b8ab7b6b836aee8a85f31239a64a57441765d0cd"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 7 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 7
+    },
+    "variant_signature": "4d1795c1cef58488803ba6bc272f114387d8e94369441a12e4af6a6ebc1a0fb6"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 7 cm and QR = 6 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 7
+    },
+    "variant_signature": "27419e62d82ea9493e24d52c9562411cb0ff1ec305b71dfefd43525861d6f61a"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 7 cm and QR = 9 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 9,
+      "l": 7
+    },
+    "variant_signature": "1747e0b2a5ff2ebc6fc295ba0d1ab81465c6916ec23b81cd2ed607949d3580b1"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 7 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 7
+    },
+    "variant_signature": "c7c802b9c08086fc412e301c0a9be48e1460ae4557fb18b11726257f8830fc74"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 8 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 8
+    },
+    "variant_signature": "6625a5ecdb3aa1a03a970297c93bd14f150517845b230960be79b1bda5abb4de"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 8 cm and QR = 6 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 8
+    },
+    "variant_signature": "42e313e616a777eeabfbfcfece34db62e09ab7d802a0c4f0494ee93b7c33fde8"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 8 cm and QR = 9 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 9,
+      "l": 8
+    },
+    "variant_signature": "7784c04851e96f49036de661e3637146fe6d77644aeebd1a2c99e3718e592ced"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 8 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 8
+    },
+    "variant_signature": "deb29fe3add71dc74a5582f1b2136be08ad68de41d1ae28b754e87c883dce311"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 9 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 9
+    },
+    "variant_signature": "4b8534222d94bae23d322f7d0a34f9d78907f64943db8914af561a6840396d79"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 9 cm and QR = 6 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 9
+    },
+    "variant_signature": "3d4867491d385c1b1567e09b9cff8e9f8b32d0a7df53306814debbb5d8b5d4d5"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 9 cm and QR = 8 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 8,
+      "l": 9
+    },
+    "variant_signature": "10c0bb9a44be595f842efa9cf00db82e6197f5b8cba515c1da99a2a89e37b025"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 9 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 9
+    },
+    "variant_signature": "a691501f06ae6a5dd8600843481b2a5d61b2b973e9de3e1bd6f504773733e9e5"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 10 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 10
+    },
+    "variant_signature": "ea6bef62bae1c36bbd17e2577af7b7370d99de879f8e06960758ef9624379af3"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 10 cm and QR = 6 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 10
+    },
+    "variant_signature": "f9b8dfde943e204e395bd06a841515ba927ddd5b1aeba0f66a58a22aeab5b08b"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 10 cm and QR = 8 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 8,
+      "l": 10
+    },
+    "variant_signature": "8067523919257a8093e63fcca55d9c2e9ac906f037096f0ada967dc4ebfed3ce"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 10 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 10
+    },
+    "variant_signature": "8f3759e7e3075a6ffd994b5e813a7ce2fdc1d0f2e8745abfe20e9ce1abda6d01"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 11 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 11
+    },
+    "variant_signature": "50f3c31b40d5ab8ef61830d36a56f608d3ff88635169648f5a908b45ca49a2b8"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 11 cm and QR = 6 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 11
+    },
+    "variant_signature": "40d8b7b52dc5f4d7955e823dfee41af75505027a6c1d505cfdbdff513f75af59"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 11 cm and QR = 8 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 8,
+      "l": 11
+    },
+    "variant_signature": "5d1acc902f354d2f3ef0e446fc01673454fc2c9cc7f4628b55454b5f1c5bb8bf"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 11 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 11
+    },
+    "variant_signature": "2abfc8ccf86b50b24e12e34f49de14ec180af422b6707a1343dc30f9cf3a52f5"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 12 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 12
+    },
+    "variant_signature": "a7d5fdf959aefd5eef90f8945505161e84726e4201c387dc40407fac531f6149"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 12 cm and QR = 6 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 12
+    },
+    "variant_signature": "3fa1bf2bc181917e280e2d693735d99b247fdd9f694e4dd1b6f28531d1013f6f"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 12 cm and QR = 8 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 8,
+      "l": 12
+    },
+    "variant_signature": "9c8e362aae024365f43c39d5cbef642e0cd45007b7873fd287aa573ff0736e07"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.SYM.ROTATIONAL-ORDER-OFFBYONE",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only count new matching positions, not the starting position again.",
+      "A non-square rectangle matches itself at 180 degrees, not at 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre is the only turn less than 360 degrees that maps it onto itself.",
+        "Counting the starting position again as an extra match would wrongly give 3 \u2014 but the order only counts each distinct matching position once, so it is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 12 cm and QR = 11 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 11,
+      "l": 12
+    },
+    "variant_signature": "08b305c6b084bc12b1cfbbfd437fdb6b2c186a5f4c43b93f223bbd12779d987c"
+  }
+]

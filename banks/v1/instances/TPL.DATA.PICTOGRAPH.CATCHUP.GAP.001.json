@@ -1,0 +1,2322 @@
+[
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 1
+          },
+          {
+            "label": "Class B",
+            "whole": 5
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 1 x 2 rupees, and Class B has saved 5 x 2 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 1 symbols and Class B has 5 symbols, with key 1 symbol = 2 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 1,
+      "n2": 5
+    },
+    "variant_signature": "4ee9f69ef0233e15bcdc6c2e74a34500a8cb81224313c8daab85dbbf8ee9aab6"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 1
+          },
+          {
+            "label": "Class B",
+            "whole": 5
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 1 x 4 rupees, and Class B has saved 5 x 4 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 1 symbols and Class B has 5 symbols, with key 1 symbol = 4 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 1,
+      "n2": 5
+    },
+    "variant_signature": "9b2fec66bb4c74fedb633490e20cf0d87987de7e07a806ea4c13b12a1cc5dd53"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 1
+          },
+          {
+            "label": "Class B",
+            "whole": 5
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 1 x 5 rupees, and Class B has saved 5 x 5 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 1 symbols and Class B has 5 symbols, with key 1 symbol = 5 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 1,
+      "n2": 5
+    },
+    "variant_signature": "a8e1ab9587a173cd5e6a2a5646a35122db38144521ce7795590a44d2930373c3"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 1
+          },
+          {
+            "label": "Class B",
+            "whole": 6
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 1 x 2 rupees, and Class B has saved 6 x 2 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 1 symbols and Class B has 6 symbols, with key 1 symbol = 2 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 1,
+      "n2": 6
+    },
+    "variant_signature": "2a8634abc1c4887b9f5b3c8776a491cdf10de2f9c6151b0c4f5483aa5b9757e9"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 1
+          },
+          {
+            "label": "Class B",
+            "whole": 6
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 1 x 3 rupees, and Class B has saved 6 x 3 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 1 symbols and Class B has 6 symbols, with key 1 symbol = 3 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 1,
+      "n2": 6
+    },
+    "variant_signature": "e0199792a647bfdce892dba3b731ef03bbeb1dae49933143b3f2583e58a97d17"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 1
+          },
+          {
+            "label": "Class B",
+            "whole": 6
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 1 x 4 rupees, and Class B has saved 6 x 4 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 1 symbols and Class B has 6 symbols, with key 1 symbol = 4 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 1,
+      "n2": 6
+    },
+    "variant_signature": "9cfdb63e99db451927d0ebf67ae72af4e3361ab7e7dccdf23169454cc11d6fb6"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 1
+          },
+          {
+            "label": "Class B",
+            "whole": 7
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 1 x 2 rupees, and Class B has saved 7 x 2 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 1 symbols and Class B has 7 symbols, with key 1 symbol = 2 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 1,
+      "n2": 7
+    },
+    "variant_signature": "baa645f14a9b8a920ad45c718bb08b048d2ff0fcace48133720a405082d01707"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 1
+          },
+          {
+            "label": "Class B",
+            "whole": 7
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 1 x 3 rupees, and Class B has saved 7 x 3 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 1 symbols and Class B has 7 symbols, with key 1 symbol = 3 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 1,
+      "n2": 7
+    },
+    "variant_signature": "8646e083430451a7b3bcc8cfa688dfed20c37ad88e0e719b6b9d7bf7d65f07e9"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 1
+          },
+          {
+            "label": "Class B",
+            "whole": 7
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 1 x 4 rupees, and Class B has saved 7 x 4 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 1 symbols and Class B has 7 symbols, with key 1 symbol = 4 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 1,
+      "n2": 7
+    },
+    "variant_signature": "f9bb8d701284679fe554b3409615234bd1feb0c732f58598eebdd267ea6f519a"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 1
+          },
+          {
+            "label": "Class B",
+            "whole": 7
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 1 x 5 rupees, and Class B has saved 7 x 5 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 1 symbols and Class B has 7 symbols, with key 1 symbol = 5 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 1,
+      "n2": 7
+    },
+    "variant_signature": "081c904059cc1aa15e747c8823636365a849970fa2edb775248bc4f479d2acda"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 1
+          },
+          {
+            "label": "Class B",
+            "whole": 8
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 1 x 2 rupees, and Class B has saved 8 x 2 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 1 symbols and Class B has 8 symbols, with key 1 symbol = 2 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 1,
+      "n2": 8
+    },
+    "variant_signature": "5b98d9292a49fb0c49717c28442c996e5a1d4e7086c78e83c88f0e1da6f478c8"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 1
+          },
+          {
+            "label": "Class B",
+            "whole": 8
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 1 x 4 rupees, and Class B has saved 8 x 4 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 1 symbols and Class B has 8 symbols, with key 1 symbol = 4 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 1,
+      "n2": 8
+    },
+    "variant_signature": "b73952e27e47d60372d3cdbacdee286fe2cd2f9162ab00103bb902e6230076c4"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 1
+          },
+          {
+            "label": "Class B",
+            "whole": 8
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 1 x 5 rupees, and Class B has saved 8 x 5 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 1 symbols and Class B has 8 symbols, with key 1 symbol = 5 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 1,
+      "n2": 8
+    },
+    "variant_signature": "555b0a57b21d1930097600c31d3b6c13a55a5437719dac99a41e67980d4be389"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 2
+          },
+          {
+            "label": "Class B",
+            "whole": 5
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 2 x 2 rupees, and Class B has saved 5 x 2 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 2 symbols and Class B has 5 symbols, with key 1 symbol = 2 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 2,
+      "n2": 5
+    },
+    "variant_signature": "3fb51409061149a7b3ed15303794db2280010a8b61ab7e12e1f83f2e9e0cd9ef"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 2
+          },
+          {
+            "label": "Class B",
+            "whole": 5
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 2 x 3 rupees, and Class B has saved 5 x 3 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 2 symbols and Class B has 5 symbols, with key 1 symbol = 3 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 2,
+      "n2": 5
+    },
+    "variant_signature": "6aa64d9319dcb7d136e27d37fdeed33bb4c55a27c17627dfc17af803c3383b6d"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 2
+          },
+          {
+            "label": "Class B",
+            "whole": 5
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 2 x 4 rupees, and Class B has saved 5 x 4 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 2 symbols and Class B has 5 symbols, with key 1 symbol = 4 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 2,
+      "n2": 5
+    },
+    "variant_signature": "c644d4bfde294bf77f6773004459a09223d4436415b0cb627a19136958b0b157"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 2
+          },
+          {
+            "label": "Class B",
+            "whole": 6
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 2 x 2 rupees, and Class B has saved 6 x 2 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 2 symbols and Class B has 6 symbols, with key 1 symbol = 2 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 2,
+      "n2": 6
+    },
+    "variant_signature": "78f9f485a02c5fb7a7b3f5d6a821526bb405315cda44ccf4e2cb0e20d0cc51ae"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 2
+          },
+          {
+            "label": "Class B",
+            "whole": 6
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 2 x 3 rupees, and Class B has saved 6 x 3 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 2 symbols and Class B has 6 symbols, with key 1 symbol = 3 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 2,
+      "n2": 6
+    },
+    "variant_signature": "f03e355040e6fd1cc6987546c5b635e7631af6f8ccd9c31825c29e032e53527e"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 2
+          },
+          {
+            "label": "Class B",
+            "whole": 6
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 2 x 4 rupees, and Class B has saved 6 x 4 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 2 symbols and Class B has 6 symbols, with key 1 symbol = 4 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 2,
+      "n2": 6
+    },
+    "variant_signature": "599e472ba49b9ed8b94573c7060d56569aad0e29fd64d05cc2ebac238095f4f6"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 2
+          },
+          {
+            "label": "Class B",
+            "whole": 6
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 2 x 5 rupees, and Class B has saved 6 x 5 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 2 symbols and Class B has 6 symbols, with key 1 symbol = 5 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 2,
+      "n2": 6
+    },
+    "variant_signature": "57e920e8d1bd1ecf489fae170ac0b6956e8b13ee25addf7f546848ca206abef7"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 2
+          },
+          {
+            "label": "Class B",
+            "whole": 7
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 2 x 2 rupees, and Class B has saved 7 x 2 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 2 symbols and Class B has 7 symbols, with key 1 symbol = 2 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 2,
+      "n2": 7
+    },
+    "variant_signature": "1305f8a395e6d376acdb8c845cb10521f1f84e7ee2101037502921ee17799e3b"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 2
+          },
+          {
+            "label": "Class B",
+            "whole": 7
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 2 x 4 rupees, and Class B has saved 7 x 4 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 2 symbols and Class B has 7 symbols, with key 1 symbol = 4 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 2,
+      "n2": 7
+    },
+    "variant_signature": "83d96a1ba010d2fa452dd092a1e82fdf3e5ec8cba4db67675b25d6be66c8dfcf"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 2
+          },
+          {
+            "label": "Class B",
+            "whole": 7
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 2 x 5 rupees, and Class B has saved 7 x 5 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 2 symbols and Class B has 7 symbols, with key 1 symbol = 5 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 2,
+      "n2": 7
+    },
+    "variant_signature": "31cfa117c37312dc5ab839d31088bee9780c6047d7df625207ac252e9a00ccf2"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 2
+          },
+          {
+            "label": "Class B",
+            "whole": 8
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 2 x 2 rupees, and Class B has saved 8 x 2 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 2 symbols and Class B has 8 symbols, with key 1 symbol = 2 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 2,
+      "n2": 8
+    },
+    "variant_signature": "6362a132677fa9c89775f23047e4a700afbfd1001601bc963b7132e33e9ae896"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 2
+          },
+          {
+            "label": "Class B",
+            "whole": 8
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 2 x 3 rupees, and Class B has saved 8 x 3 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 2 symbols and Class B has 8 symbols, with key 1 symbol = 3 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 2,
+      "n2": 8
+    },
+    "variant_signature": "086ad61db584551cf9c9355684b3aeb7ff1b5d52bb4cdfa56467dd63a3e79b3c"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 2
+          },
+          {
+            "label": "Class B",
+            "whole": 8
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 2 x 4 rupees, and Class B has saved 8 x 4 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 2 symbols and Class B has 8 symbols, with key 1 symbol = 4 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 2,
+      "n2": 8
+    },
+    "variant_signature": "f63c458d0af96c14ac8eb309709139388c70ae02f7193b6c0537bdd8cab5bdb1"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 5
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 2 rupees, and Class B has saved 5 x 2 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 5 symbols, with key 1 symbol = 2 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 3,
+      "n2": 5
+    },
+    "variant_signature": "2e4b5bb60a29e88e02a3cd65cdbf4aeeb8e7390fcb19bacc1ff0d570df5ca3f0"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 5
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 3 rupees, and Class B has saved 5 x 3 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 5 symbols, with key 1 symbol = 3 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 3,
+      "n2": 5
+    },
+    "variant_signature": "0260d9446c7cfbf72c73213346a704bd46e193a46207d036dc9a112fff53e462"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 5
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 4 rupees, and Class B has saved 5 x 4 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 5 symbols, with key 1 symbol = 4 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 3,
+      "n2": 5
+    },
+    "variant_signature": "7004a82aacfdf389d37019d4fda453b75180fd4ec5c6d727407859d2726ca04b"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 5
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 5 rupees, and Class B has saved 5 x 5 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 5 symbols, with key 1 symbol = 5 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 3,
+      "n2": 5
+    },
+    "variant_signature": "ad0d44af606133e848a1d6aa68cdd8ea372e7b8b85b97f6555dc2211342cbff4"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 6
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 2 rupees, and Class B has saved 6 x 2 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 6 symbols, with key 1 symbol = 2 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 3,
+      "n2": 6
+    },
+    "variant_signature": "6ef4e76d306a5845bb133f816ae333791004eba82d8c4f0d40b178a2ff1472c9"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 6
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 4 rupees, and Class B has saved 6 x 4 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 6 symbols, with key 1 symbol = 4 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 3,
+      "n2": 6
+    },
+    "variant_signature": "5160ae4f6f9cf13fe87a43129e55ff2869dad48b26e930c8afbc6e05bdc628e1"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 6
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 5 rupees, and Class B has saved 6 x 5 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 6 symbols, with key 1 symbol = 5 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 3,
+      "n2": 6
+    },
+    "variant_signature": "3e10e07334d97a7f62fff4de3f4265598d2ec32ccd1ca78a0e7a3d32b69069bc"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 7
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 2 rupees, and Class B has saved 7 x 2 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 7 symbols, with key 1 symbol = 2 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 3,
+      "n2": 7
+    },
+    "variant_signature": "a9b5786faa8a980a5f803e05039a14a573a466be461ab692ae671db16c0af625"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 7
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 3 rupees, and Class B has saved 7 x 3 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 7 symbols, with key 1 symbol = 3 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 3,
+      "n2": 7
+    },
+    "variant_signature": "3f7f25962c212d520c093112a61ad032dbcdcca9fab9e983f51aea20db8a0550"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 7
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 4 rupees, and Class B has saved 7 x 4 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 7 symbols, with key 1 symbol = 4 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 3,
+      "n2": 7
+    },
+    "variant_signature": "c10605c55e011607cd3b849ffba58a45bb20cfdf6e6d52fbcb9650ad7aee1f24"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 8
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 2 rupees, and Class B has saved 8 x 2 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 8 symbols, with key 1 symbol = 2 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 3,
+      "n2": 8
+    },
+    "variant_signature": "7a820560ef19bb2987c2f44b0637833af49a6721485773fb6ea4b0b553c746b3"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 8
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 3 rupees, and Class B has saved 8 x 3 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 8 symbols, with key 1 symbol = 3 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 3,
+      "n2": 8
+    },
+    "variant_signature": "a9f29111c43c5a4af96c7c515c1b798c8fc8ac89ac86b5f438949dde16c94116"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 8
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 4 rupees, and Class B has saved 8 x 4 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 8 symbols, with key 1 symbol = 4 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 3,
+      "n2": 8
+    },
+    "variant_signature": "199957659aa7d71c6edd2f6289eae155bdecbc7848c1310fb9e079ae9fe11046"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "jar",
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Class A",
+            "whole": 3
+          },
+          {
+            "label": "Class B",
+            "whole": 8
+          }
+        ],
+        "unit": "rupees"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Turn both symbol counts into rupees using the key before comparing.",
+      "Find each class's total savings, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Class A has saved 3 x 5 rupees, and Class B has saved 8 x 5 rupees.",
+        "Subtract Class A's savings from Class B's savings to find the gap."
+      ]
+    },
+    "stem": "A pictograph shows savings jars for two classes: Class A has 3 symbols and Class B has 8 symbols, with key 1 symbol = 5 rupees. Class A wants to save as much as Class B. How many more rupees does Class A still need to save?",
+    "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 3,
+      "n2": 8
+    },
+    "variant_signature": "8c64dfe30c90872b3a755da87c39d66b606f18bd8f119b1fdfea5db4278e9d0d"
+  }
+]

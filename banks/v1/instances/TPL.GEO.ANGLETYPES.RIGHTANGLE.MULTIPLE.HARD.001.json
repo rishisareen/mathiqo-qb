@@ -1,0 +1,394 @@
+[
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "count": 3,
+        "degrees": 90,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting an angle on the page change how far apart its arms have turned?",
+      "Every figure here measures 90 degrees between its arms, regardless of tilt, so count all 3 of them."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure (90 degrees between its arms), not by whether it looks upright on the page.",
+        "Every one of the 3 figures measures exactly 90 degrees, so all 3 of them are right angles."
+      ]
+    },
+    "stem": "3 angles are drawn around a page, each tilted at a different angle from upright, but every single one has its arms turned exactly a quarter of a full turn apart (90 degrees). A student who believes a right angle must sit upright, like a wall meeting a floor, refuses to count any of them as right angles, insisting there are 0 right angles among the 3 figures. Using the correct definition (a right angle is any angle measuring exactly 90 degrees, tilted or not), how many of the 3 figures are actually right angles?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 3
+    },
+    "variant_signature": "89f6a222081e08c67559d1f804232a9f8064d73ca8017bb7c1460b912d6a3dc0"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "count": 4,
+        "degrees": 90,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting an angle on the page change how far apart its arms have turned?",
+      "Every figure here measures 90 degrees between its arms, regardless of tilt, so count all 4 of them."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure (90 degrees between its arms), not by whether it looks upright on the page.",
+        "Every one of the 4 figures measures exactly 90 degrees, so all 4 of them are right angles."
+      ]
+    },
+    "stem": "4 angles are drawn around a page, each tilted at a different angle from upright, but every single one has its arms turned exactly a quarter of a full turn apart (90 degrees). A student who believes a right angle must sit upright, like a wall meeting a floor, refuses to count any of them as right angles, insisting there are 0 right angles among the 4 figures. Using the correct definition (a right angle is any angle measuring exactly 90 degrees, tilted or not), how many of the 4 figures are actually right angles?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 4
+    },
+    "variant_signature": "771e8f3e93bab583aca784fdc47060f1956ca1e20fd78bbcf12805152347c0e9"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "count": 5,
+        "degrees": 90,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting an angle on the page change how far apart its arms have turned?",
+      "Every figure here measures 90 degrees between its arms, regardless of tilt, so count all 5 of them."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure (90 degrees between its arms), not by whether it looks upright on the page.",
+        "Every one of the 5 figures measures exactly 90 degrees, so all 5 of them are right angles."
+      ]
+    },
+    "stem": "5 angles are drawn around a page, each tilted at a different angle from upright, but every single one has its arms turned exactly a quarter of a full turn apart (90 degrees). A student who believes a right angle must sit upright, like a wall meeting a floor, refuses to count any of them as right angles, insisting there are 0 right angles among the 5 figures. Using the correct definition (a right angle is any angle measuring exactly 90 degrees, tilted or not), how many of the 5 figures are actually right angles?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 5
+    },
+    "variant_signature": "1d21c9b2ee781e82572cd9b959aa7d236f3e68c49233e4f891d515b25e7e8787"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "count": 6,
+        "degrees": 90,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting an angle on the page change how far apart its arms have turned?",
+      "Every figure here measures 90 degrees between its arms, regardless of tilt, so count all 6 of them."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure (90 degrees between its arms), not by whether it looks upright on the page.",
+        "Every one of the 6 figures measures exactly 90 degrees, so all 6 of them are right angles."
+      ]
+    },
+    "stem": "6 angles are drawn around a page, each tilted at a different angle from upright, but every single one has its arms turned exactly a quarter of a full turn apart (90 degrees). A student who believes a right angle must sit upright, like a wall meeting a floor, refuses to count any of them as right angles, insisting there are 0 right angles among the 6 figures. Using the correct definition (a right angle is any angle measuring exactly 90 degrees, tilted or not), how many of the 6 figures are actually right angles?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 6
+    },
+    "variant_signature": "a02ac049f5c35e3d6f6cdc10ab39c95f5385f600b398c1ed01db54d4663a8611"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "count": 7,
+        "degrees": 90,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting an angle on the page change how far apart its arms have turned?",
+      "Every figure here measures 90 degrees between its arms, regardless of tilt, so count all 7 of them."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure (90 degrees between its arms), not by whether it looks upright on the page.",
+        "Every one of the 7 figures measures exactly 90 degrees, so all 7 of them are right angles."
+      ]
+    },
+    "stem": "7 angles are drawn around a page, each tilted at a different angle from upright, but every single one has its arms turned exactly a quarter of a full turn apart (90 degrees). A student who believes a right angle must sit upright, like a wall meeting a floor, refuses to count any of them as right angles, insisting there are 0 right angles among the 7 figures. Using the correct definition (a right angle is any angle measuring exactly 90 degrees, tilted or not), how many of the 7 figures are actually right angles?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 7
+    },
+    "variant_signature": "df2e50b28e091a271b76fd003191e8232a983408c3ec23e1a8a2fa0d6aa9edbe"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "count": 8,
+        "degrees": 90,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting an angle on the page change how far apart its arms have turned?",
+      "Every figure here measures 90 degrees between its arms, regardless of tilt, so count all 8 of them."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure (90 degrees between its arms), not by whether it looks upright on the page.",
+        "Every one of the 8 figures measures exactly 90 degrees, so all 8 of them are right angles."
+      ]
+    },
+    "stem": "8 angles are drawn around a page, each tilted at a different angle from upright, but every single one has its arms turned exactly a quarter of a full turn apart (90 degrees). A student who believes a right angle must sit upright, like a wall meeting a floor, refuses to count any of them as right angles, insisting there are 0 right angles among the 8 figures. Using the correct definition (a right angle is any angle measuring exactly 90 degrees, tilted or not), how many of the 8 figures are actually right angles?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 8
+    },
+    "variant_signature": "c0c994d9d477d34391bb56b9d80b279258f33fd684ea73d42322caae33885ad4"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "count": 9,
+        "degrees": 90,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting an angle on the page change how far apart its arms have turned?",
+      "Every figure here measures 90 degrees between its arms, regardless of tilt, so count all 9 of them."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure (90 degrees between its arms), not by whether it looks upright on the page.",
+        "Every one of the 9 figures measures exactly 90 degrees, so all 9 of them are right angles."
+      ]
+    },
+    "stem": "9 angles are drawn around a page, each tilted at a different angle from upright, but every single one has its arms turned exactly a quarter of a full turn apart (90 degrees). A student who believes a right angle must sit upright, like a wall meeting a floor, refuses to count any of them as right angles, insisting there are 0 right angles among the 9 figures. Using the correct definition (a right angle is any angle measuring exactly 90 degrees, tilted or not), how many of the 9 figures are actually right angles?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 9
+    },
+    "variant_signature": "f8c92155596ff20af04c35046f11fa9e21ebb86d0fb736d2cefc18f834db2c36"
+  }
+]

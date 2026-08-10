@@ -1,0 +1,2602 @@
+[
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Vanilla",
+            "loose": 0
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 6 + 0, and Strawberry's total is 5 x 2 + 1.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 6 bundles of five and 0 strokes; Chocolate \u2014 3 bundles of five and 2 strokes; Strawberry \u2014 2 bundles of five and 1 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 2,
+      "e1": 0,
+      "e2": 2,
+      "e3": 1
+    },
+    "variant_signature": "3f9d258164c2995162c111b86c0491857254e982517a511a13e852ea0df84053"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Vanilla",
+            "loose": 0
+          },
+          {
+            "bundles": 4,
+            "label": "Chocolate",
+            "loose": 3
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 6 + 0, and Strawberry's total is 5 x 1 + 3.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 6 bundles of five and 0 strokes; Chocolate \u2014 4 bundles of five and 3 strokes; Strawberry \u2014 1 bundles of five and 3 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 4,
+      "b3": 1,
+      "e1": 0,
+      "e2": 3,
+      "e3": 3
+    },
+    "variant_signature": "3c87b5aa9c1106150ceea0d214e30e50d6bafff31605d407c57da470f1be9922"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Vanilla",
+            "loose": 0
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 3
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 6 + 0, and Strawberry's total is 5 x 2 + 4.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 6 bundles of five and 0 strokes; Chocolate \u2014 5 bundles of five and 3 strokes; Strawberry \u2014 2 bundles of five and 4 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 5,
+      "b3": 2,
+      "e1": 0,
+      "e2": 3,
+      "e3": 4
+    },
+    "variant_signature": "af362dff81ff9cb725eeebf3cd2ef6536f37e79ec1666b1813091c86ebf8efb2"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Vanilla",
+            "loose": 1
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 4
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 6 + 1, and Strawberry's total is 5 x 2 + 0.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 6 bundles of five and 1 strokes; Chocolate \u2014 3 bundles of five and 4 strokes; Strawberry \u2014 2 bundles of five and 0 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 2,
+      "e1": 1,
+      "e2": 4,
+      "e3": 0
+    },
+    "variant_signature": "f112cb5fe73fa6508b8d9de7930383cff31fb74cf895f4554ceb33f8dad34767"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Vanilla",
+            "loose": 1
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 6 + 1, and Strawberry's total is 5 x 1 + 1.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 6 bundles of five and 1 strokes; Chocolate \u2014 5 bundles of five and 0 strokes; Strawberry \u2014 1 bundles of five and 1 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 5,
+      "b3": 1,
+      "e1": 1,
+      "e2": 0,
+      "e3": 1
+    },
+    "variant_signature": "3decfe1da77a9e77743babfaf51ba48ad63fca684e8552141050fb5d17af5bfe"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Vanilla",
+            "loose": 2
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 0
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 6 + 2, and Strawberry's total is 5 x 2 + 3.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 6 bundles of five and 2 strokes; Chocolate \u2014 3 bundles of five and 0 strokes; Strawberry \u2014 2 bundles of five and 3 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 2,
+      "e1": 2,
+      "e2": 0,
+      "e3": 3
+    },
+    "variant_signature": "c78d4d808042848b2bdbeb5423a692df1d434f080121397e08c977f1d936d86c"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Vanilla",
+            "loose": 2
+          },
+          {
+            "bundles": 4,
+            "label": "Chocolate",
+            "loose": 1
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 6 + 2, and Strawberry's total is 5 x 1 + 4.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 6 bundles of five and 2 strokes; Chocolate \u2014 4 bundles of five and 1 strokes; Strawberry \u2014 1 bundles of five and 4 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 4,
+      "b3": 1,
+      "e1": 2,
+      "e2": 1,
+      "e3": 4
+    },
+    "variant_signature": "8c0a1873ae83284031da17de8d43a3b224d1b6b19bf793d090e31a8d189afe97"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Vanilla",
+            "loose": 2
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 2
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 6 + 2, and Strawberry's total is 5 x 1 + 0.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 6 bundles of five and 2 strokes; Chocolate \u2014 5 bundles of five and 2 strokes; Strawberry \u2014 1 bundles of five and 0 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 5,
+      "b3": 1,
+      "e1": 2,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "742a631bebc69dd5e9146fa507988cf7f61ca44c8c951b7649dcf01092c32fb6"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Vanilla",
+            "loose": 3
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 6 + 3, and Strawberry's total is 5 x 2 + 1.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 6 bundles of five and 3 strokes; Chocolate \u2014 3 bundles of five and 2 strokes; Strawberry \u2014 2 bundles of five and 1 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 2,
+      "e1": 3,
+      "e2": 2,
+      "e3": 1
+    },
+    "variant_signature": "ac82fd4b0b8cb45929a7c80f5658093c1d43fd4c792eb143b434f7f0534ddd3b"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Vanilla",
+            "loose": 3
+          },
+          {
+            "bundles": 4,
+            "label": "Chocolate",
+            "loose": 3
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 6 + 3, and Strawberry's total is 5 x 1 + 3.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 6 bundles of five and 3 strokes; Chocolate \u2014 4 bundles of five and 3 strokes; Strawberry \u2014 1 bundles of five and 3 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 4,
+      "b3": 1,
+      "e1": 3,
+      "e2": 3,
+      "e3": 3
+    },
+    "variant_signature": "742bb120b057de7e3b2211ac7b048d407d1831ca2c0a4d28e2f47ed65517d7d8"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Vanilla",
+            "loose": 3
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 3
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 6 + 3, and Strawberry's total is 5 x 2 + 4.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 6 bundles of five and 3 strokes; Chocolate \u2014 5 bundles of five and 3 strokes; Strawberry \u2014 2 bundles of five and 4 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 5,
+      "b3": 2,
+      "e1": 3,
+      "e2": 3,
+      "e3": 4
+    },
+    "variant_signature": "732fd5fd29ed90a90c31972157e03c200202e1b3576a2574269b0e185000ef3f"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Vanilla",
+            "loose": 4
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 4
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 6 + 4, and Strawberry's total is 5 x 2 + 0.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 6 bundles of five and 4 strokes; Chocolate \u2014 3 bundles of five and 4 strokes; Strawberry \u2014 2 bundles of five and 0 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 2,
+      "e1": 4,
+      "e2": 4,
+      "e3": 0
+    },
+    "variant_signature": "7719034b5583a376395c08682da403f46ab185e487a69e5974a0b401c875ef21"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Vanilla",
+            "loose": 4
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 6 + 4, and Strawberry's total is 5 x 1 + 1.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 6 bundles of five and 4 strokes; Chocolate \u2014 5 bundles of five and 0 strokes; Strawberry \u2014 1 bundles of five and 1 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 5,
+      "b3": 1,
+      "e1": 4,
+      "e2": 0,
+      "e3": 1
+    },
+    "variant_signature": "404f8d83dc82c2134631e6aa6d8577c0d45313b7a6ade9d8807ec7a5703741c5"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 0
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 0
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 0, and Strawberry's total is 5 x 2 + 3.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 0 strokes; Chocolate \u2014 3 bundles of five and 0 strokes; Strawberry \u2014 2 bundles of five and 3 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 3,
+      "b3": 2,
+      "e1": 0,
+      "e2": 0,
+      "e3": 3
+    },
+    "variant_signature": "ddd224023ccde4e552042907d9e577a3731747a3837fd19f8fb0b55ab5250adf"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 0
+          },
+          {
+            "bundles": 4,
+            "label": "Chocolate",
+            "loose": 1
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 0, and Strawberry's total is 5 x 1 + 4.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 0 strokes; Chocolate \u2014 4 bundles of five and 1 strokes; Strawberry \u2014 1 bundles of five and 4 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 4,
+      "b3": 1,
+      "e1": 0,
+      "e2": 1,
+      "e3": 4
+    },
+    "variant_signature": "dff9b4f57360ad624ba2964ebdd8cc66d69ecc7ca3c093226f13511b9a9451f5"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 0
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 2
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 0, and Strawberry's total is 5 x 1 + 0.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 0 strokes; Chocolate \u2014 5 bundles of five and 2 strokes; Strawberry \u2014 1 bundles of five and 0 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 5,
+      "b3": 1,
+      "e1": 0,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "1e5f6b148af88bf7a646de4f3e7328001f2d9f8b47ad057760a5cb01a5c19a78"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 1
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 1, and Strawberry's total is 5 x 2 + 1.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 1 strokes; Chocolate \u2014 3 bundles of five and 2 strokes; Strawberry \u2014 2 bundles of five and 1 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 3,
+      "b3": 2,
+      "e1": 1,
+      "e2": 2,
+      "e3": 1
+    },
+    "variant_signature": "c70f9408084dd014d6dcf335759e4f69a314240e234bd18c7db75d6c98914334"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 1
+          },
+          {
+            "bundles": 4,
+            "label": "Chocolate",
+            "loose": 3
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 1, and Strawberry's total is 5 x 1 + 3.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 1 strokes; Chocolate \u2014 4 bundles of five and 3 strokes; Strawberry \u2014 1 bundles of five and 3 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 4,
+      "b3": 1,
+      "e1": 1,
+      "e2": 3,
+      "e3": 3
+    },
+    "variant_signature": "444b3dbb0c7463f16ed604cc903abce9f40334e172e48923047b171a0e00d14c"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 1
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 3
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 1, and Strawberry's total is 5 x 2 + 4.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 1 strokes; Chocolate \u2014 5 bundles of five and 3 strokes; Strawberry \u2014 2 bundles of five and 4 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 5,
+      "b3": 2,
+      "e1": 1,
+      "e2": 3,
+      "e3": 4
+    },
+    "variant_signature": "4f711004659e3d6b8602cdfb217f5e3dccbc1c4e63f5ca21d8ff697ca4d51bf2"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 2
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 4
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 2, and Strawberry's total is 5 x 2 + 0.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 2 strokes; Chocolate \u2014 3 bundles of five and 4 strokes; Strawberry \u2014 2 bundles of five and 0 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 3,
+      "b3": 2,
+      "e1": 2,
+      "e2": 4,
+      "e3": 0
+    },
+    "variant_signature": "6dd23b6e2850e4de2f972b16441c77a4751cca1d95a04565d225b6acc4bc6b03"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 2
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 2, and Strawberry's total is 5 x 1 + 1.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 2 strokes; Chocolate \u2014 5 bundles of five and 0 strokes; Strawberry \u2014 1 bundles of five and 1 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 5,
+      "b3": 1,
+      "e1": 2,
+      "e2": 0,
+      "e3": 1
+    },
+    "variant_signature": "36036ac7c6c3b1d4be2b4c79fd099024b01fd098d6e7f3a19d582be871a183ec"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 3
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 0
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 3, and Strawberry's total is 5 x 2 + 3.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 3 strokes; Chocolate \u2014 3 bundles of five and 0 strokes; Strawberry \u2014 2 bundles of five and 3 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 3,
+      "b3": 2,
+      "e1": 3,
+      "e2": 0,
+      "e3": 3
+    },
+    "variant_signature": "c0fc3b1471efc34737f895b1d3dda00ae129ca48c808b49c1e6bacbbfb7f99fd"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 3
+          },
+          {
+            "bundles": 4,
+            "label": "Chocolate",
+            "loose": 1
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 3, and Strawberry's total is 5 x 1 + 4.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 3 strokes; Chocolate \u2014 4 bundles of five and 1 strokes; Strawberry \u2014 1 bundles of five and 4 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 4,
+      "b3": 1,
+      "e1": 3,
+      "e2": 1,
+      "e3": 4
+    },
+    "variant_signature": "eed9af831fa5e8b94e85dada4ac5c8089fe195895a3cdece66fc2e2255128c92"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 3
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 2
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 3, and Strawberry's total is 5 x 1 + 0.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 3 strokes; Chocolate \u2014 5 bundles of five and 2 strokes; Strawberry \u2014 1 bundles of five and 0 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 5,
+      "b3": 1,
+      "e1": 3,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "7eee214b17be9b77d2859af965cf7a6916ec2642a118300e91cf4c46ffdeece0"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 4
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 4, and Strawberry's total is 5 x 2 + 1.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 4 strokes; Chocolate \u2014 3 bundles of five and 2 strokes; Strawberry \u2014 2 bundles of five and 1 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 3,
+      "b3": 2,
+      "e1": 4,
+      "e2": 2,
+      "e3": 1
+    },
+    "variant_signature": "dae32f406e7afc55613795f243994f61be7ab639b7e1ef9002726d40ad8f2172"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 4
+          },
+          {
+            "bundles": 4,
+            "label": "Chocolate",
+            "loose": 3
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 4, and Strawberry's total is 5 x 1 + 3.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 4 strokes; Chocolate \u2014 4 bundles of five and 3 strokes; Strawberry \u2014 1 bundles of five and 3 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 4,
+      "b3": 1,
+      "e1": 4,
+      "e2": 3,
+      "e3": 3
+    },
+    "variant_signature": "90a32ce57e09b97f27b4b156270fbf00cd2a6c56546ad634547959aa51087421"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Vanilla",
+            "loose": 4
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 3
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 7 + 4, and Strawberry's total is 5 x 2 + 4.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 7 bundles of five and 4 strokes; Chocolate \u2014 5 bundles of five and 3 strokes; Strawberry \u2014 2 bundles of five and 4 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 7,
+      "b2": 5,
+      "b3": 2,
+      "e1": 4,
+      "e2": 3,
+      "e3": 4
+    },
+    "variant_signature": "e8673bc5c2e8a50a93101e72bfc720eef3d8f97512155b4135d4b1395cd85770"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 8,
+            "label": "Vanilla",
+            "loose": 0
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 4
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 8 + 0, and Strawberry's total is 5 x 2 + 0.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 8 bundles of five and 0 strokes; Chocolate \u2014 3 bundles of five and 4 strokes; Strawberry \u2014 2 bundles of five and 0 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 8,
+      "b2": 3,
+      "b3": 2,
+      "e1": 0,
+      "e2": 4,
+      "e3": 0
+    },
+    "variant_signature": "1badfdea06c74dd38f6604b8b6807b57c4143f5424fdcdc4062c060a91a67a2c"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 8,
+            "label": "Vanilla",
+            "loose": 0
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 8 + 0, and Strawberry's total is 5 x 1 + 1.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 8 bundles of five and 0 strokes; Chocolate \u2014 5 bundles of five and 0 strokes; Strawberry \u2014 1 bundles of five and 1 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 8,
+      "b2": 5,
+      "b3": 1,
+      "e1": 0,
+      "e2": 0,
+      "e3": 1
+    },
+    "variant_signature": "3b485a215794dbda38763d4348a1deb2fc378391f20fd53c79c3eebf954b3e71"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 8,
+            "label": "Vanilla",
+            "loose": 1
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 0
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 8 + 1, and Strawberry's total is 5 x 2 + 3.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 8 bundles of five and 1 strokes; Chocolate \u2014 3 bundles of five and 0 strokes; Strawberry \u2014 2 bundles of five and 3 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 8,
+      "b2": 3,
+      "b3": 2,
+      "e1": 1,
+      "e2": 0,
+      "e3": 3
+    },
+    "variant_signature": "0f77a7485edf72d2146c328053ee3594aa1bb852ba183864eb97da13cc952168"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 8,
+            "label": "Vanilla",
+            "loose": 1
+          },
+          {
+            "bundles": 4,
+            "label": "Chocolate",
+            "loose": 1
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 8 + 1, and Strawberry's total is 5 x 1 + 4.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 8 bundles of five and 1 strokes; Chocolate \u2014 4 bundles of five and 1 strokes; Strawberry \u2014 1 bundles of five and 4 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 8,
+      "b2": 4,
+      "b3": 1,
+      "e1": 1,
+      "e2": 1,
+      "e3": 4
+    },
+    "variant_signature": "8f0967a08107f88214a9f1f7c31a8f3b6bfcbe11a3b80866fc897647815d0ae2"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 8,
+            "label": "Vanilla",
+            "loose": 1
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 2
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 8 + 1, and Strawberry's total is 5 x 1 + 0.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 8 bundles of five and 1 strokes; Chocolate \u2014 5 bundles of five and 2 strokes; Strawberry \u2014 1 bundles of five and 0 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 8,
+      "b2": 5,
+      "b3": 1,
+      "e1": 1,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "68f7bbc6830d427b63a2eb53b255231e3cf28ede0df3bf006c40f5b6c49a6f60"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 8,
+            "label": "Vanilla",
+            "loose": 2
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 8 + 2, and Strawberry's total is 5 x 2 + 1.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 8 bundles of five and 2 strokes; Chocolate \u2014 3 bundles of five and 2 strokes; Strawberry \u2014 2 bundles of five and 1 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 8,
+      "b2": 3,
+      "b3": 2,
+      "e1": 2,
+      "e2": 2,
+      "e3": 1
+    },
+    "variant_signature": "a73a5893d24f8f66d751f9933438ae6558fa668d5f320e75457e7858f23cc5e8"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 8,
+            "label": "Vanilla",
+            "loose": 2
+          },
+          {
+            "bundles": 4,
+            "label": "Chocolate",
+            "loose": 3
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 8 + 2, and Strawberry's total is 5 x 1 + 3.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 8 bundles of five and 2 strokes; Chocolate \u2014 4 bundles of five and 3 strokes; Strawberry \u2014 1 bundles of five and 3 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 8,
+      "b2": 4,
+      "b3": 1,
+      "e1": 2,
+      "e2": 3,
+      "e3": 3
+    },
+    "variant_signature": "115baad30f4b55279460e26b25e564a47463606e6c4c8c12225b6bc8e417c1ba"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 8,
+            "label": "Vanilla",
+            "loose": 2
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 3
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 8 + 2, and Strawberry's total is 5 x 2 + 4.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 8 bundles of five and 2 strokes; Chocolate \u2014 5 bundles of five and 3 strokes; Strawberry \u2014 2 bundles of five and 4 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 8,
+      "b2": 5,
+      "b3": 2,
+      "e1": 2,
+      "e2": 3,
+      "e3": 4
+    },
+    "variant_signature": "f6b9d2b86cb8f1315e4592eda0dedb15fae0ddb5e451698e74d76160595fb243"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 8,
+            "label": "Vanilla",
+            "loose": 3
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 4
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 8 + 3, and Strawberry's total is 5 x 2 + 0.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 8 bundles of five and 3 strokes; Chocolate \u2014 3 bundles of five and 4 strokes; Strawberry \u2014 2 bundles of five and 0 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 8,
+      "b2": 3,
+      "b3": 2,
+      "e1": 3,
+      "e2": 4,
+      "e3": 0
+    },
+    "variant_signature": "0394a3d3bba0a35e7ed6be9775656d8fbaf77f841d215a889abcb88bfe3298fa"
+  },
+  {
+    "answer": "37",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 8,
+            "label": "Vanilla",
+            "loose": 3
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 8 + 3, and Strawberry's total is 5 x 1 + 1.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 8 bundles of five and 3 strokes; Chocolate \u2014 5 bundles of five and 0 strokes; Strawberry \u2014 1 bundles of five and 1 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 8,
+      "b2": 5,
+      "b3": 1,
+      "e1": 3,
+      "e2": 0,
+      "e3": 1
+    },
+    "variant_signature": "591fd858933b9f736a90c22cb7563e406098fc1fcc6643131f659f3dfbf2c6f4"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 8,
+            "label": "Vanilla",
+            "loose": 4
+          },
+          {
+            "bundles": 3,
+            "label": "Chocolate",
+            "loose": 0
+          },
+          {
+            "bundles": 2,
+            "label": "Strawberry",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 8 + 4, and Strawberry's total is 5 x 2 + 3.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 8 bundles of five and 4 strokes; Chocolate \u2014 3 bundles of five and 0 strokes; Strawberry \u2014 2 bundles of five and 3 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 8,
+      "b2": 3,
+      "b3": 2,
+      "e1": 4,
+      "e2": 0,
+      "e3": 3
+    },
+    "variant_signature": "fa69c925848e75b3f92bad40be2c9d60624e11211f70a8898e9b6b853a356562"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 8,
+            "label": "Vanilla",
+            "loose": 4
+          },
+          {
+            "bundles": 4,
+            "label": "Chocolate",
+            "loose": 1
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 8 + 4, and Strawberry's total is 5 x 1 + 4.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 8 bundles of five and 4 strokes; Chocolate \u2014 4 bundles of five and 1 strokes; Strawberry \u2014 1 bundles of five and 4 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 8,
+      "b2": 4,
+      "b3": 1,
+      "e1": 4,
+      "e2": 1,
+      "e3": 4
+    },
+    "variant_signature": "624580083d8a6593cd9799ecd745735312d0eb2f06d59b0a0d898ada3c3a8328"
+  },
+  {
+    "answer": "39",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 8,
+            "label": "Vanilla",
+            "loose": 4
+          },
+          {
+            "bundles": 5,
+            "label": "Chocolate",
+            "loose": 2
+          },
+          {
+            "bundles": 1,
+            "label": "Strawberry",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Find the two totals you need first \u2014 each bundle counts as 5.",
+      "Subtract the smaller total (Strawberry) from the larger total (Vanilla)."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Vanilla's total is 5 x 8 + 4, and Strawberry's total is 5 x 1 + 0.",
+        "Subtract Strawberry's total from Vanilla's total to find the difference."
+      ]
+    },
+    "stem": "A class tally for favourite ice-cream flavours shows: Vanilla \u2014 8 bundles of five and 4 strokes; Chocolate \u2014 5 bundles of five and 2 strokes; Strawberry \u2014 1 bundles of five and 0 strokes. Vanilla has the highest count and Strawberry the lowest. By how much does Vanilla's count exceed Strawberry's?",
+    "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 8,
+      "b2": 5,
+      "b3": 1,
+      "e1": 4,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "aeff7444d7fad14bc5607dd5d097a235ea9ac7d1a92299c6a0134e595c11bbdd"
+  }
+]

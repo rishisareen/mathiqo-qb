@@ -1,0 +1,1822 @@
+[
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "44"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-36"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 1 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 51 - 15?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 1,
+      "a1": 5,
+      "b0": 5,
+      "b1": 1
+    },
+    "variant_signature": "f7711814a0dff6ded8c879743d7f584cd15d11bee17423d2b0c32bbfe86cb2da"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "33"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 2 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 52 - 25?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 2,
+      "a1": 5,
+      "b0": 5,
+      "b1": 2
+    },
+    "variant_signature": "4fa32ce3864c4490d0da72244dd2c85be28fd4e4070c69d70062fb4316b17be6"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 3 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 53 - 35?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 5,
+      "b0": 5,
+      "b1": 3
+    },
+    "variant_signature": "58a017ef1f9c9fa9d44f65a509f049c89e0899324c9ccc25a127c34e77381936"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 4 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 54 - 45?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 4,
+      "a1": 5,
+      "b0": 5,
+      "b1": 4
+    },
+    "variant_signature": "9e98aef682f5b77a012d873867fbcb6d43d21d4177b59e12fe2b594424ca906c"
+  },
+  {
+    "answer": "41",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-41"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 6 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 56 - 15?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 6,
+      "a1": 5,
+      "b0": 5,
+      "b1": 1
+    },
+    "variant_signature": "993e12092a6b609f8478fefe6fefd98fb7bb27fa5c93016de5a2a8765fb8ef3a"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-32"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 7 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 57 - 25?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 5,
+      "b0": 5,
+      "b1": 2
+    },
+    "variant_signature": "7538d863352c9bb4bb8bb765ccdeae5796ef38172821046dfc2c62e1630e6894"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-23"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 8 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 58 - 35?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 8,
+      "a1": 5,
+      "b0": 5,
+      "b1": 3
+    },
+    "variant_signature": "48b7beef65c3a1c32973ec29e29b352be60bbbe7991f780dd9867b1e3f4d91e2"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 9 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 59 - 45?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 9,
+      "a1": 5,
+      "b0": 5,
+      "b1": 4
+    },
+    "variant_signature": "f37c5ed2f5995fa83a68d5fdabb5483e85691125c4889c69f818717ef36374e7"
+  },
+  {
+    "answer": "46",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "54"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-46"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 1 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 61 - 15?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 1,
+      "a1": 6,
+      "b0": 5,
+      "b1": 1
+    },
+    "variant_signature": "b279c0680b1edbcab9e67460531fe1d4eee24ffc2a83e7f4f03c992ca952388c"
+  },
+  {
+    "answer": "37",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "43"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-37"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 2 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 62 - 25?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 2,
+      "a1": 6,
+      "b0": 5,
+      "b1": 2
+    },
+    "variant_signature": "ed47c945d0637fbc95405d359762d6c47357b2f46250e3950a17031b03ceff11"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 3 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 63 - 35?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 6,
+      "b0": 5,
+      "b1": 3
+    },
+    "variant_signature": "1eb4d680b4b27015a08d90d8a02510296212723dd91829ba299b27cda2cdf714"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 4 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 64 - 45?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 4,
+      "a1": 6,
+      "b0": 5,
+      "b1": 4
+    },
+    "variant_signature": "bd5eb4f8a9adac216758b11256685d3a1746d827bd36f42532c24be2047ec7e8"
+  },
+  {
+    "answer": "51",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-51"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 6 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 66 - 15?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 6,
+      "a1": 6,
+      "b0": 5,
+      "b1": 1
+    },
+    "variant_signature": "59a42473aed367c6f0742ac99bde7cfb4bf428a70ce0269f7396077fd9b40aec"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-42"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 7 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 67 - 25?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 6,
+      "b0": 5,
+      "b1": 2
+    },
+    "variant_signature": "9e5152dca074e3646abcc0b95e157c07a478ce458ef581c6b5364a2133ae76ab"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-33"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 8 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 68 - 35?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 8,
+      "a1": 6,
+      "b0": 5,
+      "b1": 3
+    },
+    "variant_signature": "aae2ee89d1618dc8251772434ce16e983f4544abc72876aec9b735eff31a9ac8"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 9 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 69 - 45?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 9,
+      "a1": 6,
+      "b0": 5,
+      "b1": 4
+    },
+    "variant_signature": "a5313f13fbe2b8716bc343cd3d8a8784ec7160b135a5caf08f6ee0bd0aa25e26"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "64"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-56"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 1 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 71 - 15?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 1,
+      "a1": 7,
+      "b0": 5,
+      "b1": 1
+    },
+    "variant_signature": "05aa1939b54c23b63bea9853f6c5f615e68eea28473864216d3f124b19b45cde"
+  },
+  {
+    "answer": "47",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "53"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-47"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 2 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 72 - 25?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 2,
+      "a1": 7,
+      "b0": 5,
+      "b1": 2
+    },
+    "variant_signature": "542da1f442a037da8974bfd342b398c5a20aa1656e9b8955c16922f59777fdd4"
+  },
+  {
+    "answer": "38",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "42"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-38"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 3 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 73 - 35?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 7,
+      "b0": 5,
+      "b1": 3
+    },
+    "variant_signature": "149ffcbc0909a669ce6d4fcd64f17ecf6bf044204ef79acff4d97d59ede92787"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-29"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 4 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 74 - 45?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 4,
+      "a1": 7,
+      "b0": 5,
+      "b1": 4
+    },
+    "variant_signature": "685abcb946bbbf40600f214d8b39921d19fe46376a05367c27923e2e1892b339"
+  },
+  {
+    "answer": "61",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-61"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 6 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 76 - 15?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 6,
+      "a1": 7,
+      "b0": 5,
+      "b1": 1
+    },
+    "variant_signature": "2f6cc623c2d867a4676ddaa607279c6ae509832e10f0ea4094eb2c82c6c4bf86"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-52"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 7 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 77 - 25?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 7,
+      "b0": 5,
+      "b1": 2
+    },
+    "variant_signature": "edff73f4e9e379b9f4ce49cfb5c3369e32180756375bcdb6a89bfec24d423ef4"
+  },
+  {
+    "answer": "43",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-43"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 8 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 78 - 35?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 8,
+      "a1": 7,
+      "b0": 5,
+      "b1": 3
+    },
+    "variant_signature": "59b7ba04a349f06d78a056c8b2a6e30e1eff3626b732e505d4b3647b26420691"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-34"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 9 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 79 - 45?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 9,
+      "a1": 7,
+      "b0": 5,
+      "b1": 4
+    },
+    "variant_signature": "599d0ad0f6ea4f354e3ff090f245b286bcf172f2d51a96aedccb44e99fef86ce"
+  },
+  {
+    "answer": "66",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "74"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-66"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 1 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 81 - 15?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 1,
+      "a1": 8,
+      "b0": 5,
+      "b1": 1
+    },
+    "variant_signature": "1a19809b6078bdd8fc05acba2aa7db832a53b86b864f1b47d0b5b18238f5bfd5"
+  },
+  {
+    "answer": "57",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "63"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-57"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 2 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 82 - 25?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 2,
+      "a1": 8,
+      "b0": 5,
+      "b1": 2
+    },
+    "variant_signature": "2f7bd05b33007460d7a5fa1f583d61971a2ace5f65878e687ad1f30e58e464a5"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "52"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-48"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 3 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 83 - 35?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 8,
+      "b0": 5,
+      "b1": 3
+    },
+    "variant_signature": "31d5df36fae716662530d4e6c1db7982797670decea0646b54584a8fbf273b69"
+  },
+  {
+    "answer": "39",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "41"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-39"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 4 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 84 - 45?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 4,
+      "a1": 8,
+      "b0": 5,
+      "b1": 4
+    },
+    "variant_signature": "a15ffdb37b202723c931745b6d3fecb629c85a9a36e1f02f2f0b537a347cec91"
+  },
+  {
+    "answer": "71",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-71"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 6 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 86 - 15?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 6,
+      "a1": 8,
+      "b0": 5,
+      "b1": 1
+    },
+    "variant_signature": "e8be661f65736cb14011661b7a8c4604bf9eee104e10362c515b68040295915e"
+  },
+  {
+    "answer": "62",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-62"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 7 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 87 - 25?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 8,
+      "b0": 5,
+      "b1": 2
+    },
+    "variant_signature": "03b6b10e4637e4775ac5f3a67d2474bd94f93bd5a5cdcc2706cafc2154c64a3f"
+  },
+  {
+    "answer": "53",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-53"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 8 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 88 - 35?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 8,
+      "a1": 8,
+      "b0": 5,
+      "b1": 3
+    },
+    "variant_signature": "56eb190767ff59c301834ff6f30082eb1c6702b4a6b85f1ac93ef48d0943d4f9"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-44"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 9 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 89 - 45?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 9,
+      "a1": 8,
+      "b0": 5,
+      "b1": 4
+    },
+    "variant_signature": "3994576df0bec735f74258ad60120116f84eee4cbb76b6bb51baaf08bf18beee"
+  },
+  {
+    "answer": "76",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "84"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-76"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 1 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 91 - 15?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 1,
+      "a1": 9,
+      "b0": 5,
+      "b1": 1
+    },
+    "variant_signature": "b2d873cef54e317bd99aa82ca977f75d25bb04f231c07862236f499b343b2ab4"
+  },
+  {
+    "answer": "67",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "73"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-67"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 2 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 92 - 25?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 2,
+      "a1": 9,
+      "b0": 5,
+      "b1": 2
+    },
+    "variant_signature": "f1ac72ef817f5b860ae008f4eacbdace157999f577abfd260c7d2c4fe6c6579c"
+  },
+  {
+    "answer": "58",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "62"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-58"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 3 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 93 - 35?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 3,
+      "a1": 9,
+      "b0": 5,
+      "b1": 3
+    },
+    "variant_signature": "64bb2eef050feb321d2c1cd10ae5f86640ff70234227cbec2909a58a4e2c5392"
+  },
+  {
+    "answer": "49",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SUB-SMALLER-FROM-LARGER",
+        "unsimplified": false,
+        "value": "51"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-49"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 4 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 94 - 45?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 4,
+      "a1": 9,
+      "b0": 5,
+      "b1": 4
+    },
+    "variant_signature": "c981358236eab0537a4b960d5148d2bdb0a2e5586f22ba4e4f393462b6185764"
+  },
+  {
+    "answer": "81",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-81"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 6 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 96 - 15?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 6,
+      "a1": 9,
+      "b0": 5,
+      "b1": 1
+    },
+    "variant_signature": "fde3f3a2cb122e372db49acc314cc4a491dfd802ccafec20f3d5a92747e47d43"
+  },
+  {
+    "answer": "72",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-72"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 7 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 97 - 25?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 7,
+      "a1": 9,
+      "b0": 5,
+      "b1": 2
+    },
+    "variant_signature": "ba3b9845c5edcf84eba6be07cd3e2ff9eb630527ead0bdbb9c0fc5e5c03f677e"
+  },
+  {
+    "answer": "63",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-63"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 8 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 98 - 35?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 8,
+      "a1": 9,
+      "b0": 5,
+      "b1": 3
+    },
+    "variant_signature": "a5ae2cd429baf27bae3777d039a0ccea94f2dc2c3d8fe3fe9b4fca473a8c77ac"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-54"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the top digit in a column is smaller than the bottom digit, borrow from the next column.",
+      "Never subtract the top digit from the bottom digit \u2014 always subtract bottom from top after borrowing."
+    ],
+    "item_instance_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ADD.SUB"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones column: 9 minus 5.",
+        "If the top ones digit is smaller, borrow a ten from the tens column first.",
+        "Subtract the tens column, remembering any borrow."
+      ]
+    },
+    "stem": "What is 99 - 45?",
+    "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a0": 9,
+      "a1": 9,
+      "b0": 5,
+      "b1": 4
+    },
+    "variant_signature": "b22ee06a109219e3d4dfe4ac2f1caa703af5fc8ea8cee795f4c372ba14b889a3"
+  }
+]

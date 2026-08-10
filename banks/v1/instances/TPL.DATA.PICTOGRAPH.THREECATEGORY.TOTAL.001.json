@@ -1,0 +1,2682 @@
+[
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 2
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 2 + 2.",
+        "Multiply that symbol count by the key, 2, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 2 symbols, Buses \u2014 2 symbols, key: 1 symbol = 2 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 2,
+      "n2": 2,
+      "n3": 2
+    },
+    "variant_signature": "51cf2cff8289b46ba5b3232e858e99743faac3ee8878389f2e9d90f93d531927"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 2
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 2 + 2.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 2 symbols, Buses \u2014 2 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 2,
+      "n2": 2,
+      "n3": 2
+    },
+    "variant_signature": "d6dea82ac591c416b4284f96bd3b7bbe5c0953908700005ebfca87077d44662e"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 2
+          },
+          {
+            "label": "Buses",
+            "whole": 3
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 2 + 3.",
+        "Multiply that symbol count by the key, 3, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 2 symbols, Buses \u2014 3 symbols, key: 1 symbol = 3 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 2,
+      "n2": 2,
+      "n3": 3
+    },
+    "variant_signature": "4c10191a3831d64a97ce0c01ff9994f51be2e8cb7872322e3c8f828044509ed8"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 2
+          },
+          {
+            "label": "Buses",
+            "whole": 4
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 2 + 4.",
+        "Multiply that symbol count by the key, 2, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 2 symbols, Buses \u2014 4 symbols, key: 1 symbol = 2 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 2,
+      "n2": 2,
+      "n3": 4
+    },
+    "variant_signature": "4dfab4dc2aa9970068ee4fb51a701fa340738b2739eba4810376160cdac2bfee"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 2
+          },
+          {
+            "label": "Buses",
+            "whole": 4
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 2 + 4.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 2 symbols, Buses \u2014 4 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 2,
+      "n2": 2,
+      "n3": 4
+    },
+    "variant_signature": "a8d8b715be3d425973039240572fb7c4f63cf603d10398dc3a764df56afc25a8"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 3
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 3 + 2.",
+        "Multiply that symbol count by the key, 3, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 3 symbols, Buses \u2014 2 symbols, key: 1 symbol = 3 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 2,
+      "n2": 3,
+      "n3": 2
+    },
+    "variant_signature": "361c04418626ced89c4e55a02c7356bb4b4d2c7769a5a4cce5d823f348ac3fcc"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 3
+          },
+          {
+            "label": "Buses",
+            "whole": 3
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 3 + 3.",
+        "Multiply that symbol count by the key, 2, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 3 symbols, Buses \u2014 3 symbols, key: 1 symbol = 2 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 2,
+      "n2": 3,
+      "n3": 3
+    },
+    "variant_signature": "b96c4f51cd81d3ccaa94b134813b487ffc7b4d2f61e3c75dc320903fefab44e2"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 3
+          },
+          {
+            "label": "Buses",
+            "whole": 3
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 3 + 3.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 3 symbols, Buses \u2014 3 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 2,
+      "n2": 3,
+      "n3": 3
+    },
+    "variant_signature": "ab91fc87f63a3de9406dc9332c09d2612496d1ae4b3fbf33d229687febd3bcd8"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 3
+          },
+          {
+            "label": "Buses",
+            "whole": 4
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 3 + 4.",
+        "Multiply that symbol count by the key, 3, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 3 symbols, Buses \u2014 4 symbols, key: 1 symbol = 3 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 2,
+      "n2": 3,
+      "n3": 4
+    },
+    "variant_signature": "722b705a14f9a9a4dc3169cd5614700c61ca34f3a7c400a8deb719d6310d7f5c"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 4 + 2.",
+        "Multiply that symbol count by the key, 2, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 4 symbols, Buses \u2014 2 symbols, key: 1 symbol = 2 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 2,
+      "n2": 4,
+      "n3": 2
+    },
+    "variant_signature": "c20bcc9bd303bc078e0fdaff6f37826022b6b20970e8319212674142f33594c3"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 4 + 2.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 4 symbols, Buses \u2014 2 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 2,
+      "n2": 4,
+      "n3": 2
+    },
+    "variant_signature": "b7de55409860223b0fd49912af683944bd7ac3f8497799fecf0c164c92444571"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 3
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 4 + 3.",
+        "Multiply that symbol count by the key, 3, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 4 symbols, Buses \u2014 3 symbols, key: 1 symbol = 3 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 2,
+      "n2": 4,
+      "n3": 3
+    },
+    "variant_signature": "7cc529c097dc5961538911c48fa2183f21774a84a88eda2d2b4d5cd29c783a61"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 4
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 4 + 4.",
+        "Multiply that symbol count by the key, 2, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 4 symbols, Buses \u2014 4 symbols, key: 1 symbol = 2 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 2,
+      "n2": 4,
+      "n3": 4
+    },
+    "variant_signature": "4dbdbc7b902f0b102ec2dedd60ac8d296b1d93843eca9a290361025c3538f093"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "39"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 2
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 4
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 2 + 4 + 4.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 2 symbols, Bikes \u2014 4 symbols, Buses \u2014 4 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 2,
+      "n2": 4,
+      "n3": 4
+    },
+    "variant_signature": "6bbee3b426feb6338d318a2c46d1e5555415a625c048fb9b26af2a400602b49c"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 3
+          },
+          {
+            "label": "Bikes",
+            "whole": 2
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 3 + 2 + 2.",
+        "Multiply that symbol count by the key, 3, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 3 symbols, Bikes \u2014 2 symbols, Buses \u2014 2 symbols, key: 1 symbol = 3 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 3,
+      "n2": 2,
+      "n3": 2
+    },
+    "variant_signature": "3149de25c489e59f6d6468ec02c92e09d0fbc47d6793d20669114cbd9cb40722"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 3
+          },
+          {
+            "label": "Bikes",
+            "whole": 2
+          },
+          {
+            "label": "Buses",
+            "whole": 3
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 3 + 2 + 3.",
+        "Multiply that symbol count by the key, 2, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 3 symbols, Bikes \u2014 2 symbols, Buses \u2014 3 symbols, key: 1 symbol = 2 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 3,
+      "n2": 2,
+      "n3": 3
+    },
+    "variant_signature": "89bc4b3bfe94deaec3ce9c79bef158a5fc662f7d3e8907f69ef5e47ddfb2826d"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 3
+          },
+          {
+            "label": "Bikes",
+            "whole": 2
+          },
+          {
+            "label": "Buses",
+            "whole": 3
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 3 + 2 + 3.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 3 symbols, Bikes \u2014 2 symbols, Buses \u2014 3 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 3,
+      "n2": 2,
+      "n3": 3
+    },
+    "variant_signature": "af75e613e6567138e4f7c6b854d42f16542c751f134d338a66ff605f16460cc5"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 3
+          },
+          {
+            "label": "Bikes",
+            "whole": 2
+          },
+          {
+            "label": "Buses",
+            "whole": 4
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 3 + 2 + 4.",
+        "Multiply that symbol count by the key, 3, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 3 symbols, Bikes \u2014 2 symbols, Buses \u2014 4 symbols, key: 1 symbol = 3 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 3,
+      "n2": 2,
+      "n3": 4
+    },
+    "variant_signature": "851aed4fb9e41857fd0b5d7cfc5ff942cc68e2b348371bf0e66f5ba1b575fcf7"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 3
+          },
+          {
+            "label": "Bikes",
+            "whole": 3
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 3 + 3 + 2.",
+        "Multiply that symbol count by the key, 2, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 3 symbols, Bikes \u2014 3 symbols, Buses \u2014 2 symbols, key: 1 symbol = 2 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 3,
+      "n2": 3,
+      "n3": 2
+    },
+    "variant_signature": "1aeb8f5388ed38f4ab2404bc37781f6c274d569035f5041c162b61a0ae96be38"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 3
+          },
+          {
+            "label": "Bikes",
+            "whole": 3
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 3 + 3 + 2.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 3 symbols, Bikes \u2014 3 symbols, Buses \u2014 2 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 3,
+      "n2": 3,
+      "n3": 2
+    },
+    "variant_signature": "a25b2badfca4d95dea53705da3ea5054ce0fdc54cfc7613141b06658c2f52403"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 3
+          },
+          {
+            "label": "Bikes",
+            "whole": 3
+          },
+          {
+            "label": "Buses",
+            "whole": 3
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 3 + 3 + 3.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 3 symbols, Bikes \u2014 3 symbols, Buses \u2014 3 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 3,
+      "n2": 3,
+      "n3": 3
+    },
+    "variant_signature": "b6c6cdd00abdbcc348399c959a50e3684a9930b892919643bbe0f070ef37a254"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 3
+          },
+          {
+            "label": "Bikes",
+            "whole": 3
+          },
+          {
+            "label": "Buses",
+            "whole": 4
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 3 + 3 + 4.",
+        "Multiply that symbol count by the key, 3, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 3 symbols, Bikes \u2014 3 symbols, Buses \u2014 4 symbols, key: 1 symbol = 3 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 3,
+      "n2": 3,
+      "n3": 4
+    },
+    "variant_signature": "2207d3e72ed278580e4cf113130c4034aa135c46dc9d682a95b9792fa2cb2310"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 3
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 3 + 4 + 2.",
+        "Multiply that symbol count by the key, 2, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 3 symbols, Bikes \u2014 4 symbols, Buses \u2014 2 symbols, key: 1 symbol = 2 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 3,
+      "n2": 4,
+      "n3": 2
+    },
+    "variant_signature": "bed78d1072e87e36c268f8f740b5ec5475ada600773dce3951cf8efcfe416421"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 3
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 3 + 4 + 2.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 3 symbols, Bikes \u2014 4 symbols, Buses \u2014 2 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 3,
+      "n2": 4,
+      "n3": 2
+    },
+    "variant_signature": "cf911c3f36762d9d2486f9b100b9077247c969245d571b27dd2b95114f60bf7b"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 3
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 3
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 3 + 4 + 3.",
+        "Multiply that symbol count by the key, 3, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 3 symbols, Bikes \u2014 4 symbols, Buses \u2014 3 symbols, key: 1 symbol = 3 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 3,
+      "n2": 4,
+      "n3": 3
+    },
+    "variant_signature": "d20446916672d9a68e6e95c2a5aa82de1c8956828abfe000296ca08f773eed25"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 3
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 4
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 3 + 4 + 4.",
+        "Multiply that symbol count by the key, 2, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 3 symbols, Bikes \u2014 4 symbols, Buses \u2014 4 symbols, key: 1 symbol = 2 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 3,
+      "n2": 4,
+      "n3": 4
+    },
+    "variant_signature": "8e277aad26132c36cb81242a03eeba4c273537ee0a09794b841c71fff4743107"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "43"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 3
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 4
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 3 + 4 + 4.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 3 symbols, Bikes \u2014 4 symbols, Buses \u2014 4 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 3,
+      "n2": 4,
+      "n3": 4
+    },
+    "variant_signature": "c94b8a29b1f0a0444558891d98d4ca2d3d3c020afb864cc22a97db4ace3c3ba0"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 4
+          },
+          {
+            "label": "Bikes",
+            "whole": 2
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 4 + 2 + 2.",
+        "Multiply that symbol count by the key, 3, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 4 symbols, Bikes \u2014 2 symbols, Buses \u2014 2 symbols, key: 1 symbol = 3 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 4,
+      "n2": 2,
+      "n3": 2
+    },
+    "variant_signature": "ef8c57f79011c59422aa2c5ebd71d29efeac9e40030e036f4a79254cfde39f3d"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 4
+          },
+          {
+            "label": "Bikes",
+            "whole": 2
+          },
+          {
+            "label": "Buses",
+            "whole": 3
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 4 + 2 + 3.",
+        "Multiply that symbol count by the key, 2, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 4 symbols, Bikes \u2014 2 symbols, Buses \u2014 3 symbols, key: 1 symbol = 2 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 4,
+      "n2": 2,
+      "n3": 3
+    },
+    "variant_signature": "3c0181dd3c1ecd7d9a0e234c0f393d82c0df56bc1c48ac83a3d0412d0a1bf2c4"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 4
+          },
+          {
+            "label": "Bikes",
+            "whole": 2
+          },
+          {
+            "label": "Buses",
+            "whole": 3
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 4 + 2 + 3.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 4 symbols, Bikes \u2014 2 symbols, Buses \u2014 3 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 4,
+      "n2": 2,
+      "n3": 3
+    },
+    "variant_signature": "9c3937387fc0a9bf53090d5a8a704d361d861ead3965bcc18286d3758125cd91"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 4
+          },
+          {
+            "label": "Bikes",
+            "whole": 2
+          },
+          {
+            "label": "Buses",
+            "whole": 4
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 4 + 2 + 4.",
+        "Multiply that symbol count by the key, 3, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 4 symbols, Bikes \u2014 2 symbols, Buses \u2014 4 symbols, key: 1 symbol = 3 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 4,
+      "n2": 2,
+      "n3": 4
+    },
+    "variant_signature": "deb9840789ca43167056918c947806ac7b959c6455a6043fb2abc1a36cc20118"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 4
+          },
+          {
+            "label": "Bikes",
+            "whole": 3
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 4 + 3 + 2.",
+        "Multiply that symbol count by the key, 2, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 4 symbols, Bikes \u2014 3 symbols, Buses \u2014 2 symbols, key: 1 symbol = 2 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 4,
+      "n2": 3,
+      "n3": 2
+    },
+    "variant_signature": "582bc152f4e7856a37252028edbc21c23f1bc2c035a119a679b5c37bae5c6751"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 4
+          },
+          {
+            "label": "Bikes",
+            "whole": 3
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 4 + 3 + 2.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 4 symbols, Bikes \u2014 3 symbols, Buses \u2014 2 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 4,
+      "n2": 3,
+      "n3": 2
+    },
+    "variant_signature": "a76225a6d1b4686e1b27424bbc8096ed040c34e1c456ccf7325d346f12649cdc"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 4
+          },
+          {
+            "label": "Bikes",
+            "whole": 3
+          },
+          {
+            "label": "Buses",
+            "whole": 3
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 4 + 3 + 3.",
+        "Multiply that symbol count by the key, 3, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 4 symbols, Bikes \u2014 3 symbols, Buses \u2014 3 symbols, key: 1 symbol = 3 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 4,
+      "n2": 3,
+      "n3": 3
+    },
+    "variant_signature": "d16934b59fbe26151dc2eb29708b11ced79cff335e872f5a4ceb416ebb1e551f"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 4
+          },
+          {
+            "label": "Bikes",
+            "whole": 3
+          },
+          {
+            "label": "Buses",
+            "whole": 4
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 4 + 3 + 4.",
+        "Multiply that symbol count by the key, 2, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 4 symbols, Bikes \u2014 3 symbols, Buses \u2014 4 symbols, key: 1 symbol = 2 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 4,
+      "n2": 3,
+      "n3": 4
+    },
+    "variant_signature": "3199739a9a787953c0563be04aaaf1ef65c7bddb30c14b92e6280794da8f7442"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "43"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 4
+          },
+          {
+            "label": "Bikes",
+            "whole": 3
+          },
+          {
+            "label": "Buses",
+            "whole": 4
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 4 + 3 + 4.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 4 symbols, Bikes \u2014 3 symbols, Buses \u2014 4 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 4,
+      "n2": 3,
+      "n3": 4
+    },
+    "variant_signature": "bc5498dab487631cfd0f109cc2787f247ddf58f1e3aabaa28289bf29da86386c"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 4
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 2
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 4 + 4 + 2.",
+        "Multiply that symbol count by the key, 3, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 4 symbols, Bikes \u2014 4 symbols, Buses \u2014 2 symbols, key: 1 symbol = 3 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 4,
+      "n2": 4,
+      "n3": 2
+    },
+    "variant_signature": "8c71144987fa39044357dd25858a0eb45af68cd41834424fa9aa48c3a1f79baf"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 4
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 3
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 4 + 4 + 3.",
+        "Multiply that symbol count by the key, 2, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 4 symbols, Bikes \u2014 4 symbols, Buses \u2014 3 symbols, key: 1 symbol = 2 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 4,
+      "n2": 4,
+      "n3": 3
+    },
+    "variant_signature": "6086edd218f03de06151cd94f5dec7d3024ebb92d49d2a0aa811d691bac931ce"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "43"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 4
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 3
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 4 + 4 + 3.",
+        "Multiply that symbol count by the key, 4, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 4 symbols, Bikes \u2014 4 symbols, Buses \u2014 3 symbols, key: 1 symbol = 4 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 4,
+      "n2": 4,
+      "n3": 3
+    },
+    "variant_signature": "362978a1ac4b1eb401828ee21aac6b73aa0f58975aadc793aea47f1efc235f6d"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Cars",
+            "whole": 4
+          },
+          {
+            "label": "Bikes",
+            "whole": 4
+          },
+          {
+            "label": "Buses",
+            "whole": 4
+          }
+        ],
+        "unit": "vehicles"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Add up the symbols first, but remember each symbol is worth more than 1 vehicle.",
+      "Once you have the total number of symbols, multiply by the key."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Add the symbols across all three categories: 4 + 4 + 4.",
+        "Multiply that symbol count by the key, 3, to get the total vehicles."
+      ]
+    },
+    "stem": "A pictograph shows vehicles counted outside school: Cars \u2014 4 symbols, Bikes \u2014 4 symbols, Buses \u2014 4 symbols, key: 1 symbol = 3 vehicles. How many vehicles were counted in total across all three types?",
+    "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 4,
+      "n2": 4,
+      "n3": 4
+    },
+    "variant_signature": "96283ed62ff7a4752ea9507d446d3e8364ce0f98ae9782179ada774386951a3a"
+  }
+]

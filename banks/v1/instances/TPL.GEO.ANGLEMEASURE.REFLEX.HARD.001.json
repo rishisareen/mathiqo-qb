@@ -1,0 +1,2202 @@
+[
+  {
+    "answer": "348",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "168"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "328"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 348,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 12-degree angle: 360 - 12."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Ravi first correctly measures the smaller, non-reflex angle on the inner scale as 12 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 12
+    },
+    "variant_signature": "3caab813f97091b18ac5e46758877083e3d064da180d0fce7a65279ea70fad76"
+  },
+  {
+    "answer": "344",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "164"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "324"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 344,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 16-degree angle: 360 - 16."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Priya first correctly measures the smaller, non-reflex angle on the inner scale as 16 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 16
+    },
+    "variant_signature": "04962585592b1fbed40a07f5bf4d8e468976ef63ac008c20fd7218800199aa5d"
+  },
+  {
+    "answer": "340",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "160"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "320"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 340,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 20-degree angle: 360 - 20."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Arjun first correctly measures the smaller, non-reflex angle on the inner scale as 20 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 20
+    },
+    "variant_signature": "385d0b24e8f5233648656d025edad98c17b84913be573754dc089e38463fd648"
+  },
+  {
+    "answer": "336",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "156"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "316"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 336,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 24-degree angle: 360 - 24."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Meera first correctly measures the smaller, non-reflex angle on the inner scale as 24 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 24
+    },
+    "variant_signature": "b87986d42054f819016fd50467a7047b8a702d32db177706d8307fb73cc4accf"
+  },
+  {
+    "answer": "332",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "152"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "312"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 332,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 28-degree angle: 360 - 28."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Diya first correctly measures the smaller, non-reflex angle on the inner scale as 28 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 28
+    },
+    "variant_signature": "61f60f83e45137db44dd563d00646937ccdc08a09c38bbd856beacaed144a2fc"
+  },
+  {
+    "answer": "328",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "148"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "308"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 328,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 32-degree angle: 360 - 32."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Kabir first correctly measures the smaller, non-reflex angle on the inner scale as 32 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 32
+    },
+    "variant_signature": "76a67dda14be8d3d46d4ff6c62506e43ee5ed3e80a51217db6970c08f57e67a4"
+  },
+  {
+    "answer": "324",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "144"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "304"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 324,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 36-degree angle: 360 - 36."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Ananya first correctly measures the smaller, non-reflex angle on the inner scale as 36 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 36
+    },
+    "variant_signature": "77ff775c9fa0765c8bec4953e35b235013a340030ccf4c35e97c031945a9c097"
+  },
+  {
+    "answer": "320",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "140"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "300"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "40"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 320,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 40-degree angle: 360 - 40."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Vihaan first correctly measures the smaller, non-reflex angle on the inner scale as 40 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 40
+    },
+    "variant_signature": "0e928d35267139f9fc145ab2c9ee49bfb296739adb99639fa3425c566c1c3760"
+  },
+  {
+    "answer": "316",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "136"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "296"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "44"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 316,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 44-degree angle: 360 - 44."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Ravi first correctly measures the smaller, non-reflex angle on the inner scale as 44 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 44
+    },
+    "variant_signature": "183b8a81eeefe624df9b7d78bcd379a7b3b093e4ffa4eba690ea12cfb8913e94"
+  },
+  {
+    "answer": "312",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "132"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "292"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "48"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 312,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 48-degree angle: 360 - 48."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Priya first correctly measures the smaller, non-reflex angle on the inner scale as 48 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 48
+    },
+    "variant_signature": "94927c640ddbf2a8988ef0deeac4926cdb086e71329dd9cf878feab53ec22347"
+  },
+  {
+    "answer": "308",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "128"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "288"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "52"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 308,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 52-degree angle: 360 - 52."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Arjun first correctly measures the smaller, non-reflex angle on the inner scale as 52 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 52
+    },
+    "variant_signature": "c20ef1ec5743f4f718c0d80a789a25b4da107918df6512d43c053dfe69a85eff"
+  },
+  {
+    "answer": "304",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "124"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "284"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "56"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 304,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 56-degree angle: 360 - 56."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Meera first correctly measures the smaller, non-reflex angle on the inner scale as 56 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 56
+    },
+    "variant_signature": "7e5b3cf76e0823cc2ca123b5fb6a2f381c5843ef627fd77975732183bd265e03"
+  },
+  {
+    "answer": "300",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "120"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "280"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "60"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 300,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 60-degree angle: 360 - 60."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Diya first correctly measures the smaller, non-reflex angle on the inner scale as 60 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 60
+    },
+    "variant_signature": "13fa51665f684d3607bb5ac0a836eefc65f4972a04f6ea3e9c564b3999990d38"
+  },
+  {
+    "answer": "296",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "116"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "276"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "64"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 296,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 64-degree angle: 360 - 64."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Kabir first correctly measures the smaller, non-reflex angle on the inner scale as 64 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 64
+    },
+    "variant_signature": "3c333b5c1fb08615fd5dce6e6cf41ab97dd4d10e9749515399fc489b42cf9709"
+  },
+  {
+    "answer": "292",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "112"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "272"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "68"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 292,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 68-degree angle: 360 - 68."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Ananya first correctly measures the smaller, non-reflex angle on the inner scale as 68 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 68
+    },
+    "variant_signature": "dfab448cd2d078d2ce1843031cfb8844848afb6328876021a02626891535473c"
+  },
+  {
+    "answer": "288",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "108"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "268"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "72"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 288,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 72-degree angle: 360 - 72."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Vihaan first correctly measures the smaller, non-reflex angle on the inner scale as 72 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 72
+    },
+    "variant_signature": "427fdc743a7aeb8f6955637af671a6aaa847c2f21e413fbe0ed27b7556f23bc5"
+  },
+  {
+    "answer": "284",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "104"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "264"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "76"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 284,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 76-degree angle: 360 - 76."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Ravi first correctly measures the smaller, non-reflex angle on the inner scale as 76 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 76
+    },
+    "variant_signature": "8e777ba1bdc25978507c80b050c0faf2c1095cde3c9354a9eb3ba8d3d9743aef"
+  },
+  {
+    "answer": "280",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "100"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "260"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "80"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 280,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 80-degree angle: 360 - 80."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Priya first correctly measures the smaller, non-reflex angle on the inner scale as 80 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 80
+    },
+    "variant_signature": "e5d557feeab635fb2994fced55b4da932f648eb09012cb56cf58c7dcf2e100ad"
+  },
+  {
+    "answer": "276",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "96"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "256"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "84"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 276,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 84-degree angle: 360 - 84."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Arjun first correctly measures the smaller, non-reflex angle on the inner scale as 84 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 84
+    },
+    "variant_signature": "ae857e4c7fbbc52894c88588605a15dc7e9ac10c976ffe332a8a0f11e128c008"
+  },
+  {
+    "answer": "272",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "92"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "252"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "88"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 272,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 88-degree angle: 360 - 88."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Meera first correctly measures the smaller, non-reflex angle on the inner scale as 88 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 88
+    },
+    "variant_signature": "ec78de238f11ab47766bf805aae513e7e817db0499d4a8cf7a9968013e2c49e5"
+  },
+  {
+    "answer": "268",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "88"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "248"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "92"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 268,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 92-degree angle: 360 - 92."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Diya first correctly measures the smaller, non-reflex angle on the inner scale as 92 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 92
+    },
+    "variant_signature": "0d966ccc43ea8dc69a0290607c1d19877cebc095166ec606ef62f15c05d2b51a"
+  },
+  {
+    "answer": "264",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "84"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "244"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "96"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 264,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 96-degree angle: 360 - 96."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Kabir first correctly measures the smaller, non-reflex angle on the inner scale as 96 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 96
+    },
+    "variant_signature": "4715b8c477edd4e25440ce8e192e0198647c014675ac6e4fceaeaf633ee63662"
+  },
+  {
+    "answer": "260",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "80"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "240"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "100"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 260,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 100-degree angle: 360 - 100."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Ananya first correctly measures the smaller, non-reflex angle on the inner scale as 100 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 100
+    },
+    "variant_signature": "f9cb915ae1aa072b273912409ef8538e98474d99b69502846b56a7e78fca83b5"
+  },
+  {
+    "answer": "256",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "76"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "236"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "104"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 256,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 104-degree angle: 360 - 104."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Vihaan first correctly measures the smaller, non-reflex angle on the inner scale as 104 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 104
+    },
+    "variant_signature": "a0e35b3bb552f1613f52c2f3609787211d385e53b62bab017d4711e1de85918f"
+  },
+  {
+    "answer": "252",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "72"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "232"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "108"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 252,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 108-degree angle: 360 - 108."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Ravi first correctly measures the smaller, non-reflex angle on the inner scale as 108 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 108
+    },
+    "variant_signature": "924069fcca14dc98254884f8d94b4f9c008a378c6dd2521d80c30164e8dfc1a5"
+  },
+  {
+    "answer": "248",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "68"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "228"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "112"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 248,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 112-degree angle: 360 - 112."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Priya first correctly measures the smaller, non-reflex angle on the inner scale as 112 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 112
+    },
+    "variant_signature": "d4bafe5c760f3e98e2424bff579e08f24d5243091e70e36050f04c3e97011fcc"
+  },
+  {
+    "answer": "244",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "224"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "116"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 244,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 116-degree angle: 360 - 116."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Arjun first correctly measures the smaller, non-reflex angle on the inner scale as 116 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 116
+    },
+    "variant_signature": "b5df5b74906adade4b87578e169c783f15557e475bb6f1f6c900a77a6fb860ff"
+  },
+  {
+    "answer": "240",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "220"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "120"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 240,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 120-degree angle: 360 - 120."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Meera first correctly measures the smaller, non-reflex angle on the inner scale as 120 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 120
+    },
+    "variant_signature": "3e6f5813ec1b895da73d180702bcfc9aaf8d5e623ca1b13dd041dcc21dbce859"
+  },
+  {
+    "answer": "236",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "216"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "124"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 236,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 124-degree angle: 360 - 124."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Diya first correctly measures the smaller, non-reflex angle on the inner scale as 124 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 124
+    },
+    "variant_signature": "8a85baf129300618ad106ad0209554c3ac0418f5bb5820eda9ffd9ee3bccc55d"
+  },
+  {
+    "answer": "232",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "212"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "128"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 232,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 128-degree angle: 360 - 128."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Kabir first correctly measures the smaller, non-reflex angle on the inner scale as 128 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 128
+    },
+    "variant_signature": "79621f016f79c6aafca1f77fb07c226e61ae1bb9fadc6cae962e3d6d85994507"
+  },
+  {
+    "answer": "228",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "208"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "132"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 228,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 132-degree angle: 360 - 132."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Ananya first correctly measures the smaller, non-reflex angle on the inner scale as 132 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 132
+    },
+    "variant_signature": "8b3d22034aed5b716cba6a4b364bb5ef200a5d50d293fe3024f23697ddc22933"
+  },
+  {
+    "answer": "224",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "44"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "204"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "136"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 224,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 136-degree angle: 360 - 136."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Vihaan first correctly measures the smaller, non-reflex angle on the inner scale as 136 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 136
+    },
+    "variant_signature": "8661e0312205b5e8bc3510931df2bd2f54aa8ca6b740bab60abaac0b79e14825"
+  },
+  {
+    "answer": "220",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "200"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "140"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 220,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 140-degree angle: 360 - 140."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Ravi first correctly measures the smaller, non-reflex angle on the inner scale as 140 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 140
+    },
+    "variant_signature": "c66443bb73e9d5ae12cbbfb3c9fc33da05d5863184cafc00c41afd5c28c5b1c6"
+  },
+  {
+    "answer": "216",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "196"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "144"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 216,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 144-degree angle: 360 - 144."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Priya first correctly measures the smaller, non-reflex angle on the inner scale as 144 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 144
+    },
+    "variant_signature": "48f58e4044aa52e0b01a3331c8c7fc89040511c97cb074a4aeb97b3e7f4c2f01"
+  },
+  {
+    "answer": "212",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "192"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "148"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 212,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 148-degree angle: 360 - 148."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Arjun first correctly measures the smaller, non-reflex angle on the inner scale as 148 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 148
+    },
+    "variant_signature": "fd3420fe9940b7c3c3f7e097c2d98290a314fb0118e0f895f5c4e0092932204f"
+  },
+  {
+    "answer": "208",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "188"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "152"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 208,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 152-degree angle: 360 - 152."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Meera first correctly measures the smaller, non-reflex angle on the inner scale as 152 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 152
+    },
+    "variant_signature": "a14adff21ae14eaefaad66a9bd389f99f94d26b69091de1d33a78b30ee11da35"
+  },
+  {
+    "answer": "204",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "184"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "156"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 204,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 156-degree angle: 360 - 156."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Diya first correctly measures the smaller, non-reflex angle on the inner scale as 156 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 156
+    },
+    "variant_signature": "4afed150cb646d5effd64930f365cdf54b74ce5d3bbb92249cd6c734783c889e"
+  },
+  {
+    "answer": "200",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "160"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 200,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 160-degree angle: 360 - 160."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Kabir first correctly measures the smaller, non-reflex angle on the inner scale as 160 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 160
+    },
+    "variant_signature": "0ec6d2b4bd3b51e3f0fee1e0033e7c6b87c09ebb9212949ae51d74aa9ebdfe62"
+  },
+  {
+    "answer": "196",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "176"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "164"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 196,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 164-degree angle: 360 - 164."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Ananya first correctly measures the smaller, non-reflex angle on the inner scale as 164 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 164
+    },
+    "variant_signature": "208d49ee798826922e4a3661698138f42ce9ccff948b005c228d1d4884df44c9"
+  },
+  {
+    "answer": "192",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "172"
+      },
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "168"
+      }
+    ],
+    "figures": [
+      {
+        "context": "reflex",
+        "degrees": 192,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A reflex angle plus the smaller angle at the same point together make a full turn of 360 degrees.",
+      "Subtract the measured angle from 360, not from 180."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full turn around a point is 360 degrees.",
+        "The reflex angle is what's left after the measured 168-degree angle: 360 - 168."
+      ]
+    },
+    "stem": "A protractor can only measure directly up to 180 degrees. To find the reflex angle at a point, Vihaan first correctly measures the smaller, non-reflex angle on the inner scale as 168 degrees, then works out the rest of the full turn around that point. What is the reflex angle, in degrees?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 168
+    },
+    "variant_signature": "a8d16f94cfbaef28bf53d89e09c16910caa60f82a496ee21fbe97d66fd4fd026"
+  }
+]

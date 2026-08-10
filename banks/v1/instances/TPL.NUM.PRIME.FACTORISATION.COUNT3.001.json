@@ -1,0 +1,398 @@
+[
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count every factor in the product, including repeats of the same prime."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every factor in 2 x 2 x 3 is already prime, since 2 and 3 are prime.",
+        "Counting with repetition, 2 appears twice and 3 appears once, giving 3 prime factors in total."
+      ]
+    },
+    "stem": "A number is written as 2 x 2 x 3, where 2 and 3 are different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 3
+    },
+    "variant_signature": "60ead5d7aede70c90a882bb2d8da522ed25d0e385163b547570700020eb77c85"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count every factor in the product, including repeats of the same prime."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every factor in 2 x 2 x 5 is already prime, since 2 and 5 are prime.",
+        "Counting with repetition, 2 appears twice and 5 appears once, giving 3 prime factors in total."
+      ]
+    },
+    "stem": "A number is written as 2 x 2 x 5, where 2 and 5 are different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 5
+    },
+    "variant_signature": "8d851bff8b570e82a0bb64a1ea34c2672edb65d3c21c9dbf66203b18854cf2a6"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count every factor in the product, including repeats of the same prime."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every factor in 2 x 2 x 7 is already prime, since 2 and 7 are prime.",
+        "Counting with repetition, 2 appears twice and 7 appears once, giving 3 prime factors in total."
+      ]
+    },
+    "stem": "A number is written as 2 x 2 x 7, where 2 and 7 are different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 7
+    },
+    "variant_signature": "af9034ab13ad63cf0f8034f05e8f7516061f9c9d4cab16b5ec1fbd8005a8c388"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count every factor in the product, including repeats of the same prime."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every factor in 3 x 3 x 2 is already prime, since 3 and 2 are prime.",
+        "Counting with repetition, 3 appears twice and 2 appears once, giving 3 prime factors in total."
+      ]
+    },
+    "stem": "A number is written as 3 x 3 x 2, where 3 and 2 are different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 2
+    },
+    "variant_signature": "2c30d49f27a2b62f89daf5fc1062df1f39ec55c3dea2bc13849f91555d3c36e5"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count every factor in the product, including repeats of the same prime."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every factor in 3 x 3 x 5 is already prime, since 3 and 5 are prime.",
+        "Counting with repetition, 3 appears twice and 5 appears once, giving 3 prime factors in total."
+      ]
+    },
+    "stem": "A number is written as 3 x 3 x 5, where 3 and 5 are different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 5
+    },
+    "variant_signature": "81b8d88a4e6516d6d296fd84a3e9e21058f0dcf39a2754fa62122eb5a77506ed"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count every factor in the product, including repeats of the same prime."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every factor in 3 x 3 x 7 is already prime, since 3 and 7 are prime.",
+        "Counting with repetition, 3 appears twice and 7 appears once, giving 3 prime factors in total."
+      ]
+    },
+    "stem": "A number is written as 3 x 3 x 7, where 3 and 7 are different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 7
+    },
+    "variant_signature": "24df8628b5d7d02299f9e1eadc02367e3d91be5155699f7f1cdcd52ff51a12f8"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count every factor in the product, including repeats of the same prime."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every factor in 5 x 5 x 2 is already prime, since 5 and 2 are prime.",
+        "Counting with repetition, 5 appears twice and 2 appears once, giving 3 prime factors in total."
+      ]
+    },
+    "stem": "A number is written as 5 x 5 x 2, where 5 and 2 are different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 2
+    },
+    "variant_signature": "300302455bb3a76049d20cc72563aff92fcf061fab170e81387c62d53a217ca8"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count every factor in the product, including repeats of the same prime."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every factor in 5 x 5 x 3 is already prime, since 5 and 3 are prime.",
+        "Counting with repetition, 5 appears twice and 3 appears once, giving 3 prime factors in total."
+      ]
+    },
+    "stem": "A number is written as 5 x 5 x 3, where 5 and 3 are different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 3
+    },
+    "variant_signature": "cd30e084464896f21046955e862c4932b5714060ec707433e26d58312afe24d5"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count every factor in the product, including repeats of the same prime."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every factor in 5 x 5 x 7 is already prime, since 5 and 7 are prime.",
+        "Counting with repetition, 5 appears twice and 7 appears once, giving 3 prime factors in total."
+      ]
+    },
+    "stem": "A number is written as 5 x 5 x 7, where 5 and 7 are different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 7
+    },
+    "variant_signature": "83cf534bc0d621b494a6a78097ee31ec12fcada53309f3f0b79e1e62b9644370"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count every factor in the product, including repeats of the same prime."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every factor in 7 x 7 x 2 is already prime, since 7 and 2 are prime.",
+        "Counting with repetition, 7 appears twice and 2 appears once, giving 3 prime factors in total."
+      ]
+    },
+    "stem": "A number is written as 7 x 7 x 2, where 7 and 2 are different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 2
+    },
+    "variant_signature": "9a7373a2f67fd7678950a42c85ff5109baaaaddc2bb82e9d1605babd978c6f01"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count every factor in the product, including repeats of the same prime."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every factor in 7 x 7 x 3 is already prime, since 7 and 3 are prime.",
+        "Counting with repetition, 7 appears twice and 3 appears once, giving 3 prime factors in total."
+      ]
+    },
+    "stem": "A number is written as 7 x 7 x 3, where 7 and 3 are different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 3
+    },
+    "variant_signature": "0ec13af3586a915b8d4d881d09120bf0ab3fe44d86dd07d10a148a165e859bce"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count every factor in the product, including repeats of the same prime."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME.FACTORISATION"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every factor in 7 x 7 x 5 is already prime, since 7 and 5 are prime.",
+        "Counting with repetition, 7 appears twice and 5 appears once, giving 3 prime factors in total."
+      ]
+    },
+    "stem": "A number is written as 7 x 7 x 5, where 7 and 5 are different prime numbers. How many prime factors does the number have, counted with repetition?",
+    "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 5
+    },
+    "variant_signature": "c49c27f6542d2ed112f551e6ea28533ea1ac6ebe881e17badc9a4e0e0ad13de1"
+  }
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 2,
+            "label": "Tally",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 2 bundles by fives.",
+        "Add the 0 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 2 bundles of five strokes and 0 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 2,
+      "extra": 0
+    },
+    "variant_signature": "ed9bb75a736e3bb4750108dbd81ea36d0901266db202d235c96deb938ad39b69"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 2,
+            "label": "Tally",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 2 bundles by fives.",
+        "Add the 1 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 2 bundles of five strokes and 1 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 2,
+      "extra": 1
+    },
+    "variant_signature": "7534f933f348b55286daab9ac83d9f6fd9c904b024fd549b02691dc00cc982f6"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 2,
+            "label": "Tally",
+            "loose": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 2 bundles by fives.",
+        "Add the 2 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 2 bundles of five strokes and 2 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 2,
+      "extra": 2
+    },
+    "variant_signature": "00bd24c9fcd546aa08c32fc8e056e341026d3d225560943b04e8e5bd8039e725"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 2,
+            "label": "Tally",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 2 bundles by fives.",
+        "Add the 3 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 2 bundles of five strokes and 3 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 2,
+      "extra": 3
+    },
+    "variant_signature": "e54293e25aa31f66d301c5e8c8d5cf34195a9a5d3f7698ac2801b9a407d7df9a"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 2,
+            "label": "Tally",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 2 bundles by fives.",
+        "Add the 4 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 2 bundles of five strokes and 4 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 2,
+      "extra": 4
+    },
+    "variant_signature": "28ad7a2aac329526c3a351048f608267faa8c3deeb50b624d5c7a969fa7ce0af"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 3,
+            "label": "Tally",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 3 bundles by fives.",
+        "Add the 0 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 3 bundles of five strokes and 0 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 3,
+      "extra": 0
+    },
+    "variant_signature": "f85f9d36ca5edb3574fddd02d7a73390f431f11f13affed44c4b54779d9f1cf4"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 3,
+            "label": "Tally",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 3 bundles by fives.",
+        "Add the 1 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 3 bundles of five strokes and 1 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 3,
+      "extra": 1
+    },
+    "variant_signature": "fbed36ab84fc67063b499b52abb3bbaeb1d8614ba3fc3db887aa90f6171287d1"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 3,
+            "label": "Tally",
+            "loose": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 3 bundles by fives.",
+        "Add the 2 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 3 bundles of five strokes and 2 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 3,
+      "extra": 2
+    },
+    "variant_signature": "0b5dc967c33a3e72e1d5459054a496405477274652ea4c687634855b5ca17311"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 3,
+            "label": "Tally",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 3 bundles by fives.",
+        "Add the 3 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 3 bundles of five strokes and 3 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 3,
+      "extra": 3
+    },
+    "variant_signature": "35e9645bb62d0d5e58f0fb0064262e961988ff2f57c1e757f05687d3731755ff"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 3,
+            "label": "Tally",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 3 bundles by fives.",
+        "Add the 4 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 3 bundles of five strokes and 4 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 3,
+      "extra": 4
+    },
+    "variant_signature": "4c5bffed347f684458ced72746c824d7c068ca1d8242e05bb276de1dc0d9ee0f"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 4,
+            "label": "Tally",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 4 bundles by fives.",
+        "Add the 0 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 4 bundles of five strokes and 0 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 4,
+      "extra": 0
+    },
+    "variant_signature": "9ac996a3309886b9f0a4ea61b9e8aa5a4678acdf6277448fa5d81975c39d2313"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 4,
+            "label": "Tally",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 4 bundles by fives.",
+        "Add the 1 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 4 bundles of five strokes and 1 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 4,
+      "extra": 1
+    },
+    "variant_signature": "ebf51ee3dd43be4bb9f6349c3d7611ab19b30dedaa5a7113480e0ec3eea7afce"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 4,
+            "label": "Tally",
+            "loose": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 4 bundles by fives.",
+        "Add the 2 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 4 bundles of five strokes and 2 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 4,
+      "extra": 2
+    },
+    "variant_signature": "9d7e3f13f894ab1a0529bca290f1fc941622fa3f127019cb18dd640d180e3086"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 4,
+            "label": "Tally",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 4 bundles by fives.",
+        "Add the 3 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 4 bundles of five strokes and 3 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 4,
+      "extra": 3
+    },
+    "variant_signature": "c2513d43ef965da523843f0a8f5daf9555c0b03d592dd06c22b884885737a170"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 4,
+            "label": "Tally",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 4 bundles by fives.",
+        "Add the 4 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 4 bundles of five strokes and 4 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 4,
+      "extra": 4
+    },
+    "variant_signature": "a047a068ad4deb3390cc6e898e9d8ef611b3669b26a323da8dee958f5ecb373d"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Tally",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 5 bundles by fives.",
+        "Add the 0 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 5 bundles of five strokes and 0 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 5,
+      "extra": 0
+    },
+    "variant_signature": "572e305fd785fd33d084b68b9ce839aded25f31c1e65b7afb40c4c390d0dc8f0"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Tally",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 5 bundles by fives.",
+        "Add the 1 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 5 bundles of five strokes and 1 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 5,
+      "extra": 1
+    },
+    "variant_signature": "fc3a6cf796b0aae77f16891c2eec585b12a764ddfe99418134caf0583c44f74e"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Tally",
+            "loose": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 5 bundles by fives.",
+        "Add the 2 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 5 bundles of five strokes and 2 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 5,
+      "extra": 2
+    },
+    "variant_signature": "0506f02e24ba59beb6a38e900516bd47f22d5618773e96620d123359842f200c"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Tally",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 5 bundles by fives.",
+        "Add the 3 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 5 bundles of five strokes and 3 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 5,
+      "extra": 3
+    },
+    "variant_signature": "07a56d2d669f306d2ca2140886c7693a7f3a169daa65039116bdd41f941bd8dc"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Tally",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 5 bundles by fives.",
+        "Add the 4 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 5 bundles of five strokes and 4 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 5,
+      "extra": 4
+    },
+    "variant_signature": "9230d7158fe07c44391a6df3f603c7ddf2c385ecc4d3b5e94cae7a7f591b7f10"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Tally",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 6 bundles by fives.",
+        "Add the 0 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 6 bundles of five strokes and 0 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 6,
+      "extra": 0
+    },
+    "variant_signature": "fe213f4d8bc9c78615cef3cbe61de742dae3cee8b04ee5f57c3f0ed357437b67"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Tally",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 6 bundles by fives.",
+        "Add the 1 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 6 bundles of five strokes and 1 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 6,
+      "extra": 1
+    },
+    "variant_signature": "73e369e17d2cbac7eba9d3a1fd618ad38963a1dd596fb06ac42ac4f5cc113835"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Tally",
+            "loose": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 6 bundles by fives.",
+        "Add the 2 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 6 bundles of five strokes and 2 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 6,
+      "extra": 2
+    },
+    "variant_signature": "270d6c1d80ecbd589697ea24e5509424ea28b9ba94e0b9a696e8441626706d42"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Tally",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 6 bundles by fives.",
+        "Add the 3 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 6 bundles of five strokes and 3 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 6,
+      "extra": 3
+    },
+    "variant_signature": "1c9a32efd251b163da6f5b3aab3c746dc4c60d3cebaa18670b996b549b85a460"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Tally",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A bundle of five strokes always stands for 5, no matter how it is drawn.",
+      "Skip-count the bundles by fives first, then add the loose strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each bundle of five strokes is worth 5, so skip-count the 6 bundles by fives.",
+        "Add the 4 loose strokes that are not part of a bundle."
+      ]
+    },
+    "stem": "A tally chart shows 6 bundles of five strokes and 4 extra loose strokes. What total frequency does this tally represent?",
+    "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 6,
+      "extra": 4
+    },
+    "variant_signature": "afcdb4ec2c0811b3d2e4a14cced2b95f263bb19d083b21601709a3e2fc886f83"
+  }
+]

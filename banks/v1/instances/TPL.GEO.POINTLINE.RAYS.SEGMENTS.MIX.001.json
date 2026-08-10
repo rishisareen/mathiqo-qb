@@ -1,0 +1,1922 @@
+[
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "ray"
+          },
+          {
+            "count": 2,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 1 rays contribute 1.",
+        "Each segment contributes 2 fixed endpoints, so 2 segments contribute 2 x 2. Total: 1 + 2*2."
+      ]
+    },
+    "stem": "On a page, 1 rays and 2 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 1,
+      "s": 2
+    },
+    "variant_signature": "77d451a6848c742ef9a34c4804e8eec18e7b70bc835c3ee9efc4955186b91b48"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "ray"
+          },
+          {
+            "count": 3,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 1 rays contribute 1.",
+        "Each segment contributes 2 fixed endpoints, so 3 segments contribute 2 x 3. Total: 1 + 2*3."
+      ]
+    },
+    "stem": "On a page, 1 rays and 3 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 1,
+      "s": 3
+    },
+    "variant_signature": "3b3267f9f45dcde610661c5d43b6c34a31a546ec0037a0a46bca95fb0f32ede2"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "ray"
+          },
+          {
+            "count": 4,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 1 rays contribute 1.",
+        "Each segment contributes 2 fixed endpoints, so 4 segments contribute 2 x 4. Total: 1 + 2*4."
+      ]
+    },
+    "stem": "On a page, 1 rays and 4 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 1,
+      "s": 4
+    },
+    "variant_signature": "170ad3f1f9e3eb84cddd708b9dfcb44222d24337c34c7df1e4d5835b241c0324"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "ray"
+          },
+          {
+            "count": 5,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 1 rays contribute 1.",
+        "Each segment contributes 2 fixed endpoints, so 5 segments contribute 2 x 5. Total: 1 + 2*5."
+      ]
+    },
+    "stem": "On a page, 1 rays and 5 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 1,
+      "s": 5
+    },
+    "variant_signature": "0f942bf0eb3655fdbfaeb932e26069cb507dc71ac5921890694f1f097123d9e9"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "ray"
+          },
+          {
+            "count": 6,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 1 rays contribute 1.",
+        "Each segment contributes 2 fixed endpoints, so 6 segments contribute 2 x 6. Total: 1 + 2*6."
+      ]
+    },
+    "stem": "On a page, 1 rays and 6 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 1,
+      "s": 6
+    },
+    "variant_signature": "7a349d015ab1bba89b7977fbcfbb58cf64497ef2cd0c4ff4b0b45faa5caee978"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 2,
+            "element": "ray"
+          },
+          {
+            "count": 1,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 2 rays contribute 2.",
+        "Each segment contributes 2 fixed endpoints, so 1 segments contribute 2 x 1. Total: 2 + 2*1."
+      ]
+    },
+    "stem": "On a page, 2 rays and 1 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 2,
+      "s": 1
+    },
+    "variant_signature": "4af929f7c44cb3d903c10ef6cac63ebef710247a26ff42b11b97c6f772319e1a"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 2,
+            "element": "ray"
+          },
+          {
+            "count": 3,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 2 rays contribute 2.",
+        "Each segment contributes 2 fixed endpoints, so 3 segments contribute 2 x 3. Total: 2 + 2*3."
+      ]
+    },
+    "stem": "On a page, 2 rays and 3 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 2,
+      "s": 3
+    },
+    "variant_signature": "fec1ec8379821d4c771da270a23bb84ff021a1363954958afd22d5ded5fb910d"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 2,
+            "element": "ray"
+          },
+          {
+            "count": 4,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 2 rays contribute 2.",
+        "Each segment contributes 2 fixed endpoints, so 4 segments contribute 2 x 4. Total: 2 + 2*4."
+      ]
+    },
+    "stem": "On a page, 2 rays and 4 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 2,
+      "s": 4
+    },
+    "variant_signature": "521c8679e66962e9076058df9ee0b191b17fdabaa9e3bfd54f216dc26386914f"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 2,
+            "element": "ray"
+          },
+          {
+            "count": 5,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 2 rays contribute 2.",
+        "Each segment contributes 2 fixed endpoints, so 5 segments contribute 2 x 5. Total: 2 + 2*5."
+      ]
+    },
+    "stem": "On a page, 2 rays and 5 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 2,
+      "s": 5
+    },
+    "variant_signature": "3a921927c8060caaac6ce11e2660195f9f204144f95cd834d7888165977ba179"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 2,
+            "element": "ray"
+          },
+          {
+            "count": 6,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 2 rays contribute 2.",
+        "Each segment contributes 2 fixed endpoints, so 6 segments contribute 2 x 6. Total: 2 + 2*6."
+      ]
+    },
+    "stem": "On a page, 2 rays and 6 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 2,
+      "s": 6
+    },
+    "variant_signature": "b744d7d26d2ce631c971a85725b4cd4311c255d38e5f76c56bea2e005bb77642"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 3,
+            "element": "ray"
+          },
+          {
+            "count": 1,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 3 rays contribute 3.",
+        "Each segment contributes 2 fixed endpoints, so 1 segments contribute 2 x 1. Total: 3 + 2*1."
+      ]
+    },
+    "stem": "On a page, 3 rays and 1 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 3,
+      "s": 1
+    },
+    "variant_signature": "fb43ab848506bb7c5f6a6a665f947424d27264f8b053e8fe817e42bd53da320d"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 3,
+            "element": "ray"
+          },
+          {
+            "count": 2,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 3 rays contribute 3.",
+        "Each segment contributes 2 fixed endpoints, so 2 segments contribute 2 x 2. Total: 3 + 2*2."
+      ]
+    },
+    "stem": "On a page, 3 rays and 2 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 3,
+      "s": 2
+    },
+    "variant_signature": "ad586d70b69582b8e3aaa1f2758c6b9abd64889866ee91e99f00e53f79bae105"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 3,
+            "element": "ray"
+          },
+          {
+            "count": 4,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 3 rays contribute 3.",
+        "Each segment contributes 2 fixed endpoints, so 4 segments contribute 2 x 4. Total: 3 + 2*4."
+      ]
+    },
+    "stem": "On a page, 3 rays and 4 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 3,
+      "s": 4
+    },
+    "variant_signature": "9874fae8f181d244a30555f7b6b1e128932e7b839e563e0aa90f94ce1294875d"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 3,
+            "element": "ray"
+          },
+          {
+            "count": 5,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 3 rays contribute 3.",
+        "Each segment contributes 2 fixed endpoints, so 5 segments contribute 2 x 5. Total: 3 + 2*5."
+      ]
+    },
+    "stem": "On a page, 3 rays and 5 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 3,
+      "s": 5
+    },
+    "variant_signature": "af41310469057a7dfdfd508d9738aa48aca09ba53e0dfea768cdf10099d2b801"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 3,
+            "element": "ray"
+          },
+          {
+            "count": 6,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 3 rays contribute 3.",
+        "Each segment contributes 2 fixed endpoints, so 6 segments contribute 2 x 6. Total: 3 + 2*6."
+      ]
+    },
+    "stem": "On a page, 3 rays and 6 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 3,
+      "s": 6
+    },
+    "variant_signature": "b6e90fb7b347dc065137ece85cc8372807d6d444e10e40c701ab738023c14895"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 4,
+            "element": "ray"
+          },
+          {
+            "count": 1,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 4 rays contribute 4.",
+        "Each segment contributes 2 fixed endpoints, so 1 segments contribute 2 x 1. Total: 4 + 2*1."
+      ]
+    },
+    "stem": "On a page, 4 rays and 1 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 4,
+      "s": 1
+    },
+    "variant_signature": "52041b66819ca8cd3196a86ef1e1d04d36c2579bb0c1d570db58beb9b4fc2fbc"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 4,
+            "element": "ray"
+          },
+          {
+            "count": 2,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 4 rays contribute 4.",
+        "Each segment contributes 2 fixed endpoints, so 2 segments contribute 2 x 2. Total: 4 + 2*2."
+      ]
+    },
+    "stem": "On a page, 4 rays and 2 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 4,
+      "s": 2
+    },
+    "variant_signature": "bf9b640aa07bbb8b31e713556c4c5747404223e80a9658487a76c4cb3ca9e1ba"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 4,
+            "element": "ray"
+          },
+          {
+            "count": 3,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 4 rays contribute 4.",
+        "Each segment contributes 2 fixed endpoints, so 3 segments contribute 2 x 3. Total: 4 + 2*3."
+      ]
+    },
+    "stem": "On a page, 4 rays and 3 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 4,
+      "s": 3
+    },
+    "variant_signature": "bdd778f568d8479d266573e1400e61b39fdc714401b81ae0116dea6d5853d7c4"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 4,
+            "element": "ray"
+          },
+          {
+            "count": 5,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 4 rays contribute 4.",
+        "Each segment contributes 2 fixed endpoints, so 5 segments contribute 2 x 5. Total: 4 + 2*5."
+      ]
+    },
+    "stem": "On a page, 4 rays and 5 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 4,
+      "s": 5
+    },
+    "variant_signature": "3a45e5c32af264c2b1e37c9bf310cf919fe83d985ee928e718396e3d3cd23fc8"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 4,
+            "element": "ray"
+          },
+          {
+            "count": 6,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 4 rays contribute 4.",
+        "Each segment contributes 2 fixed endpoints, so 6 segments contribute 2 x 6. Total: 4 + 2*6."
+      ]
+    },
+    "stem": "On a page, 4 rays and 6 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 4,
+      "s": 6
+    },
+    "variant_signature": "46de866e799b97b603469ec2db2610090e52dd02e9e3eb6755d5b119dcb667c1"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 5,
+            "element": "ray"
+          },
+          {
+            "count": 1,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 5 rays contribute 5.",
+        "Each segment contributes 2 fixed endpoints, so 1 segments contribute 2 x 1. Total: 5 + 2*1."
+      ]
+    },
+    "stem": "On a page, 5 rays and 1 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 5,
+      "s": 1
+    },
+    "variant_signature": "8e5db00860df0378f2975f45417fd22a5e3f4bf5b57660fe072f73cd4a36c7ff"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 5,
+            "element": "ray"
+          },
+          {
+            "count": 2,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 5 rays contribute 5.",
+        "Each segment contributes 2 fixed endpoints, so 2 segments contribute 2 x 2. Total: 5 + 2*2."
+      ]
+    },
+    "stem": "On a page, 5 rays and 2 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 5,
+      "s": 2
+    },
+    "variant_signature": "bbadfa1ab7fdcf1b27e30a16830ce5fb3bd15b60d170650ff8019f83dce014ee"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 5,
+            "element": "ray"
+          },
+          {
+            "count": 3,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 5 rays contribute 5.",
+        "Each segment contributes 2 fixed endpoints, so 3 segments contribute 2 x 3. Total: 5 + 2*3."
+      ]
+    },
+    "stem": "On a page, 5 rays and 3 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 5,
+      "s": 3
+    },
+    "variant_signature": "7b4ecdc532420d77b9f6ba1f71caa338712f4330289b13cdf8915c39003e6203"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 5,
+            "element": "ray"
+          },
+          {
+            "count": 4,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 5 rays contribute 5.",
+        "Each segment contributes 2 fixed endpoints, so 4 segments contribute 2 x 4. Total: 5 + 2*4."
+      ]
+    },
+    "stem": "On a page, 5 rays and 4 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 5,
+      "s": 4
+    },
+    "variant_signature": "0932d8e8fdcec3548ab694bb6323cf28c490758b9cb2f10b2c4ed2f89282444f"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 5,
+            "element": "ray"
+          },
+          {
+            "count": 6,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 5 rays contribute 5.",
+        "Each segment contributes 2 fixed endpoints, so 6 segments contribute 2 x 6. Total: 5 + 2*6."
+      ]
+    },
+    "stem": "On a page, 5 rays and 6 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 5,
+      "s": 6
+    },
+    "variant_signature": "629590ac7a4ab1075a0c4e2698b470b1e64054d89c2efa3fb616bffd961b01df"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 6,
+            "element": "ray"
+          },
+          {
+            "count": 1,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 6 rays contribute 6.",
+        "Each segment contributes 2 fixed endpoints, so 1 segments contribute 2 x 1. Total: 6 + 2*1."
+      ]
+    },
+    "stem": "On a page, 6 rays and 1 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 6,
+      "s": 1
+    },
+    "variant_signature": "ba35747be4de52e40d12a4268d137d0ed9622f5b153136c2cd77438ede3af090"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 6,
+            "element": "ray"
+          },
+          {
+            "count": 2,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 6 rays contribute 6.",
+        "Each segment contributes 2 fixed endpoints, so 2 segments contribute 2 x 2. Total: 6 + 2*2."
+      ]
+    },
+    "stem": "On a page, 6 rays and 2 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 6,
+      "s": 2
+    },
+    "variant_signature": "fc1ff7ec73bed6899164adc2730822209b0680165a61f1056e67e129b9fe8352"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 6,
+            "element": "ray"
+          },
+          {
+            "count": 3,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 6 rays contribute 6.",
+        "Each segment contributes 2 fixed endpoints, so 3 segments contribute 2 x 3. Total: 6 + 2*3."
+      ]
+    },
+    "stem": "On a page, 6 rays and 3 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 6,
+      "s": 3
+    },
+    "variant_signature": "88fdd9eff46224211f162208134ed5e2a0c1277dd4496324fca6df00946acf27"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 6,
+            "element": "ray"
+          },
+          {
+            "count": 4,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 6 rays contribute 6.",
+        "Each segment contributes 2 fixed endpoints, so 4 segments contribute 2 x 4. Total: 6 + 2*4."
+      ]
+    },
+    "stem": "On a page, 6 rays and 4 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 6,
+      "s": 4
+    },
+    "variant_signature": "51af6eaa5527a190033e847ea28ba3063ec55f879eb90dd47e53db015611e87a"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 6,
+            "element": "ray"
+          },
+          {
+            "count": 5,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ray starts at one fixed point and goes on forever the other way \u2014 how many fixed endpoints does that give it?",
+      "Count ray endpoints and segment endpoints separately, then add: r x 1 + s x 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each ray contributes 1 fixed endpoint (its starting point), so 6 rays contribute 6.",
+        "Each segment contributes 2 fixed endpoints, so 5 segments contribute 2 x 5. Total: 6 + 2*5."
+      ]
+    },
+    "stem": "On a page, 6 rays and 5 line segments are drawn. Each ray has exactly 1 fixed endpoint (the point where it starts, before extending forever in one direction). Each line segment has exactly 2 fixed endpoints. What is the total number of fixed endpoints across all these figures?",
+    "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 6,
+      "s": 5
+    },
+    "variant_signature": "c5529626d338d95df429f7bdb8321207cf704397b1699caa80d451e94ecb622b"
+  }
+]

@@ -1,0 +1,1602 @@
+[
+  {
+    "answer": "125",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "50"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "125 has more digits than 50, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 50 or 125?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 50,
+      "b": 125
+    },
+    "variant_signature": "3d962b5028177a691a60955af12c21d5571c1f794117b9dcef1bf82d38903904"
+  },
+  {
+    "answer": "138",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "51"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "138 has more digits than 51, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 51 or 138?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 51,
+      "b": 138
+    },
+    "variant_signature": "e8d47d4085d0ba8bef07cfbf3cc92d8126949a3f590b848cd83d2f0ffa30e807"
+  },
+  {
+    "answer": "100",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "53"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "100 has more digits than 53, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 53 or 100?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 53,
+      "b": 100
+    },
+    "variant_signature": "43770d935668c9984e7a0f5e89d5e5755ac40818f68959f75b5852546d6986e6"
+  },
+  {
+    "answer": "113",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "54"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "113 has more digits than 54, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 54 or 113?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 54,
+      "b": 113
+    },
+    "variant_signature": "79309fd5fea989244b29c36f3904ad772044bcb9ba60300b7dddc2ed20e9cb02"
+  },
+  {
+    "answer": "125",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "55"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "125 has more digits than 55, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 55 or 125?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 55,
+      "b": 125
+    },
+    "variant_signature": "c8f1faeff879a93840f9a949f4f6eed9bd501831e3e40b15b670497e45337beb"
+  },
+  {
+    "answer": "138",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "56"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "138 has more digits than 56, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 56 or 138?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 56,
+      "b": 138
+    },
+    "variant_signature": "9710ffd204b385ac27600b65d121cebdb33d306c0da50d1a5fab4792a07c9e32"
+  },
+  {
+    "answer": "100",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "58"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "100 has more digits than 58, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 58 or 100?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 58,
+      "b": 100
+    },
+    "variant_signature": "c3f42f86c782cee70a0410cb916f25f3213ee643e705e8331c90bfa7bc3bb486"
+  },
+  {
+    "answer": "113",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "59"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "113 has more digits than 59, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 59 or 113?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 59,
+      "b": 113
+    },
+    "variant_signature": "f6926f1ac4781184cf99d8a1d553ecd6d4ecb5838e94cc284939188a46957228"
+  },
+  {
+    "answer": "125",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "60"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "125 has more digits than 60, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 60 or 125?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 60,
+      "b": 125
+    },
+    "variant_signature": "025b5a4691358980c2e64c6d716612dd0cde6f259622a1d143a8a670f04f32f3"
+  },
+  {
+    "answer": "138",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "61"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "138 has more digits than 61, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 61 or 138?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 61,
+      "b": 138
+    },
+    "variant_signature": "563707cd16d6ae5e16931de0c3b541bf43ba1fd315eb9dfd456cdb42df3cacff"
+  },
+  {
+    "answer": "100",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "63"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "100 has more digits than 63, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 63 or 100?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 63,
+      "b": 100
+    },
+    "variant_signature": "bd9bb213c6803b43c172941c59a9696889a8187728ae77ae58150c71857dff2f"
+  },
+  {
+    "answer": "113",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "64"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "113 has more digits than 64, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 64 or 113?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 64,
+      "b": 113
+    },
+    "variant_signature": "49022f9908c0a747541a492a0a0a1c28b9515d4be4aeee896c1cda0e212fc76a"
+  },
+  {
+    "answer": "125",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "65"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "125 has more digits than 65, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 65 or 125?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 65,
+      "b": 125
+    },
+    "variant_signature": "dde99d0c8ee86badf6c996cd7782bc71214add3ef85705a4f54251a1a350c374"
+  },
+  {
+    "answer": "138",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "66"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "138 has more digits than 66, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 66 or 138?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 66,
+      "b": 138
+    },
+    "variant_signature": "05b4b9b29fbe48aeba2a50a77f61501a8800a6c19c5a9302031634709424e062"
+  },
+  {
+    "answer": "100",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "68"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "100 has more digits than 68, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 68 or 100?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 68,
+      "b": 100
+    },
+    "variant_signature": "b953cd733a743b88c5c9631b193cf3af5bc27c428593772f0e9ebff061bd80ff"
+  },
+  {
+    "answer": "113",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "69"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "113 has more digits than 69, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 69 or 113?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 69,
+      "b": 113
+    },
+    "variant_signature": "37baf4ea88eeac15dad6f3e29925efec513a0cda4c8303a5adf9f77aa0668ecd"
+  },
+  {
+    "answer": "125",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "70"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "125 has more digits than 70, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 70 or 125?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 70,
+      "b": 125
+    },
+    "variant_signature": "abab8348492fc44cdad27f712e88af9d58f50024b4197091b38a2f5e06a8f5a5"
+  },
+  {
+    "answer": "138",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "71"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "138 has more digits than 71, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 71 or 138?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 71,
+      "b": 138
+    },
+    "variant_signature": "4306298cd27862d5383e7068e07dce6bf0cc8893e25c1416a1998c2882ab4f7a"
+  },
+  {
+    "answer": "100",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "73"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "100 has more digits than 73, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 73 or 100?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 73,
+      "b": 100
+    },
+    "variant_signature": "10a566eea3db4a2989de13e9a8ece4e71125f4c0a292df3784754c2c364fd803"
+  },
+  {
+    "answer": "113",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "74"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "113 has more digits than 74, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 74 or 113?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 74,
+      "b": 113
+    },
+    "variant_signature": "afd09df4f51b010b9f5ea5be1b990d08068faa2913371118515f7d814ea536ce"
+  },
+  {
+    "answer": "125",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "75"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "125 has more digits than 75, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 75 or 125?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 75,
+      "b": 125
+    },
+    "variant_signature": "1410c63084041976135eacbbe3b816db4bbe021d0ad7852b3597cc507baddacc"
+  },
+  {
+    "answer": "138",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "76"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "138 has more digits than 76, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 76 or 138?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 76,
+      "b": 138
+    },
+    "variant_signature": "e51c2367a58d24ed0c35588a3ada6b869e838ecd58f4ea7bd0cd16ff0c603414"
+  },
+  {
+    "answer": "100",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "78"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "100 has more digits than 78, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 78 or 100?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 78,
+      "b": 100
+    },
+    "variant_signature": "2704a81babf0cec07729a9c5fd58a9a62c826ba88850b71dd276ca03cff03209"
+  },
+  {
+    "answer": "113",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "79"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "113 has more digits than 79, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 79 or 113?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 79,
+      "b": 113
+    },
+    "variant_signature": "4624b91cae3725510cca9487aaee2c1b70455db4294b4b6c70cedda653dd8bd4"
+  },
+  {
+    "answer": "125",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "80"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "125 has more digits than 80, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 80 or 125?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 80,
+      "b": 125
+    },
+    "variant_signature": "1a8135e5fb79f9c6a3e9869638e2735076d99b0e42b4b0004ad41e53088d46ec"
+  },
+  {
+    "answer": "138",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "81"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "138 has more digits than 81, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 81 or 138?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 81,
+      "b": 138
+    },
+    "variant_signature": "422293785b3973b05d5b0510e6b9c81c047e43d316a5929622dd39e393727903"
+  },
+  {
+    "answer": "100",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "83"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "100 has more digits than 83, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 83 or 100?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 83,
+      "b": 100
+    },
+    "variant_signature": "3de871e5a8b9f021d008e29006b378052d11601387f4729ab15b2ea9f17b8022"
+  },
+  {
+    "answer": "113",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "84"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "113 has more digits than 84, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 84 or 113?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 84,
+      "b": 113
+    },
+    "variant_signature": "75c75179f658d793c735a5ee8740cea43dae8569444176fbbb0e2704b0dbdf4a"
+  },
+  {
+    "answer": "125",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "85"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "125 has more digits than 85, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 85 or 125?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 85,
+      "b": 125
+    },
+    "variant_signature": "cf51513d057bb7aa6da081e24d6b46613b9f34a7b09b14cadea461b73372d9de"
+  },
+  {
+    "answer": "138",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "86"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "138 has more digits than 86, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 86 or 138?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 86,
+      "b": 138
+    },
+    "variant_signature": "b9e66ef13c4f89f329075072e0b1f61db011c2448200ea22f8fa5bf18b5cb9f0"
+  },
+  {
+    "answer": "100",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "88"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "100 has more digits than 88, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 88 or 100?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 88,
+      "b": 100
+    },
+    "variant_signature": "b5daa95fd0b717820cd22c3eb850b53f63d60d3aefc997a1a579babaf48e237c"
+  },
+  {
+    "answer": "113",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "89"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "113 has more digits than 89, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 89 or 113?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 89,
+      "b": 113
+    },
+    "variant_signature": "0a92164a00bee8f12c9b85ef9c910805a2d04c614bb3cb838812d519327e772b"
+  },
+  {
+    "answer": "125",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "90"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "125 has more digits than 90, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 90 or 125?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 90,
+      "b": 125
+    },
+    "variant_signature": "de0d6ca541faf63e55377fa2c646bfa5ceacb69818431100b509ae7576a4688d"
+  },
+  {
+    "answer": "138",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "91"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "138 has more digits than 91, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 91 or 138?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 91,
+      "b": 138
+    },
+    "variant_signature": "a3be73773c5c35978a15c4b69a53ef3d6142b9a6922ebdb839f3c9bfb62670d5"
+  },
+  {
+    "answer": "100",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "93"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "100 has more digits than 93, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 93 or 100?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 93,
+      "b": 100
+    },
+    "variant_signature": "1838c0f9b51b69065859bab153a230e22bf21603bb792bba4e3c2ac7ff8b28f9"
+  },
+  {
+    "answer": "113",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "94"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "113 has more digits than 94, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 94 or 113?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 94,
+      "b": 113
+    },
+    "variant_signature": "0bfdae15c7e4974ffdd5c216b9e03a342fef1c4c7e74328631c3f0e14eba36f2"
+  },
+  {
+    "answer": "125",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "95"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "125 has more digits than 95, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 95 or 125?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 95,
+      "b": 125
+    },
+    "variant_signature": "7f50ea09402de82839c696af910b94de7d7ec4b68a08176575eabc40569d6c5c"
+  },
+  {
+    "answer": "138",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "96"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "138 has more digits than 96, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 96 or 138?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 96,
+      "b": 138
+    },
+    "variant_signature": "00263e42ae1ce36118e186a389746fc6286ac82802b351920bda1f0589121f82"
+  },
+  {
+    "answer": "100",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "98"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "100 has more digits than 98, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 98 or 100?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 98,
+      "b": 100
+    },
+    "variant_signature": "cdec873a1f32343af169d109660b7e7a813d3319872dcc6c95fb68e8c226ac6e"
+  },
+  {
+    "answer": "113",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FIRST-DIGIT-CMP",
+        "unsimplified": false,
+        "value": "99"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the digits in each number first.",
+      "A number with more digits is always bigger, no matter what the first digit is."
+    ],
+    "item_instance_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.CMP.ORDER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "113 has more digits than 99, so it is the larger number regardless of the first digit.",
+        "Any number with more digits is bigger than a number with fewer digits (as long as there is no leading zero)."
+      ]
+    },
+    "stem": "Which number is greater: 99 or 113?",
+    "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 99,
+      "b": 113
+    },
+    "variant_signature": "6d6a5164469c47094fb61807e0d762bfbc2b9c706ac3440c47abc664b298cabe"
+  }
+]

@@ -1,0 +1,3122 @@
+[
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 3 cm each: 3 x 3.",
+        "The last side is 3 + 1 cm because the compass drifted.",
+        "Total = 3 x 3 + (3 + 1)."
+      ]
+    },
+    "stem": "Ravi constructs a square meant to have all sides 3 cm, using a compass. The first three sides come out correctly at 3 cm each, but the compass opening drifts before the last side, which ends up 1 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 1,
+      "n": 3
+    },
+    "variant_signature": "45bbf0ed94e96cefb9f6340d3e0344f3d171e6e59b9f2d46cd21fc7bcc96a56a"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 3 cm each: 3 x 3.",
+        "The last side is 3 + 2 cm because the compass drifted.",
+        "Total = 3 x 3 + (3 + 2)."
+      ]
+    },
+    "stem": "Priya constructs a square meant to have all sides 3 cm, using a compass. The first three sides come out correctly at 3 cm each, but the compass opening drifts before the last side, which ends up 2 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 3
+    },
+    "variant_signature": "758a8d50287ca7d74cede7bd7f82f8e708acde1b4a67770eb59855ef7f3f4074"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 7
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 3 cm each: 3 x 3.",
+        "The last side is 3 + 4 cm because the compass drifted.",
+        "Total = 3 x 3 + (3 + 4)."
+      ]
+    },
+    "stem": "Arjun constructs a square meant to have all sides 3 cm, using a compass. The first three sides come out correctly at 3 cm each, but the compass opening drifts before the last side, which ends up 4 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 3
+    },
+    "variant_signature": "7d20d8d05d52cde1dd7304479032c6e06179ea8e15c1a16944555a48fc10186c"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 3 cm each: 3 x 3.",
+        "The last side is 3 + 5 cm because the compass drifted.",
+        "Total = 3 x 3 + (3 + 5)."
+      ]
+    },
+    "stem": "Meera constructs a square meant to have all sides 3 cm, using a compass. The first three sides come out correctly at 3 cm each, but the compass opening drifts before the last side, which ends up 5 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n": 3
+    },
+    "variant_signature": "78db6dc46e42ffb65805168f1231a7afd0a0fbfa99339d3da09061e7a22199d7"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 4 cm each: 3 x 4.",
+        "The last side is 4 + 2 cm because the compass drifted.",
+        "Total = 3 x 4 + (4 + 2)."
+      ]
+    },
+    "stem": "Diya constructs a square meant to have all sides 4 cm, using a compass. The first three sides come out correctly at 4 cm each, but the compass opening drifts before the last side, which ends up 2 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 4
+    },
+    "variant_signature": "258bd44f25c0cecdf56719381a9f7a8a5e154fcb17222f8ed55218066f193668"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 4 cm each: 3 x 4.",
+        "The last side is 4 + 4 cm because the compass drifted.",
+        "Total = 3 x 4 + (4 + 4)."
+      ]
+    },
+    "stem": "Kabir constructs a square meant to have all sides 4 cm, using a compass. The first three sides come out correctly at 4 cm each, but the compass opening drifts before the last side, which ends up 4 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 4
+    },
+    "variant_signature": "7aa265f66e2fc3ba0d18bdd09a07d9805ef9f17d034f7aaed418707839288975"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 9
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 4 cm each: 3 x 4.",
+        "The last side is 4 + 5 cm because the compass drifted.",
+        "Total = 3 x 4 + (4 + 5)."
+      ]
+    },
+    "stem": "Ananya constructs a square meant to have all sides 4 cm, using a compass. The first three sides come out correctly at 4 cm each, but the compass opening drifts before the last side, which ends up 5 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n": 4
+    },
+    "variant_signature": "0e5130dac244839fbce7fc3f25b21ef9cc7719e4890b0b31e7cfdca5d3959f40"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 7
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 5 cm each: 3 x 5.",
+        "The last side is 5 + 2 cm because the compass drifted.",
+        "Total = 3 x 5 + (5 + 2)."
+      ]
+    },
+    "stem": "Vihaan constructs a square meant to have all sides 5 cm, using a compass. The first three sides come out correctly at 5 cm each, but the compass opening drifts before the last side, which ends up 2 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 5
+    },
+    "variant_signature": "da450856db41a01543b2b26d6bb5da8bdcff7f7532be1f44c03456883f1ef9c8"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 9
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 5 cm each: 3 x 5.",
+        "The last side is 5 + 4 cm because the compass drifted.",
+        "Total = 3 x 5 + (5 + 4)."
+      ]
+    },
+    "stem": "Ravi constructs a square meant to have all sides 5 cm, using a compass. The first three sides come out correctly at 5 cm each, but the compass opening drifts before the last side, which ends up 4 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 5
+    },
+    "variant_signature": "bf397074260b6a7eb70b91198e4c34bf8ae42cb6f4f11c08de5667d4307ad19d"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 5 cm each: 3 x 5.",
+        "The last side is 5 + 5 cm because the compass drifted.",
+        "Total = 3 x 5 + (5 + 5)."
+      ]
+    },
+    "stem": "Priya constructs a square meant to have all sides 5 cm, using a compass. The first three sides come out correctly at 5 cm each, but the compass opening drifts before the last side, which ends up 5 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n": 5
+    },
+    "variant_signature": "f9ef0f0260cce78e29b2c7b4913d46db1ec1157691d719022e5e8cdf79684677"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 6 cm each: 3 x 6.",
+        "The last side is 6 + 2 cm because the compass drifted.",
+        "Total = 3 x 6 + (6 + 2)."
+      ]
+    },
+    "stem": "Arjun constructs a square meant to have all sides 6 cm, using a compass. The first three sides come out correctly at 6 cm each, but the compass opening drifts before the last side, which ends up 2 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 6
+    },
+    "variant_signature": "c574a32faf49c972801a34f67f0aedafeb31415b0bd903e88fbe95b84f533c66"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 9
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 6 cm each: 3 x 6.",
+        "The last side is 6 + 3 cm because the compass drifted.",
+        "Total = 3 x 6 + (6 + 3)."
+      ]
+    },
+    "stem": "Meera constructs a square meant to have all sides 6 cm, using a compass. The first three sides come out correctly at 6 cm each, but the compass opening drifts before the last side, which ends up 3 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n": 6
+    },
+    "variant_signature": "4541353a1fbf169d16486505d27201a50e38df8907aad2be77c33551f3572961"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "44"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 11
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 6 cm each: 3 x 6.",
+        "The last side is 6 + 5 cm because the compass drifted.",
+        "Total = 3 x 6 + (6 + 5)."
+      ]
+    },
+    "stem": "Diya constructs a square meant to have all sides 6 cm, using a compass. The first three sides come out correctly at 6 cm each, but the compass opening drifts before the last side, which ends up 5 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n": 6
+    },
+    "variant_signature": "389ebab4d121832b17ef61d657a338113d5a6eb12df8771989b3b9579e1759ea"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 9
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 7 cm each: 3 x 7.",
+        "The last side is 7 + 2 cm because the compass drifted.",
+        "Total = 3 x 7 + (7 + 2)."
+      ]
+    },
+    "stem": "Kabir constructs a square meant to have all sides 7 cm, using a compass. The first three sides come out correctly at 7 cm each, but the compass opening drifts before the last side, which ends up 2 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 7
+    },
+    "variant_signature": "cc1a599b1a72bcff3d913925ef0bfc27d718c38427400f24e6868d6087b58334"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 7 cm each: 3 x 7.",
+        "The last side is 7 + 3 cm because the compass drifted.",
+        "Total = 3 x 7 + (7 + 3)."
+      ]
+    },
+    "stem": "Ananya constructs a square meant to have all sides 7 cm, using a compass. The first three sides come out correctly at 7 cm each, but the compass opening drifts before the last side, which ends up 3 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n": 7
+    },
+    "variant_signature": "c199da80e0996e3c6a20148abf3c7b673362c2ac84e915dbdc24921fcd52b923"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 12
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 7 cm each: 3 x 7.",
+        "The last side is 7 + 5 cm because the compass drifted.",
+        "Total = 3 x 7 + (7 + 5)."
+      ]
+    },
+    "stem": "Vihaan constructs a square meant to have all sides 7 cm, using a compass. The first three sides come out correctly at 7 cm each, but the compass opening drifts before the last side, which ends up 5 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n": 7
+    },
+    "variant_signature": "0ea48af4ec604589d2f1c2dff10f071ded2ca9d111d5e79cefe617270737e119"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 8 cm each: 3 x 8.",
+        "The last side is 8 + 2 cm because the compass drifted.",
+        "Total = 3 x 8 + (8 + 2)."
+      ]
+    },
+    "stem": "Ravi constructs a square meant to have all sides 8 cm, using a compass. The first three sides come out correctly at 8 cm each, but the compass opening drifts before the last side, which ends up 2 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 8
+    },
+    "variant_signature": "ca9558fd07e34ce8c84969746b756784bf7490b81837fd406854ea4a43da4d9c"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "29"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "44"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 11
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 8 cm each: 3 x 8.",
+        "The last side is 8 + 3 cm because the compass drifted.",
+        "Total = 3 x 8 + (8 + 3)."
+      ]
+    },
+    "stem": "Priya constructs a square meant to have all sides 8 cm, using a compass. The first three sides come out correctly at 8 cm each, but the compass opening drifts before the last side, which ends up 3 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n": 8
+    },
+    "variant_signature": "20da713f80e95d18164beddee48c76907423b51ea0d5ca0a0d809680e9e7d438"
+  },
+  {
+    "answer": "37",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 13
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 8 cm each: 3 x 8.",
+        "The last side is 8 + 5 cm because the compass drifted.",
+        "Total = 3 x 8 + (8 + 5)."
+      ]
+    },
+    "stem": "Arjun constructs a square meant to have all sides 8 cm, using a compass. The first three sides come out correctly at 8 cm each, but the compass opening drifts before the last side, which ends up 5 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n": 8
+    },
+    "variant_signature": "c7557f38f1d8e5bef31c183a7db43126f5a2b1fa9a7e4102c229f33fe45625fe"
+  },
+  {
+    "answer": "37",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "35"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 9 cm each: 3 x 9.",
+        "The last side is 9 + 1 cm because the compass drifted.",
+        "Total = 3 x 9 + (9 + 1)."
+      ]
+    },
+    "stem": "Meera constructs a square meant to have all sides 9 cm, using a compass. The first three sides come out correctly at 9 cm each, but the compass opening drifts before the last side, which ends up 1 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 1,
+      "n": 9
+    },
+    "variant_signature": "f2314fdfcc8d4fec6e0dbc0b1fb5400b1bfb7b572668dc8915b0cad6ecb03e3e"
+  },
+  {
+    "answer": "39",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "33"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 12
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 9 cm each: 3 x 9.",
+        "The last side is 9 + 3 cm because the compass drifted.",
+        "Total = 3 x 9 + (9 + 3)."
+      ]
+    },
+    "stem": "Diya constructs a square meant to have all sides 9 cm, using a compass. The first three sides come out correctly at 9 cm each, but the compass opening drifts before the last side, which ends up 3 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n": 9
+    },
+    "variant_signature": "6fb2e99c8d217d2c1f34e8e174632d7849967fc340da1c2be9358d01ff406307"
+  },
+  {
+    "answer": "41",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 14
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 9 cm each: 3 x 9.",
+        "The last side is 9 + 5 cm because the compass drifted.",
+        "Total = 3 x 9 + (9 + 5)."
+      ]
+    },
+    "stem": "Kabir constructs a square meant to have all sides 9 cm, using a compass. The first three sides come out correctly at 9 cm each, but the compass opening drifts before the last side, which ends up 5 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n": 9
+    },
+    "variant_signature": "323328a445e0af0950ed6cda06c2354b0ab43b4d6a884aa978c6564ec96571e7"
+  },
+  {
+    "answer": "41",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "39"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "44"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 11
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 10 cm each: 3 x 10.",
+        "The last side is 10 + 1 cm because the compass drifted.",
+        "Total = 3 x 10 + (10 + 1)."
+      ]
+    },
+    "stem": "Ananya constructs a square meant to have all sides 10 cm, using a compass. The first three sides come out correctly at 10 cm each, but the compass opening drifts before the last side, which ends up 1 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 1,
+      "n": 10
+    },
+    "variant_signature": "ae543e76ab4f05dfead6de8b6c698d3eb05679314570e8a11770cb25010c981c"
+  },
+  {
+    "answer": "43",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "37"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 13
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 10 cm each: 3 x 10.",
+        "The last side is 10 + 3 cm because the compass drifted.",
+        "Total = 3 x 10 + (10 + 3)."
+      ]
+    },
+    "stem": "Vihaan constructs a square meant to have all sides 10 cm, using a compass. The first three sides come out correctly at 10 cm each, but the compass opening drifts before the last side, which ends up 3 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n": 10
+    },
+    "variant_signature": "57c04aa7f1fc54f5921e8f09caa8d8b8174ae8abfbbcd1bd22a425674b46468d"
+  },
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "35"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 15
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 10 cm each: 3 x 10.",
+        "The last side is 10 + 5 cm because the compass drifted.",
+        "Total = 3 x 10 + (10 + 5)."
+      ]
+    },
+    "stem": "Ravi constructs a square meant to have all sides 10 cm, using a compass. The first three sides come out correctly at 10 cm each, but the compass opening drifts before the last side, which ends up 5 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n": 10
+    },
+    "variant_signature": "d428b4e6915de9fe4d8b6f55f0b0aa1d49260a393ef65402720641e83488d4fe"
+  },
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "44"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "43"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 12
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 11 cm each: 3 x 11.",
+        "The last side is 11 + 1 cm because the compass drifted.",
+        "Total = 3 x 11 + (11 + 1)."
+      ]
+    },
+    "stem": "Priya constructs a square meant to have all sides 11 cm, using a compass. The first three sides come out correctly at 11 cm each, but the compass opening drifts before the last side, which ends up 1 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 1,
+      "n": 11
+    },
+    "variant_signature": "5d19d8ab733d8c8067a628b106c73893430c8bb2a976a704c32e58a5793af614"
+  },
+  {
+    "answer": "47",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "44"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "41"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 14
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 11 cm each: 3 x 11.",
+        "The last side is 11 + 3 cm because the compass drifted.",
+        "Total = 3 x 11 + (11 + 3)."
+      ]
+    },
+    "stem": "Arjun constructs a square meant to have all sides 11 cm, using a compass. The first three sides come out correctly at 11 cm each, but the compass opening drifts before the last side, which ends up 3 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n": 11
+    },
+    "variant_signature": "3e80847326841be0092f3a37d7d5d649ec911d977f5f5891006a5de1e2e9a54b"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "44"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 15
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 11 cm each: 3 x 11.",
+        "The last side is 11 + 4 cm because the compass drifted.",
+        "Total = 3 x 11 + (11 + 4)."
+      ]
+    },
+    "stem": "Meera constructs a square meant to have all sides 11 cm, using a compass. The first three sides come out correctly at 11 cm each, but the compass opening drifts before the last side, which ends up 4 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 11
+    },
+    "variant_signature": "df9cd763bddb96cc40773d6225362795efda6bb18970e1e91791a4f5fef27359"
+  },
+  {
+    "answer": "49",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "47"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 13
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 12 cm each: 3 x 12.",
+        "The last side is 12 + 1 cm because the compass drifted.",
+        "Total = 3 x 12 + (12 + 1)."
+      ]
+    },
+    "stem": "Diya constructs a square meant to have all sides 12 cm, using a compass. The first three sides come out correctly at 12 cm each, but the compass opening drifts before the last side, which ends up 1 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 1,
+      "n": 12
+    },
+    "variant_signature": "9e2fec7354bd1b88af90e9cda766e885e80797ea7c09d8baea8d162330944105"
+  },
+  {
+    "answer": "51",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "45"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 15
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 12 cm each: 3 x 12.",
+        "The last side is 12 + 3 cm because the compass drifted.",
+        "Total = 3 x 12 + (12 + 3)."
+      ]
+    },
+    "stem": "Kabir constructs a square meant to have all sides 12 cm, using a compass. The first three sides come out correctly at 12 cm each, but the compass opening drifts before the last side, which ends up 3 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n": 12
+    },
+    "variant_signature": "f0ee9644400741cf6ff03ec398f1a6236ba1dd252ff6931340cb16892effa842"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "44"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 16
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 12 cm each: 3 x 12.",
+        "The last side is 12 + 4 cm because the compass drifted.",
+        "Total = 3 x 12 + (12 + 4)."
+      ]
+    },
+    "stem": "Ananya constructs a square meant to have all sides 12 cm, using a compass. The first three sides come out correctly at 12 cm each, but the compass opening drifts before the last side, which ends up 4 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 12
+    },
+    "variant_signature": "d98a93e90d4719a3f99452900d3d587f45951a4a13065b2d087e11ec532dcd1e"
+  },
+  {
+    "answer": "53",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "51"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 14
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 13 cm each: 3 x 13.",
+        "The last side is 13 + 1 cm because the compass drifted.",
+        "Total = 3 x 13 + (13 + 1)."
+      ]
+    },
+    "stem": "Vihaan constructs a square meant to have all sides 13 cm, using a compass. The first three sides come out correctly at 13 cm each, but the compass opening drifts before the last side, which ends up 1 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 1,
+      "n": 13
+    },
+    "variant_signature": "66fdb9736d039f539f645fd141e909a9f062c267c8ccd6df20622b09ff35abe8"
+  },
+  {
+    "answer": "55",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "49"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 16
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 13 cm each: 3 x 13.",
+        "The last side is 13 + 3 cm because the compass drifted.",
+        "Total = 3 x 13 + (13 + 3)."
+      ]
+    },
+    "stem": "Ravi constructs a square meant to have all sides 13 cm, using a compass. The first three sides come out correctly at 13 cm each, but the compass opening drifts before the last side, which ends up 3 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n": 13
+    },
+    "variant_signature": "94d4c60daf2127c93bce6cb6adc7559794a31699f7638a19077e8574059539ad"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "68"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 17
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 13 cm each: 3 x 13.",
+        "The last side is 13 + 4 cm because the compass drifted.",
+        "Total = 3 x 13 + (13 + 4)."
+      ]
+    },
+    "stem": "Priya constructs a square meant to have all sides 13 cm, using a compass. The first three sides come out correctly at 13 cm each, but the compass opening drifts before the last side, which ends up 4 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 13
+    },
+    "variant_signature": "ba94dfad844eb992d512ed66b79b86208e8ee4850ec81198c64c277a7d6853cf"
+  },
+  {
+    "answer": "57",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "55"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 14
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 14
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 14
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 15
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 14 cm each: 3 x 14.",
+        "The last side is 14 + 1 cm because the compass drifted.",
+        "Total = 3 x 14 + (14 + 1)."
+      ]
+    },
+    "stem": "Arjun constructs a square meant to have all sides 14 cm, using a compass. The first three sides come out correctly at 14 cm each, but the compass opening drifts before the last side, which ends up 1 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 1,
+      "n": 14
+    },
+    "variant_signature": "77c6839a5cf18913eaf0de583a562d631c5e63cb2c848db4ff07bd9636d8bd38"
+  },
+  {
+    "answer": "58",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "54"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 14
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 14
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 14
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 16
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 14 cm each: 3 x 14.",
+        "The last side is 14 + 2 cm because the compass drifted.",
+        "Total = 3 x 14 + (14 + 2)."
+      ]
+    },
+    "stem": "Meera constructs a square meant to have all sides 14 cm, using a compass. The first three sides come out correctly at 14 cm each, but the compass opening drifts before the last side, which ends up 2 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 14
+    },
+    "variant_signature": "4af2116ec8f88d6a1bb4610e57bdf341cbdc9836c84c157e2cfa01e0860ae7d5"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "52"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "72"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 14
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 14
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 14
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 18
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 14 cm each: 3 x 14.",
+        "The last side is 14 + 4 cm because the compass drifted.",
+        "Total = 3 x 14 + (14 + 4)."
+      ]
+    },
+    "stem": "Diya constructs a square meant to have all sides 14 cm, using a compass. The first three sides come out correctly at 14 cm each, but the compass opening drifts before the last side, which ends up 4 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 14
+    },
+    "variant_signature": "c8917136f90c6e492bd7e510a24df34aacabd7df8fc720942d3d6c77edd899fd"
+  },
+  {
+    "answer": "61",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "59"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 15
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 15
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 15
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 16
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 15 cm each: 3 x 15.",
+        "The last side is 15 + 1 cm because the compass drifted.",
+        "Total = 3 x 15 + (15 + 1)."
+      ]
+    },
+    "stem": "Kabir constructs a square meant to have all sides 15 cm, using a compass. The first three sides come out correctly at 15 cm each, but the compass opening drifts before the last side, which ends up 1 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 1,
+      "n": 15
+    },
+    "variant_signature": "de8c1ecfe441408f6892dba6466345faf86767e8fdd82ac2557681f7394989ef"
+  },
+  {
+    "answer": "62",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "58"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "68"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 15
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 15
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 15
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 17
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 15 cm each: 3 x 15.",
+        "The last side is 15 + 2 cm because the compass drifted.",
+        "Total = 3 x 15 + (15 + 2)."
+      ]
+    },
+    "stem": "Ananya constructs a square meant to have all sides 15 cm, using a compass. The first three sides come out correctly at 15 cm each, but the compass opening drifts before the last side, which ends up 2 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 15
+    },
+    "variant_signature": "621b8083532e6cdfb0c6338fbf40c7a4f3fa0501eae20fad247f962d226bb3b8"
+  },
+  {
+    "answer": "64",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      },
+      {
+        "misconception_id": "MISC.GEO.CONSTRUCT.COMPASS-SLIP",
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "76"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 15
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 15
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 15
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 19
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Three sides didn't change \u2014 only add the drift to the fourth side.",
+      "Add the three correct sides to the one longer side."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Three sides are correct at 15 cm each: 3 x 15.",
+        "The last side is 15 + 4 cm because the compass drifted.",
+        "Total = 3 x 15 + (15 + 4)."
+      ]
+    },
+    "stem": "Vihaan constructs a square meant to have all sides 15 cm, using a compass. The first three sides come out correctly at 15 cm each, but the compass opening drifts before the last side, which ends up 4 cm too long. What is the actual (wrong) perimeter that results, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 15
+    },
+    "variant_signature": "09bd0c6d6cf236c58d7059f77b5ce2f11be3e6c2479b172e186666e76e8bab86"
+  }
+]

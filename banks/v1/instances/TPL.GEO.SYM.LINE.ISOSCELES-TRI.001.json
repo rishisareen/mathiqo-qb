@@ -1,0 +1,3162 @@
+[
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 4 cm and BC = 3 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 4,
+      "q": 3
+    },
+    "variant_signature": "6dfcfabf880854f707ca273eafd7f63675484cbe88cb51e8b615750f8aad9ed5"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 4 cm and BC = 5 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 4,
+      "q": 5
+    },
+    "variant_signature": "152a8a1c3e952533026b5c2d6132a877cdb3d2e27a8e6cea7802c1b20f95effa"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 4 cm and BC = 6 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 4,
+      "q": 6
+    },
+    "variant_signature": "a8f41109ad7a7dec3ebbbf10271630d604c7c1b4da1e7a73b741c2b414dae3a9"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 4 cm and BC = 7 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 4,
+      "q": 7
+    },
+    "variant_signature": "1fda2be248a60f00ad878c1b41c989564d5148501d0d70dd897fdd7c03dc1c8f"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 5 cm and BC = 3 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 3
+    },
+    "variant_signature": "f089e169dc93966619be615eb77c60f0b633e846b5e0e516cac4ffa78c3d12eb"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 5 cm and BC = 4 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 4
+    },
+    "variant_signature": "3acad23ecd103f09ee162e52cb8b2e81199e5d33941fdc929ac4b0189e4051f5"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 5 cm and BC = 6 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 6
+    },
+    "variant_signature": "e1c99b4fa7a26b9b47d4b40da8b912f2437aac0c27b5188ec8ab9a39af0593e1"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 5 cm and BC = 7 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 7
+    },
+    "variant_signature": "81260c3645361a65baa12da0710b4ec64ae7a41192dd801a8508533f6beb2076"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 5 cm and BC = 8 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 8
+    },
+    "variant_signature": "bb08fdfd265dfcddc304707abb6050e78c9a92c81d974dcc546794b8e01eeec4"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 5 cm and BC = 9 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 9
+    },
+    "variant_signature": "67a293fbfd58f23ae02d8430bff9e97b13f7554983395a77f18abc20d3868c77"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 6 cm and BC = 3 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 3
+    },
+    "variant_signature": "67b23ca0ae54ec0e996ab6e3f4b508708e1a0cd2a71c95a2241de92d8ea03435"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 6 cm and BC = 4 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 4
+    },
+    "variant_signature": "55c7110be60dc91dcdc0c3ecd908a6143f0dcefab70f9ef7f784b7d53d010738"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 6 cm and BC = 5 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 5
+    },
+    "variant_signature": "5287a288dfff581475ca88df172563b6ee896f7ee85072c7e0ea15a21b068a81"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 6 cm and BC = 7 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 7
+    },
+    "variant_signature": "bcc98c312343e6d539669b6d2b2dd003032f77ad3f69da288644633e2785798c"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 6 cm and BC = 8 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 8
+    },
+    "variant_signature": "7bb53173115016075a9412c4c2abd280096c50de4a983472cad1d3a0d1846ddb"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 6 cm and BC = 9 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 9
+    },
+    "variant_signature": "3974ea4711de0f7318bcb714176223d1e89f800c3f094a6d9269d4f127338c3e"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 7 cm and BC = 3 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 3
+    },
+    "variant_signature": "eda3a21ebab4724fe6cafe8fa50fe3e2ba9d75fa404fd6cf659f53c1296a5a18"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 7 cm and BC = 4 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 4
+    },
+    "variant_signature": "9d98dc117b8574865e91947ab6554da37b5b0433dbce66cdbe326972d31dbd13"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 7 cm and BC = 5 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 5
+    },
+    "variant_signature": "c16201c8501fa7b14a9b606b54d4f07127fa304b576d29e28a3584775447880e"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 7 cm and BC = 6 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 6
+    },
+    "variant_signature": "7942415ea3f6ec35456a6c83f77b642f2ebbb4c2441304842b9c8dc3e24916b2"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 7 cm and BC = 8 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 8
+    },
+    "variant_signature": "6ef76883dd03e1f453cc87bb3e9e87630b610c05db1bbba22bf11097d8c57ca2"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 7 cm and BC = 9 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 9
+    },
+    "variant_signature": "dd7c3b023a89d1b63aba3690ae114964c0b3f92e4e84cc5ef07fd4e9a995379c"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 8 cm and BC = 3 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 3
+    },
+    "variant_signature": "f0bb02256af0d0350a75f4c3f48b67287f8e1fee9ba6307e584f7d668f5f3297"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 8 cm and BC = 5 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 5
+    },
+    "variant_signature": "a795e44acd9121e73cd7924724b8fe4f65bebca01ca9da7c971db65e789210de"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 8 cm and BC = 6 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 6
+    },
+    "variant_signature": "ff20b991c4858cb7b488a95d8465fa9a4a2e39422fc9b0929f7dd15c768dd877"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 8 cm and BC = 7 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 7
+    },
+    "variant_signature": "f58f4043a8e0de84d7adda0502785e6301637c5a903fabfc8e39fdacabf66e31"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 8 cm and BC = 9 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 9
+    },
+    "variant_signature": "3903a1b2c08ea657e10b3f197c1255f5dd6fd6622eafb25c31f9666a7ddfaa26"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 9 cm and BC = 3 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 3
+    },
+    "variant_signature": "be6c50d8225462e44f22f585673a980be71b72e2b6aeeed8200fd9d0f3270bb1"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 9 cm and BC = 4 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 4
+    },
+    "variant_signature": "88aa611142559f005c6eaf2a59259ac072edbc357951b812ebc021625a205362"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 9 cm and BC = 5 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 5
+    },
+    "variant_signature": "386d593f92aaac996380a1f293dbd8b63aefa8136f89d65b1fadfd0370a4dc42"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 9 cm and BC = 6 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 6
+    },
+    "variant_signature": "3c375085c3e2f816aa0b84dc2d1ee6770330cd330163d2d0a30015af81433461"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 9 cm and BC = 7 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 7
+    },
+    "variant_signature": "f4c5e686622c3783875eb803189b47b0432e8f0ae4529b944650e15751dd32fc"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 9 cm and BC = 8 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 8
+    },
+    "variant_signature": "43fd10ec1ee911d84e4e253fd61104f4759363bce4543633ee21f03790367c4c"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 10 cm and BC = 3 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 10,
+      "q": 3
+    },
+    "variant_signature": "96f826c71ffe315eb7323c82ca352683bf28097ec6e7f04e54f1554e15fd54f9"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 10 cm and BC = 4 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 10,
+      "q": 4
+    },
+    "variant_signature": "03c2a959b36976a113897ec79e98ba7a1e4b76c78009527dfe57c3f3aaa52fac"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 10 cm and BC = 5 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 10,
+      "q": 5
+    },
+    "variant_signature": "3425c4f4aaa1c126c97a053cb4c87e4f91efb7b22b25ffb7ad5fac2343c7f2a5"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 10 cm and BC = 6 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 10,
+      "q": 6
+    },
+    "variant_signature": "f9da5924337dafda700ffe7686668cb5330809142ae2959c970ec9bfe3635892"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 10 cm and BC = 7 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 10,
+      "q": 7
+    },
+    "variant_signature": "15f11b6b83b6ceb9ab4f1618efb2430eb499f2477d640c0b4e286f49cc48e0fe"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 10 cm and BC = 8 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 10,
+      "q": 8
+    },
+    "variant_signature": "3a889e22422f2d0aa962a08331509fac448f96c97828df8f5c7f9642b24e11de"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "isosceles-triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "A",
+          "B",
+          "C"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which vertex sits between the two equal sides?",
+      "Only the fold line through that vertex and the midpoint of the opposite side makes the two halves match."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Triangle ABC has two equal sides (AB = AC) but its third side BC is different, so it is isosceles, not equilateral.",
+        "It has exactly one line of symmetry \u2014 the line from A to the midpoint of BC.",
+        "An equilateral triangle would have 3 lines of symmetry, but here the sides are not all equal, so only one fold line works."
+      ]
+    },
+    "stem": "Triangle ABC has AB = AC = 10 cm and BC = 9 cm, with AB not equal to BC (so ABC is isosceles but not equilateral). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 10,
+      "q": 9
+    },
+    "variant_signature": "ab27323daa3f06afd18816759d46dfbe1e9649d37fa91d94b7fd37e4652d55d9"
+  }
+]

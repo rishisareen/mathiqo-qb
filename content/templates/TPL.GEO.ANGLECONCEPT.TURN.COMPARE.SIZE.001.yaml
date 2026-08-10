@@ -52,19 +52,15 @@ bank_version: "dev"
 graph_version: "1.0.0"
 figure:
   # Angle M turns p hour-marks and Angle N turns q, both from the 12 on a
-  # numbered clock face (30 degrees per mark) -- clock stays accurate here,
-  # unlike the arm-length items, since this stem has no arm-length dimension
-  # to undercut. Two entries, tied together with shared_vertex since the
-  # stem states they meet at the same vertex; the stem states no arm
-  # lengths, so the figure asserts none.
+  # numbered clock face (30 degrees per mark). Two entries because the two
+  # turns genuinely differ. The stem states no arm lengths, so the figure
+  # asserts none.
   - kind: angle
     degrees_expr: "30*p"
     context: clock
-    shared_vertex: "O"
   - kind: angle
     degrees_expr: "30*q"
     context: clock
-    shared_vertex: "O"
 tts: false
 exam_contexts:
   - SCHOOL_EXAM

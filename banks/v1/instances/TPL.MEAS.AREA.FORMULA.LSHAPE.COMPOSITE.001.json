@@ -1,0 +1,2962 @@
+[
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 3 x 3 and 3 x 4.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 3 m by 3 m, and the other measuring 3 m by 4 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 3,
+      "c": 3,
+      "d": 4
+    },
+    "variant_signature": "92f62c41ebcc4e40efe57a39c7a5be87f983160457c17edb1c41ba9b5a7d3302"
+  },
+  {
+    "answer": "65",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "110"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 3 x 3 and 8 x 7.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 3 m by 3 m, and the other measuring 8 m by 7 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 3,
+      "c": 8,
+      "d": 7
+    },
+    "variant_signature": "bca5e65280399c834849b1f7f18799133462e5eaebb9bc28d4009026b4bdd746"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "77"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 3 x 4 and 8 x 3.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 3 m by 4 m, and the other measuring 8 m by 3 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 4,
+      "c": 8,
+      "d": 3
+    },
+    "variant_signature": "8874280d1f2f1fa4e2c616133e4b81fb88285818f834d8df3d514c14f74e9223"
+  },
+  {
+    "answer": "50",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "100"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 7
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 3 x 5 and 7 x 5.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 3 m by 5 m, and the other measuring 7 m by 5 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 5,
+      "c": 7,
+      "d": 5
+    },
+    "variant_signature": "c69e9305896339479624403a809e8355a1272312620c5d8f5808bbc747bb604e"
+  },
+  {
+    "answer": "66",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "126"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 3 x 6 and 6 x 8.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 3 m by 6 m, and the other measuring 6 m by 8 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 6,
+      "c": 6,
+      "d": 8
+    },
+    "variant_signature": "9841cb7e40092fc7ba6281a117f9b540d5a6424c41c808965d00905db4e35152"
+  },
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "99"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 3 x 7 and 6 x 4.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 3 m by 7 m, and the other measuring 6 m by 4 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 7,
+      "c": 6,
+      "d": 4
+    },
+    "variant_signature": "a38734093cf42c7dc97c62e1beb1ce6b7bd5c755b0bf410db24a25d74ee549ff"
+  },
+  {
+    "answer": "59",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "120"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 3 x 8 and 5 x 7.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 3 m by 8 m, and the other measuring 5 m by 7 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 8,
+      "c": 5,
+      "d": 7
+    },
+    "variant_signature": "5edb19e7669f590205e37dde91a5bccc82c8849bffce54a1e829ca8a24c604f8"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "54"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 4 x 3 and 5 x 3.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 4 m by 3 m, and the other measuring 5 m by 3 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 3,
+      "c": 5,
+      "d": 3
+    },
+    "variant_signature": "7fc439847009e3e75db4bd13b4b2cd45e26cbab008b2a356b64a82784c62cd34"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "72"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 4 x 4 and 4 x 5.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 4 m by 4 m, and the other measuring 4 m by 5 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 4,
+      "c": 4,
+      "d": 5
+    },
+    "variant_signature": "45e282c87fd6ca2ea579b9ace120793696223463d8cce69159f23edeef8aa713"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "91"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 4 x 5 and 3 x 8.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 4 m by 5 m, and the other measuring 3 m by 8 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 5,
+      "c": 3,
+      "d": 8
+    },
+    "variant_signature": "6383024d4ab1cab0b97d441cc920ac4487ae2ec55df4e1d07f2569af03a44ae3"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "70"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 4 x 6 and 3 x 4.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 4 m by 6 m, and the other measuring 3 m by 4 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 6,
+      "c": 3,
+      "d": 4
+    },
+    "variant_signature": "e4c965f57e1d9a0e6535c3fbbc016d189ab626a53904b4d2c15a76d0bb8d3976"
+  },
+  {
+    "answer": "80",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "156"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 4 x 6 and 8 x 7.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 4 m by 6 m, and the other measuring 8 m by 7 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 6,
+      "c": 8,
+      "d": 7
+    },
+    "variant_signature": "664297a9648db0268e4848b752b6947ec99d074406cf3a3051d6f92848468246"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "120"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 4 x 7 and 8 x 3.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 4 m by 7 m, and the other measuring 8 m by 3 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 7,
+      "c": 8,
+      "d": 3
+    },
+    "variant_signature": "d985c8385b25ca3516a6e11433c444f1ac9a2f3a2cca19543570d05dbd4220d9"
+  },
+  {
+    "answer": "67",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "143"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 7
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 4 x 8 and 7 x 5.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 4 m by 8 m, and the other measuring 7 m by 5 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 8,
+      "c": 7,
+      "d": 5
+    },
+    "variant_signature": "206b7f536de6dfeaaf7ca705cdf9425ce9721a502f8aed4e87960ae724f0d5f2"
+  },
+  {
+    "answer": "63",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "121"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 5 x 3 and 6 x 8.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 5 m by 3 m, and the other measuring 6 m by 8 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 3,
+      "c": 6,
+      "d": 8
+    },
+    "variant_signature": "469fde4b093ee50a1cfe541be940cc930374e8d6a0af897b39efb954d39c2929"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "88"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 5 x 4 and 6 x 4.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 5 m by 4 m, and the other measuring 6 m by 4 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 4,
+      "c": 6,
+      "d": 4
+    },
+    "variant_signature": "81af3e9e2e8a86a03d39e091f7196503bbe85f00b415a84d21eeb1be20d2c905"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "120"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 5 x 5 and 5 x 7.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 5 m by 5 m, and the other measuring 5 m by 7 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 5,
+      "c": 5,
+      "d": 7
+    },
+    "variant_signature": "86069487bbf41660b9ff73c3f150f107a70b46341a0e07c780b071ed2c7fd4bb"
+  },
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "90"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 5 x 6 and 5 x 3.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 5 m by 6 m, and the other measuring 5 m by 3 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 6,
+      "c": 5,
+      "d": 3
+    },
+    "variant_signature": "68d96f751d346da6a8cd57f88401cd457bcd1fb7c6e59c0d9a69670cc675b9c1"
+  },
+  {
+    "answer": "55",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "108"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 5 x 7 and 4 x 5.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 5 m by 7 m, and the other measuring 4 m by 5 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 7,
+      "c": 4,
+      "d": 5
+    },
+    "variant_signature": "865f132eb85597d325a3f94b4c08d9d4d589133f57c2d8cd963faecf969bda41"
+  },
+  {
+    "answer": "64",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "128"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 5 x 8 and 3 x 8.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 5 m by 8 m, and the other measuring 3 m by 8 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 8,
+      "c": 3,
+      "d": 8
+    },
+    "variant_signature": "6c32df804188f2ec69acafeff9001792fc1e58a0dc2d9d78cc74b46c5f2b30b7"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "63"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 6 x 3 and 3 x 4.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 6 m by 3 m, and the other measuring 3 m by 4 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 3,
+      "c": 3,
+      "d": 4
+    },
+    "variant_signature": "d2b11704c2721b581b96cf47c4a01a15d28f34328bb4363cef37f9b10e06ea09"
+  },
+  {
+    "answer": "74",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "140"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 6 x 3 and 8 x 7.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 6 m by 3 m, and the other measuring 8 m by 7 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 3,
+      "c": 8,
+      "d": 7
+    },
+    "variant_signature": "4f9a379daa5fe2e31de5089e54d1d2a74ae93b229ea6ca148a3ccbb8d54f82b6"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "98"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 6 x 4 and 8 x 3.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 6 m by 4 m, and the other measuring 8 m by 3 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 4,
+      "c": 8,
+      "d": 3
+    },
+    "variant_signature": "78dc0c04ff6fc8e3540eea2da1daaa49415ad48f5f653266d0a8e0631bf59b43"
+  },
+  {
+    "answer": "65",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "130"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 7
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 6 x 5 and 7 x 5.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 6 m by 5 m, and the other measuring 7 m by 5 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 5,
+      "c": 7,
+      "d": 5
+    },
+    "variant_signature": "df48ed1be720fefe15986967e025669c753ec6d1a5bb1b435d51cef9c51753c1"
+  },
+  {
+    "answer": "84",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "168"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 6 x 6 and 6 x 8.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 6 m by 6 m, and the other measuring 6 m by 8 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 6,
+      "c": 6,
+      "d": 8
+    },
+    "variant_signature": "8ccaad0eea3a8eb709cf8dea55234388d823d9a4b8c3115e152c268918c920b0"
+  },
+  {
+    "answer": "66",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "132"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 6 x 7 and 6 x 4.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 6 m by 7 m, and the other measuring 6 m by 4 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 7,
+      "c": 6,
+      "d": 4
+    },
+    "variant_signature": "be4481752443a19ac168f8eb23cdcab32dcb33106cb4d1b00c47bbc97806d1ef"
+  },
+  {
+    "answer": "83",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "165"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 6 x 8 and 5 x 7.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 6 m by 8 m, and the other measuring 5 m by 7 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 8,
+      "c": 5,
+      "d": 7
+    },
+    "variant_signature": "8597c7865475beb6aff07cbc3276223817669739cba1a28332a4f2b36d7c6f9f"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "72"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 7 x 3 and 5 x 3.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 7 m by 3 m, and the other measuring 5 m by 3 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 3,
+      "c": 5,
+      "d": 3
+    },
+    "variant_signature": "b705ba742c2a813ac63fd06eb25164cb33966ecb018467dcbe1f9ba7cc6a2629"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "99"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 7 x 4 and 4 x 5.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 7 m by 4 m, and the other measuring 4 m by 5 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 4,
+      "c": 4,
+      "d": 5
+    },
+    "variant_signature": "cfd0d3951d1e907815e38cc0f6e96552fbe9b292250bbb0a82fa71c8f405c39e"
+  },
+  {
+    "answer": "59",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "130"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 7 x 5 and 3 x 8.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 7 m by 5 m, and the other measuring 3 m by 8 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 5,
+      "c": 3,
+      "d": 8
+    },
+    "variant_signature": "23955c13c2fb8571f15611d8b0075d073c8d2fc2c6fee88d1cfd8b96cb565537"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "100"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 7 x 6 and 3 x 4.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 7 m by 6 m, and the other measuring 3 m by 4 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 6,
+      "c": 3,
+      "d": 4
+    },
+    "variant_signature": "f006c167b4b31791f68d40afe0800ef3b782a844b66cad52d30d2d8bf164a1ca"
+  },
+  {
+    "answer": "98",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "195"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 7 x 6 and 8 x 7.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 7 m by 6 m, and the other measuring 8 m by 7 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 6,
+      "c": 8,
+      "d": 7
+    },
+    "variant_signature": "4165e194d2b6aeddb7a3023e653b521fbf4403b3d7947535f100618f257ef690"
+  },
+  {
+    "answer": "73",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "150"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 7 x 7 and 8 x 3.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 7 m by 7 m, and the other measuring 8 m by 3 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 7,
+      "c": 8,
+      "d": 3
+    },
+    "variant_signature": "2e66394c35e7cfa376d03a41d3c454e7f18d4603b9541b28cd2039e1d6c42936"
+  },
+  {
+    "answer": "91",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "182"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 7
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 7 x 8 and 7 x 5.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 7 m by 8 m, and the other measuring 7 m by 5 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 8,
+      "c": 7,
+      "d": 5
+    },
+    "variant_signature": "fde86b43e78bfaddb27a7eb36350ac475c0c69bfff9099af190d4813adc36dad"
+  },
+  {
+    "answer": "72",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "154"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 8 x 3 and 6 x 8.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 8 m by 3 m, and the other measuring 6 m by 8 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 3,
+      "c": 6,
+      "d": 8
+    },
+    "variant_signature": "075eb7a6c475f7182a2a0b7808b19c2fbf40ec96c7a2f4e92b6403fcac4bb0d7"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "112"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 4
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 8 x 4 and 6 x 4.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 8 m by 4 m, and the other measuring 6 m by 4 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 4,
+      "c": 6,
+      "d": 4
+    },
+    "variant_signature": "a6bd86351ba8c4ae4862203adefb94dc72d8e187848fc58a453deb1bfc865a39"
+  },
+  {
+    "answer": "75",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "156"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 8 x 5 and 5 x 7.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 8 m by 5 m, and the other measuring 5 m by 7 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 5,
+      "c": 5,
+      "d": 7
+    },
+    "variant_signature": "f23bd8eebf2bdadfca67e812333f89004cd6eb7b10239bcab299b2c81597c45a"
+  },
+  {
+    "answer": "63",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "117"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 6
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 3
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 8 x 6 and 5 x 3.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 8 m by 6 m, and the other measuring 5 m by 3 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 6,
+      "c": 5,
+      "d": 3
+    },
+    "variant_signature": "68d10e991f01ed76efdda060650265e4b035928cb89682ae3706f01766d82e5a"
+  },
+  {
+    "answer": "76",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "144"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 8 x 7 and 4 x 5.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 8 m by 7 m, and the other measuring 4 m by 5 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 7,
+      "c": 4,
+      "d": 5
+    },
+    "variant_signature": "ea78ca4517c44cf207e900d04dd6cef5e36ce052ba3e5523892e71d93d281ac1"
+  },
+  {
+    "answer": "88",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "176"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "composite-l",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 3,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 4,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Split the L-shape into its two rectangular sections and find each area on its own.",
+      "Add the two section areas \u2014 don't just add all four side lengths, and don't treat it as one big rectangle."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the area of each rectangular section separately: 8 x 8 and 3 x 8.",
+        "Add the two areas together to get the total floor area."
+      ]
+    },
+    "stem": "An L-shaped hall is made of two rectangular sections: one measuring 8 m by 8 m, and the other measuring 3 m by 8 m. What is the total floor area of the hall, in square metres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 8,
+      "c": 3,
+      "d": 8
+    },
+    "variant_signature": "11fb128eca344e2bdc65ff9d59f8d443c41d1c0ad3c13f5e8805852e9ccf1c0d"
+  }
+]

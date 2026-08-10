@@ -1,0 +1,706 @@
+[
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 10, which has one more entry than just counting 2, 4, ..., 10 because 0 is also even and belongs in the list.",
+        "There are 10 / 2 even numbers from 2 to 10, plus 1 more for 0, giving (10 / 2) + 1."
+      ]
+    },
+    "stem": "Ravi lists every even number starting from 0 up to 10: 0, 2, 4, 6, ..., 10. How many even numbers are in Ravi's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 10
+    },
+    "variant_signature": "f1758feda9f1ebb15e22b051b68d41764785d45e4640d1c9bd26d05c38036619"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 12, which has one more entry than just counting 2, 4, ..., 12 because 0 is also even and belongs in the list.",
+        "There are 12 / 2 even numbers from 2 to 12, plus 1 more for 0, giving (12 / 2) + 1."
+      ]
+    },
+    "stem": "Priya lists every even number starting from 0 up to 12: 0, 2, 4, 6, ..., 12. How many even numbers are in Priya's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 12
+    },
+    "variant_signature": "0756df48af1e7c3b207f73f3ead023e9fe33147315cec7a55e40b9a96641d0f3"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 14, which has one more entry than just counting 2, 4, ..., 14 because 0 is also even and belongs in the list.",
+        "There are 14 / 2 even numbers from 2 to 14, plus 1 more for 0, giving (14 / 2) + 1."
+      ]
+    },
+    "stem": "Arjun lists every even number starting from 0 up to 14: 0, 2, 4, 6, ..., 14. How many even numbers are in Arjun's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 14
+    },
+    "variant_signature": "c2ddd5dee788397c1f9b041bab890c5347c0603b87400fe9b33353870c24284f"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 16, which has one more entry than just counting 2, 4, ..., 16 because 0 is also even and belongs in the list.",
+        "There are 16 / 2 even numbers from 2 to 16, plus 1 more for 0, giving (16 / 2) + 1."
+      ]
+    },
+    "stem": "Meera lists every even number starting from 0 up to 16: 0, 2, 4, 6, ..., 16. How many even numbers are in Meera's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 16
+    },
+    "variant_signature": "c563b7e96e7cef67d0619903bc2969077525a4c43f81057945c24f512a02712a"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 18, which has one more entry than just counting 2, 4, ..., 18 because 0 is also even and belongs in the list.",
+        "There are 18 / 2 even numbers from 2 to 18, plus 1 more for 0, giving (18 / 2) + 1."
+      ]
+    },
+    "stem": "Diya lists every even number starting from 0 up to 18: 0, 2, 4, 6, ..., 18. How many even numbers are in Diya's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 18
+    },
+    "variant_signature": "af42ae32e7d87d8b7622404ebfe65eb61338bf0d1e8f65ac6a7b0347b613534f"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 20, which has one more entry than just counting 2, 4, ..., 20 because 0 is also even and belongs in the list.",
+        "There are 20 / 2 even numbers from 2 to 20, plus 1 more for 0, giving (20 / 2) + 1."
+      ]
+    },
+    "stem": "Kabir lists every even number starting from 0 up to 20: 0, 2, 4, 6, ..., 20. How many even numbers are in Kabir's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 20
+    },
+    "variant_signature": "1010986b2f691189f714d8cba8f048fee496c2818c0e89218fda2b55f024ac70"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 22, which has one more entry than just counting 2, 4, ..., 22 because 0 is also even and belongs in the list.",
+        "There are 22 / 2 even numbers from 2 to 22, plus 1 more for 0, giving (22 / 2) + 1."
+      ]
+    },
+    "stem": "Ananya lists every even number starting from 0 up to 22: 0, 2, 4, 6, ..., 22. How many even numbers are in Ananya's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 22
+    },
+    "variant_signature": "94d95d5519cd7a41c6a800d183197a6b515b186f386ae8a9df6b3f708a55bb1e"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 24, which has one more entry than just counting 2, 4, ..., 24 because 0 is also even and belongs in the list.",
+        "There are 24 / 2 even numbers from 2 to 24, plus 1 more for 0, giving (24 / 2) + 1."
+      ]
+    },
+    "stem": "Vihaan lists every even number starting from 0 up to 24: 0, 2, 4, 6, ..., 24. How many even numbers are in Vihaan's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 24
+    },
+    "variant_signature": "b670397343abf93d34a635a292954239caca2f12a8ef10ab97e1b8713cf92e95"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 26, which has one more entry than just counting 2, 4, ..., 26 because 0 is also even and belongs in the list.",
+        "There are 26 / 2 even numbers from 2 to 26, plus 1 more for 0, giving (26 / 2) + 1."
+      ]
+    },
+    "stem": "Ravi lists every even number starting from 0 up to 26: 0, 2, 4, 6, ..., 26. How many even numbers are in Ravi's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 26
+    },
+    "variant_signature": "d8522ef57258533c995adabbdce1e36e4e49f6bb05af3e2f0ee5e2be3bd6c4dd"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 28, which has one more entry than just counting 2, 4, ..., 28 because 0 is also even and belongs in the list.",
+        "There are 28 / 2 even numbers from 2 to 28, plus 1 more for 0, giving (28 / 2) + 1."
+      ]
+    },
+    "stem": "Priya lists every even number starting from 0 up to 28: 0, 2, 4, 6, ..., 28. How many even numbers are in Priya's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 28
+    },
+    "variant_signature": "cd7acc13c369f7f864fbbceb5d6171008913348ef424131b5fbf4e26d3a71315"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 30, which has one more entry than just counting 2, 4, ..., 30 because 0 is also even and belongs in the list.",
+        "There are 30 / 2 even numbers from 2 to 30, plus 1 more for 0, giving (30 / 2) + 1."
+      ]
+    },
+    "stem": "Arjun lists every even number starting from 0 up to 30: 0, 2, 4, 6, ..., 30. How many even numbers are in Arjun's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 30
+    },
+    "variant_signature": "738c908e83aa3e7c752840905142e405744f56e007550e8e88b94af5eef1c661"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 32, which has one more entry than just counting 2, 4, ..., 32 because 0 is also even and belongs in the list.",
+        "There are 32 / 2 even numbers from 2 to 32, plus 1 more for 0, giving (32 / 2) + 1."
+      ]
+    },
+    "stem": "Meera lists every even number starting from 0 up to 32: 0, 2, 4, 6, ..., 32. How many even numbers are in Meera's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 32
+    },
+    "variant_signature": "9c562112a715aefdd921e2dfbc455c23d767b00d1d7a1918c89ee31a97a77e54"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "34"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 34, which has one more entry than just counting 2, 4, ..., 34 because 0 is also even and belongs in the list.",
+        "There are 34 / 2 even numbers from 2 to 34, plus 1 more for 0, giving (34 / 2) + 1."
+      ]
+    },
+    "stem": "Diya lists every even number starting from 0 up to 34: 0, 2, 4, 6, ..., 34. How many even numbers are in Diya's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 34
+    },
+    "variant_signature": "1e8623d59346e21dcd932965ef30b3467cc350ebcdfc4d62788ed35fa7d8ee98"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 36, which has one more entry than just counting 2, 4, ..., 36 because 0 is also even and belongs in the list.",
+        "There are 36 / 2 even numbers from 2 to 36, plus 1 more for 0, giving (36 / 2) + 1."
+      ]
+    },
+    "stem": "Kabir lists every even number starting from 0 up to 36: 0, 2, 4, 6, ..., 36. How many even numbers are in Kabir's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 36
+    },
+    "variant_signature": "096d4d0c22162a91b2fcd7e3fb60b16ed761faeb39d79843eb5c174bf923c5cf"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "38"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 38, which has one more entry than just counting 2, 4, ..., 38 because 0 is also even and belongs in the list.",
+        "There are 38 / 2 even numbers from 2 to 38, plus 1 more for 0, giving (38 / 2) + 1."
+      ]
+    },
+    "stem": "Ananya lists every even number starting from 0 up to 38: 0, 2, 4, 6, ..., 38. How many even numbers are in Ananya's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 38
+    },
+    "variant_signature": "99f1272bbc69fa8fade60900cf0b0e8a69706346e6ad810cc404da23c46c4aee"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ZERO-PARITY",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is 0 even or odd? Zero splits into pairs with nothing left over, so it's even.",
+      "Don't forget to count 0 itself as one of the even numbers in the list."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.ZERO.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The list is 0, 2, 4, ..., 40, which has one more entry than just counting 2, 4, ..., 40 because 0 is also even and belongs in the list.",
+        "There are 40 / 2 even numbers from 2 to 40, plus 1 more for 0, giving (40 / 2) + 1."
+      ]
+    },
+    "stem": "Vihaan lists every even number starting from 0 up to 40: 0, 2, 4, 6, ..., 40. How many even numbers are in Vihaan's list, counting 0?",
+    "template_id": "TPL.NUM.PARITY.ZERO.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 40
+    },
+    "variant_signature": "1a8deddda5232c761bed036101ba243eeb3adb4df18856eace05f1aefa89de03"
+  }
+]

@@ -1,0 +1,2042 @@
+[
+  {
+    "answer": "1200",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "1100"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1300"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1157"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 57 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 11 hundreds.",
+        "The rounded number is 100 x (11 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 11 + 57 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 11,
+      "rem": 57
+    },
+    "variant_signature": "a3ddb7167b48ea69df8e4c6427e3948a28bf3cb5146bbf87ea0ea30347deae9a"
+  },
+  {
+    "answer": "1300",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "1200"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1269"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 69 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 12 hundreds.",
+        "The rounded number is 100 x (12 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 12 + 69 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 12,
+      "rem": 69
+    },
+    "variant_signature": "89818b50d6294488f222817b98d17e4b8a62680b7f32fe9e08aa6eab68d147a8"
+  },
+  {
+    "answer": "1400",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "1300"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1500"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1382"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 82 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 13 hundreds.",
+        "The rounded number is 100 x (13 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 13 + 82 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 13,
+      "rem": 82
+    },
+    "variant_signature": "eca7282e305b667956ba748f8d487597c62e70f7cb1003bd922c7043870348a4"
+  },
+  {
+    "answer": "1500",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "1400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1600"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1494"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 94 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 14 hundreds.",
+        "The rounded number is 100 x (14 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 14 + 94 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 14,
+      "rem": 94
+    },
+    "variant_signature": "b762346e65a54f3347eeef6dbf7a86fe9f7a45b891495035e80c5681b40d14dd"
+  },
+  {
+    "answer": "1700",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "1600"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1800"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1657"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 57 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 16 hundreds.",
+        "The rounded number is 100 x (16 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 16 + 57 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 16,
+      "rem": 57
+    },
+    "variant_signature": "fbcb304c07b9915f535e92c30db1bf4ce2acd60f0a8007b7b9ae9d6edcc50797"
+  },
+  {
+    "answer": "1800",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "1700"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1900"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1769"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 69 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 17 hundreds.",
+        "The rounded number is 100 x (17 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 17 + 69 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 17,
+      "rem": 69
+    },
+    "variant_signature": "9b62ecb1d28c2fc8fb1764c11a4a773c77933b3038a3e91c52134f4804d5465e"
+  },
+  {
+    "answer": "1900",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "1800"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2000"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1882"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 82 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 18 hundreds.",
+        "The rounded number is 100 x (18 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 18 + 82 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 18,
+      "rem": 82
+    },
+    "variant_signature": "2a74a9f114ccd1112288ac99be874b8dd36927ff2adc535948eedb0bc5fb3f21"
+  },
+  {
+    "answer": "2000",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "1900"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2100"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1994"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 94 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 19 hundreds.",
+        "The rounded number is 100 x (19 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 19 + 94 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 19,
+      "rem": 94
+    },
+    "variant_signature": "6c08744f4b1c0e7fcfcf9ad6d6ace5cb0a4e9de58b117ed20e4db8516af434d4"
+  },
+  {
+    "answer": "2200",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "2100"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2300"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2157"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 57 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 21 hundreds.",
+        "The rounded number is 100 x (21 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 21 + 57 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 21,
+      "rem": 57
+    },
+    "variant_signature": "7cbae01efa3fb9aff5a21ef07e241eee0fe26a748d9346cd5975122f2904ac17"
+  },
+  {
+    "answer": "2300",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "2200"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2269"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 69 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 22 hundreds.",
+        "The rounded number is 100 x (22 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 22 + 69 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 22,
+      "rem": 69
+    },
+    "variant_signature": "76515a39a8aceaf638b8be74b7d4ec4e5d3e49fb866da58260c4471a82bd019b"
+  },
+  {
+    "answer": "2400",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "2300"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2500"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2382"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 82 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 23 hundreds.",
+        "The rounded number is 100 x (23 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 23 + 82 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 23,
+      "rem": 82
+    },
+    "variant_signature": "e24b0fd71089969f1b73196e3256a37d8ee40fbbb3efce10118b49bfaaae04f9"
+  },
+  {
+    "answer": "2500",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "2400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2600"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2494"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 94 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 24 hundreds.",
+        "The rounded number is 100 x (24 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 24 + 94 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 24,
+      "rem": 94
+    },
+    "variant_signature": "d8e73419187cc484007a73f4c7580d7b8bb6867e75378274d6a775ea62633120"
+  },
+  {
+    "answer": "2700",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "2600"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2800"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2657"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 57 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 26 hundreds.",
+        "The rounded number is 100 x (26 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 26 + 57 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 26,
+      "rem": 57
+    },
+    "variant_signature": "4970d2703047f6b4db43a3e91a2437ddb79a0c38d452828d85af9a695d024061"
+  },
+  {
+    "answer": "2800",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "2700"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2900"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2769"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 69 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 27 hundreds.",
+        "The rounded number is 100 x (27 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 27 + 69 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 27,
+      "rem": 69
+    },
+    "variant_signature": "b65686960d608eb435fa62c3cd9a80fcc4cdf2ecbcf0c57c8b46e475bf7c471f"
+  },
+  {
+    "answer": "2900",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "2800"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3000"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2882"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 82 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 28 hundreds.",
+        "The rounded number is 100 x (28 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 28 + 82 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 28,
+      "rem": 82
+    },
+    "variant_signature": "d5328ebf709900c8d93f30aa470da6eddaab8f3cd3e6b2c20686d15f7e4bb471"
+  },
+  {
+    "answer": "3000",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "2900"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3100"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2994"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 94 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 29 hundreds.",
+        "The rounded number is 100 x (29 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 29 + 94 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 29,
+      "rem": 94
+    },
+    "variant_signature": "ddeb2d18796883e3b7c02c3c9a170481e9cd066b458a63fb1f4fc745f240a9d0"
+  },
+  {
+    "answer": "3200",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "3100"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3300"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3157"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 57 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 31 hundreds.",
+        "The rounded number is 100 x (31 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 31 + 57 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 31,
+      "rem": 57
+    },
+    "variant_signature": "d072c5e9b2c9ce8cb66cda41b78c810eceb9c559d521846117cca50c22ab0501"
+  },
+  {
+    "answer": "3300",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "3200"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3269"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 69 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 32 hundreds.",
+        "The rounded number is 100 x (32 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 32 + 69 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 32,
+      "rem": 69
+    },
+    "variant_signature": "cdde356a2c401f3c94d45bd0a4cc4ae46b63291e5570a911269747faaaa672f5"
+  },
+  {
+    "answer": "3400",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "3300"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3500"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3382"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 82 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 33 hundreds.",
+        "The rounded number is 100 x (33 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 33 + 82 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 33,
+      "rem": 82
+    },
+    "variant_signature": "d156a9db76386f3b63bb08388fd921adc72c423dc33bd97699aa8683705bd2ae"
+  },
+  {
+    "answer": "3500",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "3400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3600"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3494"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 94 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 34 hundreds.",
+        "The rounded number is 100 x (34 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 34 + 94 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 34,
+      "rem": 94
+    },
+    "variant_signature": "6a0eca20e47d38bd988ca91cb2f5b7d414f225aa24e9206294047bf50619d654"
+  },
+  {
+    "answer": "3700",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "3600"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3800"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3657"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 57 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 36 hundreds.",
+        "The rounded number is 100 x (36 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 36 + 57 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 36,
+      "rem": 57
+    },
+    "variant_signature": "8ef2273d97624c5e21ed9bd426eff6ca23f76d668abd36e0a87b2c68f01cb7b9"
+  },
+  {
+    "answer": "3800",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "3700"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3900"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3769"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 69 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 37 hundreds.",
+        "The rounded number is 100 x (37 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 37 + 69 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 37,
+      "rem": 69
+    },
+    "variant_signature": "adc36acffa397127ca1509f57653bc8ac2a844819ef82e33e7e3787cf4beaca8"
+  },
+  {
+    "answer": "3900",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "3800"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4000"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3882"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 82 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 38 hundreds.",
+        "The rounded number is 100 x (38 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 38 + 82 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 38,
+      "rem": 82
+    },
+    "variant_signature": "a6a3e95c2b3595049cd2f0c556d24ce29c83fdec5a49ee6efcf8665cab5b1fbc"
+  },
+  {
+    "answer": "4000",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "3900"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4100"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3994"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 94 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 39 hundreds.",
+        "The rounded number is 100 x (39 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 39 + 94 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 39,
+      "rem": 94
+    },
+    "variant_signature": "cc961ceaf76a29c1e41b63ff53958de8139750960f6be71c955e5ecb3665c938"
+  },
+  {
+    "answer": "4200",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "4100"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4300"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4157"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 57 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 41 hundreds.",
+        "The rounded number is 100 x (41 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 41 + 57 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 41,
+      "rem": 57
+    },
+    "variant_signature": "ab2a1dc51c8cec1b174eef8582ee8161af8b83ad9d9d6b9c494538da45b32c5d"
+  },
+  {
+    "answer": "4300",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "4200"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4269"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 69 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 42 hundreds.",
+        "The rounded number is 100 x (42 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 42 + 69 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 42,
+      "rem": 69
+    },
+    "variant_signature": "f59f92ec05b7ec1697b9c1ea4ff9c39c25f0ea4eb9afa7e60d5627582987c757"
+  },
+  {
+    "answer": "4400",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "4300"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4500"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4382"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 82 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 43 hundreds.",
+        "The rounded number is 100 x (43 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 43 + 82 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 43,
+      "rem": 82
+    },
+    "variant_signature": "4f3359d857ddfd10f1a87d3972cd987aaab63ecd637cceca28d0812af1f3c07a"
+  },
+  {
+    "answer": "4500",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "4400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4600"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4494"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 94 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 44 hundreds.",
+        "The rounded number is 100 x (44 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 44 + 94 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 44,
+      "rem": 94
+    },
+    "variant_signature": "f050f6d6d746b7354546b45cda31974fa25b24b40a52d9a56574fb0569aa286c"
+  },
+  {
+    "answer": "4700",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "4600"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4800"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4657"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 57 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 46 hundreds.",
+        "The rounded number is 100 x (46 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 46 + 57 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 46,
+      "rem": 57
+    },
+    "variant_signature": "78321f1e5d48367ec22733a7a564299e0422675c97300195f1079e2c3bbeda26"
+  },
+  {
+    "answer": "4800",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "4700"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4900"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4769"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 69 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 47 hundreds.",
+        "The rounded number is 100 x (47 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 47 + 69 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 47,
+      "rem": 69
+    },
+    "variant_signature": "57377640871e9f4e558eccc15205230d60eaa287b23d5f67799c1e4d46253599"
+  },
+  {
+    "answer": "4900",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "4800"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5000"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4882"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 82 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 48 hundreds.",
+        "The rounded number is 100 x (48 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 48 + 82 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 48,
+      "rem": 82
+    },
+    "variant_signature": "ea3a84ac008a0252b51ad84221ca2e91fe4b465b32188a5ccb5c9cc7307964ad"
+  },
+  {
+    "answer": "5000",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "4900"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5100"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4994"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 94 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 49 hundreds.",
+        "The rounded number is 100 x (49 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 49 + 94 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 49,
+      "rem": 94
+    },
+    "variant_signature": "efd7040117e782eea0e48038cfb4923eb325fbf1b1b1461b77828732a58bac17"
+  },
+  {
+    "answer": "5200",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "5100"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5300"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5157"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 57 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 51 hundreds.",
+        "The rounded number is 100 x (51 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 51 + 57 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 51,
+      "rem": 57
+    },
+    "variant_signature": "4477c476a846167b18334184e58e8c6fbb53c792c064e635b69782f4657a2365"
+  },
+  {
+    "answer": "5300",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "5200"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5269"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 69 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 52 hundreds.",
+        "The rounded number is 100 x (52 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 52 + 69 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 52,
+      "rem": 69
+    },
+    "variant_signature": "b18af7b9776b0ae05e459f5536ce256b9deb511a814d20b22e85c2b4c95a860e"
+  },
+  {
+    "answer": "5400",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "5300"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5500"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5382"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 82 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 53 hundreds.",
+        "The rounded number is 100 x (53 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 53 + 82 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 53,
+      "rem": 82
+    },
+    "variant_signature": "5863c6d8dbe3c3a00f75707a6258b40549df5472b9709c75327a51215d7822cd"
+  },
+  {
+    "answer": "5500",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "5400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5600"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5494"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 94 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 54 hundreds.",
+        "The rounded number is 100 x (54 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 54 + 94 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 54,
+      "rem": 94
+    },
+    "variant_signature": "640c0c990c3875784b120a00e9b210b21f6542338fc211c5eb8eb16f088e45ab"
+  },
+  {
+    "answer": "5700",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "5600"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5800"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5657"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 57 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 56 hundreds.",
+        "The rounded number is 100 x (56 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 56 + 57 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 56,
+      "rem": 57
+    },
+    "variant_signature": "5bdf8e309ace634e9fa893fdf75534146205ed9a5590df295506f4003189c4c5"
+  },
+  {
+    "answer": "5800",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "5700"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5900"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5769"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 69 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 57 hundreds.",
+        "The rounded number is 100 x (57 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 57 + 69 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 57,
+      "rem": 69
+    },
+    "variant_signature": "37e5acf865fb5ca902dedef797a2b4c844057c05ede84eed98c645537658a9b7"
+  },
+  {
+    "answer": "5900",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "5800"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6000"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5882"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 82 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 58 hundreds.",
+        "The rounded number is 100 x (58 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 58 + 82 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 58,
+      "rem": 82
+    },
+    "variant_signature": "c7fd7e0bd04afab667c8aa6a2265d6f0d8dcae357fa38318bf811ccbe8718d91"
+  },
+  {
+    "answer": "6000",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "5900"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6100"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5994"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A remainder of 50 or more rounds up, not down.",
+      "Don't just drop the last two digits \u2014 check which hundred is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 94 is 50 or more, so round up.",
+        "Rounding up means moving to the next hundred after 59 hundreds.",
+        "The rounded number is 100 x (59 + 1)."
+      ]
+    },
+    "stem": "Round the number 100 x 59 + 94 to the nearest 100.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 59,
+      "rem": 94
+    },
+    "variant_signature": "8ca2d8dbdc43a014428c68800ddf1bc270f5715dd6b753b7a61845fb5d16866e"
+  }
+]

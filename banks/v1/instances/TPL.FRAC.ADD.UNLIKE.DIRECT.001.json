@@ -1,0 +1,1010 @@
+[
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "2/9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 divides 3*2 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/3 + 1/3*2?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 1,
+      "k": 2
+    },
+    "variant_signature": "8b1c56480e47eac8b8d3136dcbcd0a0853b53439250dcd155f134a54b803aaaa"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 divides 3*2 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/3 + 2/3*2?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 2,
+      "k": 2
+    },
+    "variant_signature": "7a96f5abd03bc36788672199c1d73ad846c7eceba71940019947fef5de3b09e1"
+  },
+  {
+    "answer": "5/6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "4/9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 divides 3*2 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/3 + 3/3*2?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 3,
+      "k": 2
+    },
+    "variant_signature": "0ee7b5882c440f80861e6cb0f5e74866c377c7f5ba24a4a507845664f8f018d1"
+  },
+  {
+    "answer": "4/9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 divides 3*3 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/3 + 1/3*3?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 1,
+      "k": 3
+    },
+    "variant_signature": "277310119fe1f8512b6ee21ac742e35fa37cbe83bc3f8be324596c41509f0165"
+  },
+  {
+    "answer": "5/9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 divides 3*3 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/3 + 2/3*3?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 2,
+      "k": 3
+    },
+    "variant_signature": "85b75d9fd050d2153a3c43bf78266084ef12503440d74e1f38b3a8a0e6312247"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 divides 3*3 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/3 + 3/3*3?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 3,
+      "k": 3
+    },
+    "variant_signature": "b913cce340406154c6a4a01d8344eee3ebf1854e8e7a943d9aef6814a4447ca3"
+  },
+  {
+    "answer": "3/8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "4 divides 4*2 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/4 + 1/4*2?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 1,
+      "k": 2
+    },
+    "variant_signature": "75ae0c21d0a2d1395dbd772cfbe049a88ba095a0e20e26ff5d01b0bfa173d595"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "4 divides 4*2 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/4 + 2/4*2?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 2,
+      "k": 2
+    },
+    "variant_signature": "07a6572d85547ce2e3a91cd05e39c47c17d44f4e04f3dd96510944dd9119bf15"
+  },
+  {
+    "answer": "5/8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "4 divides 4*2 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/4 + 3/4*2?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 3,
+      "k": 2
+    },
+    "variant_signature": "ce0b2f11a607bcf0626bd805244d8e7a123e051ec345b68b86431f692f0d67d7"
+  },
+  {
+    "answer": "1/3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "4 divides 4*3 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/4 + 1/4*3?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 1,
+      "k": 3
+    },
+    "variant_signature": "a4833975d44b82383e2c6fbac275e19c2819f68f5eb3f19f3868fe3069844c9a"
+  },
+  {
+    "answer": "5/12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "3/16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "4 divides 4*3 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/4 + 2/4*3?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 2,
+      "k": 3
+    },
+    "variant_signature": "adc572d25fd12c93bbc206699955fedd303e481293eb2ce223fb30d80926ccf0"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "4 divides 4*3 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/4 + 3/4*3?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 3,
+      "k": 3
+    },
+    "variant_signature": "ae1527c304e260e4a76236e55aa9a6bf64ee492b8ad93e03a27ae29b5d79ab6b"
+  },
+  {
+    "answer": "5/6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 divides 3*2 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/3 + 1/3*2?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 1,
+      "k": 2
+    },
+    "variant_signature": "5d714382b4abac8ccdac499f97b0503d68a2a5e2fc31d5c3ce4ae7448415e42d"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "4/9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 divides 3*2 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/3 + 2/3*2?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 2,
+      "k": 2
+    },
+    "variant_signature": "ea3faa43d8849bac5b13c8c4ed173ff69cec7d289262314299c3a7c933b180dc"
+  },
+  {
+    "answer": "7/6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "5/9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 divides 3*2 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/3 + 3/3*2?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 3,
+      "k": 2
+    },
+    "variant_signature": "ac6b92ef8c823442f99f4d03cb5dad5c7fd5f96e822f6375759330c2bc13ee30"
+  },
+  {
+    "answer": "7/9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 divides 3*3 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/3 + 1/3*3?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 1,
+      "k": 3
+    },
+    "variant_signature": "14e8aabd364fbd141e85e03261214834909810cb7da8188e54c593f0a806b801"
+  },
+  {
+    "answer": "8/9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 divides 3*3 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/3 + 2/3*3?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 2,
+      "k": 3
+    },
+    "variant_signature": "5856219fa59b94441c661a566c164e6e3ed737af849e9f3a19971c85e34420f1"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "5/12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 divides 3*3 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/3 + 3/3*3?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 3,
+      "k": 3
+    },
+    "variant_signature": "18b0f716638ab4153989ebd76ada7d4ba1f153528a009af9160fe230a09ff29b"
+  },
+  {
+    "answer": "5/8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "4 divides 4*2 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/4 + 1/4*2?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 1,
+      "k": 2
+    },
+    "variant_signature": "d78559dc52c39e0be1f85845e6b450203943e3a90cc6b23c05c6c71270dd058c"
+  },
+  {
+    "answer": "3/4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "4 divides 4*2 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/4 + 2/4*2?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 2,
+      "k": 2
+    },
+    "variant_signature": "0628f00bd678a6426db1158e418a9122e646fe32427f9c13cb8e96ebed2c2b4f"
+  },
+  {
+    "answer": "7/8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "5/12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "4 divides 4*2 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/4 + 3/4*2?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 3,
+      "k": 2
+    },
+    "variant_signature": "83271555ad73f43dce3bac083be78db5a1a9fe5eaba29a2353b3253fcac50885"
+  },
+  {
+    "answer": "7/12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "3/16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "4 divides 4*3 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/4 + 1/4*3?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 1,
+      "k": 3
+    },
+    "variant_signature": "3a6a5979c1624d24c3e20f6a77f81be45f71fa383828cfe458209a1e4969514c"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "4 divides 4*3 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/4 + 2/4*3?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 2,
+      "k": 3
+    },
+    "variant_signature": "e5da29cc7dad1cbd2ead981f49eaeecd249f7b7d40ad8531e166f3d2d1c990e5"
+  },
+  {
+    "answer": "3/4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "5/16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does one denominator divide the other?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "4 divides 4*3 evenly, so convert the first fraction.",
+        "Add the numerators.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/4 + 3/4*3?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 3,
+      "k": 3
+    },
+    "variant_signature": "d839c9dd6658e66afb7bc1e49ae0334f1f4c844ce55e2958e7b3e58afa3ddc74"
+  }
+]

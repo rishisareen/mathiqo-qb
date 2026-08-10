@@ -1,0 +1,1842 @@
+[
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 4 you can form from 17 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 17 by 4 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 4, then subtract from 17 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 17 players and wants to form teams of 4 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "b": 4,
+      "q": 4
+    },
+    "variant_signature": "ad2156598a2be28bf13f4fdf237a7d379e0b25e59df4a9e9d4038595741a1cda"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 8 you can form from 17 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 17 by 8 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 8, then subtract from 17 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 17 players and wants to form teams of 8 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "b": 8,
+      "q": 2
+    },
+    "variant_signature": "619868a767cb07b7c98daf7da136f961551402b1bb05d987e27f07c96459961a"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 5 you can form from 19 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 19 by 5 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 5, then subtract from 19 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 19 players and wants to form teams of 5 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 19,
+      "b": 5,
+      "q": 3
+    },
+    "variant_signature": "db737bc66548d1ce22242b3b550a2c17260c34c66e87488b2e545132900bb2b2"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 9 you can form from 19 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 19 by 9 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 9, then subtract from 19 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 19 players and wants to form teams of 9 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 19,
+      "b": 9,
+      "q": 2
+    },
+    "variant_signature": "050d4db9aa8b0ebf894c2fdfac36921e54ab1792525d3a8f30229e611efe5093"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 4 you can form from 21 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 21 by 4 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 4, then subtract from 21 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 21 players and wants to form teams of 4 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 21,
+      "b": 4,
+      "q": 5
+    },
+    "variant_signature": "0a424b265b3262114c3b5721825325638455cdc321e2ad5e70cf72cc926b62fe"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 5 you can form from 22 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 22 by 5 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 5, then subtract from 22 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 22 players and wants to form teams of 5 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 22,
+      "b": 5,
+      "q": 4
+    },
+    "variant_signature": "c254f3f6cbc9c538f91ef2c1c875a2f71e8cd4192e454608ac7ecddfa97fb759"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 9 you can form from 22 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 22 by 9 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 9, then subtract from 22 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 22 players and wants to form teams of 9 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 22,
+      "b": 9,
+      "q": 2
+    },
+    "variant_signature": "a3a8899cd012fde18733b38515a2b1d44bb2d7c9853a7da9897bd2bd64ea7d5e"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 5 you can form from 23 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 23 by 5 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 5, then subtract from 23 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 23 players and wants to form teams of 5 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 23,
+      "b": 5,
+      "q": 4
+    },
+    "variant_signature": "fa1132d1e880c48626cf4c0dfd0f80454085732996a7ab13d478ec5b543fe726"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 8 you can form from 23 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 23 by 8 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 8, then subtract from 23 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 23 players and wants to form teams of 8 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 23,
+      "b": 8,
+      "q": 2
+    },
+    "variant_signature": "a642de5a69b17368a7ef92d29f4d52a6f005fee7128bca75bd356fd6b00da80b"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 4 you can form from 25 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 25 by 4 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 4, then subtract from 25 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 25 players and wants to form teams of 4 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 25,
+      "b": 4,
+      "q": 6
+    },
+    "variant_signature": "935e56d1981d566829154861fbe27f7b20f70be24c2a722902364ce9ad84856c"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 5 you can form from 26 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 26 by 5 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 5, then subtract from 26 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 26 players and wants to form teams of 5 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 26,
+      "b": 5,
+      "q": 5
+    },
+    "variant_signature": "c7af3ac146b713f5bfe98f8017394f3b4943032939acbe806cafef5dd071c558"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 9 you can form from 26 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 26 by 9 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 9, then subtract from 26 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 26 players and wants to form teams of 9 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 26,
+      "b": 9,
+      "q": 2
+    },
+    "variant_signature": "77c8d4d9d88aea5c3bdd10a3eefc41317118f43b465e32e5425d8b28fe8e9f91"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 7 you can form from 27 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 27 by 7 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 7, then subtract from 27 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 27 players and wants to form teams of 7 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 27,
+      "b": 7,
+      "q": 3
+    },
+    "variant_signature": "310d6b9e66535cf48bda3d95b18cc4c1c6ea93d8947b5c40d7222df72b8b65f9"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 4 you can form from 29 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 29 by 4 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 4, then subtract from 29 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 29 players and wants to form teams of 4 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 29,
+      "b": 4,
+      "q": 7
+    },
+    "variant_signature": "544f3f747b4e8a03ea7bdb3afe887dfe2437b1cc1dde0e40c628801ba0985cd0"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 7 you can form from 29 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 29 by 7 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 7, then subtract from 29 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 29 players and wants to form teams of 7 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 29,
+      "b": 7,
+      "q": 4
+    },
+    "variant_signature": "84f2382e2dd6f377fbe7920789ec5b93bf0c61f30a86391226b2fae5f965aeed"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 8 you can form from 30 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 30 by 8 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 8, then subtract from 30 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 30 players and wants to form teams of 8 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 30,
+      "b": 8,
+      "q": 3
+    },
+    "variant_signature": "b8672a05d8a7410b46112f58966a52c74d8d77656d9b103d35b7960c57c679e9"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 8 you can form from 31 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 31 by 8 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 8, then subtract from 31 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 31 players and wants to form teams of 8 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 31,
+      "b": 8,
+      "q": 3
+    },
+    "variant_signature": "6933f7a6b42d5107acb4fe1bb5ed54062c05b79b8f6916edb3a6c11fc0e7ab1d"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 6 you can form from 32 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 32 by 6 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 6, then subtract from 32 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 32 players and wants to form teams of 6 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 32,
+      "b": 6,
+      "q": 5
+    },
+    "variant_signature": "42496afdc84d3b4d8395e3a0ce00bc4bab4e10bcda459c6fce1b3fcf732f4f3c"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 5 you can form from 33 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 33 by 5 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 5, then subtract from 33 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 33 players and wants to form teams of 5 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 33,
+      "b": 5,
+      "q": 6
+    },
+    "variant_signature": "8de55f24788d1b7d583083ccfc205b9c12010f517d112c737938bab36b2aa5e2"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 5 you can form from 34 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 34 by 5 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 5, then subtract from 34 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 34 players and wants to form teams of 5 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 34,
+      "b": 5,
+      "q": 6
+    },
+    "variant_signature": "2c34d7daf9d3956d75b7682b44fa807ac2d4da6d43721e737e8799e75be86f76"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 8 you can form from 34 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 34 by 8 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 8, then subtract from 34 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 34 players and wants to form teams of 8 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 34,
+      "b": 8,
+      "q": 4
+    },
+    "variant_signature": "ca71e577791224b5434f094ede77ac0969192f48838f2b38e954cdc4a2138d6e"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 8 you can form from 35 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 35 by 8 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 8, then subtract from 35 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 35 players and wants to form teams of 8 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 35,
+      "b": 8,
+      "q": 4
+    },
+    "variant_signature": "4a2dad2df17bbd423be9894f8134a7868c41db8ebbd0d9a4ab07c6b293d33c55"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 7 you can form from 36 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 36 by 7 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 7, then subtract from 36 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 36 players and wants to form teams of 7 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 36,
+      "b": 7,
+      "q": 5
+    },
+    "variant_signature": "6307fb9ad75b2fd9c1c9892574d7bb9a82bbc5e192a03ea03ce4eff36b6a6c23"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 6 you can form from 37 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 37 by 6 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 6, then subtract from 37 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 37 players and wants to form teams of 6 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 37,
+      "b": 6,
+      "q": 6
+    },
+    "variant_signature": "9913aa80858d2a7d705ed1fec37c7111932ed4fc209042225feb75ab8151813a"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 5 you can form from 38 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 38 by 5 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 5, then subtract from 38 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 38 players and wants to form teams of 5 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 38,
+      "b": 5,
+      "q": 7
+    },
+    "variant_signature": "b5938ce14061b3440ae64640784e236572c068b06304bdc23d240606837f5201"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 8 you can form from 38 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 38 by 8 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 8, then subtract from 38 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 38 players and wants to form teams of 8 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 38,
+      "b": 8,
+      "q": 4
+    },
+    "variant_signature": "4a3223f23a526fe0269953ce968d1218dee11634aff03370ea08d97f89edeee4"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 5 you can form from 39 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 39 by 5 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 5, then subtract from 39 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 39 players and wants to form teams of 5 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 39,
+      "b": 5,
+      "q": 7
+    },
+    "variant_signature": "7e338580c533c6158c95965ed049ff8d17aae21c90a7222595ee8e302283442b"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 9 you can form from 39 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 39 by 9 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 9, then subtract from 39 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 39 players and wants to form teams of 9 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 39,
+      "b": 9,
+      "q": 4
+    },
+    "variant_signature": "cc2fe857e504026861ce11b54a63b001ba1a71c7e86344f75dc4ef1a6f750f02"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 5 you can form from 41 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 41 by 5 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 5, then subtract from 41 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 41 players and wants to form teams of 5 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 41,
+      "b": 5,
+      "q": 8
+    },
+    "variant_signature": "42984d9e0c4ad3e404d2e91f39b2a074c3eeb5b756413e016c35990a3d6edafd"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 8 you can form from 41 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 41 by 8 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 8, then subtract from 41 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 41 players and wants to form teams of 8 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 41,
+      "b": 8,
+      "q": 5
+    },
+    "variant_signature": "254cffc11cef6dfdfa5a17182f830d5e775854542f58ccd17b222119608ba4c3"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 9 you can form from 42 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 42 by 9 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 9, then subtract from 42 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 42 players and wants to form teams of 9 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 42,
+      "b": 9,
+      "q": 4
+    },
+    "variant_signature": "4a443dfd1385b7f45d25c6030568402eb6f57d45a59c62bd431e608ed72ae9da"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 6 you can form from 43 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 43 by 6 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 6, then subtract from 43 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 43 players and wants to form teams of 6 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 43,
+      "b": 6,
+      "q": 7
+    },
+    "variant_signature": "552c55af264585f03794a34f826c06448da2c8da3812728c5aa047f4471721b1"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 6 you can form from 44 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 44 by 6 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 6, then subtract from 44 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 44 players and wants to form teams of 6 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 44,
+      "b": 6,
+      "q": 7
+    },
+    "variant_signature": "38018ca403502d5b0ff962ca4a821b0f1371d990bb51efeea27d22fd5c06cb8d"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 4 you can form from 45 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 45 by 4 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 4, then subtract from 45 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 45 players and wants to form teams of 4 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 45,
+      "b": 4,
+      "q": 11
+    },
+    "variant_signature": "3b571970c7e6ffdf04d92209d2db77c6d41108a137365d3cfd1b1e4dd808bb67"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 6 you can form from 46 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 46 by 6 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 6, then subtract from 46 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 46 players and wants to form teams of 6 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 46,
+      "b": 6,
+      "q": 7
+    },
+    "variant_signature": "a2eff89f905b734788409427777520793be4288b94cc2649676995a37c4794db"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 9 you can form from 46 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 46 by 9 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 9, then subtract from 46 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 46 players and wants to form teams of 9 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 46,
+      "b": 9,
+      "q": 5
+    },
+    "variant_signature": "eb5c78445ce2e717b08abe6aea5f65fdadca0d9ef2d19054daa8b14e60e55a5b"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 6 you can form from 47 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 47 by 6 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 6, then subtract from 47 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 47 players and wants to form teams of 6 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 47,
+      "b": 6,
+      "q": 7
+    },
+    "variant_signature": "4419fb06050e94325392be9a500ffe4fd96cbdae941edb3a731606f820cdcf3c"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 9 you can form from 47 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 47 by 9 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 9, then subtract from 47 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 47 players and wants to form teams of 9 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 47,
+      "b": 9,
+      "q": 5
+    },
+    "variant_signature": "246581fbc5f334cbbe0ece45a02b7b9c5088483b70a947706feb56cf98df4ec6"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 4 you can form from 49 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 49 by 4 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 4, then subtract from 49 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 49 players and wants to form teams of 4 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 49,
+      "b": 4,
+      "q": 12
+    },
+    "variant_signature": "062d0d7df770b810aa0bc76dc701584eadf84277e71fed96d97263cdfde8ebd7"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIV-REMAINDER-DROPPED",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out how many complete teams of 8 you can form from 49 players.",
+      "The players who don't fit into a full team are the ones left over \u2014 that's what the question is asking for, not the number of teams."
+    ],
+    "item_instance_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIV"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Divide 49 by 8 to find how many full teams can be formed.",
+        "Multiply the number of full teams by 8, then subtract from 49 to find how many players are left over."
+      ]
+    },
+    "stem": "A coach has 49 players and wants to form teams of 8 players each. After forming as many full teams as possible, how many players are left without a team?",
+    "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 49,
+      "b": 8,
+      "q": 6
+    },
+    "variant_signature": "8550010063ae7f0466417e2af05598d60ea0d6ad16d56c869b9992d393cfdb60"
+  }
+]

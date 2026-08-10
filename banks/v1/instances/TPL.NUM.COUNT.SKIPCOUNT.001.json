@@ -1,0 +1,1682 @@
+[
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 1 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 1 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "0c4e8a71ea62da3014fc04c6a593a6b6d0468c18ed12783571ec27751ecf37a6"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 1 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 1 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "394971f314ca777020f22b9c90d566ef0aa70d27dda3db083504abc7f92c04ae"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 2 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 2 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "e89ff59759c60e4e7ea0fc67e47b052369bdc888e8801faa032b98efbcf31452"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 2 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 2 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "c48c271cc1b377ce112408ce410d48aa7a9576ddd01ef63a2de4d00d1b9e7167"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 3 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 3 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "434831494f0a9a21b6afb4741feeca4273be5f2c94c44513ec6480160e303759"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 3 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 3 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "615f070e13ccd936032de0293626595430afdfb8c3e17bd5edb71b1f3b552606"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 4 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 4 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "c774f94afc349f79914aed4ce52d75dfeb15e97634f76ab753a271bbd618d70c"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 4 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 4 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "21e989021a6bdef19156b312c14e540cd3b87463aebb6ffb3a0d24185b69db9c"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 5 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 5 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "dc591798d61ec941351298183b285eebb941399aa0e4aeddd10628604902f49a"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 5 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 5 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "d040a783a39793d02f8db8c4140ada222a143c9ffa212a76c5459e13be970c61"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 6 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 6 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "2b2b0f772ed58ee050b568ff1ef4d9547ddf4affef5ba32b4a5e4a2f8ae255e7"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 6 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 6 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "45f1f59407601c9986055b41de90f023d438760fb899a6872504e5f4378c6927"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 7 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 7 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "bf4fe3e1afe75f239a38dfb25d9f70a982c41b9ab7eca72f5b54e2960e121d5a"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 7 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 7 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "d1d8c3e616abbebf7a2ac641da1504822f921d2a561200c705582d121d37b092"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 8 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 8 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "1dfb6d5d14d5c9b6893883ade5193874f397996fc17750ae521e320a99f2440b"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 8 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 8 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "eb853771f633b94ad00fba1018843a3611c8349ad5da5941a9215c63b87816cf"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 9 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 9 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "03f105081686142857c9aeebe837a18f646f485d2ec2d4117afd96b06f46e1c8"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 9 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 9 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "0c36f6dd05a01180c48bc064bba955ee4a8d69826cbf3571a91dec44dec567d9"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 10 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 10 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "74f1231357f04b476f3aefe02e5170fe54d4a69d77ad5cae4f05116dc08d2c3c"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 10 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 10 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "304db3e176f282b4a52f713117f707417341e1f15f0ce6a6c4854f5553fa852e"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 11 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 11 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 11,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "5185099b92a92b6fe3ea1dd03481b5310c00bb7994c8cf53942286b32bd1ee1a"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 11 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 11 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 11,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "8d231b3fc0c4aba382d5b7b3f84454fdc62e60b5912c9652c757186d87f515b6"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 12 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 12 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 12,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "526635845d7b99f37ea6e684f5bb64402705dc4425950fd77d65aec3209aee19"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 12 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 12 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 12,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "974457d9dce4c27fd8948f39c657b4f5d0e760d360188dec6be030c056d2e09c"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 13 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 13 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 13,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "edad0470ffcc5167aa2e03a5f99ede1935cdbb94dfc8998d33423dda4e11ed96"
+  },
+  {
+    "answer": "37",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 13 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 13 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 13,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "593cf7a16ed77fdacbb84066111060cd171a471da1315435a96d91e782811037"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 14 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 14 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 14,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "4efc458119ae891a66f24b4435096c1096d6cba76c640b772e257999c22cf2da"
+  },
+  {
+    "answer": "38",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 14 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 14 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 14,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "0b666a5cf28fb612c242723bcd4f39e33388d24af7f7a620aaa70b4806ed6dae"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 15 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 15 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 15,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "dda41e8721475b49ad0485cce80fc3bddc9dbfa6e61d319758eab40116a20180"
+  },
+  {
+    "answer": "39",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 15 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 15 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 15,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "a59448238c2dee6dce7af42195c069b518f9ae4290457a17cd3fa25eb06d7fd4"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 16 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 16 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 16,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "7aa1d8993a91462c1382be368efbdaa19a0434cb77f589e58819d3fcee92ffbf"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 16 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 16 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 16,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "c7eb8a58d16c121a4b0e8e9e40888be71d4c9612f08ebdb764f70e2cd0f6452c"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 17 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 17 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "84ad5fea47d092f95dacfdaf38b2a6e2adb06ef81a95ea828d26eb0141e9bc85"
+  },
+  {
+    "answer": "41",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 17 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 17 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "be2ff859055849307a071d53d9aef03cabbb8c444c9f930b8cb46db7ef07beff"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 18 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 18 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 18,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "1b39f4c6584551d06fdead3abaafb4ac5098004763b32c4bfb91bb063791740c"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 18 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 18 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 18,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "82af5e2bf6b5fcefd834ef45afb63e00a219d75bcec8a9c5dcc20d4d6a5f52cd"
+  },
+  {
+    "answer": "37",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 19 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 19 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 19,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "bd983a62fd00ac80d45325a9f1088f896151e9dbb024df3f3803187677f0f092"
+  },
+  {
+    "answer": "43",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 19 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 19 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 19,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "78c3461981a6f0fbc3a22a089a4e32ff6098f7b31cfa73026b67a843a5f5774a"
+  },
+  {
+    "answer": "38",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 3 more.",
+        "Counting 6 times adds 3 x 6 in total.",
+        "Start at 20 and add 3 x 6."
+      ]
+    },
+    "stem": "Starting at 20 and counting up by 3s, 6 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 20,
+      "b": 3,
+      "c": 6
+    },
+    "variant_signature": "bf8f83a5d07220370ec5dbd53d57b958367e6912315fccccee6f6599a9130e13"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Skip counting means adding the same step each time.",
+      "Multiply the step size by the number of counts, then add the start."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.SKIPCOUNT.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each count adds 8 more.",
+        "Counting 3 times adds 8 x 3 in total.",
+        "Start at 20 and add 8 x 3."
+      ]
+    },
+    "stem": "Starting at 20 and counting up by 8s, 3 times, what number do you reach?",
+    "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 20,
+      "b": 8,
+      "c": 3
+    },
+    "variant_signature": "78cfa7cc0424ce4e8374e788a18e9a09d92943c7e18f633bfbfd520d6b317a39"
+  }
+]

@@ -1,0 +1,782 @@
+[
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          3,
+          3,
+          3
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture an 3 by 3 grid of dots \u2014 how many dots is that in total?",
+      "Squaring a number means multiplying it by itself, not adding it to itself."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth square number is n multiplied by itself, not n doubled.",
+        "With n = 3, the square number is 3 x 3."
+      ]
+    },
+    "stem": "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the 3th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 3
+    },
+    "variant_signature": "fa8c32c090ac4ca5a25cedc800f4f52fc7d3bd51d35f77faaa79f85f753a1839"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture an 4 by 4 grid of dots \u2014 how many dots is that in total?",
+      "Squaring a number means multiplying it by itself, not adding it to itself."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth square number is n multiplied by itself, not n doubled.",
+        "With n = 4, the square number is 4 x 4."
+      ]
+    },
+    "stem": "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the 4th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 4
+    },
+    "variant_signature": "8bbd823152a1b95dbbd24ba71757f39f8ee4be9c3bc68a05d52dec15d86305d7"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          5,
+          5,
+          5,
+          5,
+          5
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture an 5 by 5 grid of dots \u2014 how many dots is that in total?",
+      "Squaring a number means multiplying it by itself, not adding it to itself."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth square number is n multiplied by itself, not n doubled.",
+        "With n = 5, the square number is 5 x 5."
+      ]
+    },
+    "stem": "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the 5th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 5
+    },
+    "variant_signature": "19e3457c50378263fd1338c6926baf9d2f210b9c821c8d0e459a0cd316aa6098"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture an 6 by 6 grid of dots \u2014 how many dots is that in total?",
+      "Squaring a number means multiplying it by itself, not adding it to itself."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth square number is n multiplied by itself, not n doubled.",
+        "With n = 6, the square number is 6 x 6."
+      ]
+    },
+    "stem": "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the 6th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 6
+    },
+    "variant_signature": "7ec5f4adaffc8c5b4fedf51871baa902f7fbc67b51c9b2260208f85347dc114a"
+  },
+  {
+    "answer": "49",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          7,
+          7,
+          7,
+          7,
+          7,
+          7,
+          7
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture an 7 by 7 grid of dots \u2014 how many dots is that in total?",
+      "Squaring a number means multiplying it by itself, not adding it to itself."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth square number is n multiplied by itself, not n doubled.",
+        "With n = 7, the square number is 7 x 7."
+      ]
+    },
+    "stem": "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the 7th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 7
+    },
+    "variant_signature": "924a409cec810551073500494ae663782446f0d84150ec3266505dbfff98be11"
+  },
+  {
+    "answer": "64",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "72"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture an 8 by 8 grid of dots \u2014 how many dots is that in total?",
+      "Squaring a number means multiplying it by itself, not adding it to itself."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth square number is n multiplied by itself, not n doubled.",
+        "With n = 8, the square number is 8 x 8."
+      ]
+    },
+    "stem": "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the 8th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 8
+    },
+    "variant_signature": "5e585600ca5798e884b55a72d8b5e47b7cfa6230b2e8648537f4c3b8f49b07ab"
+  },
+  {
+    "answer": "81",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "90"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9,
+          9
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture an 9 by 9 grid of dots \u2014 how many dots is that in total?",
+      "Squaring a number means multiplying it by itself, not adding it to itself."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth square number is n multiplied by itself, not n doubled.",
+        "With n = 9, the square number is 9 x 9."
+      ]
+    },
+    "stem": "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the 9th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 9
+    },
+    "variant_signature": "af625677e366dbf1cb22e8783c50509202f20a9e4f806239e9aaa3ce0599d315"
+  },
+  {
+    "answer": "100",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "110"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture an 10 by 10 grid of dots \u2014 how many dots is that in total?",
+      "Squaring a number means multiplying it by itself, not adding it to itself."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth square number is n multiplied by itself, not n doubled.",
+        "With n = 10, the square number is 10 x 10."
+      ]
+    },
+    "stem": "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the 10th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 10
+    },
+    "variant_signature": "d652eb3f6db01c5c158467c32755147bbf1808bf4e59b763b40a8b4684de5bf3"
+  },
+  {
+    "answer": "121",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "132"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11,
+          11
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture an 11 by 11 grid of dots \u2014 how many dots is that in total?",
+      "Squaring a number means multiplying it by itself, not adding it to itself."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth square number is n multiplied by itself, not n doubled.",
+        "With n = 11, the square number is 11 x 11."
+      ]
+    },
+    "stem": "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the 11th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 11
+    },
+    "variant_signature": "af57dee3ba4ef6bdb4d9b0704c818bbdeaf28dd1a04e1cdade7ee7e619377fac"
+  },
+  {
+    "answer": "144",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "156"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture an 12 by 12 grid of dots \u2014 how many dots is that in total?",
+      "Squaring a number means multiplying it by itself, not adding it to itself."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth square number is n multiplied by itself, not n doubled.",
+        "With n = 12, the square number is 12 x 12."
+      ]
+    },
+    "stem": "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the 12th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 12
+    },
+    "variant_signature": "1bda900513ff646d0ac1dca3142a5af38a572dd0d19da64d60430d4157763d52"
+  },
+  {
+    "answer": "169",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "182"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13,
+          13
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture an 13 by 13 grid of dots \u2014 how many dots is that in total?",
+      "Squaring a number means multiplying it by itself, not adding it to itself."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth square number is n multiplied by itself, not n doubled.",
+        "With n = 13, the square number is 13 x 13."
+      ]
+    },
+    "stem": "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the 13th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 13
+    },
+    "variant_signature": "5e34f29c48a7f59bdbabb09d605e6eaf895ab9f044f55d1623a24498f7235e3b"
+  },
+  {
+    "answer": "196",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "210"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14,
+          14
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture an 14 by 14 grid of dots \u2014 how many dots is that in total?",
+      "Squaring a number means multiplying it by itself, not adding it to itself."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth square number is n multiplied by itself, not n doubled.",
+        "With n = 14, the square number is 14 x 14."
+      ]
+    },
+    "stem": "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the 14th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 14
+    },
+    "variant_signature": "d69729f5eed5026d9c30bb4d824fd40b25f58d6cfc85cc683ff27edc81651ca2"
+  },
+  {
+    "answer": "225",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.SQUARE-DOUBLES",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "240"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15,
+          15
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture an 15 by 15 grid of dots \u2014 how many dots is that in total?",
+      "Squaring a number means multiplying it by itself, not adding it to itself."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth square number is n multiplied by itself, not n doubled.",
+        "With n = 15, the square number is 15 x 15."
+      ]
+    },
+    "stem": "Square numbers count the dots in an n x n square arrangement: 1, 4, 9, 16, ... What is the 15th square number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 15
+    },
+    "variant_signature": "1d8cdb9c366b2707d321ad91a33f45a336ed0c7338c46862bc10cd21bb258d4e"
+  }
+]

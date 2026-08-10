@@ -1,0 +1,2082 @@
+[
+  {
+    "answer": "341",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "44"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 31, into tens and ones: 3 tens and 1 ones.",
+        "Multiply 11 by the ones digit 1, and multiply 11 by the tens digit 3 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 31 rows of seats, with 11 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 1,
+      "rt": 3,
+      "s": 11
+    },
+    "variant_signature": "7cc9b0809ba7597be8212f317a286996d0bfcca20e815f73d668d1a9209bcda4"
+  },
+  {
+    "answer": "803",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "110"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "84"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "33"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 73, into tens and ones: 7 tens and 3 ones.",
+        "Multiply 11 by the ones digit 3, and multiply 11 by the tens digit 7 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 73 rows of seats, with 11 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 3,
+      "rt": 7,
+      "s": 11
+    },
+    "variant_signature": "65248310ce29168385020eef24d7e28c092964671d85bf051550b7adf44c01a3"
+  },
+  {
+    "answer": "324",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "108"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "39"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "84"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 27, into tens and ones: 2 tens and 7 ones.",
+        "Multiply 12 by the ones digit 7, and multiply 12 by the tens digit 2 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 27 rows of seats, with 12 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 7,
+      "rt": 2,
+      "s": 12
+    },
+    "variant_signature": "a875a1e3d9df5fd0b172e7bfd82bfc81ad859af42e0135c4761392704606ba4c"
+  },
+  {
+    "answer": "840",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "84"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "82"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 70, into tens and ones: 7 tens and 0 ones.",
+        "Multiply 12 by the ones digit 0, and multiply 12 by the tens digit 7 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 70 rows of seats, with 12 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 0,
+      "rt": 7,
+      "s": 12
+    },
+    "variant_signature": "ec7bfda3a3972942ff53e49b30b00237f96505c0fb47dff30a5eba2b5e93815a"
+  },
+  {
+    "answer": "299",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "65"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "39"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 23, into tens and ones: 2 tens and 3 ones.",
+        "Multiply 13 by the ones digit 3, and multiply 13 by the tens digit 2 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 23 rows of seats, with 13 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 3,
+      "rt": 2,
+      "s": 13
+    },
+    "variant_signature": "e476679eb3438b9e4406147994f04857a7a33ff1972fa3b8650459e1b46f1273"
+  },
+  {
+    "answer": "845",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "143"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "78"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "65"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 65, into tens and ones: 6 tens and 5 ones.",
+        "Multiply 13 by the ones digit 5, and multiply 13 by the tens digit 6 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 65 rows of seats, with 13 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 5,
+      "rt": 6,
+      "s": 13
+    },
+    "variant_signature": "47e3b90c6042b47084798c1a8a27a7f02d5a119ffd7f06ff6e65f2afa6b7cac4"
+  },
+  {
+    "answer": "252",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "126"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "112"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 18, into tens and ones: 1 tens and 8 ones.",
+        "Multiply 14 by the ones digit 8, and multiply 14 by the tens digit 1 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 18 rows of seats, with 14 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 8,
+      "rt": 1,
+      "s": 14
+    },
+    "variant_signature": "9043c733dcc499dc35092274c43e38de5ec142f08af3555ce4c24529e4a94ad3"
+  },
+  {
+    "answer": "840",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "84"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "74"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 60, into tens and ones: 6 tens and 0 ones.",
+        "Multiply 14 by the ones digit 0, and multiply 14 by the tens digit 6 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 60 rows of seats, with 14 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 0,
+      "rt": 6,
+      "s": 14
+    },
+    "variant_signature": "bb79d5f7103f471384ae2731b1548fe6efc444d5d03cf6566d9792fba2445b3c"
+  },
+  {
+    "answer": "210",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "75"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 14, into tens and ones: 1 tens and 4 ones.",
+        "Multiply 15 by the ones digit 4, and multiply 15 by the tens digit 1 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 14 rows of seats, with 15 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 4,
+      "rt": 1,
+      "s": 15
+    },
+    "variant_signature": "a7a46dec7ef252cc61f04c01fd9fb80b216dbf7ab2c9343895402a8ea1aeacbc"
+  },
+  {
+    "answer": "855",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "72"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "105"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 57, into tens and ones: 5 tens and 7 ones.",
+        "Multiply 15 by the ones digit 7, and multiply 15 by the tens digit 5 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 57 rows of seats, with 15 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 7,
+      "rt": 5,
+      "s": 15
+    },
+    "variant_signature": "f8ecfc7d83c779cddc56e9e622c43ec4787d6abc5ce17f67aa597aeb88e848bd"
+  },
+  {
+    "answer": "160",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 10, into tens and ones: 1 tens and 0 ones.",
+        "Multiply 16 by the ones digit 0, and multiply 16 by the tens digit 1 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 10 rows of seats, with 16 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 0,
+      "rt": 1,
+      "s": 16
+    },
+    "variant_signature": "f765dfd1af6c184bf60b090c1acbdd30c0c870a5f49fe02428ff2185a6a06fbe"
+  },
+  {
+    "answer": "832",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "112"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "68"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 52, into tens and ones: 5 tens and 2 ones.",
+        "Multiply 16 by the ones digit 2, and multiply 16 by the tens digit 5 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 52 rows of seats, with 16 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 2,
+      "rt": 5,
+      "s": 16
+    },
+    "variant_signature": "e6cb6b2f23414776bc2d08a8414189a03a52a963a7386c1f5eb078537eafb63a"
+  },
+  {
+    "answer": "1520",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "224"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "111"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "80"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 95, into tens and ones: 9 tens and 5 ones.",
+        "Multiply 16 by the ones digit 5, and multiply 16 by the tens digit 9 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 95 rows of seats, with 16 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 5,
+      "rt": 9,
+      "s": 16
+    },
+    "variant_signature": "501548c06bf4f7a58dcc80f31e41b722cfa6b37ba9e93101c0f50dfeafb303a5"
+  },
+  {
+    "answer": "799",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "187"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "119"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 47, into tens and ones: 4 tens and 7 ones.",
+        "Multiply 17 by the ones digit 7, and multiply 17 by the tens digit 4 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 47 rows of seats, with 17 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 7,
+      "rt": 4,
+      "s": 17
+    },
+    "variant_signature": "8b5bd89b198d1927895f130b9f5ad6bda9de4dc2aac7a56f03c8785407c2c4db"
+  },
+  {
+    "answer": "1530",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "153"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "107"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 90, into tens and ones: 9 tens and 0 ones.",
+        "Multiply 17 by the ones digit 0, and multiply 17 by the tens digit 9 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 90 rows of seats, with 17 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 0,
+      "rt": 9,
+      "s": 17
+    },
+    "variant_signature": "e4d1858c460bd34629ededf8f35e832fa3b4ac8cd5f37a26783d51f17c1b1d72"
+  },
+  {
+    "answer": "774",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "126"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "61"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "54"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 43, into tens and ones: 4 tens and 3 ones.",
+        "Multiply 18 by the ones digit 3, and multiply 18 by the tens digit 4 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 43 rows of seats, with 18 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 3,
+      "rt": 4,
+      "s": 18
+    },
+    "variant_signature": "565834cf170d21939bb6884988922ee3761a770c7500b0d3f725edcd0b0d83f7"
+  },
+  {
+    "answer": "1548",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "252"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "104"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "108"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 86, into tens and ones: 8 tens and 6 ones.",
+        "Multiply 18 by the ones digit 6, and multiply 18 by the tens digit 8 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 86 rows of seats, with 18 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 6,
+      "rt": 8,
+      "s": 18
+    },
+    "variant_signature": "2ddcd8fae26143121797d85a50a6af97cdd4c13c3ab331c33266012bd3d34dd1"
+  },
+  {
+    "answer": "741",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "228"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "58"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "171"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 39, into tens and ones: 3 tens and 9 ones.",
+        "Multiply 19 by the ones digit 9, and multiply 19 by the tens digit 3 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 39 rows of seats, with 19 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 9,
+      "rt": 3,
+      "s": 19
+    },
+    "variant_signature": "982e8b6d722dae99fe81a8a6fa8c520450c90d9f1eaa0d490da9a4fd42109c8e"
+  },
+  {
+    "answer": "1539",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "171"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "100"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 81, into tens and ones: 8 tens and 1 ones.",
+        "Multiply 19 by the ones digit 1, and multiply 19 by the tens digit 8 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 81 rows of seats, with 19 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 1,
+      "rt": 8,
+      "s": 19
+    },
+    "variant_signature": "1f76ca6b132b7a6ff512a565f7a22abdf30b0c73bd4afa0e3bd9b2b056f35ee1"
+  },
+  {
+    "answer": "700",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "160"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "55"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "100"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 35, into tens and ones: 3 tens and 5 ones.",
+        "Multiply 20 by the ones digit 5, and multiply 20 by the tens digit 3 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 35 rows of seats, with 20 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 5,
+      "rt": 3,
+      "s": 20
+    },
+    "variant_signature": "6befd1859acc7156d85df2e8b9f8a1b9452acc9dd20c9a865708b4dea35e44c1"
+  },
+  {
+    "answer": "1540",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "280"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "97"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "140"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 77, into tens and ones: 7 tens and 7 ones.",
+        "Multiply 20 by the ones digit 7, and multiply 20 by the tens digit 7 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 77 rows of seats, with 20 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 7,
+      "rt": 7,
+      "s": 20
+    },
+    "variant_signature": "4e3f3803e9e54555a3451512b71ed9a481d1d91a4ea6949837f13753c2e0e653"
+  },
+  {
+    "answer": "630",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "63"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "51"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 30, into tens and ones: 3 tens and 0 ones.",
+        "Multiply 21 by the ones digit 0, and multiply 21 by the tens digit 3 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 30 rows of seats, with 21 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 0,
+      "rt": 3,
+      "s": 21
+    },
+    "variant_signature": "144f5761bb77ced146ab437096a4bf683fd6c0452bdcdbfb94b70f11f9aca16a"
+  },
+  {
+    "answer": "1512",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "189"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "93"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 72, into tens and ones: 7 tens and 2 ones.",
+        "Multiply 21 by the ones digit 2, and multiply 21 by the tens digit 7 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 72 rows of seats, with 21 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 2,
+      "rt": 7,
+      "s": 21
+    },
+    "variant_signature": "e654a4486e739323f92b26c56acf69ecd53de2c9ad7f455a5e58d92ad308072a"
+  },
+  {
+    "answer": "572",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "176"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "132"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 26, into tens and ones: 2 tens and 6 ones.",
+        "Multiply 22 by the ones digit 6, and multiply 22 by the tens digit 2 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 26 rows of seats, with 22 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 6,
+      "rt": 2,
+      "s": 22
+    },
+    "variant_signature": "b3ed0d22bdd78c7510019f247d228db280c65ee9595bc24a6a5871cdb90fe725"
+  },
+  {
+    "answer": "1496",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "308"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "90"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "176"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 68, into tens and ones: 6 tens and 8 ones.",
+        "Multiply 22 by the ones digit 8, and multiply 22 by the tens digit 6 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 68 rows of seats, with 22 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 8,
+      "rt": 6,
+      "s": 22
+    },
+    "variant_signature": "0d8f4ffff124649cbee90fca3a7f0bc8628689e942326299e6cdbf697e8d7577"
+  },
+  {
+    "answer": "483",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "69"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "44"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 21, into tens and ones: 2 tens and 1 ones.",
+        "Multiply 23 by the ones digit 1, and multiply 23 by the tens digit 2 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 21 rows of seats, with 23 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 1,
+      "rt": 2,
+      "s": 23
+    },
+    "variant_signature": "fd35e34b6b1a0a3cc20864b1740bd00d66f501deb85eaabd4460a77e7150c1c2"
+  },
+  {
+    "answer": "1449",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "207"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "86"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "69"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 63, into tens and ones: 6 tens and 3 ones.",
+        "Multiply 23 by the ones digit 3, and multiply 23 by the tens digit 6 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 63 rows of seats, with 23 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 3,
+      "rt": 6,
+      "s": 23
+    },
+    "variant_signature": "b32b78c5fe2fa0b588453efa35a220845c1d4de1f32e0e5b0e2282960e3cfdd6"
+  },
+  {
+    "answer": "384",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "168"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "144"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 16, into tens and ones: 1 tens and 6 ones.",
+        "Multiply 24 by the ones digit 6, and multiply 24 by the tens digit 1 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 16 rows of seats, with 24 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 6,
+      "rt": 1,
+      "s": 24
+    },
+    "variant_signature": "7a9410244ed5a95370566cc529ec3f55fc114eb9f13cc16418f71bae27091bcf"
+  },
+  {
+    "answer": "1392",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "312"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "82"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "192"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 58, into tens and ones: 5 tens and 8 ones.",
+        "Multiply 24 by the ones digit 8, and multiply 24 by the tens digit 5 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 58 rows of seats, with 24 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 8,
+      "rt": 5,
+      "s": 24
+    },
+    "variant_signature": "f3dc69b2bc74d5dd93e27eff54712c6b26eaf1baedc59dd082e30a4753b539f8"
+  },
+  {
+    "answer": "275",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "50"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 11, into tens and ones: 1 tens and 1 ones.",
+        "Multiply 25 by the ones digit 1, and multiply 25 by the tens digit 1 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 11 rows of seats, with 25 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 1,
+      "rt": 1,
+      "s": 25
+    },
+    "variant_signature": "d751ddf842fee8fc31ade504d2e63ad871d8653e8728fe677518541f35ffa3c8"
+  },
+  {
+    "answer": "1325",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "200"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "78"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "75"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 53, into tens and ones: 5 tens and 3 ones.",
+        "Multiply 25 by the ones digit 3, and multiply 25 by the tens digit 5 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 53 rows of seats, with 25 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 3,
+      "rt": 5,
+      "s": 25
+    },
+    "variant_signature": "01e6aad8fbb1defcb617562ea2735eb0ed028480f220b7702466487cb055cbdf"
+  },
+  {
+    "answer": "2400",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "375"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "121"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "150"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 96, into tens and ones: 9 tens and 6 ones.",
+        "Multiply 25 by the ones digit 6, and multiply 25 by the tens digit 9 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 96 rows of seats, with 25 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 6,
+      "rt": 9,
+      "s": 25
+    },
+    "variant_signature": "e8a534bf6d514f162abe60a61af2e2bc92af5e08f9806340b53927a2fcea87fb"
+  },
+  {
+    "answer": "1248",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "312"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "74"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "208"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 48, into tens and ones: 4 tens and 8 ones.",
+        "Multiply 26 by the ones digit 8, and multiply 26 by the tens digit 4 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 48 rows of seats, with 26 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 8,
+      "rt": 4,
+      "s": 26
+    },
+    "variant_signature": "954388a72af07798d1a1ef0b6c2b388caf2af1accfa9bdc23b760afd12ee9c44"
+  },
+  {
+    "answer": "2366",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "260"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "117"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 91, into tens and ones: 9 tens and 1 ones.",
+        "Multiply 26 by the ones digit 1, and multiply 26 by the tens digit 9 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 91 rows of seats, with 26 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 1,
+      "rt": 9,
+      "s": 26
+    },
+    "variant_signature": "39cfcf547d42561116c88967721ed875ae12b66f93f986f9a4b02b94a4c65cb9"
+  },
+  {
+    "answer": "1188",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "216"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "71"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "108"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 44, into tens and ones: 4 tens and 4 ones.",
+        "Multiply 27 by the ones digit 4, and multiply 27 by the tens digit 4 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 44 rows of seats, with 27 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 4,
+      "rt": 4,
+      "s": 27
+    },
+    "variant_signature": "390a03fa664c9072266e65743897d2d60e93f8e2441e233319f1f2cd968ec451"
+  },
+  {
+    "answer": "2322",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "378"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "113"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "162"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 86, into tens and ones: 8 tens and 6 ones.",
+        "Multiply 27 by the ones digit 6, and multiply 27 by the tens digit 8 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 86 rows of seats, with 27 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 6,
+      "rt": 8,
+      "s": 27
+    },
+    "variant_signature": "9580a8e7d3317c2431988e65900636fda341feacc1e7e3807eda7876b73117ed"
+  },
+  {
+    "answer": "1092",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "336"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "67"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "252"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 39, into tens and ones: 3 tens and 9 ones.",
+        "Multiply 28 by the ones digit 9, and multiply 28 by the tens digit 3 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 39 rows of seats, with 28 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 9,
+      "rt": 3,
+      "s": 28
+    },
+    "variant_signature": "a1cb7cf648d27fb6fbbcdbe74588671b37c505f29c033fb12cb0ddea8f9c0ed1"
+  },
+  {
+    "answer": "2268",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "252"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "109"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 81, into tens and ones: 8 tens and 1 ones.",
+        "Multiply 28 by the ones digit 1, and multiply 28 by the tens digit 8 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 81 rows of seats, with 28 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 1,
+      "rt": 8,
+      "s": 28
+    },
+    "variant_signature": "fe92d166f6389367a31d1af5604ffabc115f86102a122dc7b44b5b677686cc65"
+  },
+  {
+    "answer": "1015",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "232"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "145"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 35, into tens and ones: 3 tens and 5 ones.",
+        "Multiply 29 by the ones digit 5, and multiply 29 by the tens digit 3 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 35 rows of seats, with 29 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 5,
+      "rt": 3,
+      "s": 29
+    },
+    "variant_signature": "e0d4bb89e7fcc22268014c9c0026f763a667bf24dfff479a498115650ff67755"
+  },
+  {
+    "answer": "2233",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "406"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "106"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "203"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the number of rows into tens and ones before multiplying.",
+      "The tens-digit partial product is worth ten times as much \u2014 remember to shift it one place left before adding."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.WORD.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split the number of rows, 77, into tens and ones: 7 tens and 7 ones.",
+        "Multiply 29 by the ones digit 7, and multiply 29 by the tens digit 7 shifted one place left (that is, multiplied by 10).",
+        "Add the two partial products to get the total number of seats."
+      ]
+    },
+    "stem": "A stadium has 77 rows of seats, with 29 seats in each row. How many seats are there in the stadium altogether?",
+    "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ro": 7,
+      "rt": 7,
+      "s": 29
+    },
+    "variant_signature": "34d24a0fe451ccef65b356bb1124e4cdbe59b3f320fd6e27478f8017cbe3c741"
+  }
+]

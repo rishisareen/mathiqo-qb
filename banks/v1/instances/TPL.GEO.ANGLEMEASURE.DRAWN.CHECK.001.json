@@ -1,0 +1,2242 @@
+[
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "164"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 16,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 16 degrees, the same as the angle Ravi drew."
+      ]
+    },
+    "stem": "Ravi draws an angle of exactly 16 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 16
+    },
+    "variant_signature": "63da30869d7ca4b5756283d358b49421ca08e47894b98ada1c0d777a398a9be7"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "160"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 20,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 20 degrees, the same as the angle Priya drew."
+      ]
+    },
+    "stem": "Priya draws an angle of exactly 20 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 20
+    },
+    "variant_signature": "0c3e275c41331e2900430edb0e863ad5c8f890d1e08da4baaba76386e5766c2a"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "157"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "33"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 23,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 23 degrees, the same as the angle Arjun drew."
+      ]
+    },
+    "stem": "Arjun draws an angle of exactly 23 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 23
+    },
+    "variant_signature": "ea40d4eecbdeb63dd6c04bacbe5660264d201991ce96e98af4e93bdba1441eb3"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "153"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "37"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 27,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 27 degrees, the same as the angle Meera drew."
+      ]
+    },
+    "stem": "Meera draws an angle of exactly 27 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 27
+    },
+    "variant_signature": "4edc9f8364682a174b20af49913842f5ce13c67183ad664345fd374b3ffeca2f"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "149"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "41"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 31,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 31 degrees, the same as the angle Diya drew."
+      ]
+    },
+    "stem": "Diya draws an angle of exactly 31 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 31
+    },
+    "variant_signature": "c1fe5d94a12add3bf619e539bf59912d88ad970cfac89fb3480f3228b7de50fc"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "145"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 35,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 35 degrees, the same as the angle Kabir drew."
+      ]
+    },
+    "stem": "Kabir draws an angle of exactly 35 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 35
+    },
+    "variant_signature": "eb04a89b22c99ab16b5a66eab5636fbaebfb4a2ddcf5c68baac3e1c41454cd03"
+  },
+  {
+    "answer": "38",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "142"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 38,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 38 degrees, the same as the angle Ananya drew."
+      ]
+    },
+    "stem": "Ananya draws an angle of exactly 38 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 38
+    },
+    "variant_signature": "08f44d6fa5ceb4586fe9149fec0e6c20009af451dde6f937b46e8c9076634c1e"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "138"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 42,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 42 degrees, the same as the angle Vihaan drew."
+      ]
+    },
+    "stem": "Vihaan draws an angle of exactly 42 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 42
+    },
+    "variant_signature": "50d62c4c605af988f88fe4b2459b5ad668db25590abaf81a80cdce7bdf5300d4"
+  },
+  {
+    "answer": "46",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "134"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 46,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 46 degrees, the same as the angle Ravi drew."
+      ]
+    },
+    "stem": "Ravi draws an angle of exactly 46 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 46
+    },
+    "variant_signature": "8b0634594f2f6dfd5a4f3bb9633c64d9746cf916c2bb87acc359be30160a1a6e"
+  },
+  {
+    "answer": "49",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "131"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "59"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "39"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 49,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 49 degrees, the same as the angle Priya drew."
+      ]
+    },
+    "stem": "Priya draws an angle of exactly 49 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 49
+    },
+    "variant_signature": "74245063e2f23f133e5ede9a719d730d3c53883ab512040983eb61dc449d13d6"
+  },
+  {
+    "answer": "53",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "127"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "63"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "43"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 53,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 53 degrees, the same as the angle Arjun drew."
+      ]
+    },
+    "stem": "Arjun draws an angle of exactly 53 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 53
+    },
+    "variant_signature": "433e71e5783b48c03490d624c1b9536f2feaf111e5b4497cf384d70a662ea0fd"
+  },
+  {
+    "answer": "57",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "123"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "67"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "47"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 57,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 57 degrees, the same as the angle Meera drew."
+      ]
+    },
+    "stem": "Meera draws an angle of exactly 57 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 57
+    },
+    "variant_signature": "80528495cd482b00f393f241422af4479a8c127bdeb2e2b0510f5311c7c845f9"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "120"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "70"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "50"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 60,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 60 degrees, the same as the angle Diya drew."
+      ]
+    },
+    "stem": "Diya draws an angle of exactly 60 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 60
+    },
+    "variant_signature": "5b7f5a803b380f6f0e2e53a0275fe5b4e05830b6b72e33633e6ac1622746ee26"
+  },
+  {
+    "answer": "64",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "116"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "74"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "54"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 64,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 64 degrees, the same as the angle Kabir drew."
+      ]
+    },
+    "stem": "Kabir draws an angle of exactly 64 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 64
+    },
+    "variant_signature": "0059a7fa7e49b082cbc2e23ee052f374fc2c12e09fea7e5013b4f1ac21e2793f"
+  },
+  {
+    "answer": "68",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "112"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "78"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "58"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 68,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 68 degrees, the same as the angle Ananya drew."
+      ]
+    },
+    "stem": "Ananya draws an angle of exactly 68 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 68
+    },
+    "variant_signature": "c987c2ce7496f01153dd832b4421431988e763f64801fb5fad5c78ad424993a2"
+  },
+  {
+    "answer": "72",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "108"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "82"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "62"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 72,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 72 degrees, the same as the angle Vihaan drew."
+      ]
+    },
+    "stem": "Vihaan draws an angle of exactly 72 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 72
+    },
+    "variant_signature": "c18f61c82174ea62077dbe00c584e9571fc4e63d327a9fd6a921deaf908900b1"
+  },
+  {
+    "answer": "75",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "105"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "85"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "65"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 75,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 75 degrees, the same as the angle Ravi drew."
+      ]
+    },
+    "stem": "Ravi draws an angle of exactly 75 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 75
+    },
+    "variant_signature": "9e4438e64015d06d5c56f91b5dd76a85a3155be49faf3c3ef7d34c58501c898d"
+  },
+  {
+    "answer": "79",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "101"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "89"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "69"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 79,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 79 degrees, the same as the angle Priya drew."
+      ]
+    },
+    "stem": "Priya draws an angle of exactly 79 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 79
+    },
+    "variant_signature": "629ccf5e876ae07d8bcc98b6860cc355d75d8563511fdb151f579a6fbc7b8d08"
+  },
+  {
+    "answer": "83",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "97"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "93"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "73"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 83,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 83 degrees, the same as the angle Arjun drew."
+      ]
+    },
+    "stem": "Arjun draws an angle of exactly 83 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 83
+    },
+    "variant_signature": "e25df2ab626349c7550eaf7521ccbd345b04fe2df12cce754a99562755830d1a"
+  },
+  {
+    "answer": "87",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "93"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "97"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "77"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 87,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 87 degrees, the same as the angle Meera drew."
+      ]
+    },
+    "stem": "Meera draws an angle of exactly 87 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 87
+    },
+    "variant_signature": "78ee319c7fd36f558e282372d5c4cf26ed620a1f096ed6508b23b414a0bfcf61"
+  },
+  {
+    "answer": "92",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "88"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "102"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "82"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 92,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 92 degrees, the same as the angle Diya drew."
+      ]
+    },
+    "stem": "Diya draws an angle of exactly 92 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 92
+    },
+    "variant_signature": "8a0d9d5b6dac424453fbf66792a0cb43a8ba848c2b681e7e78bd1d212efea2c1"
+  },
+  {
+    "answer": "97",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "83"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "107"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "87"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 97,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 97 degrees, the same as the angle Kabir drew."
+      ]
+    },
+    "stem": "Kabir draws an angle of exactly 97 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 97
+    },
+    "variant_signature": "a608bc79c9297d0574d8de3968a89dacce1d214a9466c578cd6d3c59c37dffc3"
+  },
+  {
+    "answer": "100",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "80"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "110"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "90"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 100,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 100 degrees, the same as the angle Ananya drew."
+      ]
+    },
+    "stem": "Ananya draws an angle of exactly 100 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 100
+    },
+    "variant_signature": "f1e88f4d47340b7e0ae7bc5ae440e05c88538ee1ba99b9468f542a9d32606d88"
+  },
+  {
+    "answer": "104",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "76"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "114"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "94"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 104,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 104 degrees, the same as the angle Vihaan drew."
+      ]
+    },
+    "stem": "Vihaan draws an angle of exactly 104 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 104
+    },
+    "variant_signature": "b64f1d65d5351d2604c43004d88a351658ff76eca5abe09c7e92f32579a26fdb"
+  },
+  {
+    "answer": "108",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "72"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "118"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "98"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 108,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 108 degrees, the same as the angle Ravi drew."
+      ]
+    },
+    "stem": "Ravi draws an angle of exactly 108 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 108
+    },
+    "variant_signature": "668f7dc3316bc9c69212f1127cf3eea9102dbe446d73ce05d3ecfd86e0e9dbd9"
+  },
+  {
+    "answer": "112",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "68"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "122"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "102"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 112,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 112 degrees, the same as the angle Priya drew."
+      ]
+    },
+    "stem": "Priya draws an angle of exactly 112 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 112
+    },
+    "variant_signature": "c82fc9363d4b8615792d6bacb31c53d60e967d0297b205ae3878fc0c7bb23277"
+  },
+  {
+    "answer": "115",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "65"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "125"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "105"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 115,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 115 degrees, the same as the angle Arjun drew."
+      ]
+    },
+    "stem": "Arjun draws an angle of exactly 115 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 115
+    },
+    "variant_signature": "68df274b7cfb24264838c5088d3e2fe3f78f2ff880a8f92cc34d31a10774c856"
+  },
+  {
+    "answer": "119",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "61"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "129"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "109"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 119,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 119 degrees, the same as the angle Meera drew."
+      ]
+    },
+    "stem": "Meera draws an angle of exactly 119 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 119
+    },
+    "variant_signature": "464df3c7ab811800f109ae2145486a48a799df3d4967e9ee8de08178f16cdb45"
+  },
+  {
+    "answer": "123",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "57"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "133"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "113"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 123,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 123 degrees, the same as the angle Diya drew."
+      ]
+    },
+    "stem": "Diya draws an angle of exactly 123 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 123
+    },
+    "variant_signature": "dddd8dd80aba95d83b1be459fab5c5206999c597340b38136ae2d444658414e5"
+  },
+  {
+    "answer": "126",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "54"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "136"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "116"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 126,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 126 degrees, the same as the angle Kabir drew."
+      ]
+    },
+    "stem": "Kabir draws an angle of exactly 126 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 126
+    },
+    "variant_signature": "f4b4c13036f9717240e89f15dc84dd557c23baf89aed1bd52a1fc8b89cab30b5"
+  },
+  {
+    "answer": "130",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "50"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "140"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "120"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 130,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 130 degrees, the same as the angle Ananya drew."
+      ]
+    },
+    "stem": "Ananya draws an angle of exactly 130 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 130
+    },
+    "variant_signature": "dc5e786e72903524b783c118932a17fe8360fcafda5530ad0f361bbd8199b4b3"
+  },
+  {
+    "answer": "134",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "46"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "144"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "124"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 134,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 134 degrees, the same as the angle Vihaan drew."
+      ]
+    },
+    "stem": "Vihaan draws an angle of exactly 134 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 134
+    },
+    "variant_signature": "ee5b7ac5adc92bdfb3bad5ef9b545d5613307f2c0012473c829d87ea57cb6bc1"
+  },
+  {
+    "answer": "137",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "43"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "147"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "127"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 137,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 137 degrees, the same as the angle Ravi drew."
+      ]
+    },
+    "stem": "Ravi draws an angle of exactly 137 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 137
+    },
+    "variant_signature": "80c0a31b56a2e5d506324000aa81ea12526dc95fa265e82950d852aa88e8e9bb"
+  },
+  {
+    "answer": "141",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "39"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "151"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "131"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 141,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 141 degrees, the same as the angle Priya drew."
+      ]
+    },
+    "stem": "Priya draws an angle of exactly 141 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 141
+    },
+    "variant_signature": "b161e2f8b774f64766fabd01bb6578df3ac522b7e5d26344df60af6171f10406"
+  },
+  {
+    "answer": "145",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "35"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "155"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "135"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 145,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 145 degrees, the same as the angle Arjun drew."
+      ]
+    },
+    "stem": "Arjun draws an angle of exactly 145 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 145
+    },
+    "variant_signature": "647f03be50edc37184347dbe6d9976d889442c30da28b6fb7032fd48a02535f0"
+  },
+  {
+    "answer": "149",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "159"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "139"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 149,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 149 degrees, the same as the angle Meera drew."
+      ]
+    },
+    "stem": "Meera draws an angle of exactly 149 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 149
+    },
+    "variant_signature": "f5506a7eb04769fcbfdb68a08f369b9d9c62f3ee7391204c29bd00eb53662c43"
+  },
+  {
+    "answer": "152",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "162"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "142"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 152,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 152 degrees, the same as the angle Diya drew."
+      ]
+    },
+    "stem": "Diya draws an angle of exactly 152 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 152
+    },
+    "variant_signature": "69ee329e6f0687a8277d926aa07affabefbad86da3144d81f10ab933716325fb"
+  },
+  {
+    "answer": "156",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "166"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "146"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 156,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 156 degrees, the same as the angle Kabir drew."
+      ]
+    },
+    "stem": "Kabir draws an angle of exactly 156 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 156
+    },
+    "variant_signature": "9adb248816233487eca18a3e558820f03977e08dc6b91465a57a16f367324a47"
+  },
+  {
+    "answer": "160",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "170"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "150"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 160,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 160 degrees, the same as the angle Ananya drew."
+      ]
+    },
+    "stem": "Ananya draws an angle of exactly 160 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 160
+    },
+    "variant_signature": "383a41903ce2fe261185ed832cd0630115581d1c475605fb9c94c9a85105ea63"
+  },
+  {
+    "answer": "163",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "173"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "153"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 163,
+        "kind": "angle",
+        "scale": "inner"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "If the angle was drawn correctly and the protractor is placed correctly, the reading should match what was drawn.",
+      "Watch out for reading the wrong scale \u2014 that would give 180 minus the true value instead."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A correctly-placed protractor reading a correctly-drawn angle reads the angle's true value.",
+        "The classmate's protractor should read 163 degrees, the same as the angle Vihaan drew."
+      ]
+    },
+    "stem": "Vihaan draws an angle of exactly 163 degrees using a ruler and protractor. A classmate then checks it with a correctly-placed protractor, reading the INNER scale. What number should the classmate's protractor read?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 163
+    },
+    "variant_signature": "53903fcd142987a60d3e9ee0ba9f91a351966af8735ba733fe1392f7cbb5cb52"
+  }
+]

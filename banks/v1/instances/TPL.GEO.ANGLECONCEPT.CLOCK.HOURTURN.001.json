@@ -1,0 +1,1738 @@
+[
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 180,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 1 to 7.",
+      "Subtract the starting mark from the ending mark: 7 - 1."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 1 mark to the 7 mark is 7 - 1 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 1 mark to the 7 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 7
+    },
+    "variant_signature": "95739a2aeaaee37730589d4d6096366beb25b2eb83a09d478cf6b6bae8ebe7b0"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 210,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 1 to 8.",
+      "Subtract the starting mark from the ending mark: 8 - 1."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 1 mark to the 8 mark is 8 - 1 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 1 mark to the 8 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 8
+    },
+    "variant_signature": "bf2ea98fa1db77ab928b7b839f9d102592ce28d3665dab907b024cc8e3751016"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 240,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 1 to 9.",
+      "Subtract the starting mark from the ending mark: 9 - 1."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 1 mark to the 9 mark is 9 - 1 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 1 mark to the 9 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 9
+    },
+    "variant_signature": "96d2b3b302e6dea86ddb8f04a139c21c04c77fc37279505f9215d2b0be0746a5"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 270,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 1 to 10.",
+      "Subtract the starting mark from the ending mark: 10 - 1."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 1 mark to the 10 mark is 10 - 1 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 1 mark to the 10 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 10
+    },
+    "variant_signature": "25e4c0fac783d541b0b956ebd318b2c9800cf5d6b6389d0077e982a5c0b9c83c"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 300,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 1 to 11.",
+      "Subtract the starting mark from the ending mark: 11 - 1."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 1 mark to the 11 mark is 11 - 1 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 1 mark to the 11 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 11
+    },
+    "variant_signature": "50d5f996e423444df8e6771c39fe40a961489b0595a8e70fe90872998abd39ed"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 330,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 1 to 12.",
+      "Subtract the starting mark from the ending mark: 12 - 1."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 1 mark to the 12 mark is 12 - 1 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 1 mark to the 12 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 12
+    },
+    "variant_signature": "64581ccaabd86343c60b7a26dbf617eb7eba342983df53af6bae856d202c624c"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 150,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 2 to 7.",
+      "Subtract the starting mark from the ending mark: 7 - 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 2 mark to the 7 mark is 7 - 2 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 2 mark to the 7 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 7
+    },
+    "variant_signature": "10184cee494462157f7cf4df87b65fae01570e97a76d757a61ff643a47426757"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 180,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 2 to 8.",
+      "Subtract the starting mark from the ending mark: 8 - 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 2 mark to the 8 mark is 8 - 2 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 2 mark to the 8 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 8
+    },
+    "variant_signature": "3b315132f809bc3a6bb12d610b06e59778a3983298d96c15b7c61303e49a7be3"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 210,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 2 to 9.",
+      "Subtract the starting mark from the ending mark: 9 - 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 2 mark to the 9 mark is 9 - 2 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 2 mark to the 9 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 9
+    },
+    "variant_signature": "361de806f1e92b23d9ce780910e8b6bee4c97efea89acd69d8ff40cf6f5e4fc4"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 240,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 2 to 10.",
+      "Subtract the starting mark from the ending mark: 10 - 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 2 mark to the 10 mark is 10 - 2 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 2 mark to the 10 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 10
+    },
+    "variant_signature": "daba6da60f2fc96c902b2dca1ab92ef87c6ded45137c8f9ab8a02fe33aa99f48"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 270,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 2 to 11.",
+      "Subtract the starting mark from the ending mark: 11 - 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 2 mark to the 11 mark is 11 - 2 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 2 mark to the 11 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 11
+    },
+    "variant_signature": "fe9f2864bc75fc06a529d3d08fff6ceb9c6355f3244bc221b485301389f95c9d"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 300,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 2 to 12.",
+      "Subtract the starting mark from the ending mark: 12 - 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 2 mark to the 12 mark is 12 - 2 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 2 mark to the 12 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 12
+    },
+    "variant_signature": "bfb425d4bb5b6efbac1d42e411230bbc3e2340398e541934f94d65338fb684fa"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 120,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 3 to 7.",
+      "Subtract the starting mark from the ending mark: 7 - 3."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 3 mark to the 7 mark is 7 - 3 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 3 mark to the 7 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 7
+    },
+    "variant_signature": "89a40d00c07210296bcab165477117ea31343e7681e5c99023c94937edbdb44f"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 150,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 3 to 8.",
+      "Subtract the starting mark from the ending mark: 8 - 3."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 3 mark to the 8 mark is 8 - 3 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 3 mark to the 8 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 8
+    },
+    "variant_signature": "8ab7b4bcdb2e809e51776eb13546d510db5cb6de6b997edb95d9673e28ee29a7"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 210,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 3 to 10.",
+      "Subtract the starting mark from the ending mark: 10 - 3."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 3 mark to the 10 mark is 10 - 3 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 3 mark to the 10 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 10
+    },
+    "variant_signature": "b17360cc904b5ce65c604034141191c48d217b28d3e0f824f3f9703074b94b3b"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 240,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 3 to 11.",
+      "Subtract the starting mark from the ending mark: 11 - 3."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 3 mark to the 11 mark is 11 - 3 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 3 mark to the 11 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 11
+    },
+    "variant_signature": "ea7150b1ddbc65cc3aab49e36b8dc8386bda3bb492a15645e3935d4b52a4f333"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 270,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 3 to 12.",
+      "Subtract the starting mark from the ending mark: 12 - 3."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 3 mark to the 12 mark is 12 - 3 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 3 mark to the 12 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 12
+    },
+    "variant_signature": "adaa767925056292d060b301823897534dbe8f4cc62d1c8bdb7f757dacf507c4"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 90,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 4 to 7.",
+      "Subtract the starting mark from the ending mark: 7 - 4."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 4 mark to the 7 mark is 7 - 4 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 4 mark to the 7 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 7
+    },
+    "variant_signature": "d59822f86f12f2bbe72a9adb0aa3c8053a80c2d95f37afe8106f391bc5b71dca"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 150,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 4 to 9.",
+      "Subtract the starting mark from the ending mark: 9 - 4."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 4 mark to the 9 mark is 9 - 4 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 4 mark to the 9 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 9
+    },
+    "variant_signature": "dc4f386b67f593eb958dcd89732df10c99fdd0f7ebf5d59893b3462eaa9a5b8c"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 180,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 4 to 10.",
+      "Subtract the starting mark from the ending mark: 10 - 4."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 4 mark to the 10 mark is 10 - 4 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 4 mark to the 10 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 10
+    },
+    "variant_signature": "79f11f39135d9b5a8fbe7d6937e83dc549f42789cad85c8ba79fb9fea1bcf19b"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 210,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 4 to 11.",
+      "Subtract the starting mark from the ending mark: 11 - 4."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 4 mark to the 11 mark is 11 - 4 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 4 mark to the 11 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 11
+    },
+    "variant_signature": "1e9609338db392f6d852a88f229d021ad329085ee4a85fe949502535e848dc21"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 60,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 5 to 7.",
+      "Subtract the starting mark from the ending mark: 7 - 5."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 5 mark to the 7 mark is 7 - 5 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 5 mark to the 7 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 7
+    },
+    "variant_signature": "3a47166d35c48651221e4def9f7e43fda3d4f5d9cb39939888a18cbade7899dd"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 90,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 5 to 8.",
+      "Subtract the starting mark from the ending mark: 8 - 5."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 5 mark to the 8 mark is 8 - 5 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 5 mark to the 8 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 8
+    },
+    "variant_signature": "4c6895f69a75b094e24c14ddb13e4a8d0784e31b77c44384fda670ab1ee0dba4"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 120,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 5 to 9.",
+      "Subtract the starting mark from the ending mark: 9 - 5."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 5 mark to the 9 mark is 9 - 5 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 5 mark to the 9 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 9
+    },
+    "variant_signature": "d1fc6123ecd5176a75ae540d8c69f7f91f33cfae6c8b679b1e84eb87196f94e8"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 180,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 5 to 11.",
+      "Subtract the starting mark from the ending mark: 11 - 5."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 5 mark to the 11 mark is 11 - 5 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 5 mark to the 11 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 11
+    },
+    "variant_signature": "9404cfec9867413bfd4c9e29529b91295d7a51eb03b8713e6def58481b7fa03e"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 210,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 5 to 12.",
+      "Subtract the starting mark from the ending mark: 12 - 5."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 5 mark to the 12 mark is 12 - 5 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 5 mark to the 12 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 12
+    },
+    "variant_signature": "d8c9d58d9d028e7850b63c70cbe541e221aa680528ca71b851eaebf5eeee7e42"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 30,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 6 to 7.",
+      "Subtract the starting mark from the ending mark: 7 - 6."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 6 mark to the 7 mark is 7 - 6 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 6 mark to the 7 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 7
+    },
+    "variant_signature": "61a2b3d7d0ea20b33b69e3e655c1296d96ba42b879eb41cddec503b1eb076b95"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 60,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 6 to 8.",
+      "Subtract the starting mark from the ending mark: 8 - 6."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 6 mark to the 8 mark is 8 - 6 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 6 mark to the 8 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 8
+    },
+    "variant_signature": "72604a3b891696fe6de90b92301c438eb9f145b6f34d4943a413fe8fa4439788"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 90,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 6 to 9.",
+      "Subtract the starting mark from the ending mark: 9 - 6."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 6 mark to the 9 mark is 9 - 6 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 6 mark to the 9 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 9
+    },
+    "variant_signature": "b202654b5f6042c2d3a4db14d7d1027032e177f858235dd63651dc3bc1806fa0"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 120,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 6 to 10.",
+      "Subtract the starting mark from the ending mark: 10 - 6."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 6 mark to the 10 mark is 10 - 6 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 6 mark to the 10 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 10
+    },
+    "variant_signature": "f6ad253f97eecab2be092058b940f4c5ef0c7d6d8ebcba272687f2d19fce9afd"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 150,
+        "kind": "angle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count only the hour-marks the hand actually passes on its way from 6 to 11.",
+      "Subtract the starting mark from the ending mark: 11 - 6."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The turn is measured by how many hour-marks are passed, not by where the hand started or which numbers are involved.",
+        "From the 6 mark to the 11 mark is 11 - 6 hour-marks of turn."
+      ]
+    },
+    "stem": "On a clock face, the hour hand moves from the 6 mark to the 11 mark, turning past the hour-marks in between. How many hour-marks does the turn pass through, as a measure of the amount of turn?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 11
+    },
+    "variant_signature": "39ebfb0278a0c8432d99c4e0e52463b12e72c2ba3cf7ed56a8c1e9bc87d2a5de"
+  }
+]

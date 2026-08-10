@@ -1,0 +1,2682 @@
+[
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 5 m and two sides of width 4 m, even though each is only labelled once.",
+        "Perimeter = 5 + 5 + 4 + 4 = 2 x (5 + 4)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 5 m by 4 m \u2014 its length is 5 m and its width is 4 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 4
+    },
+    "variant_signature": "bc04169960edf65ee222868541d9361754819af79afb8f660d1d3d855f503b04"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 7 m and two sides of width 3 m, even though each is only labelled once.",
+        "Perimeter = 7 + 7 + 3 + 3 = 2 x (7 + 3)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 7 m by 3 m \u2014 its length is 7 m and its width is 3 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 3
+    },
+    "variant_signature": "9ac7c00112b56ab963d8fa326f3cdaebc46b85f9ccabc9a510bbc1bbce63f379"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "35"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 7 m and two sides of width 5 m, even though each is only labelled once.",
+        "Perimeter = 7 + 7 + 5 + 5 = 2 x (7 + 5)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 7 m by 5 m \u2014 its length is 7 m and its width is 5 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 5
+    },
+    "variant_signature": "f159c8ee94082b1e8b02c50417d55a29b5cb379df6bbcd31fe8653010b97a125"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 8 m and two sides of width 3 m, even though each is only labelled once.",
+        "Perimeter = 8 + 8 + 3 + 3 = 2 x (8 + 3)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 8 m by 3 m \u2014 its length is 8 m and its width is 3 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 3
+    },
+    "variant_signature": "b8e2390a711e88c8fc47eba6553da7eabcb1baa1443306fbd30472966149735f"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 8 m and two sides of width 5 m, even though each is only labelled once.",
+        "Perimeter = 8 + 8 + 5 + 5 = 2 x (8 + 5)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 8 m by 5 m \u2014 its length is 8 m and its width is 5 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 5
+    },
+    "variant_signature": "9242618a79db4dcaf89bf91d68d1b1309ba63f713eb7d48126461ac29be15c0a"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 9 m and two sides of width 3 m, even though each is only labelled once.",
+        "Perimeter = 9 + 9 + 3 + 3 = 2 x (9 + 3)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 9 m by 3 m \u2014 its length is 9 m and its width is 3 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 3
+    },
+    "variant_signature": "efcee82eed9a6e8ec2bf8a0142042f1bc5f7b4571d8453118275bac844f75c89"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "45"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 9 m and two sides of width 5 m, even though each is only labelled once.",
+        "Perimeter = 9 + 9 + 5 + 5 = 2 x (9 + 5)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 9 m by 5 m \u2014 its length is 9 m and its width is 5 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 5
+    },
+    "variant_signature": "fb4efa92d3956cbd5700b618d7e802839053acbbd5aa6e58f1125b04734d3673"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "63"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 7
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 9 m and two sides of width 7 m, even though each is only labelled once.",
+        "Perimeter = 9 + 9 + 7 + 7 = 2 x (9 + 7)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 9 m by 7 m \u2014 its length is 9 m and its width is 7 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 7
+    },
+    "variant_signature": "cd017008e1c8ecdcb64c7366b62d9fc8368fd995207fbc6b886ba358f41f6abc"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 10 m and two sides of width 3 m, even though each is only labelled once.",
+        "Perimeter = 10 + 10 + 3 + 3 = 2 x (10 + 3)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 10 m by 3 m \u2014 its length is 10 m and its width is 3 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 3
+    },
+    "variant_signature": "0ed42a3d793d9b569406edbef0d71e7dccf45ba0bb9e36de4296081aa1cbae2c"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "60"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 10 m and two sides of width 6 m, even though each is only labelled once.",
+        "Perimeter = 10 + 10 + 6 + 6 = 2 x (10 + 6)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 10 m by 6 m \u2014 its length is 10 m and its width is 6 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 6
+    },
+    "variant_signature": "94c12c7c1dc088168138ccbdbc04fe20c8b07f8e4043dfc31376275154426093"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "80"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 10 m and two sides of width 8 m, even though each is only labelled once.",
+        "Perimeter = 10 + 10 + 8 + 8 = 2 x (10 + 8)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 10 m by 8 m \u2014 its length is 10 m and its width is 8 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 8
+    },
+    "variant_signature": "bb8a5a96bb5f8ea4e754a78f7274db5865266910d144644fe30383a8abb0015c"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "33"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 11 m and two sides of width 3 m, even though each is only labelled once.",
+        "Perimeter = 11 + 11 + 3 + 3 = 2 x (11 + 3)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 11 m by 3 m \u2014 its length is 11 m and its width is 3 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 11,
+      "b": 3
+    },
+    "variant_signature": "2cfa59014f7ce2a7ee42850e575640d24518143b13fff0bac7158c6d12756a13"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "55"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 11 m and two sides of width 5 m, even though each is only labelled once.",
+        "Perimeter = 11 + 11 + 5 + 5 = 2 x (11 + 5)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 11 m by 5 m \u2014 its length is 11 m and its width is 5 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 11,
+      "b": 5
+    },
+    "variant_signature": "443ce1cd63c9d6771142eb9c20fb6ba877ebe64764be0c1823128ef47f00e77c"
+  },
+  {
+    "answer": "38",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "88"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 11 m and two sides of width 8 m, even though each is only labelled once.",
+        "Perimeter = 11 + 11 + 8 + 8 = 2 x (11 + 8)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 11 m by 8 m \u2014 its length is 11 m and its width is 8 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 11,
+      "b": 8
+    },
+    "variant_signature": "8eeccab93ff627d5821f95b7034ccbfd7efffff34d59f86684b9b35782e43cb7"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "110"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 11 m and two sides of width 10 m, even though each is only labelled once.",
+        "Perimeter = 11 + 11 + 10 + 10 = 2 x (11 + 10)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 11 m by 10 m \u2014 its length is 11 m and its width is 10 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 11,
+      "b": 10
+    },
+    "variant_signature": "2c22e377a85e836fe9ab7db5fef40d53f600eccd00cda82ee61d87b2a6e51573"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 12 m and two sides of width 4 m, even though each is only labelled once.",
+        "Perimeter = 12 + 12 + 4 + 4 = 2 x (12 + 4)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 12 m by 4 m \u2014 its length is 12 m and its width is 4 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 12,
+      "b": 4
+    },
+    "variant_signature": "7f1979a18715fe5558ce746039c4e917e6bbe48694898c2d946269390ec9af4e"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "72"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 12 m and two sides of width 6 m, even though each is only labelled once.",
+        "Perimeter = 12 + 12 + 6 + 6 = 2 x (12 + 6)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 12 m by 6 m \u2014 its length is 12 m and its width is 6 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 12,
+      "b": 6
+    },
+    "variant_signature": "993da71478642e4ee2ee3e3fcb5413ae27344f3016c8c3b73967802527edcc6f"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "108"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "33"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 9
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 12 m and two sides of width 9 m, even though each is only labelled once.",
+        "Perimeter = 12 + 12 + 9 + 9 = 2 x (12 + 9)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 12 m by 9 m \u2014 its length is 12 m and its width is 9 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 12,
+      "b": 9
+    },
+    "variant_signature": "d79b04706fcbf5a68ff832a1999d804386afd6a40b1ac28e37dee87cf0322f69"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "39"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 13
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 13 m and two sides of width 3 m, even though each is only labelled once.",
+        "Perimeter = 13 + 13 + 3 + 3 = 2 x (13 + 3)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 13 m by 3 m \u2014 its length is 13 m and its width is 3 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 13,
+      "b": 3
+    },
+    "variant_signature": "2d6e5bc22b4c7a41ab0830db128a11fa45a7fb36eec6e70456d63116dd8ee9f7"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "65"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 13
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 13 m and two sides of width 5 m, even though each is only labelled once.",
+        "Perimeter = 13 + 13 + 5 + 5 = 2 x (13 + 5)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 13 m by 5 m \u2014 its length is 13 m and its width is 5 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 13,
+      "b": 5
+    },
+    "variant_signature": "ae563cbe8eb8853ff378b200dc666f1213b984bd0afc99cc477d8765cab39b27"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "91"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "33"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 13
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 7
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 13 m and two sides of width 7 m, even though each is only labelled once.",
+        "Perimeter = 13 + 13 + 7 + 7 = 2 x (13 + 7)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 13 m by 7 m \u2014 its length is 13 m and its width is 7 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 13,
+      "b": 7
+    },
+    "variant_signature": "e99fa00a455fafe2dc1d6179f48e8256c2cccf7a04a7aa727c5d298cf53a2d6d"
+  },
+  {
+    "answer": "46",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "130"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 13
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 13 m and two sides of width 10 m, even though each is only labelled once.",
+        "Perimeter = 13 + 13 + 10 + 10 = 2 x (13 + 10)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 13 m by 10 m \u2014 its length is 13 m and its width is 10 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 13,
+      "b": 10
+    },
+    "variant_signature": "66c08aa36082bb031b91829c44aef619eaf1b159722179b7dce2f14b98eeda7b"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 14
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 14 m and two sides of width 4 m, even though each is only labelled once.",
+        "Perimeter = 14 + 14 + 4 + 4 = 2 x (14 + 4)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 14 m by 4 m \u2014 its length is 14 m and its width is 4 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 14,
+      "b": 4
+    },
+    "variant_signature": "5d4b83ad01cd673b25177fb012c8aef2d672d69549d41c6042c68e6696b1568f"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "84"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "34"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 14
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 14 m and two sides of width 6 m, even though each is only labelled once.",
+        "Perimeter = 14 + 14 + 6 + 6 = 2 x (14 + 6)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 14 m by 6 m \u2014 its length is 14 m and its width is 6 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 14,
+      "b": 6
+    },
+    "variant_signature": "395033a6bd6442d55c3976ec41d61e82b53b1d462947721bc60edc3693a7e353"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "112"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 14
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 14 m and two sides of width 8 m, even though each is only labelled once.",
+        "Perimeter = 14 + 14 + 8 + 8 = 2 x (14 + 8)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 14 m by 8 m \u2014 its length is 14 m and its width is 8 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 14,
+      "b": 8
+    },
+    "variant_signature": "e51c17911776fae8b9620dba830a6c1d2bd642567523b8ec8689efbaf0836b74"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "45"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "33"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 15
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 15 m and two sides of width 3 m, even though each is only labelled once.",
+        "Perimeter = 15 + 15 + 3 + 3 = 2 x (15 + 3)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 15 m by 3 m \u2014 its length is 15 m and its width is 3 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 15,
+      "b": 3
+    },
+    "variant_signature": "0092dec0a11f6f90a0fc8f2e65eee051c5c308d28be48c5081d7e37ffc5fe324"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "75"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 15
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 15 m and two sides of width 5 m, even though each is only labelled once.",
+        "Perimeter = 15 + 15 + 5 + 5 = 2 x (15 + 5)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 15 m by 5 m \u2014 its length is 15 m and its width is 5 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 15,
+      "b": 5
+    },
+    "variant_signature": "c081c92c7f01d44f2b415af87622b96b5f36a281fadf0dbb2facbce8e9dbf669"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "105"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "37"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 15
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 7
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 15 m and two sides of width 7 m, even though each is only labelled once.",
+        "Perimeter = 15 + 15 + 7 + 7 = 2 x (15 + 7)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 15 m by 7 m \u2014 its length is 15 m and its width is 7 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 15,
+      "b": 7
+    },
+    "variant_signature": "8970d0c601fb3858af78ea465d3fdd0dd0498eafe5781fd52f07ffb22b0bed3d"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "135"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "39"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 15
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 9
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 15 m and two sides of width 9 m, even though each is only labelled once.",
+        "Perimeter = 15 + 15 + 9 + 9 = 2 x (15 + 9)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 15 m by 9 m \u2014 its length is 15 m and its width is 9 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 15,
+      "b": 9
+    },
+    "variant_signature": "fabe56f4310e75c0141748eb5d27ab934cb39dec3fe0cd3a8cdf9892d321d9f7"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "64"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 16
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 16 m and two sides of width 4 m, even though each is only labelled once.",
+        "Perimeter = 16 + 16 + 4 + 4 = 2 x (16 + 4)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 16 m by 4 m \u2014 its length is 16 m and its width is 4 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 16,
+      "b": 4
+    },
+    "variant_signature": "83a8219ea697bc3de7fd2172302454069459068c3d3508042d20a6af4d1c826c"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "96"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "38"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 16
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 16 m and two sides of width 6 m, even though each is only labelled once.",
+        "Perimeter = 16 + 16 + 6 + 6 = 2 x (16 + 6)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 16 m by 6 m \u2014 its length is 16 m and its width is 6 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 16,
+      "b": 6
+    },
+    "variant_signature": "37fb93b99b633dc187e55d7b52679abbb995124a08894dfe9aa2b78aa95b45d7"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "128"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 16
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 16 m and two sides of width 8 m, even though each is only labelled once.",
+        "Perimeter = 16 + 16 + 8 + 8 = 2 x (16 + 8)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 16 m by 8 m \u2014 its length is 16 m and its width is 8 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 16,
+      "b": 8
+    },
+    "variant_signature": "3213c6ab0608cfd42c49cd30b3d9161ebb8dfebf2a1658f9d35bd9d092248062"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "160"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 16
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 16 m and two sides of width 10 m, even though each is only labelled once.",
+        "Perimeter = 16 + 16 + 10 + 10 = 2 x (16 + 10)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 16 m by 10 m \u2014 its length is 16 m and its width is 10 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 16,
+      "b": 10
+    },
+    "variant_signature": "7b2dd32c4ea08269124b080114798f9c206d2f187692e2496ffdbbd237ede2d1"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "85"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "39"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 17
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 17 m and two sides of width 5 m, even though each is only labelled once.",
+        "Perimeter = 17 + 17 + 5 + 5 = 2 x (17 + 5)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 17 m by 5 m \u2014 its length is 17 m and its width is 5 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "b": 5
+    },
+    "variant_signature": "933649ee9beae84aac2b93ebc262aed9dc7023c863d76e751ca604057faa4924"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "119"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "41"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 17
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 7
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 17 m and two sides of width 7 m, even though each is only labelled once.",
+        "Perimeter = 17 + 17 + 7 + 7 = 2 x (17 + 7)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 17 m by 7 m \u2014 its length is 17 m and its width is 7 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "b": 7
+    },
+    "variant_signature": "2510ab85d0645a61176c07db5a4179f60c3b6695c911f93dca303c9850f2cf47"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "153"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "43"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 17
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 9
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 17 m and two sides of width 9 m, even though each is only labelled once.",
+        "Perimeter = 17 + 17 + 9 + 9 = 2 x (17 + 9)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 17 m by 9 m \u2014 its length is 17 m and its width is 9 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "b": 9
+    },
+    "variant_signature": "1c52b5dc7ddca731d3d1246d75d187df99dc1b6409bbee5a7962e8cc410e1c8a"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "54"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "39"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 18
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 18 m and two sides of width 3 m, even though each is only labelled once.",
+        "Perimeter = 18 + 18 + 3 + 3 = 2 x (18 + 3)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 18 m by 3 m \u2014 its length is 18 m and its width is 3 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 18,
+      "b": 3
+    },
+    "variant_signature": "197506d73c76d4b79b38b59f28c9f42b2f29c90880c53a129ede1397f8a0867d"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "108"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 18
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 18 m and two sides of width 6 m, even though each is only labelled once.",
+        "Perimeter = 18 + 18 + 6 + 6 = 2 x (18 + 6)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 18 m by 6 m \u2014 its length is 18 m and its width is 6 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 18,
+      "b": 6
+    },
+    "variant_signature": "d9930a8b5447fe0e2e7b574edca80b01c5aa3a1e031d5a1861589ef644e11d28"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "144"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "44"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 18
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 18 m and two sides of width 8 m, even though each is only labelled once.",
+        "Perimeter = 18 + 18 + 8 + 8 = 2 x (18 + 8)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 18 m by 8 m \u2014 its length is 18 m and its width is 8 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 18,
+      "b": 8
+    },
+    "variant_signature": "35c4c7b3b5c5d03f944bf6282a9c760208921cdd82dc178f0ce7e94d3782aadf"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "46"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "m",
+            "value": 18
+          },
+          {
+            "side": 1,
+            "unit": "m",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The plot is a rectangle \u2014 it has four sides in total, not just the two you were given lengths for.",
+      "Each labelled side has a matching opposite side of the same length. Double the sum of length and width."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The plot has two sides of length 18 m and two sides of width 10 m, even though each is only labelled once.",
+        "Perimeter = 18 + 18 + 10 + 10 = 2 x (18 + 10)."
+      ]
+    },
+    "stem": "A rectangular plot of land measures 18 m by 10 m \u2014 its length is 18 m and its width is 10 m. What is the total perimeter of the plot, in metres?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 18,
+      "b": 10
+    },
+    "variant_signature": "1ab9f869121353a65607d0df4fb30e73683a3dc28ea01a650835dc21d1c69d0e"
+  }
+]

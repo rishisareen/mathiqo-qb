@@ -1,0 +1,1190 @@
+[
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 3,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 3 cm.",
+        "Perimeter = 4 x 3 cm."
+      ]
+    },
+    "stem": "A circle has radius 3 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 3 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 3
+    },
+    "variant_signature": "d7d4119de105209c7fea937d4716cd3c4b92193466c1b9112aebd9227f8dbe84"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 4,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 4 cm.",
+        "Perimeter = 4 x 4 cm."
+      ]
+    },
+    "stem": "A circle has radius 4 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 4 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 4
+    },
+    "variant_signature": "38bfcab2353e5507540b1b585646f6b90df97ebb6b266cb1d8cf4a7695097e1d"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 5,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 5 cm.",
+        "Perimeter = 4 x 5 cm."
+      ]
+    },
+    "stem": "A circle has radius 5 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 5 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 5
+    },
+    "variant_signature": "0d889f5ef7e82dbb1ff4a25c8627b6f0a2dce1862d17c37d3ee70f9dc0471a57"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 6,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 6 cm.",
+        "Perimeter = 4 x 6 cm."
+      ]
+    },
+    "stem": "A circle has radius 6 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 6 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 6
+    },
+    "variant_signature": "5b1c7d0656ccab53126c1958a1da7baa89a7bad27dc3056b2b130ba60902b6bf"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 7,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 7
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 7 cm.",
+        "Perimeter = 4 x 7 cm."
+      ]
+    },
+    "stem": "A circle has radius 7 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 7 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 7
+    },
+    "variant_signature": "7a2ebd3482030c1a8ccc33f9305c995c14e00ca3c5dc61cf7dba10cb95c4afd6"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 8,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 8 cm.",
+        "Perimeter = 4 x 8 cm."
+      ]
+    },
+    "stem": "A circle has radius 8 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 8 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 8
+    },
+    "variant_signature": "25fd91e55c29440f6b18f2e9b7d27395c7ef9709fc971e216cf5dd050dbd99ba"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 9,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 9
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 9 cm.",
+        "Perimeter = 4 x 9 cm."
+      ]
+    },
+    "stem": "A circle has radius 9 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 9 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 9
+    },
+    "variant_signature": "c4e0c7f66edc78a6b10868074a0bcec04b6db8859ceac15836fb8fc389a96a37"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 10,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 10 cm.",
+        "Perimeter = 4 x 10 cm."
+      ]
+    },
+    "stem": "A circle has radius 10 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 10 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 10
+    },
+    "variant_signature": "7837ecded34a27818a87a9e47bd991f258395b95eafec1edd46d800154659153"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 11,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 11
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 11 cm.",
+        "Perimeter = 4 x 11 cm."
+      ]
+    },
+    "stem": "A circle has radius 11 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 11 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 11
+    },
+    "variant_signature": "f45dbcc89942743dd6972667ecb7a7f6f4aac9c64f4474c7f0895716af9d2805"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 12,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 12
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 12 cm.",
+        "Perimeter = 4 x 12 cm."
+      ]
+    },
+    "stem": "A circle has radius 12 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 12 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 12
+    },
+    "variant_signature": "8f0147e2876a069c3f5fce76e52a4faa280832cfb71c1ce58e8a78557ef6ba2a"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 13,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 13
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 13 cm.",
+        "Perimeter = 4 x 13 cm."
+      ]
+    },
+    "stem": "A circle has radius 13 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 13 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 13
+    },
+    "variant_signature": "4abf5cf459956bb82cc3aa9c6443ccd5c6241d9602bd928cdd15d9cfd1907025"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 14,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 14
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 14
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 14
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 14
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 14 cm.",
+        "Perimeter = 4 x 14 cm."
+      ]
+    },
+    "stem": "A circle has radius 14 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 14 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 14
+    },
+    "variant_signature": "f8f009bddfea62a3d2c71d4ab25dea4f3110b5c916b98b29377643f3e3044217"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 15,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 15
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 15
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 15
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 15
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 15 cm.",
+        "Perimeter = 4 x 15 cm."
+      ]
+    },
+    "stem": "A circle has radius 15 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 15 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 15
+    },
+    "variant_signature": "df15543f83aded31281267b44410a2199912305515d5bcc5617648039d88c7c9"
+  },
+  {
+    "answer": "64",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 16,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 16
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 16
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 16
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 16
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 16 cm.",
+        "Perimeter = 4 x 16 cm."
+      ]
+    },
+    "stem": "A circle has radius 16 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 16 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 16
+    },
+    "variant_signature": "e9fa23a48ba25df9c755650d2bcaeba6cc17032ddfa8e6e574c60b28f04d6f89"
+  },
+  {
+    "answer": "68",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 17,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 17
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 17
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 17
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 17
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 17 cm.",
+        "Perimeter = 4 x 17 cm."
+      ]
+    },
+    "stem": "A circle has radius 17 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 17 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 17
+    },
+    "variant_signature": "9c1a1367b2c583daede84a37ab7b7e64d62764d34ae2d1e29746bfb98eb81cd4"
+  },
+  {
+    "answer": "72",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 18,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 18
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 18
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 18
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 18
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 18 cm.",
+        "Perimeter = 4 x 18 cm."
+      ]
+    },
+    "stem": "A circle has radius 18 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 18 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 18
+    },
+    "variant_signature": "d22e57d6ab6c3af7cb256a770fe6279df65bd2f616299de29c00a0e288bfa282"
+  },
+  {
+    "answer": "76",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 19,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 19
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 19
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 19
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 19
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 19 cm.",
+        "Perimeter = 4 x 19 cm."
+      ]
+    },
+    "stem": "A circle has radius 19 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 19 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 19
+    },
+    "variant_signature": "3d34085bcc8d584f8398ddf471caf642de1fcfec31408c4ce6a5d9b9b3080652"
+  },
+  {
+    "answer": "80",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "circle",
+        "length": 20,
+        "length_part": "radius",
+        "unit": "cm"
+      },
+      {
+        "kind": "shape",
+        "shape": "square",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 20
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 20
+          },
+          {
+            "side": 2,
+            "unit": "cm",
+            "value": 20
+          },
+          {
+            "side": 3,
+            "unit": "cm",
+            "value": 20
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "All four sides of a correctly constructed square are equal to the compass opening used.",
+      "Multiply the side length by 4."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each side of the square equals the fixed compass opening: 20 cm.",
+        "Perimeter = 4 x 20 cm."
+      ]
+    },
+    "stem": "A circle has radius 20 cm. A square is then constructed so that each of its sides equals the circle's radius, keeping the compass at a fixed 20 cm opening throughout so all four sides come out equal. What is the perimeter of the square, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "r": 20
+    },
+    "variant_signature": "259fba2bbafc343df8be97f73a36b442f1190f537b502b74ad0e51357c62e179"
+  }
+]

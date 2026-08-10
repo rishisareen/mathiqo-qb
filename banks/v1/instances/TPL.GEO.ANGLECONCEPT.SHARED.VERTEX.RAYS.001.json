@@ -1,0 +1,266 @@
+[
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "point",
+            "labels": [
+              "O"
+            ]
+          },
+          {
+            "count": 4,
+            "element": "ray"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try it with just 3 rays first \u2014 how many angles do they form at the shared vertex?",
+      "Each ray pairs with every other ray once to form an angle. That's n(n-1) ordered pairs, but each angle gets counted twice, so divide by 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.SHARED.VERTEX.RAYS.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every pair of the 4 rays forms one angle at O, and the angle between ray 1 and ray 2 is the same angle as between ray 2 and ray 1.",
+        "The number of pairs from 4 rays is n(n-1)/2 = 4(4-1)/2."
+      ]
+    },
+    "stem": "4 different rays are drawn from the same point O, like spokes from a hub, no two rays pointing the same way. Each pair of these rays forms one angle at O (the figure made by two rays sharing a common vertex). How many distinct angles are formed in total?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.SHARED.VERTEX.RAYS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 4
+    },
+    "variant_signature": "5d77f5d506b0bc08f1e1d5ed5a66ded24d440887db8b9ef69cba572f8750d731"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "point",
+            "labels": [
+              "O"
+            ]
+          },
+          {
+            "count": 5,
+            "element": "ray"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try it with just 3 rays first \u2014 how many angles do they form at the shared vertex?",
+      "Each ray pairs with every other ray once to form an angle. That's n(n-1) ordered pairs, but each angle gets counted twice, so divide by 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.SHARED.VERTEX.RAYS.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every pair of the 5 rays forms one angle at O, and the angle between ray 1 and ray 2 is the same angle as between ray 2 and ray 1.",
+        "The number of pairs from 5 rays is n(n-1)/2 = 5(5-1)/2."
+      ]
+    },
+    "stem": "5 different rays are drawn from the same point O, like spokes from a hub, no two rays pointing the same way. Each pair of these rays forms one angle at O (the figure made by two rays sharing a common vertex). How many distinct angles are formed in total?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.SHARED.VERTEX.RAYS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 5
+    },
+    "variant_signature": "ce2eae7a1227e94b557340d219331e6632099f4322a33e5225fa2852e591417c"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "point",
+            "labels": [
+              "O"
+            ]
+          },
+          {
+            "count": 6,
+            "element": "ray"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try it with just 3 rays first \u2014 how many angles do they form at the shared vertex?",
+      "Each ray pairs with every other ray once to form an angle. That's n(n-1) ordered pairs, but each angle gets counted twice, so divide by 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.SHARED.VERTEX.RAYS.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every pair of the 6 rays forms one angle at O, and the angle between ray 1 and ray 2 is the same angle as between ray 2 and ray 1.",
+        "The number of pairs from 6 rays is n(n-1)/2 = 6(6-1)/2."
+      ]
+    },
+    "stem": "6 different rays are drawn from the same point O, like spokes from a hub, no two rays pointing the same way. Each pair of these rays forms one angle at O (the figure made by two rays sharing a common vertex). How many distinct angles are formed in total?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.SHARED.VERTEX.RAYS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 6
+    },
+    "variant_signature": "b0ab2d6a946bb660df37bdf17b79fa309351f12fbf81aa2a4320b05e3d123236"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "point",
+            "labels": [
+              "O"
+            ]
+          },
+          {
+            "count": 7,
+            "element": "ray"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try it with just 3 rays first \u2014 how many angles do they form at the shared vertex?",
+      "Each ray pairs with every other ray once to form an angle. That's n(n-1) ordered pairs, but each angle gets counted twice, so divide by 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.SHARED.VERTEX.RAYS.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every pair of the 7 rays forms one angle at O, and the angle between ray 1 and ray 2 is the same angle as between ray 2 and ray 1.",
+        "The number of pairs from 7 rays is n(n-1)/2 = 7(7-1)/2."
+      ]
+    },
+    "stem": "7 different rays are drawn from the same point O, like spokes from a hub, no two rays pointing the same way. Each pair of these rays forms one angle at O (the figure made by two rays sharing a common vertex). How many distinct angles are formed in total?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.SHARED.VERTEX.RAYS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 7
+    },
+    "variant_signature": "7ea5d4c6830d8b60878c747e2ba09cd35c241f547e4937c4ee044e90484b67b2"
+  }
+]

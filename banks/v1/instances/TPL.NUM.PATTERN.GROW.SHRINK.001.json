@@ -1,0 +1,1922 @@
+[
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 20."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 11-5, 16-11, 20-16.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 20."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 11, 16, 20, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 11,
+      "t3": 16,
+      "t4": 20
+    },
+    "variant_signature": "f74dbdb04441ef812ef28d1c539b6134e36986886ce8f2752d21d34c1e263bb0"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 23."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 12-5, 18-12, 23-18.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 23."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 12, 18, 23, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 12,
+      "t3": 18,
+      "t4": 23
+    },
+    "variant_signature": "867b18da3966b7532e0968e3c5cad1a3691ac112790c97168692f52a5c91ec2b"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 23."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 13-5, 19-13, 23-19.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 23."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 13, 19, 23, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 13,
+      "t3": 19,
+      "t4": 23
+    },
+    "variant_signature": "055132a1beb40168c3989ebfbbd2a7a5b7fc46b6381b8d55a347847c4977652a"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 20."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 14-5, 19-14, 20-19.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 20."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 14, 19, 20, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 14,
+      "t3": 19,
+      "t4": 20
+    },
+    "variant_signature": "6b1068422e1199ff2b076fdb44005bc07788d50a360895a991c18b3b2d26ef36"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 23."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 14-5, 20-14, 23-20.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 23."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 14, 20, 23, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 14,
+      "t3": 20,
+      "t4": 23
+    },
+    "variant_signature": "580fb3825ba3d4fb291e7121f9aacae6e87d456f5f9da0045ba16ed9db68270d"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 23."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 15-5, 21-15, 23-21.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 23."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 15, 21, 23, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 15,
+      "t3": 21,
+      "t4": 23
+    },
+    "variant_signature": "b83db6af9eee46c5ae711d586f022ca0bec05ad94e7c1a56bd2588379daf0ac8"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 23."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 16-5, 22-16, 23-22.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 23."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 16, 22, 23, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 16,
+      "t3": 22,
+      "t4": 23
+    },
+    "variant_signature": "59e56f0988b4c57fba9d6c39b4a0511d276c8e781b6434c80bb68ba1e14a17e5"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "29"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 26."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 16-5, 23-16, 26-23.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 26."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 16, 23, 26, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 16,
+      "t3": 23,
+      "t4": 26
+    },
+    "variant_signature": "77551d6b18a13ed43767c5abc82d8155ca9df3e118e502010e60ff56449ca1b9"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 18."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 12-6, 16-12, 18-16.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 18."
+      ]
+    },
+    "stem": "Look at this number pattern: 6, 12, 16, 18, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 12,
+      "t3": 16,
+      "t4": 18
+    },
+    "variant_signature": "0f29c8066f087465a4696e8892be5143fc70bd77fe2d91acc67eae97f8a9c0bc"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 18."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 13-6, 17-13, 18-17.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 18."
+      ]
+    },
+    "stem": "Look at this number pattern: 6, 13, 17, 18, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 13,
+      "t3": 17,
+      "t4": 18
+    },
+    "variant_signature": "51d107833fb4c1e3a9801525ec099734a09240b363690bc54efa88e509278e04"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 21."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 13-6, 18-13, 21-18.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 21."
+      ]
+    },
+    "stem": "Look at this number pattern: 6, 13, 18, 21, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 13,
+      "t3": 18,
+      "t4": 21
+    },
+    "variant_signature": "0d3aacae2a6521d99408679260adc83077643db285e4ddf1a67f01f5d483c7e0"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 21."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 14-6, 19-14, 21-19.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 21."
+      ]
+    },
+    "stem": "Look at this number pattern: 6, 14, 19, 21, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 14,
+      "t3": 19,
+      "t4": 21
+    },
+    "variant_signature": "78ec65410e51bc225c4b0fbd38d179c0c0b5e43c17090d4eedc4e61fe217bfe7"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "33"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 27."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 14-6, 21-14, 27-21.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 27."
+      ]
+    },
+    "stem": "Look at this number pattern: 6, 14, 21, 27, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 14,
+      "t3": 21,
+      "t4": 27
+    },
+    "variant_signature": "717a1719733f66f925075edb73ee182215bcf209e7b20f3a1b8f977004b60ebc"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 24."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 15-6, 21-15, 24-21.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 24."
+      ]
+    },
+    "stem": "Look at this number pattern: 6, 15, 21, 24, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 15,
+      "t3": 21,
+      "t4": 24
+    },
+    "variant_signature": "38b54427941ebeebcd1a300eb06b896cf176cbaeb7fa84cc4361c2bb895f9c93"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 27."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 15-6, 22-15, 27-22.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 27."
+      ]
+    },
+    "stem": "Look at this number pattern: 6, 15, 22, 27, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 15,
+      "t3": 22,
+      "t4": 27
+    },
+    "variant_signature": "bb48bc24b0058e835b64151e65b0d3f5885eb8263b1312c19677c90afec488f1"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 27."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 16-6, 23-16, 27-23.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 27."
+      ]
+    },
+    "stem": "Look at this number pattern: 6, 16, 23, 27, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 6,
+      "t2": 16,
+      "t3": 23,
+      "t4": 27
+    },
+    "variant_signature": "e2531d4276f13cb03ecbaeb1945afeb2be97b972eba4ae8c1e706a648fb8bad3"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 19."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 12-7, 16-12, 19-16.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 19."
+      ]
+    },
+    "stem": "Look at this number pattern: 7, 12, 16, 19, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 12,
+      "t3": 16,
+      "t4": 19
+    },
+    "variant_signature": "e2428da04859df7ad4303184614171823610463f1fa9f52b2edc4ecc48d31b4e"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 19."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 13-7, 17-13, 19-17.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 19."
+      ]
+    },
+    "stem": "Look at this number pattern: 7, 13, 17, 19, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 13,
+      "t3": 17,
+      "t4": 19
+    },
+    "variant_signature": "ba662eb853a1c1bbbd89f88233c12b9fa0739784c1e8a0bbf6d94ef80f41891e"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 19."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 14-7, 18-14, 19-18.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 19."
+      ]
+    },
+    "stem": "Look at this number pattern: 7, 14, 18, 19, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 14,
+      "t3": 18,
+      "t4": 19
+    },
+    "variant_signature": "12eb8026b210e5850338c4fbf4bb526762b162e4b4066d96d40c60822cf39530"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 25."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 14-7, 20-14, 25-20.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 25."
+      ]
+    },
+    "stem": "Look at this number pattern: 7, 14, 20, 25, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 14,
+      "t3": 20,
+      "t4": 25
+    },
+    "variant_signature": "756fb62c6403a07e5e730c0989849d6faa7c5b829e1df8b71ceef23e00c9a71c"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 15-7, 20-15, 22-20.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 22."
+      ]
+    },
+    "stem": "Look at this number pattern: 7, 15, 20, 22, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 15,
+      "t3": 20,
+      "t4": 22
+    },
+    "variant_signature": "9c7ac10c6bad20f91121fbfc4d115556c818c18960f483d9f7d07254c8568c83"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 16-7, 21-16, 22-21.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 22."
+      ]
+    },
+    "stem": "Look at this number pattern: 7, 16, 21, 22, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 16,
+      "t3": 21,
+      "t4": 22
+    },
+    "variant_signature": "408ae86652c7867b78d805653da3171d6ce9cf0bd6a47705ca15aaadae02256d"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 25."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 17-7, 23-17, 25-23.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 25."
+      ]
+    },
+    "stem": "Look at this number pattern: 7, 17, 23, 25, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 7,
+      "t2": 17,
+      "t3": 23,
+      "t4": 25
+    },
+    "variant_signature": "848eec97d2880eaa16ed40cabe23e5ebf36f75d29e01ef3d14d3bb8b4fa00691"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 20."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 14-8, 18-14, 20-18.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 20."
+      ]
+    },
+    "stem": "Look at this number pattern: 8, 14, 18, 20, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 8,
+      "t2": 14,
+      "t3": 18,
+      "t4": 20
+    },
+    "variant_signature": "3696761cf9c82b81fcb5c874f1ae6252a16fd2d1571a788fbb15777b7bb71cf7"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 23."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 14-8, 19-14, 23-19.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 23."
+      ]
+    },
+    "stem": "Look at this number pattern: 8, 14, 19, 23, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 8,
+      "t2": 14,
+      "t3": 19,
+      "t4": 23
+    },
+    "variant_signature": "ee4d16c3443e83a5faeef1e6560c62c0c081050619daf54870ea6817eb93fb79"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 23."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 15-8, 20-15, 23-20.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 23."
+      ]
+    },
+    "stem": "Look at this number pattern: 8, 15, 20, 23, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 8,
+      "t2": 15,
+      "t3": 20,
+      "t4": 23
+    },
+    "variant_signature": "d54bb8bc683ae76cc49bcae291e77b8798f93ec5046e838754c7edd243fba3c3"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 23."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 16-8, 21-16, 23-21.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 23."
+      ]
+    },
+    "stem": "Look at this number pattern: 8, 16, 21, 23, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 8,
+      "t2": 16,
+      "t3": 21,
+      "t4": 23
+    },
+    "variant_signature": "3fd0ec9c139485b6717801e3fdbf0e38a2293b0ee02582f3bd38c2de15dc7a27"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 26."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 16-8, 22-16, 26-22.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 26."
+      ]
+    },
+    "stem": "Look at this number pattern: 8, 16, 22, 26, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 8,
+      "t2": 16,
+      "t3": 22,
+      "t4": 26
+    },
+    "variant_signature": "eeb18f9ce3925b2ddcac229c93f92f607f247a5c0dd5c061c0be0c85d4a5a769"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "29"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 26."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 17-8, 23-17, 26-23.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 26."
+      ]
+    },
+    "stem": "Look at this number pattern: 8, 17, 23, 26, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 8,
+      "t2": 17,
+      "t3": 23,
+      "t4": 26
+    },
+    "variant_signature": "8125127d4a047091dc274776072b4fa7aec9200c0b1543c826416647a693a0cc"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 18."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 14-9, 17-14, 18-17.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 18."
+      ]
+    },
+    "stem": "Look at this number pattern: 9, 14, 17, 18, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 9,
+      "t2": 14,
+      "t3": 17,
+      "t4": 18
+    },
+    "variant_signature": "1f6d5624ff7889d210315fdc63fcd8d2c84cb78f66cf21163fc85f0341e7cb1f"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 21."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 14-9, 18-14, 21-18.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 21."
+      ]
+    },
+    "stem": "Look at this number pattern: 9, 14, 18, 21, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 9,
+      "t2": 14,
+      "t3": 18,
+      "t4": 21
+    },
+    "variant_signature": "1d22eab0a45e2f287641777539cf523208b70e35349c5c3103d05fbaba6dd275"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 24."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 15-9, 20-15, 24-20.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 24."
+      ]
+    },
+    "stem": "Look at this number pattern: 9, 15, 20, 24, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 9,
+      "t2": 15,
+      "t3": 20,
+      "t4": 24
+    },
+    "variant_signature": "1710044d512cd5c677f53c2f9c84b141ebf574946e3874e1d712ae0e5de85880"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 24."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 16-9, 21-16, 24-21.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 24."
+      ]
+    },
+    "stem": "Look at this number pattern: 9, 16, 21, 24, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 9,
+      "t2": 16,
+      "t3": 21,
+      "t4": 24
+    },
+    "variant_signature": "b6ab0f770eac322216b0d92b02c166a936aafcc61787561a40bcfc41696af24d"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 24."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 17-9, 22-17, 24-22.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 24."
+      ]
+    },
+    "stem": "Look at this number pattern: 9, 17, 22, 24, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 9,
+      "t2": 17,
+      "t3": 22,
+      "t4": 24
+    },
+    "variant_signature": "37551c7cc081641d7a9bf268fc1cbea4bdb76becae892475c3ab0a2df1d40d1d"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 27."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 17-9, 23-17, 27-23.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 27."
+      ]
+    },
+    "stem": "Look at this number pattern: 9, 17, 23, 27, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 9,
+      "t2": 17,
+      "t3": 23,
+      "t4": 27
+    },
+    "variant_signature": "d561d02d8b7a09462ec654dac7a1d9dc2e3006112dfd0f04b13c79aa19854b08"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 19."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 14-10, 17-14, 19-17.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 19."
+      ]
+    },
+    "stem": "Look at this number pattern: 10, 14, 17, 19, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 10,
+      "t2": 14,
+      "t3": 17,
+      "t4": 19
+    },
+    "variant_signature": "a8a952023e29a3b9dbc4f2105c4f0aab0214f64e844ef46260846bfc95950ffa"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 15-10, 19-15, 22-19.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 22."
+      ]
+    },
+    "stem": "Look at this number pattern: 10, 15, 19, 22, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 10,
+      "t2": 15,
+      "t3": 19,
+      "t4": 22
+    },
+    "variant_signature": "035a280df45149735f78a2ed03664d64c192e33740dae092d22b05b3d00e283b"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 16-10, 20-16, 22-20.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 22."
+      ]
+    },
+    "stem": "Look at this number pattern: 10, 16, 20, 22, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 10,
+      "t2": 16,
+      "t3": 20,
+      "t4": 22
+    },
+    "variant_signature": "d10844c50a8a0109cf79b3f19b55e24c06b6f41a4a4f09dfeba4e08c6ea8b881"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 17-10, 21-17, 22-21.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 22."
+      ]
+    },
+    "stem": "Look at this number pattern: 10, 17, 21, 22, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 10,
+      "t2": 17,
+      "t3": 21,
+      "t4": 22
+    },
+    "variant_signature": "2d65f3bbd1ce597f247444a588b9ca9f1f7473a641cf468f136b1a6f6836bf41"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers \u2014 are they staying the same size, or getting smaller each time?",
+      "The jumps shrink by a fixed amount each step \u2014 find the next jump before adding it to 25."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.SHRINK.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 18-10, 23-18, 25-23.",
+        "Notice the jumps are getting smaller by the same amount each time.",
+        "Work out the next jump by continuing that shrinking pattern, then add it to 25."
+      ]
+    },
+    "stem": "Look at this number pattern: 10, 18, 23, 25, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 10,
+      "t2": 18,
+      "t3": 23,
+      "t4": 25
+    },
+    "variant_signature": "e45d61c4d15e6db0f9e7ac457fa08ff63a8926347fa712499aa842a68b6a7931"
+  }
+]

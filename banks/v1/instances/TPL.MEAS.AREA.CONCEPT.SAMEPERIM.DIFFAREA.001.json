@@ -1,0 +1,3242 @@
+[
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-5"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 6 x 2, and Rectangle B's area is (6+1) x (2-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 6 cm by 2 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (6+1) cm by (2-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 2,
+      "k": 1
+    },
+    "variant_signature": "2a6d017a253b10146ce2c67c8c4f9a1d9aa277e57e389264b420781219aebc69"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-4"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 6 x 3, and Rectangle B's area is (6+1) x (3-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 6 cm by 3 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (6+1) cm by (3-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 3,
+      "k": 1
+    },
+    "variant_signature": "61dfcd0342614e110c95d99e692e25f4be4e682bb7d6e73aff9a81ee9b6e8d3c"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-10"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 6 x 3, and Rectangle B's area is (6+2) x (3-2).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 6 cm by 3 cm. Rectangle B is made by adding 2 cm to Rectangle A's length and taking away 2 cm from its width, so Rectangle B measures (6+2) cm by (3-2) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 3,
+      "k": 2
+    },
+    "variant_signature": "4fd531a57b6d06a4c87e637d26fac14deb3efd17ba7e99d9f99f11897c6c6541"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-3"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 6 x 4, and Rectangle B's area is (6+1) x (4-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 6 cm by 4 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (6+1) cm by (4-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 4,
+      "k": 1
+    },
+    "variant_signature": "f450bae143635dc9ff531ddb71f95b77aa962182dfd3c931aedc8e2449f5be00"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-15"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 6 x 4, and Rectangle B's area is (6+3) x (4-3).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 6 cm by 4 cm. Rectangle B is made by adding 3 cm to Rectangle A's length and taking away 3 cm from its width, so Rectangle B measures (6+3) cm by (4-3) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 4,
+      "k": 3
+    },
+    "variant_signature": "6c1d7e4627eb7f2a224a21ecbc1890f039ff05c56da9f5f1c3e37d7a685caa79"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-2"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 6 x 5, and Rectangle B's area is (6+1) x (5-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 6 cm by 5 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (6+1) cm by (5-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 5,
+      "k": 1
+    },
+    "variant_signature": "faea7a1106f343667da93fe797ccc4e8cc44691befedf25f703514b637b64b30"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-6"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 6 x 5, and Rectangle B's area is (6+2) x (5-2).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 6 cm by 5 cm. Rectangle B is made by adding 2 cm to Rectangle A's length and taking away 2 cm from its width, so Rectangle B measures (6+2) cm by (5-2) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 5,
+      "k": 2
+    },
+    "variant_signature": "f3be14b3725818c438429fa44b9831ad95ac6ac1373495ca2100b5dec976ef21"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-12"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 6 x 5, and Rectangle B's area is (6+3) x (5-3).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 6 cm by 5 cm. Rectangle B is made by adding 3 cm to Rectangle A's length and taking away 3 cm from its width, so Rectangle B measures (6+3) cm by (5-3) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 5,
+      "k": 3
+    },
+    "variant_signature": "d57de00cef4bf6a4d505604251ba79e43c1598c4e87855ef8d0bde4beb2eb241"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-6"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 7 x 2, and Rectangle B's area is (7+1) x (2-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 7 cm by 2 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (7+1) cm by (2-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 2,
+      "k": 1
+    },
+    "variant_signature": "bcae3d6fab789d4afc921761003cd339448e2d1d8e6c74bea29f76b54cc7e5a7"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-5"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 7 x 3, and Rectangle B's area is (7+1) x (3-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 7 cm by 3 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (7+1) cm by (3-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 3,
+      "k": 1
+    },
+    "variant_signature": "ce86d3aaf8f7f5046b70bf196967f30ad6108ea496f3e0ce4d7c609020630a0c"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-12"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 7 x 3, and Rectangle B's area is (7+2) x (3-2).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 7 cm by 3 cm. Rectangle B is made by adding 2 cm to Rectangle A's length and taking away 2 cm from its width, so Rectangle B measures (7+2) cm by (3-2) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 3,
+      "k": 2
+    },
+    "variant_signature": "f4cb358596cc2b825e229c715ab0b856c59a2523efd0df1796a4e2439f738e4c"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-4"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 7 x 4, and Rectangle B's area is (7+1) x (4-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 7 cm by 4 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (7+1) cm by (4-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 4,
+      "k": 1
+    },
+    "variant_signature": "600ffaa7f6cde0b50f1beea066e285ebf89747416bc6424e12204ff1753516ac"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-18"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 7 x 4, and Rectangle B's area is (7+3) x (4-3).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 7 cm by 4 cm. Rectangle B is made by adding 3 cm to Rectangle A's length and taking away 3 cm from its width, so Rectangle B measures (7+3) cm by (4-3) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 4,
+      "k": 3
+    },
+    "variant_signature": "aad25bfa0bd1400dc59a1d2eff18faa9e2abccf5ee069921200f2c1c3501111f"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-3"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 7 x 5, and Rectangle B's area is (7+1) x (5-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 7 cm by 5 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (7+1) cm by (5-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 5,
+      "k": 1
+    },
+    "variant_signature": "45991f67b286da65b310f6a8e7cc64e6eaacde8d191306a9b4678433f6fd050d"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-8"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 7 x 5, and Rectangle B's area is (7+2) x (5-2).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 7 cm by 5 cm. Rectangle B is made by adding 2 cm to Rectangle A's length and taking away 2 cm from its width, so Rectangle B measures (7+2) cm by (5-2) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 5,
+      "k": 2
+    },
+    "variant_signature": "87f4f1103790be7ea1b4ba4ef2a8b1e3da79a742bfd425f9838d1265af15327e"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-15"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 7 x 5, and Rectangle B's area is (7+3) x (5-3).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 7 cm by 5 cm. Rectangle B is made by adding 3 cm to Rectangle A's length and taking away 3 cm from its width, so Rectangle B measures (7+3) cm by (5-3) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 5,
+      "k": 3
+    },
+    "variant_signature": "9285c238cee3580c7147ca76b15eb4495f3c87fbeb73cb291ba33f0b4aee518d"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-7"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 8 x 2, and Rectangle B's area is (8+1) x (2-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 8 cm by 2 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (8+1) cm by (2-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 2,
+      "k": 1
+    },
+    "variant_signature": "69903223b36ce2f01efe8433631171a4ed8eb165d0c0b1e530585482789b14bf"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-6"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 8 x 3, and Rectangle B's area is (8+1) x (3-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 8 cm by 3 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (8+1) cm by (3-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 3,
+      "k": 1
+    },
+    "variant_signature": "36840964cde1911462ab7f43b4de38e6c49eaaccb078ed7af4b131712a8ee61f"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-14"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 8 x 3, and Rectangle B's area is (8+2) x (3-2).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 8 cm by 3 cm. Rectangle B is made by adding 2 cm to Rectangle A's length and taking away 2 cm from its width, so Rectangle B measures (8+2) cm by (3-2) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 3,
+      "k": 2
+    },
+    "variant_signature": "c20a52db6ec9bbe4974fcbf50464731da5230b04c45db702d6106209212c6ed7"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-5"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 8 x 4, and Rectangle B's area is (8+1) x (4-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 8 cm by 4 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (8+1) cm by (4-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 4,
+      "k": 1
+    },
+    "variant_signature": "53b6d7e174d9e92e747a486027f1cd936a63c89ee598f18d1fe484282b6c9930"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-21"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 8 x 4, and Rectangle B's area is (8+3) x (4-3).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 8 cm by 4 cm. Rectangle B is made by adding 3 cm to Rectangle A's length and taking away 3 cm from its width, so Rectangle B measures (8+3) cm by (4-3) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 4,
+      "k": 3
+    },
+    "variant_signature": "e65398b075a269dc82cde9f2e64c4646b6efd7a4d4756258b1e11639140a5eb8"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-4"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 8 x 5, and Rectangle B's area is (8+1) x (5-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 8 cm by 5 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (8+1) cm by (5-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 5,
+      "k": 1
+    },
+    "variant_signature": "8383825329ea3fab757b6f1005c35b9245d6b163c6927bf116aebacdc04de0b9"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-10"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 8 x 5, and Rectangle B's area is (8+2) x (5-2).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 8 cm by 5 cm. Rectangle B is made by adding 2 cm to Rectangle A's length and taking away 2 cm from its width, so Rectangle B measures (8+2) cm by (5-2) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 5,
+      "k": 2
+    },
+    "variant_signature": "563d9533f762e965f00f6dc8fd3c7bdff67499ce100046358e7324da43c830f6"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-18"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 8 x 5, and Rectangle B's area is (8+3) x (5-3).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 8 cm by 5 cm. Rectangle B is made by adding 3 cm to Rectangle A's length and taking away 3 cm from its width, so Rectangle B measures (8+3) cm by (5-3) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 5,
+      "k": 3
+    },
+    "variant_signature": "982e1088b634bade75dfb7bc54793c2227567959307607580fa037586af32336"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-8"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 9 x 2, and Rectangle B's area is (9+1) x (2-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 9 cm by 2 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (9+1) cm by (2-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 2,
+      "k": 1
+    },
+    "variant_signature": "e83d9aa64405e67a90175e8654bf3328323ba613f999a488d543015e20c1c105"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-7"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 9 x 3, and Rectangle B's area is (9+1) x (3-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 9 cm by 3 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (9+1) cm by (3-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 3,
+      "k": 1
+    },
+    "variant_signature": "ac14ab54272c682cd2dc7e3087eecb4c32506636052b24dbe18739532460e383"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-16"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 9 x 3, and Rectangle B's area is (9+2) x (3-2).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 9 cm by 3 cm. Rectangle B is made by adding 2 cm to Rectangle A's length and taking away 2 cm from its width, so Rectangle B measures (9+2) cm by (3-2) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 3,
+      "k": 2
+    },
+    "variant_signature": "3c876b89d35a01ccac1f967d7f7a463da40c6701b1e6e77c690f42160122c0da"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-6"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 9 x 4, and Rectangle B's area is (9+1) x (4-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 9 cm by 4 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (9+1) cm by (4-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 4,
+      "k": 1
+    },
+    "variant_signature": "43b2c7e77f87f47538ff603121af232faccaeddddfe972d4c2c92ed4f8f389b9"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-24"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 9 x 4, and Rectangle B's area is (9+3) x (4-3).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 9 cm by 4 cm. Rectangle B is made by adding 3 cm to Rectangle A's length and taking away 3 cm from its width, so Rectangle B measures (9+3) cm by (4-3) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 4,
+      "k": 3
+    },
+    "variant_signature": "bbdc54122e089ebd3174d416c3c987e184d6dc85901f78c4afe48961c564b856"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-5"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 9 x 5, and Rectangle B's area is (9+1) x (5-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 9 cm by 5 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (9+1) cm by (5-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 5,
+      "k": 1
+    },
+    "variant_signature": "735f9e6776d451c3c42591d87bf6d362aeec7985307b56410bac7f6583779543"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-12"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 9 x 5, and Rectangle B's area is (9+2) x (5-2).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 9 cm by 5 cm. Rectangle B is made by adding 2 cm to Rectangle A's length and taking away 2 cm from its width, so Rectangle B measures (9+2) cm by (5-2) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 5,
+      "k": 2
+    },
+    "variant_signature": "bfe4f16f7435beeff2e0720ae4123676e146d3980616009dc2796f1c241a243a"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-21"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 9 x 5, and Rectangle B's area is (9+3) x (5-3).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 9 cm by 5 cm. Rectangle B is made by adding 3 cm to Rectangle A's length and taking away 3 cm from its width, so Rectangle B measures (9+3) cm by (5-3) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 5,
+      "k": 3
+    },
+    "variant_signature": "1cdce7893c5fc6945976a5326046661b9f3a9ea03814b659329be379262bb7e0"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-9"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 10 x 2, and Rectangle B's area is (10+1) x (2-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 10 cm by 2 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (10+1) cm by (2-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 2,
+      "k": 1
+    },
+    "variant_signature": "36ebb3c50e2cd14b2a66cfdd4a36e4c6af1436557f856fc826cefbb9ddd28485"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-8"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 10 x 3, and Rectangle B's area is (10+1) x (3-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 10 cm by 3 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (10+1) cm by (3-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 3,
+      "k": 1
+    },
+    "variant_signature": "9288ed2625431c784cd30968a9f99b7d3697e0df76e28b857bda12883d17117b"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-18"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 10 x 3, and Rectangle B's area is (10+2) x (3-2).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 10 cm by 3 cm. Rectangle B is made by adding 2 cm to Rectangle A's length and taking away 2 cm from its width, so Rectangle B measures (10+2) cm by (3-2) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 3,
+      "k": 2
+    },
+    "variant_signature": "25f539194982b7df45fec0d26e6caea345fecf4e3c52f9fcd6cc324b36327522"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-7"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 10 x 4, and Rectangle B's area is (10+1) x (4-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 10 cm by 4 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (10+1) cm by (4-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 4,
+      "k": 1
+    },
+    "variant_signature": "5befda94b0248e2f76207418cb9ce4f11275b6410e0c0164b8af4dd4615f0253"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-27"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 10 x 4, and Rectangle B's area is (10+3) x (4-3).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 10 cm by 4 cm. Rectangle B is made by adding 3 cm to Rectangle A's length and taking away 3 cm from its width, so Rectangle B measures (10+3) cm by (4-3) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 4,
+      "k": 3
+    },
+    "variant_signature": "3919312fd2c52c047144c05922d8ab2a61964c23ea82e27658deb6063e02d8b5"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-6"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 10 x 5, and Rectangle B's area is (10+1) x (5-1).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 10 cm by 5 cm. Rectangle B is made by adding 1 cm to Rectangle A's length and taking away 1 cm from its width, so Rectangle B measures (10+1) cm by (5-1) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 5,
+      "k": 1
+    },
+    "variant_signature": "885f21dd8c9f03497d5333eed8852a336ce84660cab159ffe176079f7a671a46"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-14"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 10 x 5, and Rectangle B's area is (10+2) x (5-2).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 10 cm by 5 cm. Rectangle B is made by adding 2 cm to Rectangle A's length and taking away 2 cm from its width, so Rectangle B measures (10+2) cm by (5-2) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 5,
+      "k": 2
+    },
+    "variant_signature": "12d0125b4f656240fbee793972ca3733ebbd9c4354f7c37d5752d4b01d6a8ac1"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.SAME-PERIMETER-SAME-AREA",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "-24"
+      }
+    ],
+    "figures": [
+      {
+        "caption": "Rectangle A",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ]
+      },
+      {
+        "caption": "Rectangle B",
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 13
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal perimeter does not mean equal area \u2014 work out each rectangle's area separately.",
+      "Find Rectangle A's area and Rectangle B's area, then subtract the smaller from the larger."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Rectangle A's area is 10 x 5, and Rectangle B's area is (10+3) x (5-3).",
+        "Even though the perimeters match, the shapes are different, so the areas are different too: subtract to find the difference."
+      ]
+    },
+    "stem": "Rectangle A measures 10 cm by 5 cm. Rectangle B is made by adding 3 cm to Rectangle A's length and taking away 3 cm from its width, so Rectangle B measures (10+3) cm by (5-3) cm. Both rectangles therefore have exactly the same perimeter. By how many square centimetres is Rectangle A's area greater than Rectangle B's area?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 5,
+      "k": 3
+    },
+    "variant_signature": "39e9718af6bf0375ccb6a8f0c7943fbac8c03aa26292063b3601797348701113"
+  }
+]

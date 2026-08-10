@@ -1,0 +1,2802 @@
+[
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 0
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 0 strokes; Cat \u2014 3 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 3,
+      "b3": 1,
+      "e1": 0,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "fbcd51ab20ac657a56e473b0d481d9e247588fd1caa596672ed885f6511b1692"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "42"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 0
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 0 strokes; Cat \u2014 3 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 3,
+      "b3": 2,
+      "e1": 0,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "02c79fc591576b7d20929e184c0c5fc4c412084158e28ed460b14118736627d5"
+  },
+  {
+    "answer": "50",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "40"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 0
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 0 strokes; Cat \u2014 4 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 4,
+      "b3": 1,
+      "e1": 0,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "6afb20d2c9600847dc410d90daf402a0b779636464cdb6be4ea7dc048352fb6d"
+  },
+  {
+    "answer": "57",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "46"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 0
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 0 strokes; Cat \u2014 4 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 4,
+      "b3": 2,
+      "e1": 0,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "d8872705c548dd2040878de9271e06a76ee811e851468444269bfb87d81581bc"
+  },
+  {
+    "answer": "46",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "37"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 1
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 1 strokes; Cat \u2014 3 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 3,
+      "b3": 1,
+      "e1": 1,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "18c2218e1bd2d6100c4fce8ea6caa44d35a8661dcc0287683c6c58290c7d6fd6"
+  },
+  {
+    "answer": "53",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "43"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 1
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 1 strokes; Cat \u2014 3 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 3,
+      "b3": 2,
+      "e1": 1,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "80de00c9545a1aa7d677507a478917d4b7930f92339166af5569884a04653de8"
+  },
+  {
+    "answer": "51",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "41"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 1
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 1 strokes; Cat \u2014 4 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 4,
+      "b3": 1,
+      "e1": 1,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "8051239893c17f02b8330b960165522069fd2ace1bf32e03cf7e6f90e8b49f85"
+  },
+  {
+    "answer": "58",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "47"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 1
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 1 strokes; Cat \u2014 4 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 4,
+      "b3": 2,
+      "e1": 1,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "4935a9db56a47ada1f5ac17edd357cfd0ad33023c5eb88d35af0bb377d8b36f5"
+  },
+  {
+    "answer": "47",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "38"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 2
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 2 strokes; Cat \u2014 3 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 3,
+      "b3": 1,
+      "e1": 2,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "976873a93b63430845c6c312e388cd1358c1a611a84b06c08e414c72a6200d2e"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "44"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 2
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 2 strokes; Cat \u2014 3 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 3,
+      "b3": 2,
+      "e1": 2,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "ea92a50571fb77f0ff775ea4a34e1083e240ca21ab14f887ed8ade94b5643361"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "42"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 2
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 2 strokes; Cat \u2014 4 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 4,
+      "b3": 1,
+      "e1": 2,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "4aeb73bab6f995fc53bd2584cd1f5cac8d97a594cf7a3e5f6008a3fb3d94280c"
+  },
+  {
+    "answer": "59",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "48"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 2
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 2 strokes; Cat \u2014 4 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 4,
+      "b3": 2,
+      "e1": 2,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "e1c55107e503aabe02b0e09223c2a044c65cec425054bd371eece3e9f847c7fb"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "39"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 3
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 3 strokes; Cat \u2014 3 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 3,
+      "b3": 1,
+      "e1": 3,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "b31da867e6abfa8c0b454ae026c390df936eb6b825829d4400a174d70a559420"
+  },
+  {
+    "answer": "55",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 3
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 3 strokes; Cat \u2014 3 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 3,
+      "b3": 2,
+      "e1": 3,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "697b81cbc5e05b64df0d18ba597a49a9badbeebfc28fface02c0deca819a6eb8"
+  },
+  {
+    "answer": "53",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "43"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 3
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 3 strokes; Cat \u2014 4 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 4,
+      "b3": 1,
+      "e1": 3,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "7e8b9459a3a1af7b71d10cc1df8f1e19c0905445aea60cef44bb4c56ab508e67"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "49"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 3
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 3 strokes; Cat \u2014 4 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 4,
+      "b3": 2,
+      "e1": 3,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "4db0bf6e9f7dad96470df024f71fb66ffc51926e940861f5b11c722ab08e3a38"
+  },
+  {
+    "answer": "49",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "40"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 4
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 4 strokes; Cat \u2014 3 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 3,
+      "b3": 1,
+      "e1": 4,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "4331b71452687f007441d23ac7555c3899f5c3e3bc64b3918b2fd9eaf4285d26"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "46"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 4
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 4 strokes; Cat \u2014 3 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 3,
+      "b3": 2,
+      "e1": 4,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "dab8068c2b0b3507ae464e966e9b38b09d12cb443b8d0f8634d0413b6d72a6fe"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "44"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 4
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 4 strokes; Cat \u2014 4 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 4,
+      "b3": 1,
+      "e1": 4,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "931638c877beef20a1ecc651501e4e21387812d98feaf13053ca638fc6941fe1"
+  },
+  {
+    "answer": "61",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "50"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Dog",
+            "loose": 4
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 5 bundles of five and 4 strokes; Cat \u2014 4 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 5,
+      "b2": 4,
+      "b3": 2,
+      "e1": 4,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "2a204c19105001b2a66cf3ad96949e1bac1ef7905cdde489ed939bb9d95d3ff5"
+  },
+  {
+    "answer": "50",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "40"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 0
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 0 strokes; Cat \u2014 3 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 1,
+      "e1": 0,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "7937ea530cbc7ca9fbf15af777d983976422530a43122056949f36e3bd2f9268"
+  },
+  {
+    "answer": "57",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "46"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 0
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 0 strokes; Cat \u2014 3 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 2,
+      "e1": 0,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "5e9048fa4d781ebae83109d351f5f1fdd0d41eab71be03d6ce58c93447e52dda"
+  },
+  {
+    "answer": "55",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "44"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 0
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 0 strokes; Cat \u2014 4 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 4,
+      "b3": 1,
+      "e1": 0,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "819ee61fe4cbf22273f44b6ecbd44d90c9d92166cfceb624c4f7b74dd4476545"
+  },
+  {
+    "answer": "62",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "50"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 0
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 0 strokes; Cat \u2014 4 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 4,
+      "b3": 2,
+      "e1": 0,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "f4c68135e43eb9b194bd943e8e5a733bc69b08c35e7c187c1df3256f636bfe81"
+  },
+  {
+    "answer": "51",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "41"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 1
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 1 strokes; Cat \u2014 3 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 1,
+      "e1": 1,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "507e9a0412da69136534c674f048ed10a560057e58e230fd06aaf43db03fdc5a"
+  },
+  {
+    "answer": "58",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "47"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 1
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 1 strokes; Cat \u2014 3 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 2,
+      "e1": 1,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "4c63f298dcc772f65902076d1e3ee1fb824456aad4b94cea39b665517522d29c"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 1
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 1 strokes; Cat \u2014 4 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 4,
+      "b3": 1,
+      "e1": 1,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "41befb6fe7174b9486c359b3736f948f600634a993fa06df1e79deb2490dc9bf"
+  },
+  {
+    "answer": "63",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "51"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 1
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 1 strokes; Cat \u2014 4 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 4,
+      "b3": 2,
+      "e1": 1,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "1230bab5ff7a3160b088354fd80f29803009a67ff27c0b61f7435efcccac99c4"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "42"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 2
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 2 strokes; Cat \u2014 3 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 1,
+      "e1": 2,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "32ce453e93eed8ef7f0a18b3f2ee5806866b6786d7fc36e5746aa69b22b2f81e"
+  },
+  {
+    "answer": "59",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "48"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 2
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 2 strokes; Cat \u2014 3 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 2,
+      "e1": 2,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "ab01ce88d671b4f9213a580dbc8cd682380bee4a678f8f1ac2bb59e83ff57ce8"
+  },
+  {
+    "answer": "57",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "46"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 2
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 2 strokes; Cat \u2014 4 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 4,
+      "b3": 1,
+      "e1": 2,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "d2b7094993052df90c72e658f1d668187f92821c6250b93db8956e401d87a3be"
+  },
+  {
+    "answer": "64",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "52"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 2
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 2 strokes; Cat \u2014 4 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 4,
+      "b3": 2,
+      "e1": 2,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "b283e5fb067ec48b92bd44c0ba6d6fd44bd548bbf45a08cdb2502306af5bc703"
+  },
+  {
+    "answer": "53",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "43"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 3
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 3 strokes; Cat \u2014 3 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 1,
+      "e1": 3,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "84f2bc50689768febfdab17729bc8d7624990fbcccf80455728ab3beccd68c88"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "49"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 3
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 3 strokes; Cat \u2014 3 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 2,
+      "e1": 3,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "6dfcc4f15accd7c1c1e2d0a11d45c35f54543e0bceac1f30d835a0ad2c9728f5"
+  },
+  {
+    "answer": "58",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "47"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 3
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 3 strokes; Cat \u2014 4 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 4,
+      "b3": 1,
+      "e1": 3,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "eb68e78c66bd5fafe9bce052eb6b0d883951d40097f75ba5dfc20c3278cbb640"
+  },
+  {
+    "answer": "65",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "53"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 3
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 3 strokes; Cat \u2014 4 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 4,
+      "b3": 2,
+      "e1": 3,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "3ddd02676357062ff67bd91fc97ec0d49a1bd0ad3d7b59580b52303e75bf9324"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "44"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 4
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 4 strokes; Cat \u2014 3 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 1,
+      "e1": 4,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "8e822528bd4e5312b948a4304aa186806fb6f72676c8cf81738b971b090b9f2e"
+  },
+  {
+    "answer": "61",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "50"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 4
+          },
+          {
+            "bundles": 3,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 4 strokes; Cat \u2014 3 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 3,
+      "b3": 2,
+      "e1": 4,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "7160c2bd0d275aa6d296f82e336878cf01f118bb1cacfc023ef8bf7d9aa07da4"
+  },
+  {
+    "answer": "59",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "48"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 4
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 0
+          },
+          {
+            "bundles": 1,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 4 strokes; Cat \u2014 4 bundles of five and 0 strokes; Bird \u2014 1 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 4,
+      "b3": 1,
+      "e1": 4,
+      "e2": 0,
+      "e3": 0
+    },
+    "variant_signature": "7068b6e50a0d5a6b54fab8736045bfcef1bc94e50313323df9992ec4b288bacc"
+  },
+  {
+    "answer": "66",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "54"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Dog",
+            "loose": 4
+          },
+          {
+            "bundles": 4,
+            "label": "Cat",
+            "loose": 2
+          },
+          {
+            "bundles": 2,
+            "label": "Bird",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work out Dog, Cat and Bird's totals one at a time before adding them.",
+      "Every bundle in every category is worth 5 \u2014 don't count any bundle as just 1."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find each pet's total separately: 5 x bundles + loose strokes.",
+        "Add the three totals together for the grand total surveyed."
+      ]
+    },
+    "stem": "A survey tally for favourite pets recorded: Dog \u2014 6 bundles of five and 4 strokes; Cat \u2014 4 bundles of five and 2 strokes; Bird \u2014 2 bundles of five and 0 strokes. How many children in total were surveyed across all three pets?",
+    "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b1": 6,
+      "b2": 4,
+      "b3": 2,
+      "e1": 4,
+      "e2": 2,
+      "e3": 0
+    },
+    "variant_signature": "b940cb41e68a794c7a0add3c0b20126bb48f967c9bd7ad3f7ca7978ed9d384cf"
+  }
+]

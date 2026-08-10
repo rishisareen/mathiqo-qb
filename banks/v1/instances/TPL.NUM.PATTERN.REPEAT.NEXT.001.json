@@ -1,0 +1,1602 @@
+[
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 1, 2, 1, 2, ....",
+        "After 1, 2, 1, 2, 1 comes 2 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 1, 2, 1, 2, 1, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 2
+    },
+    "variant_signature": "f58874c32485c94100ed439f77b4f4478697cd0d1b1df4e3bcdc8c7ebe06effc"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 1, 4, 1, 4, ....",
+        "After 1, 4, 1, 4, 1 comes 4 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 1, 4, 1, 4, 1, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4
+    },
+    "variant_signature": "bb3f716b45e347a37dd239a05cc74f7acb8942e908ffb477f2476e19de2388a1"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 1, 6, 1, 6, ....",
+        "After 1, 6, 1, 6, 1 comes 6 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 1, 6, 1, 6, 1, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 6
+    },
+    "variant_signature": "01f5e5c4468488d35b6cb9e8c64dcceb29240ee88ea21c5243f858089e997df6"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 1, 8, 1, 8, ....",
+        "After 1, 8, 1, 8, 1 comes 8 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 1, 8, 1, 8, 1, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 8
+    },
+    "variant_signature": "71cbafea398b754919530f794016260211fcc235bda3dc67f76e23db5d242ad6"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 1, 9, 1, 9, ....",
+        "After 1, 9, 1, 9, 1 comes 9 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 1, 9, 1, 9, 1, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 9
+    },
+    "variant_signature": "f49e54f5ee6925f3633a18a4b7a30ac793a86ce09c88cc4b46a532829edec322"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 2, 3, 2, 3, ....",
+        "After 2, 3, 2, 3, 2 comes 3 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 2, 3, 2, 3, 2, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3
+    },
+    "variant_signature": "dc6443e88c06295efa78f36eea81982c779fa9a08a8328d0b4d8e7a1ef2f76ec"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 2, 5, 2, 5, ....",
+        "After 2, 5, 2, 5, 2 comes 5 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 2, 5, 2, 5, 2, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 5
+    },
+    "variant_signature": "2bac4fe8f1da41a274021f78b8cae2c9210c81cc55984f5c4c4764b15d5a580a"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 2, 7, 2, 7, ....",
+        "After 2, 7, 2, 7, 2 comes 7 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 2, 7, 2, 7, 2, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 7
+    },
+    "variant_signature": "ea774fb078b97233e672b4009d833e1483f83407c64b6d517c7e986191932c70"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 2, 9, 2, 9, ....",
+        "After 2, 9, 2, 9, 2 comes 9 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 2, 9, 2, 9, 2, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 9
+    },
+    "variant_signature": "0810bec0a46c94a2cbbcedf1c266a1455aa2ad5caf5b04b2d6cb89b60455b631"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 3, 1, 3, 1, ....",
+        "After 3, 1, 3, 1, 3 comes 1 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 3, 1, 3, 1, 3, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 1
+    },
+    "variant_signature": "2811da119e0ba2f2a99ec439c62b96abcfc3f51e6a14f7a9cb7b5602a74834db"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 3, 4, 3, 4, ....",
+        "After 3, 4, 3, 4, 3 comes 4 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 3, 4, 3, 4, 3, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 4
+    },
+    "variant_signature": "44195fa7c6bee1fd6579cf6d68629e6659aea28f6f58ed1c83aa5cbc7c7fbb7e"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 3, 6, 3, 6, ....",
+        "After 3, 6, 3, 6, 3 comes 6 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 3, 6, 3, 6, 3, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 6
+    },
+    "variant_signature": "e6e6a900985c4249e53eb9805bc3abb2b81e43a2b7da778ceb1da81cfc9c3034"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 3, 8, 3, 8, ....",
+        "After 3, 8, 3, 8, 3 comes 8 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 3, 8, 3, 8, 3, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 8
+    },
+    "variant_signature": "b33f371bfd78c195fd45c7c5d846a9658c33a9bec4641d475a1fc0dc3b7918c3"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 4, 1, 4, 1, ....",
+        "After 4, 1, 4, 1, 4 comes 1 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 4, 1, 4, 1, 4, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 1
+    },
+    "variant_signature": "656280398af649e414ad52df3dc0dc50777ef3741550d4696371bd751489f592"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 4, 2, 4, 2, ....",
+        "After 4, 2, 4, 2, 4 comes 2 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 4, 2, 4, 2, 4, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 2
+    },
+    "variant_signature": "e9ff12f8125c7b7ab6e4de7daf17530e8fa585a819d7c5cb7e53e42bb5200874"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 4, 5, 4, 5, ....",
+        "After 4, 5, 4, 5, 4 comes 5 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 4, 5, 4, 5, 4, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 5
+    },
+    "variant_signature": "d1762cf272266dd02c91ebeae493e50ea5d3ca4814f390e8baaee0865fe32d34"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 4, 7, 4, 7, ....",
+        "After 4, 7, 4, 7, 4 comes 7 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 4, 7, 4, 7, 4, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 7
+    },
+    "variant_signature": "b8daa9e7ead417c8332e0a4254003689e850aa3b55f2bb3f791ea73d9a31cc47"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 4, 9, 4, 9, ....",
+        "After 4, 9, 4, 9, 4 comes 9 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 4, 9, 4, 9, 4, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 9
+    },
+    "variant_signature": "21b3152af25ce0b054c719b4af32ffca9941f7d02473837d8953a40e539be512"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 5, 2, 5, 2, ....",
+        "After 5, 2, 5, 2, 5 comes 2 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 5, 2, 5, 2, 5, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 2
+    },
+    "variant_signature": "d37f859aa8f751c7e1667aa72892fa1fb2aa271167d843fb305aa32175465503"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 5, 3, 5, 3, ....",
+        "After 5, 3, 5, 3, 5 comes 3 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 5, 3, 5, 3, 5, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 3
+    },
+    "variant_signature": "7b2a9f719e9645acd88f830b8854324766dec33319b1b19f3de0e517625e9778"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 5, 6, 5, 6, ....",
+        "After 5, 6, 5, 6, 5 comes 6 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 5, 6, 5, 6, 5, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 6
+    },
+    "variant_signature": "3fe5ebbb96461c08cdb02bf2732041ee16ae3af9ae9c297f219493efe0a45b8a"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 5, 8, 5, 8, ....",
+        "After 5, 8, 5, 8, 5 comes 8 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 5, 8, 5, 8, 5, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 8
+    },
+    "variant_signature": "51d02b71ab044c598c514604ebae54ae46d67e7d6b0a183e6fc7d15813b282a8"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 6, 1, 6, 1, ....",
+        "After 6, 1, 6, 1, 6 comes 1 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 6, 1, 6, 1, 6, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 1
+    },
+    "variant_signature": "858df013413641ff87aed726c2a261153431d6d95361b4fbebbfae286d3e6a99"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 6, 3, 6, 3, ....",
+        "After 6, 3, 6, 3, 6 comes 3 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 6, 3, 6, 3, 6, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 3
+    },
+    "variant_signature": "23e42143d0166e4563540befe82b7dac70faeb74bac0308988e2b481bd043ef7"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 6, 4, 6, 4, ....",
+        "After 6, 4, 6, 4, 6 comes 4 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 6, 4, 6, 4, 6, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 4
+    },
+    "variant_signature": "57fa42ae4a19f54bf29b033070aec3ad73da541a0db1740ef23465bd69b37957"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 6, 7, 6, 7, ....",
+        "After 6, 7, 6, 7, 6 comes 7 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 6, 7, 6, 7, 6, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 7
+    },
+    "variant_signature": "96cde23b5b7c8cf2448903fc7859f8a4c8d763d1c138675746256a18420cf91e"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 6, 9, 6, 9, ....",
+        "After 6, 9, 6, 9, 6 comes 9 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 6, 9, 6, 9, 6, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 9
+    },
+    "variant_signature": "41ba39c3f02d093d9228d1b6e4c373b6cd0c7d55841a71ffaa8ef65b2866e9e6"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 7, 2, 7, 2, ....",
+        "After 7, 2, 7, 2, 7 comes 2 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 7, 2, 7, 2, 7, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 2
+    },
+    "variant_signature": "385d83585a16ac468c84f6fa22fcd0aa3dcd1429c2865bb7886e1922970683f1"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 7, 4, 7, 4, ....",
+        "After 7, 4, 7, 4, 7 comes 4 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 7, 4, 7, 4, 7, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 4
+    },
+    "variant_signature": "bdc77799b8b2a48138cb0d01b4c5a09b1b7b1244d1fcd7ec037d231f847aac16"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 7, 5, 7, 5, ....",
+        "After 7, 5, 7, 5, 7 comes 5 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 7, 5, 7, 5, 7, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 5
+    },
+    "variant_signature": "31f4dba6a69f58e70ebbe1e41318658561d24d427b460173ab4017fb77e2224c"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 7, 8, 7, 8, ....",
+        "After 7, 8, 7, 8, 7 comes 8 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 7, 8, 7, 8, 7, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 8
+    },
+    "variant_signature": "5b36e685788dc12f1c4f4ba0bf83dda9ae0796f4a30048189ce714a8e6ee70d0"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 8, 1, 8, 1, ....",
+        "After 8, 1, 8, 1, 8 comes 1 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 8, 1, 8, 1, 8, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 1
+    },
+    "variant_signature": "07ef8cf3bbb447097cb19e59e19c5e15edc6abc0bf6585756474de222fac9f93"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 8, 3, 8, 3, ....",
+        "After 8, 3, 8, 3, 8 comes 3 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 8, 3, 8, 3, 8, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 3
+    },
+    "variant_signature": "d26e7e6c40606ffbe268c5616dbe55f740f20287826a0559dba9b93d39f24a01"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 8, 5, 8, 5, ....",
+        "After 8, 5, 8, 5, 8 comes 5 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 8, 5, 8, 5, 8, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 5
+    },
+    "variant_signature": "858623d92b5885e7a36814c13c4dba122990b9c97e00eba35c489325bfb9bd0e"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 8, 6, 8, 6, ....",
+        "After 8, 6, 8, 6, 8 comes 6 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 8, 6, 8, 6, 8, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 6
+    },
+    "variant_signature": "7b3f8fed8ba46580f8dacc28a068c6ca3f5c3f6c0882af3f01532d7fb28019e1"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 8, 9, 8, 9, ....",
+        "After 8, 9, 8, 9, 8 comes 9 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 8, 9, 8, 9, 8, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 9
+    },
+    "variant_signature": "d748f202e4567c66ae1904863e886d2bc4c1e8cd659b6cdd9b2c0f75abc35952"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 9, 2, 9, 2, ....",
+        "After 9, 2, 9, 2, 9 comes 2 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 9, 2, 9, 2, 9, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 2
+    },
+    "variant_signature": "95d57378f021c56a8dfcd175d5540df3242926db2bb3b637bebf12b411a00e2b"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 9, 4, 9, 4, ....",
+        "After 9, 4, 9, 4, 9 comes 4 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 9, 4, 9, 4, 9, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 4
+    },
+    "variant_signature": "88216fc6841bf4b6361fe040d65cdc2b42c74ab62b315fa1efe8c2c9401f6552"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 9, 6, 9, 6, ....",
+        "After 9, 6, 9, 6, 9 comes 6 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 9, 6, 9, 6, 9, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 6
+    },
+    "variant_signature": "2dee870b44c2fce82cc26133833a469f788f923b7a413da2bb7e65dfd34ff4fd"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "This pattern doesn't grow \u2014 it repeats the same short cycle over and over.",
+      "Count how many numbers are in one repeat of the cycle, then find where the next position falls in that cycle."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pattern repeats every two numbers: 9, 7, 9, 7, ....",
+        "After 9, 7, 9, 7, 9 comes 7 again \u2014 the cycle starts over."
+      ]
+    },
+    "stem": "Look at this repeating pattern: 9, 7, 9, 7, 9, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 7
+    },
+    "variant_signature": "b6a364f1b3f0f02d12d3d030a178e955f0bd8e0baca664572156e09845e6b7de"
+  }
+]

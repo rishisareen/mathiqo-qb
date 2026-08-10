@@ -1,0 +1,51 @@
+[
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal sides alone aren't the whole definition \u2014 check the corners too.",
+      "A square needs every one of its corners to be a right angle."
+    ],
+    "item_instance_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.SQUARE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POLYGON.PROPS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A square is defined by 4 equal sides AND 4 square (90-degree) corners.",
+        "So all 4 of its corners are square corners."
+      ]
+    },
+    "stem": "A square has 4 straight sides, all exactly the same length. How many of its corners are square (90-degree) corners?",
+    "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.SQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 1
+    },
+    "variant_signature": "f34193b902480b52e022ed54a6e70f60697a2699f9acf694e185dcce2f6887b6"
+  }
+]

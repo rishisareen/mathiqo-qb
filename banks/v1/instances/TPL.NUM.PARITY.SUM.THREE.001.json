@@ -1,0 +1,1402 @@
+[
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 1 + 1, then combine that with 18.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 1 + 1 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 18 to that even result: even + even is always even, so 1 + 1 + 18 is even."
+      ]
+    },
+    "stem": "1 and 1 are both odd numbers, and 18 is an even number. Is 1 + 1 + 18 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 1,
+      "c": 18
+    },
+    "variant_signature": "142c343720e1f27887198c59792cc4e678fc86c494d63f2ec71608e6dafa7a2b"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 1 + 13, then combine that with 30.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 1 + 13 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 30 to that even result: even + even is always even, so 1 + 13 + 30 is even."
+      ]
+    },
+    "stem": "1 and 13 are both odd numbers, and 30 is an even number. Is 1 + 13 + 30 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 13,
+      "c": 30
+    },
+    "variant_signature": "2c0b668178a009582a37c4126d7caba3bbfdb21e43dc62eac023f89824fa418f"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 1 + 27, then combine that with 12.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 1 + 27 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 12 to that even result: even + even is always even, so 1 + 27 + 12 is even."
+      ]
+    },
+    "stem": "1 and 27 are both odd numbers, and 12 is an even number. Is 1 + 27 + 12 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 27,
+      "c": 12
+    },
+    "variant_signature": "ca88ef69fe81a9eb568584e49932e48b608cac6729716d6036d52c6c61d1139e"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 3 + 7, then combine that with 24.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 3 + 7 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 24 to that even result: even + even is always even, so 3 + 7 + 24 is even."
+      ]
+    },
+    "stem": "3 and 7 are both odd numbers, and 24 is an even number. Is 3 + 7 + 24 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 7,
+      "c": 24
+    },
+    "variant_signature": "8d2ec2daeb4868c8585c94bfea94ce127fdf527d67524be943e44a372d2a4f32"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 3 + 21, then combine that with 4.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 3 + 21 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 4 to that even result: even + even is always even, so 3 + 21 + 4 is even."
+      ]
+    },
+    "stem": "3 and 21 are both odd numbers, and 4 is an even number. Is 3 + 21 + 4 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 21,
+      "c": 4
+    },
+    "variant_signature": "af541efd68d0de5d4302302d29d7b1458699aa53e7281cd74c8b319aa0d0607c"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 5 + 1, then combine that with 18.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 5 + 1 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 18 to that even result: even + even is always even, so 5 + 1 + 18 is even."
+      ]
+    },
+    "stem": "5 and 1 are both odd numbers, and 18 is an even number. Is 5 + 1 + 18 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 1,
+      "c": 18
+    },
+    "variant_signature": "d989bfbb1a61115d6709b8d499fd28957d7b20a345f849e8fc190706e6e6b573"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 5 + 13, then combine that with 30.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 5 + 13 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 30 to that even result: even + even is always even, so 5 + 13 + 30 is even."
+      ]
+    },
+    "stem": "5 and 13 are both odd numbers, and 30 is an even number. Is 5 + 13 + 30 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 13,
+      "c": 30
+    },
+    "variant_signature": "e6ab437dba76c207b2f7094ca308914f922e42f0b1563b5f05e67610ea446f16"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 5 + 27, then combine that with 12.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 5 + 27 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 12 to that even result: even + even is always even, so 5 + 27 + 12 is even."
+      ]
+    },
+    "stem": "5 and 27 are both odd numbers, and 12 is an even number. Is 5 + 27 + 12 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 27,
+      "c": 12
+    },
+    "variant_signature": "f3e3eecb58b5926f376db37a3ef37b066b1af6b7274f3efa4feddc7edca5a20e"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 7 + 7, then combine that with 24.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 7 + 7 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 24 to that even result: even + even is always even, so 7 + 7 + 24 is even."
+      ]
+    },
+    "stem": "7 and 7 are both odd numbers, and 24 is an even number. Is 7 + 7 + 24 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 7,
+      "c": 24
+    },
+    "variant_signature": "8fe49274d1d8acfcaf1302554fd0b35e3819dafd9de7ff8cbcba84fa2fcd34f3"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 7 + 21, then combine that with 4.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 7 + 21 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 4 to that even result: even + even is always even, so 7 + 21 + 4 is even."
+      ]
+    },
+    "stem": "7 and 21 are both odd numbers, and 4 is an even number. Is 7 + 21 + 4 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 21,
+      "c": 4
+    },
+    "variant_signature": "cee8dcb9aa75c7737e24c9f9cca95353d806ab757905f517626a18c485a197e5"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 9 + 1, then combine that with 18.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 9 + 1 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 18 to that even result: even + even is always even, so 9 + 1 + 18 is even."
+      ]
+    },
+    "stem": "9 and 1 are both odd numbers, and 18 is an even number. Is 9 + 1 + 18 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 1,
+      "c": 18
+    },
+    "variant_signature": "9ef706bb9cbaeb20b32ecda5f52449aec5f1b702cdc027828b10966b3631f4c5"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 9 + 13, then combine that with 30.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 9 + 13 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 30 to that even result: even + even is always even, so 9 + 13 + 30 is even."
+      ]
+    },
+    "stem": "9 and 13 are both odd numbers, and 30 is an even number. Is 9 + 13 + 30 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 13,
+      "c": 30
+    },
+    "variant_signature": "3ad5011b9cf90b027a523ddd5114007d07c1aff6ac35136f2291b98811895ccd"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 9 + 27, then combine that with 12.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 9 + 27 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 12 to that even result: even + even is always even, so 9 + 27 + 12 is even."
+      ]
+    },
+    "stem": "9 and 27 are both odd numbers, and 12 is an even number. Is 9 + 27 + 12 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 27,
+      "c": 12
+    },
+    "variant_signature": "5e7ab66d3cdddd9a0bc164dc6afa6ad4244369f37bf9e21deccd8a78bc4de628"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 11 + 7, then combine that with 24.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 11 + 7 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 24 to that even result: even + even is always even, so 11 + 7 + 24 is even."
+      ]
+    },
+    "stem": "11 and 7 are both odd numbers, and 24 is an even number. Is 11 + 7 + 24 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 11,
+      "b": 7,
+      "c": 24
+    },
+    "variant_signature": "06bfde3e2fb9b916fb79c84e5eded7fd7873411956928b1db554ad0d1b482cc4"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 11 + 21, then combine that with 4.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 11 + 21 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 4 to that even result: even + even is always even, so 11 + 21 + 4 is even."
+      ]
+    },
+    "stem": "11 and 21 are both odd numbers, and 4 is an even number. Is 11 + 21 + 4 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 11,
+      "b": 21,
+      "c": 4
+    },
+    "variant_signature": "ba3e5d5bd20bec5be30f94d5a4c05078fab56206f9b409c6853002bf629ae22d"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 13 + 1, then combine that with 18.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 13 + 1 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 18 to that even result: even + even is always even, so 13 + 1 + 18 is even."
+      ]
+    },
+    "stem": "13 and 1 are both odd numbers, and 18 is an even number. Is 13 + 1 + 18 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 13,
+      "b": 1,
+      "c": 18
+    },
+    "variant_signature": "5bdbf46fc85f50a766ccb3ad5b974bacc3a5206b28deb44d7e0acad7753374f6"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 13 + 13, then combine that with 30.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 13 + 13 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 30 to that even result: even + even is always even, so 13 + 13 + 30 is even."
+      ]
+    },
+    "stem": "13 and 13 are both odd numbers, and 30 is an even number. Is 13 + 13 + 30 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 13,
+      "b": 13,
+      "c": 30
+    },
+    "variant_signature": "42f486f10eea1208e11970e73e751bea5cc9717622f0abef245cf6a1ca953e45"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 13 + 27, then combine that with 12.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 13 + 27 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 12 to that even result: even + even is always even, so 13 + 27 + 12 is even."
+      ]
+    },
+    "stem": "13 and 27 are both odd numbers, and 12 is an even number. Is 13 + 27 + 12 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 13,
+      "b": 27,
+      "c": 12
+    },
+    "variant_signature": "caa4e0b614628bc2526f3192d3f93b23c7ff3d479c0af1c0e8a7beb41c4adf32"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 15 + 7, then combine that with 24.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 15 + 7 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 24 to that even result: even + even is always even, so 15 + 7 + 24 is even."
+      ]
+    },
+    "stem": "15 and 7 are both odd numbers, and 24 is an even number. Is 15 + 7 + 24 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 15,
+      "b": 7,
+      "c": 24
+    },
+    "variant_signature": "fafe66121e9dce45838b463b1474ea4550b8223f3d6f6bffd512996d783e79a0"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 15 + 21, then combine that with 4.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 15 + 21 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 4 to that even result: even + even is always even, so 15 + 21 + 4 is even."
+      ]
+    },
+    "stem": "15 and 21 are both odd numbers, and 4 is an even number. Is 15 + 21 + 4 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 15,
+      "b": 21,
+      "c": 4
+    },
+    "variant_signature": "293b0edc44a124b425787cd26f5f76725343905ae769ab136d9be114b28b0650"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 17 + 1, then combine that with 18.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 17 + 1 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 18 to that even result: even + even is always even, so 17 + 1 + 18 is even."
+      ]
+    },
+    "stem": "17 and 1 are both odd numbers, and 18 is an even number. Is 17 + 1 + 18 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "b": 1,
+      "c": 18
+    },
+    "variant_signature": "6f88545532f1bd6c9c87750fc7de39186d5f206939ac4b3f36b780ff6c65ed5b"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 17 + 13, then combine that with 30.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 17 + 13 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 30 to that even result: even + even is always even, so 17 + 13 + 30 is even."
+      ]
+    },
+    "stem": "17 and 13 are both odd numbers, and 30 is an even number. Is 17 + 13 + 30 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "b": 13,
+      "c": 30
+    },
+    "variant_signature": "e226c11ccaa3efd21e261e5809ecdb0da13d233c446fbbb82ff56c9b63280dc4"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 17 + 27, then combine that with 12.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 17 + 27 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 12 to that even result: even + even is always even, so 17 + 27 + 12 is even."
+      ]
+    },
+    "stem": "17 and 27 are both odd numbers, and 12 is an even number. Is 17 + 27 + 12 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "b": 27,
+      "c": 12
+    },
+    "variant_signature": "6f69aad81e20641b7917846a7d7f1c38863f9ca66bb44318863423b132141523"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 19 + 7, then combine that with 24.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 19 + 7 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 24 to that even result: even + even is always even, so 19 + 7 + 24 is even."
+      ]
+    },
+    "stem": "19 and 7 are both odd numbers, and 24 is an even number. Is 19 + 7 + 24 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 19,
+      "b": 7,
+      "c": 24
+    },
+    "variant_signature": "6fa60bdb402864157519b17598ccb0a5341e85f49e32303559029128eb5ea55a"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 19 + 21, then combine that with 4.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 19 + 21 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 4 to that even result: even + even is always even, so 19 + 21 + 4 is even."
+      ]
+    },
+    "stem": "19 and 21 are both odd numbers, and 4 is an even number. Is 19 + 21 + 4 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 19,
+      "b": 21,
+      "c": 4
+    },
+    "variant_signature": "ff7bfe6a8028ffb98bfbdc814c50eda1b712ced9596e59eebdb176c811fb1ea1"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 21 + 1, then combine that with 18.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 21 + 1 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 18 to that even result: even + even is always even, so 21 + 1 + 18 is even."
+      ]
+    },
+    "stem": "21 and 1 are both odd numbers, and 18 is an even number. Is 21 + 1 + 18 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 21,
+      "b": 1,
+      "c": 18
+    },
+    "variant_signature": "d1a3fb750049cd2629cfaecfd64e93e69fc59e072c77a72579b3a0a00b31ac50"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 21 + 13, then combine that with 30.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 21 + 13 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 30 to that even result: even + even is always even, so 21 + 13 + 30 is even."
+      ]
+    },
+    "stem": "21 and 13 are both odd numbers, and 30 is an even number. Is 21 + 13 + 30 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 21,
+      "b": 13,
+      "c": 30
+    },
+    "variant_signature": "c20f34b5f9f37777f908fb0e234a2fff81f54c6f69df7a81d5fe5f287fd16701"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 21 + 27, then combine that with 12.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 21 + 27 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 12 to that even result: even + even is always even, so 21 + 27 + 12 is even."
+      ]
+    },
+    "stem": "21 and 27 are both odd numbers, and 12 is an even number. Is 21 + 27 + 12 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 21,
+      "b": 27,
+      "c": 12
+    },
+    "variant_signature": "6a36842134b02b4832625d8b94036319af81bcc05e5bcaf76d4865f13ba55175"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 23 + 7, then combine that with 24.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 23 + 7 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 24 to that even result: even + even is always even, so 23 + 7 + 24 is even."
+      ]
+    },
+    "stem": "23 and 7 are both odd numbers, and 24 is an even number. Is 23 + 7 + 24 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 23,
+      "b": 7,
+      "c": 24
+    },
+    "variant_signature": "df87a9adb02ca458bbb2aeb2228eaceaa7ff93eb10876cd315fce261f05fdfe3"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 23 + 21, then combine that with 4.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 23 + 21 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 4 to that even result: even + even is always even, so 23 + 21 + 4 is even."
+      ]
+    },
+    "stem": "23 and 21 are both odd numbers, and 4 is an even number. Is 23 + 21 + 4 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 23,
+      "b": 21,
+      "c": 4
+    },
+    "variant_signature": "0afd518ae5f67030611d2a17a674c34a2c98baa777d3c054f5a00b2f5dfd8eb6"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 25 + 1, then combine that with 18.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 25 + 1 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 18 to that even result: even + even is always even, so 25 + 1 + 18 is even."
+      ]
+    },
+    "stem": "25 and 1 are both odd numbers, and 18 is an even number. Is 25 + 1 + 18 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 25,
+      "b": 1,
+      "c": 18
+    },
+    "variant_signature": "43e598f595065a8d4f92af7f0a68a95cae707748c3043368ba14e3eebde32f9d"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 25 + 13, then combine that with 30.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 25 + 13 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 30 to that even result: even + even is always even, so 25 + 13 + 30 is even."
+      ]
+    },
+    "stem": "25 and 13 are both odd numbers, and 30 is an even number. Is 25 + 13 + 30 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 25,
+      "b": 13,
+      "c": 30
+    },
+    "variant_signature": "04d4e6cc035790fc3a49950f7ccdc9cc3a4235684c70f0cfadc71842ee889599"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 25 + 27, then combine that with 12.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 25 + 27 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 12 to that even result: even + even is always even, so 25 + 27 + 12 is even."
+      ]
+    },
+    "stem": "25 and 27 are both odd numbers, and 12 is an even number. Is 25 + 27 + 12 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 25,
+      "b": 27,
+      "c": 12
+    },
+    "variant_signature": "8e172b1365023fa99e5ccf5647c97f1f28a403184cbe2fb8d4afa12b0fd0a479"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 27 + 7, then combine that with 24.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 27 + 7 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 24 to that even result: even + even is always even, so 27 + 7 + 24 is even."
+      ]
+    },
+    "stem": "27 and 7 are both odd numbers, and 24 is an even number. Is 27 + 7 + 24 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 27,
+      "b": 7,
+      "c": 24
+    },
+    "variant_signature": "6a8bb851251cf7adb1080e83eab01591540a697d8da08c69d7994b1fb17e91b4"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 27 + 21, then combine that with 4.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 27 + 21 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 4 to that even result: even + even is always even, so 27 + 21 + 4 is even."
+      ]
+    },
+    "stem": "27 and 21 are both odd numbers, and 4 is an even number. Is 27 + 21 + 4 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 27,
+      "b": 21,
+      "c": 4
+    },
+    "variant_signature": "e9172ecb24d2a0949da1bfb17c0a7a78fb780c43c2c5402a0498865bac75611d"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 29 + 1, then combine that with 18.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 29 + 1 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 18 to that even result: even + even is always even, so 29 + 1 + 18 is even."
+      ]
+    },
+    "stem": "29 and 1 are both odd numbers, and 18 is an even number. Is 29 + 1 + 18 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 29,
+      "b": 1,
+      "c": 18
+    },
+    "variant_signature": "f1883db5ffa191474c713bb9e4a8fc40a26254451add3bd6caafd172897ba5d2"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 29 + 13, then combine that with 30.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 29 + 13 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 30 to that even result: even + even is always even, so 29 + 13 + 30 is even."
+      ]
+    },
+    "stem": "29 and 13 are both odd numbers, and 30 is an even number. Is 29 + 13 + 30 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 29,
+      "b": 13,
+      "c": 30
+    },
+    "variant_signature": "0e2a0fcfa9757f8cc1f275f38f2f22f5b7a661ad248bac18fe4e7d341c521c3a"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 29 + 27, then combine that with 12.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 29 + 27 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 12 to that even result: even + even is always even, so 29 + 27 + 12 is even."
+      ]
+    },
+    "stem": "29 and 27 are both odd numbers, and 12 is an even number. Is 29 + 27 + 12 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 29,
+      "b": 27,
+      "c": 12
+    },
+    "variant_signature": "7698dafe27307e7132b35253595a5c549651b445c34ab78e8ee57eaf03db62b4"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 31 + 7, then combine that with 24.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 31 + 7 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 24 to that even result: even + even is always even, so 31 + 7 + 24 is even."
+      ]
+    },
+    "stem": "31 and 7 are both odd numbers, and 24 is an even number. Is 31 + 7 + 24 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 31,
+      "b": 7,
+      "c": 24
+    },
+    "variant_signature": "1c55c311dbc1316c27935e502c39afc96395b365daa527d01eb45041a769455e"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Work it out in two steps: first find the parity of 31 + 21, then combine that with 4.",
+      "odd + odd is even, and even + even is even \u2014 chain the two rules together."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.THREE.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First add the two odd numbers: 31 + 21 is even, because odd + odd always leaves no unpaired left over.",
+        "Now add the even number 4 to that even result: even + even is always even, so 31 + 21 + 4 is even."
+      ]
+    },
+    "stem": "31 and 21 are both odd numbers, and 4 is an even number. Is 31 + 21 + 4 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 31,
+      "b": 21,
+      "c": 4
+    },
+    "variant_signature": "79198ed857af6f549c39028737ca1ad2cf6d50b7410840f6b4e1c6fa5683c733"
+  }
+]

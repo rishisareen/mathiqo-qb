@@ -1,0 +1,1346 @@
+[
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "line"
+          },
+          {
+            "count": 2,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 3 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 3 - 1 figures that are segments contribute endpoints, 2 each: 2 x (3 - 1)."
+      ]
+    },
+    "stem": "Among 3 figures drawn on a page, 1 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 3 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 3 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "n": 3
+    },
+    "variant_signature": "97cb3baf1902fbd1824ad46c4baf5333fd796cd3cb659e71a8a37bca0b87df37"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 2,
+            "element": "line"
+          },
+          {
+            "count": 1,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 3 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 3 - 2 figures that are segments contribute endpoints, 2 each: 2 x (3 - 2)."
+      ]
+    },
+    "stem": "Among 3 figures drawn on a page, 2 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 3 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 3 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "n": 3
+    },
+    "variant_signature": "cbdefc3d987fe0f0ca5a080884af7aebe6fceeae46d7f74167e33344b76ccf53"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "line"
+          },
+          {
+            "count": 3,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 4 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 4 - 1 figures that are segments contribute endpoints, 2 each: 2 x (4 - 1)."
+      ]
+    },
+    "stem": "Among 4 figures drawn on a page, 1 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 4 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 4 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "n": 4
+    },
+    "variant_signature": "2e665cbe211ce416be42cd6cca207ec401b7142a9d52126d88f56d601b8db46b"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 2,
+            "element": "line"
+          },
+          {
+            "count": 2,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 4 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 4 - 2 figures that are segments contribute endpoints, 2 each: 2 x (4 - 2)."
+      ]
+    },
+    "stem": "Among 4 figures drawn on a page, 2 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 4 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 4 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "n": 4
+    },
+    "variant_signature": "5e76e068e103650141aec015b9657fb30b2cc4dc2cec838bf00083e6d4fa4ad8"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 3,
+            "element": "line"
+          },
+          {
+            "count": 1,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 4 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 4 - 3 figures that are segments contribute endpoints, 2 each: 2 x (4 - 3)."
+      ]
+    },
+    "stem": "Among 4 figures drawn on a page, 3 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 4 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 4 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "n": 4
+    },
+    "variant_signature": "2a5027e9af5f9e5a8608d144626eb4d92dc4e5d2990a9165c585d0c8c60131d5"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "line"
+          },
+          {
+            "count": 4,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 5 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 5 - 1 figures that are segments contribute endpoints, 2 each: 2 x (5 - 1)."
+      ]
+    },
+    "stem": "Among 5 figures drawn on a page, 1 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 5 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 5 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "n": 5
+    },
+    "variant_signature": "d93172a8214cd8ccaa13bb2df61fe1c045ba07e71489152e5ef126217f3b68f4"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 2,
+            "element": "line"
+          },
+          {
+            "count": 3,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 5 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 5 - 2 figures that are segments contribute endpoints, 2 each: 2 x (5 - 2)."
+      ]
+    },
+    "stem": "Among 5 figures drawn on a page, 2 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 5 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 5 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "n": 5
+    },
+    "variant_signature": "7b763e2e86abd7ba7e661b1e301f33b9d090cb845218df8ab74a9729adfc69bf"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 3,
+            "element": "line"
+          },
+          {
+            "count": 2,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 5 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 5 - 3 figures that are segments contribute endpoints, 2 each: 2 x (5 - 3)."
+      ]
+    },
+    "stem": "Among 5 figures drawn on a page, 3 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 5 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 5 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "n": 5
+    },
+    "variant_signature": "0bfd1e5b529c15364f39cc4bb3f298434dba45ee2f8c8f3eb5c695bece7a2cc6"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 4,
+            "element": "line"
+          },
+          {
+            "count": 1,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 5 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 5 - 4 figures that are segments contribute endpoints, 2 each: 2 x (5 - 4)."
+      ]
+    },
+    "stem": "Among 5 figures drawn on a page, 4 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 5 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 5 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "n": 5
+    },
+    "variant_signature": "09223760b00dcd0e9a98c269621f34a6d9cb4cb6fcd40b7eaddca81a9b44ed3b"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "line"
+          },
+          {
+            "count": 5,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 6 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 6 - 1 figures that are segments contribute endpoints, 2 each: 2 x (6 - 1)."
+      ]
+    },
+    "stem": "Among 6 figures drawn on a page, 1 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 6 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 6 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "n": 6
+    },
+    "variant_signature": "35ec8d37d1a9ca6a14bb40cf52a02836fc22d5f8df87b67eb0e10735117e33f7"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 2,
+            "element": "line"
+          },
+          {
+            "count": 4,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 6 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 6 - 2 figures that are segments contribute endpoints, 2 each: 2 x (6 - 2)."
+      ]
+    },
+    "stem": "Among 6 figures drawn on a page, 2 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 6 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 6 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "n": 6
+    },
+    "variant_signature": "f8b598a6695cdafb3abc755e1ba8cb326afd87c24f2a04b5883996241cdec618"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 3,
+            "element": "line"
+          },
+          {
+            "count": 3,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 6 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 6 - 3 figures that are segments contribute endpoints, 2 each: 2 x (6 - 3)."
+      ]
+    },
+    "stem": "Among 6 figures drawn on a page, 3 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 6 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 6 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "n": 6
+    },
+    "variant_signature": "a522e0200145641295489f70992bd645f94149c5cca379bbd38b0efce104477e"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 4,
+            "element": "line"
+          },
+          {
+            "count": 2,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 6 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 6 - 4 figures that are segments contribute endpoints, 2 each: 2 x (6 - 4)."
+      ]
+    },
+    "stem": "Among 6 figures drawn on a page, 4 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 6 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 6 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "n": 6
+    },
+    "variant_signature": "b7db008032c208984750525448c93140c28d6383519c529dd24aa3d95431cf92"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "line"
+          },
+          {
+            "count": 6,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 7 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 7 - 1 figures that are segments contribute endpoints, 2 each: 2 x (7 - 1)."
+      ]
+    },
+    "stem": "Among 7 figures drawn on a page, 1 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 7 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 7 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "n": 7
+    },
+    "variant_signature": "9560f621966f7b59eac9ad6b718d8a1104c92a64f7440de2f6f332f4cbc42638"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 2,
+            "element": "line"
+          },
+          {
+            "count": 5,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 7 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 7 - 2 figures that are segments contribute endpoints, 2 each: 2 x (7 - 2)."
+      ]
+    },
+    "stem": "Among 7 figures drawn on a page, 2 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 7 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 7 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "n": 7
+    },
+    "variant_signature": "3cc811184ec35da0d6eb36ba92516d10d025cc7884f326185b98a505ac3c05bb"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 3,
+            "element": "line"
+          },
+          {
+            "count": 4,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 7 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 7 - 3 figures that are segments contribute endpoints, 2 each: 2 x (7 - 3)."
+      ]
+    },
+    "stem": "Among 7 figures drawn on a page, 3 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 7 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 7 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "n": 7
+    },
+    "variant_signature": "ba2957d0bfa785a86813e69493ee6fd274bde71a596401f3707addad3507ae13"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 4,
+            "element": "line"
+          },
+          {
+            "count": 3,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 7 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 7 - 4 figures that are segments contribute endpoints, 2 each: 2 x (7 - 4)."
+      ]
+    },
+    "stem": "Among 7 figures drawn on a page, 4 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 7 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 7 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "n": 7
+    },
+    "variant_signature": "0d42ead2d65aecdbf6a2bda8da099eb0e5a75ab8f54be42d84576c4f10fd4139"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 1,
+            "element": "line"
+          },
+          {
+            "count": 7,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 8 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 8 - 1 figures that are segments contribute endpoints, 2 each: 2 x (8 - 1)."
+      ]
+    },
+    "stem": "Among 8 figures drawn on a page, 1 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 8 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 8 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "n": 8
+    },
+    "variant_signature": "dd84729842eb2e0345a540aee03d7e32ab588384b253af8904baf1359edaeff0"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 2,
+            "element": "line"
+          },
+          {
+            "count": 6,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 8 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 8 - 2 figures that are segments contribute endpoints, 2 each: 2 x (8 - 2)."
+      ]
+    },
+    "stem": "Among 8 figures drawn on a page, 2 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 8 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 8 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "n": 8
+    },
+    "variant_signature": "0b871196e28e54bccefa8e07b861a023a112bf1a23fdd3cb00f0b6c02861408c"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 3,
+            "element": "line"
+          },
+          {
+            "count": 5,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 8 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 8 - 3 figures that are segments contribute endpoints, 2 each: 2 x (8 - 3)."
+      ]
+    },
+    "stem": "Among 8 figures drawn on a page, 3 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 8 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 8 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "n": 8
+    },
+    "variant_signature": "1eab5087cdebf4314424900c2d3732e9f479f3dc081e048c4dc68c4900b9c06c"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "elements": [
+          {
+            "count": 4,
+            "element": "line"
+          },
+          {
+            "count": 4,
+            "element": "segment"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many fixed endpoints does a full line have, since it never stops in either direction?",
+      "Only the segments contribute endpoints. First find how many of the 8 figures are segments, then double that count."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A full line extends forever both ways and has 0 fixed endpoints, unlike a line segment, which always has exactly 2.",
+        "Only the 8 - 4 figures that are segments contribute endpoints, 2 each: 2 x (8 - 4)."
+      ]
+    },
+    "stem": "Among 8 figures drawn on a page, 4 of them are full lines that extend forever in both directions (0 fixed endpoints each), and the rest are line segments with two fixed endpoints each. A student who mixes up 'line' and 'line segment' believes every one of the 8 figures has 2 fixed endpoints, since they all look like straight marks on the page. Using the correct definitions, what is the actual total number of fixed endpoints across all 8 figures?",
+    "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "n": 8
+    },
+    "variant_signature": "9540e23adb8df433e36eeae77ed8747a6498f5542286e2189a2faefe09b1ad9c"
+  }
+]

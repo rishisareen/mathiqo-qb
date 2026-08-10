@@ -1,0 +1,56 @@
+[
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "triangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the corners first, then think about how many edges meet at each one.",
+      "For a closed straight-edged shape, the number of edges always matches the number of corners."
+    ],
+    "item_instance_id": "TPL.GEO.SHAPES2D.ID.TRIANGLE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SHAPES.2D"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Every corner of a closed straight-edged shape is where exactly two edges meet.",
+        "With 3 corners, the sign has 3 straight edges."
+      ]
+    },
+    "stem": "A road sign shaped like a wedge has three sharp corners and no curved edges anywhere. How many straight edges does the sign have?",
+    "template_id": "TPL.GEO.SHAPES2D.ID.TRIANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 1
+    },
+    "variant_signature": "7ec3524daa59cde65d92f422a37c8577a54ffdb4d5bc479b5294120550df544d"
+  }
+]

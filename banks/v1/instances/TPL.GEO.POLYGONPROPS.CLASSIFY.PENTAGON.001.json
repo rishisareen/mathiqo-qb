@@ -1,0 +1,51 @@
+[
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the sides of each shape separately first.",
+      "'How many more' means subtract the smaller count from the larger one."
+    ],
+    "item_instance_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.PENTAGON.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POLYGON.PROPS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The pentagon has 5 sides and the square has 4 sides.",
+        "5 - 4 = 1 more side on the pentagon."
+      ]
+    },
+    "stem": "A pentagon has 5 straight sides and 5 corners, with no curved parts anywhere. A square has 4 straight sides. How many more sides does the pentagon have than the square?",
+    "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.PENTAGON.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 1
+    },
+    "variant_signature": "fad01d54a57e8986695333529763746c0256995f8dab5117b541394926b1c04a"
+  }
+]

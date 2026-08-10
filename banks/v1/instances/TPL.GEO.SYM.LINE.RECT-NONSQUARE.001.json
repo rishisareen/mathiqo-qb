@@ -1,0 +1,3002 @@
+[
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 3 cm and QR = 4 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 3
+    },
+    "variant_signature": "0c4630857f48493dcbd33e4dc7c733590c0c4e9e8eaac1907a763f3570a58124"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 3 cm and QR = 6 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 3
+    },
+    "variant_signature": "5e2052e03bd6246a098236ea21095c5753a631c4b264be12cc2b429315245ac9"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 3 cm and QR = 8 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 8,
+      "l": 3
+    },
+    "variant_signature": "dbaff8e5d06d62eaf81146b5fede53f97c2e18667d7ba7db0bea92b3d66eaf12"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 3 cm and QR = 11 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 11,
+      "l": 3
+    },
+    "variant_signature": "0ee3519e976ab947b4e6307ff835e9dd3cb1534767063f05c553959cf929b714"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 4 cm and QR = 3 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "l": 4
+    },
+    "variant_signature": "59591c8df3e8265e626629cc5bb6785a1faf98fb92473beae392b4b518c5290c"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 4 cm and QR = 6 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 4
+    },
+    "variant_signature": "e20f067755f5f14e4108e5b0d158c994d4e6ff8b256790fdb29e44049dc7c6bc"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 4 cm and QR = 8 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 8,
+      "l": 4
+    },
+    "variant_signature": "a425076305ce3ef439b0a53f3916303eb325043884753f14c01f802422e0417e"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 4 cm and QR = 11 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 11,
+      "l": 4
+    },
+    "variant_signature": "18473e46d3736388513e972b0f5e7da682aa5e306c091e278433bb18fae98d17"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 5 cm and QR = 3 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "l": 5
+    },
+    "variant_signature": "7b1e585162372a608da6954fb07a45ffc4cf91053e071c696b3cc68d58b5983c"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 5 cm and QR = 6 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 5
+    },
+    "variant_signature": "2133291d7db3d4379c80ad592d37e24706b1093016a64535e03241266034ff7e"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 5 cm and QR = 8 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 8,
+      "l": 5
+    },
+    "variant_signature": "d167acb70b39042f17b1d71a2b5ab03fb444c521db4d017ac0fb389a111031ec"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 5 cm and QR = 11 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 11,
+      "l": 5
+    },
+    "variant_signature": "36f4b44e1f61bd7888fdd1b80a2ed7afba79916efabc498d2cad33a9c1eb4541"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 6 cm and QR = 3 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "l": 6
+    },
+    "variant_signature": "146a84fc33c8122552c5e8abd9a863e5c047900ba311a9ee77ef68cc7757dc8a"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 6 cm and QR = 5 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 5,
+      "l": 6
+    },
+    "variant_signature": "10ede9ae804bb19ed1999b306498d836e734b96c2547c0e1467c5652431ffd23"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 6 cm and QR = 8 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 8,
+      "l": 6
+    },
+    "variant_signature": "dc3b9836bea65f76cd4c9b59cb5e6bad7a76c1db6ec122676f53896a6df945cc"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 6 cm and QR = 11 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 11,
+      "l": 6
+    },
+    "variant_signature": "dc6c4d0602216ad723d39ade769f26f642eece5b5e82ff1dc959c458d95ccff5"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 7 cm and QR = 3 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "l": 7
+    },
+    "variant_signature": "73faa2dee32093dd13748b841fe50cea2ebaa3449b983a8deaaae7e2a5f28b1f"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 7 cm and QR = 5 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 5,
+      "l": 7
+    },
+    "variant_signature": "355db0fef1edf2a181203859654577e1c8d3e5f0d4d264f6913d8760ee97e35d"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 8
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 7 cm and QR = 8 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 8,
+      "l": 7
+    },
+    "variant_signature": "933daa70208e78c18fc02b9926fc7fdfb6c45b1647ac346f0269edf3acae4bc9"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 7 cm and QR = 11 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 11,
+      "l": 7
+    },
+    "variant_signature": "dfc993edd47eb0141131d2d92a24f63ad0a0894316714cb43ebd11ee78007c85"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 8 cm and QR = 3 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "l": 8
+    },
+    "variant_signature": "bbc95fc8c1ae0192015d413f5b54446eae5b24eb8906f0c5d7145f4ab0e4fc4c"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 8 cm and QR = 5 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 5,
+      "l": 8
+    },
+    "variant_signature": "3bcb6aa1c3e416bb211a11b828470549073efd08e471ae31871954cfc56375c4"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 8 cm and QR = 7 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 7,
+      "l": 8
+    },
+    "variant_signature": "4d02f4b4981d92866a214cff7b26318271bc5b883ae85380e021b2656ed4d5bb"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 8 cm and QR = 11 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 11,
+      "l": 8
+    },
+    "variant_signature": "529ad2c0e9b0e1c646cd0fc08069cdd4e8dab31699fb7e37511480f2bf946203"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 9 cm and QR = 3 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "l": 9
+    },
+    "variant_signature": "63d1d50a67519e0b83daaa1f9c1e24382450bf67c890aef0ddb764f507387d01"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 9 cm and QR = 5 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 5,
+      "l": 9
+    },
+    "variant_signature": "ce5c65b6fafd1dd48328348f2d88b7ca72ef8ca366264bf533b98c492d3f1cae"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 9 cm and QR = 7 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 7,
+      "l": 9
+    },
+    "variant_signature": "3633fd0572b7bcb8db76091192fb642dde59d915caf86b2a79d18b28fad18f9f"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 9 cm and QR = 11 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 11,
+      "l": 9
+    },
+    "variant_signature": "2c276af6d51ae727245e3b1e76ad280b2ab5a89873055fbe47e28aaaa8988241"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 10 cm and QR = 3 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "l": 10
+    },
+    "variant_signature": "475fa213e944a1ae5e126968fa3905fd01b8e0e2e2bd4d7ceae8e529ef66f742"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 10 cm and QR = 5 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 5,
+      "l": 10
+    },
+    "variant_signature": "86ca85e98b58e063e1aab662c249bfa577a159eb0386b16c939160b9db8d9405"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 10 cm and QR = 7 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 7,
+      "l": 10
+    },
+    "variant_signature": "a5b238a53792091be10c03a919270b39e0af779bb953d4c78ad7c6939765148b"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 10 cm and QR = 11 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 11,
+      "l": 10
+    },
+    "variant_signature": "92899346e1ed33f680cffbaac6e2432c41220d8d188d8bed04a903e4f5440319"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 11 cm and QR = 3 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "l": 11
+    },
+    "variant_signature": "cf2d478feb6182e90a23d0cf0bf9920f404d115a1c80e172b544b160c127afb9"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 11 cm and QR = 5 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 5,
+      "l": 11
+    },
+    "variant_signature": "c46e535f7720b292a929fcb94d485cece7efd3e13cac7956ef2693e2dbd0efcd"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 11 cm and QR = 7 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 7,
+      "l": 11
+    },
+    "variant_signature": "05dda64b9d97d1728ff2e13f3902a87a85632ae07502b3c59d4c2b6a6ea0e006"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 11 cm and QR = 10 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 10,
+      "l": 11
+    },
+    "variant_signature": "daa23bdb7c02f19e2d8a86b433afef5dba89f00b63a9879ea10cb3da287ed799"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 3
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 12 cm and QR = 3 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 3,
+      "l": 12
+    },
+    "variant_signature": "7d151e5cd03df126a9bab5579219f5aa4bc960300a321b500e7b2eb8bea168bf"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 12 cm and QR = 5 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 5,
+      "l": 12
+    },
+    "variant_signature": "deb5db3d6911726f8c0a729311922e15a7f0402747dca1a06bf5ba228f0b81be"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 12 cm and QR = 7 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 7,
+      "l": 12
+    },
+    "variant_signature": "a134aaaad58b132f0ac41f0aaddba98a5661d59fa11df20e3eaa74c81333b0a0"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RECT-DIAGONAL-SYM",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try folding the rectangle along each diagonal \u2014 do the two halves match exactly?",
+      "Only the two lines through the midpoints of opposite sides are lines of symmetry here."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A non-square rectangle has exactly two lines of symmetry \u2014 one joining the midpoints of PQ and RS, and one joining the midpoints of QR and SP.",
+        "The diagonals PR and QS are not lines of symmetry \u2014 folding PQRS along a diagonal does not make the two halves land exactly on top of each other unless PQ equals QR.",
+        "So the answer is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 12 cm and QR = 10 cm, with PQ not equal to QR (so it is not a square). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 10,
+      "l": 12
+    },
+    "variant_signature": "656f2e3fce83f5b382e6a52a19ced62bbabff2e9e8e569e79effffbe5b17ff01"
+  }
+]

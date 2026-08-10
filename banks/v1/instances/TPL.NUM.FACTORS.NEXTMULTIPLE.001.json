@@ -1,0 +1,2042 @@
+[
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 12 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "12 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 12.",
+        "12 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "12 is a multiple of 2. What is the next multiple of 2 after 12?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 12
+    },
+    "variant_signature": "80a52100d3198f2604e6180121a778fb840103682abe69936ffa3f5e36d73393"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "72"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 6 are 6 apart from each other.",
+      "Add 6 to 12 \u2014 don't just restate the factor 6."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "12 is already a multiple of 6.",
+        "The next multiple of 6 is 6 more than 12.",
+        "12 + 6 gives the next multiple."
+      ]
+    },
+    "stem": "12 is a multiple of 6. What is the next multiple of 6 after 12?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 6,
+      "n": 12
+    },
+    "variant_signature": "66378aa7f8fb5f3de92782c81764b7f5131f97436fdf6aa4ca0fcc5fd33924df"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "75"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 5 are 5 apart from each other.",
+      "Add 5 to 15 \u2014 don't just restate the factor 5."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "15 is already a multiple of 5.",
+        "The next multiple of 5 is 5 more than 15.",
+        "15 + 5 gives the next multiple."
+      ]
+    },
+    "stem": "15 is a multiple of 5. What is the next multiple of 5 after 15?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n": 15
+    },
+    "variant_signature": "33ad81f72a65cbbcd23436a01aea606b61093c27f428f8a44cfc256382e14872"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 18 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "18 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 18.",
+        "18 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "18 is a multiple of 2. What is the next multiple of 2 after 18?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 18
+    },
+    "variant_signature": "8c0a067ac356d877bd1be0a5d5392a684694e193ff2e54f9c6a3406bab441ca1"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "162"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 9 are 9 apart from each other.",
+      "Add 9 to 18 \u2014 don't just restate the factor 9."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "18 is already a multiple of 9.",
+        "The next multiple of 9 is 9 more than 18.",
+        "18 + 9 gives the next multiple."
+      ]
+    },
+    "stem": "18 is a multiple of 9. What is the next multiple of 9 after 18?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 9,
+      "n": 18
+    },
+    "variant_signature": "2ac457d23dbfd9c7d9c1abbd260e900e43aeb316d833facc9413fc9287a42140"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "63"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 3 are 3 apart from each other.",
+      "Add 3 to 21 \u2014 don't just restate the factor 3."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "21 is already a multiple of 3.",
+        "The next multiple of 3 is 3 more than 21.",
+        "21 + 3 gives the next multiple."
+      ]
+    },
+    "stem": "21 is a multiple of 3. What is the next multiple of 3 after 21?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n": 21
+    },
+    "variant_signature": "9ec8500401adad691148d4263fd48d0b9fcce893cb80cd06e6c42dd899393dd2"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "72"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 3 are 3 apart from each other.",
+      "Add 3 to 24 \u2014 don't just restate the factor 3."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "24 is already a multiple of 3.",
+        "The next multiple of 3 is 3 more than 24.",
+        "24 + 3 gives the next multiple."
+      ]
+    },
+    "stem": "24 is a multiple of 3. What is the next multiple of 3 after 24?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n": 24
+    },
+    "variant_signature": "c95bd51e4d4fcab66fa20001b7b56157a4ac49b2b72c41250f895481b43993a5"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "125"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 5 are 5 apart from each other.",
+      "Add 5 to 25 \u2014 don't just restate the factor 5."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "25 is already a multiple of 5.",
+        "The next multiple of 5 is 5 more than 25.",
+        "25 + 5 gives the next multiple."
+      ]
+    },
+    "stem": "25 is a multiple of 5. What is the next multiple of 5 after 25?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n": 25
+    },
+    "variant_signature": "85f2c8ecf076bd059ed80712365c01bf555074bdb1b6495e2d64dc2da0e23ba8"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "243"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 9 are 9 apart from each other.",
+      "Add 9 to 27 \u2014 don't just restate the factor 9."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "27 is already a multiple of 9.",
+        "The next multiple of 9 is 9 more than 27.",
+        "27 + 9 gives the next multiple."
+      ]
+    },
+    "stem": "27 is a multiple of 9. What is the next multiple of 9 after 27?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 9,
+      "n": 27
+    },
+    "variant_signature": "243a4b3baacf72e988a4b7e14127858ba74617cf9dc909f6d4e1c86da081e983"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 30 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "30 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 30.",
+        "30 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "30 is a multiple of 2. What is the next multiple of 2 after 30?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 30
+    },
+    "variant_signature": "cee63a46eb20899cd899133ece07df1970d6f29f9b713ec2fb70a487513cc481"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "33"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 32 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "32 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 32.",
+        "32 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "32 is a multiple of 2. What is the next multiple of 2 after 32?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 32
+    },
+    "variant_signature": "8804a83dd6cbb5d514056d6111cae3c868c65bfc9ccde5f69fcbc3debdb449ef"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "68"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "35"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 34 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "34 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 34.",
+        "34 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "34 is a multiple of 2. What is the next multiple of 2 after 34?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 34
+    },
+    "variant_signature": "b50d3e3f55873787e2dc099c27202b5a622ac7401e38c10e3e27315928c82fda"
+  },
+  {
+    "answer": "38",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "72"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "37"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 36 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "36 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 36.",
+        "36 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "36 is a multiple of 2. What is the next multiple of 2 after 36?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 36
+    },
+    "variant_signature": "9b237de439a5db3a2f65e947c617189b79d92eed1cafac152d1386f207135f11"
+  },
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "324"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "37"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 9 are 9 apart from each other.",
+      "Add 9 to 36 \u2014 don't just restate the factor 9."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "36 is already a multiple of 9.",
+        "The next multiple of 9 is 9 more than 36.",
+        "36 + 9 gives the next multiple."
+      ]
+    },
+    "stem": "36 is a multiple of 9. What is the next multiple of 9 after 36?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 9,
+      "n": 36
+    },
+    "variant_signature": "082ab34f7b8753b3a06b4947a6fdb50d75bee1b7f78c40aa0f221f934152e62e"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "160"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "41"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 4 are 4 apart from each other.",
+      "Add 4 to 40 \u2014 don't just restate the factor 4."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "40 is already a multiple of 4.",
+        "The next multiple of 4 is 4 more than 40.",
+        "40 + 4 gives the next multiple."
+      ]
+    },
+    "stem": "40 is a multiple of 4. What is the next multiple of 4 after 40?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 40
+    },
+    "variant_signature": "da66ba6c23eba0aeb5b2d2ea1679e8956ac95e92fcbfd3510ef5808b8016acfb"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "84"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "43"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 42 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "42 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 42.",
+        "42 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "42 is a multiple of 2. What is the next multiple of 2 after 42?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 42
+    },
+    "variant_signature": "cb325ec8708cb91c45b3c2792709fc797da04905ab30660c38a8fb35df8b8b4d"
+  },
+  {
+    "answer": "46",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "88"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 44 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "44 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 44.",
+        "44 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "44 is a multiple of 2. What is the next multiple of 2 after 44?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 44
+    },
+    "variant_signature": "47c82bdd75b2beebdd11ebe58836a2c6b2c2683873145a5e36ab9190f25a84a3"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "405"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "46"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 9 are 9 apart from each other.",
+      "Add 9 to 45 \u2014 don't just restate the factor 9."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "45 is already a multiple of 9.",
+        "The next multiple of 9 is 9 more than 45.",
+        "45 + 9 gives the next multiple."
+      ]
+    },
+    "stem": "45 is a multiple of 9. What is the next multiple of 9 after 45?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 9,
+      "n": 45
+    },
+    "variant_signature": "cd623f4042cd2dab6b49653277529b305b7ceb22a66a4b0366c9068267cc146b"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "192"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "49"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 4 are 4 apart from each other.",
+      "Add 4 to 48 \u2014 don't just restate the factor 4."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "48 is already a multiple of 4.",
+        "The next multiple of 4 is 4 more than 48.",
+        "48 + 4 gives the next multiple."
+      ]
+    },
+    "stem": "48 is a multiple of 4. What is the next multiple of 4 after 48?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 48
+    },
+    "variant_signature": "eee4911f5f584c225eddea2898b8e156490a8605e0f98ee921a0a6d6547dd85f"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "343"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "50"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 7 are 7 apart from each other.",
+      "Add 7 to 49 \u2014 don't just restate the factor 7."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "49 is already a multiple of 7.",
+        "The next multiple of 7 is 7 more than 49.",
+        "49 + 7 gives the next multiple."
+      ]
+    },
+    "stem": "49 is a multiple of 7. What is the next multiple of 7 after 49?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 7,
+      "n": 49
+    },
+    "variant_signature": "f59268ccfb4a65226537297785d655be645e12d9d879b25ec20e1458859a2fff"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "104"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "53"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 52 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "52 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 52.",
+        "52 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "52 is a multiple of 2. What is the next multiple of 2 after 52?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 52
+    },
+    "variant_signature": "b0c305acc5c44f675cea204619d79cdd0c493a048e038e7d1daf6ba4dbbd30d6"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "324"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "55"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 6 are 6 apart from each other.",
+      "Add 6 to 54 \u2014 don't just restate the factor 6."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "54 is already a multiple of 6.",
+        "The next multiple of 6 is 6 more than 54.",
+        "54 + 6 gives the next multiple."
+      ]
+    },
+    "stem": "54 is a multiple of 6. What is the next multiple of 6 after 54?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 6,
+      "n": 54
+    },
+    "variant_signature": "3ff86ca6b4eac93cd0f36c6c2d62380ddc38b4c826181f7cd8ccfccb0e14711a"
+  },
+  {
+    "answer": "58",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "112"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "57"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 56 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "56 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 56.",
+        "56 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "56 is a multiple of 2. What is the next multiple of 2 after 56?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 56
+    },
+    "variant_signature": "0bae0a5c2fa5c5f01af9143d3d7f6db9b62329ca9b01c70b2b5b9d7775f75696"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "171"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "58"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 3 are 3 apart from each other.",
+      "Add 3 to 57 \u2014 don't just restate the factor 3."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "57 is already a multiple of 3.",
+        "The next multiple of 3 is 3 more than 57.",
+        "57 + 3 gives the next multiple."
+      ]
+    },
+    "stem": "57 is a multiple of 3. What is the next multiple of 3 after 57?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n": 57
+    },
+    "variant_signature": "b750c7d80358c4dedc21821b2c8c2cab362865e3feb0ca9a8f240d9716dccc46"
+  },
+  {
+    "answer": "64",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "240"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "61"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 4 are 4 apart from each other.",
+      "Add 4 to 60 \u2014 don't just restate the factor 4."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "60 is already a multiple of 4.",
+        "The next multiple of 4 is 4 more than 60.",
+        "60 + 4 gives the next multiple."
+      ]
+    },
+    "stem": "60 is a multiple of 4. What is the next multiple of 4 after 60?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 60
+    },
+    "variant_signature": "97045d2359d51dcd23e46e9c4c5bbc0fc83232002b1521ded3daf4afea4f9b07"
+  },
+  {
+    "answer": "66",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "189"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 3 are 3 apart from each other.",
+      "Add 3 to 63 \u2014 don't just restate the factor 3."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "63 is already a multiple of 3.",
+        "The next multiple of 3 is 3 more than 63.",
+        "63 + 3 gives the next multiple."
+      ]
+    },
+    "stem": "63 is a multiple of 3. What is the next multiple of 3 after 63?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n": 63
+    },
+    "variant_signature": "bb8d19a7d72cd9616ba7914cee578aabd334fbc2125c12f60b6e6773a4372d7c"
+  },
+  {
+    "answer": "66",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "128"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "65"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 64 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "64 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 64.",
+        "64 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "64 is a multiple of 2. What is the next multiple of 2 after 64?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 64
+    },
+    "variant_signature": "65198d3f1ca204cff4697cd9ca9c34785a1b8feed3c5c023ad2be0cc6f19b540"
+  },
+  {
+    "answer": "68",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "132"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "67"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 66 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "66 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 66.",
+        "66 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "66 is a multiple of 2. What is the next multiple of 2 after 66?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 66
+    },
+    "variant_signature": "c19d7a1775c549b40a0e0e6534f3e7a1002883e6f31ef8547e5f9ff6ae6b1380"
+  },
+  {
+    "answer": "72",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "272"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "69"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 4 are 4 apart from each other.",
+      "Add 4 to 68 \u2014 don't just restate the factor 4."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "68 is already a multiple of 4.",
+        "The next multiple of 4 is 4 more than 68.",
+        "68 + 4 gives the next multiple."
+      ]
+    },
+    "stem": "68 is a multiple of 4. What is the next multiple of 4 after 68?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 68
+    },
+    "variant_signature": "13439b0e22f77ab544f8dc8f1f3f8625807cd947e4bd1a3df9c4748e465cc916"
+  },
+  {
+    "answer": "77",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "490"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "71"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 7 are 7 apart from each other.",
+      "Add 7 to 70 \u2014 don't just restate the factor 7."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "70 is already a multiple of 7.",
+        "The next multiple of 7 is 7 more than 70.",
+        "70 + 7 gives the next multiple."
+      ]
+    },
+    "stem": "70 is a multiple of 7. What is the next multiple of 7 after 70?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 7,
+      "n": 70
+    },
+    "variant_signature": "4c5442ff90430989373deedafe71e0fe4656011b2cf49c885bdb35f4bdbbabd2"
+  },
+  {
+    "answer": "76",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "288"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "73"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 4 are 4 apart from each other.",
+      "Add 4 to 72 \u2014 don't just restate the factor 4."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "72 is already a multiple of 4.",
+        "The next multiple of 4 is 4 more than 72.",
+        "72 + 4 gives the next multiple."
+      ]
+    },
+    "stem": "72 is a multiple of 4. What is the next multiple of 4 after 72?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 72
+    },
+    "variant_signature": "b54ae2541aa870af6625bc76e92a38d2969519c5083f57a592c1600df35b44b3"
+  },
+  {
+    "answer": "76",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "148"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "75"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 74 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "74 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 74.",
+        "74 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "74 is a multiple of 2. What is the next multiple of 2 after 74?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 74
+    },
+    "variant_signature": "2daa4aa6b946f893f6e139d22eff1a02dc64bf4eef485cc6bb187e7a9f018074"
+  },
+  {
+    "answer": "80",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "304"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "77"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 4 are 4 apart from each other.",
+      "Add 4 to 76 \u2014 don't just restate the factor 4."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "76 is already a multiple of 4.",
+        "The next multiple of 4 is 4 more than 76.",
+        "76 + 4 gives the next multiple."
+      ]
+    },
+    "stem": "76 is a multiple of 4. What is the next multiple of 4 after 76?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 76
+    },
+    "variant_signature": "414c0e2cd4c64e82b383277b429b4ea1f4285e131dfdec0a22ece0038d5ba080"
+  },
+  {
+    "answer": "81",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "234"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "79"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 3 are 3 apart from each other.",
+      "Add 3 to 78 \u2014 don't just restate the factor 3."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "78 is already a multiple of 3.",
+        "The next multiple of 3 is 3 more than 78.",
+        "78 + 3 gives the next multiple."
+      ]
+    },
+    "stem": "78 is a multiple of 3. What is the next multiple of 3 after 78?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n": 78
+    },
+    "variant_signature": "06e65045da4f02e8c828a6913af5b46078a0b8e760e92112a8427b2097e8b117"
+  },
+  {
+    "answer": "85",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "81"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 5 are 5 apart from each other.",
+      "Add 5 to 80 \u2014 don't just restate the factor 5."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "80 is already a multiple of 5.",
+        "The next multiple of 5 is 5 more than 80.",
+        "80 + 5 gives the next multiple."
+      ]
+    },
+    "stem": "80 is a multiple of 5. What is the next multiple of 5 after 80?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n": 80
+    },
+    "variant_signature": "79e84654b86e151a12cf9c337b4d52b89ec0daa7464b83e0b9f7856e6cae3ca1"
+  },
+  {
+    "answer": "84",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "164"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "83"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 82 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "82 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 82.",
+        "82 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "82 is a multiple of 2. What is the next multiple of 2 after 82?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 82
+    },
+    "variant_signature": "714effc7bddd7bea61e0e4b128097eb9a1eb66215c89969746f9e799d3f2a7e8"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "504"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "85"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 6 are 6 apart from each other.",
+      "Add 6 to 84 \u2014 don't just restate the factor 6."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "84 is already a multiple of 6.",
+        "The next multiple of 6 is 6 more than 84.",
+        "84 + 6 gives the next multiple."
+      ]
+    },
+    "stem": "84 is a multiple of 6. What is the next multiple of 6 after 84?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 6,
+      "n": 84
+    },
+    "variant_signature": "a52fd9e68da09bc5ff3d61093574b0fc8eda96c6cd92211bc93ece7e62caddc8"
+  },
+  {
+    "answer": "88",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "172"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "87"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 2 are 2 apart from each other.",
+      "Add 2 to 86 \u2014 don't just restate the factor 2."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "86 is already a multiple of 2.",
+        "The next multiple of 2 is 2 more than 86.",
+        "86 + 2 gives the next multiple."
+      ]
+    },
+    "stem": "86 is a multiple of 2. What is the next multiple of 2 after 86?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 86
+    },
+    "variant_signature": "b837a572683cf6d5e308f8367ed903e32731ae4edf199cd365385f73c2b82af5"
+  },
+  {
+    "answer": "96",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "704"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "89"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 8 are 8 apart from each other.",
+      "Add 8 to 88 \u2014 don't just restate the factor 8."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "88 is already a multiple of 8.",
+        "The next multiple of 8 is 8 more than 88.",
+        "88 + 8 gives the next multiple."
+      ]
+    },
+    "stem": "88 is a multiple of 8. What is the next multiple of 8 after 88?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 8,
+      "n": 88
+    },
+    "variant_signature": "20dc8fe73c2a26692ace564a6f769378a1a7cc01ac6a04a35026f1ffd14e06b6"
+  },
+  {
+    "answer": "96",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.FACTOR-MULTIPLE-SWAP",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "540"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "91"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiples of 6 are 6 apart from each other.",
+      "Add 6 to 90 \u2014 don't just restate the factor 6."
+    ],
+    "item_instance_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.FACTORS.MULTIPLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "90 is already a multiple of 6.",
+        "The next multiple of 6 is 6 more than 90.",
+        "90 + 6 gives the next multiple."
+      ]
+    },
+    "stem": "90 is a multiple of 6. What is the next multiple of 6 after 90?",
+    "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 6,
+      "n": 90
+    },
+    "variant_signature": "4398b11a0ff39ca453b7612e8712ada7c6e108fc9a808760c34e59d874984473"
+  }
+]

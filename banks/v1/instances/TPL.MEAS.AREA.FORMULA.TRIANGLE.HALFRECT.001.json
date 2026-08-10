@@ -1,0 +1,2362 @@
+[
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 3,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 2) x 3.",
+        "The triangle's area is half of that: (2 x 2 x 3) / 2 = 2 x 3."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 2 cm and its height measuring 3 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 3,
+      "k": 2
+    },
+    "variant_signature": "eb2185dfb34cf3777d2d144c71e8b21d7a888a06b1ccc010509e24d72a6f2f82"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 5,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 2) x 5.",
+        "The triangle's area is half of that: (2 x 2 x 5) / 2 = 2 x 5."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 2 cm and its height measuring 5 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 5,
+      "k": 2
+    },
+    "variant_signature": "0579afbbb6bfd8b0368b471e0a950095f196bfa448189d353eb584e92fce2bbf"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 6,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 2) x 6.",
+        "The triangle's area is half of that: (2 x 2 x 6) / 2 = 2 x 6."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 2 cm and its height measuring 6 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 6,
+      "k": 2
+    },
+    "variant_signature": "61d604781ecf154b0e8eaac1461c81cb4f78f252b07f955c06a668b0c78a7abb"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 7,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 2) x 7.",
+        "The triangle's area is half of that: (2 x 2 x 7) / 2 = 2 x 7."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 2 cm and its height measuring 7 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 7,
+      "k": 2
+    },
+    "variant_signature": "00442047479ec70b3f3119ca91141d4d968126edc1f87f460de50ea137f49713"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 9,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 2) x 9.",
+        "The triangle's area is half of that: (2 x 2 x 9) / 2 = 2 x 9."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 2 cm and its height measuring 9 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 9,
+      "k": 2
+    },
+    "variant_signature": "471a99d27318a1c0ebfed2532204b55b6eaf64725626f43117283f2c93f9a546"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 10,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 2) x 10.",
+        "The triangle's area is half of that: (2 x 2 x 10) / 2 = 2 x 10."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 2 cm and its height measuring 10 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 10,
+      "k": 2
+    },
+    "variant_signature": "e8aaaf9dcd364129fb76c1bbd2e006f21b01500e74b592eea4fb79743df2df5c"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 4,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 3) x 4.",
+        "The triangle's area is half of that: (2 x 3 x 4) / 2 = 3 x 4."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 3 cm and its height measuring 4 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 4,
+      "k": 3
+    },
+    "variant_signature": "1cf8795245fc8bb2102dff08f6ef86690593aecede76a82cf5d0665cb0991104"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 5,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 3) x 5.",
+        "The triangle's area is half of that: (2 x 3 x 5) / 2 = 3 x 5."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 3 cm and its height measuring 5 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 5,
+      "k": 3
+    },
+    "variant_signature": "6d37e0e7aa109f646278f972356593f651adbe3f297c593b4b27fc8839a3d78b"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 6,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 3) x 6.",
+        "The triangle's area is half of that: (2 x 3 x 6) / 2 = 3 x 6."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 3 cm and its height measuring 6 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 6,
+      "k": 3
+    },
+    "variant_signature": "0695260d13ca8a5a17c1dc082cdccf2955a2126645d94786441bf499211d47ed"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 7,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 3) x 7.",
+        "The triangle's area is half of that: (2 x 3 x 7) / 2 = 3 x 7."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 3 cm and its height measuring 7 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 7,
+      "k": 3
+    },
+    "variant_signature": "ed52865ee2e58caf12593c1e8d22ba592b12e76efd4e4089cb02a99e4a4ebd92"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 8,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 3) x 8.",
+        "The triangle's area is half of that: (2 x 3 x 8) / 2 = 3 x 8."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 3 cm and its height measuring 8 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 8,
+      "k": 3
+    },
+    "variant_signature": "5e9d14be0ae4536c098cde7ff64eb2044ca82085a5c7818471179e5d80e97aa8"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 10,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 3) x 10.",
+        "The triangle's area is half of that: (2 x 3 x 10) / 2 = 3 x 10."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 3 cm and its height measuring 10 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 10,
+      "k": 3
+    },
+    "variant_signature": "29fe85dbe7f3c6bfc3ad7d2dfa9f019e9d70fbfd96a4ac8a1d9d65b9e43c3a0b"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 3,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 4) x 3.",
+        "The triangle's area is half of that: (2 x 4 x 3) / 2 = 4 x 3."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 4 cm and its height measuring 3 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 3,
+      "k": 4
+    },
+    "variant_signature": "f76d23939b56675b9c9570d8277a2b979536eb7913bef53d338838538aa7f053"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 4,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 4) x 4.",
+        "The triangle's area is half of that: (2 x 4 x 4) / 2 = 4 x 4."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 4 cm and its height measuring 4 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 4,
+      "k": 4
+    },
+    "variant_signature": "dceb72d5d55b9b66aef67ed8019b8594e13756e5496c4804bab672892c2c95c1"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 5,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 4) x 5.",
+        "The triangle's area is half of that: (2 x 4 x 5) / 2 = 4 x 5."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 4 cm and its height measuring 5 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 5,
+      "k": 4
+    },
+    "variant_signature": "0fa7e2a8f9e82ef06f11fc46b33ad702716f28d9058019824860d53123864ed1"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 6,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 4) x 6.",
+        "The triangle's area is half of that: (2 x 4 x 6) / 2 = 4 x 6."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 4 cm and its height measuring 6 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 6,
+      "k": 4
+    },
+    "variant_signature": "cd2ae9ee611bd59de01713453a45ffed4f65bd54573a4fe60e357d45819c6d36"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 7,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 4) x 7.",
+        "The triangle's area is half of that: (2 x 4 x 7) / 2 = 4 x 7."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 4 cm and its height measuring 7 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 7,
+      "k": 4
+    },
+    "variant_signature": "644d8333f236ac213c0db2b9151eba85cbd0200f012b811dd355d8b521021ac4"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 8,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 4) x 8.",
+        "The triangle's area is half of that: (2 x 4 x 8) / 2 = 4 x 8."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 4 cm and its height measuring 8 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 8,
+      "k": 4
+    },
+    "variant_signature": "f126a25af4af85513ff1e3cab1200a6e18d66888c19c901e00036e2e1f0984a0"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "80"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 10,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 4) x 10.",
+        "The triangle's area is half of that: (2 x 4 x 10) / 2 = 4 x 10."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 4 cm and its height measuring 10 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 10,
+      "k": 4
+    },
+    "variant_signature": "8e96a553c0a2a81b432f2c8184ab1eeb3b786667b8bb85036b6e3bc32e9570af"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 3,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 5) x 3.",
+        "The triangle's area is half of that: (2 x 5 x 3) / 2 = 5 x 3."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 5 cm and its height measuring 3 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 3,
+      "k": 5
+    },
+    "variant_signature": "b1e1dd0f3adafc2b5577849090d03c8cd9d9007812516fe31c032e74e06f5981"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 4,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 5) x 4.",
+        "The triangle's area is half of that: (2 x 5 x 4) / 2 = 5 x 4."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 5 cm and its height measuring 4 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 4,
+      "k": 5
+    },
+    "variant_signature": "9c3cef44fb8a873dceef054d498ba929ba6e923730feddb1fe38608c626a7bcf"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "50"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 5,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 5) x 5.",
+        "The triangle's area is half of that: (2 x 5 x 5) / 2 = 5 x 5."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 5 cm and its height measuring 5 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 5,
+      "k": 5
+    },
+    "variant_signature": "cd3131e3057256b4184bf388a4631a380977c4137c46689c376dd98bd935cffa"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 6,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 5) x 6.",
+        "The triangle's area is half of that: (2 x 5 x 6) / 2 = 5 x 6."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 5 cm and its height measuring 6 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 6,
+      "k": 5
+    },
+    "variant_signature": "f2f30b37d95077904e2658b4939837ff3c0d3889a3e423a5069e77afee3cef8e"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "70"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 7,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 5) x 7.",
+        "The triangle's area is half of that: (2 x 5 x 7) / 2 = 5 x 7."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 5 cm and its height measuring 7 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 7,
+      "k": 5
+    },
+    "variant_signature": "c6c56f0b1ba99da388416863e2b8d6996b155f28717d67d41395e827d9e041d1"
+  },
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "90"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 9,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 5) x 9.",
+        "The triangle's area is half of that: (2 x 5 x 9) / 2 = 5 x 9."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 5 cm and its height measuring 9 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 9,
+      "k": 5
+    },
+    "variant_signature": "133177e87099ff997db0dffa53d1a1a54dcd48d997d53fec78fb4777a52ffc46"
+  },
+  {
+    "answer": "50",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "100"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 10,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 5) x 10.",
+        "The triangle's area is half of that: (2 x 5 x 10) / 2 = 5 x 10."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 5 cm and its height measuring 10 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 10,
+      "k": 5
+    },
+    "variant_signature": "2a3fc48ec2844003f3ecb430eb67b30c4077deb1210231dbd68680e50e822faa"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 3,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 6) x 3.",
+        "The triangle's area is half of that: (2 x 6 x 3) / 2 = 6 x 3."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 6 cm and its height measuring 3 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 3,
+      "k": 6
+    },
+    "variant_signature": "18c996aa8bf5f03235e4b0e4b71de57739ee3444c8d42e0308641e7a963adf26"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 4,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 6) x 4.",
+        "The triangle's area is half of that: (2 x 6 x 4) / 2 = 6 x 4."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 6 cm and its height measuring 4 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 4,
+      "k": 6
+    },
+    "variant_signature": "3b232ea188e3d8673c51354914dae2d7fdfaef63e6a1b7165a84626223da461a"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 5,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 6) x 5.",
+        "The triangle's area is half of that: (2 x 6 x 5) / 2 = 6 x 5."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 6 cm and its height measuring 5 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 5,
+      "k": 6
+    },
+    "variant_signature": "403f2e9538e8cd6b7595e5d00d5f9c9cf8df29653781ef381a4448d8817b802e"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "72"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 6,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 6) x 6.",
+        "The triangle's area is half of that: (2 x 6 x 6) / 2 = 6 x 6."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 6 cm and its height measuring 6 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 6,
+      "k": 6
+    },
+    "variant_signature": "1bd43df87c9b8b6f101bd27b5b9a81b563e2f8106b43c0ae4a43eaa08599af92"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "84"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 7,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 6) x 7.",
+        "The triangle's area is half of that: (2 x 6 x 7) / 2 = 6 x 7."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 6 cm and its height measuring 7 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 7,
+      "k": 6
+    },
+    "variant_signature": "7ac5f43111d6f0931348560829af1746c764683376884b1bd1f2ee4da065a259"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "108"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 9,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 6) x 9.",
+        "The triangle's area is half of that: (2 x 6 x 9) / 2 = 6 x 9."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 6 cm and its height measuring 9 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 9,
+      "k": 6
+    },
+    "variant_signature": "51d321569ffb707f427e1a79eed09dafaf306f791e553120de52afa9f9757c4e"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "120"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 10,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 6) x 10.",
+        "The triangle's area is half of that: (2 x 6 x 10) / 2 = 6 x 10."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 6 cm and its height measuring 10 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 10,
+      "k": 6
+    },
+    "variant_signature": "18292d5df364688945384346cfde83a5e28e62ffcf75c8061442d09565610558"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 3,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 14
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 7) x 3.",
+        "The triangle's area is half of that: (2 x 7 x 3) / 2 = 7 x 3."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 7 cm and its height measuring 3 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 3,
+      "k": 7
+    },
+    "variant_signature": "63d0638b87ce1087972c6c7165560a496e46e4f4fe192eedf073974f609707e1"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 4,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 14
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 7) x 4.",
+        "The triangle's area is half of that: (2 x 7 x 4) / 2 = 7 x 4."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 7 cm and its height measuring 4 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 4,
+      "k": 7
+    },
+    "variant_signature": "48734fb81a0f2035c0f4d88b9a8fbdb7405f746c9627c17ddf8edee986238437"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "70"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 5,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 14
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 7) x 5.",
+        "The triangle's area is half of that: (2 x 7 x 5) / 2 = 7 x 5."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 7 cm and its height measuring 5 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 5,
+      "k": 7
+    },
+    "variant_signature": "35d425904e0556efaaf56df357fadb914ba82f2dc045321a9105e11a625b8b01"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "84"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 6,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 14
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 7) x 6.",
+        "The triangle's area is half of that: (2 x 7 x 6) / 2 = 7 x 6."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 7 cm and its height measuring 6 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 6,
+      "k": 7
+    },
+    "variant_signature": "4931e6fdddb1afdce210bca46275a45d4c0d7b1983c537a1b8a3183d5d75cba4"
+  },
+  {
+    "answer": "49",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "98"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 7,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 14
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 7) x 7.",
+        "The triangle's area is half of that: (2 x 7 x 7) / 2 = 7 x 7."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 7 cm and its height measuring 7 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 7,
+      "k": 7
+    },
+    "variant_signature": "746ae976fec4a60dc4c585cca35ac8cecd9da82c2a0b8a00ecd23f7b770fdade"
+  },
+  {
+    "answer": "63",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "126"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 9,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 14
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 7) x 9.",
+        "The triangle's area is half of that: (2 x 7 x 9) / 2 = 7 x 9."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 7 cm and its height measuring 9 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 9,
+      "k": 7
+    },
+    "variant_signature": "a59e9e3d4ec67336bf7179ba143d285d63306bd4328056eddb91724083c880d8"
+  },
+  {
+    "answer": "70",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "140"
+      },
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": [
+      {
+        "altitude": 10,
+        "altitude_unit": "cm",
+        "kind": "shape",
+        "shape": "triangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 14
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "First work out the area of the whole surrounding rectangle.",
+      "The triangle is exactly half the rectangle's area \u2014 don't forget to halve it, and don't just add the base and height."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The surrounding rectangle's area is (2 x 7) x 10.",
+        "The triangle's area is half of that: (2 x 7 x 10) / 2 = 7 x 10."
+      ]
+    },
+    "stem": "A triangle sits exactly inside a rectangle that surrounds it, with the rectangle's base measuring 2 x 7 cm and its height measuring 10 cm. The triangle's area is half of the surrounding rectangle's area. What is the triangle's area, in square centimetres?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "h": 10,
+      "k": 7
+    },
+    "variant_signature": "cbcdfb36ad75fc575d0898aeaa6eec103b15c3ae266084bb7ffb181a5fd25384"
+  }
+]

@@ -1,0 +1,1402 @@
+[
+  {
+    "answer": "110",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 11 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 11."
+      ]
+    },
+    "stem": "A number has 11 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 11
+    },
+    "variant_signature": "3e8b04b600d9cba47b0b9f3d9714da07e438e8032f2ef2ab48a01ba82e4df1b0"
+  },
+  {
+    "answer": "130",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 13 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 13."
+      ]
+    },
+    "stem": "A number has 13 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 13
+    },
+    "variant_signature": "1becb38a944a9df6307ed35dbc9e8e545ed457a45e56e84547be14118fc8adfe"
+  },
+  {
+    "answer": "150",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 15 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 15."
+      ]
+    },
+    "stem": "A number has 15 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 15
+    },
+    "variant_signature": "58f5464058bb1f674e0c5a0857a8a324016beac84a10ffe3f763b997b47e3bb5"
+  },
+  {
+    "answer": "170",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 17 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 17."
+      ]
+    },
+    "stem": "A number has 17 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 17
+    },
+    "variant_signature": "1e29d77d47c927fcd167ae46ce24c9b2109e621ba6b15cc2ffa8a88aa97ba1e5"
+  },
+  {
+    "answer": "190",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 19 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 19."
+      ]
+    },
+    "stem": "A number has 19 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 19
+    },
+    "variant_signature": "bc86900fa7dd96f622560b8f3f171b184d35a8ade95e35b32eeca132ed755fed"
+  },
+  {
+    "answer": "210",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 21 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 21."
+      ]
+    },
+    "stem": "A number has 21 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 21
+    },
+    "variant_signature": "f7a0681baf1f17aa63b59154987788795feec0165dae7a471bff288f963c1f86"
+  },
+  {
+    "answer": "230",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 23 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 23."
+      ]
+    },
+    "stem": "A number has 23 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 23
+    },
+    "variant_signature": "610aac71f8a10fb86446b4214c946cae4a440fd4f9298683401ab481559a6781"
+  },
+  {
+    "answer": "250",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 25 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 25."
+      ]
+    },
+    "stem": "A number has 25 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 25
+    },
+    "variant_signature": "73ee90fc93066e71860e68c8c49ce84063b071d8dbbf7e622b83a66b8011a7d4"
+  },
+  {
+    "answer": "270",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 27 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 27."
+      ]
+    },
+    "stem": "A number has 27 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 27
+    },
+    "variant_signature": "77ce72ae285bae9a58729f4e3c8426d6fae1dd92cc2ddaafd8bde4a5ae0b4868"
+  },
+  {
+    "answer": "290",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 29 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 29."
+      ]
+    },
+    "stem": "A number has 29 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 29
+    },
+    "variant_signature": "29535cef3bfe37c14f62979fd14926111db31f1fb74a72a2cff3d863211f9349"
+  },
+  {
+    "answer": "310",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 31 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 31."
+      ]
+    },
+    "stem": "A number has 31 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 31
+    },
+    "variant_signature": "7261ab2193aa67de48d00b86723cfbf05be474fbabc5fae1eadd42447cc4bea1"
+  },
+  {
+    "answer": "330",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 33 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 33."
+      ]
+    },
+    "stem": "A number has 33 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 33
+    },
+    "variant_signature": "68c46b017a1c55c17a3a0af6cb198f1364817e4b55cb0ed5c9d86d94ef3e9a36"
+  },
+  {
+    "answer": "350",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 35 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 35."
+      ]
+    },
+    "stem": "A number has 35 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 35
+    },
+    "variant_signature": "af121da2aa72eab64a682bb6efe6b8cf3bb18ff1d6cbae8c98e9a01d18f1af92"
+  },
+  {
+    "answer": "370",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 37 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 37."
+      ]
+    },
+    "stem": "A number has 37 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 37
+    },
+    "variant_signature": "646634139ac09bf085c8481d444369d122ee75e1893e8d36818497cc24cf49a7"
+  },
+  {
+    "answer": "390",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 39 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 39."
+      ]
+    },
+    "stem": "A number has 39 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 39
+    },
+    "variant_signature": "fed538b257aef8b22ea0a148d95ef5cc695933f97ce6ae242ba5cc2730ff93a0"
+  },
+  {
+    "answer": "410",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 41 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 41."
+      ]
+    },
+    "stem": "A number has 41 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 41
+    },
+    "variant_signature": "91d4a0cda150c53effc32bd9c970084351be90fcdcdbfef41d30124584d8b96c"
+  },
+  {
+    "answer": "430",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 43 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 43."
+      ]
+    },
+    "stem": "A number has 43 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 43
+    },
+    "variant_signature": "9063a211320d30b428fb443e2fb96ddc1cb029c2aba1127673faa9d85747e552"
+  },
+  {
+    "answer": "450",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 45 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 45."
+      ]
+    },
+    "stem": "A number has 45 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 45
+    },
+    "variant_signature": "3ae5184f1d627a5ea80eb1d9426b20684b00de9532032d997bd0d83afd9c374e"
+  },
+  {
+    "answer": "470",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 47 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 47."
+      ]
+    },
+    "stem": "A number has 47 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 47
+    },
+    "variant_signature": "6d23c0e9381ba9814543c9cbe379e8668df97ea56f8d33964a0da276716398e2"
+  },
+  {
+    "answer": "490",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 49 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 49."
+      ]
+    },
+    "stem": "A number has 49 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 49
+    },
+    "variant_signature": "537c46a4e4d6dafd5cf2c0700ecf4f5f8c0c332d7ee9600e968a92976cfb1dc4"
+  },
+  {
+    "answer": "510",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 51 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 51."
+      ]
+    },
+    "stem": "A number has 51 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 51
+    },
+    "variant_signature": "4da0be1972022f51c1dc78305f2a7493995b5526c52b164610bbb22103826796"
+  },
+  {
+    "answer": "530",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 53 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 53."
+      ]
+    },
+    "stem": "A number has 53 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 53
+    },
+    "variant_signature": "182463396c203d9e0052babfa1d321d9c49ae51f19faf389e20ed47a3c8b9f21"
+  },
+  {
+    "answer": "550",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 55 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 55."
+      ]
+    },
+    "stem": "A number has 55 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 55
+    },
+    "variant_signature": "f082c115caab936cceffb94b63dc1d78d83b770ec63dc3399164d2b6a52467dd"
+  },
+  {
+    "answer": "570",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 57 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 57."
+      ]
+    },
+    "stem": "A number has 57 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 57
+    },
+    "variant_signature": "438586d6528842c4bd7ee4a6787e1955ea93dbc5dd7b4f06504dbfed0f0e9c58"
+  },
+  {
+    "answer": "590",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 59 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 59."
+      ]
+    },
+    "stem": "A number has 59 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 59
+    },
+    "variant_signature": "e27313e0a9a3c986360d31ba3b1c851894aceba47447f7146d12b7470ba084c1"
+  },
+  {
+    "answer": "610",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 61 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 61."
+      ]
+    },
+    "stem": "A number has 61 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 61
+    },
+    "variant_signature": "caa83837f97f423ceff5c6b3a5b8e1456951565db1f5a4e39ee6f6bf1f1dbc5d"
+  },
+  {
+    "answer": "630",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 63 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 63."
+      ]
+    },
+    "stem": "A number has 63 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 63
+    },
+    "variant_signature": "38866a2c62746b8d5e431951b5a6852347da4bd9a090a8873ee0428c2c559a79"
+  },
+  {
+    "answer": "650",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 65 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 65."
+      ]
+    },
+    "stem": "A number has 65 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 65
+    },
+    "variant_signature": "baa1dd9ba9f9538939cc35cd2c4ab937ac307b75c6f515a29364abf2e7efb4fd"
+  },
+  {
+    "answer": "670",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 67 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 67."
+      ]
+    },
+    "stem": "A number has 67 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 67
+    },
+    "variant_signature": "9a578871ef728873137d7ff942fde724163776692135650366104fd2ef1870c6"
+  },
+  {
+    "answer": "690",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 69 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 69."
+      ]
+    },
+    "stem": "A number has 69 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 69
+    },
+    "variant_signature": "bb8bddf0ac0bfe863482d4c56a408dc6d9f31355e96dda7f22df809162bf0960"
+  },
+  {
+    "answer": "710",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 71 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 71."
+      ]
+    },
+    "stem": "A number has 71 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 71
+    },
+    "variant_signature": "6761c136e39025bcfe5ea727857807812975c70d541d49d26266da65a902192e"
+  },
+  {
+    "answer": "730",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 73 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 73."
+      ]
+    },
+    "stem": "A number has 73 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 73
+    },
+    "variant_signature": "273d8ac3bac80b401e84edbbc61c9aa9851a474c2b31322bcb71560ddad774b4"
+  },
+  {
+    "answer": "750",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 75 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 75."
+      ]
+    },
+    "stem": "A number has 75 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 75
+    },
+    "variant_signature": "f2e3f57388a08e3818467da8ed1cb29c733df123f7017b732f1e2e8bda298fed"
+  },
+  {
+    "answer": "770",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 77 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 77."
+      ]
+    },
+    "stem": "A number has 77 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 77
+    },
+    "variant_signature": "156c94c6f7884c9ba0a82f7a53c8145e73241a0ab3b3d81a7fd2397e1c1ac09f"
+  },
+  {
+    "answer": "790",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 79 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 79."
+      ]
+    },
+    "stem": "A number has 79 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 79
+    },
+    "variant_signature": "3c6c3a325d376b9022baa0da88d22f823882157437497926c552f49612d695fc"
+  },
+  {
+    "answer": "810",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 81 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 81."
+      ]
+    },
+    "stem": "A number has 81 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 81
+    },
+    "variant_signature": "d4c2e20b8581f085b13e1987ec17a8eafdec33685e0fb39b6e271bb38b91cf65"
+  },
+  {
+    "answer": "830",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 83 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 83."
+      ]
+    },
+    "stem": "A number has 83 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 83
+    },
+    "variant_signature": "7e6047b5e93a8482c5542f646dca9656af47902e089891357f70c77ad5b8c3de"
+  },
+  {
+    "answer": "850",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 85 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 85."
+      ]
+    },
+    "stem": "A number has 85 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 85
+    },
+    "variant_signature": "2dfd15a453fc39dfacff69bb125510bc1365afcc03f34f8d987c4cc5261f585a"
+  },
+  {
+    "answer": "870",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 87 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 87."
+      ]
+    },
+    "stem": "A number has 87 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 87
+    },
+    "variant_signature": "6047cea85fb6e14cdaf5cab06ed092510b474803dcb7acde74bf7dcc269c0919"
+  },
+  {
+    "answer": "890",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the ones digit closer to 0 or to 10?",
+      "A ones digit below 5 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The number is 10 x 89 + 1.",
+        "Look at the ones digit, 1: it is less than 5, so round down.",
+        "Rounded to the nearest 10, the number is 10 x 89."
+      ]
+    },
+    "stem": "A number has 89 tens and 1 ones. What is this number rounded to the nearest 10?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 1,
+      "tens": 89
+    },
+    "variant_signature": "8942dc3a8c10629e9c1845eb142870f3cd57338c392e7461880f5f1a9f6d660c"
+  }
+]

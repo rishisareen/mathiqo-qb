@@ -1,0 +1,743 @@
+[
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "construction": "segment-as-diameter",
+        "kind": "circle",
+        "length": 6,
+        "length_part": "diameter",
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The whole segment is the diameter \u2014 the radius is only half of that.",
+      "Divide the segment length by 2."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The segment is the circle's diameter, and the radius is half the diameter.",
+        "Radius = 6 / 2 cm."
+      ]
+    },
+    "stem": "A construction combines a line segment 6 cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is 6 cm and everything is constructed correctly, what is the circle's radius, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 6
+    },
+    "variant_signature": "de662ee6cd0097641032bc18e2c4cf50e77edcbfd696a5eb8f7f4030f0346333"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "construction": "segment-as-diameter",
+        "kind": "circle",
+        "length": 8,
+        "length_part": "diameter",
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The whole segment is the diameter \u2014 the radius is only half of that.",
+      "Divide the segment length by 2."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The segment is the circle's diameter, and the radius is half the diameter.",
+        "Radius = 8 / 2 cm."
+      ]
+    },
+    "stem": "A construction combines a line segment 8 cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is 8 cm and everything is constructed correctly, what is the circle's radius, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 8
+    },
+    "variant_signature": "b2147d33210ef70c81d0be321cc15998a6d8b69049900269d401c765b32dbeb1"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "construction": "segment-as-diameter",
+        "kind": "circle",
+        "length": 10,
+        "length_part": "diameter",
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The whole segment is the diameter \u2014 the radius is only half of that.",
+      "Divide the segment length by 2."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The segment is the circle's diameter, and the radius is half the diameter.",
+        "Radius = 10 / 2 cm."
+      ]
+    },
+    "stem": "A construction combines a line segment 10 cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is 10 cm and everything is constructed correctly, what is the circle's radius, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 10
+    },
+    "variant_signature": "7c58e2ad400527043964afdc49e591d04243f100a29b74b731ec6eb74540ad16"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "construction": "segment-as-diameter",
+        "kind": "circle",
+        "length": 12,
+        "length_part": "diameter",
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The whole segment is the diameter \u2014 the radius is only half of that.",
+      "Divide the segment length by 2."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The segment is the circle's diameter, and the radius is half the diameter.",
+        "Radius = 12 / 2 cm."
+      ]
+    },
+    "stem": "A construction combines a line segment 12 cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is 12 cm and everything is constructed correctly, what is the circle's radius, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 12
+    },
+    "variant_signature": "b9ad24faee7a0a8807e27bdbf8cceb5205c78ccd962dbf195495c7074cdb5949"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "construction": "segment-as-diameter",
+        "kind": "circle",
+        "length": 14,
+        "length_part": "diameter",
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The whole segment is the diameter \u2014 the radius is only half of that.",
+      "Divide the segment length by 2."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The segment is the circle's diameter, and the radius is half the diameter.",
+        "Radius = 14 / 2 cm."
+      ]
+    },
+    "stem": "A construction combines a line segment 14 cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is 14 cm and everything is constructed correctly, what is the circle's radius, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 14
+    },
+    "variant_signature": "8cb9e5ef31f7353675b0885f516178b5936b0810c12f401d3f1f4205f9eccca2"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "construction": "segment-as-diameter",
+        "kind": "circle",
+        "length": 16,
+        "length_part": "diameter",
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The whole segment is the diameter \u2014 the radius is only half of that.",
+      "Divide the segment length by 2."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The segment is the circle's diameter, and the radius is half the diameter.",
+        "Radius = 16 / 2 cm."
+      ]
+    },
+    "stem": "A construction combines a line segment 16 cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is 16 cm and everything is constructed correctly, what is the circle's radius, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 16
+    },
+    "variant_signature": "55e4a06abdcab0102dcfa67f3e336cbf0f40cbd9e3690af86fcc31297113efdd"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "construction": "segment-as-diameter",
+        "kind": "circle",
+        "length": 18,
+        "length_part": "diameter",
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The whole segment is the diameter \u2014 the radius is only half of that.",
+      "Divide the segment length by 2."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The segment is the circle's diameter, and the radius is half the diameter.",
+        "Radius = 18 / 2 cm."
+      ]
+    },
+    "stem": "A construction combines a line segment 18 cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is 18 cm and everything is constructed correctly, what is the circle's radius, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 18
+    },
+    "variant_signature": "ab47de2c754858e9fc529e3f19b430738bfa53a77cc405f198757795fda47c24"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "construction": "segment-as-diameter",
+        "kind": "circle",
+        "length": 20,
+        "length_part": "diameter",
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The whole segment is the diameter \u2014 the radius is only half of that.",
+      "Divide the segment length by 2."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The segment is the circle's diameter, and the radius is half the diameter.",
+        "Radius = 20 / 2 cm."
+      ]
+    },
+    "stem": "A construction combines a line segment 20 cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is 20 cm and everything is constructed correctly, what is the circle's radius, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 20
+    },
+    "variant_signature": "6b5be1ad255e3c1bc782a5acf53cc7aff6b4b4a644ef8b2d907a2b22bfcfeea3"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "44"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "construction": "segment-as-diameter",
+        "kind": "circle",
+        "length": 22,
+        "length_part": "diameter",
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The whole segment is the diameter \u2014 the radius is only half of that.",
+      "Divide the segment length by 2."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The segment is the circle's diameter, and the radius is half the diameter.",
+        "Radius = 22 / 2 cm."
+      ]
+    },
+    "stem": "A construction combines a line segment 22 cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is 22 cm and everything is constructed correctly, what is the circle's radius, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 22
+    },
+    "variant_signature": "426a3a7f015e16ac347280631b2e4d5e2d14ee1daf08785fd5fa17d332636316"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "construction": "segment-as-diameter",
+        "kind": "circle",
+        "length": 24,
+        "length_part": "diameter",
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The whole segment is the diameter \u2014 the radius is only half of that.",
+      "Divide the segment length by 2."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The segment is the circle's diameter, and the radius is half the diameter.",
+        "Radius = 24 / 2 cm."
+      ]
+    },
+    "stem": "A construction combines a line segment 24 cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is 24 cm and everything is constructed correctly, what is the circle's radius, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 24
+    },
+    "variant_signature": "4a81e4ebd2a7467cac2a3ccc45562eccd721676614a163473ad136a645d8be52"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "construction": "segment-as-diameter",
+        "kind": "circle",
+        "length": 26,
+        "length_part": "diameter",
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The whole segment is the diameter \u2014 the radius is only half of that.",
+      "Divide the segment length by 2."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The segment is the circle's diameter, and the radius is half the diameter.",
+        "Radius = 26 / 2 cm."
+      ]
+    },
+    "stem": "A construction combines a line segment 26 cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is 26 cm and everything is constructed correctly, what is the circle's radius, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 26
+    },
+    "variant_signature": "5516bdddc7c1afa7d8b0b8e9eab91dccbe96f422d34375b396a6c496859d2587"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "construction": "segment-as-diameter",
+        "kind": "circle",
+        "length": 28,
+        "length_part": "diameter",
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The whole segment is the diameter \u2014 the radius is only half of that.",
+      "Divide the segment length by 2."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The segment is the circle's diameter, and the radius is half the diameter.",
+        "Radius = 28 / 2 cm."
+      ]
+    },
+    "stem": "A construction combines a line segment 28 cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is 28 cm and everything is constructed correctly, what is the circle's radius, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 28
+    },
+    "variant_signature": "c6ee27e8293e830a1c43b916a5b84607bb747692437cda2964f23a1fea4aa8b0"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "construction": "segment-as-diameter",
+        "kind": "circle",
+        "length": 30,
+        "length_part": "diameter",
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The whole segment is the diameter \u2014 the radius is only half of that.",
+      "Divide the segment length by 2."
+    ],
+    "item_instance_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.CONSTRUCT.BASIC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The segment is the circle's diameter, and the radius is half the diameter.",
+        "Radius = 30 / 2 cm."
+      ]
+    },
+    "stem": "A construction combines a line segment 30 cm long with a circle whose radius is exactly half that segment, so the segment becomes the circle's diameter. If the segment is 30 cm and everything is constructed correctly, what is the circle's radius, in centimetres?",
+    "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 30
+    },
+    "variant_signature": "44796ba2119437b8aab242f85cb86eefe61d85852e4d41fd23ee774e3eed4abe"
+  }
+]

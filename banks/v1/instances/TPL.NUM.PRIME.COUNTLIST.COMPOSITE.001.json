@@ -1,0 +1,138 @@
+[
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A composite number has more than two factors.",
+      "1 is a special case \u2014 it is neither prime nor composite."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.COUNTLIST.COMPOSITE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "2 is prime, so it is not composite.",
+        "1 is neither prime nor composite, so it does not count either.",
+        "4 and 9 are composite (4 = 2 x 2, 9 = 3 x 3), so the count is 2."
+      ]
+    },
+    "stem": "How many composite numbers are in this list: 2, 1, 4, 9?",
+    "template_id": "TPL.NUM.PRIME.COUNTLIST.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 2
+    },
+    "variant_signature": "f1af3009349c8c544902cbfd868b4135ccf2c04fd7e158eab27d5f9812d9dde7"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A composite number has more than two factors.",
+      "1 is a special case \u2014 it is neither prime nor composite."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.COUNTLIST.COMPOSITE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 is prime, so it is not composite.",
+        "1 is neither prime nor composite, so it does not count either.",
+        "4 and 9 are composite (4 = 2 x 2, 9 = 3 x 3), so the count is 2."
+      ]
+    },
+    "stem": "How many composite numbers are in this list: 3, 1, 4, 9?",
+    "template_id": "TPL.NUM.PRIME.COUNTLIST.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 3
+    },
+    "variant_signature": "15bbdcb530a553e6e9608f8332abaab8d3fe9d7037edb6ae812447ecb733ca9a"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A composite number has more than two factors.",
+      "1 is a special case \u2014 it is neither prime nor composite."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.COUNTLIST.COMPOSITE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "5 is prime, so it is not composite.",
+        "1 is neither prime nor composite, so it does not count either.",
+        "4 and 9 are composite (4 = 2 x 2, 9 = 3 x 3), so the count is 2."
+      ]
+    },
+    "stem": "How many composite numbers are in this list: 5, 1, 4, 9?",
+    "template_id": "TPL.NUM.PRIME.COUNTLIST.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 5
+    },
+    "variant_signature": "bc95431f4577a248734984a2d8ec16a35d318e9f1cb46afa019a0bf4fadab181"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A composite number has more than two factors.",
+      "1 is a special case \u2014 it is neither prime nor composite."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.COUNTLIST.COMPOSITE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "7 is prime, so it is not composite.",
+        "1 is neither prime nor composite, so it does not count either.",
+        "4 and 9 are composite (4 = 2 x 2, 9 = 3 x 3), so the count is 2."
+      ]
+    },
+    "stem": "How many composite numbers are in this list: 7, 1, 4, 9?",
+    "template_id": "TPL.NUM.PRIME.COUNTLIST.COMPOSITE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 7
+    },
+    "variant_signature": "3821b28f98b4f6fcc7fceddccb9a5d1b10be6bb1cc04c560772a675e16bc8292"
+  }
+]

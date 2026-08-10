@@ -1,0 +1,2282 @@
+[
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 4
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 4 x 2, and Museum's total is 1 x 2.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 4 symbols and 'Museum' has 1 symbols, with key 1 symbol = 2 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 4,
+      "n2": 1
+    },
+    "variant_signature": "c4ec5becd389d8977452545be62aec0e9836a4a7fba46c1e9405be3cec9d21f1"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 4
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 4 x 3, and Museum's total is 1 x 3.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 4 symbols and 'Museum' has 1 symbols, with key 1 symbol = 3 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 4,
+      "n2": 1
+    },
+    "variant_signature": "4f6c5cc7eeca42409dc6c2e16addf5384883104f0e269d523b2064eb1e8e94ae"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 4
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 4 x 5, and Museum's total is 1 x 5.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 4 symbols and 'Museum' has 1 symbols, with key 1 symbol = 5 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 4,
+      "n2": 1
+    },
+    "variant_signature": "08569a715ef27fab4b8d6e971dcb1fc42dc8394aaae8c5b977bfaf41260f3d91"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 4
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 4 x 2, and Museum's total is 2 x 2.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 4 symbols and 'Museum' has 2 symbols, with key 1 symbol = 2 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 4,
+      "n2": 2
+    },
+    "variant_signature": "58d5d00d3f2073e875366e71459b331b9b5418c87bf19a2c25d7f3e4a72f8b5e"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 4
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 4 x 4, and Museum's total is 2 x 4.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 4 symbols and 'Museum' has 2 symbols, with key 1 symbol = 4 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 4,
+      "n2": 2
+    },
+    "variant_signature": "a0aecd6fbd2e8604a58d5448316a6fc38486ba0c29c1e9b2e4191ac5287e4f09"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 4
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 4 x 5, and Museum's total is 2 x 5.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 4 symbols and 'Museum' has 2 symbols, with key 1 symbol = 5 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 4,
+      "n2": 2
+    },
+    "variant_signature": "3e7e764ed13329ae48f58873b6e79b486f0a177ae23e9fcfd7b77b4932fb569a"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 4
+          },
+          {
+            "label": "Museum",
+            "whole": 3
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 4 x 3, and Museum's total is 3 x 3.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 4 symbols and 'Museum' has 3 symbols, with key 1 symbol = 3 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 4,
+      "n2": 3
+    },
+    "variant_signature": "8a0531507691d3e11edd753abd9e5760ab2ec62d46f525cffac59cc03213d17f"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 4
+          },
+          {
+            "label": "Museum",
+            "whole": 3
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 4 x 4, and Museum's total is 3 x 4.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 4 symbols and 'Museum' has 3 symbols, with key 1 symbol = 4 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 4,
+      "n2": 3
+    },
+    "variant_signature": "ccfafa9286de42446cb57997cd05978ec6a9f16492225b8a707c3e6994376b45"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 5
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 5 x 2, and Museum's total is 1 x 2.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 5 symbols and 'Museum' has 1 symbols, with key 1 symbol = 2 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 5,
+      "n2": 1
+    },
+    "variant_signature": "22e9bb8f26a3581e2c6ee0f45485d41c19154ca35171cb7c5efb0f6e5aac9f04"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 5
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 5 x 3, and Museum's total is 1 x 3.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 5 symbols and 'Museum' has 1 symbols, with key 1 symbol = 3 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 5,
+      "n2": 1
+    },
+    "variant_signature": "f1b3cab5da929fd13e5b1ea85bca6c7174f22ebd5031e89b21c4f68b0a300e5e"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 5
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 5 x 5, and Museum's total is 1 x 5.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 5 symbols and 'Museum' has 1 symbols, with key 1 symbol = 5 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 5,
+      "n2": 1
+    },
+    "variant_signature": "9e5dfd582ba7da33bc8d341b885a6259e00cb598905a1b436fb5ac077be3a982"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 5
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 5 x 2, and Museum's total is 2 x 2.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 5 symbols and 'Museum' has 2 symbols, with key 1 symbol = 2 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 5,
+      "n2": 2
+    },
+    "variant_signature": "7737a0a87bd1db3fee583eaf9957dd6f600bb871b9fd11be3d621b4e068ad073"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 5
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 5 x 4, and Museum's total is 2 x 4.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 5 symbols and 'Museum' has 2 symbols, with key 1 symbol = 4 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 5,
+      "n2": 2
+    },
+    "variant_signature": "1ed0e44f619c713253bfad9e936626f656b13a325a3db1a2362d0463d6ba9890"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 5
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 5 x 5, and Museum's total is 2 x 5.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 5 symbols and 'Museum' has 2 symbols, with key 1 symbol = 5 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 5,
+      "n2": 2
+    },
+    "variant_signature": "d5bb70600dc2401ca10d75a99759d2abd7b5f0446e484584da7c4518cdd84041"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 5
+          },
+          {
+            "label": "Museum",
+            "whole": 3
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 5 x 3, and Museum's total is 3 x 3.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 5 symbols and 'Museum' has 3 symbols, with key 1 symbol = 3 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 5,
+      "n2": 3
+    },
+    "variant_signature": "512844fdf182b523102b416b7fec49d995324cda728eea537154c8cd017e5fef"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 5
+          },
+          {
+            "label": "Museum",
+            "whole": 3
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 5 x 4, and Museum's total is 3 x 4.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 5 symbols and 'Museum' has 3 symbols, with key 1 symbol = 4 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 5,
+      "n2": 3
+    },
+    "variant_signature": "10f897327b2cbe918f17424c63901bfe379555343f137ad57a130188ebc9dcde"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 6
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 6 x 2, and Museum's total is 1 x 2.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 6 symbols and 'Museum' has 1 symbols, with key 1 symbol = 2 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 6,
+      "n2": 1
+    },
+    "variant_signature": "4da920702835bd922c9b26fbfc1bb9e516d6d9117b8d7515ce7486e99dc90cdf"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 6
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 6 x 3, and Museum's total is 1 x 3.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 6 symbols and 'Museum' has 1 symbols, with key 1 symbol = 3 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 6,
+      "n2": 1
+    },
+    "variant_signature": "f968233c868fd98db489591806603085f51bd33069735cbd9433cd7d717dd37c"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 6
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 6 x 5, and Museum's total is 1 x 5.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 6 symbols and 'Museum' has 1 symbols, with key 1 symbol = 5 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 6,
+      "n2": 1
+    },
+    "variant_signature": "46ce20cc64adc93302eff96dcbd612f698d203cd104b53bf11337ee47246bd1b"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 6
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 6 x 2, and Museum's total is 2 x 2.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 6 symbols and 'Museum' has 2 symbols, with key 1 symbol = 2 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 6,
+      "n2": 2
+    },
+    "variant_signature": "1b546a78366bbc0bfc8287e0e3a926e5217d53de13bc3537c9cbea255f7175d5"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 6
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 6 x 4, and Museum's total is 2 x 4.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 6 symbols and 'Museum' has 2 symbols, with key 1 symbol = 4 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 6,
+      "n2": 2
+    },
+    "variant_signature": "d8e946ab1f6e5957ad1788620cac278026039c290362f8f947f004539fc46d7d"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 6
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 6 x 5, and Museum's total is 2 x 5.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 6 symbols and 'Museum' has 2 symbols, with key 1 symbol = 5 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 6,
+      "n2": 2
+    },
+    "variant_signature": "81c65a8276df621396d3780023fd58f63a4acf18bc14548e2509dce3351ac5c3"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 6
+          },
+          {
+            "label": "Museum",
+            "whole": 3
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 6 x 3, and Museum's total is 3 x 3.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 6 symbols and 'Museum' has 3 symbols, with key 1 symbol = 3 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 6,
+      "n2": 3
+    },
+    "variant_signature": "e533ec541a23c6cf730d9e321f0a26dbbcb4431456e6965354179785d829d58c"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 6
+          },
+          {
+            "label": "Museum",
+            "whole": 3
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 6 x 4, and Museum's total is 3 x 4.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 6 symbols and 'Museum' has 3 symbols, with key 1 symbol = 4 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 6,
+      "n2": 3
+    },
+    "variant_signature": "3d528701d4a2119218a8b34585d3a8519741cf2fee6e7171c3b72076c2c2ab9c"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 7
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 7 x 2, and Museum's total is 1 x 2.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 7 symbols and 'Museum' has 1 symbols, with key 1 symbol = 2 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 7,
+      "n2": 1
+    },
+    "variant_signature": "b98808785bc5b7ed889561256ba148db7cd13a6cd649c5bdae0c2128ed4356d6"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 7
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 7 x 3, and Museum's total is 1 x 3.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 7 symbols and 'Museum' has 1 symbols, with key 1 symbol = 3 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 7,
+      "n2": 1
+    },
+    "variant_signature": "5e654cc9a88567feb5d3ec0d3f5c78989daa531b2b6adf4419ca10f2ae0eda60"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 7
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 7 x 5, and Museum's total is 1 x 5.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 7 symbols and 'Museum' has 1 symbols, with key 1 symbol = 5 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 7,
+      "n2": 1
+    },
+    "variant_signature": "6ddbce603c974eec233ab771f3c877d88ccac2f2768c2bd4da37dff89d67a5bb"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 7
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 7 x 2, and Museum's total is 2 x 2.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 7 symbols and 'Museum' has 2 symbols, with key 1 symbol = 2 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 7,
+      "n2": 2
+    },
+    "variant_signature": "e9a30f6eb98dd593f18fcc8156a72ffcaa772b15204e5ff659fa23b00f062703"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 7
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 7 x 4, and Museum's total is 2 x 4.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 7 symbols and 'Museum' has 2 symbols, with key 1 symbol = 4 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 7,
+      "n2": 2
+    },
+    "variant_signature": "de9cb69c2bd6ace6d13cde1d9301b351fdddbcc456f254175a05c6dcfdb3e833"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 7
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 7 x 5, and Museum's total is 2 x 5.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 7 symbols and 'Museum' has 2 symbols, with key 1 symbol = 5 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 7,
+      "n2": 2
+    },
+    "variant_signature": "ae48c1170888dc61649adace094e18b0f99a961cac0a3b1ce627770b10de2cc0"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 7
+          },
+          {
+            "label": "Museum",
+            "whole": 3
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 7 x 3, and Museum's total is 3 x 3.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 7 symbols and 'Museum' has 3 symbols, with key 1 symbol = 3 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 7,
+      "n2": 3
+    },
+    "variant_signature": "b42e6e5c7d5d66a352c15e9bacb1849d169d2bc5443ce2800b7e84163e34d9fd"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 7
+          },
+          {
+            "label": "Museum",
+            "whole": 3
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 7 x 4, and Museum's total is 3 x 4.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 7 symbols and 'Museum' has 3 symbols, with key 1 symbol = 4 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 7,
+      "n2": 3
+    },
+    "variant_signature": "668c03dc124df8a8806f9a47d7d02d917d143157718de43776f59a4b960792aa"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 8
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 8 x 2, and Museum's total is 1 x 2.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 8 symbols and 'Museum' has 1 symbols, with key 1 symbol = 2 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 8,
+      "n2": 1
+    },
+    "variant_signature": "378e06269ff59c8beb5b8c37323a64dd1f0f12de7edb4e8b96f9d43f74c7cdf8"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 8
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 8 x 3, and Museum's total is 1 x 3.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 8 symbols and 'Museum' has 1 symbols, with key 1 symbol = 3 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 8,
+      "n2": 1
+    },
+    "variant_signature": "49adeef0a207380cdf04c662bb898f89527bf5a292b07ad5662b6f25d2db1fed"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 8
+          },
+          {
+            "label": "Museum",
+            "whole": 1
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 8 x 5, and Museum's total is 1 x 5.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 8 symbols and 'Museum' has 1 symbols, with key 1 symbol = 5 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 8,
+      "n2": 1
+    },
+    "variant_signature": "63ad75262f192e3b44af2b3e5df4e7b5f877ecffe18767c22d6641f69dcf5f55"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 8
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 8 x 2, and Museum's total is 2 x 2.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 8 symbols and 'Museum' has 2 symbols, with key 1 symbol = 2 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n1": 8,
+      "n2": 2
+    },
+    "variant_signature": "4acabe24a209a414bd7d86a1b914fa6b3150e4942930cb854bb809cc35ccf6ac"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 8
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 8 x 4, and Museum's total is 2 x 4.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 8 symbols and 'Museum' has 2 symbols, with key 1 symbol = 4 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 8,
+      "n2": 2
+    },
+    "variant_signature": "a7797d9c356528643fd0a46189d14bc8be641b4fff393111d9315e34bd9455c7"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "key": 5,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 8
+          },
+          {
+            "label": "Museum",
+            "whole": 2
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 8 x 5, and Museum's total is 2 x 5.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 8 symbols and 'Museum' has 2 symbols, with key 1 symbol = 5 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 5,
+      "n1": 8,
+      "n2": 2
+    },
+    "variant_signature": "0fde2d2bb31b1359994c62ef849f100e6ecc9621f4b57c0b050a17b9fb53e600"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "key": 3,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 8
+          },
+          {
+            "label": "Museum",
+            "whole": 3
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 8 x 3, and Museum's total is 3 x 3.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 8 symbols and 'Museum' has 3 symbols, with key 1 symbol = 3 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 3,
+      "n1": 8,
+      "n2": 3
+    },
+    "variant_signature": "3cc8af771dc71574173dae6e26ec3fa04865863df7593d8627f1e49879156cc1"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "label": "Zoo",
+            "whole": 8
+          },
+          {
+            "label": "Museum",
+            "whole": 3
+          }
+        ],
+        "unit": "votes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Convert both symbol counts to actual votes using the key before comparing.",
+      "Find each category's total first, then subtract."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Zoo's total is 8 x 4, and Museum's total is 3 x 4.",
+        "Subtract Museum's total from Zoo's total to find how many more votes Zoo received."
+      ]
+    },
+    "stem": "A pictograph compares votes for the class trip: 'Zoo' has 8 symbols and 'Museum' has 3 symbols, with key 1 symbol = 4 votes. How many more votes did 'Zoo' receive than 'Museum'?",
+    "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n1": 8,
+      "n2": 3
+    },
+    "variant_signature": "542379faed7d73dc20f585ef0d7ba1b2f91ba9eda6deb1b5904d13cee503b29d"
+  }
+]

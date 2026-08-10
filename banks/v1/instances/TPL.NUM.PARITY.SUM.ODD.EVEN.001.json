@@ -1,0 +1,1362 @@
+[
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 1, 30 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "1 is odd, so it leaves one unpaired when split into pairs. 30 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 1 + 30 is odd."
+      ]
+    },
+    "stem": "1 is an odd number and 30 is an even number. Is 1 + 30 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 30
+    },
+    "variant_signature": "b351d09915869823a0f048b4e45177ee09de71448cfd9e1719c085cc09376a67"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 3, 12 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 is odd, so it leaves one unpaired when split into pairs. 12 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 3 + 12 is odd."
+      ]
+    },
+    "stem": "3 is an odd number and 12 is an even number. Is 3 + 12 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 12
+    },
+    "variant_signature": "dd2160709a4f46b40ad11f958de2880fed14641abf4868257bdd940a22f5971d"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 3, 42 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3 is odd, so it leaves one unpaired when split into pairs. 42 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 3 + 42 is odd."
+      ]
+    },
+    "stem": "3 is an odd number and 42 is an even number. Is 3 + 42 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 42
+    },
+    "variant_signature": "b462c2c8056d52f3de00c91510c66b6af57514dc11692a3d00a2dd51f8df6843"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 5, 24 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "5 is odd, so it leaves one unpaired when split into pairs. 24 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 5 + 24 is odd."
+      ]
+    },
+    "stem": "5 is an odd number and 24 is an even number. Is 5 + 24 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 24
+    },
+    "variant_signature": "aad56f0a176e1928c5332199705646f0ab26364d7ae1eb31289d512fca293095"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 7, 4 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "7 is odd, so it leaves one unpaired when split into pairs. 4 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 7 + 4 is odd."
+      ]
+    },
+    "stem": "7 is an odd number and 4 is an even number. Is 7 + 4 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 4
+    },
+    "variant_signature": "d2a45a9c39e0cfd6db9c5ce46de1bb93c60d09baab14635b621257f43149184d"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 7, 36 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "7 is odd, so it leaves one unpaired when split into pairs. 36 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 7 + 36 is odd."
+      ]
+    },
+    "stem": "7 is an odd number and 36 is an even number. Is 7 + 36 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 36
+    },
+    "variant_signature": "6d22f74391948800401a8991827584114db4fafea15b33d7bb706d53fe73a6c0"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 9, 18 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "9 is odd, so it leaves one unpaired when split into pairs. 18 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 9 + 18 is odd."
+      ]
+    },
+    "stem": "9 is an odd number and 18 is an even number. Is 9 + 18 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 18
+    },
+    "variant_signature": "9b419294f1fc2a4e2bb9965d7faa35a5ea467448acbf53929c15b373881b703a"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 9, 48 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "9 is odd, so it leaves one unpaired when split into pairs. 48 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 9 + 48 is odd."
+      ]
+    },
+    "stem": "9 is an odd number and 48 is an even number. Is 9 + 48 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 48
+    },
+    "variant_signature": "762adea12d3b267960d586ea1c1f539ceb9af140d506250a5584b2de1f73c37f"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 11, 30 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "11 is odd, so it leaves one unpaired when split into pairs. 30 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 11 + 30 is odd."
+      ]
+    },
+    "stem": "11 is an odd number and 30 is an even number. Is 11 + 30 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 11,
+      "b": 30
+    },
+    "variant_signature": "cdbb9d9516ad61c0bcb8d227f9d994ee27cf0cf087aa7b2438875880211f4578"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 13, 12 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "13 is odd, so it leaves one unpaired when split into pairs. 12 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 13 + 12 is odd."
+      ]
+    },
+    "stem": "13 is an odd number and 12 is an even number. Is 13 + 12 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 13,
+      "b": 12
+    },
+    "variant_signature": "9d6e8689a4bee0dbc0dcdfacd115dc8642757cea87945944719dc2ed762e9db4"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 13, 42 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "13 is odd, so it leaves one unpaired when split into pairs. 42 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 13 + 42 is odd."
+      ]
+    },
+    "stem": "13 is an odd number and 42 is an even number. Is 13 + 42 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 13,
+      "b": 42
+    },
+    "variant_signature": "296da68e7c0ae849c0ba76425ef473b352c7406b78352e9770fb1199fc6a7c69"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 15, 24 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "15 is odd, so it leaves one unpaired when split into pairs. 24 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 15 + 24 is odd."
+      ]
+    },
+    "stem": "15 is an odd number and 24 is an even number. Is 15 + 24 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 15,
+      "b": 24
+    },
+    "variant_signature": "db971643ccdeb681e197d678af14ca8d4c393feb1c8667216eb8ad483c749566"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 17, 4 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "17 is odd, so it leaves one unpaired when split into pairs. 4 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 17 + 4 is odd."
+      ]
+    },
+    "stem": "17 is an odd number and 4 is an even number. Is 17 + 4 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "b": 4
+    },
+    "variant_signature": "5a999e296e08be40b2753db3442e127c09fc666b20cec656e3c43abb842386ed"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 17, 36 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "17 is odd, so it leaves one unpaired when split into pairs. 36 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 17 + 36 is odd."
+      ]
+    },
+    "stem": "17 is an odd number and 36 is an even number. Is 17 + 36 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "b": 36
+    },
+    "variant_signature": "e191d60f0114a716955f209258258aa3319900899e6af347a5a961462f3235a8"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 19, 18 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "19 is odd, so it leaves one unpaired when split into pairs. 18 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 19 + 18 is odd."
+      ]
+    },
+    "stem": "19 is an odd number and 18 is an even number. Is 19 + 18 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 19,
+      "b": 18
+    },
+    "variant_signature": "f4488b4ba74278c990122ee5072e93dfb8f9e1525ad9bab1bb2ccfcab59ccff5"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 19, 48 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "19 is odd, so it leaves one unpaired when split into pairs. 48 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 19 + 48 is odd."
+      ]
+    },
+    "stem": "19 is an odd number and 48 is an even number. Is 19 + 48 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 19,
+      "b": 48
+    },
+    "variant_signature": "91c752cc2b49033b933ba4048b2fe0d4f8b1dec2f791aec06ddc25fe1d639482"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 21, 30 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "21 is odd, so it leaves one unpaired when split into pairs. 30 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 21 + 30 is odd."
+      ]
+    },
+    "stem": "21 is an odd number and 30 is an even number. Is 21 + 30 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 21,
+      "b": 30
+    },
+    "variant_signature": "518925a9c5e7be5428f875a6671bbfb316a3165d9c36f216b9619c44538ea32c"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 23, 12 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "23 is odd, so it leaves one unpaired when split into pairs. 12 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 23 + 12 is odd."
+      ]
+    },
+    "stem": "23 is an odd number and 12 is an even number. Is 23 + 12 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 23,
+      "b": 12
+    },
+    "variant_signature": "d7875ed59684735ff37e44f102f18b37c76de2a192a8295a8d3ca553c18f3de8"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 23, 42 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "23 is odd, so it leaves one unpaired when split into pairs. 42 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 23 + 42 is odd."
+      ]
+    },
+    "stem": "23 is an odd number and 42 is an even number. Is 23 + 42 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 23,
+      "b": 42
+    },
+    "variant_signature": "1d605d22a3f388262c408b8a772efd2f85749b1d053148c3f559ff66a41351b7"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 25, 24 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "25 is odd, so it leaves one unpaired when split into pairs. 24 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 25 + 24 is odd."
+      ]
+    },
+    "stem": "25 is an odd number and 24 is an even number. Is 25 + 24 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 25,
+      "b": 24
+    },
+    "variant_signature": "83e15ba39bbec125381a6e286494f0bd2e405da79469b625553b5d1075290069"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 27, 4 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "27 is odd, so it leaves one unpaired when split into pairs. 4 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 27 + 4 is odd."
+      ]
+    },
+    "stem": "27 is an odd number and 4 is an even number. Is 27 + 4 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 27,
+      "b": 4
+    },
+    "variant_signature": "c8041af41cdfe273b94d9d3c398e715be06b5d001bf088d64434dbefa74daace"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 27, 36 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "27 is odd, so it leaves one unpaired when split into pairs. 36 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 27 + 36 is odd."
+      ]
+    },
+    "stem": "27 is an odd number and 36 is an even number. Is 27 + 36 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 27,
+      "b": 36
+    },
+    "variant_signature": "947db3d660280bc62635029ff20e2e73e0d21919d61e6f9f9654cf4f17970feb"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 29, 18 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "29 is odd, so it leaves one unpaired when split into pairs. 18 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 29 + 18 is odd."
+      ]
+    },
+    "stem": "29 is an odd number and 18 is an even number. Is 29 + 18 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 29,
+      "b": 18
+    },
+    "variant_signature": "37da63c2e16e0bd1e7d143512bf554b9baf87a42f179a1741ef8b257aab9e615"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 29, 48 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "29 is odd, so it leaves one unpaired when split into pairs. 48 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 29 + 48 is odd."
+      ]
+    },
+    "stem": "29 is an odd number and 48 is an even number. Is 29 + 48 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 29,
+      "b": 48
+    },
+    "variant_signature": "5d9bfb5fa854c27d0767d0013396ce96b9902ed6348910630852631b217f9e14"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 31, 30 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "31 is odd, so it leaves one unpaired when split into pairs. 30 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 31 + 30 is odd."
+      ]
+    },
+    "stem": "31 is an odd number and 30 is an even number. Is 31 + 30 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 31,
+      "b": 30
+    },
+    "variant_signature": "124307fda18824c1a96c28e8e0caa0c27707bc6710f65d16853d5c372bc654d5"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 33, 12 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "33 is odd, so it leaves one unpaired when split into pairs. 12 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 33 + 12 is odd."
+      ]
+    },
+    "stem": "33 is an odd number and 12 is an even number. Is 33 + 12 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 33,
+      "b": 12
+    },
+    "variant_signature": "1d6f97dce5051cea9dd08bcd9298994bad08d80415d9eafeb3cb6d8bff3a08bb"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 33, 42 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "33 is odd, so it leaves one unpaired when split into pairs. 42 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 33 + 42 is odd."
+      ]
+    },
+    "stem": "33 is an odd number and 42 is an even number. Is 33 + 42 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 33,
+      "b": 42
+    },
+    "variant_signature": "e034b3073b6483dfded0a3fc503679cd23ecfca04a2e031143034a2864ff16b3"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 35, 24 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "35 is odd, so it leaves one unpaired when split into pairs. 24 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 35 + 24 is odd."
+      ]
+    },
+    "stem": "35 is an odd number and 24 is an even number. Is 35 + 24 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 35,
+      "b": 24
+    },
+    "variant_signature": "6325680deaa7e7ddae1a7fa20edd60a575b148759d1216c301d7c9638c1e42b9"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 37, 4 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "37 is odd, so it leaves one unpaired when split into pairs. 4 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 37 + 4 is odd."
+      ]
+    },
+    "stem": "37 is an odd number and 4 is an even number. Is 37 + 4 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 37,
+      "b": 4
+    },
+    "variant_signature": "7bf6c01d6b5c36bae59be56d3c03fb6d387884891eb60bc05cfc38a80c951348"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 37, 36 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "37 is odd, so it leaves one unpaired when split into pairs. 36 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 37 + 36 is odd."
+      ]
+    },
+    "stem": "37 is an odd number and 36 is an even number. Is 37 + 36 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 37,
+      "b": 36
+    },
+    "variant_signature": "d3609d0545744248a3a455896fa068982b0d048459505333fb1fe17569dc73c9"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 39, 18 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "39 is odd, so it leaves one unpaired when split into pairs. 18 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 39 + 18 is odd."
+      ]
+    },
+    "stem": "39 is an odd number and 18 is an even number. Is 39 + 18 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 39,
+      "b": 18
+    },
+    "variant_signature": "b16ee0bc09665c1407bbb23132602fa100559ba02226af4d2f4701f4f6fa8b4b"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 39, 48 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "39 is odd, so it leaves one unpaired when split into pairs. 48 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 39 + 48 is odd."
+      ]
+    },
+    "stem": "39 is an odd number and 48 is an even number. Is 39 + 48 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 39,
+      "b": 48
+    },
+    "variant_signature": "a48c807ab0b095ed7a4523b492a8e83ebc8b1cf8b2fa37abf21bbdf0a6021fb3"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 41, 30 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "41 is odd, so it leaves one unpaired when split into pairs. 30 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 41 + 30 is odd."
+      ]
+    },
+    "stem": "41 is an odd number and 30 is an even number. Is 41 + 30 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 41,
+      "b": 30
+    },
+    "variant_signature": "f50f3e66e7f28a02b37272c55bbd0dec7aa5be9369f9e213e796f00024b26fba"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 43, 12 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "43 is odd, so it leaves one unpaired when split into pairs. 12 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 43 + 12 is odd."
+      ]
+    },
+    "stem": "43 is an odd number and 12 is an even number. Is 43 + 12 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 43,
+      "b": 12
+    },
+    "variant_signature": "541fbc19a576702f017853fe7e2b8092d54ae12393f86d36657ea3be3d15a05c"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 43, 42 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "43 is odd, so it leaves one unpaired when split into pairs. 42 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 43 + 42 is odd."
+      ]
+    },
+    "stem": "43 is an odd number and 42 is an even number. Is 43 + 42 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 43,
+      "b": 42
+    },
+    "variant_signature": "37d4c57c89476b21a854f6628bf74c96bbea9a1bf28fa321b7494476778247b8"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 45, 24 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "45 is odd, so it leaves one unpaired when split into pairs. 24 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 45 + 24 is odd."
+      ]
+    },
+    "stem": "45 is an odd number and 24 is an even number. Is 45 + 24 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 45,
+      "b": 24
+    },
+    "variant_signature": "a4ac5d22141544eb12f566bb8a47ee5f70e3a83caa9265fbc3265a5366c1d2c0"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 47, 4 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "47 is odd, so it leaves one unpaired when split into pairs. 4 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 47 + 4 is odd."
+      ]
+    },
+    "stem": "47 is an odd number and 4 is an even number. Is 47 + 4 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 47,
+      "b": 4
+    },
+    "variant_signature": "d10dd985ad37061d69bf52d1805745e2087ddc85760c371bb60d4c28b579bbd0"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 47, 36 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "47 is odd, so it leaves one unpaired when split into pairs. 36 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 47 + 36 is odd."
+      ]
+    },
+    "stem": "47 is an odd number and 36 is an even number. Is 47 + 36 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 47,
+      "b": 36
+    },
+    "variant_signature": "ce59fdff4cd7756dfb6a2ba077bdcc9e5cf8eb3f5617911b3716ba513e8b1bcf"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 49, 18 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "49 is odd, so it leaves one unpaired when split into pairs. 18 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 49 + 18 is odd."
+      ]
+    },
+    "stem": "49 is an odd number and 18 is an even number. Is 49 + 18 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 49,
+      "b": 18
+    },
+    "variant_signature": "72de773c7090879426635138887f37c8211052fceb6aa7661a6b2c18e1928461"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "One of 49, 48 pairs up completely and the other always leaves one left over.",
+      "odd + even is always odd \u2014 try it with a couple of small examples if you're unsure."
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "49 is odd, so it leaves one unpaired when split into pairs. 48 is even, so it splits into pairs exactly.",
+        "Adding an odd number and an even number always leaves exactly one unpaired, so the sum 49 + 48 is odd."
+      ]
+    },
+    "stem": "49 is an odd number and 48 is an even number. Is 49 + 48 odd or even? Type 0 for even or 1 for odd.",
+    "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 49,
+      "b": 48
+    },
+    "variant_signature": "29fc32a4328b285829245df31a06c61140f53ff2789f8367e011f15f3d4d81a7"
+  }
+]

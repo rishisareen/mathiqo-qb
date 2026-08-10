@@ -1,0 +1,227 @@
+[
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "58"
+      },
+      {
+        "misconception_id": "MISC.NUM.MULT.TABLES.REPEATED-ADD-OFFBYONE",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Think of it as a x ? = 60, where a is 2.",
+      "Which times-table fact for 2 lands on 60?"
+    ],
+    "item_instance_id": "TPL.NUM.MULT.TABLES.MISSING.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT.TABLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The total splits evenly into 2 rows, so divide the total by 2.",
+        "60 / 2 gives the number of marbles in each row."
+      ]
+    },
+    "stem": "Ravi has 60 marbles and arranges them into 2 equal rows. How many marbles are in each row?",
+    "template_id": "TPL.NUM.MULT.TABLES.MISSING.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "total": 60
+    },
+    "variant_signature": "6ae8ea9a8070b18d67a04d79bd3de1a40cfba17b6805dc746b16fc94ee75eb8e"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "57"
+      },
+      {
+        "misconception_id": "MISC.NUM.MULT.TABLES.REPEATED-ADD-OFFBYONE",
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Think of it as a x ? = 60, where a is 3.",
+      "Which times-table fact for 3 lands on 60?"
+    ],
+    "item_instance_id": "TPL.NUM.MULT.TABLES.MISSING.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT.TABLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The total splits evenly into 3 rows, so divide the total by 3.",
+        "60 / 3 gives the number of marbles in each row."
+      ]
+    },
+    "stem": "Priya has 60 marbles and arranges them into 3 equal rows. How many marbles are in each row?",
+    "template_id": "TPL.NUM.MULT.TABLES.MISSING.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "total": 60
+    },
+    "variant_signature": "0784e76cd2006f9eae44b02d3ac6b958920a6810dfca58c60cf8bd6c8995eaab"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": "MISC.NUM.MULT.TABLES.REPEATED-ADD-OFFBYONE",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Think of it as a x ? = 60, where a is 4.",
+      "Which times-table fact for 4 lands on 60?"
+    ],
+    "item_instance_id": "TPL.NUM.MULT.TABLES.MISSING.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT.TABLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The total splits evenly into 4 rows, so divide the total by 4.",
+        "60 / 4 gives the number of marbles in each row."
+      ]
+    },
+    "stem": "Arjun has 60 marbles and arranges them into 4 equal rows. How many marbles are in each row?",
+    "template_id": "TPL.NUM.MULT.TABLES.MISSING.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "total": 60
+    },
+    "variant_signature": "c342f33c3e4e07d09843362dd1c04579159aecf3dfdb6da44924e66890cad89c"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "55"
+      },
+      {
+        "misconception_id": "MISC.NUM.MULT.TABLES.REPEATED-ADD-OFFBYONE",
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Think of it as a x ? = 60, where a is 5.",
+      "Which times-table fact for 5 lands on 60?"
+    ],
+    "item_instance_id": "TPL.NUM.MULT.TABLES.MISSING.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT.TABLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The total splits evenly into 5 rows, so divide the total by 5.",
+        "60 / 5 gives the number of marbles in each row."
+      ]
+    },
+    "stem": "Meera has 60 marbles and arranges them into 5 equal rows. How many marbles are in each row?",
+    "template_id": "TPL.NUM.MULT.TABLES.MISSING.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "total": 60
+    },
+    "variant_signature": "5da3a31efe3e91b6e01dd2c371a38bd7114d0d3e9af95d7d03ca32c2e04af7c7"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "54"
+      },
+      {
+        "misconception_id": "MISC.NUM.MULT.TABLES.REPEATED-ADD-OFFBYONE",
+        "unsimplified": false,
+        "value": "60/7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Think of it as a x ? = 60, where a is 6.",
+      "Which times-table fact for 6 lands on 60?"
+    ],
+    "item_instance_id": "TPL.NUM.MULT.TABLES.MISSING.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT.TABLES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The total splits evenly into 6 rows, so divide the total by 6.",
+        "60 / 6 gives the number of marbles in each row."
+      ]
+    },
+    "stem": "Diya has 60 marbles and arranges them into 6 equal rows. How many marbles are in each row?",
+    "template_id": "TPL.NUM.MULT.TABLES.MISSING.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "total": 60
+    },
+    "variant_signature": "f9b05510f042e193a621c53e99a79c1704e12ad53dd4826d7498220b91b3511f"
+  }
+]

@@ -245,6 +245,19 @@ class BankIndex:
     by_id: Dict[str, dict]
 
 
+def bank_pool_for_skill(bank: BankIndex, skill_id: str) -> List[dict]:
+    """The raw, unfiltered instance pool `bank` holds for `skill_id` — no
+    format or seen-status filtering. Shared by `rank_serve_candidates`'s
+    remediation/stepdown/prereq_probe/placement branches (`not pool` is
+    their `unservable` verdict) and `ServingFacade.list_skills`'s per-skill
+    `servable` annotation: one predicate, two callers, so the two surfaces
+    read the same raw-pool truth for every reason except `rank_serve_candidates`'s
+    review branch (which layers an additional certified-format filter on
+    top) and frontier (which uses a separately ceiling/mastery/prerequisite-
+    filtered pool, never this raw one)."""
+    return bank.instances_by_skill.get(skill_id, [])
+
+
 def load_bank(bank_dir: Path) -> BankIndex:
     """Load one built bank (schemas/item-instance.schema.json shape,
     tools/bank_build.py's manifest.json + instances/<template_id>.json).
@@ -874,7 +887,7 @@ def rank_serve_candidates(
     candidates: List[RankedCandidate] = []
 
     def _bank_pool(skill_id: str) -> List[dict]:
-        return bank.instances_by_skill.get(skill_id, [])
+        return bank_pool_for_skill(bank, skill_id)
 
     # 1. Due review — only the single next-due skill (matching
     # select_next's own historical single-candidate read at this step: a

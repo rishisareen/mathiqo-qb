@@ -1,0 +1,2242 @@
+[
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 2 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 2 x 2."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 2 units. The bar for 'Tuesday' rises to the 2th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 2,
+      "k": 2
+    },
+    "variant_signature": "31c67d46f8708a98c843c5bb2f1ac96cb0438f58fd541c26ff5ff4a83808fda2"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 3 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 2 x 3."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 3 units. The bar for 'Tuesday' rises to the 2th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 2,
+      "k": 3
+    },
+    "variant_signature": "c41839fda6b6493e0cd349da3ed7556e2fd9ad3a854d663533ad8dc6ebb55906"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 4 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 2 x 4."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 4 units. The bar for 'Tuesday' rises to the 2th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 2,
+      "k": 4
+    },
+    "variant_signature": "83021cd7c66a5bc426d9e4558b59ec7e73cc7a9ba274f35b23a8fb24d728d6e1"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 5 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 2 x 5."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 5 units. The bar for 'Tuesday' rises to the 2th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 2,
+      "k": 5
+    },
+    "variant_signature": "ad8730583c886c4483d16f81707b8cb81b185f67f6696af6bc6679d290fb5bf6"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 2,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 6 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 2 x 6."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 6 units. The bar for 'Tuesday' rises to the 2th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 2,
+      "k": 6
+    },
+    "variant_signature": "a38e5bb8de0bd56b655d353374ac545caf1a678492a999bcbc38b1fbad80c86a"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 2 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 3 x 2."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 2 units. The bar for 'Tuesday' rises to the 3th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 3,
+      "k": 2
+    },
+    "variant_signature": "5e3057a9ea12ce4d3dbe16fe32ade9e7dfb18aa666f55ca6563b0944f2dd2d65"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 3 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 3 x 3."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 3 units. The bar for 'Tuesday' rises to the 3th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 3,
+      "k": 3
+    },
+    "variant_signature": "0e0184944d40b8acc7f80a2249b392b8972fa000d2ed4bece4e88431b1c18f10"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 4 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 3 x 4."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 4 units. The bar for 'Tuesday' rises to the 3th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 3,
+      "k": 4
+    },
+    "variant_signature": "1be43aa5704a45a69aa157601dcf2579779d2d165993ab9f25002082694dd4cc"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 5 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 3 x 5."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 5 units. The bar for 'Tuesday' rises to the 3th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 3,
+      "k": 5
+    },
+    "variant_signature": "e421a05632d041dffdaa7aacb7b03743b8929b31edf597fd97abb9705bc1adfd"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 3,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 6 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 3 x 6."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 6 units. The bar for 'Tuesday' rises to the 3th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 3,
+      "k": 6
+    },
+    "variant_signature": "1f73abd59ccfa27efa906395e29018e43487112f709adac3e42021e945bcdbff"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 2 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 4 x 2."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 2 units. The bar for 'Tuesday' rises to the 4th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 4,
+      "k": 2
+    },
+    "variant_signature": "0766d8fc38b869a09b6535cf056a24b26ede0a0bc1d49735b9ef0fef7c858d59"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 3 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 4 x 3."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 3 units. The bar for 'Tuesday' rises to the 4th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 4,
+      "k": 3
+    },
+    "variant_signature": "64a30a001a29a94f13c7947ed2a58b4aa25fba86a8d65c55d5c87669c035fb6d"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 4 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 4 x 4."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 4 units. The bar for 'Tuesday' rises to the 4th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 4,
+      "k": 4
+    },
+    "variant_signature": "aa8193030d93f5adc0bcfbcc7bbc5edbe4b51dcfc0068ac55632e3da8bcbb20f"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 5 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 4 x 5."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 5 units. The bar for 'Tuesday' rises to the 4th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 4,
+      "k": 5
+    },
+    "variant_signature": "259a935cb55a806a9de8a087e4eb51cc91a28c7b271b31dc26cc54a8a8e7d6e1"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 4,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 6 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 4 x 6."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 6 units. The bar for 'Tuesday' rises to the 4th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 4,
+      "k": 6
+    },
+    "variant_signature": "84b8d1940dad90c40a33acf3f7893c006c362d1e80947906cb4b1ab950408582"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 5,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 2 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 5 x 2."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 2 units. The bar for 'Tuesday' rises to the 5th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 5,
+      "k": 2
+    },
+    "variant_signature": "d437f7d4f7d42949e75604bdb8cb75ce824b1f8a44133dccb1d4bc14f7c6121b"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 5,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 3 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 5 x 3."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 3 units. The bar for 'Tuesday' rises to the 5th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 5,
+      "k": 3
+    },
+    "variant_signature": "14ad6246accc8df1cf9adadd2dcd235ba3c754c51b0253683fceaab7e6b15d17"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 5,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 4 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 5 x 4."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 4 units. The bar for 'Tuesday' rises to the 5th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 5,
+      "k": 4
+    },
+    "variant_signature": "6fb580b343bd19d9cac612a54c2dbd03ef14cce03c0159b48a3d304556848c6b"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 5,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 5 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 5 x 5."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 5 units. The bar for 'Tuesday' rises to the 5th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 5,
+      "k": 5
+    },
+    "variant_signature": "28ab118d4274d2792aaa1541cf5b040abf7707c912c0e6ee5bd6cd321d70875a"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 5,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 6 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 5 x 6."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 6 units. The bar for 'Tuesday' rises to the 5th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 5,
+      "k": 6
+    },
+    "variant_signature": "7ca3d3e71c40de533146888d2f45fd846f2a496bac9b8290dd112f03879a158c"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 6,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 2 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 6 x 2."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 2 units. The bar for 'Tuesday' rises to the 6th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 6,
+      "k": 2
+    },
+    "variant_signature": "4dbea32e8dbe9b94ac6567ec1a05cfb040b0ea1fc46641ed94b2e896d017a3c1"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 6,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 3 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 6 x 3."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 3 units. The bar for 'Tuesday' rises to the 6th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 6,
+      "k": 3
+    },
+    "variant_signature": "563226b022650cac91ca98c10b233a1422bb5c8f40e29e8b7a1832ac7e7f3500"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 6,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 4 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 6 x 4."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 4 units. The bar for 'Tuesday' rises to the 6th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 6,
+      "k": 4
+    },
+    "variant_signature": "04f34e138b2da47f23d93f9725d3def0a2ac5bc6e6353b34a2daab7066e585d7"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 6,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 5 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 6 x 5."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 5 units. The bar for 'Tuesday' rises to the 6th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 6,
+      "k": 5
+    },
+    "variant_signature": "473c2946e4b936b558996cbc6dfe467aec7350649cbef8c08d5d46158a80df2e"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "37"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 6,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 6 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 6 x 6."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 6 units. The bar for 'Tuesday' rises to the 6th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 6,
+      "k": 6
+    },
+    "variant_signature": "e1d2ed7541c8b60c7b76386d3e6306e07360ddf30827263dc587de393741d0f7"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 7,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 2 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 7 x 2."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 2 units. The bar for 'Tuesday' rises to the 7th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 7,
+      "k": 2
+    },
+    "variant_signature": "5648d0fc9fc9b972b12a93066d3a1e875fe4d0564cc34078cd9b52e18f788203"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 7,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 3 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 7 x 3."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 3 units. The bar for 'Tuesday' rises to the 7th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 7,
+      "k": 3
+    },
+    "variant_signature": "07b818a679de4f4ca7cfc386c16d79b73788a24883754a2179910f349b9c0b2c"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 7,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 4 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 7 x 4."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 4 units. The bar for 'Tuesday' rises to the 7th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 7,
+      "k": 4
+    },
+    "variant_signature": "4ebb07d0042927bbd17add650d12147c4fe08ce4a695423a93165f2239de3148"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 7,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 5 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 7 x 5."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 5 units. The bar for 'Tuesday' rises to the 7th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 7,
+      "k": 5
+    },
+    "variant_signature": "49ddb427e58d7afa1354ed05d574b3d0dcb10bd97f8f1cf2bab40f7dc88dee88"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "43"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 7,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 6 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 7 x 6."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 6 units. The bar for 'Tuesday' rises to the 7th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 7,
+      "k": 6
+    },
+    "variant_signature": "6be1c3302d8cd771613ca5ca2b327d0b65546837b6ea0880f40e2d8a1450006e"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 8,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 2 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 8 x 2."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 2 units. The bar for 'Tuesday' rises to the 8th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 8,
+      "k": 2
+    },
+    "variant_signature": "20d6e81b9df363739f0d0999d85ff5719041e15b518d5f64bef87b899f00b6ab"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 8,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 3 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 8 x 3."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 3 units. The bar for 'Tuesday' rises to the 8th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 8,
+      "k": 3
+    },
+    "variant_signature": "c2f3b2c169d69d63a8f0656c998ccc7f0385ee08ab82e243824116268838b0e2"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "33"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 8,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 4 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 8 x 4."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 4 units. The bar for 'Tuesday' rises to the 8th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 8,
+      "k": 4
+    },
+    "variant_signature": "bcecfe8d9c0b291fcd17e438f169dfe9d14608abdffac4fdef935e3b91b16389"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "41"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 8,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 5 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 8 x 5."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 5 units. The bar for 'Tuesday' rises to the 8th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 8,
+      "k": 5
+    },
+    "variant_signature": "b22f9e76e551411cd7a54f8d66eaab1847b1662c1da406ba978e0b0adef972f1"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "49"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 8,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 6 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 8 x 6."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 6 units. The bar for 'Tuesday' rises to the 8th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 8,
+      "k": 6
+    },
+    "variant_signature": "4818a6c5c3330e8871851841f8a8248f8781170aa97f8d3237011943f1affb1b"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 9,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 2
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 2 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 9 x 2."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 2 units. The bar for 'Tuesday' rises to the 9th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 9,
+      "k": 2
+    },
+    "variant_signature": "98e22d8b6fca9f674ca7a6f4d4ddfef1f7ae9ed3837c5435d4b5a7468f7e116f"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 9,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 3 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 9 x 3."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 3 units. The bar for 'Tuesday' rises to the 9th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 9,
+      "k": 3
+    },
+    "variant_signature": "2a813efdcc5a918689ab9631487cb4463db40953cf1ad3209deb8910065e0d3c"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "37"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 9,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 4 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 9 x 4."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 4 units. The bar for 'Tuesday' rises to the 9th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 9,
+      "k": 4
+    },
+    "variant_signature": "36a5502002814ca776e25d74e5717337af683dbf514599cb21cec66d18e868fa"
+  },
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "46"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 9,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 5 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 9 x 5."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 5 units. The bar for 'Tuesday' rises to the 9th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 9,
+      "k": 5
+    },
+    "variant_signature": "9c05d6d50500f03506c61c8f598742d8aef0d47a969b1d5736d704de1a068a99"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "55"
+      }
+    ],
+    "figures": [
+      {
+        "bars": [
+          {
+            "gridlines": 9,
+            "label": "Tuesday"
+          }
+        ],
+        "kind": "bar-graph",
+        "scale": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the axis scale before reading the bar's height.",
+      "Multiply the gridline count by the value each gridline represents."
+    ],
+    "item_instance_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.BARGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each gridline stands for 6 units, not 1.",
+        "Multiply the gridline number the bar reaches by the scale: 9 x 6."
+      ]
+    },
+    "stem": "A bar graph's vertical axis is scaled so each gridline represents 6 units. The bar for 'Tuesday' rises to the 9th gridline. What value does this bar represent?",
+    "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "g": 9,
+      "k": 6
+    },
+    "variant_signature": "e46dee9735a033cf721fc5bd732fe64abbacd3958d407c5dff5d53d2ad20242a"
+  }
+]

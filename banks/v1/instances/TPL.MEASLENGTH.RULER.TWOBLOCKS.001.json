@@ -1,0 +1,2642 @@
+[
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 10,
+            "label": "Two blocks, end-to-end",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 2 cm mark to the 10 cm mark.",
+        "Their combined length is the end mark minus the start mark: 10 - 2."
+      ]
+    },
+    "stem": "Ravi lines up two blocks end-to-end along a ruler. The first block's edge is at the 2 cm mark, and after placing the second block right after it, the far edge lands on the 10 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 10
+    },
+    "variant_signature": "9fdfb578cf148109580dc7f6b8b47e9eb0fb38580bd9424a8b79bf6cec7fc50a"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 12,
+            "label": "Two blocks, end-to-end",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 2 cm mark to the 12 cm mark.",
+        "Their combined length is the end mark minus the start mark: 12 - 2."
+      ]
+    },
+    "stem": "Priya lines up two blocks end-to-end along a ruler. The first block's edge is at the 2 cm mark, and after placing the second block right after it, the far edge lands on the 12 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 12
+    },
+    "variant_signature": "8c35bf2c29b53196e7027fac8dd353c0161eaae11fe163067b4fff67ec7e187e"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 13,
+            "label": "Two blocks, end-to-end",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 2 cm mark to the 13 cm mark.",
+        "Their combined length is the end mark minus the start mark: 13 - 2."
+      ]
+    },
+    "stem": "Arjun lines up two blocks end-to-end along a ruler. The first block's edge is at the 2 cm mark, and after placing the second block right after it, the far edge lands on the 13 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 13
+    },
+    "variant_signature": "fde72432f2f46725570245a9a0a1c87fba427520891439e0bfd002ca438700da"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 14,
+            "label": "Two blocks, end-to-end",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 2 cm mark to the 14 cm mark.",
+        "Their combined length is the end mark minus the start mark: 14 - 2."
+      ]
+    },
+    "stem": "Meera lines up two blocks end-to-end along a ruler. The first block's edge is at the 2 cm mark, and after placing the second block right after it, the far edge lands on the 14 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 14
+    },
+    "variant_signature": "7b8376189e5a19ea100acb9aa9a0ee2b988459e2dec88e7aff5740de6837931b"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 16,
+            "label": "Two blocks, end-to-end",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 2 cm mark to the 16 cm mark.",
+        "Their combined length is the end mark minus the start mark: 16 - 2."
+      ]
+    },
+    "stem": "Diya lines up two blocks end-to-end along a ruler. The first block's edge is at the 2 cm mark, and after placing the second block right after it, the far edge lands on the 16 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 16
+    },
+    "variant_signature": "20a8d113519601ce17d2e85caa1b3a37e5831461fccba8485c07d941029f1f72"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 17,
+            "label": "Two blocks, end-to-end",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 2 cm mark to the 17 cm mark.",
+        "Their combined length is the end mark minus the start mark: 17 - 2."
+      ]
+    },
+    "stem": "Kabir lines up two blocks end-to-end along a ruler. The first block's edge is at the 2 cm mark, and after placing the second block right after it, the far edge lands on the 17 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 17
+    },
+    "variant_signature": "043f6f6e32bad333d223bee34fe18d21e716ad3b675e736f8c3cb8fe5a1dcd73"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 18,
+            "label": "Two blocks, end-to-end",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 2 cm mark to the 18 cm mark.",
+        "Their combined length is the end mark minus the start mark: 18 - 2."
+      ]
+    },
+    "stem": "Ananya lines up two blocks end-to-end along a ruler. The first block's edge is at the 2 cm mark, and after placing the second block right after it, the far edge lands on the 18 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 18
+    },
+    "variant_signature": "19a570e4b76357969850bd87b44c29ebe114130c8c0675c6d4b8b1053f24a6d2"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 19,
+            "label": "Two blocks, end-to-end",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 2 cm mark to the 19 cm mark.",
+        "Their combined length is the end mark minus the start mark: 19 - 2."
+      ]
+    },
+    "stem": "Vihaan lines up two blocks end-to-end along a ruler. The first block's edge is at the 2 cm mark, and after placing the second block right after it, the far edge lands on the 19 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 19
+    },
+    "variant_signature": "427c6b2806ac0c21c6364e690abb7919e58562d61eadb9ad19dd2e6362eda5ca"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 10,
+            "label": "Two blocks, end-to-end",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 3 cm mark to the 10 cm mark.",
+        "Their combined length is the end mark minus the start mark: 10 - 3."
+      ]
+    },
+    "stem": "Ravi lines up two blocks end-to-end along a ruler. The first block's edge is at the 3 cm mark, and after placing the second block right after it, the far edge lands on the 10 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 10
+    },
+    "variant_signature": "a55ff86fda0bf7ee3e5e4cece273f8de54c0e63a0a74508da7877df9aaf97d32"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 11,
+            "label": "Two blocks, end-to-end",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 3 cm mark to the 11 cm mark.",
+        "Their combined length is the end mark minus the start mark: 11 - 3."
+      ]
+    },
+    "stem": "Priya lines up two blocks end-to-end along a ruler. The first block's edge is at the 3 cm mark, and after placing the second block right after it, the far edge lands on the 11 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 11
+    },
+    "variant_signature": "e455499f616adaaf69350c15dfa5a63b9e4718566c187419e64794541d74031f"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 12,
+            "label": "Two blocks, end-to-end",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 3 cm mark to the 12 cm mark.",
+        "Their combined length is the end mark minus the start mark: 12 - 3."
+      ]
+    },
+    "stem": "Arjun lines up two blocks end-to-end along a ruler. The first block's edge is at the 3 cm mark, and after placing the second block right after it, the far edge lands on the 12 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 12
+    },
+    "variant_signature": "694e9c3688b9aad07264ed97701faef7d7007bc6ed8c966aec4f54c543a2fa4f"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 14,
+            "label": "Two blocks, end-to-end",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 3 cm mark to the 14 cm mark.",
+        "Their combined length is the end mark minus the start mark: 14 - 3."
+      ]
+    },
+    "stem": "Meera lines up two blocks end-to-end along a ruler. The first block's edge is at the 3 cm mark, and after placing the second block right after it, the far edge lands on the 14 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 14
+    },
+    "variant_signature": "8b5a3c0d913df690e6da433c20cb647709483c9ff70f2231f7b43108f5806d85"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 15,
+            "label": "Two blocks, end-to-end",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 3 cm mark to the 15 cm mark.",
+        "Their combined length is the end mark minus the start mark: 15 - 3."
+      ]
+    },
+    "stem": "Diya lines up two blocks end-to-end along a ruler. The first block's edge is at the 3 cm mark, and after placing the second block right after it, the far edge lands on the 15 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 15
+    },
+    "variant_signature": "f9fa7824c3c005f0b8675c4685cde4525658656a451d626c5ba571df96ed2927"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 16,
+            "label": "Two blocks, end-to-end",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 3 cm mark to the 16 cm mark.",
+        "Their combined length is the end mark minus the start mark: 16 - 3."
+      ]
+    },
+    "stem": "Kabir lines up two blocks end-to-end along a ruler. The first block's edge is at the 3 cm mark, and after placing the second block right after it, the far edge lands on the 16 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 16
+    },
+    "variant_signature": "9156ae193501ca946738104182efd6f0854d42116283a0c5a9d8e11fdf5fa1bf"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 18,
+            "label": "Two blocks, end-to-end",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 3 cm mark to the 18 cm mark.",
+        "Their combined length is the end mark minus the start mark: 18 - 3."
+      ]
+    },
+    "stem": "Ananya lines up two blocks end-to-end along a ruler. The first block's edge is at the 3 cm mark, and after placing the second block right after it, the far edge lands on the 18 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 18
+    },
+    "variant_signature": "0fc2bf044f08943e4851acfde43e0adba1e0b0073394c0593c6cdaddfb721706"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 19,
+            "label": "Two blocks, end-to-end",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 3 cm mark to the 19 cm mark.",
+        "Their combined length is the end mark minus the start mark: 19 - 3."
+      ]
+    },
+    "stem": "Vihaan lines up two blocks end-to-end along a ruler. The first block's edge is at the 3 cm mark, and after placing the second block right after it, the far edge lands on the 19 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 19
+    },
+    "variant_signature": "8004e9ed73c8221387a181145ddd0e7a50d4e3735dd9caf47f4a985db87638c7"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 20,
+            "label": "Two blocks, end-to-end",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 3 cm mark to the 20 cm mark.",
+        "Their combined length is the end mark minus the start mark: 20 - 3."
+      ]
+    },
+    "stem": "Ravi lines up two blocks end-to-end along a ruler. The first block's edge is at the 3 cm mark, and after placing the second block right after it, the far edge lands on the 20 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 20
+    },
+    "variant_signature": "3f848d4b27bf0491a0348b532cf83063477112f5ca63f14f913fb64f53c6b2b7"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 11,
+            "label": "Two blocks, end-to-end",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 4 cm mark to the 11 cm mark.",
+        "Their combined length is the end mark minus the start mark: 11 - 4."
+      ]
+    },
+    "stem": "Priya lines up two blocks end-to-end along a ruler. The first block's edge is at the 4 cm mark, and after placing the second block right after it, the far edge lands on the 11 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 11
+    },
+    "variant_signature": "5bf8d9d6f4c7046f0426cc6dfc771ac1c02729e1ed3bb206d685bbd0abe17e30"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 12,
+            "label": "Two blocks, end-to-end",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 4 cm mark to the 12 cm mark.",
+        "Their combined length is the end mark minus the start mark: 12 - 4."
+      ]
+    },
+    "stem": "Arjun lines up two blocks end-to-end along a ruler. The first block's edge is at the 4 cm mark, and after placing the second block right after it, the far edge lands on the 12 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 12
+    },
+    "variant_signature": "2bfb32a61c25ec23ed3a72471218b347c8bcb1ae11b021734beb8e5f14713558"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 13,
+            "label": "Two blocks, end-to-end",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 4 cm mark to the 13 cm mark.",
+        "Their combined length is the end mark minus the start mark: 13 - 4."
+      ]
+    },
+    "stem": "Meera lines up two blocks end-to-end along a ruler. The first block's edge is at the 4 cm mark, and after placing the second block right after it, the far edge lands on the 13 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 13
+    },
+    "variant_signature": "3ffcc9cd8f825f2602f7748e179ddde43f90e0430dc42a89975eefefb7d06da1"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 15,
+            "label": "Two blocks, end-to-end",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 4 cm mark to the 15 cm mark.",
+        "Their combined length is the end mark minus the start mark: 15 - 4."
+      ]
+    },
+    "stem": "Diya lines up two blocks end-to-end along a ruler. The first block's edge is at the 4 cm mark, and after placing the second block right after it, the far edge lands on the 15 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 15
+    },
+    "variant_signature": "3842bbe59c373e3654bff37516740dfbbd87970eed0696e283c1376adc3d9150"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 16,
+            "label": "Two blocks, end-to-end",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 4 cm mark to the 16 cm mark.",
+        "Their combined length is the end mark minus the start mark: 16 - 4."
+      ]
+    },
+    "stem": "Kabir lines up two blocks end-to-end along a ruler. The first block's edge is at the 4 cm mark, and after placing the second block right after it, the far edge lands on the 16 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 16
+    },
+    "variant_signature": "7e38343eee0ea24dbe60a5e26f66075ca8e3f5cf3db66b248c73a31c1ed4a3fd"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 17,
+            "label": "Two blocks, end-to-end",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 4 cm mark to the 17 cm mark.",
+        "Their combined length is the end mark minus the start mark: 17 - 4."
+      ]
+    },
+    "stem": "Ananya lines up two blocks end-to-end along a ruler. The first block's edge is at the 4 cm mark, and after placing the second block right after it, the far edge lands on the 17 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 17
+    },
+    "variant_signature": "2f54c7c238bb2151c788498f469856c378b224e8190a7b90f57c647f51dbf3dd"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 19,
+            "label": "Two blocks, end-to-end",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 4 cm mark to the 19 cm mark.",
+        "Their combined length is the end mark minus the start mark: 19 - 4."
+      ]
+    },
+    "stem": "Vihaan lines up two blocks end-to-end along a ruler. The first block's edge is at the 4 cm mark, and after placing the second block right after it, the far edge lands on the 19 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 19
+    },
+    "variant_signature": "8784bb0b861e797e1a75e364e6fea0b5922b6fbb432b819d1d82b76ed710501d"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 20,
+            "label": "Two blocks, end-to-end",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 4 cm mark to the 20 cm mark.",
+        "Their combined length is the end mark minus the start mark: 20 - 4."
+      ]
+    },
+    "stem": "Ravi lines up two blocks end-to-end along a ruler. The first block's edge is at the 4 cm mark, and after placing the second block right after it, the far edge lands on the 20 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 20
+    },
+    "variant_signature": "4cb38aa9fd5ffabe3d56888d2b2a387f14377c9ca0da8d4412816c9b8760fb90"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 11,
+            "label": "Two blocks, end-to-end",
+            "start": 5
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 5 cm mark to the 11 cm mark.",
+        "Their combined length is the end mark minus the start mark: 11 - 5."
+      ]
+    },
+    "stem": "Priya lines up two blocks end-to-end along a ruler. The first block's edge is at the 5 cm mark, and after placing the second block right after it, the far edge lands on the 11 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 11
+    },
+    "variant_signature": "38cef155c18b49cfb5172298439ecb7963e66b75bbb4906d48bd50f2043c4299"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 13,
+            "label": "Two blocks, end-to-end",
+            "start": 5
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 5 cm mark to the 13 cm mark.",
+        "Their combined length is the end mark minus the start mark: 13 - 5."
+      ]
+    },
+    "stem": "Arjun lines up two blocks end-to-end along a ruler. The first block's edge is at the 5 cm mark, and after placing the second block right after it, the far edge lands on the 13 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 13
+    },
+    "variant_signature": "cedaac764ae35a7f75dad0aa90533fc41456c7cd66575b4222dd4bb611f77027"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 14,
+            "label": "Two blocks, end-to-end",
+            "start": 5
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 5 cm mark to the 14 cm mark.",
+        "Their combined length is the end mark minus the start mark: 14 - 5."
+      ]
+    },
+    "stem": "Meera lines up two blocks end-to-end along a ruler. The first block's edge is at the 5 cm mark, and after placing the second block right after it, the far edge lands on the 14 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 14
+    },
+    "variant_signature": "4beecc25db4c608adb8debbe5c3f9b80fe2a35b255bfe437f3227bafa0549140"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 15,
+            "label": "Two blocks, end-to-end",
+            "start": 5
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 5 cm mark to the 15 cm mark.",
+        "Their combined length is the end mark minus the start mark: 15 - 5."
+      ]
+    },
+    "stem": "Diya lines up two blocks end-to-end along a ruler. The first block's edge is at the 5 cm mark, and after placing the second block right after it, the far edge lands on the 15 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 15
+    },
+    "variant_signature": "f5ddbfed6be304b71433d24e79fa4144c9b1e48f102a432b95ca650b71ef51c2"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 17,
+            "label": "Two blocks, end-to-end",
+            "start": 5
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 5 cm mark to the 17 cm mark.",
+        "Their combined length is the end mark minus the start mark: 17 - 5."
+      ]
+    },
+    "stem": "Kabir lines up two blocks end-to-end along a ruler. The first block's edge is at the 5 cm mark, and after placing the second block right after it, the far edge lands on the 17 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 17
+    },
+    "variant_signature": "bb0c73f7d9d0371d5139fb680655bac9271a20b08d66f8f65487d35bf2fbb22a"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 18,
+            "label": "Two blocks, end-to-end",
+            "start": 5
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 5 cm mark to the 18 cm mark.",
+        "Their combined length is the end mark minus the start mark: 18 - 5."
+      ]
+    },
+    "stem": "Ananya lines up two blocks end-to-end along a ruler. The first block's edge is at the 5 cm mark, and after placing the second block right after it, the far edge lands on the 18 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 18
+    },
+    "variant_signature": "b65231421c7af02ce826d83eb7cb27c9693308b500205f0335313d5e932d38c2"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 19,
+            "label": "Two blocks, end-to-end",
+            "start": 5
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 5 cm mark to the 19 cm mark.",
+        "Their combined length is the end mark minus the start mark: 19 - 5."
+      ]
+    },
+    "stem": "Vihaan lines up two blocks end-to-end along a ruler. The first block's edge is at the 5 cm mark, and after placing the second block right after it, the far edge lands on the 19 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 19
+    },
+    "variant_signature": "3977d805bf0436ec9ba7573fdcad13bdd39c2952f44fbe5e11f93e2b9f8ab2db"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 10,
+            "label": "Two blocks, end-to-end",
+            "start": 6
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 6 cm mark to the 10 cm mark.",
+        "Their combined length is the end mark minus the start mark: 10 - 6."
+      ]
+    },
+    "stem": "Ravi lines up two blocks end-to-end along a ruler. The first block's edge is at the 6 cm mark, and after placing the second block right after it, the far edge lands on the 10 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 10
+    },
+    "variant_signature": "9a7c5d86734c2be2ded5e40d9f6fb7acfb3e21957cdfb5db6f9a9330374e4cb6"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 11,
+            "label": "Two blocks, end-to-end",
+            "start": 6
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 6 cm mark to the 11 cm mark.",
+        "Their combined length is the end mark minus the start mark: 11 - 6."
+      ]
+    },
+    "stem": "Priya lines up two blocks end-to-end along a ruler. The first block's edge is at the 6 cm mark, and after placing the second block right after it, the far edge lands on the 11 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 11
+    },
+    "variant_signature": "8c73ebe9fb0a1f01f255fd585a8eeec20fa292940374df6ca787a633080c1ed3"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 13,
+            "label": "Two blocks, end-to-end",
+            "start": 6
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 6 cm mark to the 13 cm mark.",
+        "Their combined length is the end mark minus the start mark: 13 - 6."
+      ]
+    },
+    "stem": "Arjun lines up two blocks end-to-end along a ruler. The first block's edge is at the 6 cm mark, and after placing the second block right after it, the far edge lands on the 13 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 13
+    },
+    "variant_signature": "c6ae09d172f362c3897cd16eb16aa963da462ae0745e9e4fd882540c221e86ce"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 15,
+            "label": "Two blocks, end-to-end",
+            "start": 6
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 6 cm mark to the 15 cm mark.",
+        "Their combined length is the end mark minus the start mark: 15 - 6."
+      ]
+    },
+    "stem": "Meera lines up two blocks end-to-end along a ruler. The first block's edge is at the 6 cm mark, and after placing the second block right after it, the far edge lands on the 15 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 15
+    },
+    "variant_signature": "73b1ed21c49cc4595bae9a05a108fb0229fbb6cd8152213f4a3eb725f884d720"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 16,
+            "label": "Two blocks, end-to-end",
+            "start": 6
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 6 cm mark to the 16 cm mark.",
+        "Their combined length is the end mark minus the start mark: 16 - 6."
+      ]
+    },
+    "stem": "Diya lines up two blocks end-to-end along a ruler. The first block's edge is at the 6 cm mark, and after placing the second block right after it, the far edge lands on the 16 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 16
+    },
+    "variant_signature": "d248e7a8f11476e109a356b2f9dc34994c21d40b3c3d9be97898925358f91dec"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 17,
+            "label": "Two blocks, end-to-end",
+            "start": 6
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 6 cm mark to the 17 cm mark.",
+        "Their combined length is the end mark minus the start mark: 17 - 6."
+      ]
+    },
+    "stem": "Kabir lines up two blocks end-to-end along a ruler. The first block's edge is at the 6 cm mark, and after placing the second block right after it, the far edge lands on the 17 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 17
+    },
+    "variant_signature": "763d003285ef9cccbb918b16567feab05c7f472cacaab293e6d41e51b6045771"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 19,
+            "label": "Two blocks, end-to-end",
+            "start": 6
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 6 cm mark to the 19 cm mark.",
+        "Their combined length is the end mark minus the start mark: 19 - 6."
+      ]
+    },
+    "stem": "Ananya lines up two blocks end-to-end along a ruler. The first block's edge is at the 6 cm mark, and after placing the second block right after it, the far edge lands on the 19 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 19
+    },
+    "variant_signature": "ea18f1892c422a4fa3e84437e0276a464c0092fb3b60e78b7b4b6ffee0d6159d"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 30,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 20,
+            "label": "Two blocks, end-to-end",
+            "start": 6
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Where do the two blocks actually begin on the ruler? It isn't the 0 mark.",
+      "Subtract the starting mark from the ending mark \u2014 don't just read off the far edge."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The blocks together span from the 6 cm mark to the 20 cm mark.",
+        "Their combined length is the end mark minus the start mark: 20 - 6."
+      ]
+    },
+    "stem": "Vihaan lines up two blocks end-to-end along a ruler. The first block's edge is at the 6 cm mark, and after placing the second block right after it, the far edge lands on the 20 cm mark. What is the total length of both blocks together, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 20
+    },
+    "variant_signature": "c75d14ffae7157a0284d0cb32fd0c85c69de9a94e7eca9521e0e2571ccf448fb"
+  }
+]

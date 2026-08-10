@@ -1,0 +1,1682 @@
+[
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 2,
+            "label": "Attendance",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 2 groups by fives, then add the 0 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 2 groups of five strokes (four strokes with one line crossing them) plus 0 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 2,
+      "extra": 0
+    },
+    "variant_signature": "606c21f3527587df61c41b7f0a931d1079a0834a4ed6317c87a29dbb7b09edcd"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 2,
+            "label": "Attendance",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 2 groups by fives, then add the 1 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 2 groups of five strokes (four strokes with one line crossing them) plus 1 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 2,
+      "extra": 1
+    },
+    "variant_signature": "1d57ca5ae15f49f9bb43a384da7af895f415ab88b02f876003d01b8ba8da3bfa"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 2,
+            "label": "Attendance",
+            "loose": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 2 groups by fives, then add the 2 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 2 groups of five strokes (four strokes with one line crossing them) plus 2 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 2,
+      "extra": 2
+    },
+    "variant_signature": "69920d9bc90d259926b5b9893d35bbe4c32a093cd9eefe98bf81fa2c0ea05ebd"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 2,
+            "label": "Attendance",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 2 groups by fives, then add the 3 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 2 groups of five strokes (four strokes with one line crossing them) plus 3 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 2,
+      "extra": 3
+    },
+    "variant_signature": "09e6c3376ecfd4a4ac62d4f78853cbdd274acdabb5361eecbc04eaf29460139f"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 2,
+            "label": "Attendance",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 2 groups by fives, then add the 4 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 2 groups of five strokes (four strokes with one line crossing them) plus 4 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 2,
+      "extra": 4
+    },
+    "variant_signature": "d5d18899c8099324581425913ce9d6f1d5ba26fb8245c2a928293e04485f1b4d"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 3,
+            "label": "Attendance",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 3 groups by fives, then add the 0 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 3 groups of five strokes (four strokes with one line crossing them) plus 0 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 3,
+      "extra": 0
+    },
+    "variant_signature": "6bc53ddb05b1f4641c36543b8bb57c1349d7f9ee49e2a72f09d49f12bc16d845"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 3,
+            "label": "Attendance",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 3 groups by fives, then add the 1 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 3 groups of five strokes (four strokes with one line crossing them) plus 1 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 3,
+      "extra": 1
+    },
+    "variant_signature": "53d634fe42ff87ee20b34473fb50a4695c7df31481555ffef3965fc3d6ee49cf"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 3,
+            "label": "Attendance",
+            "loose": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 3 groups by fives, then add the 2 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 3 groups of five strokes (four strokes with one line crossing them) plus 2 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 3,
+      "extra": 2
+    },
+    "variant_signature": "c72c51c4761c550aa9b1aa28067a0c8e19c4d4deda939eb8e5ad26f3532577be"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 3,
+            "label": "Attendance",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 3 groups by fives, then add the 3 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 3 groups of five strokes (four strokes with one line crossing them) plus 3 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 3,
+      "extra": 3
+    },
+    "variant_signature": "5c5ff3cb0fbde9206a711d3a79a48022286a51fdfbcff5b31cfeb5753962bb7b"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 3,
+            "label": "Attendance",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 3 groups by fives, then add the 4 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 3 groups of five strokes (four strokes with one line crossing them) plus 4 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 3,
+      "extra": 4
+    },
+    "variant_signature": "a0719ac7bd1e148a245ee0bf17298c9c685c3488e323f7d16670f92c8827d88d"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 4,
+            "label": "Attendance",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 4 groups by fives, then add the 0 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 4 groups of five strokes (four strokes with one line crossing them) plus 0 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 4,
+      "extra": 0
+    },
+    "variant_signature": "3c5da17d2049ee043c6459cdc17c8cafc645817afff725a4d171d06225889fda"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 4,
+            "label": "Attendance",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 4 groups by fives, then add the 1 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 4 groups of five strokes (four strokes with one line crossing them) plus 1 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 4,
+      "extra": 1
+    },
+    "variant_signature": "e0bf6c3ccf2130cacebbe66030179064f081042291b6ae241079de5742df6f05"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 4,
+            "label": "Attendance",
+            "loose": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 4 groups by fives, then add the 2 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 4 groups of five strokes (four strokes with one line crossing them) plus 2 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 4,
+      "extra": 2
+    },
+    "variant_signature": "149889f385f6be4dc40de3caa20d70c7e33f8181387a5f49e797d1290aaccb76"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 4,
+            "label": "Attendance",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 4 groups by fives, then add the 3 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 4 groups of five strokes (four strokes with one line crossing them) plus 3 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 4,
+      "extra": 3
+    },
+    "variant_signature": "7d2160d05eaee56915687d0ae5040cbd8f176127c6c532c9fb8d0f507a2f85c8"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 4,
+            "label": "Attendance",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 4 groups by fives, then add the 4 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 4 groups of five strokes (four strokes with one line crossing them) plus 4 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 4,
+      "extra": 4
+    },
+    "variant_signature": "7a19133cc13536083bdc01d280847d7c47edc14e50981349bafd2476fa7a4661"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Attendance",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 5 groups by fives, then add the 0 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 5 groups of five strokes (four strokes with one line crossing them) plus 0 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 5,
+      "extra": 0
+    },
+    "variant_signature": "d778f22373163217bf4e2921f11432dd4bc0781d8c15055940566b29a13a6c0a"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Attendance",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 5 groups by fives, then add the 1 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 5 groups of five strokes (four strokes with one line crossing them) plus 1 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 5,
+      "extra": 1
+    },
+    "variant_signature": "d70e0f49d50b7fac46c9c63d3fbcf981473a5cd1f1f0ebd9ea3fa33ccc2398a9"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Attendance",
+            "loose": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 5 groups by fives, then add the 2 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 5 groups of five strokes (four strokes with one line crossing them) plus 2 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 5,
+      "extra": 2
+    },
+    "variant_signature": "45c9a9d833e74dc86563212564dabdc9e9d2abff81758ed0054db94540dc5881"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Attendance",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 5 groups by fives, then add the 3 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 5 groups of five strokes (four strokes with one line crossing them) plus 3 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 5,
+      "extra": 3
+    },
+    "variant_signature": "039b9ca8efcfc737ab06150924d90f9916a9efef2542840081c9a1851ccb1d22"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 5,
+            "label": "Attendance",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 5 groups by fives, then add the 4 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 5 groups of five strokes (four strokes with one line crossing them) plus 4 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 5,
+      "extra": 4
+    },
+    "variant_signature": "bc7ebbe8fd7f87274c96e4833767c325022e02617866387a4d0101d6f6966b03"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Attendance",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 6 groups by fives, then add the 0 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 6 groups of five strokes (four strokes with one line crossing them) plus 0 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 6,
+      "extra": 0
+    },
+    "variant_signature": "f35c3b1be3092e93958d067efa23089480c3c915932415879ccdbf45fb2a4559"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Attendance",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 6 groups by fives, then add the 1 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 6 groups of five strokes (four strokes with one line crossing them) plus 1 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 6,
+      "extra": 1
+    },
+    "variant_signature": "9444e0f818da68c5debb7dd13f5a616c376d388af81ad6f85ff3eca27ed700e3"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Attendance",
+            "loose": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 6 groups by fives, then add the 2 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 6 groups of five strokes (four strokes with one line crossing them) plus 2 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 6,
+      "extra": 2
+    },
+    "variant_signature": "1a09745e30e30e7c6d10a5525bf197d953518a2f6020637ea9c811fcec51ba9f"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Attendance",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 6 groups by fives, then add the 3 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 6 groups of five strokes (four strokes with one line crossing them) plus 3 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 6,
+      "extra": 3
+    },
+    "variant_signature": "d59f22a9799830b99ee5d977044944cca56f4c15cd679e7ec2b0cd91abb62282"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 6,
+            "label": "Attendance",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 6 groups by fives, then add the 4 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 6 groups of five strokes (four strokes with one line crossing them) plus 4 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 6,
+      "extra": 4
+    },
+    "variant_signature": "8ffb7e85f54c1eb75d5c72ae6496a1616fc4f686528014ba963f6a2f44818dd4"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Attendance",
+            "loose": 0
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 7 groups by fives, then add the 0 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 7 groups of five strokes (four strokes with one line crossing them) plus 0 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 7,
+      "extra": 0
+    },
+    "variant_signature": "6a70d1c5251e6dc91827424468887c33bf0be34e14f6f40507b84dfffddb3a03"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Attendance",
+            "loose": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 7 groups by fives, then add the 1 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 7 groups of five strokes (four strokes with one line crossing them) plus 1 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 7,
+      "extra": 1
+    },
+    "variant_signature": "fb8b1a6274ff63d6d9401dbad3db76dc444178516589731659266d102b367262"
+  },
+  {
+    "answer": "37",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Attendance",
+            "loose": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 7 groups by fives, then add the 2 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 7 groups of five strokes (four strokes with one line crossing them) plus 2 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 7,
+      "extra": 2
+    },
+    "variant_signature": "fe4d551c20892ea5e489281209814449153faf682591aa740137d64db4f77ab1"
+  },
+  {
+    "answer": "38",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "31"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Attendance",
+            "loose": 3
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 7 groups by fives, then add the 3 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 7 groups of five strokes (four strokes with one line crossing them) plus 3 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 7,
+      "extra": 3
+    },
+    "variant_signature": "25e110fc3286a9639c465b2ce9b5106bd23c9c83ea1844fa1b481ffefbe3d9c9"
+  },
+  {
+    "answer": "39",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": "MISC.DATA.TALLY-BUNDLE-MISCOUNT",
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "tally-chart",
+        "rows": [
+          {
+            "bundles": 7,
+            "label": "Attendance",
+            "loose": 4
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "A crossed group is still just one bundle of five students, not six and not one.",
+      "Count the crossed groups by fives first, and only add the single strokes at the end."
+    ],
+    "item_instance_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.COLLECT.TALLY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each group of five strokes (four strokes plus the one crossing them) is worth 5, whatever it looks like.",
+        "Skip-count the 7 groups by fives, then add the 4 single strokes."
+      ]
+    },
+    "stem": "A record of attendance is marked with 7 groups of five strokes (four strokes with one line crossing them) plus 4 single strokes with no crossing line. How many students does this record show in total?",
+    "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "bundles": 7,
+      "extra": 4
+    },
+    "variant_signature": "00223b10abc5318bc266a2c8ecdf3b5b8c9fe7ec298aff666600540bbcad4e48"
+  }
+]

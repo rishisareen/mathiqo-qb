@@ -1,0 +1,722 @@
+[
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 1.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 1."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 1th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 1
+    },
+    "variant_signature": "10237e1887eb33d3ac80e8e49ffa2103aed515c960cba005258d80b04d0c146c"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 2.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 2."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 2th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 2
+    },
+    "variant_signature": "1a16ca8e0bf04b98e52442ab0dfa91b2ca09ae9fc4cbb1e875b5270b37b23bc4"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2,
+          3
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 3.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 3."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 3th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 3
+    },
+    "variant_signature": "672d330da7a570c7600e0901e9c9d687a60ceb9829712f019e256b9c16db1954"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2,
+          3,
+          4
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 4.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 4."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 4th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 4
+    },
+    "variant_signature": "f4912b31217477010a85c7eb2ec5cf56af49474c9879a33d8117cd99e73afc51"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 5.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 5."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 5th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 5
+    },
+    "variant_signature": "c5e976bf14694c8599c8d6b69a86cb8d7bd27e5b61a9021105f0b9ffe8883156"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 6.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 6."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 6th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 6
+    },
+    "variant_signature": "1ff75163bbaff2e370dd47f92f3b927b182eeeffbc5bd3cbb27e80fbcb9dbcf5"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 7.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 7."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 7th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 7
+    },
+    "variant_signature": "cec1152c1a778e29d944ab3a79bd5d79c3cb3360e15e6a88a36d2b13e08db091"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 8.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 8."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 8th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 8
+    },
+    "variant_signature": "b535164985905e4bfba36e2b486241efbce2f39b0b1216cb8728a01d8c87305f"
+  },
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 9.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 9."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 9th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 9
+    },
+    "variant_signature": "72e7e9f761f7316f2a63997ea23b4b11ccb229af4eef670d18ca4cd6cfed24fc"
+  },
+  {
+    "answer": "55",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 10.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 10."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 10th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 10
+    },
+    "variant_signature": "a4e13d9882812beb6eaf368db675bdb130e35d9e13701b7f4cfadaed260f7a0b"
+  },
+  {
+    "answer": "66",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 11.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 11."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 11th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 11
+    },
+    "variant_signature": "7ebcd631e91ce08f31874e29b5e9f4c25cca5c1968949f324c40079b9db45e3d"
+  },
+  {
+    "answer": "78",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 12.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 12."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 12th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 12
+    },
+    "variant_signature": "fa56e33eacd39b4ccc4462640ea7282ef1944e40531a133d60736a4224054af5"
+  },
+  {
+    "answer": "91",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 13.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 13."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 13th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 13
+    },
+    "variant_signature": "61892e4d0eba61ec40804625e23c7ef295e0d2cd3a8b63744eaeae374b70c842"
+  },
+  {
+    "answer": "105",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 14.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 14."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 14th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 14
+    },
+    "variant_signature": "81d00d488acd143fd9402a6e8334138917590c8006643d709dac65c9094fb9ac"
+  },
+  {
+    "answer": "120",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "icon": "dot",
+        "kind": "array",
+        "rows": [
+          1,
+          2,
+          3,
+          4,
+          5,
+          6,
+          7,
+          8,
+          9,
+          10,
+          11,
+          12,
+          13,
+          14,
+          15
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try building the triangle row by row: row 1 has 1 dot, row 2 has 2 dots, and so on up to row 15.",
+      "Add the row counts together, or use n x (n + 1) / 2."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth triangular number is the sum of the first n whole numbers: 1 + 2 + ... + n.",
+        "Use the shortcut n x (n + 1) / 2 with n = 15."
+      ]
+    },
+    "stem": "Triangular numbers count the dots in a triangle arrangement: 1, 3, 6, 10, ... What is the 15th triangular number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 15
+    },
+    "variant_signature": "acbd5ff50811e4b7863232e554594dee5e1b12b897c285d8e31d9350ef9d0b04"
+  }
+]

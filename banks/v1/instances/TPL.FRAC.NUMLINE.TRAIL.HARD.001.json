@@ -1,0 +1,1883 @@
+[
+  {
+    "answer": "1/3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/4"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 3,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (3) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 3 equal parts, so each signpost-to-signpost gap is worth 1/3 km.",
+        "The rest stop is 1 parts from the start, so it is 1/3 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 3 equal parts. A rest stop sits at the signpost that is 1 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 3,
+      "k": 1
+    },
+    "variant_signature": "d8531025f8b4b53f1c95bc11fb59c96a67ec75cd5da09ccc68e8f63d9cc92544"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 3,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "2/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (3) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 3 equal parts, so each signpost-to-signpost gap is worth 1/3 km.",
+        "The rest stop is 2 parts from the start, so it is 2/3 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 3 equal parts. A rest stop sits at the signpost that is 2 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 3,
+      "k": 2
+    },
+    "variant_signature": "67dce1865173ac4219a449b060b2219cd86c8a9cd8c8ae19b392cc46ffb0a632"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "4/3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/4"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 3,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (3) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 3 equal parts, so each signpost-to-signpost gap is worth 1/3 km.",
+        "The rest stop is 3 parts from the start, so it is 3/3 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 3 equal parts. A rest stop sits at the signpost that is 3 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 3,
+      "k": 3
+    },
+    "variant_signature": "012cb9f5b1586ae6cc539f5b4e5d5a3eb6d1a73b393895edff503b147a3ce66d"
+  },
+  {
+    "answer": "4/3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 3,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "4/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (3) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 3 equal parts, so each signpost-to-signpost gap is worth 1/3 km.",
+        "The rest stop is 4 parts from the start, so it is 4/3 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 3 equal parts. A rest stop sits at the signpost that is 4 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 3,
+      "k": 4
+    },
+    "variant_signature": "7804339d11e9629ff137e0c6043f52bee456bbf458575a5ec2608871396c5dd0"
+  },
+  {
+    "answer": "5/3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5/4"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 3,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "5/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (3) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 3 equal parts, so each signpost-to-signpost gap is worth 1/3 km.",
+        "The rest stop is 5 parts from the start, so it is 5/3 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 3 equal parts. A rest stop sits at the signpost that is 5 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 3,
+      "k": 5
+    },
+    "variant_signature": "cacf86b93e4eb8d634b925015c5a8f77c9dc66a7f3166b186848d27d0244b63d"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "7/3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/2"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 3,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (3) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 3 equal parts, so each signpost-to-signpost gap is worth 1/3 km.",
+        "The rest stop is 6 parts from the start, so it is 6/3 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 3 equal parts. A rest stop sits at the signpost that is 6 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 3,
+      "k": 6
+    },
+    "variant_signature": "bf080e3efaef1bb8258663b6194cb3eb56f218e27f14c4e0d875f467633587f7"
+  },
+  {
+    "answer": "7/3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "8/3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7/4"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 3,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "7/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (3) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 3 equal parts, so each signpost-to-signpost gap is worth 1/3 km.",
+        "The rest stop is 7 parts from the start, so it is 7/3 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 3 equal parts. A rest stop sits at the signpost that is 7 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 3,
+      "k": 7
+    },
+    "variant_signature": "c8221f7f5d81be905ed55f317065aae0f6c78ec9cab261441d303b936d7e2e10"
+  },
+  {
+    "answer": "8/3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 3,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "8/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (3) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 3 equal parts, so each signpost-to-signpost gap is worth 1/3 km.",
+        "The rest stop is 8 parts from the start, so it is 8/3 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 3 equal parts. A rest stop sits at the signpost that is 8 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 3,
+      "k": 8
+    },
+    "variant_signature": "0d9e30c027b74e8108f1afd1cd17f31b88bef28e79585d0a5496682c5d85f3c5"
+  },
+  {
+    "answer": "1/4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (4) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 4 equal parts, so each signpost-to-signpost gap is worth 1/4 km.",
+        "The rest stop is 1 parts from the start, so it is 1/4 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 4 equal parts. A rest stop sits at the signpost that is 1 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 1
+    },
+    "variant_signature": "58b2527a231cc8b018afac4c10e8c6e1f53033aa9eecbdd648341cab5ec86b5a"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/2"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (4) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 4 equal parts, so each signpost-to-signpost gap is worth 1/4 km.",
+        "The rest stop is 2 parts from the start, so it is 2/4 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 4 equal parts. A rest stop sits at the signpost that is 2 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 2
+    },
+    "variant_signature": "c0e7855de9d1796ae75a876cba43cb38c3fb40c7ba8a430d2796e4c1d74642b9"
+  },
+  {
+    "answer": "3/4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "3/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (4) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 4 equal parts, so each signpost-to-signpost gap is worth 1/4 km.",
+        "The rest stop is 3 parts from the start, so it is 3/4 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 4 equal parts. A rest stop sits at the signpost that is 3 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 3
+    },
+    "variant_signature": "32167b2e9335ac6fb4e1530eab4c671a156e7ad130e4429ab2cd83bafb19bc50"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (4) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 4 equal parts, so each signpost-to-signpost gap is worth 1/4 km.",
+        "The rest stop is 4 parts from the start, so it is 4/4 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 4 equal parts. A rest stop sits at the signpost that is 4 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 4
+    },
+    "variant_signature": "62e1f4f7281ef8a91c3c60cecac13c0d03f9eeb333f306d4c6510bd18b9df9d5"
+  },
+  {
+    "answer": "5/4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "5/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (4) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 4 equal parts, so each signpost-to-signpost gap is worth 1/4 km.",
+        "The rest stop is 5 parts from the start, so it is 5/4 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 4 equal parts. A rest stop sits at the signpost that is 5 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 5
+    },
+    "variant_signature": "aadc8c91656f169a484e8bc2b6f79b6359d30e78abb05a9a354e358dd26e7e5e"
+  },
+  {
+    "answer": "3/2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "7/4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "3/2"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (4) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 4 equal parts, so each signpost-to-signpost gap is worth 1/4 km.",
+        "The rest stop is 6 parts from the start, so it is 6/4 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 4 equal parts. A rest stop sits at the signpost that is 6 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 6
+    },
+    "variant_signature": "4e7a8099b33b7344a10f8d70c4320a6094d33b692dab1be9366755a8e9c2180e"
+  },
+  {
+    "answer": "7/4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "7/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (4) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 4 equal parts, so each signpost-to-signpost gap is worth 1/4 km.",
+        "The rest stop is 7 parts from the start, so it is 7/4 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 4 equal parts. A rest stop sits at the signpost that is 7 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 7
+    },
+    "variant_signature": "4f98efaa9d260ef89e4f55973f8dff4f4c61383aca912e98079e4486098e3622"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "9/4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (4) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 4 equal parts, so each signpost-to-signpost gap is worth 1/4 km.",
+        "The rest stop is 8 parts from the start, so it is 8/4 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 4 equal parts. A rest stop sits at the signpost that is 8 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 8
+    },
+    "variant_signature": "c85f0708f6d351dfb4d0c63f672619be6154dd76d9a044e55b470c952ef01f84"
+  },
+  {
+    "answer": "9/4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "9/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (4) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 4 equal parts, so each signpost-to-signpost gap is worth 1/4 km.",
+        "The rest stop is 9 parts from the start, so it is 9/4 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 4 equal parts. A rest stop sits at the signpost that is 9 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 9
+    },
+    "variant_signature": "06fa133c5ff0d21c9ec10fd80795e909fe06904fd905435f7520a4bd09dbd0e7"
+  },
+  {
+    "answer": "5/2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "11/4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "5/2"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (4) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 4 equal parts, so each signpost-to-signpost gap is worth 1/4 km.",
+        "The rest stop is 10 parts from the start, so it is 10/4 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 4 equal parts. A rest stop sits at the signpost that is 10 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 10
+    },
+    "variant_signature": "5b58641f40d7462a95d08369d4f03f322f7bd6c6bcd29da5a7892ce80e12d525"
+  },
+  {
+    "answer": "11/4",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "11/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (4) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 4 equal parts, so each signpost-to-signpost gap is worth 1/4 km.",
+        "The rest stop is 11 parts from the start, so it is 11/4 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 4 equal parts. A rest stop sits at the signpost that is 11 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 11
+    },
+    "variant_signature": "3d84c604b8b156c9398bfead62a7ee6663ff02e2542dea9eac32ae5eb062a9d6"
+  },
+  {
+    "answer": "1/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/6"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 1 parts from the start, so it is 1/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 1 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 1
+    },
+    "variant_signature": "1fe8f9624c76de6433f46aff6a3e00065c1dba6e5ac51a84b6ca168f63fba8b5"
+  },
+  {
+    "answer": "2/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/3"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "2/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 2 parts from the start, so it is 2/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 2 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 2
+    },
+    "variant_signature": "636c424f148d2e081a4d035c68cf93556b055d58c03338777707a3e35d214ccc"
+  },
+  {
+    "answer": "3/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "4/5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "3/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 3 parts from the start, so it is 3/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 3 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 3
+    },
+    "variant_signature": "9c060091a52862044fb07123788c9519a4b29465b513e883f89d8e4f41e5bf96"
+  },
+  {
+    "answer": "4/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2/3"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "4/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 4 parts from the start, so it is 4/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 4 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 4
+    },
+    "variant_signature": "99677e6d2e405597703b0bde4a7edb88d02b2a0197942bec075a0b49582ada4d"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "6/5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5/6"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 5 parts from the start, so it is 5/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 5 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 5
+    },
+    "variant_signature": "685a1e21aeced2b179b3cbec3159264e615d54b761e1693f5e28cf6918b48ff5"
+  },
+  {
+    "answer": "6/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "7/5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "6/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 6 parts from the start, so it is 6/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 6 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 6
+    },
+    "variant_signature": "21a81176ba78a3dc0d429374a86ad18aba44d3a7787f53cdd61441eb59ed74ba"
+  },
+  {
+    "answer": "7/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "8/5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7/6"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "7/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 7 parts from the start, so it is 7/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 7 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 7
+    },
+    "variant_signature": "a03063515c12b91040cb91cd49f1d27c1543501da1850b825999d0be49a1f575"
+  },
+  {
+    "answer": "8/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "9/5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4/3"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "8/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 8 parts from the start, so it is 8/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 8 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 8
+    },
+    "variant_signature": "4e8b71dc12267ccbb4fe923990cb08234accab54f4176822114c4c4c1f459f40"
+  },
+  {
+    "answer": "9/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/2"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "9/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 9 parts from the start, so it is 9/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 9 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 9
+    },
+    "variant_signature": "bd2700fd289c13da6e4c2ea68deb8a7a30c1242d9167986de41d4cfb0ddbfadd"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "11/5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5/3"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": 2
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 10 parts from the start, so it is 10/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 10 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 10
+    },
+    "variant_signature": "9e0a6904cc6cc459e0aaaac47d066c47ad888417b7989fa141e911ebd3314217"
+  },
+  {
+    "answer": "11/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "12/5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11/6"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "11/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 11 parts from the start, so it is 11/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 11 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 11
+    },
+    "variant_signature": "41f63f93856f4642886c7082dc9fd3a38c87aecbdc420de469c45ac5675506dd"
+  },
+  {
+    "answer": "12/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "13/5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "12/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 12 parts from the start, so it is 12/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 12 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 12
+    },
+    "variant_signature": "f836e6e96c560f969423689bfa990caa196f567e54a62ed809b2b641af55908d"
+  },
+  {
+    "answer": "13/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "14/5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13/6"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "13/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 13 parts from the start, so it is 13/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 13 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 13
+    },
+    "variant_signature": "3b5f8476d8fef9c4334c62d4a7ac0cf9d6ec6c5a9392fd7358df1fc2a06a9339"
+  },
+  {
+    "answer": "14/5",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7/3"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 3,
+        "min": 0,
+        "points": [
+          {
+            "position": "14/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count the equal gaps between signposts from 0, not the signposts themselves.",
+      "The denominator (5) is fixed by how each kilometre is split, no matter how many kilometres you've passed."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each kilometre is split into 5 equal parts, so each signpost-to-signpost gap is worth 1/5 km.",
+        "The rest stop is 14 parts from the start, so it is 14/5 km from 0 \u2014 this may be more than 1 whole kilometre."
+      ]
+    },
+    "stem": "A hiking trail marker line runs from 0 km to 3 km. Signposts split each kilometre into 5 equal parts. A rest stop sits at the signpost that is 14 parts from the start (0 km). As a fraction of a kilometre, how far from the start is the rest stop?",
+    "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 14
+    },
+    "variant_signature": "1857ec9b1625e587222f9890af01da220206e606ec463ba57b1f2f69f5f69443"
+  }
+]

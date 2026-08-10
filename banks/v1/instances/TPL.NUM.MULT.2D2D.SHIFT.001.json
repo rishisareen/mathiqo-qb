@@ -1,0 +1,2122 @@
+[
+  {
+    "answer": "408",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "84"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "46"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 34 into tens and ones: 3 tens and 4 ones.",
+        "Multiply 12 by the ones digit 4 to get the first partial product.",
+        "Multiply 12 by the tens digit 3, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 12 x 34?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 12,
+      "o": 4,
+      "t": 3
+    },
+    "variant_signature": "a3e16ab796dba61c0df14380390413f429c71910af09fc526ad7b1be6be9a740"
+  },
+  {
+    "answer": "900",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "144"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "87"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 75 into tens and ones: 7 tens and 5 ones.",
+        "Multiply 12 by the ones digit 5 to get the first partial product.",
+        "Multiply 12 by the tens digit 7, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 12 x 75?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 12,
+      "o": 5,
+      "t": 7
+    },
+    "variant_signature": "7637178b745b6efa1ff802555dc0dfe95454db5a9ad0bcfad28c0f30a65c0341"
+  },
+  {
+    "answer": "325",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "91"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "38"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "65"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 25 into tens and ones: 2 tens and 5 ones.",
+        "Multiply 13 by the ones digit 5 to get the first partial product.",
+        "Multiply 13 by the tens digit 2, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 13 x 25?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 13,
+      "o": 5,
+      "t": 2
+    },
+    "variant_signature": "88c4775094459952e63b9c4da6c29f5673a03e93cf6da77a67bbb57e1930488c"
+  },
+  {
+    "answer": "858",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "156"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "79"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "78"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 66 into tens and ones: 6 tens and 6 ones.",
+        "Multiply 13 by the ones digit 6 to get the first partial product.",
+        "Multiply 13 by the tens digit 6, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 13 x 66?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 13,
+      "o": 6,
+      "t": 6
+    },
+    "variant_signature": "ff1a66a837cc82ee1a27de503c41a053cdb20f8e03fbfba7351d55e5e629e290"
+  },
+  {
+    "answer": "224",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "98"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "84"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 16 into tens and ones: 1 tens and 6 ones.",
+        "Multiply 14 by the ones digit 6 to get the first partial product.",
+        "Multiply 14 by the tens digit 1, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 14 x 16?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 14,
+      "o": 6,
+      "t": 1
+    },
+    "variant_signature": "f85f6f2c9667fcb54ecea71583cdcb3234b631fff4271e43400913812546e4b8"
+  },
+  {
+    "answer": "784",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "154"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "70"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "84"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 56 into tens and ones: 5 tens and 6 ones.",
+        "Multiply 14 by the ones digit 6 to get the first partial product.",
+        "Multiply 14 by the tens digit 5, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 14 x 56?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 14,
+      "o": 6,
+      "t": 5
+    },
+    "variant_signature": "91181695310841d04864fb6d0698d1d4af9065f64701d6393158d014a54e2d97"
+  },
+  {
+    "answer": "1358",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "224"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "111"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "98"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 97 into tens and ones: 9 tens and 7 ones.",
+        "Multiply 14 by the ones digit 7 to get the first partial product.",
+        "Multiply 14 by the tens digit 9, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 14 x 97?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 14,
+      "o": 7,
+      "t": 9
+    },
+    "variant_signature": "34e087fab0e636cacf6a651512ac47dedb8ebd7520f7e8774637152098ba95a7"
+  },
+  {
+    "answer": "735",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "195"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "135"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 49 into tens and ones: 4 tens and 9 ones.",
+        "Multiply 15 by the ones digit 9 to get the first partial product.",
+        "Multiply 15 by the tens digit 4, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 15 x 49?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 15,
+      "o": 9,
+      "t": 4
+    },
+    "variant_signature": "b7da72b6f528560d8cd71b40f118c72a88ad24cc0494d000632e2326c7561542"
+  },
+  {
+    "answer": "1335",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "255"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "104"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "135"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 89 into tens and ones: 8 tens and 9 ones.",
+        "Multiply 15 by the ones digit 9 to get the first partial product.",
+        "Multiply 15 by the tens digit 8, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 15 x 89?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 15,
+      "o": 9,
+      "t": 8
+    },
+    "variant_signature": "e8f1285e0d5b2b04946b9bc370286a2114178f7d93e8fe6146da62883755f6a9"
+  },
+  {
+    "answer": "624",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "192"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "55"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "144"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 39 into tens and ones: 3 tens and 9 ones.",
+        "Multiply 16 by the ones digit 9 to get the first partial product.",
+        "Multiply 16 by the tens digit 3, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 16 x 39?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 16,
+      "o": 9,
+      "t": 3
+    },
+    "variant_signature": "67193ee7c7c9538ceee5bc6bae86713f261dd483edb87080e38ddf106a012a09"
+  },
+  {
+    "answer": "1280",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "128"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "96"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 80 into tens and ones: 8 tens and 0 ones.",
+        "Multiply 16 by the ones digit 0 to get the first partial product.",
+        "Multiply 16 by the tens digit 8, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 16 x 80?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 16,
+      "o": 0,
+      "t": 8
+    },
+    "variant_signature": "c6d03606eee879a646e999487c88059cf89804ac1990aa1ff4ea1faf9e9359a1"
+  },
+  {
+    "answer": "510",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "51"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "47"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 30 into tens and ones: 3 tens and 0 ones.",
+        "Multiply 17 by the ones digit 0 to get the first partial product.",
+        "Multiply 17 by the tens digit 3, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 17 x 30?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "o": 0,
+      "t": 3
+    },
+    "variant_signature": "058146ab4a6590b4e68adcba6269d10fb07d44de3d4c2b1b0ac59153bacce5e4"
+  },
+  {
+    "answer": "1190",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "119"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "87"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 70 into tens and ones: 7 tens and 0 ones.",
+        "Multiply 17 by the ones digit 0 to get the first partial product.",
+        "Multiply 17 by the tens digit 7, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 17 x 70?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 17,
+      "o": 0,
+      "t": 7
+    },
+    "variant_signature": "8d712cefac1a20f8a4aa25ffa9e374fb1630e3ccf146a57219fb9cf0acd09ae2"
+  },
+  {
+    "answer": "378",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "54"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "39"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 21 into tens and ones: 2 tens and 1 ones.",
+        "Multiply 18 by the ones digit 1 to get the first partial product.",
+        "Multiply 18 by the tens digit 2, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 18 x 21?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 18,
+      "o": 1,
+      "t": 2
+    },
+    "variant_signature": "cdf71fff4dbfd27d1da44049f4505b655c67d72450f45ec29799f30d2c845d35"
+  },
+  {
+    "answer": "1116",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "144"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "80"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 62 into tens and ones: 6 tens and 2 ones.",
+        "Multiply 18 by the ones digit 2 to get the first partial product.",
+        "Multiply 18 by the tens digit 6, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 18 x 62?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 18,
+      "o": 2,
+      "t": 6
+    },
+    "variant_signature": "0452d4cf1f8b4b05a09777c2b9b3881605a5ce3475fd20977da894ce595d580a"
+  },
+  {
+    "answer": "228",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "57"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "38"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 12 into tens and ones: 1 tens and 2 ones.",
+        "Multiply 19 by the ones digit 2 to get the first partial product.",
+        "Multiply 19 by the tens digit 1, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 19 x 12?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 19,
+      "o": 2,
+      "t": 1
+    },
+    "variant_signature": "4570849b21efc8f94371164d7ebf2f0fc9c2abbff07acff26690147b896158a6"
+  },
+  {
+    "answer": "1007",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "152"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "72"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "57"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 53 into tens and ones: 5 tens and 3 ones.",
+        "Multiply 19 by the ones digit 3 to get the first partial product.",
+        "Multiply 19 by the tens digit 5, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 19 x 53?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 19,
+      "o": 3,
+      "t": 5
+    },
+    "variant_signature": "765be2d80862bc19cd4ff86e8259900109d380e68d79e844012cd977808ee507"
+  },
+  {
+    "answer": "1767",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "228"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "112"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "57"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 93 into tens and ones: 9 tens and 3 ones.",
+        "Multiply 19 by the ones digit 3 to get the first partial product.",
+        "Multiply 19 by the tens digit 9, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 19 x 93?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 19,
+      "o": 3,
+      "t": 9
+    },
+    "variant_signature": "49ef8bbf5cadf419817408a1b8ab66baa83a2a4fdc89a5ae2ae7a5e210c15a29"
+  },
+  {
+    "answer": "880",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "160"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "80"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 44 into tens and ones: 4 tens and 4 ones.",
+        "Multiply 20 by the ones digit 4 to get the first partial product.",
+        "Multiply 20 by the tens digit 4, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 20 x 44?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 20,
+      "o": 4,
+      "t": 4
+    },
+    "variant_signature": "da1e0d50886ba1b49faddb5883152e7ff917c6dfe63aba9ded0191cfb726b6b6"
+  },
+  {
+    "answer": "1680",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "240"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "104"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "80"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 84 into tens and ones: 8 tens and 4 ones.",
+        "Multiply 20 by the ones digit 4 to get the first partial product.",
+        "Multiply 20 by the tens digit 8, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 20 x 84?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 20,
+      "o": 4,
+      "t": 8
+    },
+    "variant_signature": "9c19bb3c933fcce8459d22e5fc7002d211ef322f7fdfcd6bc7e679b5400def7f"
+  },
+  {
+    "answer": "735",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "168"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "105"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 35 into tens and ones: 3 tens and 5 ones.",
+        "Multiply 21 by the ones digit 5 to get the first partial product.",
+        "Multiply 21 by the tens digit 3, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 21 x 35?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 21,
+      "o": 5,
+      "t": 3
+    },
+    "variant_signature": "a6790f880f3f86e8d63c0029a260c0810c011a142877667a9c01b2f4272c100b"
+  },
+  {
+    "answer": "1575",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "252"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "96"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "105"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 75 into tens and ones: 7 tens and 5 ones.",
+        "Multiply 21 by the ones digit 5 to get the first partial product.",
+        "Multiply 21 by the tens digit 7, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 21 x 75?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 21,
+      "o": 5,
+      "t": 7
+    },
+    "variant_signature": "1f413f3617c55e7c64e0bf976735db86c2b0f6de821de084777c89099f540982"
+  },
+  {
+    "answer": "572",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "176"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "132"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 26 into tens and ones: 2 tens and 6 ones.",
+        "Multiply 22 by the ones digit 6 to get the first partial product.",
+        "Multiply 22 by the tens digit 2, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 22 x 26?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 22,
+      "o": 6,
+      "t": 2
+    },
+    "variant_signature": "62a50d072a8d3a68387e2761ebb6317f8117bec62e005795d8be68f1e8aec9ad"
+  },
+  {
+    "answer": "1474",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "286"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "89"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "154"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 67 into tens and ones: 6 tens and 7 ones.",
+        "Multiply 22 by the ones digit 7 to get the first partial product.",
+        "Multiply 22 by the tens digit 6, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 22 x 67?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 22,
+      "o": 7,
+      "t": 6
+    },
+    "variant_signature": "953d1e5ef0d86b100a85e6e535beedfaf0ed443f854bc56896bb2e4f39969e63"
+  },
+  {
+    "answer": "391",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "184"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "161"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 17 into tens and ones: 1 tens and 7 ones.",
+        "Multiply 23 by the ones digit 7 to get the first partial product.",
+        "Multiply 23 by the tens digit 1, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 23 x 17?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 23,
+      "o": 7,
+      "t": 1
+    },
+    "variant_signature": "0586c3dddfe03c53906f9c7f967743e967d921d7256dba4a5fc86e00821f6586"
+  },
+  {
+    "answer": "1311",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "276"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "80"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "161"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 57 into tens and ones: 5 tens and 7 ones.",
+        "Multiply 23 by the ones digit 7 to get the first partial product.",
+        "Multiply 23 by the tens digit 5, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 23 x 57?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 23,
+      "o": 7,
+      "t": 5
+    },
+    "variant_signature": "bd157a94cf5a6edcc53e4613066a168b18e3c175db9a97b51115ca1ee8fbb1de"
+  },
+  {
+    "answer": "2254",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "391"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "121"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "184"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 98 into tens and ones: 9 tens and 8 ones.",
+        "Multiply 23 by the ones digit 8 to get the first partial product.",
+        "Multiply 23 by the tens digit 9, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 23 x 98?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 23,
+      "o": 8,
+      "t": 9
+    },
+    "variant_signature": "3f6b8879bee9bed28c272847ae9ee9259aea7062247cf4493587c21a10c4485b"
+  },
+  {
+    "answer": "1152",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "288"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "72"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "192"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 48 into tens and ones: 4 tens and 8 ones.",
+        "Multiply 24 by the ones digit 8 to get the first partial product.",
+        "Multiply 24 by the tens digit 4, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 24 x 48?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 24,
+      "o": 8,
+      "t": 4
+    },
+    "variant_signature": "fe21fe2aafbb890eeb3e1795ece2e18036d7e8fdf9731a9a1eb432203d8ed0fe"
+  },
+  {
+    "answer": "2112",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "384"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "112"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "192"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 88 into tens and ones: 8 tens and 8 ones.",
+        "Multiply 24 by the ones digit 8 to get the first partial product.",
+        "Multiply 24 by the tens digit 8, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 24 x 88?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 24,
+      "o": 8,
+      "t": 8
+    },
+    "variant_signature": "72bee25bc7016810fb9bf3e8c6bdbe2722868de7bc856b08a3123306b8d6f444"
+  },
+  {
+    "answer": "950",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "275"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "63"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "200"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 38 into tens and ones: 3 tens and 8 ones.",
+        "Multiply 25 by the ones digit 8 to get the first partial product.",
+        "Multiply 25 by the tens digit 3, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 25 x 38?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 25,
+      "o": 8,
+      "t": 3
+    },
+    "variant_signature": "8bdfb2d7b950dda19fc1600ec6cafa72e5e2de44efe017bed64ab4163d83b3e5"
+  },
+  {
+    "answer": "1975",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "104"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "225"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 79 into tens and ones: 7 tens and 9 ones.",
+        "Multiply 25 by the ones digit 9 to get the first partial product.",
+        "Multiply 25 by the tens digit 7, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 25 x 79?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 25,
+      "o": 9,
+      "t": 7
+    },
+    "variant_signature": "2dfd91f7dc012bb41516cb96ca95f6760a4c866d8a48f89f0604a35f617c0eb4"
+  },
+  {
+    "answer": "754",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "286"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "55"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "234"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 29 into tens and ones: 2 tens and 9 ones.",
+        "Multiply 26 by the ones digit 9 to get the first partial product.",
+        "Multiply 26 by the tens digit 2, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 26 x 29?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 26,
+      "o": 9,
+      "t": 2
+    },
+    "variant_signature": "e21827b1b435833fd9bb3ca90a1aa3ae5a384638b0cdc4fd76724ce619ac968b"
+  },
+  {
+    "answer": "1794",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "390"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "95"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "234"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 69 into tens and ones: 6 tens and 9 ones.",
+        "Multiply 26 by the ones digit 9 to get the first partial product.",
+        "Multiply 26 by the tens digit 6, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 26 x 69?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 26,
+      "o": 9,
+      "t": 6
+    },
+    "variant_signature": "b46e956d75901ef0f74c3decf787d63d9091fc989d0f72dcad82434e4ce2b60d"
+  },
+  {
+    "answer": "540",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "54"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "47"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 20 into tens and ones: 2 tens and 0 ones.",
+        "Multiply 27 by the ones digit 0 to get the first partial product.",
+        "Multiply 27 by the tens digit 2, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 27 x 20?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 27,
+      "o": 0,
+      "t": 2
+    },
+    "variant_signature": "48308f233617daf7c9259f4edb28ff7ab59d416b54ed116fdfc611d4f2e5aa68"
+  },
+  {
+    "answer": "1620",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "162"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "87"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 60 into tens and ones: 6 tens and 0 ones.",
+        "Multiply 27 by the ones digit 0 to get the first partial product.",
+        "Multiply 27 by the tens digit 6, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 27 x 60?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 27,
+      "o": 0,
+      "t": 6
+    },
+    "variant_signature": "fedab5bafea76941ac192c50451e0e7b1a03e5d5542c8ff55e276f78ed071fab"
+  },
+  {
+    "answer": "280",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "38"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 10 into tens and ones: 1 tens and 0 ones.",
+        "Multiply 28 by the ones digit 0 to get the first partial product.",
+        "Multiply 28 by the tens digit 1, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 28 x 10?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 28,
+      "o": 0,
+      "t": 1
+    },
+    "variant_signature": "6d5bcca602e68200989d771ec51a16375e79fdc4e0b5ae26a9fa09ea92ecc48d"
+  },
+  {
+    "answer": "1428",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "168"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "79"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 51 into tens and ones: 5 tens and 1 ones.",
+        "Multiply 28 by the ones digit 1 to get the first partial product.",
+        "Multiply 28 by the tens digit 5, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 28 x 51?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 28,
+      "o": 1,
+      "t": 5
+    },
+    "variant_signature": "c8245d3c4109761fe19a007d44b75a87737f03cf6cb2ebd56c2b3953ae5a0edb"
+  },
+  {
+    "answer": "2576",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "308"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "120"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 92 into tens and ones: 9 tens and 2 ones.",
+        "Multiply 28 by the ones digit 2 to get the first partial product.",
+        "Multiply 28 by the tens digit 9, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 28 x 92?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 28,
+      "o": 2,
+      "t": 9
+    },
+    "variant_signature": "f842f1b8c93ecf67abe6aabd665f91f4d2b052c35fda94424eefb44e754eb9be"
+  },
+  {
+    "answer": "1218",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "174"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "71"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "58"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 42 into tens and ones: 4 tens and 2 ones.",
+        "Multiply 29 by the ones digit 2 to get the first partial product.",
+        "Multiply 29 by the tens digit 4, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 29 x 42?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 29,
+      "o": 2,
+      "t": 4
+    },
+    "variant_signature": "9d4e654173c1d499b2c4b9680fc580da824b2c5d7071ebc6bddc7d3344ca2605"
+  },
+  {
+    "answer": "2378",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.MULT.NO-SHIFT",
+        "unsimplified": false,
+        "value": "290"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "111"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "58"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Break the second number into its tens and ones parts before multiplying.",
+      "The partial product from the tens digit is worth ten times as much \u2014 shift it one place left (that is, multiply by 10) before adding it to the ones partial product."
+    ],
+    "item_instance_id": "TPL.NUM.MULT.2D2D.SHIFT.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.MULT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Split 82 into tens and ones: 8 tens and 2 ones.",
+        "Multiply 29 by the ones digit 2 to get the first partial product.",
+        "Multiply 29 by the tens digit 8, then shift that result one place left (multiply by 10) before adding \u2014 it is worth ten times as much.",
+        "Add the two partial products to get the final answer."
+      ]
+    },
+    "stem": "What is 29 x 82?",
+    "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 29,
+      "o": 2,
+      "t": 8
+    },
+    "variant_signature": "856b9d2f77d23e5a40b65314dbb2d4ec357e039da3729618b950ca139ee30274"
+  }
+]

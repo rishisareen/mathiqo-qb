@@ -1,0 +1,55 @@
+[
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "circle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the shape have any corners or flat edges? Look carefully.",
+      "A boundary that is curved everywhere, with no flat parts, has zero straight sides."
+    ],
+    "item_instance_id": "TPL.GEO.SHAPES2D.ID.CIRCLE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SHAPES.2D"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check the boundary for any straight parts: there are none, it is curved all the way round.",
+        "A shape with no straight parts at all has 0 straight sides \u2014 it is a circle."
+      ]
+    },
+    "stem": "This shape has a boundary that is curved all the way round, with every point on the edge the same distance from the centre. How many straight sides does it have?",
+    "template_id": "TPL.GEO.SHAPES2D.ID.CIRCLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 1
+    },
+    "variant_signature": "f64caa5ea72c02f9b0dbca1cae39307b30af1e5520c8d0ca275e9753cc616691"
+  }
+]

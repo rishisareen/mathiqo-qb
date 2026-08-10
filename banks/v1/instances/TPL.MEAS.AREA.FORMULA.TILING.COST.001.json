@@ -1,0 +1,1842 @@
+[
+  {
+    "answer": "432",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "252"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "504"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 4 x 3 square metres.",
+        "Multiply the area by the cost per square metre, Rs 36, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 4 m by 3 m is to be tiled. Tiling costs Rs 36 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 3,
+      "rate": 36
+    },
+    "variant_signature": "fc44b7a1a8688f76a9ecbc1823364c668ad05473a8b40bba892ea64c7c5957b5"
+  },
+  {
+    "answer": "860",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "387"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "774"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 4 x 5 square metres.",
+        "Multiply the area by the cost per square metre, Rs 43, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 4 m by 5 m is to be tiled. Tiling costs Rs 43 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 5,
+      "rate": 43
+    },
+    "variant_signature": "27ecf46f427bcfa7c343da03a797d3ee29a834371a8eaf5750800d3a724f6ff8"
+  },
+  {
+    "answer": "1200",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "500"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1000"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 4 x 6 square metres.",
+        "Multiply the area by the cost per square metre, Rs 50, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 4 m by 6 m is to be tiled. Tiling costs Rs 50 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 6,
+      "rate": 50
+    },
+    "variant_signature": "dcff837a12fa9fe49913e0d5ed329482fd0f8a38997487ce817b564a2239a14d"
+  },
+  {
+    "answer": "1596",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "627"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1254"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 4 x 7 square metres.",
+        "Multiply the area by the cost per square metre, Rs 57, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 4 m by 7 m is to be tiled. Tiling costs Rs 57 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 7,
+      "rate": 57
+    },
+    "variant_signature": "d779060e03724011eb96582fda71f31666fb325eb52c5e6d65a3e84e78dc3cd3"
+  },
+  {
+    "answer": "828",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "299"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "598"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 4 x 9 square metres.",
+        "Multiply the area by the cost per square metre, Rs 23, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 4 m by 9 m is to be tiled. Tiling costs Rs 23 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 9,
+      "rate": 23
+    },
+    "variant_signature": "114021ef7d0f870d7e23e66743b7b21db6fbb0003830bb7285f46509a4d3627e"
+  },
+  {
+    "answer": "465",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "248"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "496"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 5 x 3 square metres.",
+        "Multiply the area by the cost per square metre, Rs 31, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 5 m by 3 m is to be tiled. Tiling costs Rs 31 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 3,
+      "rate": 31
+    },
+    "variant_signature": "da756676dee7c3a2caff3a1cdbae51a7a82eb88e0510a19b9c7ad28244b10e11"
+  },
+  {
+    "answer": "760",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "342"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "684"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 5 x 4 square metres.",
+        "Multiply the area by the cost per square metre, Rs 38, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 5 m by 4 m is to be tiled. Tiling costs Rs 38 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 4,
+      "rate": 38
+    },
+    "variant_signature": "ba9b25e835f173f1a12b10901c3110d6675eae114a75c9767f28df3f81568e67"
+  },
+  {
+    "answer": "1125",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "450"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "900"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 5 x 5 square metres.",
+        "Multiply the area by the cost per square metre, Rs 45, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 5 m by 5 m is to be tiled. Tiling costs Rs 45 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 5,
+      "rate": 45
+    },
+    "variant_signature": "a09910fdc9bd3ce3bd3e2410516aa867eeeff87f5c50c3f8d801ac1443550f8e"
+  },
+  {
+    "answer": "1560",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "572"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1144"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 5 x 6 square metres.",
+        "Multiply the area by the cost per square metre, Rs 52, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 5 m by 6 m is to be tiled. Tiling costs Rs 52 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 6,
+      "rate": 52
+    },
+    "variant_signature": "4d8eaae28e11060b71e20bbab8bcbe1b44ea56caa42fe497a07705825669e5ee"
+  },
+  {
+    "answer": "2065",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "708"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1416"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 5 x 7 square metres.",
+        "Multiply the area by the cost per square metre, Rs 59, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 5 m by 7 m is to be tiled. Tiling costs Rs 59 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 7,
+      "rate": 59
+    },
+    "variant_signature": "59002a31df4e3c50bc24ec0a5ade5482b6e279db6fc1adaf1ca7ba4d0008756f"
+  },
+  {
+    "answer": "1125",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "350"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "700"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 5 x 9 square metres.",
+        "Multiply the area by the cost per square metre, Rs 25, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 5 m by 9 m is to be tiled. Tiling costs Rs 25 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 9,
+      "rate": 25
+    },
+    "variant_signature": "09d4e91f3a5fee5535e9f13924189f3eb291ec379423f0311c85f4e6de901380"
+  },
+  {
+    "answer": "792",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "330"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "660"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 6 x 4 square metres.",
+        "Multiply the area by the cost per square metre, Rs 33, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 6 m by 4 m is to be tiled. Tiling costs Rs 33 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 4,
+      "rate": 33
+    },
+    "variant_signature": "b067a123d8d9ab321d083d747d5fe426c4135d6fd3526861d05035f2ca428a25"
+  },
+  {
+    "answer": "1200",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "440"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "880"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 6 x 5 square metres.",
+        "Multiply the area by the cost per square metre, Rs 40, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 6 m by 5 m is to be tiled. Tiling costs Rs 40 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 5,
+      "rate": 40
+    },
+    "variant_signature": "4f59aebe474c0db7532d931cc732567858deb3198affa32b11a6b248c346e03e"
+  },
+  {
+    "answer": "1692",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "564"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1128"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 6 x 6 square metres.",
+        "Multiply the area by the cost per square metre, Rs 47, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 6 m by 6 m is to be tiled. Tiling costs Rs 47 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 6,
+      "rate": 47
+    },
+    "variant_signature": "062c7fd4c52affb3aa7003800bde95f28fa2c30c456efd7750e6895dc75a6c81"
+  },
+  {
+    "answer": "2268",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "702"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1404"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 6 x 7 square metres.",
+        "Multiply the area by the cost per square metre, Rs 54, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 6 m by 7 m is to be tiled. Tiling costs Rs 54 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 7,
+      "rate": 54
+    },
+    "variant_signature": "20d2ad75a600cc24e84df9977f343fbb923cbc02f4196c865468da222f90e773"
+  },
+  {
+    "answer": "1080",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "300"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "600"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 6 x 9 square metres.",
+        "Multiply the area by the cost per square metre, Rs 20, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 6 m by 9 m is to be tiled. Tiling costs Rs 20 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 9,
+      "rate": 20
+    },
+    "variant_signature": "17541734dce9b3dd1a427e9e7d4a5a77a80e4854e0817f6149397f75a045ba75"
+  },
+  {
+    "answer": "588",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "280"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "560"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 7 x 3 square metres.",
+        "Multiply the area by the cost per square metre, Rs 28, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 7 m by 3 m is to be tiled. Tiling costs Rs 28 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 3,
+      "rate": 28
+    },
+    "variant_signature": "9e522be5659ce21d319c3c2055f37c7ae9a595983d5bee6171090426ad07a7c8"
+  },
+  {
+    "answer": "980",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "385"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "770"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 7 x 4 square metres.",
+        "Multiply the area by the cost per square metre, Rs 35, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 7 m by 4 m is to be tiled. Tiling costs Rs 35 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 4,
+      "rate": 35
+    },
+    "variant_signature": "ec693c18a6732fd14f8a24d8d8e936488cca0650a7988ae781e796c46dc328c9"
+  },
+  {
+    "answer": "1470",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "504"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1008"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 7 x 5 square metres.",
+        "Multiply the area by the cost per square metre, Rs 42, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 7 m by 5 m is to be tiled. Tiling costs Rs 42 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 5,
+      "rate": 42
+    },
+    "variant_signature": "7b99589c30c816a2217b82899637546e2eb823b354360b993f9ccf81073febff"
+  },
+  {
+    "answer": "2058",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "637"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1274"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 7 x 6 square metres.",
+        "Multiply the area by the cost per square metre, Rs 49, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 7 m by 6 m is to be tiled. Tiling costs Rs 49 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 6,
+      "rate": 49
+    },
+    "variant_signature": "28fab5250691f6ba191bb120fc400ce4ac8ce8fe9ba9290c48b4f42316d75732"
+  },
+  {
+    "answer": "2744",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "784"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1568"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 7 x 7 square metres.",
+        "Multiply the area by the cost per square metre, Rs 56, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 7 m by 7 m is to be tiled. Tiling costs Rs 56 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 7,
+      "rate": 56
+    },
+    "variant_signature": "d3d2803658684424f58509f03f0a5c1464aaadb87f6b46714b951ad8ffb64c8f"
+  },
+  {
+    "answer": "1386",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "352"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "704"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 7 x 9 square metres.",
+        "Multiply the area by the cost per square metre, Rs 22, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 7 m by 9 m is to be tiled. Tiling costs Rs 22 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 9,
+      "rate": 22
+    },
+    "variant_signature": "06e041ae7765d980a4dc2113ee9389c7029a9a495c1cabcff97e40fae511d983"
+  },
+  {
+    "answer": "720",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "330"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "660"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 8 x 3 square metres.",
+        "Multiply the area by the cost per square metre, Rs 30, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 8 m by 3 m is to be tiled. Tiling costs Rs 30 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 3,
+      "rate": 30
+    },
+    "variant_signature": "2eea67b2bde79ccb6992a7a86b3801b1bd3e8998bee9af8b4730b72fb6a76a3d"
+  },
+  {
+    "answer": "1184",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "444"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "888"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 8 x 4 square metres.",
+        "Multiply the area by the cost per square metre, Rs 37, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 8 m by 4 m is to be tiled. Tiling costs Rs 37 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 4,
+      "rate": 37
+    },
+    "variant_signature": "70202ac9f521a8a648b20d5e03e4bcc04b17ddb506a07f60b09ed7fab7af68dd"
+  },
+  {
+    "answer": "1760",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "572"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1144"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 8 x 5 square metres.",
+        "Multiply the area by the cost per square metre, Rs 44, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 8 m by 5 m is to be tiled. Tiling costs Rs 44 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 5,
+      "rate": 44
+    },
+    "variant_signature": "7883e7a887d3b9c5f6c78e82ff427982115333058ccb6772b023623d5517e769"
+  },
+  {
+    "answer": "2448",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "714"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1428"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 8 x 6 square metres.",
+        "Multiply the area by the cost per square metre, Rs 51, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 8 m by 6 m is to be tiled. Tiling costs Rs 51 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 6,
+      "rate": 51
+    },
+    "variant_signature": "280e3076b55a1b5b7796b5404c28638a3e937021f16ebd3b90461d64d019675f"
+  },
+  {
+    "answer": "3248",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "870"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1740"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 8 x 7 square metres.",
+        "Multiply the area by the cost per square metre, Rs 58, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 8 m by 7 m is to be tiled. Tiling costs Rs 58 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 7,
+      "rate": 58
+    },
+    "variant_signature": "2324ae8c9dc01482a2778676c066da34ac8df61b905a8842c9a1c05384b95fe7"
+  },
+  {
+    "answer": "1728",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "408"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "816"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 8 x 9 square metres.",
+        "Multiply the area by the cost per square metre, Rs 24, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 8 m by 9 m is to be tiled. Tiling costs Rs 24 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 9,
+      "rate": 24
+    },
+    "variant_signature": "cc3476b3762672e173e791309e371b25af04ad139325b67fda63701df1440837"
+  },
+  {
+    "answer": "864",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "384"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "768"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 9 x 3 square metres.",
+        "Multiply the area by the cost per square metre, Rs 32, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 9 m by 3 m is to be tiled. Tiling costs Rs 32 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 3,
+      "rate": 32
+    },
+    "variant_signature": "6ae53ab123767219b2c6d7e0f4a49cb056751a34c6f462e7fc89e0cc34218b50"
+  },
+  {
+    "answer": "1404",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "507"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1014"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 9 x 4 square metres.",
+        "Multiply the area by the cost per square metre, Rs 39, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 9 m by 4 m is to be tiled. Tiling costs Rs 39 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 4,
+      "rate": 39
+    },
+    "variant_signature": "42686d5d81b1ce80afc3af4cb5c1e178f863e7b2ce11f3ccc34ee76ca1520b02"
+  },
+  {
+    "answer": "2070",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "644"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1288"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 9 x 5 square metres.",
+        "Multiply the area by the cost per square metre, Rs 46, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 9 m by 5 m is to be tiled. Tiling costs Rs 46 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 5,
+      "rate": 46
+    },
+    "variant_signature": "51a36daee89e8d57cecd4713d977f051926826e1c0518096c98c824c53bcfffc"
+  },
+  {
+    "answer": "2862",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "795"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1590"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 9 x 6 square metres.",
+        "Multiply the area by the cost per square metre, Rs 53, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 9 m by 6 m is to be tiled. Tiling costs Rs 53 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 6,
+      "rate": 53
+    },
+    "variant_signature": "d9344e27139faae2fdbc3798b1738726e4717dabfdf1944d565ffe22cfad0a18"
+  },
+  {
+    "answer": "3780",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "960"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1920"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 9 x 7 square metres.",
+        "Multiply the area by the cost per square metre, Rs 60, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 9 m by 7 m is to be tiled. Tiling costs Rs 60 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 7,
+      "rate": 60
+    },
+    "variant_signature": "8eb16fd7533935c5fd326af300f201f5dbfdf651b3e7f5b84a21fafbab60d20c"
+  },
+  {
+    "answer": "2106",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "468"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "936"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 9 x 9 square metres.",
+        "Multiply the area by the cost per square metre, Rs 26, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 9 m by 9 m is to be tiled. Tiling costs Rs 26 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 9,
+      "rate": 26
+    },
+    "variant_signature": "d632c32ea890a6c317ee183e312f93857651b48ac30e8870579bfe0b6b079d69"
+  },
+  {
+    "answer": "1020",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "442"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "884"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 10 x 3 square metres.",
+        "Multiply the area by the cost per square metre, Rs 34, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 10 m by 3 m is to be tiled. Tiling costs Rs 34 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 3,
+      "rate": 34
+    },
+    "variant_signature": "a44e9b3c3465abd352d426669963cc2bf2796ec729e377e92161c4f0af4ace3d"
+  },
+  {
+    "answer": "1640",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "574"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1148"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 10 x 4 square metres.",
+        "Multiply the area by the cost per square metre, Rs 41, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 10 m by 4 m is to be tiled. Tiling costs Rs 41 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 4,
+      "rate": 41
+    },
+    "variant_signature": "2f1ed1528008949407f5618f7b04352481badcd130be05bc7225ed30ee3c2e1b"
+  },
+  {
+    "answer": "2400",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "720"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1440"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 10 x 5 square metres.",
+        "Multiply the area by the cost per square metre, Rs 48, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 10 m by 5 m is to be tiled. Tiling costs Rs 48 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 5,
+      "rate": 48
+    },
+    "variant_signature": "2ac571104c847031da924f07abe79b0dee0f7bf4442006b23844ee71b62d95ff"
+  },
+  {
+    "answer": "3300",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "880"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1760"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 10 x 6 square metres.",
+        "Multiply the area by the cost per square metre, Rs 55, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 10 m by 6 m is to be tiled. Tiling costs Rs 55 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 6,
+      "rate": 55
+    },
+    "variant_signature": "7fd76f5eb03f00106e3373cae241668abe5f3d129f9538d390bbc3913fee81cf"
+  },
+  {
+    "answer": "1680",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "378"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "756"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 10 x 8 square metres.",
+        "Multiply the area by the cost per square metre, Rs 21, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 10 m by 8 m is to be tiled. Tiling costs Rs 21 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 8,
+      "rate": 21
+    },
+    "variant_signature": "b66aae8ef38ebf0a3da554fcd32cc1ba35790a208720e2fe5af8ff4fb86c46e2"
+  },
+  {
+    "answer": "2610",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.AREA-ADD-SIDES",
+        "unsimplified": false,
+        "value": "551"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1102"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the area of the courtyard first \u2014 not its perimeter, and not the sum of its sides.",
+      "Once you have the area, multiply it by the rate per square metre."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.FORMULA"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the courtyard's area: 10 x 9 square metres.",
+        "Multiply the area by the cost per square metre, Rs 29, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular courtyard measuring 10 m by 9 m is to be tiled. Tiling costs Rs 29 per square metre. What is the total cost of tiling the courtyard, in rupees?",
+    "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 9,
+      "rate": 29
+    },
+    "variant_signature": "65ddc37bafc3f7bebd1ad85c339e44929426af32df32c68d1b36d8b40fe0fb9c"
+  }
+]

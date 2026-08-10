@@ -1,0 +1,56 @@
+[
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "How many corners does a shape like a door or a book cover have?",
+      "Each corner is where two edges meet \u2014 count the corners to find the edges."
+    ],
+    "item_instance_id": "TPL.GEO.SHAPES2D.ID.RECTANGLE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SHAPES.2D"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the edges: this kind of shape has straight edges meeting at four picture-frame corners.",
+        "That gives 4 straight edges in total."
+      ]
+    },
+    "stem": "A door, a book cover, and a brick are all the same kind of shape: straight edges meeting at corners like the corner of a picture frame, longer in one direction than the other, with no curves anywhere. How many straight edges does this kind of shape have?",
+    "template_id": "TPL.GEO.SHAPES2D.ID.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 1
+    },
+    "variant_signature": "9f57c2b7094cb07a722169973228b6d4ccc89a8f7b9aabcfcae98f90398c808e"
+  }
+]

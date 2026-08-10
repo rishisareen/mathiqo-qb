@@ -1,0 +1,2082 @@
+[
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 3,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 3 rows has the same number of squares, 3. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 3 unit squares, and there are 3 rows.",
+        "Count the total unit squares by multiplying: 3 x 3."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 3 rows and 3 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 3,
+      "r": 3
+    },
+    "variant_signature": "a37407b1baa7fd6a0a73c02aa6f702384cb3e2c607cae8ae0b9507cde625143e"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 3 rows has the same number of squares, 5. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 5 unit squares, and there are 3 rows.",
+        "Count the total unit squares by multiplying: 3 x 5."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 3 rows and 5 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 5,
+      "r": 3
+    },
+    "variant_signature": "ee8f2ef0fc25276666bfa15329e3e1d279a5e6b3467c38d63698f63b1f774d96"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 3 rows has the same number of squares, 7. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 7 unit squares, and there are 3 rows.",
+        "Count the total unit squares by multiplying: 3 x 7."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 3 rows and 7 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 7,
+      "r": 3
+    },
+    "variant_signature": "de23a255fd805b65d1d3413a537332ad06e9989d260a3c8fd2789b8e7f4e4fd4"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 3 rows has the same number of squares, 8. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 8 unit squares, and there are 3 rows.",
+        "Count the total unit squares by multiplying: 3 x 8."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 3 rows and 8 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 8,
+      "r": 3
+    },
+    "variant_signature": "a2481b60b86c3320af5b3fbe3147f07976f5aee396d1767b7f0d301c3d486208"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 3 rows has the same number of squares, 9. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 9 unit squares, and there are 3 rows.",
+        "Count the total unit squares by multiplying: 3 x 9."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 3 rows and 9 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 9,
+      "r": 3
+    },
+    "variant_signature": "7398833e0544b52db58e6053475993a2fbbeaf9856e8facf0af3c36c7de04977"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 3,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 4 rows has the same number of squares, 3. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 3 unit squares, and there are 4 rows.",
+        "Count the total unit squares by multiplying: 4 x 3."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 4 rows and 3 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 3,
+      "r": 4
+    },
+    "variant_signature": "bdfa3d06dcc9d4fb5ccd69e5bf5650c3b556cea8babd2565676f54ac60316c97"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 4 rows has the same number of squares, 5. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 5 unit squares, and there are 4 rows.",
+        "Count the total unit squares by multiplying: 4 x 5."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 4 rows and 5 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 5,
+      "r": 4
+    },
+    "variant_signature": "2d3977c42752b4c58d7059fea5071f064a63b494bc3210a6fea319059f7cec73"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 4 rows has the same number of squares, 6. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 6 unit squares, and there are 4 rows.",
+        "Count the total unit squares by multiplying: 4 x 6."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 4 rows and 6 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 6,
+      "r": 4
+    },
+    "variant_signature": "0e94b310b6d12d0a5057146445db1e2d18cac3d8f35ddea7e20f1e5e0e33f282"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 4 rows has the same number of squares, 8. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 8 unit squares, and there are 4 rows.",
+        "Count the total unit squares by multiplying: 4 x 8."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 4 rows and 8 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 8,
+      "r": 4
+    },
+    "variant_signature": "a4fa9915a1f3800d828dc9e7f94a3f23191aa57432da4c66dcf16383fbd0408b"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 4 rows has the same number of squares, 9. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 9 unit squares, and there are 4 rows.",
+        "Count the total unit squares by multiplying: 4 x 9."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 4 rows and 9 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 9,
+      "r": 4
+    },
+    "variant_signature": "030e46919184db010cb54f934cff3deca098829b40ff65a4f3cb411b67ce89d5"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 3,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 5 rows has the same number of squares, 3. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 3 unit squares, and there are 5 rows.",
+        "Count the total unit squares by multiplying: 5 x 3."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 5 rows and 3 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 3,
+      "r": 5
+    },
+    "variant_signature": "81803116aa51b7f4dfa3a04f80b27667bac11d2ba842a9fe3c44fc55ad1aafca"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 4,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 5 rows has the same number of squares, 4. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 4 unit squares, and there are 5 rows.",
+        "Count the total unit squares by multiplying: 5 x 4."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 5 rows and 4 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 4,
+      "r": 5
+    },
+    "variant_signature": "4eaea4d87612e69d2c1804976f58604f2cf7f13480e23d66553742d08ad4846c"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 5 rows has the same number of squares, 5. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 5 unit squares, and there are 5 rows.",
+        "Count the total unit squares by multiplying: 5 x 5."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 5 rows and 5 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 5,
+      "r": 5
+    },
+    "variant_signature": "9aaa8bd40946947781959014ca0cf13ec7c42a3b7b73b58ddc4cfa4a5b6481c6"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 5 rows has the same number of squares, 6. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 6 unit squares, and there are 5 rows.",
+        "Count the total unit squares by multiplying: 5 x 6."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 5 rows and 6 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 6,
+      "r": 5
+    },
+    "variant_signature": "3123f4a846a67e21e0079f6096f5672f177bbbd09f8888a625d961c8346c9cbe"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 5 rows has the same number of squares, 7. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 7 unit squares, and there are 5 rows.",
+        "Count the total unit squares by multiplying: 5 x 7."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 5 rows and 7 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 7,
+      "r": 5
+    },
+    "variant_signature": "d5166a1a491b5d8fe41b5ff346c0cb92eef1a8a926e0939406625a796203aa44"
+  },
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 5 rows has the same number of squares, 9. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 9 unit squares, and there are 5 rows.",
+        "Count the total unit squares by multiplying: 5 x 9."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 5 rows and 9 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 9,
+      "r": 5
+    },
+    "variant_signature": "12790e4f2f2c3e2068aea0f4a4e87c52d734179d161658fb70909e78174ba523"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 4,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 6 rows has the same number of squares, 4. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 4 unit squares, and there are 6 rows.",
+        "Count the total unit squares by multiplying: 6 x 4."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 6 rows and 4 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 4,
+      "r": 6
+    },
+    "variant_signature": "86bc17ee278c30ed3c25d106eab337916e93e6fca17c5bc015996d9ec04261e4"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 6 rows has the same number of squares, 5. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 5 unit squares, and there are 6 rows.",
+        "Count the total unit squares by multiplying: 6 x 5."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 6 rows and 5 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 5,
+      "r": 6
+    },
+    "variant_signature": "cc8054e3e3094f2ac77733971b34ec5caf448d9d5a7c3c33eba033a63b45179b"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 6 rows has the same number of squares, 6. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 6 unit squares, and there are 6 rows.",
+        "Count the total unit squares by multiplying: 6 x 6."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 6 rows and 6 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 6,
+      "r": 6
+    },
+    "variant_signature": "2a3cc2079633ef2ecf94a67d2bbc6e7f01cd6360436c4a66a8548f2dfefe36fa"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 6 rows has the same number of squares, 7. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 7 unit squares, and there are 6 rows.",
+        "Count the total unit squares by multiplying: 6 x 7."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 6 rows and 7 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 7,
+      "r": 6
+    },
+    "variant_signature": "79182dbe8841e4ce24c46c106b34effffb7c5045f1eeaaa58a15fd3658798967"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 6 rows has the same number of squares, 8. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 8 unit squares, and there are 6 rows.",
+        "Count the total unit squares by multiplying: 6 x 8."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 6 rows and 8 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 8,
+      "r": 6
+    },
+    "variant_signature": "88536d876648eb27f3e843cc45ab6a2a5a097ffd75a9b657e192c3a229b3d566"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 3,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 7 rows has the same number of squares, 3. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 3 unit squares, and there are 7 rows.",
+        "Count the total unit squares by multiplying: 7 x 3."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 7 rows and 3 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 3,
+      "r": 7
+    },
+    "variant_signature": "94cdcc8fb664924c2b87ea88d740a09e1bf8ef6c4095c4e8527549a142ffacb4"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 4,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 7 rows has the same number of squares, 4. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 4 unit squares, and there are 7 rows.",
+        "Count the total unit squares by multiplying: 7 x 4."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 7 rows and 4 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 4,
+      "r": 7
+    },
+    "variant_signature": "4b405143513a3ab9bf44bed56ddd2adf99a0338091919622399e66bb89e69b5a"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 7 rows has the same number of squares, 5. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 5 unit squares, and there are 7 rows.",
+        "Count the total unit squares by multiplying: 7 x 5."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 7 rows and 5 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 5,
+      "r": 7
+    },
+    "variant_signature": "191b036a9d9e3172f60fe42fb9776a935aa620f7065836f1ce6aa68ee6c160c6"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 7 rows has the same number of squares, 6. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 6 unit squares, and there are 7 rows.",
+        "Count the total unit squares by multiplying: 7 x 6."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 7 rows and 6 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 6,
+      "r": 7
+    },
+    "variant_signature": "e7674e0f9f5dfb547d63ad20803560382ebbbadf7cfc74cfd9de05de3e2ca89b"
+  },
+  {
+    "answer": "49",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 7 rows has the same number of squares, 7. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 7 unit squares, and there are 7 rows.",
+        "Count the total unit squares by multiplying: 7 x 7."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 7 rows and 7 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 7,
+      "r": 7
+    },
+    "variant_signature": "dcb3a8dcce4dacacc512a219c3a5b08afc29b0813e74862eeaa2a1de54b5f815"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 7 rows has the same number of squares, 8. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 8 unit squares, and there are 7 rows.",
+        "Count the total unit squares by multiplying: 7 x 8."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 7 rows and 8 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 8,
+      "r": 7
+    },
+    "variant_signature": "6c64bcea4097340e0c1394d135adb2f9c99b06fb10c35f53bcf8d883c691b076"
+  },
+  {
+    "answer": "63",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 7 rows has the same number of squares, 9. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 9 unit squares, and there are 7 rows.",
+        "Count the total unit squares by multiplying: 7 x 9."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 7 rows and 9 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 9,
+      "r": 7
+    },
+    "variant_signature": "73950b31873266128fdb6a4d5afe0fb8f3a4737f0d116dc2db2f65c8720e5fc7"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 4,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 8 rows has the same number of squares, 4. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 4 unit squares, and there are 8 rows.",
+        "Count the total unit squares by multiplying: 8 x 4."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 8 rows and 4 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 4,
+      "r": 8
+    },
+    "variant_signature": "e71c33bb9c2896c5eab9fc7e3b5eaa8c93ec65d3fa8db3567d5c82132dce7fe5"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 8 rows has the same number of squares, 5. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 5 unit squares, and there are 8 rows.",
+        "Count the total unit squares by multiplying: 8 x 5."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 8 rows and 5 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 5,
+      "r": 8
+    },
+    "variant_signature": "8cefa4a5890a92b98838f108d51ff8c291dd07660f87d47c2a2ef63e19c8f686"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 8 rows has the same number of squares, 6. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 6 unit squares, and there are 8 rows.",
+        "Count the total unit squares by multiplying: 8 x 6."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 8 rows and 6 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 6,
+      "r": 8
+    },
+    "variant_signature": "72d92b55f7a61c9897cc459d01557196019be8a13c5c3a28a72926fefbbfb49d"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 8 rows has the same number of squares, 7. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 7 unit squares, and there are 8 rows.",
+        "Count the total unit squares by multiplying: 8 x 7."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 8 rows and 7 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 7,
+      "r": 8
+    },
+    "variant_signature": "833db5093f246acfcf38082f67195b23ee61952d018aede23fde521042b8af27"
+  },
+  {
+    "answer": "64",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 8 rows has the same number of squares, 8. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 8 unit squares, and there are 8 rows.",
+        "Count the total unit squares by multiplying: 8 x 8."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 8 rows and 8 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 8,
+      "r": 8
+    },
+    "variant_signature": "9d3454676caff86c60a4117efeaa519f49815c97a0f42ba04deddffbcd7aeffd"
+  },
+  {
+    "answer": "72",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 8 rows has the same number of squares, 9. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 9 unit squares, and there are 8 rows.",
+        "Count the total unit squares by multiplying: 8 x 9."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 8 rows and 9 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 9,
+      "r": 8
+    },
+    "variant_signature": "f20beb4ddc34d1a5c79592d92c63fcb740895fde684e0fad3d326be333972f87"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 3,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 9 rows has the same number of squares, 3. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 3 unit squares, and there are 9 rows.",
+        "Count the total unit squares by multiplying: 9 x 3."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 9 rows and 3 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 3,
+      "r": 9
+    },
+    "variant_signature": "9e8b192f803d29bd10c3e458f7591313c9da05f054515af4e9bc64670425d398"
+  },
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 9 rows has the same number of squares, 5. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 5 unit squares, and there are 9 rows.",
+        "Count the total unit squares by multiplying: 9 x 5."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 9 rows and 5 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 5,
+      "r": 9
+    },
+    "variant_signature": "2dae20630f525d26fbe110433ae30d2b6dfeef1cf54c9d6a82a3bfa1c0881a82"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 9 rows has the same number of squares, 6. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 6 unit squares, and there are 9 rows.",
+        "Count the total unit squares by multiplying: 9 x 6."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 9 rows and 6 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 6,
+      "r": 9
+    },
+    "variant_signature": "c085f3c1b55f7c7fcfef5f5a583186f06d46518dbda60251937278494e270a0a"
+  },
+  {
+    "answer": "63",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 9 rows has the same number of squares, 7. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 7 unit squares, and there are 9 rows.",
+        "Count the total unit squares by multiplying: 9 x 7."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 9 rows and 7 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 7,
+      "r": 9
+    },
+    "variant_signature": "da3d6e37958e60ab442b8f88bc69fba96f2472f25509907555d9a35548349d13"
+  },
+  {
+    "answer": "72",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 9 rows has the same number of squares, 8. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 8 unit squares, and there are 9 rows.",
+        "Count the total unit squares by multiplying: 9 x 8."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 9 rows and 8 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 8,
+      "r": 9
+    },
+    "variant_signature": "07451373d53b5364ed0418dba75dca60ace57e18d6e502b91c2728f92ca03559"
+  },
+  {
+    "answer": "81",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You could count every square one by one, or find a faster way using the rows and columns.",
+      "Each of the 9 rows has the same number of squares, 9. Multiply instead of counting one by one."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each row has 9 unit squares, and there are 9 rows.",
+        "Count the total unit squares by multiplying: 9 x 9."
+      ]
+    },
+    "stem": "A grid is drawn on squared paper with 9 rows and 9 columns of unit squares, and every unit square in the grid is shaded. How many unit squares are shaded in total? This total is the grid's area, in square units.",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "c": 9,
+      "r": 9
+    },
+    "variant_signature": "606ca682d0a453ba4998581853d648724ee246009c779512368d2ec63af8f303"
+  }
+]

@@ -1,0 +1,866 @@
+[
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 2, 3, 5 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "2, 3 and 5 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 2 x 3 x 5 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 3,
+      "r": 5
+    },
+    "variant_signature": "4f3df3469bcc99b76eb506acc6c221210d3872490e3030cfcd3f17aaebef3a9c"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 2, 3, 7 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "2, 3 and 7 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 2 x 3 x 7 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 3,
+      "r": 7
+    },
+    "variant_signature": "0256f08396a34ff2b1b39d94561aaa166902395c39b97704e4f4e18d84806ea2"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 2, 5, 3 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "2, 5 and 3 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 2 x 5 x 3 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 5,
+      "r": 3
+    },
+    "variant_signature": "717c7269047ac1c4ebf0a7424d82d037099e032cebd296ef1b773dda47c90c6a"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 2, 5, 7 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "2, 5 and 7 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 2 x 5 x 7 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 5,
+      "r": 7
+    },
+    "variant_signature": "1646eb05282a5ef839beaea417dda15ca8690468aac3a6443c037d2e5093f1e1"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 2, 7, 3 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "2, 7 and 3 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 2 x 7 x 3 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 7,
+      "r": 3
+    },
+    "variant_signature": "5069e229acf701335f78f0ad74a3336e710e28266322c70cf9c7b406a0aaa99a"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 2, 7, 5 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "2, 7 and 5 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 2 x 7 x 5 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 2,
+      "q": 7,
+      "r": 5
+    },
+    "variant_signature": "cf867006ad7fba633af9b3d29c3b3b241cb973a890545ef923f8ba7be2052b7f"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 3, 2, 5 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3, 2 and 5 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 3 x 2 x 5 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 2,
+      "r": 5
+    },
+    "variant_signature": "c2f3b71fd3220adcbcb84e6ff9defa2a02fe229a7f03deb39fedfbfa2a97accc"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 3, 2, 7 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3, 2 and 7 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 3 x 2 x 7 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 2,
+      "r": 7
+    },
+    "variant_signature": "a2f24b170d05ddae163463ee25f3a56267ca68de9dafd144ee95ed6a63d3fbc3"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 3, 5, 2 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3, 5 and 2 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 3 x 5 x 2 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 5,
+      "r": 2
+    },
+    "variant_signature": "fde40928efd6478512b40a642256ae483a3ef2d322e3eb93a97bfb6b99741e15"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 3, 5, 7 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3, 5 and 7 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 3 x 5 x 7 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 5,
+      "r": 7
+    },
+    "variant_signature": "70690e43ecec804607d00a143842d354c8aca7e4d1a3f1a0de178bfdbf64b2f7"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 3, 7, 2 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3, 7 and 2 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 3 x 7 x 2 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 7,
+      "r": 2
+    },
+    "variant_signature": "b6e3165e0dd8b65d686229c7c2480c899870909d9bfbabf29ddd02054edf43c9"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 3, 7, 5 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "3, 7 and 5 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 3 x 7 x 5 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 3,
+      "q": 7,
+      "r": 5
+    },
+    "variant_signature": "abb1e427f0f9ffd031861db6de36579b6378d654f578323b7285693eac90f63d"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 5, 2, 3 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "5, 2 and 3 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 5 x 2 x 3 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 2,
+      "r": 3
+    },
+    "variant_signature": "ae31732fb38865066e2ba762fd8a418b54b20917322ab0b62c4528ca68e4078f"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 5, 2, 7 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "5, 2 and 7 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 5 x 2 x 7 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 2,
+      "r": 7
+    },
+    "variant_signature": "2724ad9e34e27efa73ae317591b7d506c65b3fc35f7e3147548a434bfebc0364"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 5, 3, 2 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "5, 3 and 2 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 5 x 3 x 2 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 3,
+      "r": 2
+    },
+    "variant_signature": "62c96b073b767ebe3977c81c6e051e5cb559f4e1afc53e31a4ca9bb6885ba052"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 5, 3, 7 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "5, 3 and 7 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 5 x 3 x 7 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 3,
+      "r": 7
+    },
+    "variant_signature": "092aaed160bb4c804e9f75cf0ad82610ec2c5016bbc952254ba1b6c5573f5577"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 5, 7, 2 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "5, 7 and 2 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 5 x 7 x 2 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 7,
+      "r": 2
+    },
+    "variant_signature": "4ea0b92974011355e941ca93d2eeebb66c742939bee1f87e1cd716ddc020ebf4"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 5, 7, 3 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "5, 7 and 3 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 5 x 7 x 3 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 7,
+      "r": 3
+    },
+    "variant_signature": "a004551fc28fd273b8622c736768581a6a5d123ae6d5ebd721b4137c2df70eda"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 7, 2, 3 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "7, 2 and 3 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 7 x 2 x 3 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 2,
+      "r": 3
+    },
+    "variant_signature": "347c24aa17db8960b28b21ab20d8ec4a73efe90766d4bbea0d8001e08d89bd3c"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 7, 2, 5 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "7, 2 and 5 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 7 x 2 x 5 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 2,
+      "r": 5
+    },
+    "variant_signature": "40c693ab7b75f3968e804150277bc3be839ef2811a003c036e48735de763e9dc"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 7, 3, 2 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "7, 3 and 2 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 7 x 3 x 2 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 3,
+      "r": 2
+    },
+    "variant_signature": "d7c1f052f6aa032db03fb4cc375dba78c6a678cd678311e70c767ddd70747661"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 7, 3, 5 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "7, 3 and 5 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 7 x 3 x 5 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 3,
+      "r": 5
+    },
+    "variant_signature": "06b49027e8fc75bca33b0d5023cfeaa4928f5ed4a97b7b68731eb381d56c71a7"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 7, 5, 2 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "7, 5 and 2 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 7 x 5 x 2 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 5,
+      "r": 2
+    },
+    "variant_signature": "0075e532ba90e1687de71891aee575f2e0e344353d8bbed38d928b0530004364"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try listing every product you can make from 7, 5, 3 \u2014 including using none, one, two, or all three.",
+      "A product of three different primes always has exactly 8 factors."
+    ],
+    "item_instance_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PRIME"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "7, 5 and 3 are all prime, so each only divides the product on its own or in a group.",
+        "Every choice of including or leaving out each prime gives a different factor.",
+        "That gives 2 x 2 x 2 = 8 factors in total."
+      ]
+    },
+    "stem": "The number 7 x 5 x 3 is formed by multiplying three different prime numbers. How many factors does it have in total, including 1 and itself?",
+    "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 5,
+      "r": 3
+    },
+    "variant_signature": "cc98378b4c69404572a5704205e1bbaa31bbb09b15c17952b4a5eb3257a36a86"
+  }
+]

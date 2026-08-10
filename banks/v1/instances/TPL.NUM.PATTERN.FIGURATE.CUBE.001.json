@@ -1,0 +1,332 @@
+[
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture a solid cube made of unit cubes, 1 along each edge \u2014 how many unit cubes are used in total?",
+      "First find the square number 1 x 1, then multiply that result by 1 once more."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth cube number is n multiplied by itself three times: n x n x n.",
+        "With n = 1, the cube number is 1 x 1 x 1."
+      ]
+    },
+    "stem": "Cube numbers count the unit cubes that fill an n x n x n cube: 1, 8, 27, ... What is the 1th cube number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 1
+    },
+    "variant_signature": "f784c933a6b68625a6bd5c276039ee0b9f86c57688c89c08ed6f8c79d6cbd05d"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture a solid cube made of unit cubes, 2 along each edge \u2014 how many unit cubes are used in total?",
+      "First find the square number 2 x 2, then multiply that result by 2 once more."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth cube number is n multiplied by itself three times: n x n x n.",
+        "With n = 2, the cube number is 2 x 2 x 2."
+      ]
+    },
+    "stem": "Cube numbers count the unit cubes that fill an n x n x n cube: 1, 8, 27, ... What is the 2th cube number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 2
+    },
+    "variant_signature": "6d8be653d79ea8fd41ae45c7c206e47dde70ab01c0e4cfada3ac6f5ddd06b175"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture a solid cube made of unit cubes, 3 along each edge \u2014 how many unit cubes are used in total?",
+      "First find the square number 3 x 3, then multiply that result by 3 once more."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth cube number is n multiplied by itself three times: n x n x n.",
+        "With n = 3, the cube number is 3 x 3 x 3."
+      ]
+    },
+    "stem": "Cube numbers count the unit cubes that fill an n x n x n cube: 1, 8, 27, ... What is the 3th cube number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 3
+    },
+    "variant_signature": "5b058403378260b5ced3ca76c9e9b7ed1ee6c702e2d412a8d419828cad192d69"
+  },
+  {
+    "answer": "64",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture a solid cube made of unit cubes, 4 along each edge \u2014 how many unit cubes are used in total?",
+      "First find the square number 4 x 4, then multiply that result by 4 once more."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth cube number is n multiplied by itself three times: n x n x n.",
+        "With n = 4, the cube number is 4 x 4 x 4."
+      ]
+    },
+    "stem": "Cube numbers count the unit cubes that fill an n x n x n cube: 1, 8, 27, ... What is the 4th cube number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 4
+    },
+    "variant_signature": "d638bd27ccd3769916f3648ed48ae3c4724eb81a1b1e14767f5df438c4f04c63"
+  },
+  {
+    "answer": "125",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture a solid cube made of unit cubes, 5 along each edge \u2014 how many unit cubes are used in total?",
+      "First find the square number 5 x 5, then multiply that result by 5 once more."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth cube number is n multiplied by itself three times: n x n x n.",
+        "With n = 5, the cube number is 5 x 5 x 5."
+      ]
+    },
+    "stem": "Cube numbers count the unit cubes that fill an n x n x n cube: 1, 8, 27, ... What is the 5th cube number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 5
+    },
+    "variant_signature": "d69ba15b54b98e98f96a7d6267832d7c584e3f1c79ac05d6df05a1c7bdc0a1d5"
+  },
+  {
+    "answer": "216",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture a solid cube made of unit cubes, 6 along each edge \u2014 how many unit cubes are used in total?",
+      "First find the square number 6 x 6, then multiply that result by 6 once more."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth cube number is n multiplied by itself three times: n x n x n.",
+        "With n = 6, the cube number is 6 x 6 x 6."
+      ]
+    },
+    "stem": "Cube numbers count the unit cubes that fill an n x n x n cube: 1, 8, 27, ... What is the 6th cube number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 6
+    },
+    "variant_signature": "b134cc904f2a594f029fa5d339c2bcc903436af28f12ae77339c1dc02175beff"
+  },
+  {
+    "answer": "343",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture a solid cube made of unit cubes, 7 along each edge \u2014 how many unit cubes are used in total?",
+      "First find the square number 7 x 7, then multiply that result by 7 once more."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth cube number is n multiplied by itself three times: n x n x n.",
+        "With n = 7, the cube number is 7 x 7 x 7."
+      ]
+    },
+    "stem": "Cube numbers count the unit cubes that fill an n x n x n cube: 1, 8, 27, ... What is the 7th cube number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 7
+    },
+    "variant_signature": "372b457b784e70ac8c16a36ffc2ccc742d024e30ee31ecd926329854978ab806"
+  },
+  {
+    "answer": "512",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture a solid cube made of unit cubes, 8 along each edge \u2014 how many unit cubes are used in total?",
+      "First find the square number 8 x 8, then multiply that result by 8 once more."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth cube number is n multiplied by itself three times: n x n x n.",
+        "With n = 8, the cube number is 8 x 8 x 8."
+      ]
+    },
+    "stem": "Cube numbers count the unit cubes that fill an n x n x n cube: 1, 8, 27, ... What is the 8th cube number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 8
+    },
+    "variant_signature": "f80fa06d2deefaeadef21a1a082f0b54090f10fb02496b5adf8a94aaef71cfa6"
+  },
+  {
+    "answer": "729",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture a solid cube made of unit cubes, 9 along each edge \u2014 how many unit cubes are used in total?",
+      "First find the square number 9 x 9, then multiply that result by 9 once more."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth cube number is n multiplied by itself three times: n x n x n.",
+        "With n = 9, the cube number is 9 x 9 x 9."
+      ]
+    },
+    "stem": "Cube numbers count the unit cubes that fill an n x n x n cube: 1, 8, 27, ... What is the 9th cube number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 9
+    },
+    "variant_signature": "36561f3967d58211e2ed8245c448fce6b8a498ede986791c15349877b1d0880a"
+  },
+  {
+    "answer": "1000",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Picture a solid cube made of unit cubes, 10 along each edge \u2014 how many unit cubes are used in total?",
+      "First find the square number 10 x 10, then multiply that result by 10 once more."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.FIGURATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The nth cube number is n multiplied by itself three times: n x n x n.",
+        "With n = 10, the cube number is 10 x 10 x 10."
+      ]
+    },
+    "stem": "Cube numbers count the unit cubes that fill an n x n x n cube: 1, 8, 27, ... What is the 10th cube number?",
+    "template_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 10
+    },
+    "variant_signature": "f8d226c710ba41a4dcf7a42265f051cf2ea8335d69d532a18219987f9b1e5236"
+  }
+]

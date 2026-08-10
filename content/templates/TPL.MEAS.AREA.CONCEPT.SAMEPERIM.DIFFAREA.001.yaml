@@ -62,12 +62,8 @@ figure:
   # the same perimeter wrapped around two different shapes is what breaks
   # MISC.MEAS.SAME-PERIMETER-SAME-AREA. Only side lengths are labelled;
   # labelling either area would hand over the difference being asked for.
-  # caption_i18n names each entry so their identity doesn't rest on array
-  # order alone, matching the stem's own "Rectangle A" / "Rectangle B".
   - kind: shape
     shape: rectangle
-    caption_i18n:
-      en-IN: "Rectangle A"
     side_labels:
       - side: 0
         value_expr: "a"
@@ -77,8 +73,6 @@ figure:
         unit: "cm"
   - kind: shape
     shape: rectangle
-    caption_i18n:
-      en-IN: "Rectangle B"
     side_labels:
       - side: 0
         value_expr: "a + k"

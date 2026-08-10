@@ -1,0 +1,1562 @@
+[
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 107 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 107 and divide that by 8; the remainder matches the remainder of 107 itself."
+      ]
+    },
+    "stem": "What is the remainder when 107 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 107
+    },
+    "variant_signature": "390d376f2779f87d621b7474f233e6cf7689ba39efdd614694983f795f8b0574"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 115 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 115 and divide that by 8; the remainder matches the remainder of 115 itself."
+      ]
+    },
+    "stem": "What is the remainder when 115 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 115
+    },
+    "variant_signature": "9e7d2a678301a6da406014d34f381b3e07c6bf6418f757db4721b850d4dd4226"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 131 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 131 and divide that by 8; the remainder matches the remainder of 131 itself."
+      ]
+    },
+    "stem": "What is the remainder when 131 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 131
+    },
+    "variant_signature": "81a25433cce78cc2a23e86581fa13377f67f3390e3d594952eccf27ee157f3da"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 139 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 139 and divide that by 8; the remainder matches the remainder of 139 itself."
+      ]
+    },
+    "stem": "What is the remainder when 139 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 139
+    },
+    "variant_signature": "0f715fef67ff0f5deff157472f6307896b1f5e6e27249e2d05ef7959039d711e"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 147 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 147 and divide that by 8; the remainder matches the remainder of 147 itself."
+      ]
+    },
+    "stem": "What is the remainder when 147 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 147
+    },
+    "variant_signature": "4569f59ea75520101f130bd3b7e291db01063fd9990dd64d292bfe95d7448c6d"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 155 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 155 and divide that by 8; the remainder matches the remainder of 155 itself."
+      ]
+    },
+    "stem": "What is the remainder when 155 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 155
+    },
+    "variant_signature": "ceeaf91eaf195749395b7c67e66123287f3e08e8ef4a0a427e908c658a1d7b78"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 171 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 171 and divide that by 8; the remainder matches the remainder of 171 itself."
+      ]
+    },
+    "stem": "What is the remainder when 171 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 171
+    },
+    "variant_signature": "a8c433a68861dfd37b7611bae8dd88a04f2a2c0978961783ebee2dbe87c8a0f3"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 179 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 179 and divide that by 8; the remainder matches the remainder of 179 itself."
+      ]
+    },
+    "stem": "What is the remainder when 179 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 179
+    },
+    "variant_signature": "762eeec4d952361468420eb3f4f8250c813506fc7aaa0e165c9f314c9dd10a38"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 187 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 187 and divide that by 8; the remainder matches the remainder of 187 itself."
+      ]
+    },
+    "stem": "What is the remainder when 187 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 187
+    },
+    "variant_signature": "fee4857e03f363b236fc3236414ae0524a0b736014ad657b0ec5f4986569e2f0"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 195 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 195 and divide that by 8; the remainder matches the remainder of 195 itself."
+      ]
+    },
+    "stem": "What is the remainder when 195 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 195
+    },
+    "variant_signature": "4f245697a52e0f4f1e25a2dd9dbeaaa1fb22dd7c0189ac44e8239b6e584bd841"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 211 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 211 and divide that by 8; the remainder matches the remainder of 211 itself."
+      ]
+    },
+    "stem": "What is the remainder when 211 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 211
+    },
+    "variant_signature": "ce0e352ee674f919b48ab8cc6873c3e9270fee3d90acad168fd5bc7028281a5e"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 219 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 219 and divide that by 8; the remainder matches the remainder of 219 itself."
+      ]
+    },
+    "stem": "What is the remainder when 219 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 219
+    },
+    "variant_signature": "7b3def4eea3dc349f76a214f3445ed1d4233bac92619dd3a9f39d59312c30c9e"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 227 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 227 and divide that by 8; the remainder matches the remainder of 227 itself."
+      ]
+    },
+    "stem": "What is the remainder when 227 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 227
+    },
+    "variant_signature": "1b6ec28efdcad9ec0a6508f0118af4ae669fe5c2da84a980ea3a01a25706ffc8"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 235 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 235 and divide that by 8; the remainder matches the remainder of 235 itself."
+      ]
+    },
+    "stem": "What is the remainder when 235 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 235
+    },
+    "variant_signature": "51807de3bd8119e883fa89759f27b259153a5faa1f04eadca12f7903aaefa7df"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 251 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 251 and divide that by 8; the remainder matches the remainder of 251 itself."
+      ]
+    },
+    "stem": "What is the remainder when 251 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 251
+    },
+    "variant_signature": "fb4ba7eb33dafa5e6737fe76ef43dd00f6875fa548c407d9b76e5f69f3919c44"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 259 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 259 and divide that by 8; the remainder matches the remainder of 259 itself."
+      ]
+    },
+    "stem": "What is the remainder when 259 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 259
+    },
+    "variant_signature": "e78cf9393a97299dca094a3e9aa70f537ae67ead262d0b3b39d148c872a81221"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 267 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 267 and divide that by 8; the remainder matches the remainder of 267 itself."
+      ]
+    },
+    "stem": "What is the remainder when 267 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 267
+    },
+    "variant_signature": "41bef4d44d76bac0af371825594afbdf8d9f91638f751042ee91dae31c269486"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 275 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 275 and divide that by 8; the remainder matches the remainder of 275 itself."
+      ]
+    },
+    "stem": "What is the remainder when 275 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 275
+    },
+    "variant_signature": "9f22314c493530a4ea586a26605a908f1f474df63e3d2a118970b40faa720ff5"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 291 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 291 and divide that by 8; the remainder matches the remainder of 291 itself."
+      ]
+    },
+    "stem": "What is the remainder when 291 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 291
+    },
+    "variant_signature": "a2a9953441cd13939c6bea2bba936433e2333ffb76ba6e01820c0e6a0395f67a"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 299 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 299 and divide that by 8; the remainder matches the remainder of 299 itself."
+      ]
+    },
+    "stem": "What is the remainder when 299 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 299
+    },
+    "variant_signature": "f7d52fbf076e2cc50c90e3213c96085a74170112e1d1ef2dfa6a2b6830cad08f"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 307 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 307 and divide that by 8; the remainder matches the remainder of 307 itself."
+      ]
+    },
+    "stem": "What is the remainder when 307 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 307
+    },
+    "variant_signature": "428570f6c121b4a35ba29f9e3f13356d0d4e597a8a6cfa965df676e8b21eb11f"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 315 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 315 and divide that by 8; the remainder matches the remainder of 315 itself."
+      ]
+    },
+    "stem": "What is the remainder when 315 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 315
+    },
+    "variant_signature": "9c3028a0718d9c245baae841824f4d9564c5ecc23e53755f98bef6f2e5652b84"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 331 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 331 and divide that by 8; the remainder matches the remainder of 331 itself."
+      ]
+    },
+    "stem": "What is the remainder when 331 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 331
+    },
+    "variant_signature": "6ab252b3782d8f06b2db9fde0f3dd5d5130f523ad63988f466d8839db558f60f"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 339 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 339 and divide that by 8; the remainder matches the remainder of 339 itself."
+      ]
+    },
+    "stem": "What is the remainder when 339 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 339
+    },
+    "variant_signature": "81881e278588a9590472b5b96f053a2a4cf430fa0de1ea95b96e0a9d2f8826dc"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 347 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 347 and divide that by 8; the remainder matches the remainder of 347 itself."
+      ]
+    },
+    "stem": "What is the remainder when 347 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 347
+    },
+    "variant_signature": "d9c44b80a5bcefe1e17bb0b56d9fc4a64439b2dffc12662cc0c977bc0241ffc1"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 355 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 355 and divide that by 8; the remainder matches the remainder of 355 itself."
+      ]
+    },
+    "stem": "What is the remainder when 355 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 355
+    },
+    "variant_signature": "b84724b0528f431a7de172e7347a4b29a67a4b4295efe8942fd3c31d39c4665c"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 371 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 371 and divide that by 8; the remainder matches the remainder of 371 itself."
+      ]
+    },
+    "stem": "What is the remainder when 371 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 371
+    },
+    "variant_signature": "5487322c03cca145456aa3c8ad9f51ad14c742183a6168136d9dfd324b287694"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 379 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 379 and divide that by 8; the remainder matches the remainder of 379 itself."
+      ]
+    },
+    "stem": "What is the remainder when 379 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 379
+    },
+    "variant_signature": "1d8db044b183bf0d29b9b3eccfa6216ddc4d6feb0f52ea1cdb0c7d315f743bf4"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 387 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 387 and divide that by 8; the remainder matches the remainder of 387 itself."
+      ]
+    },
+    "stem": "What is the remainder when 387 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 387
+    },
+    "variant_signature": "68deafe2ab1c8f444cd7410120162e3c824bd02a13a6db317541bff81447ee46"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 395 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 395 and divide that by 8; the remainder matches the remainder of 395 itself."
+      ]
+    },
+    "stem": "What is the remainder when 395 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 395
+    },
+    "variant_signature": "3d066ac987f8c41a0e26bac61b5d1ec6c02dfcd3b652b5374d7373dbf69e31f9"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 411 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 411 and divide that by 8; the remainder matches the remainder of 411 itself."
+      ]
+    },
+    "stem": "What is the remainder when 411 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 411
+    },
+    "variant_signature": "fab78ead9cca2245054b0ae59d22e24d0eab5e790b0eadfc94901c0dc9e57c37"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 419 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 419 and divide that by 8; the remainder matches the remainder of 419 itself."
+      ]
+    },
+    "stem": "What is the remainder when 419 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 419
+    },
+    "variant_signature": "0b862d39b1c20ab8ade236beabca87a7bbd1b885c54aa5a6745ee5af749c640b"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 427 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 427 and divide that by 8; the remainder matches the remainder of 427 itself."
+      ]
+    },
+    "stem": "What is the remainder when 427 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 427
+    },
+    "variant_signature": "f1ab752a1fa9074926f759e09d77f9043d186b0b04f7883f6ead1ea8b2510bdd"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 435 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 435 and divide that by 8; the remainder matches the remainder of 435 itself."
+      ]
+    },
+    "stem": "What is the remainder when 435 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 435
+    },
+    "variant_signature": "e68cb8b2163c78e626d6f991686d4a7756ff2e9d759d2d4d44124aba9fb34a46"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 451 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 451 and divide that by 8; the remainder matches the remainder of 451 itself."
+      ]
+    },
+    "stem": "What is the remainder when 451 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 451
+    },
+    "variant_signature": "5b189c7222f8601ad848098348577e03ad5b914aabf4f36a34ad3018f56b4ed1"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 459 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 459 and divide that by 8; the remainder matches the remainder of 459 itself."
+      ]
+    },
+    "stem": "What is the remainder when 459 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 459
+    },
+    "variant_signature": "86e1a816050c569468e2d9961cb862ac8f389db5458b121471e78c513594a311"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 467 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 467 and divide that by 8; the remainder matches the remainder of 467 itself."
+      ]
+    },
+    "stem": "What is the remainder when 467 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 467
+    },
+    "variant_signature": "4d887436baec9c36ff836753131d34cc2aebde82c4e3d9f95d60562afb430d49"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 475 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 475 and divide that by 8; the remainder matches the remainder of 475 itself."
+      ]
+    },
+    "stem": "What is the remainder when 475 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 475
+    },
+    "variant_signature": "f14f4611c9d549b288c915594dc730bf5b411cfb053682d4de79c66277b9c4bc"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 491 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 491 and divide that by 8; the remainder matches the remainder of 491 itself."
+      ]
+    },
+    "stem": "What is the remainder when 491 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 491
+    },
+    "variant_signature": "406409572522fc891ee85b40c4557ba1e6ddb23566cdb7766405db3b0c56b5e2"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "The last-digit shortcut works for 2, 5 and 10 \u2014 but 8 needs more digits of the number examined.",
+      "Try dividing the last three digits of 499 by 8."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM8.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The shortcut of checking only the last digit does not work for 8.",
+        "Look at the number formed by the last three digits of 499 and divide that by 8; the remainder matches the remainder of 499 itself."
+      ]
+    },
+    "stem": "What is the remainder when 499 is divided by 8?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 499
+    },
+    "variant_signature": "339f02c2a8905789a685f705d0518b40511d3013efa7e06540a04baa4208ad44"
+  }
+]

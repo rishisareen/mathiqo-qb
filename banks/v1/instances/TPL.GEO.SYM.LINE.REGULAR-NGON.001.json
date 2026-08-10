@@ -1,0 +1,322 @@
+[
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 3,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Think about how many sides (and vertices) the regular polygon has.",
+      "For any regular polygon, the number of lines of symmetry equals the number of sides."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A regular 3-gon has one line of symmetry through each vertex (or the midpoint of the opposite side).",
+        "It has 3 sides, so it has exactly 3 lines of symmetry."
+      ]
+    },
+    "stem": "A regular polygon has 3 sides (a regular 3-gon, with all sides and all angles equal). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 3
+    },
+    "variant_signature": "b830cc3113e159d419a8f34853671b9e3f81f69f512f490c8fcbca83a3df6b30"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 4,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Think about how many sides (and vertices) the regular polygon has.",
+      "For any regular polygon, the number of lines of symmetry equals the number of sides."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A regular 4-gon has one line of symmetry through each vertex (or the midpoint of the opposite side).",
+        "It has 4 sides, so it has exactly 4 lines of symmetry."
+      ]
+    },
+    "stem": "A regular polygon has 4 sides (a regular 4-gon, with all sides and all angles equal). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 4
+    },
+    "variant_signature": "8c2c649f4da05cf0e82874023ae53fdea4c242750a47662da9e77f44b4860f75"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 5,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Think about how many sides (and vertices) the regular polygon has.",
+      "For any regular polygon, the number of lines of symmetry equals the number of sides."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A regular 5-gon has one line of symmetry through each vertex (or the midpoint of the opposite side).",
+        "It has 5 sides, so it has exactly 5 lines of symmetry."
+      ]
+    },
+    "stem": "A regular polygon has 5 sides (a regular 5-gon, with all sides and all angles equal). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 5
+    },
+    "variant_signature": "77c586543f892c67cafcc3d8ee438c75984ad137f53da00cb147fbaf4b27acf7"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 6,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Think about how many sides (and vertices) the regular polygon has.",
+      "For any regular polygon, the number of lines of symmetry equals the number of sides."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A regular 6-gon has one line of symmetry through each vertex (or the midpoint of the opposite side).",
+        "It has 6 sides, so it has exactly 6 lines of symmetry."
+      ]
+    },
+    "stem": "A regular polygon has 6 sides (a regular 6-gon, with all sides and all angles equal). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 6
+    },
+    "variant_signature": "f5bf1f12e9d9230257de88bc06d5e5568e3c72ca790712c6c3440b0f62e3b1b4"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 7,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Think about how many sides (and vertices) the regular polygon has.",
+      "For any regular polygon, the number of lines of symmetry equals the number of sides."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A regular 7-gon has one line of symmetry through each vertex (or the midpoint of the opposite side).",
+        "It has 7 sides, so it has exactly 7 lines of symmetry."
+      ]
+    },
+    "stem": "A regular polygon has 7 sides (a regular 7-gon, with all sides and all angles equal). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 7
+    },
+    "variant_signature": "97a7e51b2a46a5f68c5199f119f9036b5ba9059bd8245b84d31b0d5f15f23bb5"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 8,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Think about how many sides (and vertices) the regular polygon has.",
+      "For any regular polygon, the number of lines of symmetry equals the number of sides."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A regular 8-gon has one line of symmetry through each vertex (or the midpoint of the opposite side).",
+        "It has 8 sides, so it has exactly 8 lines of symmetry."
+      ]
+    },
+    "stem": "A regular polygon has 8 sides (a regular 8-gon, with all sides and all angles equal). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 8
+    },
+    "variant_signature": "7ffc65ba354c5a6548ddaf44fea598a0733450348a9a9ede513e13767c4d8036"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 9,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Think about how many sides (and vertices) the regular polygon has.",
+      "For any regular polygon, the number of lines of symmetry equals the number of sides."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A regular 9-gon has one line of symmetry through each vertex (or the midpoint of the opposite side).",
+        "It has 9 sides, so it has exactly 9 lines of symmetry."
+      ]
+    },
+    "stem": "A regular polygon has 9 sides (a regular 9-gon, with all sides and all angles equal). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 9
+    },
+    "variant_signature": "1bc3d7c47b8c026dc56d993fbdb78288d706d07f41aed0cf818113fa392a7658"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "regular-ngon",
+        "sides": 10,
+        "symmetry": "none"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Think about how many sides (and vertices) the regular polygon has.",
+      "For any regular polygon, the number of lines of symmetry equals the number of sides."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A regular 10-gon has one line of symmetry through each vertex (or the midpoint of the opposite side).",
+        "It has 10 sides, so it has exactly 10 lines of symmetry."
+      ]
+    },
+    "stem": "A regular polygon has 10 sides (a regular 10-gon, with all sides and all angles equal). How many lines of symmetry does it have?",
+    "template_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 10
+    },
+    "variant_signature": "b9c379de5b6ee0f2f3683ebd7e66c08c843fe0651f565b8cb6c42a90c632c2a8"
+  }
+]

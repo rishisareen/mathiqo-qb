@@ -1,0 +1,1146 @@
+[
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 10 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 10: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 10 are 2, 4, 6, ..., 10 \u2014 every second number.",
+        "There are exactly 10 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 10 (including 10)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 10
+    },
+    "variant_signature": "7fc74b9c1133794fb19abef7938dd9594a80c6872d6b2cb5f2dd94cbc64b1920"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 12 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 12: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 12 are 2, 4, 6, ..., 12 \u2014 every second number.",
+        "There are exactly 12 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 12 (including 12)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 12
+    },
+    "variant_signature": "cae1f7cc3bf7eb551767c88e1e8891c561fcb694542b6ecbb25163211242e2c6"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 14 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 14: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 14 are 2, 4, 6, ..., 14 \u2014 every second number.",
+        "There are exactly 14 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 14 (including 14)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 14
+    },
+    "variant_signature": "d5d05c9dce8e6fbfeee80fb4c3c35749bd1c438f1a5a7067aa67d1e0fb55f294"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 16 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 16: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 16 are 2, 4, 6, ..., 16 \u2014 every second number.",
+        "There are exactly 16 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 16 (including 16)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 16
+    },
+    "variant_signature": "3a8d067b32c0460535acf33b9311e61602353712d64fabe788ada3c844700ecf"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 18 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 18: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 18 are 2, 4, 6, ..., 18 \u2014 every second number.",
+        "There are exactly 18 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 18 (including 18)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 18
+    },
+    "variant_signature": "696029a0ef36430005aa5903e2a2626b9f79bb11f12b3c008d3016657e0fb3e4"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 20 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 20: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 20 are 2, 4, 6, ..., 20 \u2014 every second number.",
+        "There are exactly 20 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 20 (including 20)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 20
+    },
+    "variant_signature": "ab9e0d62a7e7a0271250810e17a42a478deb76b9c86dbff48638b35aacdd7402"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 22 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 22: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 22 are 2, 4, 6, ..., 22 \u2014 every second number.",
+        "There are exactly 22 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 22 (including 22)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 22
+    },
+    "variant_signature": "0b81ac01dfc6f990bfff687eaeae72bf4ffe51c354c202bd307bd0502042e979"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 24 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 24: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 24 are 2, 4, 6, ..., 24 \u2014 every second number.",
+        "There are exactly 24 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 24 (including 24)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 24
+    },
+    "variant_signature": "4be90dd5ead069d93e1eec3565c8cde2ff5c56328e42518f2a12bf1c1967cb87"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 26 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 26: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 26 are 2, 4, 6, ..., 26 \u2014 every second number.",
+        "There are exactly 26 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 26 (including 26)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 26
+    },
+    "variant_signature": "ec6dca8648c20c1c402ba97126cc000d06fe5e413a883fbb81f497f1da47930b"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 28 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 28: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 28 are 2, 4, 6, ..., 28 \u2014 every second number.",
+        "There are exactly 28 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 28 (including 28)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 28
+    },
+    "variant_signature": "45cac0de507217d92e0ed5f43886e7585f0a85441e71ab991372e3814e7b9105"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 30 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 30: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 30 are 2, 4, 6, ..., 30 \u2014 every second number.",
+        "There are exactly 30 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 30 (including 30)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 30
+    },
+    "variant_signature": "1d7c7aa7aae76f731edb6c79ed0026867261dfae64c330c6d40e240a84233fbc"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 32 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 32: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 32 are 2, 4, 6, ..., 32 \u2014 every second number.",
+        "There are exactly 32 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 32 (including 32)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 32
+    },
+    "variant_signature": "8d4fb64a47d5fdc5a1ed0c241df44d6109c810e6af18a442c5d678198db2b041"
+  },
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 34 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 34: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 34 are 2, 4, 6, ..., 34 \u2014 every second number.",
+        "There are exactly 34 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 34 (including 34)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 34
+    },
+    "variant_signature": "22f5aaa403f89002dfa6eaa84769dcf2fbc024fe5f9a612c1e50dc3df9e1191d"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 36 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 36: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 36 are 2, 4, 6, ..., 36 \u2014 every second number.",
+        "There are exactly 36 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 36 (including 36)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 36
+    },
+    "variant_signature": "9c4b1a591be92a34511cd151b05e1a89c21830c9e08433f279f8b41d9c92047c"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "38"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 38 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 38: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 38 are 2, 4, 6, ..., 38 \u2014 every second number.",
+        "There are exactly 38 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 38 (including 38)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 38
+    },
+    "variant_signature": "58ddc96dc16456f8cc609e3f21e2edd3697fbfb9e7a347e505352b6fcda9acb2"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 40 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 40: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 40 are 2, 4, 6, ..., 40 \u2014 every second number.",
+        "There are exactly 40 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 40 (including 40)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 40
+    },
+    "variant_signature": "3d92350900cad1dca6ff08a4f49a99511bdc1420fbb63ebbb52399b39ba64c00"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 42 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 42: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 42 are 2, 4, 6, ..., 42 \u2014 every second number.",
+        "There are exactly 42 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 42 (including 42)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 42
+    },
+    "variant_signature": "ffc6b5811d143b7944db548b2c37174c8b3485c11938240beb93199810edae43"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "44"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 44 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 44: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 44 are 2, 4, 6, ..., 44 \u2014 every second number.",
+        "There are exactly 44 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 44 (including 44)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 44
+    },
+    "variant_signature": "3cd56399ea84618a313c632f523c53b74eed9b9cd46c1316a20f758bcf0dbc7a"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "46"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 46 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 46: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 46 are 2, 4, 6, ..., 46 \u2014 every second number.",
+        "There are exactly 46 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 46 (including 46)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 46
+    },
+    "variant_signature": "01aacc30d17ec512f6a298483ea75e745bb25e60ca8e85e1d9090807e15899cb"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 48 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 48: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 48 are 2, 4, 6, ..., 48 \u2014 every second number.",
+        "There are exactly 48 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 48 (including 48)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 48
+    },
+    "variant_signature": "d5d44ef75d56fa48d7214ce11f6898e60a9152531649b8d587f9e65f6287ae52"
+  },
+  {
+    "answer": "25",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "50"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 50 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 50: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 50 are 2, 4, 6, ..., 50 \u2014 every second number.",
+        "There are exactly 50 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 50 (including 50)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 50
+    },
+    "variant_signature": "bc0265169ae1e72403c12400577a0633a2dd13c7c6b8ca0bec85af1586cf52ce"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 52 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 52: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 52 are 2, 4, 6, ..., 52 \u2014 every second number.",
+        "There are exactly 52 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 52 (including 52)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 52
+    },
+    "variant_signature": "392e99eb9472e4c3533fc293769bbcaae427cfb567c90873ccfd6eff2ac63e9d"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "54"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 54 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 54: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 54 are 2, 4, 6, ..., 54 \u2014 every second number.",
+        "There are exactly 54 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 54 (including 54)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 54
+    },
+    "variant_signature": "8697c7d71f8f656526789e822ff4447999d149bbd88a51cdd908bd4703d64fb7"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 56 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 56: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 56 are 2, 4, 6, ..., 56 \u2014 every second number.",
+        "There are exactly 56 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 56 (including 56)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 56
+    },
+    "variant_signature": "6b8e4b69137e92d4d68545e9cdb78cb70d3aae35b69d7658fb86bc3c10231a28"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "58"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 58 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 58: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 58 are 2, 4, 6, ..., 58 \u2014 every second number.",
+        "There are exactly 58 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 58 (including 58)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 58
+    },
+    "variant_signature": "68590f7c6cc69b76e1b23d346ce5baaabe985f8b3f2c71d247b33ead71a0401b"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Only every second number from 1 to 60 is even \u2014 don't count the odd numbers too.",
+      "The even numbers are 2, 4, 6, ..., 60: how many terms are in that list?"
+    ],
+    "item_instance_id": "TPL.NUM.PARITY.COUNT.EVENS.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PARITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The even numbers from 1 to 60 are 2, 4, 6, ..., 60 \u2014 every second number.",
+        "There are exactly 60 / 2 such numbers."
+      ]
+    },
+    "stem": "How many even numbers are there from 1 to 60 (including 60)?",
+    "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 60
+    },
+    "variant_signature": "97439d035b508749b73f24df1924d79fc65e8cf69c1cb5ea056999d4686875a6"
+  }
+]

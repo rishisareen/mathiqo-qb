@@ -1,0 +1,2282 @@
+[
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 3,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 3 rows with 3 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 3 x 3."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 3 rows and 3 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 3
+    },
+    "variant_signature": "e8ca8778fd4b19f31c65c60d21451c6ee255c7f094e00a3bfb5e924b30905a64"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 3 rows with 5 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 3 x 5."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 3 rows and 5 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 5
+    },
+    "variant_signature": "0f7479cb13a263fb4618ff07e84d2c3a4700d76669c5cef9622e08796d4652de"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 3 rows with 8 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 3 x 8."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 3 rows and 8 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 8
+    },
+    "variant_signature": "7fcc314d4bd1a3ae22846e4c16cb5ec8222c9d936ce1bd2a3a1daee2ec087da2"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 3
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 3 rows with 9 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 3 x 9."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 3 rows and 9 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 9
+    },
+    "variant_signature": "1b585c9474b4e0d8879ba89ce72c12928404e80c7b31dafcea38545740e4dcb1"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 4 rows with 5 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 4 x 5."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 4 rows and 5 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 5
+    },
+    "variant_signature": "a8abd84f0b8d28f0b6cbf2236872aa8106d6c5a488720f7ece315e3b13cfa552"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 4 rows with 6 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 4 x 6."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 4 rows and 6 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 6
+    },
+    "variant_signature": "76c90186b06002af67746b27813b5cd2a2da8c450f390a92ec16312f936fae89"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "34"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 4 rows with 8 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 4 x 8."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 4 rows and 8 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 8
+    },
+    "variant_signature": "f41c64610a24cac391dc3e0e84fbf0961166744dfb4214ce9c45232bcef14e12"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "38"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 4
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 4 rows with 9 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 4 x 9."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 4 rows and 9 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 9
+    },
+    "variant_signature": "a90ffa74e629ed8e13b274bf9c7bd5d888651a6e410fdaa07633d6f70f090ddf"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 3,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 5 rows with 3 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 5 x 3."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 5 rows and 3 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 3
+    },
+    "variant_signature": "7dd6d88ebdf67fc25c4ecce0267ffa8f0e68079ffa6386cf955a3c0d55991b3b"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 4,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 5 rows with 4 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 5 x 4."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 5 rows and 4 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 4
+    },
+    "variant_signature": "86499d606fec0e510c2d08808f94bd727ec3ab0f51c6563b8af0a98ac858593e"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 5 rows with 6 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 5 x 6."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 5 rows and 6 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 6
+    },
+    "variant_signature": "9b31c61ec5ab27a00d55fa2516dc4d467b45e0e3670c8a129a48c5efe752c761"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "37"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 5 rows with 7 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 5 x 7."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 5 rows and 7 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 7
+    },
+    "variant_signature": "a4b724cdad9f9f0efe0db0a1b9c24ac60fc046b39aa3d95a5f90b7e1229c25c8"
+  },
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "47"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 5 rows with 9 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 5 x 9."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 5 rows and 9 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 9
+    },
+    "variant_signature": "1048ada1f7433f9e2ff1c8568874b300a7523c4d42c542d4ea14a0f86d8c8603"
+  },
+  {
+    "answer": "50",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 10,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 5 rows with 10 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 5 x 10."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 5 rows and 10 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 10
+    },
+    "variant_signature": "e9ecfdedbb08c43bf825b60aa6c363bf6b2e6e9183a54c48eabd9ca2d8235760"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 4,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 6 rows with 4 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 6 x 4."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 6 rows and 4 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 4
+    },
+    "variant_signature": "9438be8c496333f4083bfd32e2d6ee6826655b91e3bb4ab73d2822b0d0edd6f7"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "38"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 6 rows with 6 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 6 x 6."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 6 rows and 6 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 6
+    },
+    "variant_signature": "edef0ec5b8a71806c20d6b1b75ac6305acb655976f7c585031271e68f302e282"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "44"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 6 rows with 7 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 6 x 7."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 6 rows and 7 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 7
+    },
+    "variant_signature": "4de5795f9b8a1d5b55b6bed83dbb06896e2ba154007b601f3c7d0dd4c84626a4"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 6 rows with 9 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 6 x 9."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 6 rows and 9 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 9
+    },
+    "variant_signature": "9d6ff6818e6681316da2af9751f530ba8bf545b47d3e418c54c6eea2cc4d311a"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "62"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 10,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 6 rows with 10 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 6 x 10."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 6 rows and 10 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 10
+    },
+    "variant_signature": "c705d46d7f0fa07155f36245778e7ffb5f894e01a4a4aba5d3f56c47b5d3a597"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 4,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 7 rows with 4 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 7 x 4."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 7 rows and 4 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 4
+    },
+    "variant_signature": "d2887bd370b19803984f5763817032c8d2fcd5cf8830215f917836b10ab200a8"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "37"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 7 rows with 5 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 7 x 5."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 7 rows and 5 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 5
+    },
+    "variant_signature": "15a91d614007b2784fe59e504788649821e0218a776e014605280b89f902c696"
+  },
+  {
+    "answer": "49",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "51"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 7 rows with 7 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 7 x 7."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 7 rows and 7 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 7
+    },
+    "variant_signature": "fa507be1cfbaa32e07acada63061b3933ce437de4dff63a5db757c84d273c40c"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "58"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 7 rows with 8 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 7 x 8."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 7 rows and 8 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 8
+    },
+    "variant_signature": "4dd72b5569ffbfce318b8b4142093a4dc6a0c6d03ecd61808183cb6b49b4c3ef"
+  },
+  {
+    "answer": "70",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "72"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 10,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 7 rows with 10 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 7 x 10."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 7 rows and 10 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 10
+    },
+    "variant_signature": "2d902a85a0449b67cdff46d37a06e5a10e076dc5ad33a8b2f179d0852972489d"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 3,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 8 rows with 3 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 8 x 3."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 8 rows and 3 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 3
+    },
+    "variant_signature": "940db2df4a6bea53241b5e255574c92fff2d79f79b91b68e1f01ae3c61dd0c36"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 8 rows with 5 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 8 x 5."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 8 rows and 5 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 5
+    },
+    "variant_signature": "d9b627a7242d1b61acf6f86612664d7181fa02ebdb9ecfefbc489866101d1140"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "50"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 8 rows with 6 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 8 x 6."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 8 rows and 6 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 6
+    },
+    "variant_signature": "07ab8b2dde13508118bcffd55f4c36c23d876f75b447ce02cb3a3bd782a2bc85"
+  },
+  {
+    "answer": "64",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "66"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 8 rows with 8 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 8 x 8."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 8 rows and 8 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 8
+    },
+    "variant_signature": "1fa703a78cdf29dec66ff52ff071b98436c20bdd93dd0b09e43741ca7d4bf11e"
+  },
+  {
+    "answer": "72",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "74"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 8 rows with 9 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 8 x 9."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 8 rows and 9 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 9
+    },
+    "variant_signature": "ccdc2798ed5fe0404bcf04bc149f3fbbc3c7c126059eb76842ab044922522951"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 3,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 9 rows with 3 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 9 x 3."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 9 rows and 3 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 3
+    },
+    "variant_signature": "9222e81224210a3a63afe12d9d39fd281b066dd517824ed2359ead52f8e2ae33"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "38"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 4,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 9 rows with 4 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 9 x 4."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 9 rows and 4 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 4
+    },
+    "variant_signature": "ef055dcc6669bf9d03db15fd5a439a9f0f9a50a5084eefc7c8fdd8d9fde7b3f6"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 9 rows with 6 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 9 x 6."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 9 rows and 6 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 6
+    },
+    "variant_signature": "f39228b0b8f3317132a30520002ded8fe9d7b9639b18624e67f2aa5c9da9d24c"
+  },
+  {
+    "answer": "63",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "65"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 9 rows with 7 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 9 x 7."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 9 rows and 7 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 7
+    },
+    "variant_signature": "72dc8ff68218dce06aba195e752be08903dd5994703b53556e84c0b1c7fed575"
+  },
+  {
+    "answer": "72",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "74"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 9 rows with 8 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 9 x 8."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 9 rows and 8 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 8
+    },
+    "variant_signature": "8a2ceea61a311b41031a01e3b1eddd4f0c5c425c4c6c53c4a4b3e8c22adc05d8"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "38"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "92"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 10,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 9 rows with 10 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 9 x 10."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 9 rows and 10 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 10
+    },
+    "variant_signature": "2997adfb43c9eff921f4152fed3a35c2ee8b2a68be71b52b2e4a195c6f47e716"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "32"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 3,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 10
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 10 rows with 3 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 10 x 3."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 10 rows and 3 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 3
+    },
+    "variant_signature": "87d6948f665b6b6272a5afc0fc2ba239356e95712600a05d20caeac4163ab215"
+  },
+  {
+    "answer": "50",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 10
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 10 rows with 5 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 10 x 5."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 10 rows and 5 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 5
+    },
+    "variant_signature": "cb36b7dcfe619820564fb73d6fb671e5ef1f184075ae9f8965db455c6f8802df"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "62"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 10
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 10 rows with 6 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 10 x 6."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 10 rows and 6 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 6
+    },
+    "variant_signature": "821f00c0be822ac8442fa92059eca4e0d31abb0ab94543f42821f50637cb55e0"
+  },
+  {
+    "answer": "80",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "82"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 10
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 10 rows with 8 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 10 x 8."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 10 rows and 8 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 8
+    },
+    "variant_signature": "951f3b18ae67a578b49a4743f04e840cbb9ae03706d12572596c099c65553543"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "38"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "92"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "fill": "all",
+        "kind": "grid-region",
+        "rows": 10
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "You're counting how many tiles cover the floor, not the distance around its edge.",
+      "Multiply the number of rows by the number of columns."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The tiles form 10 rows with 9 tiles in each row.",
+        "The total number of tiles \u2014 the area \u2014 is 10 x 9."
+      ]
+    },
+    "stem": "A kitchen floor is covered edge-to-edge with square tiles, arranged in 10 rows and 9 columns. How many square tiles cover the floor \u2014 that is, what is the floor's area in tile units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 9
+    },
+    "variant_signature": "0380f285f014f6f866e5343004d9fd80fbaa4ea74b324eb832f00303b5eeb95c"
+  }
+]

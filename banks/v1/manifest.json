@@ -1,0 +1,2157 @@
+{
+  "bank_version": "v1",
+  "graph_versions": [
+    "1.0.0"
+  ],
+  "instance_count": 7000,
+  "locale_pack": {
+    "locale": "en-IN",
+    "path": "/Users/ryan/Documents/mathiqo-qb/content/locales/en-IN.yaml",
+    "sha256": "30f18a40ae13de1049f8be1e422aaa2fe4c95c96f6a40a14e07932082beadeee"
+  },
+  "pool_cap": 40,
+  "templates": [
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "66292bea4108bd01c66af39dd166df190e96e63b004881e490b6cb65268a2323",
+      "template_id": "TPL.DATA.BARGRAPH.COMPARE.DIFFERENCE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 80
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "bd2549b1c465838aac71c7fcd4ddfdd1914f9a08f9ace9686d21867507dc95e8",
+      "template_id": "TPL.DATA.BARGRAPH.GRIDLINE.VALUE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 40
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "e7cd2c961864243afc2f35286684c9f42a6a606d2c2fd8d68c63e3a14de3730d",
+      "template_id": "TPL.DATA.BARGRAPH.GRIDLINES.NEEDED.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 76
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "2736bdf5beb6e533eb1f97b9071f8c95b7c5c6e1b5507d6354305828a40592da",
+      "template_id": "TPL.DATA.BARGRAPH.SCALE.CHOICE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 91
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "2d213f9220e298eaae4e8c2acff438ccbb734844cda920113a9be6cacde2d1a4",
+      "template_id": "TPL.DATA.BARGRAPH.THREEBAR.TOTAL.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 81
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "b80f986f05b86e91413377c2d4db17d307108b0755ae3f5ce554f78404cd6781",
+      "template_id": "TPL.DATA.PICTOGRAPH.CATCHUP.GAP.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 48
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 12,
+      "question_type": "mcq_4",
+      "source_sha256": "9e41f1e0624d0c148fb7fa8ddc560f7f6dd09e3107ce4caaccf83ef3fb4ac308",
+      "template_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 12
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 35,
+      "question_type": "numeric_entry",
+      "source_sha256": "b625a9352dc6c4e050f61c9908db38d135fc671d0175e05194d57f92ce596fd0",
+      "template_id": "TPL.DATA.PICTOGRAPH.SYMBOL.SCALE.TOTAL.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 35
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "55341b659f031cc5643ebcd93552df4097c6c42f853b92cf66487148ee4a888b",
+      "template_id": "TPL.DATA.PICTOGRAPH.THREECATEGORY.TOTAL.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 81
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "0ddba2ecd8080a2097898d4783a1c8d1081eb764d19c8d58a0dcf20997e24d41",
+      "template_id": "TPL.DATA.PICTOGRAPH.TWOCATEGORY.DIFFERENCE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 60
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 25,
+      "question_type": "numeric_entry",
+      "source_sha256": "61d45ee12826837b0f039107694d19d40b62ceabe6e13e3653456d5facb77faf",
+      "template_id": "TPL.DATA.TALLY.BUNDLES.TOTAL.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 25
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "574d6b2cef370d295515a5b30f51c4cd0be557848bac06cbbbd25eba63f3a94b",
+      "template_id": "TPL.DATA.TALLY.HIGHEST.MINUS.LOWEST.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 2250
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 30,
+      "question_type": "mcq_4",
+      "source_sha256": "08f672c35f1e213b860d5b69be2feb8805882beb62602ba3f82c5a63add9c4e1",
+      "template_id": "TPL.DATA.TALLY.STROKES.DESCRIBED.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 30
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "7447de0adc03795342e013217f0956c7e34b1fc48c3c7e371d6fecdfcf4787b6",
+      "template_id": "TPL.DATA.TALLY.THREECATEGORY.TOTAL.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1000
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "754e8c3233a69baf320ad3784e3120ae4e4bddfb2597b50ddc051f4a3d16edd2",
+      "template_id": "TPL.DATA.TALLY.TWOCATEGORY.DIFFERENCE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 225
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 26,
+      "question_type": "mcq_4",
+      "source_sha256": "801516355eed40cfcde27712c9de6c0053cdab422a669f11ab71ed0b4569435b",
+      "template_id": "TPL.FRAC.ADD.LIKE.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 26
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 12,
+      "question_type": "numeric_entry",
+      "source_sha256": "36f37cd4c41b3821c644704f3e805e9ce404a485a6d39b121905a2ce6343c7b4",
+      "template_id": "TPL.FRAC.ADD.LIKE.NUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 12
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 24,
+      "question_type": "numeric_entry",
+      "source_sha256": "dd3075f84dcf47f40bee73e2c28b31370ac21440ff50d90633ea5b9a89457a2c",
+      "template_id": "TPL.FRAC.ADD.UNLIKE.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 24
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "3af212e137c0536cb7bf7441c465b69fec85cfbf0803c943dd8820d7e56035f7",
+      "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1148
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 18,
+      "question_type": "numeric_entry",
+      "source_sha256": "f3dfc214dba6b4131a585be167755262af22da5ba2065b4959031828d9ef1229",
+      "template_id": "TPL.FRAC.CMP.DIFF.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 18
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 24,
+      "question_type": "mcq_4",
+      "source_sha256": "b6ac6a44660539bf74996edb533a183fa30b6e0fb9aa9aaffcf9b006d38042ac",
+      "template_id": "TPL.FRAC.CMP.SAMENUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 24
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 12,
+      "question_type": "mcq_4",
+      "source_sha256": "da51d3ba8a67004e13362fffbdc68560d6d976ad3fbfaea9e309f73b572caa44",
+      "template_id": "TPL.FRAC.DIV.FRAC.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 12
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 12,
+      "question_type": "numeric_entry",
+      "source_sha256": "7e3e6c3363241073f0dee1f3916e5e18b63172fdcb98c9d7e6e032a5265a5b5c",
+      "template_id": "TPL.FRAC.DIV.FRAC.NUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 12
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 27,
+      "question_type": "mcq_4",
+      "source_sha256": "bc1b89ad2a101a280ba0f24ea49f994f6b40b40ed820deb7c232aa23dc0d526c",
+      "template_id": "TPL.FRAC.DIV.WHOLE.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 27
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 27,
+      "question_type": "numeric_entry",
+      "source_sha256": "9fd02a1332325e0eb6c6d5e1a317d7d28e6dc3eec6174c2fb9b1993b0140ea9a",
+      "template_id": "TPL.FRAC.DIV.WHOLE.NUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 27
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 27,
+      "question_type": "numeric_entry",
+      "source_sha256": "8ab5a2f098bb346db68d80f987b9291a8b85cec2a923bd3d9c5f05c1ef85995a",
+      "template_id": "TPL.FRAC.EQUIV.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 27
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 26,
+      "question_type": "mcq_4",
+      "source_sha256": "8c7faa7f2c457bb72d8b6acf3da49e57ca589247034edd60f1e1d304f76b72a4",
+      "template_id": "TPL.FRAC.EQUIV.GEN.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 26
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "c71d5f6056b0334c16235e5aa7bafe96d8fc7e65ce3fc5aaa16ea7fa8eeb9d13",
+      "template_id": "TPL.FRAC.MIXED.ADD.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 72
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 16,
+      "question_type": "mcq_4",
+      "source_sha256": "a5db854ac0da1a285d6a7b78b3b5e06261892aa42e3a2181dc13d4cde1bd4bce",
+      "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 16
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 16,
+      "question_type": "numeric_entry",
+      "source_sha256": "4f99b5620dcc58012497b2fe5f2a8e3aecbaacd0807601af7b04bfcfe9794f96",
+      "template_id": "TPL.FRAC.MULT.FRAC.NUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 16
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 36,
+      "question_type": "mcq_4",
+      "source_sha256": "b7bc2f955e23f1acb3019c6496c808370e73c36c341d65448659eff0077f58e5",
+      "template_id": "TPL.FRAC.MULT.WHOLE.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 36
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 36,
+      "question_type": "numeric_entry",
+      "source_sha256": "bee543a3c2b82b15982fbea947b5c978016a860bed5cca2bc108da612a7cca87",
+      "template_id": "TPL.FRAC.MULT.WHOLE.NUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 36
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 32,
+      "question_type": "mcq_4",
+      "source_sha256": "5899aa4899f7a238958e693422e4421325a2b65c227a33d09604e1292945976e",
+      "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 32
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 32,
+      "question_type": "numeric_entry",
+      "source_sha256": "22c334ebc9092ee62167bf764466abdd01f4fa982845e5cd2c21d1480ad82adc",
+      "template_id": "TPL.FRAC.NUMLINE.IDENTIFY.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 32
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 25,
+      "question_type": "mcq_4",
+      "source_sha256": "a9c8d10eef8e7e3b7d8b6d6e7a7cd77c4440156bbec755531082194c9c91049d",
+      "template_id": "TPL.FRAC.NUMLINE.READ.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 25
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 32,
+      "question_type": "numeric_entry",
+      "source_sha256": "c609a77fe9278fd3038f34f750345976e71401454a96634e436369479bd6389d",
+      "template_id": "TPL.FRAC.NUMLINE.SEGMENT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 32
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 33,
+      "question_type": "mcq_4",
+      "source_sha256": "99491b12ce58dd71a6feb03091f3845be74a16e875442448accb3476a2806f3d",
+      "template_id": "TPL.FRAC.NUMLINE.TRAIL.HARD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 33
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 9,
+      "question_type": "numeric_entry",
+      "source_sha256": "5c9a7cc0aaa767752f39395c43d988bc2cc72a65c56932631a6788b9ad752eff",
+      "template_id": "TPL.FRAC.PARTWHOLE.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 9
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 33,
+      "question_type": "numeric_entry",
+      "source_sha256": "aa5d92439b416eb3b05452626c787b4348730b8e3eae4edeec609b54f5adee26",
+      "template_id": "TPL.FRAC.PARTWHOLE.HARD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 33
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 13,
+      "question_type": "mcq_4",
+      "source_sha256": "e6948d76c95e7668bf41c28471bf6157d01f11ef1421b2af1406aa86fb927f77",
+      "template_id": "TPL.FRAC.PARTWHOLE.MEDIUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 13
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "7d3d37a270879b21210b77411c3a53e6b2eb873f376872639a63735630e48627",
+      "template_id": "TPL.FRAC.SIMPLIFY.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 40
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 12,
+      "question_type": "mcq_4",
+      "source_sha256": "9f30afbb546b967e6944d62597c0c302788097e62a92eb9630f0436eea96583a",
+      "template_id": "TPL.FRAC.UNIT.CMP.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 12
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 27,
+      "question_type": "mcq_4",
+      "source_sha256": "ea45936f013e283961da80215fb2fda02bd38439d6673160f599eee26dabd586",
+      "template_id": "TPL.FRAC.UNIT.CMP.MEDIUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 27
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 20,
+      "question_type": "numeric_entry",
+      "source_sha256": "b42f09b30399acb35fb364149537a48167f003001ada3d40febfbce7fbf0f7e8",
+      "template_id": "TPL.FRAC.UNIT.WHOLE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 20
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "bf48156e8c37928cb921a8d68069177520b191d8b06d4e40636792febbbf401d",
+      "template_id": "TPL.FRAC.UNIT.WHOLE.HARD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 45
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 11,
+      "question_type": "mcq_4",
+      "source_sha256": "76071a4551e14430d322923db2f73c60ecd6f7083d4f042f4f473bdc3e30341a",
+      "template_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.COMPARE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 11
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "4873dc535d1cb98ca33eb8d8f6fd5c8af12c6b08aa62e3ac3bf80333591c9d2d",
+      "template_id": "TPL.GEO.ANGLECONCEPT.ARMLENGTH.SUM.HARD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 105
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 31,
+      "question_type": "numeric_entry",
+      "source_sha256": "56c9f7d9b0af0329df04c3cb33d49990b355ea167d76d2f88f3e33bab91b374d",
+      "template_id": "TPL.GEO.ANGLECONCEPT.CLOCK.HOURTURN.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 31
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 4,
+      "question_type": "mcq_4",
+      "source_sha256": "f6e1b4d66acd4088404d6bee9baaf7438000893f566e8f537b753fc1fa19f069",
+      "template_id": "TPL.GEO.ANGLECONCEPT.SHARED.VERTEX.RAYS.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 4
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 33,
+      "question_type": "numeric_entry",
+      "source_sha256": "cef21f191addb0d93bab09e8d3e030f300b899e2279f4eb04d352befad8c9963",
+      "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 33
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 10,
+      "question_type": "mcq_4",
+      "source_sha256": "2ab4b012e1f37f024655f40ede557580ade9c8bb7c63e209ffc7ea9b3dc5c4ba",
+      "template_id": "TPL.GEO.ANGLEMEASURE.CLOCKTURN.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 10
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "629ceb130587eff14da6cf5139c1e0d4400918db40fe3ed22cbb4720fde4c581",
+      "template_id": "TPL.GEO.ANGLEMEASURE.DRAWN.CHECK.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 148
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "c8c0cf252b26653d677094f47c04753a7bea2c489d6aac9b8359dcf07d3c3915",
+      "template_id": "TPL.GEO.ANGLEMEASURE.REFLEX.HARD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 159
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "864795c82067aa49626c3d70c91b250340cc147f432fc22cc9ed0effb703c3e0",
+      "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.INNER.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 121
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "2cc8e6b77407c23da0e56f5aabbf77bf4ca752db2806d5ccc5633df383e6b97e",
+      "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 60
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "a4a3c6ad4708760c1ac0dd37fe9cde90bd0c56e48ebf23b96868f06bdcdf58c5",
+      "template_id": "TPL.GEO.ANGLETYPES.DEGREES.FROMRIGHT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 88
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "91cc7e10d8709bb6453a15c0ca982793c9c129175ca56bdbafae8401610af47a",
+      "template_id": "TPL.GEO.ANGLETYPES.DEGREES.TOSTRAIGHT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 160
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "2e745428d02b67656dd61b2f67aa06b66b7e0186a5b21b0ba0220b6fe9b644e3",
+      "template_id": "TPL.GEO.ANGLETYPES.REFLEX.FROMFULL.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 169
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 7,
+      "question_type": "mcq_4",
+      "source_sha256": "ca8bc6f97cfa01600a95fdb6c81a8f365087eb21b14d8872eb7c281d9a14c2a1",
+      "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.MULTIPLE.HARD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 7
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "aeae6d50934a46c85b4161cfccce5623e945ec9f1129a88695f2059ca7095ddf",
+      "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 75
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 18,
+      "question_type": "numeric_entry",
+      "source_sha256": "41dccaf394de433e2366e44145701f9f7e0055096849a00d1bbcba3d866770ca",
+      "template_id": "TPL.GEO.CIRCLEPARTS.COMPASS.SWAP.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 18
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 19,
+      "question_type": "numeric_entry",
+      "source_sha256": "4868229c01c4602e6b5b7777d687b50a509cb8359015f9b769d954fd9987b6c4",
+      "template_id": "TPL.GEO.CIRCLEPARTS.DIAMETER.TO.RADIUS.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 19
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 26,
+      "question_type": "mcq_4",
+      "source_sha256": "bbad1dc1b7bc6eecc6aa0fa92e8dedaeac227673895e830a9491e7b17ea67545",
+      "template_id": "TPL.GEO.CIRCLEPARTS.POINTS.ONCIRCLE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 26
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 18,
+      "question_type": "mcq_4",
+      "source_sha256": "8b3c20608dd00017028c735aee7de06eff2acba71dfd939aaed50ab513966a28",
+      "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.DIAMETER.DIFF.HARD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 18
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 18,
+      "question_type": "mcq_4",
+      "source_sha256": "88af19ae059a076dcc064bf2920c6bea0813a0509f52535137332b2a7db4aa73",
+      "template_id": "TPL.GEO.CIRCLEPARTS.RADIUS.TO.DIAMETER.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 18
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 13,
+      "question_type": "mcq_4",
+      "source_sha256": "5866604804551f99a93604be37e362dd5b7df3512950b97353edea6fbd6d612f",
+      "template_id": "TPL.GEO.CONSTRUCTBASIC.CIRCLE.FROMSEGMENT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 13
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "bd14217b74420eaffdceae337dbcabc029fa3c6d505e04e9337418277990f18e",
+      "template_id": "TPL.GEO.CONSTRUCTBASIC.COMPASSSLIP.PERIMETER.HARD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 65
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 30,
+      "question_type": "numeric_entry",
+      "source_sha256": "f57aefc6d954851d675e82418839e32caeb9d0f6f33fa63f2fa4db3de0f459ef",
+      "template_id": "TPL.GEO.CONSTRUCTBASIC.RECTANGLE.PERIMETER.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 30
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 18,
+      "question_type": "numeric_entry",
+      "source_sha256": "1fcef1d80a957bca38f13c00d86f113be1d6f895891da1422424a72d2aea6b77",
+      "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.FROMRADIUS.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 18
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 12,
+      "question_type": "mcq_4",
+      "source_sha256": "3adaac143f992fa87aa9be8f99311d3b81300ab68a958c10cf33c0e81e138d77",
+      "template_id": "TPL.GEO.CONSTRUCTBASIC.SQUARE.PERIMETER.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 12
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 7,
+      "question_type": "mcq_4",
+      "source_sha256": "da8e8bce3d71d8d6f0409f6812f6b8ba5416176cd00805e2fd7bd4b14efe7140",
+      "template_id": "TPL.GEO.POINTLINE.ENDPOINTS.SEGMENTS.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 7
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 21,
+      "question_type": "mcq_4",
+      "source_sha256": "6193ec161cbfe898d7de6866177dc046ad413fdd11e9e6a3323bcd988470e5f7",
+      "template_id": "TPL.GEO.POINTLINE.LINES.SEGMENTS.MIX.HARD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 21
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 7,
+      "question_type": "mcq_4",
+      "source_sha256": "bbc7be6ada57d1bd1478efac73e7057df43b7a6d31f0b41e77dbeb291310c7d7",
+      "template_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 7
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 30,
+      "question_type": "numeric_entry",
+      "source_sha256": "f07a3c338cea7100964fd508d372396871cea0bb106643f222f48906562200b4",
+      "template_id": "TPL.GEO.POINTLINE.RAYS.SEGMENTS.MIX.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 30
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 4,
+      "question_type": "numeric_entry",
+      "source_sha256": "befa78a84df03b4ca562ed2aad5582e6869777af5dccb795e108fcf0b6cd00d7",
+      "template_id": "TPL.GEO.POINTLINE.SEGMENTS.COLLINEAR.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 4
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 1,
+      "question_type": "mcq_4",
+      "source_sha256": "39448bcda5984140d495bd2e82ade93459ac41d6e5389487e1464eb1f6d82cb8",
+      "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.PENTAGON.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 25,
+      "question_type": "mcq_4",
+      "source_sha256": "0bde6259bc0683affd4a8e8593daabc3955bd54f2ca5c2ff204d12ab08744f10",
+      "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RECTANGLE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 25
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 7,
+      "question_type": "mcq_4",
+      "source_sha256": "f285e524dfacba290afeb2baec5d5bcacb5cf23ef9d838308f377ddc2452b25b",
+      "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 7
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 1,
+      "question_type": "mcq_4",
+      "source_sha256": "529367acb4f9649f5ad0aeed1e1f8a185a197db83b0ed113c7b2b808bedd59da",
+      "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.SQUARE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 1,
+      "question_type": "mcq_4",
+      "source_sha256": "bd0aa5e8db63fe3d85a3021ed7ddb92f9c59f39d39cfa40f3de2985430d2ec03",
+      "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.TRIANGLE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 16,
+      "question_type": "numeric_entry",
+      "source_sha256": "26ecd730f11cb0e653c6988e589ca82507dc40ed5b19dff9d2488bb0b8c7f858",
+      "template_id": "TPL.GEO.POLYGONPROPS.CORNERDIFF.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 16
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 6,
+      "question_type": "numeric_entry",
+      "source_sha256": "c6ff9f339bbe390cbe07c099a595a9b3a1a3b1a9dc6dbec551868a1870789b77",
+      "template_id": "TPL.GEO.POLYGONPROPS.SIDESFROM.CORNERS.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 6
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 7,
+      "question_type": "numeric_entry",
+      "source_sha256": "dceb7a11e2a700d08dc1a8597526c2995648aadd3a418dda13317bdffb802771",
+      "template_id": "TPL.GEO.POLYGONPROPS.SIDESPLUSCORNERS.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 7
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 36,
+      "question_type": "numeric_entry",
+      "source_sha256": "cc6260e165f33b9f16ecbfcb08e275fa7c7eab0234801384eb9dc986c87367f6",
+      "template_id": "TPL.GEO.SHAPES2D.COUNT.CURVED.CARDS.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 36
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 1,
+      "question_type": "mcq_4",
+      "source_sha256": "90a764221403955e77aec23ae4d551167dd9e9854758eb4efb555aa0cc8e7683",
+      "template_id": "TPL.GEO.SHAPES2D.ID.CIRCLE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 1,
+      "question_type": "mcq_4",
+      "source_sha256": "0f96a5786574b9ad804afd20752fc7ecee29d2120eacb1e748d9a9fc5572021d",
+      "template_id": "TPL.GEO.SHAPES2D.ID.RECTANGLE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 1,
+      "question_type": "mcq_4",
+      "source_sha256": "8dc4a48300abfb6077eba097c16028dcc8168a3247ac408e4aef344c227d867e",
+      "template_id": "TPL.GEO.SHAPES2D.ID.TRIANGLE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 1,
+      "question_type": "mcq_4",
+      "source_sha256": "5856b77718bdfe520635b085a599469d97ef3dab4415b673f1a1d56365509e0a",
+      "template_id": "TPL.GEO.SHAPES2D.ODDONEOUT.CURVED.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "26735ea5a1704838257a0d5381e779706abd582f0cb267578e60c01968cf4222",
+      "template_id": "TPL.GEO.SHAPES2D.ROTATE.SQUARE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 71
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 3,
+      "question_type": "mcq_4",
+      "source_sha256": "5aec2cd50bc33e9bc819280c19a266462369e663a1cf7a0a17f77569650c956d",
+      "template_id": "TPL.GEO.SHAPES2D.ROTATE.SQUARE.HARD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 3
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 3,
+      "question_type": "mcq_4",
+      "source_sha256": "264532c7e341bdd5cca035dbb4d83daf5cdadd183155120f97f305fd772e7e53",
+      "template_id": "TPL.GEO.SHAPES2D.ROTATE.TRIANGLE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 3
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "49ce0df10f5cd54c1aa62437c9762c060b41de522deae74a0c17670cb4b6fdd0",
+      "template_id": "TPL.GEO.SYM.LINE.ISOSCELES-TRI.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 41
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "d32c9de58fbc206d55a25782c5bf33d62a910cdde558dedb30c06c5cf6509f75",
+      "template_id": "TPL.GEO.SYM.LINE.PARALLELOGRAM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 56
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "517984c5a64c1bf87890b0ad9e1461c924bb4a2ee7a3814e31645d0fe826ceb8",
+      "template_id": "TPL.GEO.SYM.LINE.RECT-NONSQUARE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 90
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 8,
+      "question_type": "numeric_entry",
+      "source_sha256": "00515c38efa27dffb65bc8d90f189e825039d03a3081ae419fcf0622424ab9ff",
+      "template_id": "TPL.GEO.SYM.LINE.REGULAR-NGON.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 8
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 5,
+      "question_type": "numeric_entry",
+      "source_sha256": "1fe33fd8e7d2b73ed3b143190ee5260109c4f50d700f46e9ce2d12bb7473b353",
+      "template_id": "TPL.GEO.SYM.LINE.SQUARE-NGON-SUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 5
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 5,
+      "question_type": "numeric_entry",
+      "source_sha256": "b74adf96d6af196bda5414bfd19bbe0b29a9b11115bf4e91138ad8e76831e736",
+      "template_id": "TPL.GEO.SYM.ROTATIONAL.NGON-SQUARE-SUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 5
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "f72f28f2ff2332d4e28e899b9570bdcb90c6e2be9244aac74c07daf57550dd41",
+      "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE-OFFBYONE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 90
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "01313ccdfc5fb23d4ab18b895472a98dfeb3ba17d364ba2c74f3b36bd0ccb510",
+      "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 90
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 7,
+      "question_type": "mcq_4",
+      "source_sha256": "4b9f7db7613adf215a94877e34b404a26a02a492efe77a0745967f0367b4e5de",
+      "template_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON-OFFBYONE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 7
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 8,
+      "question_type": "numeric_entry",
+      "source_sha256": "74228f8540281e4db9dd41c6d57f6e2869a7f46ebc4aa94e37d316b807f7e6e4",
+      "template_id": "TPL.GEO.SYM.ROTATIONAL.REGULAR-NGON.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 8
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "80d13a40d323a120aa9e2b38109e6e229c700fcc0894e1895e93ccf650ec03ab",
+      "template_id": "TPL.INT.ADD.SUB.ADD.NEGNEG.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 81
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "cbd953fc12032d498470c417848643281851de48f18dc7c1a3dd3bbb1da05133",
+      "template_id": "TPL.INT.ADD.SUB.ADD.POSNEG.NUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 81
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "788bdebe95c6333852b601332970a061a773c794c9ed610964c21cc4b7212368",
+      "template_id": "TPL.INT.ADD.SUB.SUB.NEGNEG.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 81
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "5cd16be7c5a9441a2ab652e51c1f67627391e2bbfb55ab308e43626a82cb91a2",
+      "template_id": "TPL.INT.ADD.SUB.SUB.POSNEG.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 81
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "7a9d0f237d1738025c97781a3b1c48d7f82f39f1bbb9fee2fca80aa1f7bfc3b7",
+      "template_id": "TPL.INT.ADD.SUB.SUB.TEMPDROP.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 81
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 20,
+      "question_type": "mcq_4",
+      "source_sha256": "5026871fd9e23737c6b10dd86459214515b03ce3ea1245695754630d805b58ba",
+      "template_id": "TPL.INT.CMP.ORDER.NEGNEG.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 20
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 20,
+      "question_type": "mcq_4",
+      "source_sha256": "ba4bfc9cd514bc80b4c154350ed82f55f6d0f8acc89c4b43aab98996d599b1ba",
+      "template_id": "TPL.INT.CMP.ORDER.NEGPOS.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 20
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 20,
+      "question_type": "numeric_entry",
+      "source_sha256": "32f7a5bdfd5eb01a3b217e599a28a767596f6f105599eadf7ecba39a00aa9256",
+      "template_id": "TPL.INT.CMP.ORDER.SMALLER.NUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 20
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "27b9fe514514144da2650e10c25e8493eb6bd5b5463736bac135814c7a49709c",
+      "template_id": "TPL.INT.CMP.ORDER.TEMP.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 54
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "20f6b3f3d30e57c8e6c3ca16c1dd4c94fe327380cff8baee611785d5150f0e23",
+      "template_id": "TPL.INT.CMP.ORDER.THREE.MIN.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1000
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 25,
+      "question_type": "mcq_4",
+      "source_sha256": "648c1f28a1171f0ef6f8a7352d3faaf8b6dec66ac05c6b22e5c07a70cc98693d",
+      "template_id": "TPL.INT.CONCEPT.DEBT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 25
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 9,
+      "question_type": "numeric_entry",
+      "source_sha256": "6a64b12de792a0962c1f654a4c5e52bf3dd938f108298fc4118311be8aaa0370",
+      "template_id": "TPL.INT.CONCEPT.FLOOR.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 9
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 20,
+      "question_type": "numeric_entry",
+      "source_sha256": "b0c96a3d0cdb42d2c2586df42776c827dbe286fa976cf3eb9d4d394f18b9473b",
+      "template_id": "TPL.INT.CONCEPT.POINT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 20
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 15,
+      "question_type": "mcq_4",
+      "source_sha256": "c7c76043bef4c1ac7561937d30521f3a046376496ff2c8f4f9537dd12ad0c578",
+      "template_id": "TPL.INT.CONCEPT.TEMP.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 15
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 15,
+      "question_type": "mcq_4",
+      "source_sha256": "edb54213f68e08af7b473448b59f6db29e1d805a2bac67fa0638d0586bd41627",
+      "template_id": "TPL.INT.CONCEPT.TEMPDROP.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 15
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "0335d4d97bcf68e1a03ce4e6430bab8d143eedf99dafe3db4ff4aa04640b40be",
+      "template_id": "TPL.MEAS.AREA.CONCEPT.FLOORTILES.MCQ.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 59
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "06f13cfc730f7ec616c36d686c975655874bd50dc3db1fafc40946a506676c25",
+      "template_id": "TPL.MEAS.AREA.CONCEPT.GRID.COUNT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 46
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "d5f0962c06daab054704abdeb4a6d0a4835d64b6b8933482a1e7234053e671f8",
+      "template_id": "TPL.MEAS.AREA.CONCEPT.HALFSQUARES.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 102
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "815299792debfa3c86184716ddbb66658106c38fb4605656f464fd529c995f9a",
+      "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 400
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "bb4fc91795d831815771754918ba9240be55874998fa9180d3859962ef10f69f",
+      "template_id": "TPL.MEAS.AREA.CONCEPT.SAMEPERIM.DIFFAREA.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 45
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "292a20e5b69b48e85bab7ad153594c9a8346fb4faa116d1b904635c888816090",
+      "template_id": "TPL.MEAS.AREA.FORMULA.LSHAPE.COMPOSITE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1296
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "bdd35f024cebe8d4bdfa7a355ce638c7ec7ff8be0199c7e28ea36d24262ed6e0",
+      "template_id": "TPL.MEAS.AREA.FORMULA.RECT.FLOORING.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 118
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 10,
+      "question_type": "mcq_4",
+      "source_sha256": "e21a86488604c4375e6202afed0a4aba6e6c9df06af78159e023c59233a59977",
+      "template_id": "TPL.MEAS.AREA.FORMULA.SQUARE.TILE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 10
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "631f957327207f7e69cf9669d6c356504a07b0df77983d8ef8090703c77ed82a",
+      "template_id": "TPL.MEAS.AREA.FORMULA.TILING.COST.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1927
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "01162fddde5d988e7e378dbdbe49cef67d83080cdf5532a604d418a2ab5e7b9e",
+      "template_id": "TPL.MEAS.AREA.FORMULA.TRIANGLE.HALFRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 46
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "ecddf0e87ce7b805cba6d0d687b226c68788645d1e1761b8e456c0976f4733fa",
+      "template_id": "TPL.MEAS.PERIMETER.PENTAGON.IRREGULAR.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 3125
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "6fc64e1a643c0fc5124668714af8ca17313ec3800b5f5119a1a9dfab7d0fa97b",
+      "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 752
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "354209d0b976a0435da5f5f77b55e81ba4244b221e3f29a64bc00fa5d81b26ab",
+      "template_id": "TPL.MEAS.PERIMETER.RECT.GARDEN.FENCE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 288
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "6cd0741f4c57b3df2abd18462359c0aef06196664a49f3ae3b97f4716ced0011",
+      "template_id": "TPL.MEAS.PERIMETER.RECT.MISSEDSIDE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 90
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 8,
+      "question_type": "mcq_4",
+      "source_sha256": "a5012ccc53a3c70db920818ed92d0abc8d741eb4ce12a973cfebe110d2d7ff8b",
+      "template_id": "TPL.MEAS.PERIMETER.SQUARE.PICTUREFRAME.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 8
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "8a86b6ffb82b6fb661a6a136f830a43c56362ceb55ae1345ef70a6ea83212f21",
+      "template_id": "TPL.MEASLENGTH.COMPARE.DOORWAY.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 183
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 9,
+      "question_type": "numeric_entry",
+      "source_sha256": "216a10dda7a03a6d2be737283a38d7925218bb8e6abeea46f763efd811ed1e62",
+      "template_id": "TPL.MEASLENGTH.CONVERT.KM.TO.M.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 9
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 9,
+      "question_type": "numeric_entry",
+      "source_sha256": "9442c90901a2fdf77c83d211b6b33c0b89aba4aa3d4c7ecbcbcada489dd1b5a4",
+      "template_id": "TPL.MEASLENGTH.CONVERT.M.TO.CM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 9
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 9,
+      "question_type": "mcq_4",
+      "source_sha256": "43709314e8b57b6d8c81a4035cf0923c66a489fffbf48591eabb1f90f8995f62",
+      "template_id": "TPL.MEASLENGTH.CONVERT.MCQ.KM.TO.M.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 9
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 9,
+      "question_type": "mcq_4",
+      "source_sha256": "6b50015b6026b6158628b47a62dab8c11259b04d1acbc82e79d4326320cfa804",
+      "template_id": "TPL.MEASLENGTH.CONVERT.MCQ.M.TO.CM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 9
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 36,
+      "question_type": "numeric_entry",
+      "source_sha256": "7d2751a49e02527ce32756ef0a0104cbd0d5d060d983f9eb073f0ccd975fed0b",
+      "template_id": "TPL.MEASLENGTH.RULER.READING.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 36
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 30,
+      "question_type": "mcq_4",
+      "source_sha256": "2343849afb5cf2b15ed8c7ac76fdcd7335d231f854b10c61db5744c1e85385ea",
+      "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 30
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "b2f3e0339983b122cc4697b381f0a5dbe288abc8d02453f490ff34ca57b9f383",
+      "template_id": "TPL.MEASLENGTH.RULER.TWOBLOCKS.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 53
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "9771572ce61e9b095e3018dc39b2bdcc5c0b656f85dd406e88c2e682d839b1a9",
+      "template_id": "TPL.NUM.ADD.SUB.ADD.2DIGIT.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 5184
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "a27632a343d612658dc34f26b4e258efc3f805d1beff348b0baf91d28e86b21a",
+      "template_id": "TPL.NUM.ADD.SUB.ADD.3DIGIT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 12544
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "26a0e8b5552d3be889baa3810eac7beab450af8ba6627cacef62bb015533e415",
+      "template_id": "TPL.NUM.ADD.SUB.ADD.MONEY.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 5184
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "a280b71ae300aa4a3ecc0ce8309846fd61faac3b0b913032c893a3af03f69882",
+      "template_id": "TPL.NUM.ADD.SUB.ADD.MULTI.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 3840
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "a08e469adb5ec5e8ef70e15491e88117ef26c01775a72b388c051186147df30c",
+      "template_id": "TPL.NUM.ADD.SUB.MIXED.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 5005
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "a62b7078909897461510d90e2e314b9b50e154f053b5efbc47bc6f0c067a40a6",
+      "template_id": "TPL.NUM.ADD.SUB.SUB.2DIGIT.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 2000
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "3c8c4a61ace7c60f658a519047f44bff11ef707b998577431ccdeb9fc1c827b7",
+      "template_id": "TPL.NUM.ADD.SUB.SUB.3DIGIT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 50000
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "6fa04ed428f2728a6b128ef1c89e1acfabbd5013e44bdd2b830679cbc1306caf",
+      "template_id": "TPL.NUM.ADD.SUB.SUB.DISTANCE.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 2000
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "1307fda0c050bea5f1f2c5a3c1c6145dc3ef84a32415eef28c1716909c894740",
+      "template_id": "TPL.NUM.CMP.ORDER.BIGNUM.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 10000
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "733c5fd3015dc5ab82ea4c3e04fbc5aafe3207b6a5bb662bd9752717e5e1df8e",
+      "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 2500
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "08dc8d8e0afa4a5b24ab3462f98a14167882c3041de753710bbda57690095f38",
+      "template_id": "TPL.NUM.CMP.ORDER.DIGITLEN.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 4000
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "afb37cfae359170401a28284b70f42397055ba378266d1f0dc294a65dcff58df",
+      "template_id": "TPL.NUM.CMP.ORDER.GREATER.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1240
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "77d03ec86efd90f915f89cbb1573f8e03eb449c27c3eda4610bb170cce4e098c",
+      "template_id": "TPL.NUM.CMP.ORDER.MAX.THREE.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 2197
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "bbb546950243bea17b78748181e28aa3cd39852e5140501f9eaabd8c9adef391",
+      "template_id": "TPL.NUM.CMP.ORDER.MIDDLE.THREE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 26970
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "33653af74bb75be6f0f59651639f5861a6b15458aafd179ee86216f20eab03f2",
+      "template_id": "TPL.NUM.CMP.ORDER.MIN.THREE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 26970
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "dcef18e18e084384c1eaa1fccce284728ea0a052fc10d7b9e98aaf3eeede0554",
+      "template_id": "TPL.NUM.CMP.ORDER.SAMELEN.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 100
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "3fe791b62b38ff982023f1bb0cae55f4837241cb779636623e8fa2c23ccf1960",
+      "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 87
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "0c5f1c148c1f164efafc041e6a2fd139f177b34999814a4fea19ab8adbbecd24",
+      "template_id": "TPL.NUM.COUNT.NUMERAL.BUILD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 900
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "14b5c8c3a378cc54cf4f2f4e136410394755a0fd40fd6a5d407587bcf4fac34a",
+      "template_id": "TPL.NUM.COUNT.NUMERAL.LARGE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 9000
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "843be69babae9ebfe68e95c8edbb88d70010b04cb73091f7af9c7f4246005d40",
+      "template_id": "TPL.NUM.COUNT.OBJECTS.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 53
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "df31de568eb21917ac09c1a678201d20e5266fb029b3288e84b9f6ca1f82e40a",
+      "template_id": "TPL.NUM.COUNT.PACKS.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 267
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "7cbf58721c4eca2f3ea58aa5e535bf00e99667926e73f64fed4ff6eeb2f2a43d",
+      "template_id": "TPL.NUM.COUNT.PREDECESSOR.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 992
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "31731d62b136e2561fc8acb3f247a5626ac77bc5580b31047b5a4c1c56cbe718",
+      "template_id": "TPL.NUM.COUNT.SKIPCOUNT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 880
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "df2b04b3ceaaa9281ed02bc6cbec51616f434d293393f1341039387fd77b5b0e",
+      "template_id": "TPL.NUM.COUNT.SUCCESSOR.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 986
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "7806bd4689fb082dc220388cd94e317e2e0382749ca173e660786f2fe81e9e16",
+      "template_id": "TPL.NUM.DIV.FACTS.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 66
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "5306f746a9a26b08fce6ff3110d0a4db95f4cc9877597d55287e60a9749551f6",
+      "template_id": "TPL.NUM.DIV.GROUPSFIT.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 73
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "1d65b79107c901b0726f93bed155948bc56f2e5827d76fff6f29231e4be61670",
+      "template_id": "TPL.NUM.DIV.GROUPSFIT.REMAINDER.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 114
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "30a051fc1a83e28e5182a2bc920affbdc22d2c4152b94fc32b1e0529d84b246d",
+      "template_id": "TPL.NUM.DIV.LARGE.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 172
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "415476d1385146fd5c482c2ed618fb423f6750b1cd50dcd6b6e870ab216673cd",
+      "template_id": "TPL.NUM.DIV.SHARE.REMAINDER.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 119
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "7df33b8a5d34bee23f12e86be16b26c7e1a22a227f8e44910991b6e4f3de9ce4",
+      "template_id": "TPL.NUM.DIV.SHARE.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 79
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 12,
+      "question_type": "mcq_4",
+      "source_sha256": "a0557098d641b364711da0ba3eb8f1c40a8b8be3ee2884a3a0c604e80573eb5f",
+      "template_id": "TPL.NUM.DIV.SMALLER-LARGER.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 12
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "1ee7daa89bad49aead64f6cdac1779dc1a458939ba3cb6eb54157ff66489cee9",
+      "template_id": "TPL.NUM.DIV.TEAMS.REMAINDER.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 119
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "76cb9b3e7aae09e572f5dc579337d88e98709d7c812ebaa2de1684e5b644d3a8",
+      "template_id": "TPL.NUM.DIVISIBILITY.REM10.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 251
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "dbb204b47f5ca1cae3b33036b0c071c30c5eb6e7ce046bede6edc719e2038266",
+      "template_id": "TPL.NUM.DIVISIBILITY.REM2.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 90
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "78f72e7a28b21481ccafed579b57bef551d234c6aaed5b4466dad5aa2987f13f",
+      "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 144
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "e17de1106c51b49f47074ca127b4751d733471722b4150b92443a4bac9ab0760",
+      "template_id": "TPL.NUM.DIVISIBILITY.REM5.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 106
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "fddc0f189b70bd761e373afbef957c951db14b24b60d77289a2271a657f9a147",
+      "template_id": "TPL.NUM.DIVISIBILITY.REM8.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 320
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "6d40731a5523ea8294febb0fed0a1996fe0b158c8432e373405090275e467393",
+      "template_id": "TPL.NUM.ESTIMATE.ROUND10.DOWN.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 400
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "eec239fbeb94ab4a0947bacc812619363760bf9b4c7539df7d65037e710610ba",
+      "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 400
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "918e99b34f518a339bd5a8e7bd11e1c27f435fb3389d6738f61042b6bea8455c",
+      "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 2500
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "843d41c59a1f1544cfca3147e331fc4c9d458fb094554a0e146461ac5727c5df",
+      "template_id": "TPL.NUM.ESTIMATE.ROUND100.UP.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 2500
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "356c18eb76e0c9291f560d9a1db5b65b2943324b13a3c956a29f032c14f25d53",
+      "template_id": "TPL.NUM.ESTIMATE.SUM.ROUND10.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1024
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "b76b99f1e53b60fde51a8154cbd3e0bc849358fb96cb7bb3bd6eb65c9757c831",
+      "template_id": "TPL.NUM.FACTORS.DIVBYFACTOR.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 99
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "e3ca111cbae515268d591cb514d1cc875ac403b07d121b958064d52344db17aa",
+      "template_id": "TPL.NUM.FACTORS.IDENTIFY.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 70
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "fac28304a37c6387611dfa6e974a8dd0264428c12716006e1cf60e74662e8285",
+      "template_id": "TPL.NUM.FACTORS.MULT.KTH.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 88
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "45fdeca4099364cc729b59da4f90c138e386f1fa713db9134201d566e3de7a5b",
+      "template_id": "TPL.NUM.FACTORS.NEXTMULTIPLE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 149
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "6b41a7cac85991a6819c2fecae68d29e406b78b41da01da524ce9873ae083e00",
+      "template_id": "TPL.NUM.FACTORS.ROWS.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 158
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "8fdfbe8ce47db1f06bf07284cf5e1d01e02f593d9ea1c6e01f0ee689e033971c",
+      "template_id": "TPL.NUM.HCF.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 210
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "b8f72b1943de186951f0cbc8b55cce923b9709fa3d7b80cc49b0b8689be94211",
+      "template_id": "TPL.NUM.HCF.HARD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 950
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "584d857b2707f0d858e8d81665498470268b359df024d6d858d69fc04709ab3c",
+      "template_id": "TPL.NUM.HCF.LIST.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 210
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "1b3f1b8f28a7b3abd4510318bf29238da1b8ee47fe20d19b31cc3e16bd197447",
+      "template_id": "TPL.NUM.HCF.MCQ.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 930
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "955dee8e0022218bf799e54ccba3f21b8f0373a422439219599405ff3d6bbb5c",
+      "template_id": "TPL.NUM.HCF.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 600
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 18,
+      "question_type": "numeric_entry",
+      "source_sha256": "8c989c29c50fe627aa978f75004cde8b72e8ae976cd57b54b765b9e39cbe0df6",
+      "template_id": "TPL.NUM.LCM.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 18
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "5a56c1e9c8f813086192ec6d309e05595769cf5f3b0954b2faad460da5111ea0",
+      "template_id": "TPL.NUM.LCM.DIRECT.002",
+      "template_version": "1.0.0",
+      "total_valid_variants": 94
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "c675aa603f2232b01f41694b73a4877d304d4a02fd1a5bed2a0714b4d84886dc",
+      "template_id": "TPL.NUM.LCM.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 91
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "05afc0d2a64169f6ae34e87eade8e3c4ed5135644dcffb2085bf230ed0b085b4",
+      "template_id": "TPL.NUM.MULT.2D1D.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 624
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "c32e2b154ea194a840c51ca0cd4747b614952292b5ae229f043d46cf600e2245",
+      "template_id": "TPL.NUM.MULT.2D1D.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 189
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "2357be025f8acce1c38139c9773942f7c83ae8bd382acf7d8ea5ab0363640cf1",
+      "template_id": "TPL.NUM.MULT.2D2D.SHIFT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1612
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "009082f275959ad8ec71d1aed11b38a9c531092b699fa688a11d45f50151b5d7",
+      "template_id": "TPL.NUM.MULT.2D2D.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 1701
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "d4d2af45693d9a65f2a6017864dea1d477d9128f17795d7a05d80f480fc145c4",
+      "template_id": "TPL.NUM.MULT.2D2D.WORD.002",
+      "template_version": "1.0.0",
+      "total_valid_variants": 224
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "806dde4cac49752dba921903d779544f8a66ebf3f45710b9b990bac6c9da392e",
+      "template_id": "TPL.NUM.MULT.ARRAY.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 56
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "6e5ebac753e28df1c0d3c4ae91af10f2abf2bb0164b9b62fd208d4c4cbdfc677",
+      "template_id": "TPL.NUM.MULT.LARGE.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 3104
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "a10109f1e3abfd90855627121172087884ca0a117c8e06b81a80d4c54ba72258",
+      "template_id": "TPL.NUM.MULT.MONEY.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 204
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "97f0cfe3e3259254e31e03b15b123b62db9c17678838cd3026956989066a45b1",
+      "template_id": "TPL.NUM.MULT.TABLES.DIRECT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 64
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "b7db79a2ce9efaa41240312ced776d571999155497dde22520caf3ac90745051",
+      "template_id": "TPL.NUM.MULT.TABLES.MEDIUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 63
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 5,
+      "question_type": "numeric_entry",
+      "source_sha256": "6d6f37ead4335d706c025d7247e04d379ab0c732d270d76d46a4508cd0faea0f",
+      "template_id": "TPL.NUM.MULT.TABLES.MISSING.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 5
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "fb78dce4f82f9afb10078cc8633a689c4cbfd39d457c7192a194497c18723e58",
+      "template_id": "TPL.NUM.PARITY.CLASSIFY.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 98
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 26,
+      "question_type": "mcq_4",
+      "source_sha256": "a67e8e1f1c0ef57ae743f9af42e0748c44a0d3026a500d0b88d058376061d78f",
+      "template_id": "TPL.NUM.PARITY.COUNT.EVENS.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 26
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "9025c813b68ab6c542d21365eda3de25df21f9d091d289d055fbcb89876f5645",
+      "template_id": "TPL.NUM.PARITY.SUM.ODD.EVEN.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 625
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "ab90c4007926ce24d91dc7d77c8ce2d4ca69cde9b456821153297480a7535008",
+      "template_id": "TPL.NUM.PARITY.SUM.THREE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 4096
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 16,
+      "question_type": "mcq_4",
+      "source_sha256": "25ace6429e6b4a39ca256923fa210b5d71e862deae72f026a69cce03793ba7ce",
+      "template_id": "TPL.NUM.PARITY.ZERO.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 16
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "7d075ed115d995e52f64be4167d53589fab943e831d432b027b275424dea50c3",
+      "template_id": "TPL.NUM.PATTERN.ARITH.DECREASE.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 255
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "89f279873c5253f6139eb2d7e9db698cf76c1cf6f153153ee3c1573a3ef34cfb",
+      "template_id": "TPL.NUM.PATTERN.ARITH.NEXT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 118
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "21404f7345436a4319f2746c62f858dd7267b523b779bf426f540ee42a14eae6",
+      "template_id": "TPL.NUM.PATTERN.ARITH.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 150
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 10,
+      "question_type": "numeric_entry",
+      "source_sha256": "bdf1e5fd5bc9d50a1f2df9892cb24a20f2a159ecfd390376319af7024138831c",
+      "template_id": "TPL.NUM.PATTERN.FIGURATE.CUBE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 10
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 13,
+      "question_type": "mcq_4",
+      "source_sha256": "2644bba935a15d9d7cf35e40093595ea166aa4b1236af24a262043e790e0083b",
+      "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 13
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 14,
+      "question_type": "mcq_4",
+      "source_sha256": "1eb1c3bb77661ae8be224fbcae0aea09ab296c223d1a749586913a8e8403b2a1",
+      "template_id": "TPL.NUM.PATTERN.FIGURATE.SQUARE.DIFF.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 14
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 10,
+      "question_type": "mcq_4",
+      "source_sha256": "37ab7a62c63f91f0c01088735fcc5230a2df2293ac6872ccd09166e7fcb94a1c",
+      "template_id": "TPL.NUM.PATTERN.FIGURATE.TRI.PICTORIAL.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 10
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 15,
+      "question_type": "numeric_entry",
+      "source_sha256": "b89248b281cd3b3aa9bc3314fe8a831d3b67f26676c94446c4df663589aa1c29",
+      "template_id": "TPL.NUM.PATTERN.FIGURATE.TRIANGULAR.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 15
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "9e26e2b8d75d65f8631e7a5042ee92e138b0d3de85c19bcac70c2830f08d3545",
+      "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 128
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "f927a4324a742ef28f0e187fb524214f51914c2d806057105b5eac5e470244fd",
+      "template_id": "TPL.NUM.PATTERN.GROW.SHRINK.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 68
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "7bb77e6d8037ca0cb2b8f8eafbfbd9555f86d75f7befc3a01a67da69d6238f26",
+      "template_id": "TPL.NUM.PATTERN.GROW.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 62
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "fdcc393f5e47fc8b0b5b5ddb94e51383344c0b77768cc17bccd01537943a5cad",
+      "template_id": "TPL.NUM.PATTERN.REPEAT.NEXT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 72
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "ed97522aded60abc1ed2705ad5edc68027280d754e7d7a83aa1fabfde8c699ef",
+      "template_id": "TPL.NUM.PATTERN.REPEAT.WORD.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 120
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "95fae6a65b1e3c5151caf30dde54c5c0d1e70475098dca4d77a3104da65c5ae6",
+      "template_id": "TPL.NUM.PLACE.VALUE.DIGITSUM.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 900
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "c77603a6df1dcbe3ffe075d51f1567c4e85ceee871d2cc9d392f527eecfbeb2d",
+      "template_id": "TPL.NUM.PLACE.VALUE.DIGITVALUE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 810
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "numeric_entry",
+      "source_sha256": "0290e00fb50f3e4bf2ecb3ab290291342442a59c2a13393ad09d87f46ccd07cd",
+      "template_id": "TPL.NUM.PLACE.VALUE.EXPANDED.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 900
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "b59dae307d5716d1bcf3c769a2e32704382609744e4a039c6651eb5792927602",
+      "template_id": "TPL.NUM.PLACE.VALUE.PALINDROME.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 81
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 40,
+      "question_type": "mcq_4",
+      "source_sha256": "216387d8ea911918b58a0d9aa5548214a3c4e6e8372422f03c9c94d7b19ffef6",
+      "template_id": "TPL.NUM.PLACE.VALUE.ZEROMEDIAL.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 81
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 4,
+      "question_type": "mcq_4",
+      "source_sha256": "5e1349710d27e8923129e844b3b4ade08553e6c059f8dc491b2c1fb36ec4a032",
+      "template_id": "TPL.NUM.PRIME.COUNTLIST.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 4
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 4,
+      "question_type": "numeric_entry",
+      "source_sha256": "e899d49f58ec8ef19a21e9f653ec1bb45d324e3086a521a29c042259ce528165",
+      "template_id": "TPL.NUM.PRIME.COUNTLIST.COMPOSITE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 4
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 12,
+      "question_type": "numeric_entry",
+      "source_sha256": "491ee4d8eca57789b362ba3294e95d3a72a816e1bfd2a5116a3fea1a7449e287",
+      "template_id": "TPL.NUM.PRIME.FACTORCOUNT.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 12
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 24,
+      "question_type": "numeric_entry",
+      "source_sha256": "b27181e93a927c7596a80327a7d94cd4721143a3ecaa274a5e34f17ee6390f76",
+      "template_id": "TPL.NUM.PRIME.FACTORCOUNT.TRIPLE.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 24
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 12,
+      "question_type": "numeric_entry",
+      "source_sha256": "0013fd98c60b136bde1a9820c7d4217835585709726497aa443263ef419f9b46",
+      "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT2.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 12
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 12,
+      "question_type": "mcq_4",
+      "source_sha256": "a8ff7d4eb9469177d5745264704084b2f8c5381090e9a50ff4893cba94740ee3",
+      "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT2.MCQ.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 12
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 12,
+      "question_type": "numeric_entry",
+      "source_sha256": "c8ec271f88e544f06267aebca1c9121a5239fe85919dcecde5739e42a48da082",
+      "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 12
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 20,
+      "question_type": "mcq_4",
+      "source_sha256": "5ad164d4018618c6a68963031b005f5fe4adb51ca159c85ae76c34584dfcba55",
+      "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3.MCQ.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 20
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 24,
+      "question_type": "mcq_4",
+      "source_sha256": "4235f57081c28b63c9f083c705a9abdd5cb1f4b72cb3cfd0ca3782bb9a10ff31",
+      "template_id": "TPL.NUM.PRIME.FACTORISATION.COUNT3PRIMES.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 24
+    },
+    {
+      "graph_version": "1.0.0",
+      "pool_size": 4,
+      "question_type": "mcq_4",
+      "source_sha256": "bd28884720bac88184b58e81e29528ae337b25b1dcd121bfbc6da7ee516c3742",
+      "template_id": "TPL.NUM.PRIME.IDENTIFY.001",
+      "template_version": "1.0.0",
+      "total_valid_variants": 4
+    }
+  ]
+}

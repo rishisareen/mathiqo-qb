@@ -1,0 +1,1562 @@
+[
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 25."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 25.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 25 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 25 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 25
+    },
+    "variant_signature": "c80762fd311fc9e99a607c6dc59012bba331ebf5968b212772c1dd520b50113f"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 29."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 29.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 29 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 29 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 29
+    },
+    "variant_signature": "9a5314b3eb74e3ad9b03ff3803617716002a81335d0e8f1ede592ebe09029480"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 32."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 32.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 32 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 32 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 32
+    },
+    "variant_signature": "b105d050d4b9cf4af911c22ed6c32fe221434d9cc4de687a9f353ffdefb8b1e5"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 36."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 36.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 36 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 36 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 36
+    },
+    "variant_signature": "989a1a50f4a44486536de7512e3c4a62662b81e2f13b43fe0aeae73064dd348a"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 39."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 39.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 39 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 39 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 39
+    },
+    "variant_signature": "da54d8bf59dfa24f311f071d0a76974d189cf21458ac9ded541bf4fc0b1f2121"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 47."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 47.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 47 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 47 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 47
+    },
+    "variant_signature": "71f14d51691e500782d7f91ae845fcedcfba24e663b12ac08997d73907906a77"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 51."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 51.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 51 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 51 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 51
+    },
+    "variant_signature": "feb5419de1c567299ee5a77bbe13ed8e5ea626c5e8390cc75c1217bbe7c41524"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 54."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 54.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 54 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 54 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 54
+    },
+    "variant_signature": "bebbe43f7a958b49242d37e94fdfd2c7b2eb1c4c28ec11a0b864462f2cad7b7a"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 58."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 58.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 58 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 58 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 58
+    },
+    "variant_signature": "fa33a0244baf95ce94ea8b7be6324be135d710c06aaba052a730b5edf7dc5044"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 65."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 65.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 65 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 65 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 65
+    },
+    "variant_signature": "4f11f937652dff13fb310768b371b8141d15c6e67eba7d553c884e65085b6c0e"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 69."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 69.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 69 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 69 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 69
+    },
+    "variant_signature": "86fa070f79334767230004667b9be6d81b8ef582dabbd242cbe33563ba5a2d80"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 73."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 73.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 73 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 73 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 73
+    },
+    "variant_signature": "09644f1caf52cb437de4fb5dee84182bfe5a7d5650149dfabdf6fc24e5428bcc"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 76."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 76.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 76 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 76 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 76
+    },
+    "variant_signature": "b12c5c6350e4561b89ee6855be3495319e57c369a50d6fa2c80dcec8e82bee6e"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 84."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 84.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 84 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 84 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 84
+    },
+    "variant_signature": "e40736cd525dec9b01ef2d2100686035626713cc4f181fe92e777dbac7ce4ff2"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 87."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 87.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 87 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 87 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 87
+    },
+    "variant_signature": "ebbf37637760bfe5327929736b2bfab6c288783d972df6f0cfe236ca7df0160f"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 91."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 91.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 91 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 91 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 91
+    },
+    "variant_signature": "08a32c912f6631c89ccb7566abe9828130e0fc91d037b9b887296aa183e4d652"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 95."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 95.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 95 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 95 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 95
+    },
+    "variant_signature": "66859cebba115c837ae07db919d4ab38c76619ef098a906dfd33614423364d8b"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 98."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 98.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 98 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 98 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 98
+    },
+    "variant_signature": "1a46f48108b3f7e6dc5ced96ceafd79fa061b3282da713941438d773443f6875"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 106."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 106.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 106 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 106 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 106
+    },
+    "variant_signature": "0a45f114b9e73d3b2f171e1b1a6805e67ec1cc91ea2ac1ac2e578f7a703e6796"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 109."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 109.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 109 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 109 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 109
+    },
+    "variant_signature": "1a0d30b63ac38484b0aabcf8e35d6ac5188d53ed3a1ab76137d2da89eeb9e2bb"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 113."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 113.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 113 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 113 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 113
+    },
+    "variant_signature": "e0a8f58197c8d6e7f48349910b8a16fc1458f6031ec16a06debe0cf6bad69d7f"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 117."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 117.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 117 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 117 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 117
+    },
+    "variant_signature": "c9b98a2000a76f9d328229bf324ae6e71d0c8ac36da5bad4d7a0891fbc43cd64"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 124."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 124.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 124 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 124 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 124
+    },
+    "variant_signature": "a263d50a8c595698d079741d517ac6da0497eb6d7b7eb0285533e3c19cb863a6"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 128."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 128.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 128 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 128 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 128
+    },
+    "variant_signature": "fcd5dc78562d657a8b9c8186a03f3b5d84304a82d87ba35f26502a909a5e538c"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 131."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 131.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 131 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 131 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 131
+    },
+    "variant_signature": "6da976aae73ed5c2596ad82e3d345df343b5fd53d70d1ed4524746426b9976cf"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 135."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 135.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 135 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 135 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 135
+    },
+    "variant_signature": "6a671be7ed41e1065fbc9c2992c61392fab66102eaa26439732f6b84dae55a8e"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 139."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 139.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 139 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 139 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 139
+    },
+    "variant_signature": "faccabee417735b8962910d6a95407769878c2345cdc1e145d13d74e53c64ac8"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 146."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 146.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 146 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 146 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 146
+    },
+    "variant_signature": "f8f8b435181b4bb8e69c308705d5bb6b4401e99761c66e54e815761e79d3eb57"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 150."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 150.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 150 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 150 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 150
+    },
+    "variant_signature": "0e0c112c4e555db079ed3ed57fcc8bc67f1bbebdf99a2c0eec24fc6ef23fb17d"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 153."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 153.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 153 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 153 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 153
+    },
+    "variant_signature": "65eaa9395df4cb544c47e2efd107cfda6ca8b920e4690c38b45fc7ba73875709"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 157."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 157.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 157 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 157 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 157
+    },
+    "variant_signature": "de0bac72c425618e01b8e6f678ae08b04c747e6e67a2ebdb6928bff1333604cd"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 165."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 165.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 165 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 165 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 165
+    },
+    "variant_signature": "65cf0dffdad064a6dcfe1e2646e8a019fb27c569d8f3acf6f709ae9d784f8639"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 168."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 168.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 168 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 168 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 168
+    },
+    "variant_signature": "5923f29cd3f6de0818217f165459cddb0b84f93f7e78bb806bb6f27009cc836a"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 172."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 172.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 172 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 172 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 172
+    },
+    "variant_signature": "3ff7b90825caf070f8394494126b02a68948cddefb04cea4210db86238165ae5"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 175."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 175.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 175 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 175 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 175
+    },
+    "variant_signature": "4155c52e2594342ac960c9f757882780b7bece7795ee3689a2a14484e9f2ec52"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 179."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 179.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 179 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 179 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 179
+    },
+    "variant_signature": "09dd3f8a5698d2df3aeb4f2722663b5cd9999518953ed4450ae39087eaa22c25"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 187."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 187.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 187 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 187 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 187
+    },
+    "variant_signature": "bedece4b96bdbe034aaceae310c7a48a01d4815c32c6f60c2feba52f1552b576"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "0"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 190."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 190.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 190 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 190 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 190
+    },
+    "variant_signature": "c317edc34bdb946db727ef6cdbb25d7ad8102092fd979436a474cca5444191ce"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 194."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 194.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 194 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 194 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 194
+    },
+    "variant_signature": "af6ce22c5183da11dc4f2c6983e0cf518783aef295dd3ed489f25afbb4490bdd"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.DIVISIBILITY-LAST-DIGIT-ALWAYS",
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Checking only the last digit works for tests of 2, 5 and 10, but not for 4.",
+      "Look at the number formed by the last two digits of 197."
+    ],
+    "item_instance_id": "TPL.NUM.DIVISIBILITY.REM4.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.DIVISIBILITY"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The test for 4 needs more than just the last digit \u2014 look at the last two digits of 197.",
+        "Divide that two-digit number by 4; the remainder is the same as dividing 197 itself by 4."
+      ]
+    },
+    "stem": "What is the remainder when 197 is divided by 4?",
+    "template_id": "TPL.NUM.DIVISIBILITY.REM4.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 197
+    },
+    "variant_signature": "8f2050296f55f3662d9ca8366f95448686fd7d64238524fbb69d0f4fb3fcb44d"
+  }
+]

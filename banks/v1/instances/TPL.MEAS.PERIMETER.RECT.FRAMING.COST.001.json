@@ -1,0 +1,1842 @@
+[
+  {
+    "answer": "154",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "77"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "132"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (4 + 3) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 11, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 4 cm long and 3 cm wide. Framing material costs Rs 11 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 3,
+      "rate": 11
+    },
+    "variant_signature": "ffeafc5114e3bb4923c61e325e033a7da5dc823aacb291e553b5cf5fe7f813a7"
+  },
+  {
+    "answer": "234",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "117"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "260"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (4 + 5) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 13, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 4 cm long and 5 cm wide. Framing material costs Rs 13 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 5,
+      "rate": 13
+    },
+    "variant_signature": "7c0e782c43bb99e07697e3ee592506ae7013e0c559c9d44a9030a3af09410a76"
+  },
+  {
+    "answer": "320",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "160"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "384"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (4 + 6) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 16, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 4 cm long and 6 cm wide. Framing material costs Rs 16 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 6,
+      "rate": 16
+    },
+    "variant_signature": "cdc9ed86e73a6cff668d5e8cb490236a930193e10826eadcd49a65b4abc01ae1"
+  },
+  {
+    "answer": "418",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "209"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "532"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (4 + 7) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 19, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 4 cm long and 7 cm wide. Framing material costs Rs 19 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 7,
+      "rate": 19
+    },
+    "variant_signature": "325f481f784d665f7d951129c4b3762d8c1aeb01ec5d5fefe81a03d09b55baac"
+  },
+  {
+    "answer": "528",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "264"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "704"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (4 + 8) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 22, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 4 cm long and 8 cm wide. Framing material costs Rs 22 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 8,
+      "rate": 22
+    },
+    "variant_signature": "235e58e857cc886a3210e9d51576a68f202e5ff58aad1f12d6a215f7b3898bcf"
+  },
+  {
+    "answer": "650",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "325"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "900"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (4 + 9) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 25, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 4 cm long and 9 cm wide. Framing material costs Rs 25 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 9,
+      "rate": 25
+    },
+    "variant_signature": "d7def7f0c95cca3cea7fd710d754fc1c9ad49d8735d25a3a5fee9570a354d7e8"
+  },
+  {
+    "answer": "198",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "99"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "220"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (5 + 4) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 11, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 5 cm long and 4 cm wide. Framing material costs Rs 11 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 4,
+      "rate": 11
+    },
+    "variant_signature": "0d0def05ff679eb30630fae2717dea2528b3c6dab209f01d94b1aa0225f8dd10"
+  },
+  {
+    "answer": "280",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "140"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "350"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (5 + 5) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 14, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 5 cm long and 5 cm wide. Framing material costs Rs 14 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 5,
+      "rate": 14
+    },
+    "variant_signature": "6fe2e9714fec161eaeaabcdf82bba3744bf5ea24e1abe7ec007933e4be8c0a8e"
+  },
+  {
+    "answer": "374",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "187"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "510"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (5 + 6) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 17, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 5 cm long and 6 cm wide. Framing material costs Rs 17 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 6,
+      "rate": 17
+    },
+    "variant_signature": "1a1543d7c9deb791b7d1ce7d073716f13407d6ebfc0567c7e9e89b7c2d5e7743"
+  },
+  {
+    "answer": "480",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "240"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "700"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (5 + 7) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 20, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 5 cm long and 7 cm wide. Framing material costs Rs 20 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 7,
+      "rate": 20
+    },
+    "variant_signature": "1abbb42c9f9000ae9a89afdb014b3b2257a6c52716dc95e3c978c20cf23dab30"
+  },
+  {
+    "answer": "598",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "299"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "920"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (5 + 8) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 23, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 5 cm long and 8 cm wide. Framing material costs Rs 23 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 8,
+      "rate": 23
+    },
+    "variant_signature": "10b9576eaa93acf917202005ea587e736c4a1703d64b6eb9237a420681290f79"
+  },
+  {
+    "answer": "700",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "350"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1125"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (5 + 9) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 25, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 5 cm long and 9 cm wide. Framing material costs Rs 25 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 9,
+      "rate": 25
+    },
+    "variant_signature": "230c2d58cb8f860fa4c5b6d9a99774acfcec1790edb5d41f1978511160b87a89"
+  },
+  {
+    "answer": "264",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "132"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "360"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (6 + 5) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 12, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 6 cm long and 5 cm wide. Framing material costs Rs 12 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 5,
+      "rate": 12
+    },
+    "variant_signature": "3d38a092243d73dedbfb012631b3f9a60ed1597f0c91ee5974f0da9fae9ed9e4"
+  },
+  {
+    "answer": "360",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "540"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (6 + 6) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 15, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 6 cm long and 6 cm wide. Framing material costs Rs 15 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 6,
+      "rate": 15
+    },
+    "variant_signature": "e891d31a288aed68254e84ca00afa826fae0362db80e29bc97a744c6f0a432df"
+  },
+  {
+    "answer": "468",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "234"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "756"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (6 + 7) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 18, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 6 cm long and 7 cm wide. Framing material costs Rs 18 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 7,
+      "rate": 18
+    },
+    "variant_signature": "4d5626189055d7504de6914a288d0e0e8c29ff8774d3595132528734267c4d7a"
+  },
+  {
+    "answer": "588",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "294"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1008"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (6 + 8) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 21, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 6 cm long and 8 cm wide. Framing material costs Rs 21 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 8,
+      "rate": 21
+    },
+    "variant_signature": "4150539f655fa1b1721c2a7202e7884a1a537ca63428f7ded08b6d1216a8391d"
+  },
+  {
+    "answer": "690",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "345"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1242"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (6 + 9) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 23, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 6 cm long and 9 cm wide. Framing material costs Rs 23 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 9,
+      "rate": 23
+    },
+    "variant_signature": "456f2658b0e5c2226386ef6daad57a12eeca2915d872f099b6ab448d1cfc6815"
+  },
+  {
+    "answer": "220",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "110"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "280"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (7 + 4) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 10, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 7 cm long and 4 cm wide. Framing material costs Rs 10 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 4,
+      "rate": 10
+    },
+    "variant_signature": "11fb4580470dae9ef69bc9da31549b1d6f6604806264fae01504469e0ffdecf0"
+  },
+  {
+    "answer": "312",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "156"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "455"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (7 + 5) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 13, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 7 cm long and 5 cm wide. Framing material costs Rs 13 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 5,
+      "rate": 13
+    },
+    "variant_signature": "526390ca0829ef87e627837862e95d72194b17a1c03297b804daca99dc4f7e83"
+  },
+  {
+    "answer": "416",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "208"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "672"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (7 + 6) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 16, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 7 cm long and 6 cm wide. Framing material costs Rs 16 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 6,
+      "rate": 16
+    },
+    "variant_signature": "c7b10b9002b9704a088f8e0b581fc3ac9f217ceaf4aa6c6eb011b609ef3ca17d"
+  },
+  {
+    "answer": "532",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "266"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "931"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (7 + 7) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 19, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 7 cm long and 7 cm wide. Framing material costs Rs 19 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 7,
+      "rate": 19
+    },
+    "variant_signature": "2f65946e9094ee7ea380264fd74d99aa3f0c1384db57b580985b6e00ed434467"
+  },
+  {
+    "answer": "630",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "315"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1176"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (7 + 8) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 21, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 7 cm long and 8 cm wide. Framing material costs Rs 21 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 8,
+      "rate": 21
+    },
+    "variant_signature": "7d6ccc8f7dda8035bc66d09c04c3f4b26f777a115f2839640e4674c66d784100"
+  },
+  {
+    "answer": "768",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "384"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1512"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (7 + 9) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 24, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 7 cm long and 9 cm wide. Framing material costs Rs 24 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 9,
+      "rate": 24
+    },
+    "variant_signature": "65bb819826d9cc26db804547e3614d355fe1c3f45b5bdd63c0e81676427d3d7a"
+  },
+  {
+    "answer": "264",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "132"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "352"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (8 + 4) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 11, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 8 cm long and 4 cm wide. Framing material costs Rs 11 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 4,
+      "rate": 11
+    },
+    "variant_signature": "2bf38913e880c69d4b0fdae2324acf55dc25c120459bf058df2c18ccc57fb92e"
+  },
+  {
+    "answer": "364",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "182"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "560"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (8 + 5) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 14, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 8 cm long and 5 cm wide. Framing material costs Rs 14 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 5,
+      "rate": 14
+    },
+    "variant_signature": "827fc140dc0750aaa7d94fece5dcd6acda0d73772217c7754370fc86d40d47b8"
+  },
+  {
+    "answer": "476",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "238"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "816"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (8 + 6) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 17, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 8 cm long and 6 cm wide. Framing material costs Rs 17 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 6,
+      "rate": 17
+    },
+    "variant_signature": "75c6af05c721943c6681276288b85b94bb70b70272f8b7f4f3361769b3ea427b"
+  },
+  {
+    "answer": "570",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "285"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1064"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (8 + 7) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 19, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 8 cm long and 7 cm wide. Framing material costs Rs 19 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 7,
+      "rate": 19
+    },
+    "variant_signature": "ab566015c63233e331c17102d97cabd188e9ac5fcc09e8ae1bcff2cca2189fe9"
+  },
+  {
+    "answer": "704",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "352"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1408"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (8 + 8) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 22, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 8 cm long and 8 cm wide. Framing material costs Rs 22 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 8,
+      "rate": 22
+    },
+    "variant_signature": "9bcd5c68a8df6cee2c70c42ee2226708f52d468babdbdd026bf9620b830de1dd"
+  },
+  {
+    "answer": "850",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "425"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1800"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (8 + 9) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 25, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 8 cm long and 9 cm wide. Framing material costs Rs 25 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 9,
+      "rate": 25
+    },
+    "variant_signature": "ba4849a5bfc27fe131dc9c1dd9a76d547577c80ebdffb97ab64b0d0812bae74a"
+  },
+  {
+    "answer": "312",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "156"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "432"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (9 + 4) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 12, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 9 cm long and 4 cm wide. Framing material costs Rs 12 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 4,
+      "rate": 12
+    },
+    "variant_signature": "430511c1ffc95ef0513908fccd6c53c169eb2ca365b655230de7107da3fb8e16"
+  },
+  {
+    "answer": "420",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "210"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "675"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (9 + 5) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 15, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 9 cm long and 5 cm wide. Framing material costs Rs 15 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 5,
+      "rate": 15
+    },
+    "variant_signature": "0cbc612dff35de7bd0efdbac5b93cc807ae0b8c35c6578e9e5b9329567a889cc"
+  },
+  {
+    "answer": "510",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "255"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "918"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (9 + 6) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 17, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 9 cm long and 6 cm wide. Framing material costs Rs 17 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 6,
+      "rate": 17
+    },
+    "variant_signature": "e8a463d0c87a5dce1c74b3697b3620fce20920de70fc30f440ab87bc1de8c78c"
+  },
+  {
+    "answer": "640",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "320"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1260"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (9 + 7) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 20, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 9 cm long and 7 cm wide. Framing material costs Rs 20 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 7,
+      "rate": 20
+    },
+    "variant_signature": "5d98b6b1876c2ee2c8b09b4ccdac51d1d4063b13bc013d4906ea5843ff895558"
+  },
+  {
+    "answer": "782",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "391"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1656"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (9 + 8) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 23, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 9 cm long and 8 cm wide. Framing material costs Rs 23 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 8,
+      "rate": 23
+    },
+    "variant_signature": "19e22e5cb220d5ac4ec700585a8449212831f8cd992fb893f47b6d264746bb25"
+  },
+  {
+    "answer": "260",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "130"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "300"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (10 + 3) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 10, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 10 cm long and 3 cm wide. Framing material costs Rs 10 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 3,
+      "rate": 10
+    },
+    "variant_signature": "211f65470e90c56a85c1c00f7ba6cf9f8bc8bc89e82722fa139e1c4afc082b37"
+  },
+  {
+    "answer": "364",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "182"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "520"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (10 + 4) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 13, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 10 cm long and 4 cm wide. Framing material costs Rs 13 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 4,
+      "rate": 13
+    },
+    "variant_signature": "7f136db6bc4f2575ca2445b6d32b0fb2411e2900f6ae99c2a1d842760d339087"
+  },
+  {
+    "answer": "450",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "225"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "750"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (10 + 5) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 15, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 10 cm long and 5 cm wide. Framing material costs Rs 15 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 5,
+      "rate": 15
+    },
+    "variant_signature": "396124dca44250b1ca1667e466d7bd18b5b4b8fbfb9ca53cdce8d26e1d2d6b1c"
+  },
+  {
+    "answer": "576",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "288"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1080"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (10 + 6) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 18, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 10 cm long and 6 cm wide. Framing material costs Rs 18 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 6,
+      "rate": 18
+    },
+    "variant_signature": "b2cf07052dff548722a781181d7ac30b09168c88282ac0ae961ff95e900de11a"
+  },
+  {
+    "answer": "714",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "357"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1470"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (10 + 7) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 21, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 10 cm long and 7 cm wide. Framing material costs Rs 21 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 7,
+      "rate": 21
+    },
+    "variant_signature": "e93761623f61abebde12efea8025f7009fae4dfba89487810909f86b628abd1a"
+  },
+  {
+    "answer": "864",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-MISSED-SIDE",
+        "unsimplified": false,
+        "value": "432"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "1920"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need the perimeter of the frame first \u2014 remember the frame has two lengths and two widths.",
+      "Once you have the perimeter, multiply it by the rate per centimetre."
+    ],
+    "item_instance_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.PERIMETER"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "First find the perimeter of the frame: 2 x (10 + 8) cm.",
+        "Multiply the perimeter by the cost per centimetre, Rs 24, to get the total cost."
+      ]
+    },
+    "stem": "A rectangular mirror frame is 10 cm long and 8 cm wide. Framing material costs Rs 24 per centimetre of the frame's perimeter. What is the total cost of framing the mirror, in rupees?",
+    "template_id": "TPL.MEAS.PERIMETER.RECT.FRAMING.COST.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 8,
+      "rate": 24
+    },
+    "variant_signature": "bcfad8b2d1728cf9c22235f16e54c16e9bc3e3268fee740e081c7e69875c9013"
+  }
+]

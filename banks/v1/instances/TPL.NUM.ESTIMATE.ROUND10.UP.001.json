@@ -1,0 +1,2042 @@
+[
+  {
+    "answer": "110",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "100"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "120"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "116"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 10 tens.",
+        "The rounded number is 10 x (10 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 10 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 10
+    },
+    "variant_signature": "4492973ffb13b3d368f0a004725f30cc90dbf0539a81cc290ff67700a82b785a"
+  },
+  {
+    "answer": "130",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "120"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "140"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "136"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 12 tens.",
+        "The rounded number is 10 x (12 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 12 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 12
+    },
+    "variant_signature": "03f720e7790aad155a60e5f2923254af313dc70ae353e7b556d39edd396c49f5"
+  },
+  {
+    "answer": "150",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "140"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "160"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "156"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 14 tens.",
+        "The rounded number is 10 x (14 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 14 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 14
+    },
+    "variant_signature": "c13175ca0cc50e1f39aaaa2ad0f5fb52d8d9f7606f12ee8d679ca82b9ddc18a1"
+  },
+  {
+    "answer": "170",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "160"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "176"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 16 tens.",
+        "The rounded number is 10 x (16 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 16 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 16
+    },
+    "variant_signature": "bc11313106437d3d43dfeeb1610f2ec75f87bb87717c505b464f08b62eef3f75"
+  },
+  {
+    "answer": "190",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "200"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "196"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 18 tens.",
+        "The rounded number is 10 x (18 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 18 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 18
+    },
+    "variant_signature": "6c70fab057c55b942473646a78c2ff4bfbe44c3961a162b4981286b03e5d9c06"
+  },
+  {
+    "answer": "210",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "200"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "220"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "216"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 20 tens.",
+        "The rounded number is 10 x (20 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 20 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 20
+    },
+    "variant_signature": "29e6148eb60d56f83968ed6762a976940180e07183e06b453d21d1dfe125a526"
+  },
+  {
+    "answer": "230",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "220"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "240"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "236"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 22 tens.",
+        "The rounded number is 10 x (22 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 22 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 22
+    },
+    "variant_signature": "4b2abd3e374a80f0c4867c8e22eab8df4d2915d05b79dc07dbeace3e3f765534"
+  },
+  {
+    "answer": "250",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "240"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "260"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "256"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 24 tens.",
+        "The rounded number is 10 x (24 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 24 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 24
+    },
+    "variant_signature": "dd18f9ebecc0d4776e16b12fe9455ded54f317dab8f70bad7cdb636e9e8e2922"
+  },
+  {
+    "answer": "270",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "260"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "280"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "276"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 26 tens.",
+        "The rounded number is 10 x (26 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 26 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 26
+    },
+    "variant_signature": "1d2a8977b103a456c306e3a31b3c22b5d53fbe9ba896c66e08973dd7ab1d2afb"
+  },
+  {
+    "answer": "290",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "280"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "300"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "296"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 28 tens.",
+        "The rounded number is 10 x (28 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 28 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 28
+    },
+    "variant_signature": "20eecdcf204fc1d2d689dd6f7a300357f55210430fa9cc975de16edd2aed2780"
+  },
+  {
+    "answer": "310",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "300"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "320"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "316"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 30 tens.",
+        "The rounded number is 10 x (30 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 30 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 30
+    },
+    "variant_signature": "a85dcd1ae31cd10f9d6688f6353c62dc416f1208615bd57a5c92c68ec6771660"
+  },
+  {
+    "answer": "330",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "320"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "340"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "336"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 32 tens.",
+        "The rounded number is 10 x (32 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 32 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 32
+    },
+    "variant_signature": "a545ad05eb4d528ab0442144be3cf395cfae6105a2259d96cd7c577f5d0a33fb"
+  },
+  {
+    "answer": "350",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "340"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "360"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "356"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 34 tens.",
+        "The rounded number is 10 x (34 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 34 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 34
+    },
+    "variant_signature": "ca65650a87643442e863d01175c926f4186f32ae2b50687b7d13bcca5d44e771"
+  },
+  {
+    "answer": "370",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "360"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "380"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "376"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 36 tens.",
+        "The rounded number is 10 x (36 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 36 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 36
+    },
+    "variant_signature": "e49bf56c1cb115b2b639c989c21c501b189d53217ebba33328bd1f9866cd4f69"
+  },
+  {
+    "answer": "390",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "380"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "396"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 38 tens.",
+        "The rounded number is 10 x (38 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 38 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 38
+    },
+    "variant_signature": "f31e5d38fd190ac169dff86a93a998434c38274aeaf91f56191c5e83cb8fd3be"
+  },
+  {
+    "answer": "410",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "400"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "420"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "416"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 40 tens.",
+        "The rounded number is 10 x (40 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 40 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 40
+    },
+    "variant_signature": "aa7983c593058c9f413d3179a6b77843f1e2f28aafd4a47f4040e6c940feab41"
+  },
+  {
+    "answer": "430",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "420"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "440"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "436"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 42 tens.",
+        "The rounded number is 10 x (42 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 42 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 42
+    },
+    "variant_signature": "90c34c836d5bcd07886227866d642441f17a99389bf01acccc554cc0e46f8f86"
+  },
+  {
+    "answer": "450",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "440"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "460"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "456"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 44 tens.",
+        "The rounded number is 10 x (44 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 44 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 44
+    },
+    "variant_signature": "7b640539115133a973697a793665da12f84de20e6574c8eb9e1732c8fbb4d47e"
+  },
+  {
+    "answer": "470",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "460"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "480"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "476"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 46 tens.",
+        "The rounded number is 10 x (46 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 46 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 46
+    },
+    "variant_signature": "e5b32c5bc196dd1041b0dfd5c3b56b98fc969c1d6818ee1517bb9e87d2828e34"
+  },
+  {
+    "answer": "490",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "480"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "500"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "496"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 48 tens.",
+        "The rounded number is 10 x (48 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 48 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 48
+    },
+    "variant_signature": "4b647f4ad7931f5c7bcd9dd569aa0bde4e0ea6d28abe6c3d0da17200891064fc"
+  },
+  {
+    "answer": "510",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "500"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "520"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "516"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 50 tens.",
+        "The rounded number is 10 x (50 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 50 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 50
+    },
+    "variant_signature": "3fff9fa0e9e70e4c20de2f64677876ca55b0651d4ecf7015fc4cb555d64a49ac"
+  },
+  {
+    "answer": "530",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "520"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "540"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "536"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 52 tens.",
+        "The rounded number is 10 x (52 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 52 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 52
+    },
+    "variant_signature": "1b1dbef6463071c42e327bd89364299516faebf5dbcbc70ff0266c627e8cf3a9"
+  },
+  {
+    "answer": "550",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "540"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "560"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "556"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 54 tens.",
+        "The rounded number is 10 x (54 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 54 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 54
+    },
+    "variant_signature": "66c423516ac55380fa86244bb975982f1dbc97efebee75f890376cc57cb7685e"
+  },
+  {
+    "answer": "570",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "560"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "580"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "576"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 56 tens.",
+        "The rounded number is 10 x (56 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 56 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 56
+    },
+    "variant_signature": "f9c5d8e5edf95e0a6fe78103c1f9443972d9a490779f400235dc5e48cbf6091a"
+  },
+  {
+    "answer": "590",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "580"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "600"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "596"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 58 tens.",
+        "The rounded number is 10 x (58 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 58 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 58
+    },
+    "variant_signature": "3cee23f33950c9f2a1c1e43628e2bd026741db9e5cceac53c658b6cc896c5856"
+  },
+  {
+    "answer": "610",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "600"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "620"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "616"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 60 tens.",
+        "The rounded number is 10 x (60 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 60 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 60
+    },
+    "variant_signature": "9633bb7405a5d8e4bf6cc66a6e0467cc843a374308c2e70cb9013738f55870d8"
+  },
+  {
+    "answer": "630",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "620"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "640"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "636"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 62 tens.",
+        "The rounded number is 10 x (62 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 62 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 62
+    },
+    "variant_signature": "0611b54f183f100f15bcbe03fd067ea60b716d6d49c7df1e1083a98fd13b2c28"
+  },
+  {
+    "answer": "650",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "640"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "660"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "656"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 64 tens.",
+        "The rounded number is 10 x (64 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 64 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 64
+    },
+    "variant_signature": "f26393cb6054262eca050a2397e73aab53447ccfff825798dde5a874250a86a5"
+  },
+  {
+    "answer": "670",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "660"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "680"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "676"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 66 tens.",
+        "The rounded number is 10 x (66 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 66 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 66
+    },
+    "variant_signature": "355dc09823cbe0e9741017863bc5dac4c9d4661e3d7efd2bb0db2c17776ce3af"
+  },
+  {
+    "answer": "690",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "680"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "700"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "696"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 68 tens.",
+        "The rounded number is 10 x (68 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 68 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 68
+    },
+    "variant_signature": "688d9d6e878d4021b07f025194c9d3d6ee0bd921f78719e8a08e5cf9125b1b64"
+  },
+  {
+    "answer": "710",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "700"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "720"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "716"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 70 tens.",
+        "The rounded number is 10 x (70 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 70 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 70
+    },
+    "variant_signature": "6925ad67de17eabaccd9aa8da27102f1ebebe25f2e366b880b599d7515e4c065"
+  },
+  {
+    "answer": "730",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "720"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "740"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "736"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 72 tens.",
+        "The rounded number is 10 x (72 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 72 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 72
+    },
+    "variant_signature": "629ec5e6ca1a1fb399c4c845c4ec81f61a2869c489324d27084e4c5ceb2c6548"
+  },
+  {
+    "answer": "750",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "740"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "760"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "756"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 74 tens.",
+        "The rounded number is 10 x (74 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 74 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 74
+    },
+    "variant_signature": "7cf741df2f3ff8ec40ea8ca815d70e06d0d6a91ea87f371959425d5a749535df"
+  },
+  {
+    "answer": "770",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "760"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "780"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "776"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 76 tens.",
+        "The rounded number is 10 x (76 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 76 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 76
+    },
+    "variant_signature": "2c592026caf19514132eb02d87b62dec96a906d51bf1620385f68784e9fb36ac"
+  },
+  {
+    "answer": "790",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "780"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "800"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "796"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 78 tens.",
+        "The rounded number is 10 x (78 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 78 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 78
+    },
+    "variant_signature": "3385c36a2ed6f6c39abca023fe27a0204795150aaa477173f75152408e2fea96"
+  },
+  {
+    "answer": "810",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "800"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "820"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "816"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 80 tens.",
+        "The rounded number is 10 x (80 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 80 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 80
+    },
+    "variant_signature": "112968baaf712c2cbc08b1253868875f002f36129bbedaca3b85cd868e4ca624"
+  },
+  {
+    "answer": "830",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "820"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "840"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "836"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 82 tens.",
+        "The rounded number is 10 x (82 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 82 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 82
+    },
+    "variant_signature": "1ad1bdcd0f9b7de843550fb9906ee7d7e0424954fa2d4e07209a89cc416f513f"
+  },
+  {
+    "answer": "850",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "840"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "860"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "856"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 84 tens.",
+        "The rounded number is 10 x (84 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 84 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 84
+    },
+    "variant_signature": "0f98f422d55ced273512e497e311c7fcf8d0db93ac56249a04fd84174508e266"
+  },
+  {
+    "answer": "870",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "860"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "880"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "876"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 86 tens.",
+        "The rounded number is 10 x (86 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 86 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 86
+    },
+    "variant_signature": "15b672fe3abdeb064b48a53a347a4146d3691393b3d2b5bfa65cc3bda6a54183"
+  },
+  {
+    "answer": "890",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.ROUND-TRUNCATE",
+        "unsimplified": false,
+        "value": "880"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "900"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "896"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "A ones digit of 5 or more rounds up, not down.",
+      "Don't just chop off the ones digit \u2014 check which ten is nearer first."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Look at the ones digit, 6: it is 5 or more, so round up.",
+        "Rounding up means moving to the next ten after 88 tens.",
+        "The rounded number is 10 x (88 + 1)."
+      ]
+    },
+    "stem": "Round the number 10 x 88 + 6 to the nearest 10.",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND10.UP.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "ones": 6,
+      "tens": 88
+    },
+    "variant_signature": "04b44e7f62035bac0f0e206c4801bd52ef4183ec233a48252466f1c5d02e6456"
+  }
+]

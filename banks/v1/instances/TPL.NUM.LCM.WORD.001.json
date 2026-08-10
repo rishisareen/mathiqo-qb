@@ -1,0 +1,1562 @@
+[
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 4 and 6 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 4 and 6.",
+        "The soonest such day is the lowest common multiple of 4 and 6, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 4 days and Route B repeats every 6 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 6
+    },
+    "variant_signature": "787b64d9ce49692e7121560c8ff7bec77ee211943ab4ded73a310722355db91f"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 4 and 9 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 4 and 9.",
+        "The soonest such day is the lowest common multiple of 4 and 9, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 4 days and Route B repeats every 9 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 9
+    },
+    "variant_signature": "cb3b6e157ae777924f84d38c67b9db3608f477f62a1a581628327ee8c74400cb"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 4 and 11 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 4 and 11.",
+        "The soonest such day is the lowest common multiple of 4 and 11, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 4 days and Route B repeats every 11 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 11
+    },
+    "variant_signature": "74c068712684126a514532839d778dd7d22752d24cfbaa9c9d43df68c8e9df06"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 4 and 13 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 4 and 13.",
+        "The soonest such day is the lowest common multiple of 4 and 13, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 4 days and Route B repeats every 13 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 13
+    },
+    "variant_signature": "b60615a9cd56df0151ae53c64979fac696d3182c84b6e8a2e71914a836629a83"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 4 and 15 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 4 and 15.",
+        "The soonest such day is the lowest common multiple of 4 and 15, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 4 days and Route B repeats every 15 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 15
+    },
+    "variant_signature": "fed517c8d07f5b064e38e1d39366986451ab9a411e301908904f6343d6c99689"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 5 and 8 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 5 and 8.",
+        "The soonest such day is the lowest common multiple of 5 and 8, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 5 days and Route B repeats every 8 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 8
+    },
+    "variant_signature": "10dfc0dcef162f0d16688063a184c5feceeff9bb82f5bd102154fa9de63f78d8"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 5 and 10 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 5 and 10.",
+        "The soonest such day is the lowest common multiple of 5 and 10, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 5 days and Route B repeats every 10 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 10
+    },
+    "variant_signature": "471df55689ded669481f40ce1ffafe2d2c7db65c1eb098e901efa46975c6c4bb"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 5 and 12 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 5 and 12.",
+        "The soonest such day is the lowest common multiple of 5 and 12, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 5 days and Route B repeats every 12 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 12
+    },
+    "variant_signature": "8c9f1054c4035d69623fe5d7b9d8bd12cf0ab03b1e3a16ca4e992b283bf22203"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 5 and 15 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 5 and 15.",
+        "The soonest such day is the lowest common multiple of 5 and 15, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 5 days and Route B repeats every 15 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 15
+    },
+    "variant_signature": "9715d770ce1d877416fba51e2f080b6cbb1afa877834390fffd42e20f16bd30c"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 6 and 7 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 6 and 7.",
+        "The soonest such day is the lowest common multiple of 6 and 7, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 6 days and Route B repeats every 7 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 7
+    },
+    "variant_signature": "8014b7edabb555552165773a15759a5da93358f74fe37e49bb9d2a471adca455"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 6 and 9 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 6 and 9.",
+        "The soonest such day is the lowest common multiple of 6 and 9, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 6 days and Route B repeats every 9 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 9
+    },
+    "variant_signature": "7b04d9533c5e59007dee058e4c3b14d9e68f0f7ff9b535fd73f95421cc8ad88d"
+  },
+  {
+    "answer": "66",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 6 and 11 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 6 and 11.",
+        "The soonest such day is the lowest common multiple of 6 and 11, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 6 days and Route B repeats every 11 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 11
+    },
+    "variant_signature": "84500f100b485c263aac2863589413991e4d355d2d7eb4ad366c83a32eda2ad9"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 6 and 14 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 6 and 14.",
+        "The soonest such day is the lowest common multiple of 6 and 14, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 6 days and Route B repeats every 14 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 14
+    },
+    "variant_signature": "8f5ea5f6c6bac2515bbc300b1c226d85c8ef19f21ef1093bbab9ab864a5d4d4f"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 7 and 5 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 7 and 5.",
+        "The soonest such day is the lowest common multiple of 7 and 5, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 7 days and Route B repeats every 5 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 5
+    },
+    "variant_signature": "1cf4a2cbdd02e395fb199c899eb61c4a9a48f7609b661c6bb86805e3efc13373"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 7 and 8 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 7 and 8.",
+        "The soonest such day is the lowest common multiple of 7 and 8, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 7 days and Route B repeats every 8 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 8
+    },
+    "variant_signature": "777a5161a0028756c23da903bd8c4c2b17152d3a99c2951d6f850d6f113811a9"
+  },
+  {
+    "answer": "70",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 7 and 10 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 7 and 10.",
+        "The soonest such day is the lowest common multiple of 7 and 10, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 7 days and Route B repeats every 10 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 10
+    },
+    "variant_signature": "2357e4f956607c47f1b9dc105c311568bfecc41ba6c4e9e445e572760c35b453"
+  },
+  {
+    "answer": "91",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 7 and 13 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 7 and 13.",
+        "The soonest such day is the lowest common multiple of 7 and 13, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 7 days and Route B repeats every 13 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 13
+    },
+    "variant_signature": "8428e4be4143b1788bdc99752c544e458724b1576444350dc11304a27276c405"
+  },
+  {
+    "answer": "105",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 7 and 15 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 7 and 15.",
+        "The soonest such day is the lowest common multiple of 7 and 15, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 7 days and Route B repeats every 15 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 15
+    },
+    "variant_signature": "aadc23788e6259bd0c05cc49a859232649d7bfa09b0fea546f577ef96fd5d71c"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 8 and 6 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 8 and 6.",
+        "The soonest such day is the lowest common multiple of 8 and 6, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 8 days and Route B repeats every 6 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 6
+    },
+    "variant_signature": "ab8ea46e5a673cec7c84dbfaae7505590ce27d4b25876af5acd89a252a80ee2d"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 8 and 10 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 8 and 10.",
+        "The soonest such day is the lowest common multiple of 8 and 10, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 8 days and Route B repeats every 10 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 10
+    },
+    "variant_signature": "c719cf0f80c271f878e9d9c890f002dc0f84234e615ea06a421f8af08f68ca83"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 8 and 12 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 8 and 12.",
+        "The soonest such day is the lowest common multiple of 8 and 12, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 8 days and Route B repeats every 12 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 12
+    },
+    "variant_signature": "d80452a8ac71ed2f7024e34d223851c7ccdf9400a62631eeadbdc0dc48dc84ab"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 8 and 14 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 8 and 14.",
+        "The soonest such day is the lowest common multiple of 8 and 14, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 8 days and Route B repeats every 14 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 14
+    },
+    "variant_signature": "916530bc59046ffbf1f86f319d07c06ef185406dacfa5df5814e4428d435e0db"
+  },
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 9 and 5 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 9 and 5.",
+        "The soonest such day is the lowest common multiple of 9 and 5, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 9 days and Route B repeats every 5 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 5
+    },
+    "variant_signature": "91f129b33439f4624760638a88ce1aa9f266eb47a61eca0d8f7bf906e691b871"
+  },
+  {
+    "answer": "72",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 9 and 8 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 9 and 8.",
+        "The soonest such day is the lowest common multiple of 9 and 8, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 9 days and Route B repeats every 8 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 8
+    },
+    "variant_signature": "c58f78227054d8cb9078772f152757052a034f0c19bd205770a0dee82fc12098"
+  },
+  {
+    "answer": "99",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 9 and 11 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 9 and 11.",
+        "The soonest such day is the lowest common multiple of 9 and 11, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 9 days and Route B repeats every 11 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 11
+    },
+    "variant_signature": "0ded697880af8845984347f23d44e2ff87884eebf5b7761495335b64e84b55e0"
+  },
+  {
+    "answer": "117",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 9 and 13 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 9 and 13.",
+        "The soonest such day is the lowest common multiple of 9 and 13, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 9 days and Route B repeats every 13 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 13
+    },
+    "variant_signature": "2472b3d2bb258308a3597f9ea13eb8d2011b9dae6aea3bcd8b26f67208079eba"
+  },
+  {
+    "answer": "45",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 9 and 15 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 9 and 15.",
+        "The soonest such day is the lowest common multiple of 9 and 15, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 9 days and Route B repeats every 15 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 15
+    },
+    "variant_signature": "4f571123d21280aed1769839e06933e1cb40162b07a9b2766f563e862e2291e3"
+  },
+  {
+    "answer": "70",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 10 and 7 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 10 and 7.",
+        "The soonest such day is the lowest common multiple of 10 and 7, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 10 days and Route B repeats every 7 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 7
+    },
+    "variant_signature": "b898f21514618e18e91dd4684debabcbced2581a289366a3950cc4781cf0bee7"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 10 and 9 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 10 and 9.",
+        "The soonest such day is the lowest common multiple of 10 and 9, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 10 days and Route B repeats every 9 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 9
+    },
+    "variant_signature": "e92a60530833e927f501ba041c04a63677ae08e376dacccc84dc79e37a454904"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 10 and 12 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 10 and 12.",
+        "The soonest such day is the lowest common multiple of 10 and 12, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 10 days and Route B repeats every 12 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 12
+    },
+    "variant_signature": "1d530b87e01ab470f918dcd55dbdcd110269286696895c98d496a53b31948f26"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 10 and 15 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 10 and 15.",
+        "The soonest such day is the lowest common multiple of 10 and 15, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 10 days and Route B repeats every 15 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 10,
+      "b": 15
+    },
+    "variant_signature": "2a41a0f23d9b7e354199271e9c06638a224ab93a176f938804a37845a23db541"
+  },
+  {
+    "answer": "66",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 11 and 6 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 11 and 6.",
+        "The soonest such day is the lowest common multiple of 11 and 6, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 11 days and Route B repeats every 6 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 11,
+      "b": 6
+    },
+    "variant_signature": "0e4981b4704b3e8ec7dd952f6e7f049c3438c334223c9021cccb5d0e070b0a77"
+  },
+  {
+    "answer": "88",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 11 and 8 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 11 and 8.",
+        "The soonest such day is the lowest common multiple of 11 and 8, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 11 days and Route B repeats every 8 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 11,
+      "b": 8
+    },
+    "variant_signature": "b3793757c5886df87e31ff86504cf097994dbeaf53cfcc9aff5e55c054bbd532"
+  },
+  {
+    "answer": "110",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 11 and 10 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 11 and 10.",
+        "The soonest such day is the lowest common multiple of 11 and 10, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 11 days and Route B repeats every 10 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 11,
+      "b": 10
+    },
+    "variant_signature": "45f5d17f079d5f84ab9cd9c61c18b326ef58c2349010968bdfccb56d18f367f8"
+  },
+  {
+    "answer": "154",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 11 and 14 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 11 and 14.",
+        "The soonest such day is the lowest common multiple of 11 and 14, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 11 days and Route B repeats every 14 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 11,
+      "b": 14
+    },
+    "variant_signature": "e14516fa5ebbc51c5163c88a5c63dfc37938d01455f064e5aa98d94883f74405"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 12 and 5 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 12 and 5.",
+        "The soonest such day is the lowest common multiple of 12 and 5, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 12 days and Route B repeats every 5 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 12,
+      "b": 5
+    },
+    "variant_signature": "63885d4980f3ad149de6db86f79637b0160efd8d327c7bd942c36f14bfe0e8c0"
+  },
+  {
+    "answer": "84",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 12 and 7 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 12 and 7.",
+        "The soonest such day is the lowest common multiple of 12 and 7, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 12 days and Route B repeats every 7 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 12,
+      "b": 7
+    },
+    "variant_signature": "e9d9b9c319482c050319392efa6756c8437c6e6576609e6214b3f665512f369d"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 12 and 9 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 12 and 9.",
+        "The soonest such day is the lowest common multiple of 12 and 9, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 12 days and Route B repeats every 9 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 12,
+      "b": 9
+    },
+    "variant_signature": "6f6a2f559ac66362d188f3be9498f69a28f4a5da94c8acd53e34246d6e567599"
+  },
+  {
+    "answer": "156",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 12 and 13 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 12 and 13.",
+        "The soonest such day is the lowest common multiple of 12 and 13, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 12 days and Route B repeats every 13 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 12,
+      "b": 13
+    },
+    "variant_signature": "3e25d26aaf7ec6fcc957b62e77827398dcc9582860667c218094dc167ebc787c"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.LCM-CONFUSED-WITH-GCF",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "You need a day count that both 12 and 15 divide into, not a number that divides both of them."
+    ],
+    "item_instance_id": "TPL.NUM.LCM.WORD.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.LCM"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The routes leave together again on a day that is a multiple of both 12 and 15.",
+        "The soonest such day is the lowest common multiple of 12 and 15, not their highest common factor."
+      ]
+    },
+    "stem": "Two bus routes leave the depot together this morning. Route A repeats every 12 days and Route B repeats every 15 days. After how many days do they next leave together?",
+    "template_id": "TPL.NUM.LCM.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 12,
+      "b": 15
+    },
+    "variant_signature": "cd5b2083d2e962f149a8e6afa55a13757386ba449c62d6fd76df17766ecd5fb9"
+  }
+]

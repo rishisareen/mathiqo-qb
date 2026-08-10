@@ -400,7 +400,7 @@
       "required": ["kind", "degrees_expr", "context"],
       "properties": {
         "kind": { "const": "angle" },
-        "degrees_expr": { "$ref": "#/$defs/expr", "description": "May exceed 180 in the bare, clock, or reflex contexts — the renderer draws whatever measure is given; reflex additionally signals drawing the major arc explicitly. A protractor's single scale still bounds the item to 180." },
+        "degrees_expr": { "$ref": "#/$defs/expr", "description": "May exceed 180 — the reflex context draws the major arc." },
         "context": {
           "enum": ["bare", "clock", "protractor", "reflex"],
           "description": "clock draws a numbered hour-marked face; protractor overlays both scales."
@@ -408,8 +408,7 @@
         "scale": { "enum": ["inner", "outer"], "description": "Which protractor scale the item reads; protractor context only." },
         "tilt_expr": { "$ref": "#/$defs/expr", "description": "Rotation off upright, so a right angle is not axis-aligned." },
         "arm_length_expr": { "$ref": "#/$defs/expr", "description": "Set where arm length is the contrast the item tests." },
-        "count_expr": { "$ref": "#/$defs/expr", "description": "Repeats this angle count times at differing tilts (KTD9) rather than varying the figures array length." },
-        "shared_vertex": { "type": "string", "minLength": 1, "description": "A tag naming the vertex two angle entries in the same figures array share; the same tag on two entries means they are drawn meeting at one point, not as two independent angles. Untagged entries draw independently." }
+        "count_expr": { "$ref": "#/$defs/expr", "description": "Repeats this angle count times at differing tilts (KTD9) rather than varying the figures array length." }
       }
     },
     "figCircle": {
@@ -426,8 +425,7 @@
         "length_expr": { "$ref": "#/$defs/expr" },
         "unit": { "type": "string", "minLength": 1 },
         "points_on_expr": { "$ref": "#/$defs/expr" },
-        "points_off_expr": { "$ref": "#/$defs/expr", "description": "Points inside or outside; exact placement is renderer layout freedom (R7)." },
-        "centre_marked": { "type": "boolean", "description": "Draws and labels the centre point O, independent of construction — set this when the item counts or references the centre as a point distinct from points_on/points_off." }
+        "points_off_expr": { "$ref": "#/$defs/expr", "description": "Points inside or outside; exact placement is renderer layout freedom (R7)." }
       }
     },
     "figPointLine": {
@@ -464,11 +462,7 @@
           "description": "regular-ngon takes its side count from sides_expr."
         },
         "sides_expr": { "$ref": "#/$defs/expr" },
-        "vertex_labels": {
-          "type": "array",
-          "items": { "type": "string", "minLength": 1 },
-          "description": "Listed in walking order: consecutive entries are adjacent vertices, e.g. [\"P\",\"Q\",\"R\",\"S\"] for a quadrilateral walked P→Q→R→S→P. Side indices below are defined against this order."
-        },
+        "vertex_labels": { "type": "array", "items": { "type": "string", "minLength": 1 } },
         "side_labels": {
           "type": "array",
           "items": {
@@ -476,21 +470,14 @@
             "additionalProperties": false,
             "required": ["side", "value_expr"],
             "properties": {
-              "side": {
-                "type": "integer",
-                "minimum": 0,
-                "description": "Zero-based side index: side i runs from vertex i to vertex i+1 (wrapping), walking the outline counter-clockwise from vertex_labels[0] when vertex_labels is given, or from the shape's bottom-left vertex in its default upright orientation when it is not. Label only the sides the item gives, since some items turn on a side being unlabelled. composite-l's six sides are the one exception: 0-1 are the lower section's two given sides in stem order, 2 is the derived step between sections, 3-4 are the upper section's two given sides in stem order, and 5 is the derived outer edge closing the L; 2 and 5 are never labelled."
-              },
+              "side": { "type": "integer", "minimum": 0, "description": "Zero-based side index; label only the sides the item gives, since some items turn on a side being unlabelled." },
               "value_expr": { "$ref": "#/$defs/expr" },
               "unit": { "type": "string", "minLength": 1 }
             }
           }
         },
         "rotation_expr": { "$ref": "#/$defs/expr", "description": "Degrees applied to the drawn shape." },
-        "symmetry": { "enum": ["none", "lines", "order"], "description": "Whether to draw symmetry axes or mark rotational order." },
-        "altitude_expr": { "$ref": "#/$defs/expr", "description": "The shape's height, drawn as a dashed line from apex to base, when an item needs it labelled separately from any side (e.g. a triangle inscribed in a rectangle whose height is stated but is not a triangle side)." },
-        "altitude_unit": { "type": "string", "minLength": 1, "description": "Unit for altitude_expr, mirroring side_labels[].unit." },
-        "caption_i18n": { "$ref": "#/$defs/i18nText", "description": "A short label distinguishing this figure from siblings in the same figures array, e.g. \"Rectangle A\". Omit on a single-figure item." }
+        "symmetry": { "enum": ["none", "lines", "order"], "description": "Whether to draw symmetry axes or mark rotational order." }
       }
     },
     "figRegion": {

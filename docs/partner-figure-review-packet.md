@@ -2,8 +2,7 @@
 
 **To:** partner engineering
 **Re:** your `fetch_batch` figure-support request
-**Status:** live. A bank carrying figures is built and active — `fetch_batch` returns real `figures` data today, not a preview.
-**Asks of you:** confirm two deviations from your proposal, and tell us if our proposed side-index convention works for your renderer.
+**Asks of you:** confirm two deviations from your proposal, and tell us whether four gaps we hit are worth closing before we freeze.
 
 You reported that every field in the batch response was text or choice-based, so Strand D and E skills could not be routed to us without re-authoring each visual yourselves. That is fixed. `figures` now ships on every item instance, materialized offline behind the same verification gate as the answer.
 
@@ -32,39 +31,25 @@ Repetition of *one* shape does **not** use the array — an item showing `m` til
 
 **This is the deviation most likely to break you silently.** If your renderer assumed numbers, arithmetic on a position will produce `NaN` or string concatenation rather than an error. Worth checking before you build.
 
-## Side indices — we picked a convention; tell us if it doesn't fit
+## One gap you should push back on
 
-The first draft of this packet flagged that side indices were undefined and asked what you wanted. We have since pinned one rather than leave `shape` figures unrenderable while we waited:
+**Side indices are not defined, and you cannot render `shape` figures correctly without them.**
 
-**Side `i` runs from vertex `i` to vertex `i+1` (wrapping), walking the outline counter-clockwise from `vertex_labels[0]` when given, or from the shape's bottom-left vertex in its default upright orientation when not.** Every currently-shipped `side_labels` array already conforms to this — it is what the content was authored against, not a change to existing data.
+`side_labels[].side` is a zero-based edge index, but nothing in the contract says which edge index 0 is, or which way the numbering winds. On a labelled rectangle you can guess. On the composite L-shape you cannot: it has six edges, we label indices 0, 1, 3, 4, and skip 2 and 5. Which four edges carry those lengths is genuinely unknowable from the data.
 
-`composite-l` is the one shape whose six sides are not a single labelled loop: sides `0`–`1` are the lower section's two given sides, `2` is the derived step between sections, `3`–`4` are the upper section's two given sides, `5` is the derived outer closing edge. `2` and `5` are never labelled.
+We can fix this by pinning a convention — side `i` runs from vertex `i` to vertex `i+1`, counter-clockwise from a stated origin — but we would rather agree it with you than assert it, since your renderer has to implement it. **Tell us what is natural on your side and we will match it.** Until then, treat side indices on anything more complex than a rectangle as unreliable.
 
-```json
-{
-  "kind": "shape", "shape": "composite-l",
-  "side_labels": [
-    { "side": 0, "value": 3, "unit": "m" },
-    { "side": 1, "value": 3, "unit": "m" },
-    { "side": 3, "value": 6, "unit": "m" },
-    { "side": 4, "value": 5, "unit": "m" }
-  ]
-}
-```
+## Four smaller gaps — tell us which matter
 
-**Say so if this collides with something on your side** — a different winding direction, a different origin, or a renderer that already assumes a convention of its own. We would rather change it now than have you build against it and find out later.
+Each is a place our contract is thinner than the content. None blocks adoption; all are cheap to add now and awkward later.
 
-## Four gaps from the first draft — closed, not just noted
+1. **No way to mark a circle's centre.** `circle` marks the centre only under `construction: segment-as-diameter`. One item counts points on a circle versus points elsewhere, and its centre O should be visible but is not expressible — we refused to fold it into the off-circle count, since the stem counts those as distinct things.
 
-The first draft of this packet listed these as open questions. We closed all four rather than wait, since none required your input to resolve on our side:
+2. **No way to say two angles share a vertex.** Two comparison items draw angles at a shared vertex; we currently emit them as two independent figures, so the shared vertex is lost.
 
-1. **Circle centre.** `circle` gained `centre_marked: true` — draws and labels the centre point O independent of `construction`. The point-classification item that was the reason for this gap now marks O explicitly, matching its stem's own "besides the centre" framing.
+3. **No angle whose measure crosses the reflex boundary.** `bare` requires ≤180°, `reflex` requires >180°. An angle measured in hour-marks ranges 30°–330° depending on the variable, so neither fits across its domain. We used `clock` (accurate — those stems really do say hour-marks), but an item about arm-length contrast now renders on a clock face where hands have fixed length.
 
-2. **Shared vertex.** `angle` gained `shared_vertex`, a string tag: two entries in the same `figures` array carrying the same tag meet at one point rather than floating independently. The two comparison items that needed this now carry it.
-
-3. **Reflex-boundary angles.** `context: "bare"` now accepts any measure up to (not including) 360°, not just ≤180°. The three arm-length and turn-comparison items that previously borrowed the clock face just to express a turn over 180° now use `bare` where the stem has no clock framing — a bare angle carries `arm_length` freely, where a numbered clock face's fixed-length hands would have undercut the exact contrast those items test. `context: "protractor"` stayed capped at 180°, since a single protractor scale genuinely can't show more.
-
-4. **Altitude and caption.** `shape` gained `altitude` (with `altitude_unit`) for a height that is not itself a side, and `caption` to distinguish figures in a multi-shape array. The triangle-in-rectangle item now draws its stated height; the same-perimeter-different-area item now captions its two rectangles "Rectangle A" / "Rectangle B" instead of relying on array order alone.
+4. **No altitude on a triangle, and no caption on a figure.** One area item states the enclosing rectangle's height, which is not a triangle side; another draws two rectangles the stem calls "A" and "B", and their identity currently rests entirely on array order.
 
 ## Worked examples
 
@@ -85,19 +70,6 @@ Copied verbatim from a real bank build, one instance per template — not hand-w
 [ { "kind": "angle", "degrees": 121, "context": "protractor", "scale": "inner" } ]
 ```
 
-**Bare angle above 180°, with a shared vertex** — the arm-length item that used to borrow the clock face:
-```json
-[
-  { "kind": "angle", "degrees": 120, "context": "bare", "arm_length": 3, "shared_vertex": "O" },
-  { "kind": "angle", "degrees": 60,  "context": "bare", "arm_length": 1, "shared_vertex": "O" }
-]
-```
-
-**Circle with its centre marked:**
-```json
-[ { "kind": "circle", "points_on": 2, "points_off": 5, "centre_marked": true } ]
-```
-
 **Half-symbol pictograph** — trailing half symbol worth half the key; the key is constrained even so the half stays a whole number:
 ```json
 [ { "kind": "pictograph", "key": 2, "unit": "mangoes",
@@ -108,23 +80,6 @@ Copied verbatim from a real bank build, one instance per template — not hand-w
 ```json
 [ { "kind": "shape", "shape": "square", "symmetry": "none" },
   { "kind": "shape", "shape": "regular-ngon", "sides": 6, "symmetry": "none" } ]
-```
-
-**Triangle with a labelled altitude:**
-```json
-[ { "kind": "shape", "shape": "triangle",
-    "side_labels": [ { "side": 0, "value": 4, "unit": "cm" } ],
-    "altitude": 3, "altitude_unit": "cm" } ]
-```
-
-**Captioned pair, disambiguated without relying on array order:**
-```json
-[
-  { "kind": "shape", "shape": "rectangle", "caption": "Rectangle A",
-    "side_labels": [ { "side": 0, "value": 6, "unit": "cm" }, { "side": 1, "value": 2, "unit": "cm" } ] },
-  { "kind": "shape", "shape": "rectangle", "caption": "Rectangle B",
-    "side_labels": [ { "side": 0, "value": 7, "unit": "cm" }, { "side": 1, "value": 1, "unit": "cm" } ] }
-]
 ```
 
 **Rational position, and the unlabelled point** — `"1/2"` is a string; the point carries no label because its position is the answer:
@@ -151,12 +106,13 @@ Copied verbatim from a real bank build, one instance per template — not hand-w
 
 ## Where two renderers will legitimately differ
 
-Some placement is deliberately ours to leave open, because no variable determines it: which corner the grid cutout occupies, which cells the half-squares shade, where two abutting blocks join on the ruler, and how two figures in one array are arranged relative to each other. Our build makes these deterministic per instance, but the contract does not dictate them, so your rendering and ours may look different while both being correct. This stays open for now — say if you would rather we pinned any of it.
+Some placement is deliberately ours to leave open, because no variable determines it: which corner the grid cutout occupies, which cells the half-squares shade, where two abutting blocks join on the ruler, and how two figures in one array are arranged relative to each other. Our build makes these deterministic per instance, but the contract does not dictate them, so your rendering and ours may look different while both being correct. Say if you would rather we pinned any of them.
 
 ## What we need back
 
 1. Does the array shape work for you?
-2. Does your renderer handle rational strings, bare angles above 180°, clock and protractor contexts, and half symbols?
-3. Does the side-index convention above match what your renderer expects, or do you need a different origin or winding direction?
+2. Does your renderer handle rational strings, reflex angles above 180°, clock and protractor contexts, and half symbols?
+3. What side-index convention do you want?
+4. Which of the four smaller gaps do you want closed before we freeze?
 
 We would rather change the contract now than after you have built against it.

@@ -1,0 +1,1826 @@
+[
+  {
+    "answer": "1/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/4"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 3,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 3 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 3 equal parts, so every part is worth 1/3.",
+        "The point is 1 parts to the right of 0, so its value is 1/3 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 3 equal parts. What fraction is marked at the point that is 1 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 3,
+      "k": 1
+    },
+    "variant_signature": "872b5b69c7f3afb287d9c11a7de242d7e70d9739a249c3166309a38d796bd806"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 3,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "2/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 3 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 3 equal parts, so every part is worth 1/3.",
+        "The point is 2 parts to the right of 0, so its value is 2/3 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 3 equal parts. What fraction is marked at the point that is 2 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 3,
+      "k": 2
+    },
+    "variant_signature": "c0c409d56a37a02714fc9ad701b077c673a8a3e7cc1f7ca6d11cf93921d472df"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "4/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/4"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 3,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 3 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 3 equal parts, so every part is worth 1/3.",
+        "The point is 3 parts to the right of 0, so its value is 3/3 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 3 equal parts. What fraction is marked at the point that is 3 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 3,
+      "k": 3
+    },
+    "variant_signature": "5389fd532e6a36a6dfea98ef8cb69383095ecd81f4cbb99bf7cb524102efd210"
+  },
+  {
+    "answer": "4/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 3,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "4/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 3 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 3 equal parts, so every part is worth 1/3.",
+        "The point is 4 parts to the right of 0, so its value is 4/3 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 3 equal parts. What fraction is marked at the point that is 4 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 3,
+      "k": 4
+    },
+    "variant_signature": "1c7ab112bb849aed2ac4957d9e808678efaca144844cf46b4417f9db61dd3955"
+  },
+  {
+    "answer": "5/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/4"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 3,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "5/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 3 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 3 equal parts, so every part is worth 1/3.",
+        "The point is 5 parts to the right of 0, so its value is 5/3 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 3 equal parts. What fraction is marked at the point that is 5 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 3,
+      "k": 5
+    },
+    "variant_signature": "6133ae17dc2c09c0a725d91801b7755ddc9d3a39a2930fade3720d120fa68af0"
+  },
+  {
+    "answer": "1/4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 4 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 4 equal parts, so every part is worth 1/4.",
+        "The point is 1 parts to the right of 0, so its value is 1/4 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 4 equal parts. What fraction is marked at the point that is 1 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 1
+    },
+    "variant_signature": "91c164b11311d328ca2e7c11a834115562f3713dc05af1c419872f27046933e9"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/2"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 4 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 4 equal parts, so every part is worth 1/4.",
+        "The point is 2 parts to the right of 0, so its value is 2/4 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 4 equal parts. What fraction is marked at the point that is 2 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 2
+    },
+    "variant_signature": "cb47c185d753eb422cbe9607a38b998603235765abdbb2db22927b2d4994c04c"
+  },
+  {
+    "answer": "3/4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "3/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 4 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 4 equal parts, so every part is worth 1/4.",
+        "The point is 3 parts to the right of 0, so its value is 3/4 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 4 equal parts. What fraction is marked at the point that is 3 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 3
+    },
+    "variant_signature": "70bfc9da2ddcac0dfac21e321d30f45c3124be09f792a88b125648ba3c99872f"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "4/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 4 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 4 equal parts, so every part is worth 1/4.",
+        "The point is 4 parts to the right of 0, so its value is 4/4 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 4 equal parts. What fraction is marked at the point that is 4 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 4
+    },
+    "variant_signature": "ba7b44760b33335cf0fd2277a8a4d0878375d4c061fce95e0f5d508197a84402"
+  },
+  {
+    "answer": "5/4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "5/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 4 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 4 equal parts, so every part is worth 1/4.",
+        "The point is 5 parts to the right of 0, so its value is 5/4 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 4 equal parts. What fraction is marked at the point that is 5 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 5
+    },
+    "variant_signature": "116d34de923e498c093d1d0c1f0e32544e3a2e87930e31865669389c7cd61170"
+  },
+  {
+    "answer": "3/2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "7/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "6/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "3/2"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 4 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 4 equal parts, so every part is worth 1/4.",
+        "The point is 6 parts to the right of 0, so its value is 6/4 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 4 equal parts. What fraction is marked at the point that is 6 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 6
+    },
+    "variant_signature": "c56959f1fa2422053bc075d17c8b3bba56be90d234335190d7699871f985a287"
+  },
+  {
+    "answer": "7/4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "7/5"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 4,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "7/4"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 4 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 4 equal parts, so every part is worth 1/4.",
+        "The point is 7 parts to the right of 0, so its value is 7/4 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 4 equal parts. What fraction is marked at the point that is 7 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 4,
+      "k": 7
+    },
+    "variant_signature": "623664ea7475833264df6794e4f0ac3a9c7356c41ee4c6538284075074c5e80a"
+  },
+  {
+    "answer": "1/5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/6"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 5 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 5 equal parts, so every part is worth 1/5.",
+        "The point is 1 parts to the right of 0, so its value is 1/5 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 5 equal parts. What fraction is marked at the point that is 1 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 1
+    },
+    "variant_signature": "75bc803b144827f89adf8ae27d3ff747eb0dad1fbb73524b04428d19ae0ec6c5"
+  },
+  {
+    "answer": "2/5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/3"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "2/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 5 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 5 equal parts, so every part is worth 1/5.",
+        "The point is 2 parts to the right of 0, so its value is 2/5 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 5 equal parts. What fraction is marked at the point that is 2 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 2
+    },
+    "variant_signature": "bc8f1615e4a71ad6fcb4159a30a224e5a8d16ac066bcadc9a6b324fa21ee6b2b"
+  },
+  {
+    "answer": "3/5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "4/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "3/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 5 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 5 equal parts, so every part is worth 1/5.",
+        "The point is 3 parts to the right of 0, so its value is 3/5 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 5 equal parts. What fraction is marked at the point that is 3 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 3
+    },
+    "variant_signature": "d254ee2a071f2559b2acfd22897bb222c1789a8149d091e60eebf8dc007fe0a9"
+  },
+  {
+    "answer": "4/5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/3"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "4/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 5 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 5 equal parts, so every part is worth 1/5.",
+        "The point is 4 parts to the right of 0, so its value is 4/5 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 5 equal parts. What fraction is marked at the point that is 4 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 4
+    },
+    "variant_signature": "edede4ba0b1800f0acaa0c26a9f54321ef3150fdc3798b4b11fde4b5daf74f84"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "6/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/6"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 5 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 5 equal parts, so every part is worth 1/5.",
+        "The point is 5 parts to the right of 0, so its value is 5/5 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 5 equal parts. What fraction is marked at the point that is 5 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 5
+    },
+    "variant_signature": "76e8ccc086e42c362950a0f633010a5d14efa5c6e456d74d02e5fa585166a92b"
+  },
+  {
+    "answer": "6/5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "7/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "6/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 5 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 5 equal parts, so every part is worth 1/5.",
+        "The point is 6 parts to the right of 0, so its value is 6/5 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 5 equal parts. What fraction is marked at the point that is 6 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 6
+    },
+    "variant_signature": "f1be735555b8317219d57721ad93d17d0f5dcc2f9da327df7ba95ba1eea5021c"
+  },
+  {
+    "answer": "7/5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "8/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "7/6"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "7/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 5 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 5 equal parts, so every part is worth 1/5.",
+        "The point is 7 parts to the right of 0, so its value is 7/5 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 5 equal parts. What fraction is marked at the point that is 7 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 7
+    },
+    "variant_signature": "ef778961da7af55ab1d71fae7659594e62cc05bc97fff45502eb6d938ca00ae8"
+  },
+  {
+    "answer": "8/5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "9/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "4/3"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "8/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 5 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 5 equal parts, so every part is worth 1/5.",
+        "The point is 8 parts to the right of 0, so its value is 8/5 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 5 equal parts. What fraction is marked at the point that is 8 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 8
+    },
+    "variant_signature": "86578bf0a0c847af8cdbe04eb17f434b8355980f5bd27d697ae3a7ef3464c468"
+  },
+  {
+    "answer": "9/5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/2"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 5,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "9/5"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 5 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 5 equal parts, so every part is worth 1/5.",
+        "The point is 9 parts to the right of 0, so its value is 9/5 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 5 equal parts. What fraction is marked at the point that is 9 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 5,
+      "k": 9
+    },
+    "variant_signature": "2c402ddecfd2353956e078d04eeb95af8f032d15c64e301fc6609a994548e309"
+  },
+  {
+    "answer": "1/6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/6"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 6 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 6 equal parts, so every part is worth 1/6.",
+        "The point is 1 parts to the right of 0, so its value is 1/6 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 6 equal parts. What fraction is marked at the point that is 1 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 1
+    },
+    "variant_signature": "cebe3381e4d261a35e5631db22ee2c27465e85542d47b0033a22eb7a6c418c18"
+  },
+  {
+    "answer": "1/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 6 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 6 equal parts, so every part is worth 1/6.",
+        "The point is 2 parts to the right of 0, so its value is 2/6 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 6 equal parts. What fraction is marked at the point that is 2 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 2
+    },
+    "variant_signature": "b2f17220d5442394619b5a11eeee4978882ff8eed3f9b518ee9207377efdc824"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "1/2"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 6 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 6 equal parts, so every part is worth 1/6.",
+        "The point is 3 parts to the right of 0, so its value is 3/6 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 6 equal parts. What fraction is marked at the point that is 3 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 3
+    },
+    "variant_signature": "44ea76c665381cc283ae4c54bfbbef410c12fd9ce0e6037c28ec25d03884cfb9"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/6"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "4/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "2/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 6 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 6 equal parts, so every part is worth 1/6.",
+        "The point is 4 parts to the right of 0, so its value is 4/6 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 6 equal parts. What fraction is marked at the point that is 4 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 4
+    },
+    "variant_signature": "8697ea6b063f1202ffb66cc13fdf71204f47d9fec3f7449095ed82a361f178d2"
+  },
+  {
+    "answer": "5/6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "5/6"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 6 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 6 equal parts, so every part is worth 1/6.",
+        "The point is 5 parts to the right of 0, so its value is 5/6 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 6 equal parts. What fraction is marked at the point that is 5 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 5
+    },
+    "variant_signature": "09a7fe55acda6fada9e8a3b2fd7166d01d5917a7ca30df08ada25dbb0a9ef97a"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "7/6"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "6/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": 1
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 6 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 6 equal parts, so every part is worth 1/6.",
+        "The point is 6 parts to the right of 0, so its value is 6/6 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 6 equal parts. What fraction is marked at the point that is 6 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 6
+    },
+    "variant_signature": "758e66b46cc60df6879d53d8b5390af85e9f92e1b44285237227c099ea49842e"
+  },
+  {
+    "answer": "7/6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "4/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "7/6"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 6 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 6 equal parts, so every part is worth 1/6.",
+        "The point is 7 parts to the right of 0, so its value is 7/6 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 6 equal parts. What fraction is marked at the point that is 7 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 7
+    },
+    "variant_signature": "8a5b8ebaa6d2418dd6e5dcdfce2723f64001ad048e728ddf689b0a85454b3f1c"
+  },
+  {
+    "answer": "4/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "3/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "8/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "4/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 6 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 6 equal parts, so every part is worth 1/6.",
+        "The point is 8 parts to the right of 0, so its value is 8/6 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 6 equal parts. What fraction is marked at the point that is 8 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 8
+    },
+    "variant_signature": "b08d9b0281195295b9faf0b880c935dd1279a87bf27fb5b5ca0570adb67df7d7"
+  },
+  {
+    "answer": "3/2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "5/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "9/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "3/2"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 6 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 6 equal parts, so every part is worth 1/6.",
+        "The point is 9 parts to the right of 0, so its value is 9/6 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 6 equal parts. What fraction is marked at the point that is 9 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 9
+    },
+    "variant_signature": "ddfb38028a1bfba943af4adaa2edfe1c1cecc9b293b1bbde9cfb9d6bb0609d30"
+  },
+  {
+    "answer": "5/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "11/6"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "10/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "5/3"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 6 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 6 equal parts, so every part is worth 1/6.",
+        "The point is 10 parts to the right of 0, so its value is 10/6 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 6 equal parts. What fraction is marked at the point that is 10 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 10
+    },
+    "variant_signature": "aaf1fe8da48bd4495ad31f636f786384358519c3bedbb5f3905fd1b88e7a51b8"
+  },
+  {
+    "answer": "11/6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NUMLINE-COUNT-MARKS",
+        "unsimplified": false,
+        "value": "11/7"
+      }
+    ],
+    "figures": [
+      {
+        "divisions": 6,
+        "kind": "number-line",
+        "max": 2,
+        "min": 0,
+        "points": [
+          {
+            "position": "11/6"
+          }
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Count equal parts, not tick marks, and keep going past 1 if the point is further along.",
+      "The denominator stays 6 the whole way along the line, even past the mark for 1."
+    ],
+    "item_instance_id": "TPL.FRAC.NUMLINE.DEPTH.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.NUMLINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each unit interval is split into 6 equal parts, so every part is worth 1/6.",
+        "The point is 11 parts to the right of 0, so its value is 11/6 \u2014 this can be more than 1 whole once you pass the mark for 1."
+      ]
+    },
+    "stem": "A number line runs from 0 to 2. Each unit interval (0 to 1, and 1 to 2) is divided into 6 equal parts. What fraction is marked at the point that is 11 parts to the right of 0?",
+    "template_id": "TPL.FRAC.NUMLINE.DEPTH.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "d": 6,
+      "k": 11
+    },
+    "variant_signature": "91622c1899b98601509870d0f9d0c67198f66b499480a9239b9853d45ef8c790"
+  }
+]

@@ -1,0 +1,2242 @@
+[
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "cutout_cols": 2,
+        "cutout_rows": 3,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 5 x 5 unit squares.",
+        "The missing corner removes 3 x 2 unit squares, so subtract: (5 x 5) - (3 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 5 row by 5 column block of unit squares, with a smaller 3 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 5,
+      "r": 3,
+      "s": 2
+    },
+    "variant_signature": "24f4cebbe8d2b5435448e88252c28cd22db2ef90b8121569d9f3903ea49e67db"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "cutout_cols": 4,
+        "cutout_rows": 1,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 5 x 6 unit squares.",
+        "The missing corner removes 1 x 4 unit squares, so subtract: (5 x 6) - (1 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 5 row by 6 column block of unit squares, with a smaller 1 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 6,
+      "r": 1,
+      "s": 4
+    },
+    "variant_signature": "fc3be2cebe5c4335d7acacd07586244affeb2506696a6fb0717cc23b420ba074"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "38"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "cutout_cols": 2,
+        "cutout_rows": 4,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 5 x 6 unit squares.",
+        "The missing corner removes 4 x 2 unit squares, so subtract: (5 x 6) - (4 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 5 row by 6 column block of unit squares, with a smaller 4 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 6,
+      "r": 4,
+      "s": 2
+    },
+    "variant_signature": "aae02275517d59b7ee75a991c0bb372438b3ddc23f07740147744091451edb7f"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "43"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "cutout_cols": 4,
+        "cutout_rows": 2,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 5 x 7 unit squares.",
+        "The missing corner removes 2 x 4 unit squares, so subtract: (5 x 7) - (2 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 5 row by 7 column block of unit squares, with a smaller 2 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 7,
+      "r": 2,
+      "s": 4
+    },
+    "variant_signature": "b89cf175ee1c2c92a61132a40729046c188da9bc956a81d834df80364637fd5e"
+  },
+  {
+    "answer": "38",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "cutout_cols": 2,
+        "cutout_rows": 1,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 5 x 8 unit squares.",
+        "The missing corner removes 1 x 2 unit squares, so subtract: (5 x 8) - (1 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 5 row by 8 column block of unit squares, with a smaller 1 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 8,
+      "r": 1,
+      "s": 2
+    },
+    "variant_signature": "3efdcfbeb2b81c58e22961a9a88b036a5cd7462887d088360725b6dfd9d4430c"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "cutout_cols": 4,
+        "cutout_rows": 3,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 5 x 8 unit squares.",
+        "The missing corner removes 3 x 4 unit squares, so subtract: (5 x 8) - (3 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 5 row by 8 column block of unit squares, with a smaller 3 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 8,
+      "r": 3,
+      "s": 4
+    },
+    "variant_signature": "0441db02567d4f6e2cdbffcc3fc789ab7fc98757ceee7bde1c8116f8c3125e01"
+  },
+  {
+    "answer": "41",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "49"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "cutout_cols": 2,
+        "cutout_rows": 2,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 5 x 9 unit squares.",
+        "The missing corner removes 2 x 2 unit squares, so subtract: (5 x 9) - (2 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 5 row by 9 column block of unit squares, with a smaller 2 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 9,
+      "r": 2,
+      "s": 2
+    },
+    "variant_signature": "cea2974a354b846dda86b3ceff64ab71bce1410759ad6a2eff9f48a2037b4ecf"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "61"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "cutout_cols": 4,
+        "cutout_rows": 4,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 5
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 5 x 9 unit squares.",
+        "The missing corner removes 4 x 4 unit squares, so subtract: (5 x 9) - (4 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 5 row by 9 column block of unit squares, with a smaller 4 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 5,
+      "q": 9,
+      "r": 4,
+      "s": 4
+    },
+    "variant_signature": "dec68da5f557277df506ea01805e75a177db9db3e6c012df5f4c97f86966375b"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "cutout_cols": 2,
+        "cutout_rows": 3,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 6 x 5 unit squares.",
+        "The missing corner removes 3 x 2 unit squares, so subtract: (6 x 5) - (3 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 6 row by 5 column block of unit squares, with a smaller 3 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 5,
+      "r": 3,
+      "s": 2
+    },
+    "variant_signature": "631ca1417b98a9410165d7e042bbc8d4541f19c1ff433574b465459d3446dd59"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "cutout_cols": 4,
+        "cutout_rows": 1,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 6 x 6 unit squares.",
+        "The missing corner removes 1 x 4 unit squares, so subtract: (6 x 6) - (1 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 6 row by 6 column block of unit squares, with a smaller 1 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 6,
+      "r": 1,
+      "s": 4
+    },
+    "variant_signature": "51aa915aeb78feebd41a6ae502b9e82a131bc56237f4e2b6be4882b670af150a"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "44"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "cutout_cols": 2,
+        "cutout_rows": 4,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 6 x 6 unit squares.",
+        "The missing corner removes 4 x 2 unit squares, so subtract: (6 x 6) - (4 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 6 row by 6 column block of unit squares, with a smaller 4 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 6,
+      "r": 4,
+      "s": 2
+    },
+    "variant_signature": "287484c770dadc9f2c5a95fca11be150e487d17cc32cc54938cd311993f6bc2c"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "50"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "cutout_cols": 4,
+        "cutout_rows": 2,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 6 x 7 unit squares.",
+        "The missing corner removes 2 x 4 unit squares, so subtract: (6 x 7) - (2 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 6 row by 7 column block of unit squares, with a smaller 2 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 7,
+      "r": 2,
+      "s": 4
+    },
+    "variant_signature": "9778af3fe7e41ef238b32677063273962dfc80f2aadbaaa81febb79623a979e2"
+  },
+  {
+    "answer": "46",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "50"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "cutout_cols": 2,
+        "cutout_rows": 1,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 6 x 8 unit squares.",
+        "The missing corner removes 1 x 2 unit squares, so subtract: (6 x 8) - (1 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 6 row by 8 column block of unit squares, with a smaller 1 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 8,
+      "r": 1,
+      "s": 2
+    },
+    "variant_signature": "b15d13aadf603b056b551ab2982c869eda0dc953cf1285f4337ede92057a22af"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "60"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "cutout_cols": 4,
+        "cutout_rows": 3,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 6 x 8 unit squares.",
+        "The missing corner removes 3 x 4 unit squares, so subtract: (6 x 8) - (3 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 6 row by 8 column block of unit squares, with a smaller 3 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 8,
+      "r": 3,
+      "s": 4
+    },
+    "variant_signature": "2fa7ebba0ad9c27791a16781e242dd79cf0047fa3183fffa5bb163bea3b818dd"
+  },
+  {
+    "answer": "50",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "58"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "cutout_cols": 2,
+        "cutout_rows": 2,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 6 x 9 unit squares.",
+        "The missing corner removes 2 x 2 unit squares, so subtract: (6 x 9) - (2 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 6 row by 9 column block of unit squares, with a smaller 2 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 9,
+      "r": 2,
+      "s": 2
+    },
+    "variant_signature": "de126a305aa772df1e56cc2f6af1fb8750a9c2082bde39a58d913d33ba864a68"
+  },
+  {
+    "answer": "38",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "70"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "cutout_cols": 4,
+        "cutout_rows": 4,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 6 x 9 unit squares.",
+        "The missing corner removes 4 x 4 unit squares, so subtract: (6 x 9) - (4 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 6 row by 9 column block of unit squares, with a smaller 4 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 6,
+      "q": 9,
+      "r": 4,
+      "s": 4
+    },
+    "variant_signature": "b70286db6121fd6d935cfe21235fe1278738ccfc91e8af08a3359bab066ce104"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "41"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "cutout_cols": 2,
+        "cutout_rows": 3,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 7 x 5 unit squares.",
+        "The missing corner removes 3 x 2 unit squares, so subtract: (7 x 5) - (3 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 7 row by 5 column block of unit squares, with a smaller 3 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 5,
+      "r": 3,
+      "s": 2
+    },
+    "variant_signature": "eba2cbe3b3e246f67e8fe56332afd8933f31bcba1ad9a481f33f9a3ed2aab56d"
+  },
+  {
+    "answer": "38",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "46"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "cutout_cols": 4,
+        "cutout_rows": 1,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 7 x 6 unit squares.",
+        "The missing corner removes 1 x 4 unit squares, so subtract: (7 x 6) - (1 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 7 row by 6 column block of unit squares, with a smaller 1 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 6,
+      "r": 1,
+      "s": 4
+    },
+    "variant_signature": "2b327538df2864fd9e01f644bcdca8617ca2c98afd3f817069fbafdc84c78c46"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "50"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "cutout_cols": 2,
+        "cutout_rows": 4,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 7 x 6 unit squares.",
+        "The missing corner removes 4 x 2 unit squares, so subtract: (7 x 6) - (4 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 7 row by 6 column block of unit squares, with a smaller 4 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 6,
+      "r": 4,
+      "s": 2
+    },
+    "variant_signature": "3f06b6457af006a9519a2aac72979171c6490d449ff7becd4b84bb548a73e3ce"
+  },
+  {
+    "answer": "41",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "57"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "cutout_cols": 4,
+        "cutout_rows": 2,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 7 x 7 unit squares.",
+        "The missing corner removes 2 x 4 unit squares, so subtract: (7 x 7) - (2 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 7 row by 7 column block of unit squares, with a smaller 2 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 7,
+      "r": 2,
+      "s": 4
+    },
+    "variant_signature": "09d86670e745ff004d4e153c82bb7652abee1dadfbf936c4c2571e6f16f3ad45"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "58"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "cutout_cols": 2,
+        "cutout_rows": 1,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 7 x 8 unit squares.",
+        "The missing corner removes 1 x 2 unit squares, so subtract: (7 x 8) - (1 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 7 row by 8 column block of unit squares, with a smaller 1 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 8,
+      "r": 1,
+      "s": 2
+    },
+    "variant_signature": "dac8bbb11f1f889f28169f857ba5a6888331ef564376f3654d7903cb0258b8bf"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "68"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "cutout_cols": 4,
+        "cutout_rows": 3,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 7 x 8 unit squares.",
+        "The missing corner removes 3 x 4 unit squares, so subtract: (7 x 8) - (3 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 7 row by 8 column block of unit squares, with a smaller 3 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 8,
+      "r": 3,
+      "s": 4
+    },
+    "variant_signature": "42bf4fa590c1efab336f7fdd9cdde6812615b3b712ec43052fb40afa73092655"
+  },
+  {
+    "answer": "59",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "67"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "cutout_cols": 2,
+        "cutout_rows": 2,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 7 x 9 unit squares.",
+        "The missing corner removes 2 x 2 unit squares, so subtract: (7 x 9) - (2 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 7 row by 9 column block of unit squares, with a smaller 2 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 9,
+      "r": 2,
+      "s": 2
+    },
+    "variant_signature": "eeb0b0d653ce72e3b2e479a913c86b0cc8c074bd19007a4b786fcb67911f1a5d"
+  },
+  {
+    "answer": "47",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "79"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "cutout_cols": 4,
+        "cutout_rows": 4,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 7
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 7 x 9 unit squares.",
+        "The missing corner removes 4 x 4 unit squares, so subtract: (7 x 9) - (4 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 7 row by 9 column block of unit squares, with a smaller 4 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 9,
+      "r": 4,
+      "s": 4
+    },
+    "variant_signature": "418e3f63f8405f538996f952a009795867a5c8cd59bb1ce8ee3e0c42e5543dab"
+  },
+  {
+    "answer": "34",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "46"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "cutout_cols": 2,
+        "cutout_rows": 3,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 8 x 5 unit squares.",
+        "The missing corner removes 3 x 2 unit squares, so subtract: (8 x 5) - (3 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 8 row by 5 column block of unit squares, with a smaller 3 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 5,
+      "r": 3,
+      "s": 2
+    },
+    "variant_signature": "65c4172064770c30e0bb42eb3da72e6c158a7fc7e78421b38ac670981b9ad8a5"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "cutout_cols": 4,
+        "cutout_rows": 1,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 8 x 6 unit squares.",
+        "The missing corner removes 1 x 4 unit squares, so subtract: (8 x 6) - (1 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 8 row by 6 column block of unit squares, with a smaller 1 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 6,
+      "r": 1,
+      "s": 4
+    },
+    "variant_signature": "7db8c5183138d0634633d200fa1841119561cafd480d65bde71e590f4187eac2"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "cutout_cols": 2,
+        "cutout_rows": 4,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 8 x 6 unit squares.",
+        "The missing corner removes 4 x 2 unit squares, so subtract: (8 x 6) - (4 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 8 row by 6 column block of unit squares, with a smaller 4 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 6,
+      "r": 4,
+      "s": 2
+    },
+    "variant_signature": "22901942bcbd452c8a628fc914f8a0e3c997b3df274cefa8c6b8c0375f68d340"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "cutout_cols": 4,
+        "cutout_rows": 2,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 8 x 7 unit squares.",
+        "The missing corner removes 2 x 4 unit squares, so subtract: (8 x 7) - (2 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 8 row by 7 column block of unit squares, with a smaller 2 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 7,
+      "r": 2,
+      "s": 4
+    },
+    "variant_signature": "4d6e7085f2958f7a1aa076961e3ffd23dd735a9db98fe3b66667af22bf49ae5c"
+  },
+  {
+    "answer": "62",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "66"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "cutout_cols": 2,
+        "cutout_rows": 1,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 8 x 8 unit squares.",
+        "The missing corner removes 1 x 2 unit squares, so subtract: (8 x 8) - (1 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 8 row by 8 column block of unit squares, with a smaller 1 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 8,
+      "r": 1,
+      "s": 2
+    },
+    "variant_signature": "2353179956d05c71d82d885657c9f23ca84ef42c7802746554337ad7dfff60c9"
+  },
+  {
+    "answer": "52",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "76"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "cutout_cols": 4,
+        "cutout_rows": 3,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 8 x 8 unit squares.",
+        "The missing corner removes 3 x 4 unit squares, so subtract: (8 x 8) - (3 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 8 row by 8 column block of unit squares, with a smaller 3 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 8,
+      "r": 3,
+      "s": 4
+    },
+    "variant_signature": "53a6b1be5e695e6d4c02d31a253596872f4942b3d7e8f46ddb2c5b99982d73d6"
+  },
+  {
+    "answer": "68",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "76"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "cutout_cols": 2,
+        "cutout_rows": 2,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 8 x 9 unit squares.",
+        "The missing corner removes 2 x 2 unit squares, so subtract: (8 x 9) - (2 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 8 row by 9 column block of unit squares, with a smaller 2 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 9,
+      "r": 2,
+      "s": 2
+    },
+    "variant_signature": "fb241614176ff7472804f8512b725cae60bedc20448f87f88d09796f27115c01"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "88"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "cutout_cols": 4,
+        "cutout_rows": 4,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 8 x 9 unit squares.",
+        "The missing corner removes 4 x 4 unit squares, so subtract: (8 x 9) - (4 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 8 row by 9 column block of unit squares, with a smaller 4 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 9,
+      "r": 4,
+      "s": 4
+    },
+    "variant_signature": "19d1849617cea338026de56ba88cbefe193ba6dfb54e6029b9774149fdc23acc"
+  },
+  {
+    "answer": "39",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "51"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 5,
+        "cutout_cols": 2,
+        "cutout_rows": 3,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 9 x 5 unit squares.",
+        "The missing corner removes 3 x 2 unit squares, so subtract: (9 x 5) - (3 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 9 row by 5 column block of unit squares, with a smaller 3 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 5,
+      "r": 3,
+      "s": 2
+    },
+    "variant_signature": "0fb72d91a4dfcd93633f7eaa51208756876906b8239471dd571f46f7978dc364"
+  },
+  {
+    "answer": "50",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "58"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "cutout_cols": 4,
+        "cutout_rows": 1,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 9 x 6 unit squares.",
+        "The missing corner removes 1 x 4 unit squares, so subtract: (9 x 6) - (1 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 9 row by 6 column block of unit squares, with a smaller 1 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 6,
+      "r": 1,
+      "s": 4
+    },
+    "variant_signature": "07f11e6b4279198d081448bb711efe8fdcb5c6ca55a9d916cad5a06072ae720e"
+  },
+  {
+    "answer": "46",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "62"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 6,
+        "cutout_cols": 2,
+        "cutout_rows": 4,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 9 x 6 unit squares.",
+        "The missing corner removes 4 x 2 unit squares, so subtract: (9 x 6) - (4 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 9 row by 6 column block of unit squares, with a smaller 4 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 6,
+      "r": 4,
+      "s": 2
+    },
+    "variant_signature": "4c0bb11e183e9fb9a478ee6f7b8146734c6f5c70c13ff668e915b2a9033595fd"
+  },
+  {
+    "answer": "55",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "71"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 7,
+        "cutout_cols": 4,
+        "cutout_rows": 2,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 9 x 7 unit squares.",
+        "The missing corner removes 2 x 4 unit squares, so subtract: (9 x 7) - (2 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 9 row by 7 column block of unit squares, with a smaller 2 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 7,
+      "r": 2,
+      "s": 4
+    },
+    "variant_signature": "f74e40fb112c367b87455d4c735f6b186208f91cc6674d9fcca94f6757a0296e"
+  },
+  {
+    "answer": "70",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "74"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "cutout_cols": 2,
+        "cutout_rows": 1,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 9 x 8 unit squares.",
+        "The missing corner removes 1 x 2 unit squares, so subtract: (9 x 8) - (1 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 9 row by 8 column block of unit squares, with a smaller 1 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 8,
+      "r": 1,
+      "s": 2
+    },
+    "variant_signature": "b259cb6778f574cc3dfb9cbfa2adcf215e9a03ee31a2e56a75de9951fd958f82"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "84"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 8,
+        "cutout_cols": 4,
+        "cutout_rows": 3,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 9 x 8 unit squares.",
+        "The missing corner removes 3 x 4 unit squares, so subtract: (9 x 8) - (3 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 9 row by 8 column block of unit squares, with a smaller 3 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 8,
+      "r": 3,
+      "s": 4
+    },
+    "variant_signature": "3129a33af8b10552dc6f2b0611e2ef6d781467e9537b97747e459db816bea387"
+  },
+  {
+    "answer": "77",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "85"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "cutout_cols": 2,
+        "cutout_rows": 2,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 9 x 9 unit squares.",
+        "The missing corner removes 2 x 2 unit squares, so subtract: (9 x 9) - (2 x 2)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 9 row by 9 column block of unit squares, with a smaller 2 row by 2 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 9,
+      "r": 2,
+      "s": 2
+    },
+    "variant_signature": "2b84bbabe864d97987f8b25654c3ed8854704f4fc6c120eedcece68a0fc10b2a"
+  },
+  {
+    "answer": "65",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "97"
+      },
+      {
+        "misconception_id": "MISC.MEAS.PERIMETER-AREA-CONFUSED",
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "cols": 9,
+        "cutout_cols": 4,
+        "cutout_rows": 4,
+        "fill": "block-minus-corner",
+        "kind": "grid-region",
+        "rows": 9
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Start with the area of the whole rectangular block, then take away the missing corner's area.",
+      "The missing corner should be subtracted, not added \u2014 it isn't part of the shaded region."
+    ],
+    "item_instance_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.AREA.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The full block covers 9 x 9 unit squares.",
+        "The missing corner removes 4 x 4 unit squares, so subtract: (9 x 9) - (4 x 4)."
+      ]
+    },
+    "stem": "An L-shaped grid is a 9 row by 9 column block of unit squares, with a smaller 4 row by 4 column corner block missing (not shaded). What is the total shaded area, in square units?",
+    "template_id": "TPL.MEAS.AREA.CONCEPT.LSHAPE.GRIDCOUNT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 9,
+      "r": 4,
+      "s": 4
+    },
+    "variant_signature": "f5226dfdfc10b4a21cd563865823ee2da5018a69d05e77cd8cec3a8a20c93ec4"
+  }
+]

@@ -1,0 +1,167 @@
+[
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ROTATED-NOT-SAME",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "rotation": 90,
+        "shape": "square"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did spinning the page change the number of sides or corners the shape has?",
+      "A shape's sides and corners depend on the shape itself, not which way up it's drawn."
+    ],
+    "item_instance_id": "TPL.GEO.SHAPES2D.ROTATE.SQUARE.HARD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SHAPES.2D"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Spinning the page changes only how the square is oriented, not its sides or corners.",
+        "It still has 4 sides and 4 corners no matter which way it's balanced, so Priya is wrong: 4 + 4 = 8."
+      ]
+    },
+    "stem": "Ravi draws a square with 4 equal sides and 4 right-angle corners, then spins the page 1 quarter-turns so the square balances on one of its corners like a spinning top. Priya insists it isn't a square anymore, so its usual sides and corners no longer count. How many sides and corners does the shape actually have, added together?",
+    "template_id": "TPL.GEO.SHAPES2D.ROTATE.SQUARE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 1
+    },
+    "variant_signature": "805a94c68d402ad946fba15659b2ba89ae51934899fa352753b1f0d0094e2bcd"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ROTATED-NOT-SAME",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "rotation": 180,
+        "shape": "square"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did spinning the page change the number of sides or corners the shape has?",
+      "A shape's sides and corners depend on the shape itself, not which way up it's drawn."
+    ],
+    "item_instance_id": "TPL.GEO.SHAPES2D.ROTATE.SQUARE.HARD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SHAPES.2D"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Spinning the page changes only how the square is oriented, not its sides or corners.",
+        "It still has 4 sides and 4 corners no matter which way it's balanced, so Arjun is wrong: 4 + 4 = 8."
+      ]
+    },
+    "stem": "Priya draws a square with 4 equal sides and 4 right-angle corners, then spins the page 2 quarter-turns so the square balances on one of its corners like a spinning top. Arjun insists it isn't a square anymore, so its usual sides and corners no longer count. How many sides and corners does the shape actually have, added together?",
+    "template_id": "TPL.GEO.SHAPES2D.ROTATE.SQUARE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 2
+    },
+    "variant_signature": "b643b63e5e746652d353b63c696d25eefa43df7d669b7eb47fb4f1df724028de"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.8,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.ROTATED-NOT-SAME",
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "shape",
+        "rotation": 270,
+        "shape": "square"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Did spinning the page change the number of sides or corners the shape has?",
+      "A shape's sides and corners depend on the shape itself, not which way up it's drawn."
+    ],
+    "item_instance_id": "TPL.GEO.SHAPES2D.ROTATE.SQUARE.HARD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SHAPES.2D"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Spinning the page changes only how the square is oriented, not its sides or corners.",
+        "It still has 4 sides and 4 corners no matter which way it's balanced, so Meera is wrong: 4 + 4 = 8."
+      ]
+    },
+    "stem": "Arjun draws a square with 4 equal sides and 4 right-angle corners, then spins the page 3 quarter-turns so the square balances on one of its corners like a spinning top. Meera insists it isn't a square anymore, so its usual sides and corners no longer count. How many sides and corners does the shape actually have, added together?",
+    "template_id": "TPL.GEO.SHAPES2D.ROTATE.SQUARE.HARD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 3
+    },
+    "variant_signature": "263135e413c5bfe2525edc5e55ca22b73dd49f4e0d09de1eab8ea154c2b252d4"
+  }
+]

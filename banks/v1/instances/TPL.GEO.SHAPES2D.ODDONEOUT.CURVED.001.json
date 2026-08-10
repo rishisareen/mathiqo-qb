@@ -1,0 +1,51 @@
+[
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "0"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Which of these four objects has corners?",
+      "Round objects have no straight parts at all \u2014 count how many objects don't fit that description."
+    ],
+    "item_instance_id": "TPL.GEO.SHAPES2D.ODDONEOUT.CURVED.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SHAPES.2D"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Check each object's boundary: the football, the bangle, and the coin are all round, with no corners.",
+        "Only the matchbox has straight edges and corners \u2014 that's 1 out of the 4 objects."
+      ]
+    },
+    "stem": "Ravi is sorting a football, a bangle, a coin, and a matchbox by their boundary. Three of these have a boundary that is curved all the way round. How many of the four objects have a boundary made of straight lines and corners instead?",
+    "template_id": "TPL.GEO.SHAPES2D.ODDONEOUT.CURVED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 1
+    },
+    "variant_signature": "5d70fc508e85fc8ab98bcee8df0421a4c50125df8d4bed9e70a02b9cef4b2deb"
+  }
+]

@@ -1,0 +1,1982 @@
+[
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 5,
+            "label": "Pencil",
+            "start": 1
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (1 cm) and where it ends (5 cm).",
+        "Subtract the start mark from the end mark: 5 - 1."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 1 cm mark at one end and the 5 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 5
+    },
+    "variant_signature": "192a5e9f31003fdde820156465e8fb6ad5bd3e6f05285e7f063c1da67bc2a948"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 6,
+            "label": "Pencil",
+            "start": 1
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (1 cm) and where it ends (6 cm).",
+        "Subtract the start mark from the end mark: 6 - 1."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 1 cm mark at one end and the 6 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 6
+    },
+    "variant_signature": "4176cbf92dd049ca986d8557f4135237ca88e0869d4fb79228f82f519e4e44d1"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 7,
+            "label": "Pencil",
+            "start": 1
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (1 cm) and where it ends (7 cm).",
+        "Subtract the start mark from the end mark: 7 - 1."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 1 cm mark at one end and the 7 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 7
+    },
+    "variant_signature": "5c378688efab4fbe38ea84e2ca4598b21bc167c3e41eb2617cf12e170f038deb"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 8,
+            "label": "Pencil",
+            "start": 1
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (1 cm) and where it ends (8 cm).",
+        "Subtract the start mark from the end mark: 8 - 1."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 1 cm mark at one end and the 8 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 8
+    },
+    "variant_signature": "ddf19dc4c08710da1682a1fcf1fdb923b00a6b023961523259f9c97d20e21eac"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 9,
+            "label": "Pencil",
+            "start": 1
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (1 cm) and where it ends (9 cm).",
+        "Subtract the start mark from the end mark: 9 - 1."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 1 cm mark at one end and the 9 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 9
+    },
+    "variant_signature": "c02bce5f59c1917721ed0ce401c2c968ef944bc61a3c70c42935ad8ea54c42d2"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 10,
+            "label": "Pencil",
+            "start": 1
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (1 cm) and where it ends (10 cm).",
+        "Subtract the start mark from the end mark: 10 - 1."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 1 cm mark at one end and the 10 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 10
+    },
+    "variant_signature": "e747f78b9b6fe33269648aca68b18d7cdc60effaff201479b97aae7da3ac4b67"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 11,
+            "label": "Pencil",
+            "start": 1
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (1 cm) and where it ends (11 cm).",
+        "Subtract the start mark from the end mark: 11 - 1."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 1 cm mark at one end and the 11 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 11
+    },
+    "variant_signature": "fdfd6f251d864cb958a8ad42c85f960fe1f0db0e7cd2e4378c72f738f119ef90"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 12,
+            "label": "Pencil",
+            "start": 1
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (1 cm) and where it ends (12 cm).",
+        "Subtract the start mark from the end mark: 12 - 1."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 1 cm mark at one end and the 12 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 12
+    },
+    "variant_signature": "f8ba4381e681f088e8a26636839d9315685db93feeba6ca02ea8ef51f4dfcd0b"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 5,
+            "label": "Pencil",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (2 cm) and where it ends (5 cm).",
+        "Subtract the start mark from the end mark: 5 - 2."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 2 cm mark at one end and the 5 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 5
+    },
+    "variant_signature": "c2a4790075ffde1f127c9f9bb8d908db383838bc89d041f2af38a6ebac3ac9dc"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 6,
+            "label": "Pencil",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (2 cm) and where it ends (6 cm).",
+        "Subtract the start mark from the end mark: 6 - 2."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 2 cm mark at one end and the 6 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 6
+    },
+    "variant_signature": "b55885798ca9cb937a39a400631ada63eb753f92d6fc75bca2349f28eadc61fc"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 7,
+            "label": "Pencil",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (2 cm) and where it ends (7 cm).",
+        "Subtract the start mark from the end mark: 7 - 2."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 2 cm mark at one end and the 7 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 7
+    },
+    "variant_signature": "949e6ba87fcadfe8c9637cd9b39636b12c6216938bc7d691c9c2dc2f348878cf"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 8,
+            "label": "Pencil",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (2 cm) and where it ends (8 cm).",
+        "Subtract the start mark from the end mark: 8 - 2."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 2 cm mark at one end and the 8 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 8
+    },
+    "variant_signature": "82ad851b8e35f81d658ab513db74d38e1d71a18e607ba45df381bf689edf8067"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 9,
+            "label": "Pencil",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (2 cm) and where it ends (9 cm).",
+        "Subtract the start mark from the end mark: 9 - 2."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 2 cm mark at one end and the 9 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 9
+    },
+    "variant_signature": "bac81ea389426527d1c59d60ab3cd258851b3affad7bf06eb76551abfa42e608"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 10,
+            "label": "Pencil",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (2 cm) and where it ends (10 cm).",
+        "Subtract the start mark from the end mark: 10 - 2."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 2 cm mark at one end and the 10 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 10
+    },
+    "variant_signature": "f6c19635a4860a0ac858fe3e968a5baeff5a7cf8e64affea8a74b7fc131545fd"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 11,
+            "label": "Pencil",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (2 cm) and where it ends (11 cm).",
+        "Subtract the start mark from the end mark: 11 - 2."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 2 cm mark at one end and the 11 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 11
+    },
+    "variant_signature": "74b100119ebb3b91453767684483795f6af7510edb8fa5c2f01c35c058e8332b"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 12,
+            "label": "Pencil",
+            "start": 2
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (2 cm) and where it ends (12 cm).",
+        "Subtract the start mark from the end mark: 12 - 2."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 2 cm mark at one end and the 12 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 12
+    },
+    "variant_signature": "648d5cd7827c2df9bedb5dfe1fd1a6c9a067b2323eefe674d4ef2940f45d2be8"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 5,
+            "label": "Pencil",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (3 cm) and where it ends (5 cm).",
+        "Subtract the start mark from the end mark: 5 - 3."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 3 cm mark at one end and the 5 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 5
+    },
+    "variant_signature": "879536613a08e8c94ee7c3864e3f6fc23a2007df4723e104160ebf5ae91a7166"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 7,
+            "label": "Pencil",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (3 cm) and where it ends (7 cm).",
+        "Subtract the start mark from the end mark: 7 - 3."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 3 cm mark at one end and the 7 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 7
+    },
+    "variant_signature": "84732009dad706ed4be495316f65d7101ae5b191bbee69dfef6428bc51e90c42"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 8,
+            "label": "Pencil",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (3 cm) and where it ends (8 cm).",
+        "Subtract the start mark from the end mark: 8 - 3."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 3 cm mark at one end and the 8 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 8
+    },
+    "variant_signature": "9381eb1e34476179819a10c329ed5d07e95f1ead3d4b59ec5bec4031b431e180"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 9,
+            "label": "Pencil",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (3 cm) and where it ends (9 cm).",
+        "Subtract the start mark from the end mark: 9 - 3."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 3 cm mark at one end and the 9 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 9
+    },
+    "variant_signature": "58851c354140984648ff1df1c1e0b7178ee9a46ec51ca17851c2fae4d213f3a5"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 10,
+            "label": "Pencil",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (3 cm) and where it ends (10 cm).",
+        "Subtract the start mark from the end mark: 10 - 3."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 3 cm mark at one end and the 10 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 10
+    },
+    "variant_signature": "10c5343efdb3f8cbf0111f42993249d93a2d947457107ca3b72c1bd877d760d1"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 11,
+            "label": "Pencil",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (3 cm) and where it ends (11 cm).",
+        "Subtract the start mark from the end mark: 11 - 3."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 3 cm mark at one end and the 11 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 11
+    },
+    "variant_signature": "fbe74db441aaccd3454e2d66bd88559e317d7d48ff1b7e1bba1032721aeca8c1"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 12,
+            "label": "Pencil",
+            "start": 3
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (3 cm) and where it ends (12 cm).",
+        "Subtract the start mark from the end mark: 12 - 3."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 3 cm mark at one end and the 12 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 12
+    },
+    "variant_signature": "0deb1edad9800eed3653a81eefbaf92d5d488adcf7eab3266ca42826fb469fb9"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 5,
+            "label": "Pencil",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (4 cm) and where it ends (5 cm).",
+        "Subtract the start mark from the end mark: 5 - 4."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 4 cm mark at one end and the 5 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 5
+    },
+    "variant_signature": "4a6c84dddc4e7ba66ce88f6a88b1edf42f69d2c3c7484fb574eae4fc9b8223fa"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 6,
+            "label": "Pencil",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (4 cm) and where it ends (6 cm).",
+        "Subtract the start mark from the end mark: 6 - 4."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 4 cm mark at one end and the 6 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 6
+    },
+    "variant_signature": "33c3d7f7610844b76ee14431396e7e7ccc82c95262efcd31695aa8664b456490"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 7,
+            "label": "Pencil",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (4 cm) and where it ends (7 cm).",
+        "Subtract the start mark from the end mark: 7 - 4."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 4 cm mark at one end and the 7 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 7
+    },
+    "variant_signature": "1f401b6e197adc4d93b9a5fc07b1f93149aaf6f66f42ada654be45079f53c259"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 9,
+            "label": "Pencil",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (4 cm) and where it ends (9 cm).",
+        "Subtract the start mark from the end mark: 9 - 4."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 4 cm mark at one end and the 9 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 9
+    },
+    "variant_signature": "d954d3c1679dacb7701c62111212dd8c2a8bd5aac4713f24fb1ff1425324faf9"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 10,
+            "label": "Pencil",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (4 cm) and where it ends (10 cm).",
+        "Subtract the start mark from the end mark: 10 - 4."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 4 cm mark at one end and the 10 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 10
+    },
+    "variant_signature": "855758145841e93ea95de16a0389b39cb31d952c441740782fe3faf7bc87df62"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 11,
+            "label": "Pencil",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (4 cm) and where it ends (11 cm).",
+        "Subtract the start mark from the end mark: 11 - 4."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 4 cm mark at one end and the 11 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 11
+    },
+    "variant_signature": "124f7ef33a8816b85c65644cc422351764c3090c09511de9bba09a8dbd8b199c"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.MEAS.RULER-FROM-ONE",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "kind": "ruler",
+        "major": 1,
+        "max": 15,
+        "min": 0,
+        "minor": "1/2",
+        "objects": [
+          {
+            "end": 12,
+            "label": "Pencil",
+            "start": 4
+          }
+        ],
+        "unit": "cm"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does the pencil start exactly at the 0 mark? Check carefully.",
+      "The length is the end mark minus the start mark, not just the end mark on its own."
+    ],
+    "item_instance_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "MEAS.LENGTH.UNITS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find where the pencil starts (4 cm) and where it ends (12 cm).",
+        "Subtract the start mark from the end mark: 12 - 4."
+      ]
+    },
+    "stem": "A pencil lies along a ruler, touching the 4 cm mark at one end and the 12 cm mark at the other. How long is the pencil, in centimetres?",
+    "template_id": "TPL.MEASLENGTH.RULER.READING.MCQ.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 12
+    },
+    "variant_signature": "10b1369228fb646531aef4665bc82d05447437a8f6f71d6afcf924780358e51f"
+  }
+]

@@ -1,0 +1,710 @@
+[
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.HALF-SYMBOL-WHOLE",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "half": true,
+            "label": "Mangoes",
+            "whole": 2
+          }
+        ],
+        "unit": "mangoes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't round the half symbol up to a whole one \u2014 it's worth exactly half the key.",
+      "Work out the whole symbols first, then add half of the key's value for the half symbol."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each whole symbol is worth 2, so the 2 whole symbols are worth 2 x 2.",
+        "A half symbol is worth half the key, 2 / 2, not a whole key's worth.",
+        "Add the whole-symbol total and the half-symbol value together."
+      ]
+    },
+    "stem": "A pictograph shows fruit sold at the school stall. Mangoes are shown with 2 whole symbols and one half symbol; the key is 1 symbol = 2 mangoes. How many mangoes were sold in total?",
+    "template_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 2
+    },
+    "variant_signature": "4dd5734f34c8531ad1ed546931239deb7d7147c06850d9e6eaa3cdbfbe0dc944"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.HALF-SYMBOL-WHOLE",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "half": true,
+            "label": "Mangoes",
+            "whole": 2
+          }
+        ],
+        "unit": "mangoes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't round the half symbol up to a whole one \u2014 it's worth exactly half the key.",
+      "Work out the whole symbols first, then add half of the key's value for the half symbol."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each whole symbol is worth 4, so the 2 whole symbols are worth 2 x 4.",
+        "A half symbol is worth half the key, 4 / 2, not a whole key's worth.",
+        "Add the whole-symbol total and the half-symbol value together."
+      ]
+    },
+    "stem": "A pictograph shows fruit sold at the school stall. Mangoes are shown with 2 whole symbols and one half symbol; the key is 1 symbol = 4 mangoes. How many mangoes were sold in total?",
+    "template_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 2
+    },
+    "variant_signature": "82f1ac6f74f00d5c7c3e1f96928a5b1de62f430104611c23504018467f86b4ac"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.HALF-SYMBOL-WHOLE",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": [
+      {
+        "key": 6,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "half": true,
+            "label": "Mangoes",
+            "whole": 2
+          }
+        ],
+        "unit": "mangoes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't round the half symbol up to a whole one \u2014 it's worth exactly half the key.",
+      "Work out the whole symbols first, then add half of the key's value for the half symbol."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each whole symbol is worth 6, so the 2 whole symbols are worth 2 x 6.",
+        "A half symbol is worth half the key, 6 / 2, not a whole key's worth.",
+        "Add the whole-symbol total and the half-symbol value together."
+      ]
+    },
+    "stem": "A pictograph shows fruit sold at the school stall. Mangoes are shown with 2 whole symbols and one half symbol; the key is 1 symbol = 6 mangoes. How many mangoes were sold in total?",
+    "template_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 6,
+      "n": 2
+    },
+    "variant_signature": "1289f4a25ab20393d7f6937c03cb5676b6c2f45a75219367805c017195b3343d"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.HALF-SYMBOL-WHOLE",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "half": true,
+            "label": "Mangoes",
+            "whole": 3
+          }
+        ],
+        "unit": "mangoes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't round the half symbol up to a whole one \u2014 it's worth exactly half the key.",
+      "Work out the whole symbols first, then add half of the key's value for the half symbol."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each whole symbol is worth 2, so the 3 whole symbols are worth 3 x 2.",
+        "A half symbol is worth half the key, 2 / 2, not a whole key's worth.",
+        "Add the whole-symbol total and the half-symbol value together."
+      ]
+    },
+    "stem": "A pictograph shows fruit sold at the school stall. Mangoes are shown with 3 whole symbols and one half symbol; the key is 1 symbol = 2 mangoes. How many mangoes were sold in total?",
+    "template_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 3
+    },
+    "variant_signature": "7e65c1cd20dc4baa6ec3dc029d544aae56e7e16da3bcb26c83ba93da8c7bb28e"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.HALF-SYMBOL-WHOLE",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "half": true,
+            "label": "Mangoes",
+            "whole": 3
+          }
+        ],
+        "unit": "mangoes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't round the half symbol up to a whole one \u2014 it's worth exactly half the key.",
+      "Work out the whole symbols first, then add half of the key's value for the half symbol."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each whole symbol is worth 4, so the 3 whole symbols are worth 3 x 4.",
+        "A half symbol is worth half the key, 4 / 2, not a whole key's worth.",
+        "Add the whole-symbol total and the half-symbol value together."
+      ]
+    },
+    "stem": "A pictograph shows fruit sold at the school stall. Mangoes are shown with 3 whole symbols and one half symbol; the key is 1 symbol = 4 mangoes. How many mangoes were sold in total?",
+    "template_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 3
+    },
+    "variant_signature": "95d0d1c75f8f5d2403bccc1ea4676ab849df071c07ae3fb3c759a2d113349525"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.HALF-SYMBOL-WHOLE",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "3"
+      }
+    ],
+    "figures": [
+      {
+        "key": 6,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "half": true,
+            "label": "Mangoes",
+            "whole": 3
+          }
+        ],
+        "unit": "mangoes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't round the half symbol up to a whole one \u2014 it's worth exactly half the key.",
+      "Work out the whole symbols first, then add half of the key's value for the half symbol."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each whole symbol is worth 6, so the 3 whole symbols are worth 3 x 6.",
+        "A half symbol is worth half the key, 6 / 2, not a whole key's worth.",
+        "Add the whole-symbol total and the half-symbol value together."
+      ]
+    },
+    "stem": "A pictograph shows fruit sold at the school stall. Mangoes are shown with 3 whole symbols and one half symbol; the key is 1 symbol = 6 mangoes. How many mangoes were sold in total?",
+    "template_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 6,
+      "n": 3
+    },
+    "variant_signature": "bb09767a2b76d17dad448e402fc2c76b50e8745ff528da46c27047e47ca7143a"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.HALF-SYMBOL-WHOLE",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "half": true,
+            "label": "Mangoes",
+            "whole": 4
+          }
+        ],
+        "unit": "mangoes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't round the half symbol up to a whole one \u2014 it's worth exactly half the key.",
+      "Work out the whole symbols first, then add half of the key's value for the half symbol."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each whole symbol is worth 2, so the 4 whole symbols are worth 4 x 2.",
+        "A half symbol is worth half the key, 2 / 2, not a whole key's worth.",
+        "Add the whole-symbol total and the half-symbol value together."
+      ]
+    },
+    "stem": "A pictograph shows fruit sold at the school stall. Mangoes are shown with 4 whole symbols and one half symbol; the key is 1 symbol = 2 mangoes. How many mangoes were sold in total?",
+    "template_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 4
+    },
+    "variant_signature": "562d831b41748afbd21788d88aaf23f3bcf5baaafe2ec27683f3dcda2aaaab28"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.HALF-SYMBOL-WHOLE",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "half": true,
+            "label": "Mangoes",
+            "whole": 4
+          }
+        ],
+        "unit": "mangoes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't round the half symbol up to a whole one \u2014 it's worth exactly half the key.",
+      "Work out the whole symbols first, then add half of the key's value for the half symbol."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each whole symbol is worth 4, so the 4 whole symbols are worth 4 x 4.",
+        "A half symbol is worth half the key, 4 / 2, not a whole key's worth.",
+        "Add the whole-symbol total and the half-symbol value together."
+      ]
+    },
+    "stem": "A pictograph shows fruit sold at the school stall. Mangoes are shown with 4 whole symbols and one half symbol; the key is 1 symbol = 4 mangoes. How many mangoes were sold in total?",
+    "template_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 4
+    },
+    "variant_signature": "47a50923c691f34b58f3de5d473f3e57170db6bdffd8e5cdf980d790167c1634"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.HALF-SYMBOL-WHOLE",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "4"
+      }
+    ],
+    "figures": [
+      {
+        "key": 6,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "half": true,
+            "label": "Mangoes",
+            "whole": 4
+          }
+        ],
+        "unit": "mangoes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't round the half symbol up to a whole one \u2014 it's worth exactly half the key.",
+      "Work out the whole symbols first, then add half of the key's value for the half symbol."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each whole symbol is worth 6, so the 4 whole symbols are worth 4 x 6.",
+        "A half symbol is worth half the key, 6 / 2, not a whole key's worth.",
+        "Add the whole-symbol total and the half-symbol value together."
+      ]
+    },
+    "stem": "A pictograph shows fruit sold at the school stall. Mangoes are shown with 4 whole symbols and one half symbol; the key is 1 symbol = 6 mangoes. How many mangoes were sold in total?",
+    "template_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 6,
+      "n": 4
+    },
+    "variant_signature": "e591fbead79909f29730d2f5ab1ba34cb5c1a265e6880099f90aaef7d4c51425"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.HALF-SYMBOL-WHOLE",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "key": 2,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "half": true,
+            "label": "Mangoes",
+            "whole": 5
+          }
+        ],
+        "unit": "mangoes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't round the half symbol up to a whole one \u2014 it's worth exactly half the key.",
+      "Work out the whole symbols first, then add half of the key's value for the half symbol."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each whole symbol is worth 2, so the 5 whole symbols are worth 5 x 2.",
+        "A half symbol is worth half the key, 2 / 2, not a whole key's worth.",
+        "Add the whole-symbol total and the half-symbol value together."
+      ]
+    },
+    "stem": "A pictograph shows fruit sold at the school stall. Mangoes are shown with 5 whole symbols and one half symbol; the key is 1 symbol = 2 mangoes. How many mangoes were sold in total?",
+    "template_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 2,
+      "n": 5
+    },
+    "variant_signature": "52c7db490e297241d319e0cf72e5e826f20d9fc0956b5d10f176c66eed196e50"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.HALF-SYMBOL-WHOLE",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "key": 4,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "half": true,
+            "label": "Mangoes",
+            "whole": 5
+          }
+        ],
+        "unit": "mangoes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't round the half symbol up to a whole one \u2014 it's worth exactly half the key.",
+      "Work out the whole symbols first, then add half of the key's value for the half symbol."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each whole symbol is worth 4, so the 5 whole symbols are worth 5 x 4.",
+        "A half symbol is worth half the key, 4 / 2, not a whole key's worth.",
+        "Add the whole-symbol total and the half-symbol value together."
+      ]
+    },
+    "stem": "A pictograph shows fruit sold at the school stall. Mangoes are shown with 5 whole symbols and one half symbol; the key is 1 symbol = 4 mangoes. How many mangoes were sold in total?",
+    "template_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 4,
+      "n": 5
+    },
+    "variant_signature": "da9bf7e3f72deb1f9f08d361258a9d4018a2fae03c1599a09e0db476ca2033ce"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.DATA.HALF-SYMBOL-WHOLE",
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": "MISC.DATA.SCALE-IGNORED",
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "key": 6,
+        "kind": "pictograph",
+        "rows": [
+          {
+            "half": true,
+            "label": "Mangoes",
+            "whole": 5
+          }
+        ],
+        "unit": "mangoes"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't round the half symbol up to a whole one \u2014 it's worth exactly half the key.",
+      "Work out the whole symbols first, then add half of the key's value for the half symbol."
+    ],
+    "item_instance_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "DATA.PICTOGRAPH"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Each whole symbol is worth 6, so the 5 whole symbols are worth 5 x 6.",
+        "A half symbol is worth half the key, 6 / 2, not a whole key's worth.",
+        "Add the whole-symbol total and the half-symbol value together."
+      ]
+    },
+    "stem": "A pictograph shows fruit sold at the school stall. Mangoes are shown with 5 whole symbols and one half symbol; the key is 1 symbol = 6 mangoes. How many mangoes were sold in total?",
+    "template_id": "TPL.DATA.PICTOGRAPH.HALFSYMBOL.TOTAL.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 6,
+      "n": 5
+    },
+    "variant_signature": "911cab6a6052642a80d935529ab5fc832ecb2d37be88affcde001d1103921bc4"
+  }
+]

@@ -1,0 +1,2106 @@
+[
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          4,
+          4
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 2 rows has 4 eggs.",
+        "Counting one at a time across all rows gives 2 groups of 4, which is 2 x 4."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 2 equal rows, with 4 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4
+    },
+    "variant_signature": "1cd3c9b1cac8242c3edbc667ad2a35022523e71f2f3ad555fe375ac26e7302f4"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          6,
+          6
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 2 rows has 6 eggs.",
+        "Counting one at a time across all rows gives 2 groups of 6, which is 2 x 6."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 2 equal rows, with 6 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 6
+    },
+    "variant_signature": "56dbaf28a38ff4a3f09a9ff23a708ac14b25cd3e1383a36b930aab29bad08803"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          9,
+          9
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 2 rows has 9 eggs.",
+        "Counting one at a time across all rows gives 2 groups of 9, which is 2 x 9."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 2 equal rows, with 9 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 9
+    },
+    "variant_signature": "2f3a295a3ba9be9c875291080d5d3c931bbdaf0dca67fee852e6f0294144abd8"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          11,
+          11
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 2 rows has 11 eggs.",
+        "Counting one at a time across all rows gives 2 groups of 11, which is 2 x 11."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 2 equal rows, with 11 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 11
+    },
+    "variant_signature": "0b225140ef087b9838c85b37597f8da8befdc72a6e3f9d528dc2bd385ff9b1a1"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 3 rows has 2 eggs.",
+        "Counting one at a time across all rows gives 3 groups of 2, which is 3 x 2."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 3 equal rows, with 2 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 2
+    },
+    "variant_signature": "3fea472fc53078e8f7da3a18eaf0a2b9ed49773b32307775d288ee6799d8e603"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 3 rows has 4 eggs.",
+        "Counting one at a time across all rows gives 3 groups of 4, which is 3 x 4."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 3 equal rows, with 4 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 4
+    },
+    "variant_signature": "a2a6c53a3f706ceb25defa75c334dd4ebce9f7f9984e5665cd5f362a20aa5d32"
+  },
+  {
+    "answer": "18",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          6,
+          6,
+          6
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 3 rows has 6 eggs.",
+        "Counting one at a time across all rows gives 3 groups of 6, which is 3 x 6."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 3 equal rows, with 6 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 6
+    },
+    "variant_signature": "a0a3a8d8a9e268063c22a809611697687083f979d9823d1ba6df379da38ce8a6"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          8,
+          8,
+          8
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 3 rows has 8 eggs.",
+        "Counting one at a time across all rows gives 3 groups of 8, which is 3 x 8."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 3 equal rows, with 8 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 8
+    },
+    "variant_signature": "7b1e0419f0030325b53a24ec176f497f414d410ae22e26bc25dff97fe3bb81e7"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          11,
+          11,
+          11
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 3 rows has 11 eggs.",
+        "Counting one at a time across all rows gives 3 groups of 11, which is 3 x 11."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 3 equal rows, with 11 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 11
+    },
+    "variant_signature": "14a8c415a88a675838332e600a4e1e9cf3ffe07955799c3532c455fa8cdf2052"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 4 rows has 2 eggs.",
+        "Counting one at a time across all rows gives 4 groups of 2, which is 4 x 2."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 4 equal rows, with 2 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 2
+    },
+    "variant_signature": "804878a6b17c92b7f4ccae23a50e425f021a63dc9be0dfbcfe62958d01571b35"
+  },
+  {
+    "answer": "16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 4 rows has 4 eggs.",
+        "Counting one at a time across all rows gives 4 groups of 4, which is 4 x 4."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 4 equal rows, with 4 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 4
+    },
+    "variant_signature": "b4acf6c68996223fd52ed7299c14c3b4fa1f6ce7a9034bac5cce4c08a3ee932b"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 4 rows has 6 eggs.",
+        "Counting one at a time across all rows gives 4 groups of 6, which is 4 x 6."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 4 equal rows, with 6 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 6
+    },
+    "variant_signature": "31283245bfd41b3b9f06a3f8132a8b9ad3af01b3d8ab6efd8a4b5967a9700497"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 4 rows has 8 eggs.",
+        "Counting one at a time across all rows gives 4 groups of 8, which is 4 x 8."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 4 equal rows, with 8 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 8
+    },
+    "variant_signature": "baa03fbf399f1578683704d3dfd84a9dc34dacfda92d4aa368412a791d73981d"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          11,
+          11,
+          11,
+          11
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 4 rows has 11 eggs.",
+        "Counting one at a time across all rows gives 4 groups of 11, which is 4 x 11."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 4 equal rows, with 11 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 11
+    },
+    "variant_signature": "d7aecc098f444f93380f9af4324402d299ed6fb9f4df0a8b400c2bd15fd562c4"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 5 rows has 2 eggs.",
+        "Counting one at a time across all rows gives 5 groups of 2, which is 5 x 2."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 5 equal rows, with 2 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 2
+    },
+    "variant_signature": "8e7cb1b95b74cab65fcd5ec4b169614235cda5d343b9e6fb2a8f4d1204d43bc0"
+  },
+  {
+    "answer": "20",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 5 rows has 4 eggs.",
+        "Counting one at a time across all rows gives 5 groups of 4, which is 5 x 4."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 5 equal rows, with 4 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 4
+    },
+    "variant_signature": "8f3a0148f00e4c88a980e12d50c4d86ca1932369804c54f7a1d9f76c639047c9"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 5 rows has 6 eggs.",
+        "Counting one at a time across all rows gives 5 groups of 6, which is 5 x 6."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 5 equal rows, with 6 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 6
+    },
+    "variant_signature": "0efee8901beb000be99257d19eed6013585cc1c1fd25cd975c21b2d068044428"
+  },
+  {
+    "answer": "40",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 5 rows has 8 eggs.",
+        "Counting one at a time across all rows gives 5 groups of 8, which is 5 x 8."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 5 equal rows, with 8 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 8
+    },
+    "variant_signature": "ad77ac09c0e250f7ec1ecf55efff5f73728cf18cc2240b54e67efa9260562eb5"
+  },
+  {
+    "answer": "50",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 5 rows has 10 eggs.",
+        "Counting one at a time across all rows gives 5 groups of 10, which is 5 x 10."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 5 equal rows, with 10 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 10
+    },
+    "variant_signature": "5aca0dac2234005e46b1bcf3627d6ae38f1d811823944c01dbdf36b3fa4c8232"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          2,
+          2,
+          2,
+          2,
+          2,
+          2
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 6 rows has 2 eggs.",
+        "Counting one at a time across all rows gives 6 groups of 2, which is 6 x 2."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 6 equal rows, with 2 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 2
+    },
+    "variant_signature": "9961e618650611552f9bd5fd2fdbb23e72520c452e08754a24a8e8d1e5ce2dde"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 6 rows has 4 eggs.",
+        "Counting one at a time across all rows gives 6 groups of 4, which is 6 x 4."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 6 equal rows, with 4 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 4
+    },
+    "variant_signature": "74903c9706566216be6c59ac7b1eaf7846db97e8300ea0ce170cc30f5a2ea4ec"
+  },
+  {
+    "answer": "36",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 6 rows has 6 eggs.",
+        "Counting one at a time across all rows gives 6 groups of 6, which is 6 x 6."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 6 equal rows, with 6 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 6
+    },
+    "variant_signature": "97efbf189fef188868dfc77fe720c726edc4f65064987fef2aaaaa64a419acb3"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 6 rows has 8 eggs.",
+        "Counting one at a time across all rows gives 6 groups of 8, which is 6 x 8."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 6 equal rows, with 8 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 8
+    },
+    "variant_signature": "09eee42f15ec2d2facf0f85e72f89b69bc6075b27430e17d3c5f9cf558733de2"
+  },
+  {
+    "answer": "60",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 6 rows has 10 eggs.",
+        "Counting one at a time across all rows gives 6 groups of 10, which is 6 x 10."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 6 equal rows, with 10 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 10
+    },
+    "variant_signature": "73e572d43a4d8da9ea5ca724a3ea45722cfc52c3b4ec05665d8afdd2768bf015"
+  },
+  {
+    "answer": "72",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 6 rows has 12 eggs.",
+        "Counting one at a time across all rows gives 6 groups of 12, which is 6 x 12."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 6 equal rows, with 12 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 12
+    },
+    "variant_signature": "949875fe103df40d9bd61b1d493b7e3c82c0edd052916fe4ddd1998f5dd0f657"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 7 rows has 4 eggs.",
+        "Counting one at a time across all rows gives 7 groups of 4, which is 7 x 4."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 7 equal rows, with 4 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 4
+    },
+    "variant_signature": "3a29ab1d60e536408078ecd7847f1662fd341704ab401d0a87816ba358e825e2"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 7 rows has 6 eggs.",
+        "Counting one at a time across all rows gives 7 groups of 6, which is 7 x 6."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 7 equal rows, with 6 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 6
+    },
+    "variant_signature": "06e81e9b4c5eea6be2255819b678d4c5a3aac755b68b214b200b75032b7b91b7"
+  },
+  {
+    "answer": "56",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 7 rows has 8 eggs.",
+        "Counting one at a time across all rows gives 7 groups of 8, which is 7 x 8."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 7 equal rows, with 8 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 8
+    },
+    "variant_signature": "c6214cbfaf5ad2a7675e13e568d5451908558cb69dbc86571a7d589463002e7a"
+  },
+  {
+    "answer": "70",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 7 rows has 10 eggs.",
+        "Counting one at a time across all rows gives 7 groups of 10, which is 7 x 10."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 7 equal rows, with 10 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 10
+    },
+    "variant_signature": "a3e34bf103717855988dbbbdd37c50eb32ca612b5e4828475abbdde171aab1dc"
+  },
+  {
+    "answer": "84",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 7 rows has 12 eggs.",
+        "Counting one at a time across all rows gives 7 groups of 12, which is 7 x 12."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 7 equal rows, with 12 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 12
+    },
+    "variant_signature": "11107c723ef3a9032649c645b3bc254681b57beb0e0524a751683f079bdebf26"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4,
+          4
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 8 rows has 4 eggs.",
+        "Counting one at a time across all rows gives 8 groups of 4, which is 8 x 4."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 8 equal rows, with 4 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 4
+    },
+    "variant_signature": "474f713104481ec76e7f327a83224d04ff67ecbe237a80674e3f4963049687f0"
+  },
+  {
+    "answer": "48",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 8 rows has 6 eggs.",
+        "Counting one at a time across all rows gives 8 groups of 6, which is 8 x 6."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 8 equal rows, with 6 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 6
+    },
+    "variant_signature": "98083164680742b51428477166ccf5d0b5eec231878f1ca29a73ace52ca2701e"
+  },
+  {
+    "answer": "64",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 8 rows has 8 eggs.",
+        "Counting one at a time across all rows gives 8 groups of 8, which is 8 x 8."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 8 equal rows, with 8 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 8
+    },
+    "variant_signature": "a1e33742b26ccb695518091031ffa2120abd458f22b6e3e982ed1a8d7d42cbd3"
+  },
+  {
+    "answer": "80",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 8 rows has 10 eggs.",
+        "Counting one at a time across all rows gives 8 groups of 10, which is 8 x 10."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 8 equal rows, with 10 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 10
+    },
+    "variant_signature": "02cc123c96b2afcb56713ec448669d805ac87c56ac410e83476053abb0c4c6c4"
+  },
+  {
+    "answer": "96",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 8 rows has 12 eggs.",
+        "Counting one at a time across all rows gives 8 groups of 12, which is 8 x 12."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 8 equal rows, with 12 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 12
+    },
+    "variant_signature": "6f2715221aeebbb1aa5a0b96a6b01100549a3dccd88c3063a2bde547c69665d2"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3,
+          3
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 9 rows has 3 eggs.",
+        "Counting one at a time across all rows gives 9 groups of 3, which is 9 x 3."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 9 equal rows, with 3 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 3
+    },
+    "variant_signature": "1354f1ff651a3c0506ff168583d5460c294ec9bddde292c4f3f0df63611d7b57"
+  },
+  {
+    "answer": "54",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6,
+          6
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 9 rows has 6 eggs.",
+        "Counting one at a time across all rows gives 9 groups of 6, which is 9 x 6."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 9 equal rows, with 6 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 6
+    },
+    "variant_signature": "fa86a604c49d2860f7ff927f15209e578e7f99ef8028e981109e2ae618b835b6"
+  },
+  {
+    "answer": "72",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8,
+          8
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 9 rows has 8 eggs.",
+        "Counting one at a time across all rows gives 9 groups of 8, which is 9 x 8."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 9 equal rows, with 8 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 8
+    },
+    "variant_signature": "1a0be29c8e74488a4d27d29e4fe7c2d802ba07bbfcbf13112d8e1c9d44a2e539"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10,
+          10
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 9 rows has 10 eggs.",
+        "Counting one at a time across all rows gives 9 groups of 10, which is 9 x 10."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 9 equal rows, with 10 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 10
+    },
+    "variant_signature": "dfd4d1997606d4af8a907f6ed2a1f62a1e9ee5aa7b2fdb7cdf10a05de5921af3"
+  },
+  {
+    "answer": "108",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": [
+      {
+        "icon": "egg",
+        "kind": "array",
+        "rows": [
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12,
+          12
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Counting equal rows one at a time is the same as counting in groups.",
+      "Multiply the number of rows by the number in each row."
+    ],
+    "item_instance_id": "TPL.NUM.COUNT.GROUPS.WORD.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.COUNT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Count the eggs row by row: each of the 9 rows has 12 eggs.",
+        "Counting one at a time across all rows gives 9 groups of 12, which is 9 x 12."
+      ]
+    },
+    "stem": "Eggs are arranged on a tray in 9 equal rows, with 12 eggs in each row. Counting one egg at a time, how many eggs are on the tray in total?",
+    "template_id": "TPL.NUM.COUNT.GROUPS.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 9,
+      "b": 12
+    },
+    "variant_signature": "067eea71c9d7c4c12f7d27f1849d418871cf4cd639dd34e78c73d1cf945a11ff"
+  }
+]

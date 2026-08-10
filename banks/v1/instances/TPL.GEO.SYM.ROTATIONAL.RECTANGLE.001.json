@@ -1,0 +1,2362 @@
+[
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 3 cm and QR = 5 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 5,
+      "l": 3
+    },
+    "variant_signature": "0e38655ea6967d4291dbf18c8da43d9322ed366b62d12fb55c24473044efde11"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 3 cm and QR = 7 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 7,
+      "l": 3
+    },
+    "variant_signature": "a90da2bb6fb09d78382c6201140ba17b1c8d10781f79255b04e8b013e411b1d5"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 3 cm and QR = 10 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 10,
+      "l": 3
+    },
+    "variant_signature": "7df4bb0f5fb682abb9007f4b11fd1c653aa28c3a3c850066d8944b03817b1e39"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 3
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 3 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 3
+    },
+    "variant_signature": "1b1f287bf207e5af2e90a78f5b5c01db46de2320a12a365763eeb41c777c92f5"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 5
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 4 cm and QR = 5 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 5,
+      "l": 4
+    },
+    "variant_signature": "aaf4231ed431a45f60ed6cc27ecc2405b5d5fb598b2dc5e0a16057801baaf148"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 4 cm and QR = 7 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 7,
+      "l": 4
+    },
+    "variant_signature": "d0b45ece16429d0050291d911b2b89696dbb1657703fdc8e35e911461f266f77"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 4 cm and QR = 10 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 10,
+      "l": 4
+    },
+    "variant_signature": "0fccac1a7a702fe2b8de237125dea55bef3a06f7dcce2d1b28b56903bf47b71a"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 4
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 4 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 4
+    },
+    "variant_signature": "5e8e37b8d06591070e6addabab832d829660a4f8120b722077381e6557cd361d"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 5 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 5
+    },
+    "variant_signature": "da423eb1bd890d0fe1b555892cadbf5c905bb78c9fb66b83b47b73a70b9060bd"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 5 cm and QR = 7 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 7,
+      "l": 5
+    },
+    "variant_signature": "efe70b04f21c44922a562232c8ecca389d84b9c0563089a69788a22d789ed676"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 5 cm and QR = 10 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 10,
+      "l": 5
+    },
+    "variant_signature": "13a99a9a70144767ddf5399ebcb325cd053b9da4cd982bd2911073a4ebdbd8a8"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 5
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 5 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 5
+    },
+    "variant_signature": "e144589c2188fa02f06c94153d7a430287af3c7cc860e12391bea59e6903332a"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 6 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 6
+    },
+    "variant_signature": "796d50b4f04877a0f19240f1da0ab45d7b96979d600f2140f50a5e73d50d25ae"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 7
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 6 cm and QR = 7 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 7,
+      "l": 6
+    },
+    "variant_signature": "3648ac39aee390a7c688bb0f1d381478321f01b9b497e153ac922c040766bc4d"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 6 cm and QR = 10 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 10,
+      "l": 6
+    },
+    "variant_signature": "8d1cea9c2b6442be1aa512a8634ce079cf03b685b330a2313c611b79b7f8c2a4"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 6
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 6 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 6
+    },
+    "variant_signature": "abcfbbf8d2dc2fd6108fcf02d3e365cb7d23f4861b7816a363dd6e537ca8a23a"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 7 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 7
+    },
+    "variant_signature": "2ed3025b72abcf375b65de6cd4371c3d7204d4f680b8f4bf2f2a4020a1b04a4a"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 7 cm and QR = 6 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 7
+    },
+    "variant_signature": "74752787394a914699884737424a0bdaaa29973bef87f9d2d7f9808d88630e09"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 7 cm and QR = 10 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 10,
+      "l": 7
+    },
+    "variant_signature": "e91e64642b0be1ccaab4bc987190fe98bebc5e555f76c661a813af794f4e9fbb"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 7
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 7 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 7
+    },
+    "variant_signature": "1a065ed49b7b7aca324176a48ba497b1f2231bda496bfc954891b02ad64e5b98"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 8 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 8
+    },
+    "variant_signature": "6f31bf9ac355bf03146c67cb90dd66f3b9030d688cd058a0d8a62adcb47fa2ad"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 8 cm and QR = 6 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 8
+    },
+    "variant_signature": "97b547315135bad7ab1230bd3f0cfa03b0743995416ae3e71f8d60f6708524e1"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 8 cm and QR = 10 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 10,
+      "l": 8
+    },
+    "variant_signature": "b0482dd51c2a654ebd20704a1a3ca6f17f31fcae138a330fdb1f56fcfeef2148"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 8
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 8 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 8
+    },
+    "variant_signature": "1ad0247e4ff5ac5f93dc10dae519cba6df1c28d4de4d73355398d24906ab509c"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 9 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 9
+    },
+    "variant_signature": "fd5138f98d3b92f4f33ea77ca907de0a7f048fcf80744dc8ff0fdd97be5f64ad"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 9 cm and QR = 6 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 9
+    },
+    "variant_signature": "6e6dc48c8bc0e0a1a03f465db07debf72238bb16c03ce26497b869cdb8348d60"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 10
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 9 cm and QR = 10 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 10,
+      "l": 9
+    },
+    "variant_signature": "cde5e5c0c40b34651dabebf450da9758fd11638aa02106ea1e30a8a8a6ee2583"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 9
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 9 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 9
+    },
+    "variant_signature": "25a50a3aa2b97ce4248cb118320af3c90e2fe2b857bf40be3625c03b2f54cb70"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 10 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 10
+    },
+    "variant_signature": "6d8dd119c35dcd0373763838f55d314cc800bf7ebc141e936b6b736f91020e37"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 10 cm and QR = 6 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 10
+    },
+    "variant_signature": "78c327e35635672926bf543b1d6a88d20957cd310ddfd82331bf48846705b132"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 10 cm and QR = 9 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 9,
+      "l": 10
+    },
+    "variant_signature": "5af4d607650eeb15357c433321a84e0c855936fd1499ec126a3e4cd141d902a0"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 10
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 10 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 10
+    },
+    "variant_signature": "d2de0a250a0ee3d21c4593aad9d269805d2b2510274b3c102f56f462690e99c5"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 11 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 11
+    },
+    "variant_signature": "c73a05bd86433630104c51abfa8fac35098a96439258c25905806d36510e1d7f"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 11 cm and QR = 6 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 11
+    },
+    "variant_signature": "08efa217a360d8287ed91997fff1d3fde55d7b2379e586330dffdc35a4c4820d"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 11 cm and QR = 9 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 9,
+      "l": 11
+    },
+    "variant_signature": "1a6c3ffdffdb67ce59c6f055d2466ae09e7424a966f15b66845104c3c5643909"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 11
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 12
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 11 cm and QR = 12 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 12,
+      "l": 11
+    },
+    "variant_signature": "c709549c6d7e6019ab55b9dda3d4f1b4cfe0b9b364b705054e5cf9ac9eaff581"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 4
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 12 cm and QR = 4 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 4,
+      "l": 12
+    },
+    "variant_signature": "6bda510ea56f6e2204d7ad9228afced4ad38e7ef0b71f9b8cf923b45d6fca18c"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 6
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 12 cm and QR = 6 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 6,
+      "l": 12
+    },
+    "variant_signature": "3c2aacc9f9367a4508ce76c5059accdd11b06b24e6d917c81604e4c9a26bfe8b"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 9
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 12 cm and QR = 9 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 9,
+      "l": 12
+    },
+    "variant_signature": "460fc9fe51f3a0bfca91e6681f5c03f98990f833c15e13ba1db4838fb2b7da0c"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": [
+      {
+        "kind": "shape",
+        "shape": "rectangle",
+        "side_labels": [
+          {
+            "side": 0,
+            "unit": "cm",
+            "value": 12
+          },
+          {
+            "side": 1,
+            "unit": "cm",
+            "value": 11
+          }
+        ],
+        "symmetry": "none",
+        "vertex_labels": [
+          "P",
+          "Q",
+          "R",
+          "S"
+        ]
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Try turning the rectangle by 180 degrees about its centre \u2014 does it look the same?",
+      "A 90-degree turn only works for a square, not a general rectangle."
+    ],
+    "item_instance_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.SYM.ROTATIONAL"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Turning rectangle PQRS by 180 degrees about its centre maps it exactly onto itself.",
+        "Turning it by 90 degrees does not work, since PQ is not equal to QR, so the rectangle is not a square.",
+        "It matches itself twice in a full turn, so the order of rotational symmetry is 2."
+      ]
+    },
+    "stem": "Rectangle PQRS has PQ = 12 cm and QR = 11 cm, with PQ not equal to QR. What is the order of its rotational symmetry?",
+    "template_id": "TPL.GEO.SYM.ROTATIONAL.RECTANGLE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "b": 11,
+      "l": 12
+    },
+    "variant_signature": "bf7e2c882cdb2d602255b6ce2fe2bdb5fecf2ae5a1d3af301d5454ede2052f51"
+  }
+]

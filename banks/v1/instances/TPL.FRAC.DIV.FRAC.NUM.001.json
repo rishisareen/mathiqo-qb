@@ -1,0 +1,506 @@
+[
+  {
+    "answer": "4/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.DIV-WRONG-FLIP",
+        "unsimplified": false,
+        "value": "3/4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Flip the SECOND fraction and multiply."
+    ],
+    "item_instance_id": "TPL.FRAC.DIV.FRAC.NUM.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.DIV.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Flip the second fraction.",
+        "Multiply.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/3 divided by 1/4?",
+    "template_id": "TPL.FRAC.DIV.FRAC.NUM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 1,
+      "d": 4
+    },
+    "variant_signature": "465e45ab6455ddfed7a879e8f8ee81933d19b9d8e268ea0a060daaf74d0396d1"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.DIV-WRONG-FLIP",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Flip the SECOND fraction and multiply."
+    ],
+    "item_instance_id": "TPL.FRAC.DIV.FRAC.NUM.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.DIV.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Flip the second fraction.",
+        "Multiply.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/3 divided by 2/3?",
+    "template_id": "TPL.FRAC.DIV.FRAC.NUM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 2,
+      "d": 3
+    },
+    "variant_signature": "69eddcac73c6287cec694c59456edfa209e65b90428b11bd47b2ea4673e1c8d0"
+  },
+  {
+    "answer": "2/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.DIV-WRONG-FLIP",
+        "unsimplified": false,
+        "value": "3/2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Flip the SECOND fraction and multiply."
+    ],
+    "item_instance_id": "TPL.FRAC.DIV.FRAC.NUM.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.DIV.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Flip the second fraction.",
+        "Multiply.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/3 divided by 2/4?",
+    "template_id": "TPL.FRAC.DIV.FRAC.NUM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 2,
+      "d": 4
+    },
+    "variant_signature": "7a38047da56d9594d15c5945e9ec752b839ce835eb8dc62e065ef4e375d215af"
+  },
+  {
+    "answer": "3/4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.DIV-WRONG-FLIP",
+        "unsimplified": false,
+        "value": "4/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Flip the SECOND fraction and multiply."
+    ],
+    "item_instance_id": "TPL.FRAC.DIV.FRAC.NUM.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.DIV.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Flip the second fraction.",
+        "Multiply.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/4 divided by 1/3?",
+    "template_id": "TPL.FRAC.DIV.FRAC.NUM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 1,
+      "d": 3
+    },
+    "variant_signature": "2c8b661f31864a338e07dd5749177c03fdf2f59500dcf4032795f643f3dc00e0"
+  },
+  {
+    "answer": "3/8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.DIV-WRONG-FLIP",
+        "unsimplified": false,
+        "value": "8/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Flip the SECOND fraction and multiply."
+    ],
+    "item_instance_id": "TPL.FRAC.DIV.FRAC.NUM.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.DIV.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Flip the second fraction.",
+        "Multiply.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/4 divided by 2/3?",
+    "template_id": "TPL.FRAC.DIV.FRAC.NUM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 2,
+      "d": 3
+    },
+    "variant_signature": "f953f9e3fd45fec2aa0bf5db3a297f895b1509cd940c9ecce48879da587af2e1"
+  },
+  {
+    "answer": "1/2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.DIV-WRONG-FLIP",
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Flip the SECOND fraction and multiply."
+    ],
+    "item_instance_id": "TPL.FRAC.DIV.FRAC.NUM.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.DIV.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Flip the second fraction.",
+        "Multiply.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/4 divided by 2/4?",
+    "template_id": "TPL.FRAC.DIV.FRAC.NUM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 2,
+      "d": 4
+    },
+    "variant_signature": "80a56e96bfe1f237053c86b403e4b9333551192a5da4c0f4b83f6401999d58e4"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.DIV-WRONG-FLIP",
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Flip the SECOND fraction and multiply."
+    ],
+    "item_instance_id": "TPL.FRAC.DIV.FRAC.NUM.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.DIV.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Flip the second fraction.",
+        "Multiply.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/3 divided by 1/3?",
+    "template_id": "TPL.FRAC.DIV.FRAC.NUM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 1,
+      "d": 3
+    },
+    "variant_signature": "85b554c3deca883ce1f4036cc71d700cab8babfc1db3e3162d6c3805f0d8a7ea"
+  },
+  {
+    "answer": "8/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.DIV-WRONG-FLIP",
+        "unsimplified": false,
+        "value": "3/8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Flip the SECOND fraction and multiply."
+    ],
+    "item_instance_id": "TPL.FRAC.DIV.FRAC.NUM.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.DIV.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Flip the second fraction.",
+        "Multiply.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/3 divided by 1/4?",
+    "template_id": "TPL.FRAC.DIV.FRAC.NUM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 1,
+      "d": 4
+    },
+    "variant_signature": "16ef6afa6e6cdf1e06a797c2c0c68e301a66129e3caf48c31a21bf23d716e29b"
+  },
+  {
+    "answer": "4/3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.DIV-WRONG-FLIP",
+        "unsimplified": false,
+        "value": "3/4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Flip the SECOND fraction and multiply."
+    ],
+    "item_instance_id": "TPL.FRAC.DIV.FRAC.NUM.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.DIV.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Flip the second fraction.",
+        "Multiply.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/3 divided by 2/4?",
+    "template_id": "TPL.FRAC.DIV.FRAC.NUM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 2,
+      "d": 4
+    },
+    "variant_signature": "e1cc2f19ec92532ca51fe46b7ecd743b46913127bb53eb4126ac37ad1afa8ee3"
+  },
+  {
+    "answer": "3/2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.DIV-WRONG-FLIP",
+        "unsimplified": false,
+        "value": "2/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Flip the SECOND fraction and multiply."
+    ],
+    "item_instance_id": "TPL.FRAC.DIV.FRAC.NUM.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.DIV.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Flip the second fraction.",
+        "Multiply.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/4 divided by 1/3?",
+    "template_id": "TPL.FRAC.DIV.FRAC.NUM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 1,
+      "d": 3
+    },
+    "variant_signature": "86cbb5211257a81b12c23e153e8115cdbf487704f1faf3ea7dc2dda75a71c640"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.DIV-WRONG-FLIP",
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Flip the SECOND fraction and multiply."
+    ],
+    "item_instance_id": "TPL.FRAC.DIV.FRAC.NUM.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.DIV.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Flip the second fraction.",
+        "Multiply.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/4 divided by 1/4?",
+    "template_id": "TPL.FRAC.DIV.FRAC.NUM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 1,
+      "d": 4
+    },
+    "variant_signature": "75aa5947524e1353c4b26a8eee28ed47ed3ab17b812f627b548604162f34469b"
+  },
+  {
+    "answer": "3/4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.DIV-WRONG-FLIP",
+        "unsimplified": false,
+        "value": "4/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Flip the SECOND fraction and multiply."
+    ],
+    "item_instance_id": "TPL.FRAC.DIV.FRAC.NUM.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.DIV.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Flip the second fraction.",
+        "Multiply.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/4 divided by 2/3?",
+    "template_id": "TPL.FRAC.DIV.FRAC.NUM.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 2,
+      "d": 3
+    },
+    "variant_signature": "075c5e9958861b1cde3b9ecfcfc0e0332c91feb92862f83ad397b0464e5c5579"
+  }
+]

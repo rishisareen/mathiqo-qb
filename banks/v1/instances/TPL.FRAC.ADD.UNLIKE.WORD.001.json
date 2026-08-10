@@ -1,0 +1,2102 @@
+[
+  {
+    "answer": "17/24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "4/11"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "4/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 3 and 8 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 3 and 8: it is 24.",
+        "Convert: 1/3 = 8/24 and 3/8 = 9/24.",
+        "Add the numerators: 8/24 + 9/24 = 17/24.",
+        "Simplify if possible: 17/24."
+      ]
+    },
+    "stem": "Ravi ate 1/3 of a mango and Priya ate 3/8 of the same mango. What fraction of the mango did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 3,
+      "d": 8
+    },
+    "variant_signature": "881614e586a86da68226a38c034ccab187dca9405ba6ec9fc871ec2169f1d7ec"
+  },
+  {
+    "answer": "27/44",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "5/4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 4 and 11 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 4 and 11: it is 44.",
+        "Convert: 1/4 = 11/44 and 4/11 = 16/44.",
+        "Add the numerators: 11/44 + 16/44 = 27/44.",
+        "Simplify if possible: 27/44."
+      ]
+    },
+    "stem": "Priya ate 1/4 of a paratha and Arjun ate 4/11 of the same paratha. What fraction of the paratha did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 4,
+      "d": 11
+    },
+    "variant_signature": "c00877cc7175089876efe978f3632ff776d66e0d6bcbf793763f4f24c5a5171c"
+  },
+  {
+    "answer": "8/15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "2/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "4/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "24/45"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 5 and 9 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 5 and 9: it is 45.",
+        "Convert: 1/5 = 9/45 and 3/9 = 15/45.",
+        "Add the numerators: 9/45 + 15/45 = 24/45.",
+        "Simplify if possible: 8/15."
+      ]
+    },
+    "stem": "Arjun ate 1/5 of a cake and Meera ate 3/9 of the same cake. What fraction of the cake did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 5,
+      "c": 3,
+      "d": 9
+    },
+    "variant_signature": "d2112e2d2faae7c971f7f766b029d723995726861654263e1743a60f9c1d1889"
+  },
+  {
+    "answer": "23/30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "4/11"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "2/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 6 and 5 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 6 and 5: it is 30.",
+        "Convert: 1/6 = 5/30 and 3/5 = 18/30.",
+        "Add the numerators: 5/30 + 18/30 = 23/30.",
+        "Simplify if possible: 23/30."
+      ]
+    },
+    "stem": "Meera ate 1/6 of a pizza and Diya ate 3/5 of the same pizza. What fraction of the pizza did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 6,
+      "c": 3,
+      "d": 5
+    },
+    "variant_signature": "cd2d988c6efbadda020a1859b402d37822c3f1e4c5fc72cd87d87248b3ad6a34"
+  },
+  {
+    "answer": "25/28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "4/11"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "4/7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 7 and 4 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 7 and 4: it is 28.",
+        "Convert: 1/7 = 4/28 and 3/4 = 21/28.",
+        "Add the numerators: 4/28 + 21/28 = 25/28.",
+        "Simplify if possible: 25/28."
+      ]
+    },
+    "stem": "Diya ate 1/7 of a chapati and Kabir ate 3/4 of the same chapati. What fraction of the chapati did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 7,
+      "c": 3,
+      "d": 4
+    },
+    "variant_signature": "87e5b4efb4b3a499f4c76cf49981be8dfc62b4b469609d6cd0bbed7e60356741"
+  },
+  {
+    "answer": "60/77",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "4/9"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "8/7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 7 and 11 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 7 and 11: it is 77.",
+        "Convert: 1/7 = 11/77 and 7/11 = 49/77.",
+        "Add the numerators: 11/77 + 49/77 = 60/77.",
+        "Simplify if possible: 60/77."
+      ]
+    },
+    "stem": "Kabir ate 1/7 of a laddoo and Ananya ate 7/11 of the same laddoo. What fraction of the laddoo did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 7,
+      "c": 7,
+      "d": 11
+    },
+    "variant_signature": "b9f6ee09d5355ed6e869a03012da2dcde21d122cdac9e9e9faee011afd90461c"
+  },
+  {
+    "answer": "65/72",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "8/17"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 8 and 9 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 8 and 9: it is 72.",
+        "Convert: 1/8 = 9/72 and 7/9 = 56/72.",
+        "Add the numerators: 9/72 + 56/72 = 65/72.",
+        "Simplify if possible: 65/72."
+      ]
+    },
+    "stem": "Ananya ate 1/8 of a mango and Vihaan ate 7/9 of the same mango. What fraction of the mango did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 8,
+      "c": 7,
+      "d": 9
+    },
+    "variant_signature": "0fd5c5074b1a55f9930e36d2e05d9d45f02e1033f7a277d8fee6a796f3be8084"
+  },
+  {
+    "answer": "56/99",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "3/10"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "2/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 9 and 11 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 9 and 11: it is 99.",
+        "Convert: 1/9 = 11/99 and 5/11 = 45/99.",
+        "Add the numerators: 11/99 + 45/99 = 56/99.",
+        "Simplify if possible: 56/99."
+      ]
+    },
+    "stem": "Vihaan ate 1/9 of a paratha and Ravi ate 5/11 of the same paratha. What fraction of the paratha did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 9,
+      "c": 5,
+      "d": 11
+    },
+    "variant_signature": "780c6b95ff588c0448e944dccb567712c5be3309ab0c2c3e9ef2f1bf4e8edd4d"
+  },
+  {
+    "answer": "71/110",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "7/10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 10 and 11 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 10 and 11: it is 110.",
+        "Convert: 1/10 = 11/110 and 6/11 = 60/110.",
+        "Add the numerators: 11/110 + 60/110 = 71/110.",
+        "Simplify if possible: 71/110."
+      ]
+    },
+    "stem": "Ravi ate 1/10 of a cake and Priya ate 6/11 of the same cake. What fraction of the cake did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 10,
+      "c": 6,
+      "d": 11
+    },
+    "variant_signature": "4ddb6098a8c0fd458f43fbf00703578cc5303cee7ddfcf69934123af24405bae"
+  },
+  {
+    "answer": "14/33",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "4/11"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "42/99"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 11 and 9 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 11 and 9: it is 99.",
+        "Convert: 1/11 = 9/99 and 3/9 = 33/99.",
+        "Add the numerators: 9/99 + 33/99 = 42/99.",
+        "Simplify if possible: 14/33."
+      ]
+    },
+    "stem": "Priya ate 1/11 of a pizza and Arjun ate 3/9 of the same pizza. What fraction of the pizza did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 11,
+      "c": 3,
+      "d": 9
+    },
+    "variant_signature": "c5f677b2ee5e2417c43a209515950bb947f0a0826848819a9b77920b964a472d"
+  },
+  {
+    "answer": "19/84",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "2/19"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "1/6"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 12 and 7 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 12 and 7: it is 84.",
+        "Convert: 1/12 = 7/84 and 1/7 = 12/84.",
+        "Add the numerators: 7/84 + 12/84 = 19/84.",
+        "Simplify if possible: 19/84."
+      ]
+    },
+    "stem": "Arjun ate 1/12 of a chapati and Meera ate 1/7 of the same chapati. What fraction of the chapati did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 12,
+      "c": 1,
+      "d": 7
+    },
+    "variant_signature": "daf9ef22b2c53274258b43abd7998191613666db0de45d920a9756c596362301"
+  },
+  {
+    "answer": "5/6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "3/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "3/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "10/12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 4 and 3 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 4 and 3: it is 12.",
+        "Convert: 2/4 = 6/12 and 1/3 = 4/12.",
+        "Add the numerators: 6/12 + 4/12 = 10/12.",
+        "Simplify if possible: 5/6."
+      ]
+    },
+    "stem": "Meera ate 2/4 of a laddoo and Diya ate 1/3 of the same laddoo. What fraction of the laddoo did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 1,
+      "d": 3
+    },
+    "variant_signature": "ac9bf826c55f36b0f13cfc208efa5ce875fc312636ee255bf10f95675af34348"
+  },
+  {
+    "answer": "32/55",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "4/5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 5 and 11 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 5 and 11: it is 55.",
+        "Convert: 2/5 = 22/55 and 2/11 = 10/55.",
+        "Add the numerators: 22/55 + 10/55 = 32/55.",
+        "Simplify if possible: 32/55."
+      ]
+    },
+    "stem": "Diya ate 2/5 of a mango and Kabir ate 2/11 of the same mango. What fraction of the mango did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 5,
+      "c": 2,
+      "d": 11
+    },
+    "variant_signature": "8219c6f46085002ab6fb87990c363e7f223c6ce254a4914696ce5385bc0534dd"
+  },
+  {
+    "answer": "23/33",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "6/17"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "46/66"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 6 and 11 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 6 and 11: it is 66.",
+        "Convert: 2/6 = 22/66 and 4/11 = 24/66.",
+        "Add the numerators: 22/66 + 24/66 = 46/66.",
+        "Simplify if possible: 23/33."
+      ]
+    },
+    "stem": "Kabir ate 2/6 of a paratha and Ananya ate 4/11 of the same paratha. What fraction of the paratha did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 6,
+      "c": 4,
+      "d": 11
+    },
+    "variant_signature": "2f966d8557752e51f5dcf40ef8a12db8f6135a2e93e29f3e80276145562de648"
+  },
+  {
+    "answer": "20/21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "6/13"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "6/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "40/42"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 7 and 6 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 7 and 6: it is 42.",
+        "Convert: 2/7 = 12/42 and 4/6 = 28/42.",
+        "Add the numerators: 12/42 + 28/42 = 40/42.",
+        "Simplify if possible: 20/21."
+      ]
+    },
+    "stem": "Ananya ate 2/7 of a cake and Vihaan ate 4/6 of the same cake. What fraction of the cake did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 7,
+      "c": 4,
+      "d": 6
+    },
+    "variant_signature": "67dc2cb472faf72db58973f7923e8d9bfb1b42278da36b0894d0ea07558310a3"
+  },
+  {
+    "answer": "19/44",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "4/19"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "1/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "38/88"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 8 and 11 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 8 and 11: it is 88.",
+        "Convert: 2/8 = 22/88 and 2/11 = 16/88.",
+        "Add the numerators: 22/88 + 16/88 = 38/88.",
+        "Simplify if possible: 19/44."
+      ]
+    },
+    "stem": "Vihaan ate 2/8 of a pizza and Ravi ate 2/11 of the same pizza. What fraction of the pizza did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 8,
+      "c": 2,
+      "d": 11
+    },
+    "variant_signature": "2eb0c6b8e54487fad5302db959a3dce73d9ee56c20ca8511b794160f6edb5f0c"
+  },
+  {
+    "answer": "41/63",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "5/16"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "5/9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 9 and 7 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 9 and 7: it is 63.",
+        "Convert: 2/9 = 14/63 and 3/7 = 27/63.",
+        "Add the numerators: 14/63 + 27/63 = 41/63.",
+        "Simplify if possible: 41/63."
+      ]
+    },
+    "stem": "Ravi ate 2/9 of a chapati and Priya ate 3/7 of the same chapati. What fraction of the chapati did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 9,
+      "c": 3,
+      "d": 7
+    },
+    "variant_signature": "ff76f7d9bd15fa8b7f3d3cb4573745ec1df47684105a722911ea74c7837b154f"
+  },
+  {
+    "answer": "27/35",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "6/17"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "3/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "54/70"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 10 and 7 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 10 and 7: it is 70.",
+        "Convert: 2/10 = 14/70 and 4/7 = 40/70.",
+        "Add the numerators: 14/70 + 40/70 = 54/70.",
+        "Simplify if possible: 27/35."
+      ]
+    },
+    "stem": "Priya ate 2/10 of a laddoo and Arjun ate 4/7 of the same laddoo. What fraction of the laddoo did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 10,
+      "c": 4,
+      "d": 7
+    },
+    "variant_signature": "d05fd5b148ddb5daebe5c7d7dd29ab1e89783351372feaea78fe421670e540a1"
+  },
+  {
+    "answer": "41/44",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/3"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "5/11"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 11 and 4 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 11 and 4: it is 44.",
+        "Convert: 2/11 = 8/44 and 3/4 = 33/44.",
+        "Add the numerators: 8/44 + 33/44 = 41/44.",
+        "Simplify if possible: 41/44."
+      ]
+    },
+    "stem": "Arjun ate 2/11 of a mango and Meera ate 3/4 of the same mango. What fraction of the mango did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 11,
+      "c": 3,
+      "d": 4
+    },
+    "variant_signature": "3c6baf71b508f04db72d7f648ad0756e6d6764974c97ba097292b7747f38cf5e"
+  },
+  {
+    "answer": "28/33",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "10/23"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "10/11"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "112/132"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 11 and 12 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 11 and 12: it is 132.",
+        "Convert: 2/11 = 24/132 and 8/12 = 88/132.",
+        "Add the numerators: 24/132 + 88/132 = 112/132.",
+        "Simplify if possible: 28/33."
+      ]
+    },
+    "stem": "Meera ate 2/11 of a paratha and Diya ate 8/12 of the same paratha. What fraction of the paratha did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 11,
+      "c": 8,
+      "d": 12
+    },
+    "variant_signature": "6ce65c2e21c2f38a84bc2ef52d207e24cfba17bd12221231ec0479ef278a9823"
+  },
+  {
+    "answer": "32/45",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "2/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "4/5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 5 and 9 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 5 and 9: it is 45.",
+        "Convert: 3/5 = 27/45 and 1/9 = 5/45.",
+        "Add the numerators: 27/45 + 5/45 = 32/45.",
+        "Simplify if possible: 32/45."
+      ]
+    },
+    "stem": "Diya ate 3/5 of a cake and Kabir ate 1/9 of the same cake. What fraction of the cake did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 5,
+      "c": 1,
+      "d": 9
+    },
+    "variant_signature": "308548288bd3b11a7b0afd8628b31c418695fe7745c674fc1859c2c4cd6a161c"
+  },
+  {
+    "answer": "31/56",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "4/15"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "4/7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 7 and 8 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 7 and 8: it is 56.",
+        "Convert: 3/7 = 24/56 and 1/8 = 7/56.",
+        "Add the numerators: 24/56 + 7/56 = 31/56.",
+        "Simplify if possible: 31/56."
+      ]
+    },
+    "stem": "Kabir ate 3/7 of a pizza and Ananya ate 1/8 of the same pizza. What fraction of the pizza did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 7,
+      "c": 1,
+      "d": 8
+    },
+    "variant_signature": "cb542b7af5f76a120bd72b9d190b360e0dc71d7f4d7c5d79adc687126b215f39"
+  },
+  {
+    "answer": "75/77",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "1/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "9/7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 7 and 11 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 7 and 11: it is 77.",
+        "Convert: 3/7 = 33/77 and 6/11 = 42/77.",
+        "Add the numerators: 33/77 + 42/77 = 75/77.",
+        "Simplify if possible: 75/77."
+      ]
+    },
+    "stem": "Ananya ate 3/7 of a chapati and Vihaan ate 6/11 of the same chapati. What fraction of the chapati did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 7,
+      "c": 6,
+      "d": 11
+    },
+    "variant_signature": "79ff36805dad361b1fbbbaf0f5772c4eb09c18d20fbd21ff196c504d29416c96"
+  },
+  {
+    "answer": "13/21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "5/16"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "5/9"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "39/63"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 9 and 7 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 9 and 7: it is 63.",
+        "Convert: 3/9 = 21/63 and 2/7 = 18/63.",
+        "Add the numerators: 21/63 + 18/63 = 39/63.",
+        "Simplify if possible: 13/21."
+      ]
+    },
+    "stem": "Vihaan ate 3/9 of a laddoo and Ravi ate 2/7 of the same laddoo. What fraction of the laddoo did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 9,
+      "c": 2,
+      "d": 7
+    },
+    "variant_signature": "caa384b14557a37b04b81a4325067e6d5ea0d8e129535c9362d605c73addc917"
+  },
+  {
+    "answer": "63/110",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "2/7"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "3/5"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 10 and 11 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 10 and 11: it is 110.",
+        "Convert: 3/10 = 33/110 and 3/11 = 30/110.",
+        "Add the numerators: 33/110 + 30/110 = 63/110.",
+        "Simplify if possible: 63/110."
+      ]
+    },
+    "stem": "Ravi ate 3/10 of a mango and Priya ate 3/11 of the same mango. What fraction of the mango did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 10,
+      "c": 3,
+      "d": 11
+    },
+    "variant_signature": "d296ecd8e7976748ec0e0b49bff3c902e4e7a42b119570dbb4765b3ab9b80328"
+  },
+  {
+    "answer": "17/22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "6/17"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "6/11"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "51/66"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 11 and 6 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 11 and 6: it is 66.",
+        "Convert: 3/11 = 18/66 and 3/6 = 33/66.",
+        "Add the numerators: 18/66 + 33/66 = 51/66.",
+        "Simplify if possible: 17/22."
+      ]
+    },
+    "stem": "Priya ate 3/11 of a paratha and Arjun ate 3/6 of the same paratha. What fraction of the paratha did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 11,
+      "c": 3,
+      "d": 6
+    },
+    "variant_signature": "215050c72b79a92367e21cd35580d1faebc52b95bc4b73adf160e84904d669bf"
+  },
+  {
+    "answer": "17/20",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "6/17"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "1/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "51/60"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 12 and 5 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 12 and 5: it is 60.",
+        "Convert: 3/12 = 15/60 and 3/5 = 36/60.",
+        "Add the numerators: 15/60 + 36/60 = 51/60.",
+        "Simplify if possible: 17/20."
+      ]
+    },
+    "stem": "Arjun ate 3/12 of a cake and Meera ate 3/5 of the same cake. What fraction of the cake did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 3,
+      "b": 12,
+      "c": 3,
+      "d": 5
+    },
+    "variant_signature": "b22d9960e0a0635e60ce071c1a0ce29919b602826e2260bdf4156b29e5d615c7"
+  },
+  {
+    "answer": "43/63",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "5/16"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "5/7"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 7 and 9 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 7 and 9: it is 63.",
+        "Convert: 4/7 = 36/63 and 1/9 = 7/63.",
+        "Add the numerators: 36/63 + 7/63 = 43/63.",
+        "Simplify if possible: 43/63."
+      ]
+    },
+    "stem": "Meera ate 4/7 of a pizza and Diya ate 1/9 of the same pizza. What fraction of the pizza did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 7,
+      "c": 1,
+      "d": 9
+    },
+    "variant_signature": "eec9fb3caa5ecfbb92f059830e06b3d1219f8defe6a22739ab6f66130431f898"
+  },
+  {
+    "answer": "13/14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "7/15"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "7/8"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "52/56"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 8 and 7 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 8 and 7: it is 56.",
+        "Convert: 4/8 = 28/56 and 3/7 = 24/56.",
+        "Add the numerators: 28/56 + 24/56 = 52/56.",
+        "Simplify if possible: 13/14."
+      ]
+    },
+    "stem": "Diya ate 4/8 of a chapati and Kabir ate 3/7 of the same chapati. What fraction of the chapati did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 8,
+      "c": 3,
+      "d": 7
+    },
+    "variant_signature": "3975a462200bc9d0d528356bc631fd72a31d5e79890da22eb1ca0661017fb95a"
+  },
+  {
+    "answer": "11/15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "5/13"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "1/2"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "22/30"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 10 and 3 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 10 and 3: it is 30.",
+        "Convert: 4/10 = 12/30 and 1/3 = 10/30.",
+        "Add the numerators: 12/30 + 10/30 = 22/30.",
+        "Simplify if possible: 11/15."
+      ]
+    },
+    "stem": "Kabir ate 4/10 of a laddoo and Ananya ate 1/3 of the same laddoo. What fraction of the laddoo did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 10,
+      "c": 1,
+      "d": 3
+    },
+    "variant_signature": "b37ea59f3f63d1f6026fe66e590883de68abe0eb55f606a06b2e86622ecfec2e"
+  },
+  {
+    "answer": "27/44",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "6/19"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "6/11"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "54/88"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 11 and 8 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 11 and 8: it is 88.",
+        "Convert: 4/11 = 32/88 and 2/8 = 22/88.",
+        "Add the numerators: 32/88 + 22/88 = 54/88.",
+        "Simplify if possible: 27/44."
+      ]
+    },
+    "stem": "Ananya ate 4/11 of a mango and Vihaan ate 2/8 of the same mango. What fraction of the mango did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 11,
+      "c": 2,
+      "d": 8
+    },
+    "variant_signature": "da75c940b9e3327866bbc87ff5f5cd093ea7094b223be197f896bbefc3f5ce37"
+  },
+  {
+    "answer": "14/15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "7/17"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "7/12"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "56/60"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 12 and 5 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 12 and 5: it is 60.",
+        "Convert: 4/12 = 20/60 and 3/5 = 36/60.",
+        "Add the numerators: 20/60 + 36/60 = 56/60.",
+        "Simplify if possible: 14/15."
+      ]
+    },
+    "stem": "Vihaan ate 4/12 of a paratha and Ravi ate 3/5 of the same paratha. What fraction of the paratha did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 4,
+      "b": 12,
+      "c": 3,
+      "d": 5
+    },
+    "variant_signature": "2a17f68dbf8af4463431f3cfdef650df6bde542eff705061affe1c80c5c880ab"
+  },
+  {
+    "answer": "53/72",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "6/17"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "3/4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 8 and 9 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 8 and 9: it is 72.",
+        "Convert: 5/8 = 45/72 and 1/9 = 8/72.",
+        "Add the numerators: 45/72 + 8/72 = 53/72.",
+        "Simplify if possible: 53/72."
+      ]
+    },
+    "stem": "Ravi ate 5/8 of a cake and Priya ate 1/9 of the same cake. What fraction of the cake did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 8,
+      "c": 1,
+      "d": 9
+    },
+    "variant_signature": "5abcbdaec157fecf709791c2e6b36d4959710d0379c51a27f560ee2d6357fe91"
+  },
+  {
+    "answer": "11/14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "7/17"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "7/10"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "55/70"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 10 and 7 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 10 and 7: it is 70.",
+        "Convert: 5/10 = 35/70 and 2/7 = 20/70.",
+        "Add the numerators: 35/70 + 20/70 = 55/70.",
+        "Simplify if possible: 11/14."
+      ]
+    },
+    "stem": "Priya ate 5/10 of a pizza and Arjun ate 2/7 of the same pizza. What fraction of the pizza did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 10,
+      "c": 2,
+      "d": 7
+    },
+    "variant_signature": "9e1e8a6c4249e26051a2dbb7cec5237faf5fc2ddb902afc38031359d43dc79f3"
+  },
+  {
+    "answer": "26/33",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "2/5"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "8/11"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "78/99"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 11 and 9 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 11 and 9: it is 99.",
+        "Convert: 5/11 = 45/99 and 3/9 = 33/99.",
+        "Add the numerators: 45/99 + 33/99 = 78/99.",
+        "Simplify if possible: 26/33."
+      ]
+    },
+    "stem": "Arjun ate 5/11 of a chapati and Meera ate 3/9 of the same chapati. What fraction of the chapati did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 5,
+      "b": 11,
+      "c": 3,
+      "d": 9
+    },
+    "variant_signature": "50ebf1e0f195e25daacb6af9730a6ff7d232e2c052f4081dc9703e8c858fdc52"
+  },
+  {
+    "answer": "25/28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "7/15"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "7/8"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "50/56"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 8 and 7 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 8 and 7: it is 56.",
+        "Convert: 6/8 = 42/56 and 1/7 = 8/56.",
+        "Add the numerators: 42/56 + 8/56 = 50/56.",
+        "Simplify if possible: 25/28."
+      ]
+    },
+    "stem": "Meera ate 6/8 of a laddoo and Diya ate 1/7 of the same laddoo. What fraction of the laddoo did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 8,
+      "c": 1,
+      "d": 7
+    },
+    "variant_signature": "2b2a9153cf3e86033d0e2cc4070bc78c69803a2ab34ee15ec36abb41cef5dd46"
+  },
+  {
+    "answer": "41/55",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "7/16"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "7/11"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 11 and 5 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 11 and 5: it is 55.",
+        "Convert: 6/11 = 30/55 and 1/5 = 11/55.",
+        "Add the numerators: 30/55 + 11/55 = 41/55.",
+        "Simplify if possible: 41/55."
+      ]
+    },
+    "stem": "Diya ate 6/11 of a mango and Kabir ate 1/5 of the same mango. What fraction of the mango did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 11,
+      "c": 1,
+      "d": 5
+    },
+    "variant_signature": "eac1af200e5a82042f34248c4b1d9bd4eb25aa4c7f7e3ff43f6ca6ae7ea5967b"
+  },
+  {
+    "answer": "13/14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "9/19"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "3/4"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "78/84"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 12 and 7 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 12 and 7: it is 84.",
+        "Convert: 6/12 = 42/84 and 3/7 = 36/84.",
+        "Add the numerators: 42/84 + 36/84 = 78/84.",
+        "Simplify if possible: 13/14."
+      ]
+    },
+    "stem": "Kabir ate 6/12 of a paratha and Ananya ate 3/7 of the same paratha. What fraction of the paratha did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 6,
+      "b": 12,
+      "c": 3,
+      "d": 7
+    },
+    "variant_signature": "f3e802a2dd2b22af262f8b2f612dffca0f30e7ddf0ec9ec97a051e783241b721"
+  },
+  {
+    "answer": "32/33",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "9/17"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "9/11"
+      },
+      {
+        "misconception_id": "MISC.FRAC.NO-SIMPLIFY",
+        "unsimplified": true,
+        "value": "64/66"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 11 and 6 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 11 and 6: it is 66.",
+        "Convert: 7/11 = 42/66 and 2/6 = 22/66.",
+        "Add the numerators: 42/66 + 22/66 = 64/66.",
+        "Simplify if possible: 32/33."
+      ]
+    },
+    "stem": "Ananya ate 7/11 of a cake and Vihaan ate 2/6 of the same cake. What fraction of the cake did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 7,
+      "b": 11,
+      "c": 2,
+      "d": 6
+    },
+    "variant_signature": "7b6dacbe1dedf3a0ea828e9cf4ff6536d570db7676385ae33c510f844671a6bb"
+  },
+  {
+    "answer": "75/88",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.FRAC.ADD-ACROSS",
+        "unsimplified": false,
+        "value": "9/19"
+      },
+      {
+        "misconception_id": "MISC.FRAC.FIRST-DENOM",
+        "unsimplified": false,
+        "value": "9/11"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Can you add the fractions as they are? Look at the denominators.",
+      "Rewrite both fractions with the same denominator first.",
+      "What is the smallest number both 11 and 8 divide into?"
+    ],
+    "item_instance_id": "TPL.FRAC.ADD.UNLIKE.WORD.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": true,
+    "skill_ids": [
+      "FRAC.ADD.UNLIKE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the LCM of 11 and 8: it is 88.",
+        "Convert: 8/11 = 64/88 and 1/8 = 11/88.",
+        "Add the numerators: 64/88 + 11/88 = 75/88.",
+        "Simplify if possible: 75/88."
+      ]
+    },
+    "stem": "Vihaan ate 8/11 of a pizza and Ravi ate 1/8 of the same pizza. What fraction of the pizza did they eat altogether?",
+    "template_id": "TPL.FRAC.ADD.UNLIKE.WORD.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 8,
+      "b": 11,
+      "c": 1,
+      "d": 8
+    },
+    "variant_signature": "3bb1674bbe33345cf82c55df79c58b2fa0bb3e4af420eee94c6af7bc963f6481"
+  }
+]

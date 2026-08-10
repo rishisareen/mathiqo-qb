@@ -1,0 +1,2242 @@
+[
+  {
+    "answer": "160",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "70"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "150"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 20,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 20 is the outer-scale reading."
+      ]
+    },
+    "stem": "Ravi lines up a protractor on an angle and reads 20 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Ravi see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 20
+    },
+    "variant_signature": "f13b334919823c53ea18b4bf4727cc86003900b85b3399047ed13c83a44024a5"
+  },
+  {
+    "answer": "158",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "68"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "148"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 22,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 22 is the outer-scale reading."
+      ]
+    },
+    "stem": "Priya lines up a protractor on an angle and reads 22 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Priya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 22
+    },
+    "variant_signature": "b255f99f419775e8d04888976ef47e14d59fc47c00296d5c21395bfd1602874c"
+  },
+  {
+    "answer": "157",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "67"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "147"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 23,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 23 is the outer-scale reading."
+      ]
+    },
+    "stem": "Arjun lines up a protractor on an angle and reads 23 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Arjun see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 23
+    },
+    "variant_signature": "55cd0ff7148b796ab2061123e772d64dc004057f7117ac5b3209a1ee263aa2f8"
+  },
+  {
+    "answer": "155",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "65"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "145"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 25,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 25 is the outer-scale reading."
+      ]
+    },
+    "stem": "Meera lines up a protractor on an angle and reads 25 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Meera see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 25
+    },
+    "variant_signature": "69aaf3855275655de1b9177fe82e4f83a9b24cbf728b5763d267ad583110e35a"
+  },
+  {
+    "answer": "154",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "64"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "144"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 26,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 26 is the outer-scale reading."
+      ]
+    },
+    "stem": "Diya lines up a protractor on an angle and reads 26 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Diya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 26
+    },
+    "variant_signature": "70ccfe291957bfef4550ca9a5ac926f4bd9e7fdc518573f35d606db5d228460a"
+  },
+  {
+    "answer": "152",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "62"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "142"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 28,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 28 is the outer-scale reading."
+      ]
+    },
+    "stem": "Kabir lines up a protractor on an angle and reads 28 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Kabir see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 28
+    },
+    "variant_signature": "03f2f1960c26d4f51c39133c2dc8853fec5edc6530cd3598f09e6d036506ef1c"
+  },
+  {
+    "answer": "151",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "29"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "61"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "141"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 29,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 29 is the outer-scale reading."
+      ]
+    },
+    "stem": "Ananya lines up a protractor on an angle and reads 29 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Ananya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 29
+    },
+    "variant_signature": "9e10e42e141f93e2eda16f43e478a9dc416b8b0f7799be53c865137495b39827"
+  },
+  {
+    "answer": "149",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "59"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "139"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 31,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 31 is the outer-scale reading."
+      ]
+    },
+    "stem": "Vihaan lines up a protractor on an angle and reads 31 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Vihaan see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 31
+    },
+    "variant_signature": "60b659787100fa88e3817f65194321b77f437a0afd10048101e56f9087fa11a0"
+  },
+  {
+    "answer": "148",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "58"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "138"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 32,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 32 is the outer-scale reading."
+      ]
+    },
+    "stem": "Ravi lines up a protractor on an angle and reads 32 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Ravi see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 32
+    },
+    "variant_signature": "7b8af8b93e69eb53ccdc834655387502e4bb37df58cb4b544b39b76386036d87"
+  },
+  {
+    "answer": "146",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "136"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 34,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 34 is the outer-scale reading."
+      ]
+    },
+    "stem": "Priya lines up a protractor on an angle and reads 34 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Priya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 34
+    },
+    "variant_signature": "52146d9d6ad4a3a479628184c958680d1402d7096caa6d5475c88dad4a42e2d5"
+  },
+  {
+    "answer": "145",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "35"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "55"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "135"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 35,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 35 is the outer-scale reading."
+      ]
+    },
+    "stem": "Arjun lines up a protractor on an angle and reads 35 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Arjun see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 35
+    },
+    "variant_signature": "e8e6667ef1bd662521b0d75ccef5dd7a0006df888dbfe43a515b72df0c3fe382"
+  },
+  {
+    "answer": "143",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "37"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "53"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "133"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 37,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 37 is the outer-scale reading."
+      ]
+    },
+    "stem": "Meera lines up a protractor on an angle and reads 37 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Meera see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 37
+    },
+    "variant_signature": "fe337623e09146aaf19209590f6adcbfa13005d79c9100fabdda6a5b6cb6e4b8"
+  },
+  {
+    "answer": "142",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "38"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "52"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "132"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 38,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 38 is the outer-scale reading."
+      ]
+    },
+    "stem": "Diya lines up a protractor on an angle and reads 38 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Diya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 38
+    },
+    "variant_signature": "e09908dc5b88076e502f2724c7e982ebea746b755afefc8f018597bce88f82e3"
+  },
+  {
+    "answer": "140",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "50"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "130"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 40,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 40 is the outer-scale reading."
+      ]
+    },
+    "stem": "Kabir lines up a protractor on an angle and reads 40 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Kabir see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 40
+    },
+    "variant_signature": "4b356e4e4d6653bb66480031a63eb866138fa88a4d3f48e6e694238aa19e6745"
+  },
+  {
+    "answer": "139",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "41"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "49"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "129"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 41,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 41 is the outer-scale reading."
+      ]
+    },
+    "stem": "Ananya lines up a protractor on an angle and reads 41 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Ananya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 41
+    },
+    "variant_signature": "7cb8cb2ff407d7ddc1dcca5d51c03271e90a1ebc0402719db4744f585693929c"
+  },
+  {
+    "answer": "137",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "43"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "47"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "127"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 43,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 43 is the outer-scale reading."
+      ]
+    },
+    "stem": "Vihaan lines up a protractor on an angle and reads 43 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Vihaan see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 43
+    },
+    "variant_signature": "ded40ffe3e6215f392724aa70b1f04cc7be90070be3460bb2795f67798aedf44"
+  },
+  {
+    "answer": "136",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "44"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "46"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "126"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 44,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 44 is the outer-scale reading."
+      ]
+    },
+    "stem": "Ravi lines up a protractor on an angle and reads 44 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Ravi see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 44
+    },
+    "variant_signature": "a973b45439de285dac0260bc30e3276e2f461cdb7229c7e404c90c040cbe9930"
+  },
+  {
+    "answer": "133",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "47"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "43"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "123"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 47,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 47 is the outer-scale reading."
+      ]
+    },
+    "stem": "Priya lines up a protractor on an angle and reads 47 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Priya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 47
+    },
+    "variant_signature": "e82c78fa9c9419e15cc4140d17e916e78518249406cf7d89ccab41db1ffd4e30"
+  },
+  {
+    "answer": "132",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "42"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "122"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 48,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 48 is the outer-scale reading."
+      ]
+    },
+    "stem": "Arjun lines up a protractor on an angle and reads 48 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Arjun see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 48
+    },
+    "variant_signature": "323f3a859a54180432049c11fcfdb961e1c5dd4c141e0ef82142a7f6264b152a"
+  },
+  {
+    "answer": "130",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "50"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "120"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 50,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 50 is the outer-scale reading."
+      ]
+    },
+    "stem": "Meera lines up a protractor on an angle and reads 50 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Meera see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 50
+    },
+    "variant_signature": "39d74c7b14ea7f3ff9656f12dee6e033c2d37a290bc4dee86e312ce0a7f919a0"
+  },
+  {
+    "answer": "129",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "51"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "39"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "119"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 51,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 51 is the outer-scale reading."
+      ]
+    },
+    "stem": "Diya lines up a protractor on an angle and reads 51 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Diya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 51
+    },
+    "variant_signature": "b6b51a96b703fe81f2d740b7501509e4433e4d95bca8b4e40c29617e18c2a60f"
+  },
+  {
+    "answer": "127",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "53"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "37"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "117"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 53,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 53 is the outer-scale reading."
+      ]
+    },
+    "stem": "Kabir lines up a protractor on an angle and reads 53 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Kabir see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 53
+    },
+    "variant_signature": "03fa2034cd94a2ed86b6f6d0b58a248a7972a39293f78e2ee510ad194d1cc791"
+  },
+  {
+    "answer": "126",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "54"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "116"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 54,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 54 is the outer-scale reading."
+      ]
+    },
+    "stem": "Ananya lines up a protractor on an angle and reads 54 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Ananya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 54
+    },
+    "variant_signature": "a6c1c8275b13ee67f390309eb8881a4e60f70fbdf3c37248481e7298a3ab23b1"
+  },
+  {
+    "answer": "124",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "114"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 56,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 56 is the outer-scale reading."
+      ]
+    },
+    "stem": "Vihaan lines up a protractor on an angle and reads 56 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Vihaan see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 56
+    },
+    "variant_signature": "aeabffe14201f668f763fa2ad10801122fb0b55472f9aa80201ad6c56397ec58"
+  },
+  {
+    "answer": "123",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "57"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "33"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "113"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 57,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 57 is the outer-scale reading."
+      ]
+    },
+    "stem": "Ravi lines up a protractor on an angle and reads 57 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Ravi see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 57
+    },
+    "variant_signature": "3f3e762b68c3fc17a895531978174fedd747f282b267132dfed7690b9bb2ef4e"
+  },
+  {
+    "answer": "121",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "59"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "31"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "111"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 59,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 59 is the outer-scale reading."
+      ]
+    },
+    "stem": "Priya lines up a protractor on an angle and reads 59 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Priya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 59
+    },
+    "variant_signature": "0ae859a98320dab084a0d61c9368b77b58488c1fee00a4efb109a2db26b86f15"
+  },
+  {
+    "answer": "120",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "60"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "110"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 60,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 60 is the outer-scale reading."
+      ]
+    },
+    "stem": "Arjun lines up a protractor on an angle and reads 60 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Arjun see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 60
+    },
+    "variant_signature": "df6fa1a500eec7733fadd2bbe0a4b97e7bf7f6e7c620da4bdc2d3f661fd3b72c"
+  },
+  {
+    "answer": "118",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "62"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "108"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 62,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 62 is the outer-scale reading."
+      ]
+    },
+    "stem": "Meera lines up a protractor on an angle and reads 62 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Meera see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 62
+    },
+    "variant_signature": "fe95ba26344fb956b502ea23c2c420568639e6c588f02ffc6e18eecaeb96172f"
+  },
+  {
+    "answer": "117",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "63"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "107"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 63,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 63 is the outer-scale reading."
+      ]
+    },
+    "stem": "Diya lines up a protractor on an angle and reads 63 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Diya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 63
+    },
+    "variant_signature": "508f1f25a5d9f401327645eea1b191c1c18385a540ce60c084400dddb287d778"
+  },
+  {
+    "answer": "115",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "65"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "105"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 65,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 65 is the outer-scale reading."
+      ]
+    },
+    "stem": "Kabir lines up a protractor on an angle and reads 65 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Kabir see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 65
+    },
+    "variant_signature": "7641b16c2f2d08538a41a25b7250f5054612b97c280bf640d183ea3a449e7c2f"
+  },
+  {
+    "answer": "114",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "66"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "104"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 66,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 66 is the outer-scale reading."
+      ]
+    },
+    "stem": "Ananya lines up a protractor on an angle and reads 66 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Ananya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 66
+    },
+    "variant_signature": "da1597cb49cd798804f7f505575f739c1c8306808ff148571cac138048cab421"
+  },
+  {
+    "answer": "112",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "68"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "102"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 68,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 68 is the outer-scale reading."
+      ]
+    },
+    "stem": "Vihaan lines up a protractor on an angle and reads 68 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Vihaan see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 68
+    },
+    "variant_signature": "baa96c32629471b28add49a08503912a7d3cafc2e5586c677ed3c218db08d55b"
+  },
+  {
+    "answer": "111",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "69"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "101"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 69,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 69 is the outer-scale reading."
+      ]
+    },
+    "stem": "Ravi lines up a protractor on an angle and reads 69 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Ravi see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 69
+    },
+    "variant_signature": "ecd9103aa217e7232b30e08b4d693abd72905315d938ed6d06f742d4b69a6735"
+  },
+  {
+    "answer": "109",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "71"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "99"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 71,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 71 is the outer-scale reading."
+      ]
+    },
+    "stem": "Priya lines up a protractor on an angle and reads 71 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Priya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 71
+    },
+    "variant_signature": "cd677a204c342781d265faaa78be2b179e1fb764378f4c4ecd1b6e543cbc4e28"
+  },
+  {
+    "answer": "108",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "72"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "98"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 72,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 72 is the outer-scale reading."
+      ]
+    },
+    "stem": "Arjun lines up a protractor on an angle and reads 72 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Arjun see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 72
+    },
+    "variant_signature": "7de70cc1d9674c3cc920abe5d262e3acedf204b5c93e2d22a9e4d1d1d87ea2cf"
+  },
+  {
+    "answer": "106",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "74"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "96"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 74,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 74 is the outer-scale reading."
+      ]
+    },
+    "stem": "Meera lines up a protractor on an angle and reads 74 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Meera see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 74
+    },
+    "variant_signature": "dd9aaa6d71299bb896d9d1572d282c9f46a3c2ee2a393992a6d6e5b0640faf54"
+  },
+  {
+    "answer": "105",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "75"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "95"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 75,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 75 is the outer-scale reading."
+      ]
+    },
+    "stem": "Diya lines up a protractor on an angle and reads 75 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Diya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 75
+    },
+    "variant_signature": "777c1c60bdb2113f318f7208a9937b2d03e8d60cfa0580b2fae0df085dfc88de"
+  },
+  {
+    "answer": "103",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "77"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "93"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 77,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 77 is the outer-scale reading."
+      ]
+    },
+    "stem": "Kabir lines up a protractor on an angle and reads 77 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Kabir see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 77
+    },
+    "variant_signature": "d6e3df4a315d39888efc9624018f2b3e37839832bfe52f6b1aac0260b37909fa"
+  },
+  {
+    "answer": "102",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "78"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "92"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 78,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 78 is the outer-scale reading."
+      ]
+    },
+    "stem": "Ananya lines up a protractor on an angle and reads 78 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Ananya see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 78
+    },
+    "variant_signature": "3b53219e0b9d8b2707b64d7e3d37800c3f3428b0c766b3647bdccbc11db9aed0"
+  },
+  {
+    "answer": "100",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.PROTRACTOR-WRONG-SCALE",
+        "unsimplified": false,
+        "value": "80"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "90"
+      }
+    ],
+    "figures": [
+      {
+        "context": "protractor",
+        "degrees": 80,
+        "kind": "angle",
+        "scale": "outer"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "The inner scale goes one way (0 to 180) and the outer scale goes the other way (180 to 0) \u2014 at the same arm, the two readings always add to 180.",
+      "Subtract the inner reading from 180 to get the outer reading."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.MEASURE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The inner and outer scales of a protractor are numbered in opposite directions, so their readings at the same arm always add up to 180 degrees.",
+        "180 - 80 is the outer-scale reading."
+      ]
+    },
+    "stem": "Vihaan lines up a protractor on an angle and reads 80 degrees on the inner scale. Reading the very same arm's position on the OUTER scale instead, what number would Vihaan see there?",
+    "template_id": "TPL.GEO.ANGLEMEASURE.SCALE.OUTER.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "n": 80
+    },
+    "variant_signature": "88f3c729189292f59b042b38ca1bd4ab4d7b2a2c412d33840554e5579cd2b668"
+  }
+]

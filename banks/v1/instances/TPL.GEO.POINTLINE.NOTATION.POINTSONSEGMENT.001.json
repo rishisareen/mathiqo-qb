@@ -1,0 +1,471 @@
+[
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      }
+    ],
+    "figures": [
+      {
+        "collinear": true,
+        "elements": [
+          {
+            "count": 1,
+            "element": "segment",
+            "labels": [
+              "PQ"
+            ]
+          },
+          {
+            "count": 1,
+            "element": "point"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget: P and Q are themselves points on the segment, not just its edges.",
+      "Total points = extra marked points + the 2 endpoints, so 1 + 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Segment PQ has two fixed endpoints, P and Q, that always count as points on the segment \u2014 it isn't an endpoint-less line.",
+        "Add the 1 extra marked points to the 2 endpoints: 1 + 2."
+      ]
+    },
+    "stem": "Line segment PQ (written with a bar over PQ) has 1 extra points marked strictly between P and Q, none of them coinciding with P or Q. Counting P and Q themselves along with the 1 extra points, how many named points lie on segment PQ in total?",
+    "template_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 1
+    },
+    "variant_signature": "1b5ef1028aa9e416a8ed04e1c441a0f34034e11c07316b010b82bc5db99003c7"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      }
+    ],
+    "figures": [
+      {
+        "collinear": true,
+        "elements": [
+          {
+            "count": 1,
+            "element": "segment",
+            "labels": [
+              "PQ"
+            ]
+          },
+          {
+            "count": 2,
+            "element": "point"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget: P and Q are themselves points on the segment, not just its edges.",
+      "Total points = extra marked points + the 2 endpoints, so 2 + 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Segment PQ has two fixed endpoints, P and Q, that always count as points on the segment \u2014 it isn't an endpoint-less line.",
+        "Add the 2 extra marked points to the 2 endpoints: 2 + 2."
+      ]
+    },
+    "stem": "Line segment PQ (written with a bar over PQ) has 2 extra points marked strictly between P and Q, none of them coinciding with P or Q. Counting P and Q themselves along with the 2 extra points, how many named points lie on segment PQ in total?",
+    "template_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 2
+    },
+    "variant_signature": "5a15e2e9c32812a55f6e34448ad9f0198c96a3a2ee3d32153884325c3fab4001"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      }
+    ],
+    "figures": [
+      {
+        "collinear": true,
+        "elements": [
+          {
+            "count": 1,
+            "element": "segment",
+            "labels": [
+              "PQ"
+            ]
+          },
+          {
+            "count": 3,
+            "element": "point"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget: P and Q are themselves points on the segment, not just its edges.",
+      "Total points = extra marked points + the 2 endpoints, so 3 + 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Segment PQ has two fixed endpoints, P and Q, that always count as points on the segment \u2014 it isn't an endpoint-less line.",
+        "Add the 3 extra marked points to the 2 endpoints: 3 + 2."
+      ]
+    },
+    "stem": "Line segment PQ (written with a bar over PQ) has 3 extra points marked strictly between P and Q, none of them coinciding with P or Q. Counting P and Q themselves along with the 3 extra points, how many named points lie on segment PQ in total?",
+    "template_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 3
+    },
+    "variant_signature": "8942cbb623b17b28cec9cf7f470ef842cd940438817deff7ac2d736697907af0"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "collinear": true,
+        "elements": [
+          {
+            "count": 1,
+            "element": "segment",
+            "labels": [
+              "PQ"
+            ]
+          },
+          {
+            "count": 4,
+            "element": "point"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget: P and Q are themselves points on the segment, not just its edges.",
+      "Total points = extra marked points + the 2 endpoints, so 4 + 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Segment PQ has two fixed endpoints, P and Q, that always count as points on the segment \u2014 it isn't an endpoint-less line.",
+        "Add the 4 extra marked points to the 2 endpoints: 4 + 2."
+      ]
+    },
+    "stem": "Line segment PQ (written with a bar over PQ) has 4 extra points marked strictly between P and Q, none of them coinciding with P or Q. Counting P and Q themselves along with the 4 extra points, how many named points lie on segment PQ in total?",
+    "template_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 4
+    },
+    "variant_signature": "cccb14ada27bb11423440ac54866291134ba7df5aab717893e7fb888ca521a09"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "collinear": true,
+        "elements": [
+          {
+            "count": 1,
+            "element": "segment",
+            "labels": [
+              "PQ"
+            ]
+          },
+          {
+            "count": 5,
+            "element": "point"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget: P and Q are themselves points on the segment, not just its edges.",
+      "Total points = extra marked points + the 2 endpoints, so 5 + 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Segment PQ has two fixed endpoints, P and Q, that always count as points on the segment \u2014 it isn't an endpoint-less line.",
+        "Add the 5 extra marked points to the 2 endpoints: 5 + 2."
+      ]
+    },
+    "stem": "Line segment PQ (written with a bar over PQ) has 5 extra points marked strictly between P and Q, none of them coinciding with P or Q. Counting P and Q themselves along with the 5 extra points, how many named points lie on segment PQ in total?",
+    "template_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 5
+    },
+    "variant_signature": "0baa2f6174fa16208da896f4bb5758188d94076638ded3ed9af34ba5ab1c821c"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "collinear": true,
+        "elements": [
+          {
+            "count": 1,
+            "element": "segment",
+            "labels": [
+              "PQ"
+            ]
+          },
+          {
+            "count": 6,
+            "element": "point"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget: P and Q are themselves points on the segment, not just its edges.",
+      "Total points = extra marked points + the 2 endpoints, so 6 + 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Segment PQ has two fixed endpoints, P and Q, that always count as points on the segment \u2014 it isn't an endpoint-less line.",
+        "Add the 6 extra marked points to the 2 endpoints: 6 + 2."
+      ]
+    },
+    "stem": "Line segment PQ (written with a bar over PQ) has 6 extra points marked strictly between P and Q, none of them coinciding with P or Q. Counting P and Q themselves along with the 6 extra points, how many named points lie on segment PQ in total?",
+    "template_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 6
+    },
+    "variant_signature": "08116e4bea68bacd9337afc88c0d4778d44cf5b22ee2cb5b245d86e310b25da7"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.LINE-SEGMENT-SAME",
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "collinear": true,
+        "elements": [
+          {
+            "count": 1,
+            "element": "segment",
+            "labels": [
+              "PQ"
+            ]
+          },
+          {
+            "count": 7,
+            "element": "point"
+          }
+        ],
+        "kind": "point-line"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Don't forget: P and Q are themselves points on the segment, not just its edges.",
+      "Total points = extra marked points + the 2 endpoints, so 7 + 2."
+    ],
+    "item_instance_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POINT.LINE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Segment PQ has two fixed endpoints, P and Q, that always count as points on the segment \u2014 it isn't an endpoint-less line.",
+        "Add the 7 extra marked points to the 2 endpoints: 7 + 2."
+      ]
+    },
+    "stem": "Line segment PQ (written with a bar over PQ) has 7 extra points marked strictly between P and Q, none of them coinciding with P or Q. Counting P and Q themselves along with the 7 extra points, how many named points lie on segment PQ in total?",
+    "template_id": "TPL.GEO.POINTLINE.NOTATION.POINTSONSEGMENT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "m": 7
+    },
+    "variant_signature": "df06add608dd314d49ca8f21393b03ddd233603cba3261d5b798b4db592a48fa"
+  }
+]

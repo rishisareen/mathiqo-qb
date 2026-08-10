@@ -1,0 +1,1922 @@
+[
+  {
+    "answer": "17",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 10."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 2-1, 5-2, 10-5.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 10."
+      ]
+    },
+    "stem": "Look at this number pattern: 1, 2, 5, 10, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 1,
+      "t2": 2,
+      "t3": 5,
+      "t4": 10
+    },
+    "variant_signature": "a84feffaf9eb11aff478c0200a2171eb4f3a9532c425f519c8447863471823bf"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 19."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 2-1, 8-2, 19-8.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 19."
+      ]
+    },
+    "stem": "Look at this number pattern: 1, 2, 8, 19, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 1,
+      "t2": 2,
+      "t3": 8,
+      "t4": 19
+    },
+    "variant_signature": "8547828de9bcb8a69d3006e7fb37559c37d05cb3e08e3ffc0ddae5f5437e2f57"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 13."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 3-1, 7-3, 13-7.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 13."
+      ]
+    },
+    "stem": "Look at this number pattern: 1, 3, 7, 13, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 1,
+      "t2": 3,
+      "t3": 7,
+      "t4": 13
+    },
+    "variant_signature": "bbc4da6ed4f9017a3ef7aa06b2ee534ed54f0f9af5b248c6c4c130ac68284b27"
+  },
+  {
+    "answer": "39",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 3-1, 10-3, 22-10.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 22."
+      ]
+    },
+    "stem": "Look at this number pattern: 1, 3, 10, 22, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 1,
+      "t2": 3,
+      "t3": 10,
+      "t4": 22
+    },
+    "variant_signature": "3de217006ae55b2dbbcf0782af3fa5700e1787d12f86a6a2bc91b8d4b64d9366"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "25"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 19."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 4-1, 10-4, 19-10.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 19."
+      ]
+    },
+    "stem": "Look at this number pattern: 1, 4, 10, 19, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 1,
+      "t2": 4,
+      "t3": 10,
+      "t4": 19
+    },
+    "variant_signature": "ce605f2868457a7de643e87cbcff6a6465ae19e215e79026022e49d5188ca2b7"
+  },
+  {
+    "answer": "35",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 5-1, 12-5, 22-12.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 22."
+      ]
+    },
+    "stem": "Look at this number pattern: 1, 5, 12, 22, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 1,
+      "t2": 5,
+      "t3": 12,
+      "t4": 22
+    },
+    "variant_signature": "93a87d2435a5d839f14a2061966552ff103b27c242edb32eca1d1b5c836a1748"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "29"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 7-1, 14-7, 22-14.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 22."
+      ]
+    },
+    "stem": "Look at this number pattern: 1, 7, 14, 22, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 1,
+      "t2": 7,
+      "t3": 14,
+      "t4": 22
+    },
+    "variant_signature": "5d67302450eb9ecb41af7f789e3a1f55cbb0dcc1387788ba0be5d9fca39c5824"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "18"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 14."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 2-2, 6-2, 14-6.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 14."
+      ]
+    },
+    "stem": "Look at this number pattern: 2, 2, 6, 14, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 2,
+      "t2": 2,
+      "t3": 6,
+      "t4": 14
+    },
+    "variant_signature": "fb273839ee404fe9bc0ddf71bd3d06f8059dbe0e17fae8e2f84a2de38d0c8cb5"
+  },
+  {
+    "answer": "12",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 8."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 3-2, 5-3, 8-5.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 8."
+      ]
+    },
+    "stem": "Look at this number pattern: 2, 3, 5, 8, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 2,
+      "t2": 3,
+      "t3": 5,
+      "t4": 8
+    },
+    "variant_signature": "564a501edc555bfd88e0d88aaf0d6eeb39b524e960e7cb32c6f9982b0ce9e469"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "26"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 17."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 3-2, 8-3, 17-8.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 17."
+      ]
+    },
+    "stem": "Look at this number pattern: 2, 3, 8, 17, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 2,
+      "t2": 3,
+      "t3": 8,
+      "t4": 17
+    },
+    "variant_signature": "2b5b073bb8d541d1eaf1da73d90ceb451dddd04ec657734a17c4ad8f6ff74f03"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 17."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 4-2, 9-4, 17-9.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 17."
+      ]
+    },
+    "stem": "Look at this number pattern: 2, 4, 9, 17, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 2,
+      "t2": 4,
+      "t3": 9,
+      "t4": 17
+    },
+    "variant_signature": "a63b23619e3e8f01824aab101a1067d68ce3b9b37ac59176bc9f36882f67412b"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "22"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 17."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 5-2, 10-5, 17-10.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 17."
+      ]
+    },
+    "stem": "Look at this number pattern: 2, 5, 10, 17, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 2,
+      "t2": 5,
+      "t3": 10,
+      "t4": 17
+    },
+    "variant_signature": "323b989a2d8c14ba1438155e3714166ca05744f6ddda7d76deb6e71dde7ed24e"
+  },
+  {
+    "answer": "30",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "26"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 20."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 6-2, 12-6, 20-12.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 20."
+      ]
+    },
+    "stem": "Look at this number pattern: 2, 6, 12, 20, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 2,
+      "t2": 6,
+      "t3": 12,
+      "t4": 20
+    },
+    "variant_signature": "f6df97e905ea223c73544245fe20c64aa7ee002ac29e0804d05dd727ffedb6fe"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 12."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 2-3, 5-2, 12-5.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 12."
+      ]
+    },
+    "stem": "Look at this number pattern: 3, 2, 5, 12, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 2,
+      "t3": 5,
+      "t4": 12
+    },
+    "variant_signature": "8cf4f3edef893309573348a9667462be0e41e2ce2547c85afd3c5ed6d7ab1c30"
+  },
+  {
+    "answer": "41",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 21."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 2-3, 8-2, 21-8.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 21."
+      ]
+    },
+    "stem": "Look at this number pattern: 3, 2, 8, 21, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 2,
+      "t3": 8,
+      "t4": 21
+    },
+    "variant_signature": "ea1294af122070a9f489dfcce75fb9d9928c71b6ffc44757813861ccd4c74b40"
+  },
+  {
+    "answer": "27",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 15."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 3-3, 7-3, 15-7.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 15."
+      ]
+    },
+    "stem": "Look at this number pattern: 3, 3, 7, 15, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 3,
+      "t3": 7,
+      "t4": 15
+    },
+    "variant_signature": "d426f82c785c98e97b9bf782ae92e8f7b4b28aa9e143f0ad6aae14bffc0df335"
+  },
+  {
+    "answer": "13",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 9."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 4-3, 6-4, 9-6.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 9."
+      ]
+    },
+    "stem": "Look at this number pattern: 3, 4, 6, 9, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 4,
+      "t3": 6,
+      "t4": 9
+    },
+    "variant_signature": "e372fa5e13fd851e7653920741affebfe300d50dd9f2b166d96fa23e9a36079e"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "23"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 18."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 4-3, 9-4, 18-9.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 18."
+      ]
+    },
+    "stem": "Look at this number pattern: 3, 4, 9, 18, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 4,
+      "t3": 9,
+      "t4": 18
+    },
+    "variant_signature": "142a3455f78670d29807ab3db4b161ee4e4fcb9dae44592ef8251bcf85cd6bc6"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 15."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 5-3, 9-5, 15-9.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 15."
+      ]
+    },
+    "stem": "Look at this number pattern: 3, 5, 9, 15, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 5,
+      "t3": 9,
+      "t4": 15
+    },
+    "variant_signature": "b4575e5e554571e6cf0b1fe436222af9d085e61b0ae63854921f91fc24559e27"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "19"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 15."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 6-3, 10-6, 15-10.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 15."
+      ]
+    },
+    "stem": "Look at this number pattern: 3, 6, 10, 15, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 6,
+      "t3": 10,
+      "t4": 15
+    },
+    "variant_signature": "3f5b0c727b9d8bc32a84c336023cdeeb1ff9dafb0eaafe889ed36a2398fd91d2"
+  },
+  {
+    "answer": "31",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "29"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "27"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 21."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 7-3, 13-7, 21-13.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 21."
+      ]
+    },
+    "stem": "Look at this number pattern: 3, 7, 13, 21, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 3,
+      "t2": 7,
+      "t3": 13,
+      "t4": 21
+    },
+    "variant_signature": "c1881dae56ba36c3b687f11462b8cb814bdc2b5e7e1ef73b5d6670ffdc773c01"
+  },
+  {
+    "answer": "26",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 13."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 2-4, 5-2, 13-5.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 13."
+      ]
+    },
+    "stem": "Look at this number pattern: 4, 2, 5, 13, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 2,
+      "t3": 5,
+      "t4": 13
+    },
+    "variant_signature": "0728422c6093b125da3fde4d030c83313e46fdbc6c1f12ff28088d59d58db98e"
+  },
+  {
+    "answer": "44",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 2-4, 8-2, 22-8.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 22."
+      ]
+    },
+    "stem": "Look at this number pattern: 4, 2, 8, 22, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 2,
+      "t3": 8,
+      "t4": 22
+    },
+    "variant_signature": "5be22f3c41080e737c7453a915db2234f75c48bbd8fd41be05b7e6d2dac3079c"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "20"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 13."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 3-4, 6-3, 13-6.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 13."
+      ]
+    },
+    "stem": "Look at this number pattern: 4, 3, 6, 13, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 3,
+      "t3": 6,
+      "t4": 13
+    },
+    "variant_signature": "0643c51be7d4dc79592adaaf48161f1cc3f1f9ab9124df31527e08553f643970"
+  },
+  {
+    "answer": "42",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "35"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 3-4, 9-3, 22-9.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 22."
+      ]
+    },
+    "stem": "Look at this number pattern: 4, 3, 9, 22, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 3,
+      "t3": 9,
+      "t4": 22
+    },
+    "variant_signature": "1600bc5b64e5a6bdcd03bc7a1e9210cb637a4be71f0931db752e1b91776f393d"
+  },
+  {
+    "answer": "28",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "24"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 16."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 4-4, 8-4, 16-8.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 16."
+      ]
+    },
+    "stem": "Look at this number pattern: 4, 4, 8, 16, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 4,
+      "t3": 8,
+      "t4": 16
+    },
+    "variant_signature": "9e5578421b6b1c77b2b33f48b38757315009d06e49f5fbafdc9222a120ba4bd8"
+  },
+  {
+    "answer": "14",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 10."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 5-4, 7-5, 10-7.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 10."
+      ]
+    },
+    "stem": "Look at this number pattern: 4, 5, 7, 10, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 5,
+      "t3": 7,
+      "t4": 10
+    },
+    "variant_signature": "92b6e1bbdc50fe6179e05428470e55a7cabce96a6c979c4d3ce1a00a3e71410a"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "24"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 19."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 5-4, 10-5, 19-10.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 19."
+      ]
+    },
+    "stem": "Look at this number pattern: 4, 5, 10, 19, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 5,
+      "t3": 10,
+      "t4": 19
+    },
+    "variant_signature": "0eed436adbaf110a787c5f2b7426288fe9bbad7d1d6528cd4a4d0de2984b41bf"
+  },
+  {
+    "answer": "24",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 16."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 6-4, 10-6, 16-10.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 16."
+      ]
+    },
+    "stem": "Look at this number pattern: 4, 6, 10, 16, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 6,
+      "t3": 10,
+      "t4": 16
+    },
+    "variant_signature": "1d76a7de98319262a11f5870884c3476cab5b65622dadb9b6cc73e5d665fab47"
+  },
+  {
+    "answer": "22",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "20"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 16."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 7-4, 11-7, 16-11.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 16."
+      ]
+    },
+    "stem": "Look at this number pattern: 4, 7, 11, 16, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 7,
+      "t3": 11,
+      "t4": 16
+    },
+    "variant_signature": "c5ff9826e16e55ed84d238e2a8b3376dd5a2898679e225d69f11d6d55c57bfd1"
+  },
+  {
+    "answer": "32",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "28"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 22."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 8-4, 14-8, 22-14.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 22."
+      ]
+    },
+    "stem": "Look at this number pattern: 4, 8, 14, 22, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 4,
+      "t2": 8,
+      "t3": 14,
+      "t4": 22
+    },
+    "variant_signature": "dec4ff246cdfbfdc037167aff214233c29fe8c84489d8189068953d879288fb9"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 14."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 2-5, 5-2, 14-5.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 14."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 2, 5, 14, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 2,
+      "t3": 5,
+      "t4": 14
+    },
+    "variant_signature": "b523f37686a64d8afcb33859024638ef9b95b8522ed77c79236ddfd1eac63be8"
+  },
+  {
+    "answer": "15",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 8."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 3-5, 4-3, 8-4.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 8."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 3, 4, 8, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 3,
+      "t3": 4,
+      "t4": 8
+    },
+    "variant_signature": "29fe354e3a451a41b14f340ff3ffa85523c6a0fbd041ee98180c4661bf4fedcd"
+  },
+  {
+    "answer": "33",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 17."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 3-5, 7-3, 17-7.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 17."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 3, 7, 17, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 3,
+      "t3": 7,
+      "t4": 17
+    },
+    "variant_signature": "5d0962b8b7b3898070c1f53353bf5f1452a285daa83a1dc8135b869e0a02c418"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "16"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 11."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 4-5, 6-4, 11-6.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 11."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 4, 6, 11, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 4,
+      "t3": 6,
+      "t4": 11
+    },
+    "variant_signature": "58a1ae86eead0bd0b1a548964bfb4bbe7f7c263f09d99e4a1b0223e52cc0838e"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 8."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 5-5, 6-5, 8-6.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 8."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 5, 6, 8, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 5,
+      "t3": 6,
+      "t4": 8
+    },
+    "variant_signature": "ac96b404ae20d34fae3fd259f1c308a79653c55a6e08769735967a1c38ab0f88"
+  },
+  {
+    "answer": "29",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 17."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 5-5, 9-5, 17-9.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 17."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 5, 9, 17, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 5,
+      "t3": 9,
+      "t4": 17
+    },
+    "variant_signature": "4684f90b57a6594a0c0b4258b91fb32a73917e0edc50bda58ec0ab7bd772cf93"
+  },
+  {
+    "answer": "21",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 14."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 6-5, 9-6, 14-9.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 14."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 6, 9, 14, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 6,
+      "t3": 9,
+      "t4": 14
+    },
+    "variant_signature": "778c6ab2bcd4a492f6391a893b4a59e013f73d4ab7d8d8c8d743e6bb479229e4"
+  },
+  {
+    "answer": "19",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "18"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 14."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 7-5, 10-7, 14-10.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 14."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 7, 10, 14, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 7,
+      "t3": 10,
+      "t4": 14
+    },
+    "variant_signature": "a162c6071a696fa5576a187cbb56ec30d9757ad549096c4774f08bccbe3df891"
+  },
+  {
+    "answer": "23",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.NUM.PATTERN-CONSTANT-DIFF",
+        "unsimplified": false,
+        "value": "22"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "21"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Look at the jumps between the numbers, not just the numbers themselves \u2014 are the jumps staying the same or changing?",
+      "The jumps are growing by a fixed amount each time \u2014 work out the next jump before adding it to 17."
+    ],
+    "item_instance_id": "TPL.NUM.PATTERN.GROW.NEXT.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.PATTERN.EXTEND"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Find the jump between each pair of numbers: 8-5, 12-8, 17-12.",
+        "Notice the jumps themselves are growing by the same amount each time.",
+        "Find the next jump by continuing that growth, then add it to 17."
+      ]
+    },
+    "stem": "Look at this number pattern: 5, 8, 12, 17, .... What is the next number?",
+    "template_id": "TPL.NUM.PATTERN.GROW.NEXT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "t1": 5,
+      "t2": 8,
+      "t3": 12,
+      "t4": 17
+    },
+    "variant_signature": "caaeba7767513457f59ec066bb4c0345ed4138d13837d94dba23a888adc43d2a"
+  }
+]

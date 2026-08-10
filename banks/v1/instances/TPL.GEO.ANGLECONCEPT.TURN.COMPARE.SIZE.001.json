@@ -1,0 +1,2081 @@
+[
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 210,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 30,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 7 - 1."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 7 hour-marks to 1 hour-marks directly.",
+        "The difference in turn is 7 - 1."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 7 hour-marks (from the 12 to the 7 mark), and Angle N's arms turn through 1 hour-marks (from the 12 to the 1 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 1
+    },
+    "variant_signature": "37b14ded09795364f60e3cee8d98fa06506dcc1ae6c944ef70add0d831115a11"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 210,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 60,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 7 - 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 7 hour-marks to 2 hour-marks directly.",
+        "The difference in turn is 7 - 2."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 7 hour-marks (from the 12 to the 7 mark), and Angle N's arms turn through 2 hour-marks (from the 12 to the 2 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 2
+    },
+    "variant_signature": "1864c874b1418c9195accba1fc55d3b635cb38d3a09a8f1471f40f0d42b6fdad"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 210,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 90,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 7 - 3."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 7 hour-marks to 3 hour-marks directly.",
+        "The difference in turn is 7 - 3."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 7 hour-marks (from the 12 to the 7 mark), and Angle N's arms turn through 3 hour-marks (from the 12 to the 3 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 3
+    },
+    "variant_signature": "601df954799de7b573f86042159867a99a0ef198fd6ffd6d89e73ca221b1d766"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 210,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 120,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 7 - 4."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 7 hour-marks to 4 hour-marks directly.",
+        "The difference in turn is 7 - 4."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 7 hour-marks (from the 12 to the 7 mark), and Angle N's arms turn through 4 hour-marks (from the 12 to the 4 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 4
+    },
+    "variant_signature": "2c858742479da238bd33280900a6ce4410d034af632724294bfdce5b03808bb1"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 210,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 150,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 7 - 5."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 7 hour-marks to 5 hour-marks directly.",
+        "The difference in turn is 7 - 5."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 7 hour-marks (from the 12 to the 7 mark), and Angle N's arms turn through 5 hour-marks (from the 12 to the 5 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 5
+    },
+    "variant_signature": "5e68a1a3c93ee975647f4ebf7a4269ce6d3675eba364428667280cb9010de4a5"
+  },
+  {
+    "answer": "1",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "7"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 210,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 180,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 7 - 6."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 7 hour-marks to 6 hour-marks directly.",
+        "The difference in turn is 7 - 6."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 7 hour-marks (from the 12 to the 7 mark), and Angle N's arms turn through 6 hour-marks (from the 12 to the 6 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 7,
+      "q": 6
+    },
+    "variant_signature": "063904f129d7776c1ca0a811448372e6066188122aa786747b9c21a4c0bec649"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 240,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 30,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 8 - 1."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 8 hour-marks to 1 hour-marks directly.",
+        "The difference in turn is 8 - 1."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 8 hour-marks (from the 12 to the 8 mark), and Angle N's arms turn through 1 hour-marks (from the 12 to the 1 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 1
+    },
+    "variant_signature": "19dae7f2b49af95539e852ba0c9c7b15726f2c0b16d9b8036b957f9f75eced7f"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 240,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 60,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 8 - 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 8 hour-marks to 2 hour-marks directly.",
+        "The difference in turn is 8 - 2."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 8 hour-marks (from the 12 to the 8 mark), and Angle N's arms turn through 2 hour-marks (from the 12 to the 2 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 2
+    },
+    "variant_signature": "3fa29f6c59e640a3d50e2b5a676479c7dcd87a25056be553eb44c098a6856c59"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 240,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 90,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 8 - 3."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 8 hour-marks to 3 hour-marks directly.",
+        "The difference in turn is 8 - 3."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 8 hour-marks (from the 12 to the 8 mark), and Angle N's arms turn through 3 hour-marks (from the 12 to the 3 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 3
+    },
+    "variant_signature": "b18f77a8a211d28b206bc0e4a0bf1248712bdbbb3a27443a7eceb734b426941e"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 240,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 150,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 8 - 5."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 8 hour-marks to 5 hour-marks directly.",
+        "The difference in turn is 8 - 5."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 8 hour-marks (from the 12 to the 8 mark), and Angle N's arms turn through 5 hour-marks (from the 12 to the 5 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 5
+    },
+    "variant_signature": "4b0ace2dd6bc77d6f00e3f0e6b277978cbe9a3e30eedf7d62ccc0360d3432a28"
+  },
+  {
+    "answer": "2",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 240,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 180,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 8 - 6."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 8 hour-marks to 6 hour-marks directly.",
+        "The difference in turn is 8 - 6."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 8 hour-marks (from the 12 to the 8 mark), and Angle N's arms turn through 6 hour-marks (from the 12 to the 6 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 8,
+      "q": 6
+    },
+    "variant_signature": "9c96d6efcb7846b8869eb743d7976d8a8c9687f3a4a16358a451a094c59002b3"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 270,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 30,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 9 - 1."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 9 hour-marks to 1 hour-marks directly.",
+        "The difference in turn is 9 - 1."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 9 hour-marks (from the 12 to the 9 mark), and Angle N's arms turn through 1 hour-marks (from the 12 to the 1 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 1
+    },
+    "variant_signature": "51bd4fb7478393e0032f2d15af0245b4f4658a0ef027423b4bea10a5858e6b97"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 270,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 60,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 9 - 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 9 hour-marks to 2 hour-marks directly.",
+        "The difference in turn is 9 - 2."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 9 hour-marks (from the 12 to the 9 mark), and Angle N's arms turn through 2 hour-marks (from the 12 to the 2 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 2
+    },
+    "variant_signature": "1fdeb7a4a6d0db2350e70f5a54fc5e051946631e7b60259edd08a6dff4684a23"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 270,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 90,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 9 - 3."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 9 hour-marks to 3 hour-marks directly.",
+        "The difference in turn is 9 - 3."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 9 hour-marks (from the 12 to the 9 mark), and Angle N's arms turn through 3 hour-marks (from the 12 to the 3 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 3
+    },
+    "variant_signature": "e09ca936d5370563d7bdee733c3211d2f4ed5ba2e3b2d0e8feed530104e2f212"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 270,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 120,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 9 - 4."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 9 hour-marks to 4 hour-marks directly.",
+        "The difference in turn is 9 - 4."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 9 hour-marks (from the 12 to the 9 mark), and Angle N's arms turn through 4 hour-marks (from the 12 to the 4 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 4
+    },
+    "variant_signature": "8f869b4c40563f7919b635605042f26740a8535d297d23a6e9256cc368cb8948"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 270,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 150,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 9 - 5."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 9 hour-marks to 5 hour-marks directly.",
+        "The difference in turn is 9 - 5."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 9 hour-marks (from the 12 to the 9 mark), and Angle N's arms turn through 5 hour-marks (from the 12 to the 5 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 5
+    },
+    "variant_signature": "a76ca8fcf0e5b3d8aa642d755446e642f35d1e113fd0626245755e7e35ada7f9"
+  },
+  {
+    "answer": "3",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "9"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 270,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 180,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 9 - 6."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 9 hour-marks to 6 hour-marks directly.",
+        "The difference in turn is 9 - 6."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 9 hour-marks (from the 12 to the 9 mark), and Angle N's arms turn through 6 hour-marks (from the 12 to the 6 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 9,
+      "q": 6
+    },
+    "variant_signature": "441e89d8c31bb186fe1cee23d80938360d408366dd70773d1b140c40a85e9a34"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 300,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 30,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 10 - 1."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 10 hour-marks to 1 hour-marks directly.",
+        "The difference in turn is 10 - 1."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 10 hour-marks (from the 12 to the 10 mark), and Angle N's arms turn through 1 hour-marks (from the 12 to the 1 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 10,
+      "q": 1
+    },
+    "variant_signature": "00f6b4eb01ad3694ff81bf3ca68d7f91adf1cbab36dcaca34e57eb34ed716abf"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 300,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 60,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 10 - 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 10 hour-marks to 2 hour-marks directly.",
+        "The difference in turn is 10 - 2."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 10 hour-marks (from the 12 to the 10 mark), and Angle N's arms turn through 2 hour-marks (from the 12 to the 2 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 10,
+      "q": 2
+    },
+    "variant_signature": "9a45055e8b6cf3d5b1f236922cf1fd648e3e51d50f456469bb0d649284107ec2"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 300,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 90,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 10 - 3."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 10 hour-marks to 3 hour-marks directly.",
+        "The difference in turn is 10 - 3."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 10 hour-marks (from the 12 to the 10 mark), and Angle N's arms turn through 3 hour-marks (from the 12 to the 3 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 10,
+      "q": 3
+    },
+    "variant_signature": "63efbba26cd4709be7bbb5f23ac85392fa080128e59b3eb0214fad8ff1550d0d"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 300,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 120,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 10 - 4."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 10 hour-marks to 4 hour-marks directly.",
+        "The difference in turn is 10 - 4."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 10 hour-marks (from the 12 to the 10 mark), and Angle N's arms turn through 4 hour-marks (from the 12 to the 4 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 10,
+      "q": 4
+    },
+    "variant_signature": "efa9eb8d11f92e1d7cb9f4f68867a21bb3ef53c34430cc240d54edc2617974d1"
+  },
+  {
+    "answer": "4",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 300,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 180,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 10 - 6."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 10 hour-marks to 6 hour-marks directly.",
+        "The difference in turn is 10 - 6."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 10 hour-marks (from the 12 to the 10 mark), and Angle N's arms turn through 6 hour-marks (from the 12 to the 6 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 10,
+      "q": 6
+    },
+    "variant_signature": "2004c8b378fbbafc6fd921949c51d71deaa1e1e4dd901004e195f0df23069f91"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 330,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 30,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 11 - 1."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 11 hour-marks to 1 hour-marks directly.",
+        "The difference in turn is 11 - 1."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 11 hour-marks (from the 12 to the 11 mark), and Angle N's arms turn through 1 hour-marks (from the 12 to the 1 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 11,
+      "q": 1
+    },
+    "variant_signature": "731ddb473b8ce6b2aecc887840e937b4d66c6877f8baf99c258b35599b712724"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 330,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 60,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 11 - 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 11 hour-marks to 2 hour-marks directly.",
+        "The difference in turn is 11 - 2."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 11 hour-marks (from the 12 to the 11 mark), and Angle N's arms turn through 2 hour-marks (from the 12 to the 2 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 11,
+      "q": 2
+    },
+    "variant_signature": "182759d7a22d167418bae5d761fe2a9b8b05ec0887688365d85b63fd57056dee"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 330,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 90,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 11 - 3."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 11 hour-marks to 3 hour-marks directly.",
+        "The difference in turn is 11 - 3."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 11 hour-marks (from the 12 to the 11 mark), and Angle N's arms turn through 3 hour-marks (from the 12 to the 3 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 11,
+      "q": 3
+    },
+    "variant_signature": "97c4879813b1ae41cb9f7f59f3f6b5433e4f636d5c81d29c4304f709c3449446"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 330,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 120,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 11 - 4."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 11 hour-marks to 4 hour-marks directly.",
+        "The difference in turn is 11 - 4."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 11 hour-marks (from the 12 to the 11 mark), and Angle N's arms turn through 4 hour-marks (from the 12 to the 4 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 11,
+      "q": 4
+    },
+    "variant_signature": "559e105c87613b3268601ac6b743835cf096ea6dc7826dd39fd9f0e9a5fcc494"
+  },
+  {
+    "answer": "6",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 330,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 150,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 11 - 5."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 11 hour-marks to 5 hour-marks directly.",
+        "The difference in turn is 11 - 5."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 11 hour-marks (from the 12 to the 11 mark), and Angle N's arms turn through 5 hour-marks (from the 12 to the 5 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 11,
+      "q": 5
+    },
+    "variant_signature": "3cf13e6631f4c61cf993e8fb1c74ce6368a7e2d1f6033663273b8a433d16690a"
+  },
+  {
+    "answer": "5",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "11"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 330,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 180,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 11 - 6."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 11 hour-marks to 6 hour-marks directly.",
+        "The difference in turn is 11 - 6."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 11 hour-marks (from the 12 to the 11 mark), and Angle N's arms turn through 6 hour-marks (from the 12 to the 6 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 11,
+      "q": 6
+    },
+    "variant_signature": "b2d9096a3e82e350c809739fa7459051a2fe73aa97659c0217a97f239ae8b82d"
+  },
+  {
+    "answer": "11",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "13"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 360,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 30,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 12 - 1."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 12 hour-marks to 1 hour-marks directly.",
+        "The difference in turn is 12 - 1."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 12 hour-marks (from the 12 to the 12 mark), and Angle N's arms turn through 1 hour-marks (from the 12 to the 1 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 12,
+      "q": 1
+    },
+    "variant_signature": "16788becdc873b8fac4e7a46da7545de0508b9d2a68342a439a3dad766b1a37f"
+  },
+  {
+    "answer": "10",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "14"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 360,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 60,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 12 - 2."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 12 hour-marks to 2 hour-marks directly.",
+        "The difference in turn is 12 - 2."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 12 hour-marks (from the 12 to the 12 mark), and Angle N's arms turn through 2 hour-marks (from the 12 to the 2 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 12,
+      "q": 2
+    },
+    "variant_signature": "534a36d17dee10ce799d4d5266b38e1b6aa92fa02ff3ec6fa7868b7cf58c7b97"
+  },
+  {
+    "answer": "9",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "15"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 360,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 90,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 12 - 3."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 12 hour-marks to 3 hour-marks directly.",
+        "The difference in turn is 12 - 3."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 12 hour-marks (from the 12 to the 12 mark), and Angle N's arms turn through 3 hour-marks (from the 12 to the 3 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 12,
+      "q": 3
+    },
+    "variant_signature": "276e0634f4d8926b3939dbe79558fab2ef379028489147ce0dfda361af96c052"
+  },
+  {
+    "answer": "8",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "16"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 360,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 120,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 12 - 4."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 12 hour-marks to 4 hour-marks directly.",
+        "The difference in turn is 12 - 4."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 12 hour-marks (from the 12 to the 12 mark), and Angle N's arms turn through 4 hour-marks (from the 12 to the 4 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 12,
+      "q": 4
+    },
+    "variant_signature": "2713bdaff14ac6a25601c1bf60cd464f3efc9cb3570724f868d2fef62ccf11c2"
+  },
+  {
+    "answer": "7",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "5"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "17"
+      }
+    ],
+    "figures": [
+      {
+        "context": "clock",
+        "degrees": 360,
+        "kind": "angle",
+        "shared_vertex": "O"
+      },
+      {
+        "context": "clock",
+        "degrees": 150,
+        "kind": "angle",
+        "shared_vertex": "O"
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Ignore how long the arms are drawn \u2014 compare only the number of hour-marks each angle turns through.",
+      "Subtract the smaller turn from the bigger one: 12 - 5."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.CONCEPT"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "An angle's size is the amount of turn between its arms, so compare 12 hour-marks to 5 hour-marks directly.",
+        "The difference in turn is 12 - 5."
+      ]
+    },
+    "stem": "Two angles share the same vertex. Angle M's arms turn through 12 hour-marks (from the 12 to the 12 mark), and Angle N's arms turn through 5 hour-marks (from the 12 to the 5 mark). By how many hour-marks of turn is Angle M bigger than Angle N?",
+    "template_id": "TPL.GEO.ANGLECONCEPT.TURN.COMPARE.SIZE.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "p": 12,
+      "q": 5
+    },
+    "variant_signature": "cf41dffe8fea4f58e65619978f52e70e25cc5a5033910063fd932ae062267470"
+  }
+]

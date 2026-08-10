@@ -1,0 +1,674 @@
+[
+  {
+    "answer": "1/9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 1 x 1.",
+        "Multiply the denominators together: 3 x 3.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/3 of 1/3?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 1,
+      "d": 3
+    },
+    "variant_signature": "1e3234b0c998c20627b2841ac8fc4348bfaca6634b8b5721e6410df904bb50ac"
+  },
+  {
+    "answer": "1/12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 1 x 1.",
+        "Multiply the denominators together: 3 x 4.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/3 of 1/4?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 1,
+      "d": 4
+    },
+    "variant_signature": "573a163edb6639037a0946002b214e39d4b8348d3d085e554398fcb8bba227dd"
+  },
+  {
+    "answer": "2/9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 1 x 2.",
+        "Multiply the denominators together: 3 x 3.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/3 of 2/3?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 2,
+      "d": 3
+    },
+    "variant_signature": "f5d8b738eb99846cba77ad885aa97794b7e0ed966a9fb4f54e1cc3ee754edc6f"
+  },
+  {
+    "answer": "1/6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 1 x 2.",
+        "Multiply the denominators together: 3 x 4.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/3 of 2/4?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 3,
+      "c": 2,
+      "d": 4
+    },
+    "variant_signature": "890e90704d61965fd94dab4f66d18e797f512ae511bc332339c6d630bf6266bc"
+  },
+  {
+    "answer": "1/12",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 1 x 1.",
+        "Multiply the denominators together: 4 x 3.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/4 of 1/3?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 1,
+      "d": 3
+    },
+    "variant_signature": "1b31d93e26a249b94a698c59562d66d386548458b30f9da1bab41a0faee94e96"
+  },
+  {
+    "answer": "1/16",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 1 x 1.",
+        "Multiply the denominators together: 4 x 4.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/4 of 1/4?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 1,
+      "d": 4
+    },
+    "variant_signature": "8ea7ea3c16486efa9dd66bf7e189f9b9543240604f8e5d562226227a35d057cd"
+  },
+  {
+    "answer": "1/6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/8"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 1 x 2.",
+        "Multiply the denominators together: 4 x 3.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/4 of 2/3?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 2,
+      "d": 3
+    },
+    "variant_signature": "5f68b060be26f85c7eb20629256664f4de92aafa3992c79e7a23097d43861ba8"
+  },
+  {
+    "answer": "1/8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1/2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 1 x 2.",
+        "Multiply the denominators together: 4 x 4.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 1/4 of 2/4?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 1,
+      "b": 4,
+      "c": 2,
+      "d": 4
+    },
+    "variant_signature": "a72af8df584bc9aecdb6a8b2ef05b22b3360692b0d7f38d3be75d34603e85c21"
+  },
+  {
+    "answer": "2/9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 2 x 1.",
+        "Multiply the denominators together: 3 x 3.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/3 of 1/3?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 1,
+      "d": 3
+    },
+    "variant_signature": "1703003593fbffbcfcf6880ec82174cc4a4d86622f0de0d08d0898c07a68313c"
+  },
+  {
+    "answer": "1/6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "8/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 2 x 1.",
+        "Multiply the denominators together: 3 x 4.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/3 of 1/4?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 1,
+      "d": 4
+    },
+    "variant_signature": "5b0015e4a6d204ab72b834f523d18658af4252985f4e50727afb32c3ba73db92"
+  },
+  {
+    "answer": "4/9",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 2 x 2.",
+        "Multiply the denominators together: 3 x 3.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/3 of 2/3?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 2,
+      "d": 3
+    },
+    "variant_signature": "a12cee9bfc4d78898ff3092bdd3a3e7ffac1a93e4211ff40dc8ebcba219e8e06"
+  },
+  {
+    "answer": "1/3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "4/3"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 2 x 2.",
+        "Multiply the denominators together: 3 x 4.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/3 of 2/4?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 3,
+      "c": 2,
+      "d": 4
+    },
+    "variant_signature": "6a1e01f47cdc99fe43a5c8a3fd94fdc698049fe192c287cc677bc0c04a09b989"
+  },
+  {
+    "answer": "1/6",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 2 x 1.",
+        "Multiply the denominators together: 4 x 3.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/4 of 1/3?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 1,
+      "d": 3
+    },
+    "variant_signature": "579a729e5cb3e4f6d7cb16373dec11d7ce4cbab7bd9db6eb4f74fb21a8e6f0fa"
+  },
+  {
+    "answer": "1/8",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 2 x 1.",
+        "Multiply the denominators together: 4 x 4.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/4 of 1/4?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 1,
+      "d": 4
+    },
+    "variant_signature": "e44f8c995f88fdb4f9a88e7d4b354b0f9af83ec553115126d0e944bf79b3658a"
+  },
+  {
+    "answer": "1/3",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "3/4"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 2 x 2.",
+        "Multiply the denominators together: 4 x 3.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/4 of 2/3?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 2,
+      "d": 3
+    },
+    "variant_signature": "37eac839ce64dfaeb05fbf6a4b027ed3f2b6d70b0b57a8c93d60d473a68f4c44"
+  },
+  {
+    "answer": "1/4",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Multiply straight across: top times top, bottom times bottom."
+    ],
+    "item_instance_id": "TPL.FRAC.MULT.FRAC.DIRECT.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "FRAC.MULT.FRAC"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Multiply the numerators together: 2 x 2.",
+        "Multiply the denominators together: 4 x 4.",
+        "Simplify if possible."
+      ]
+    },
+    "stem": "What is 2/4 of 2/4?",
+    "template_id": "TPL.FRAC.MULT.FRAC.DIRECT.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "a": 2,
+      "b": 4,
+      "c": 2,
+      "d": 4
+    },
+    "variant_signature": "65f2adb3f5fc03dd0de7076338f7f561a06eafdead6f930c0d00c209ba030eef"
+  }
+]

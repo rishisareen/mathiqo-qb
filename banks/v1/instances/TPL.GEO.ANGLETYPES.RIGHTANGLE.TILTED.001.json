@@ -1,0 +1,2242 @@
+[
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "6"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 6
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 6 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 6 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 6
+    },
+    "variant_signature": "47ae0e43b449b551037472dd7ec7ca6fe520835f944a8120aa5f323bd57bb7b7"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "8"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 8
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 8 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 8 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 8
+    },
+    "variant_signature": "80bd3741f87013574198781bb68da05d7cde9c83a7e37e2576c4dfc2692dcf98"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "10"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 10
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 10 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 10 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 10
+    },
+    "variant_signature": "6fd4f785c34d8eb86794f259f250673c3d7a5aac752a190722cc534dc4139923"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "12"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 12
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 12 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 12 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 12
+    },
+    "variant_signature": "a7f8783751699e77add5ad08fcf4564eca29778384927d61661450a74b5f665b"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "13"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 13
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 13 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 13 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 13
+    },
+    "variant_signature": "bfad524a93ef7619186ecd48abe27d7719768c6dcec6d03f34ac7f81d1d44be6"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "15"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 15
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 15 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 15 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 15
+    },
+    "variant_signature": "69a7228d390d1c4e6e0ae0b1289de0a7a6c4b8559a3b4b805f17dcfb87d704c1"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "17"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 17
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 17 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 17 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 17
+    },
+    "variant_signature": "7c36aa7768dc38a17f3ef7f0a19c49c0a7d7da6b59dc221d36134d8298754330"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "19"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 19
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 19 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 19 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 19
+    },
+    "variant_signature": "2242f0ce0b36c30d4937e38651fb1a1b5a8c67c5b16c0a4315276985e2b84a9a"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "21"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 21
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 21 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 21 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 21
+    },
+    "variant_signature": "c0d6bb0f3fdb03610ba179d8e8170a011b8421505357ea1e2e306d61f29a6e14"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "23"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 23
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 23 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 23 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 23
+    },
+    "variant_signature": "3382ae9650d0d90b349c1a6275adac26ddc29e4ab5205d11e94c7844b1a8cb19"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "25"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 25
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 25 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 25 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 25
+    },
+    "variant_signature": "69ab3428de965fef7099dd9f8c13d8ff605fee47a3b8f4042e3a77b8c1fccf69"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "27"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 27
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 27 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 27 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 27
+    },
+    "variant_signature": "13c59d07a701a220fc91792f2f93222534d30286d27c6a131a7fabd4a6355543"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "28"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 28
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 28 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 28 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 28
+    },
+    "variant_signature": "363902d6342df5ba75ad291bfbcec57a2e7f7148f9d90d3d44996796c11ebb5b"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "30"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 30
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 30 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 30 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 30
+    },
+    "variant_signature": "38c701bc8940320f52760c29764e2a05e48ad7bd9b9c8981bf8eff39fd230701"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "32"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 32
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 32 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 32 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 32
+    },
+    "variant_signature": "b0e0f224033b3c383ce3c4746d8bcf75df0fdaa96910be76d0014ab3c2fe8a7d"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "34"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 34
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 34 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 34 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 34
+    },
+    "variant_signature": "93d26aa49050bf689f122235feb7e5dbc8febb668c5d9e023fa55b7e64de6b23"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "36"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 36
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 36 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 36 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 36
+    },
+    "variant_signature": "f3dc82f74db1844280db2026f2b25744dc7b2f35b0d19e29eb9cdb29be8271a0"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "38"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 38
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 38 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 38 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 38
+    },
+    "variant_signature": "6abcd3673259c0bb3cd60828178152ba29429ca9600157e86ee96e50ba660f60"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "40"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 40
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 40 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 40 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 40
+    },
+    "variant_signature": "06e7da3f21c509999e2f680607c54dbb02cb8f853242a5319b6b694166a26d1a"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "42"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 42
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 42 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 42 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 42
+    },
+    "variant_signature": "d84f443a4ec2a94c74931b656fe5e3c7f879e84b60a526e281fc49fe43f0940b"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "43"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 43
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 43 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 43 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 43
+    },
+    "variant_signature": "78549251e7ed0b24b5c9cf8187db2b7821a376dd535a6390c3f4b6ee04835628"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "46"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 46
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 46 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 46 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 46
+    },
+    "variant_signature": "d8289ad1a728e2b2d8f65265ec6a94cd93adcac5ce4e0182c5c84efeff418ba7"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "48"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 48
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 48 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 48 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 48
+    },
+    "variant_signature": "3151ccb8dee3aed26fba4b49d5078adea32c908d6b2048c99e450b6306193093"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "50"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 50
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 50 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 50 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 50
+    },
+    "variant_signature": "94bdb764c60291860f811adc79d5621156f92a59b0c55a612881c2675fea614b"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "52"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 52
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 52 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 52 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 52
+    },
+    "variant_signature": "2319854b92bb79865fa70366783b4f327fa46363f04150cf3f40fe933d9c7b9f"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "54"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 54
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 54 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 54 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 54
+    },
+    "variant_signature": "730efa102fe97cb5aae9dabd90514eac8111021c8af9db949b4768dc03458281"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "56"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 56
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 56 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 56 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 56
+    },
+    "variant_signature": "2556213e9494fefd0873b8f7b2c4041800192360a994820d8392a8c107db5b8e"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "58"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 58
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 58 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 58 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 58
+    },
+    "variant_signature": "12ca3eef2acca3117a855cb875c893a4cb6a9e76c86814e67541592378f73521"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "59"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 59
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 59 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 59 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 59
+    },
+    "variant_signature": "523496b8fcb176a6dc001528c8fb7aa35854c2ebc1dfd6c41eecd60314f7b3cb"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "61"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 61
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 61 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 61 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 61
+    },
+    "variant_signature": "bd0ee6e0c4fd057a1917df9e0c1ed29b5f188bc5a43660c3e799ae99cdf82be5"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "63"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 63
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 63 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 63 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 63
+    },
+    "variant_signature": "b5348ac8146780a2c544058a436c0e2f262a016aac8d19b5dfd4f13a41915621"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "65"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 65
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 65 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 65 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 65
+    },
+    "variant_signature": "4f9c5239f1f86e0d64b66e3290dd511b43bcd03156b632c33ab7b3ff8d1f2572"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "67"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 67
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 67 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 67 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 67
+    },
+    "variant_signature": "e843270d9b1834d9ad1e42c3b1ff9a7f5fbb6719d2d582a83dd471b8d7035776"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "69"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 69
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 69 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 69 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 69
+    },
+    "variant_signature": "eb90b0701611d1bcf554e0981e3fd088e72910094f2708dc765b14f724be735b"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "71"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 71
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 71 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 71 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 71
+    },
+    "variant_signature": "ed1b0c73e119538e291688fc98c8c764e7756ade48cfa02f6e02094e71dd7d4d"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "73"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 73
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 73 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 73 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 73
+    },
+    "variant_signature": "0bf2facca02c52a7bfccbb9d1f9f9f6b477d43f999a603a2ce6a5a4c994cf42f"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "74"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 74
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 74 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 74 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 74
+    },
+    "variant_signature": "e879ea0df07a48d5866e43a2a03cb23151171f125ad57aae5e4cc80b0af20fa2"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "76"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 76
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 76 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 76 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 76
+    },
+    "variant_signature": "b6e0c6ba3ed2487bd967ee339e8be5b81972f9c5588991c863c33519c8f89e4c"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "78"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 78
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 78 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 78 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 78
+    },
+    "variant_signature": "805db8565797ab8ddec392fcd704d905c3d6942763cac622262cabd0befe843e"
+  },
+  {
+    "answer": "90",
+    "bank_version": "v1",
+    "difficulty": 0.2,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.RIGHT-ANGLE-UPRIGHT",
+        "unsimplified": false,
+        "value": "80"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "180"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "45"
+      }
+    ],
+    "figures": [
+      {
+        "context": "bare",
+        "degrees": 90,
+        "kind": "angle",
+        "tilt": 80
+      }
+    ],
+    "graph_version": "1.0.0",
+    "hints": [
+      "Does tilting a shape on the page change how far apart its arms have turned?",
+      "Check the actual turn between the arms, not whether the angle 'looks' upright. It's still 90 degrees."
+    ],
+    "item_instance_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.ANGLE.TYPES"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "A right angle is defined by its measure \u2014 exactly 90 degrees between its arms \u2014 not by which way it is drawn on the page.",
+        "The tilt of 80 degrees changes the angle's orientation, not its measure, so it is still 90 degrees."
+      ]
+    },
+    "stem": "An angle is drawn tilted 80 degrees away from the upright wall-and-floor position, but its two arms are still turned exactly one quarter of a full turn apart (90 degrees) \u2014 the same amount of turn as an upright right angle. A student insists that because it's tilted, it can't be a right angle. Based on the actual turn between its arms (ignoring the tilt), what is this angle's measure in degrees?",
+    "template_id": "TPL.GEO.ANGLETYPES.RIGHTANGLE.TILTED.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "k": 80
+    },
+    "variant_signature": "6b47c2526d06a6d89dc87441be49afddf80d8b79380a7fe539a7b64486fc43a2"
+  }
+]

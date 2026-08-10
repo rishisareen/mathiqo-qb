@@ -1,0 +1,1362 @@
+[
+  {
+    "answer": "1100",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 5 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 11."
+      ]
+    },
+    "stem": "The number 100 x 11 + 5 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 11,
+      "rem": 5
+    },
+    "variant_signature": "6f34575b6f0e012e483c76f1201ba2dad417defdbcbd1c417c072e32ba3a5126"
+  },
+  {
+    "answer": "1200",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 18 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 12."
+      ]
+    },
+    "stem": "The number 100 x 12 + 18 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 12,
+      "rem": 18
+    },
+    "variant_signature": "c19605f85d40412308913b6d45420332610f0677273f3fd6a8045a9d956fd5f6"
+  },
+  {
+    "answer": "1300",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 30 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 13."
+      ]
+    },
+    "stem": "The number 100 x 13 + 30 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 13,
+      "rem": 30
+    },
+    "variant_signature": "87bfc04690999594482d661976157fb3ab6d0a0430fe84922f78482d71b5269c"
+  },
+  {
+    "answer": "1400",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 43 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 14."
+      ]
+    },
+    "stem": "The number 100 x 14 + 43 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 14,
+      "rem": 43
+    },
+    "variant_signature": "45465eddd9cd6c301d8bc11eead87f50e5ea0e5af9e448dcea5d4289182af7c0"
+  },
+  {
+    "answer": "1600",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 5 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 16."
+      ]
+    },
+    "stem": "The number 100 x 16 + 5 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 16,
+      "rem": 5
+    },
+    "variant_signature": "7fb5d3a3cf47c81ecafa77a181b5ffa7e5bd5716642a811c9aa9daa6d3c97ac4"
+  },
+  {
+    "answer": "1700",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 18 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 17."
+      ]
+    },
+    "stem": "The number 100 x 17 + 18 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 17,
+      "rem": 18
+    },
+    "variant_signature": "c6c0486b1c13a1501e96d5a3b4f632a635df9d16a4eaa8d6ff2463a94b70a431"
+  },
+  {
+    "answer": "1800",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 30 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 18."
+      ]
+    },
+    "stem": "The number 100 x 18 + 30 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 18,
+      "rem": 30
+    },
+    "variant_signature": "e6355ed1bb428eaa2351bf75e7646db43f8a927a935df1fe1193c3f21e9a6b86"
+  },
+  {
+    "answer": "1900",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00007",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 43 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 19."
+      ]
+    },
+    "stem": "The number 100 x 19 + 43 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 19,
+      "rem": 43
+    },
+    "variant_signature": "c996333a51bc9a4b8b3c071d2848d8f1398e66381375145add8810639a2c58d3"
+  },
+  {
+    "answer": "2100",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00008",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 5 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 21."
+      ]
+    },
+    "stem": "The number 100 x 21 + 5 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 21,
+      "rem": 5
+    },
+    "variant_signature": "6e2a615b44e19b9e4cf769b7242af2b526459bfecc545a2b7fcd3817fa9db5b4"
+  },
+  {
+    "answer": "2200",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00009",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 18 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 22."
+      ]
+    },
+    "stem": "The number 100 x 22 + 18 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 22,
+      "rem": 18
+    },
+    "variant_signature": "dd32c4dfb159261b74a409112cbbf32491f3dc030301bfc4b3a804a3cc0d6d18"
+  },
+  {
+    "answer": "2300",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00010",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 30 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 23."
+      ]
+    },
+    "stem": "The number 100 x 23 + 30 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 23,
+      "rem": 30
+    },
+    "variant_signature": "b3dbf48a587fc8840f6dcac2b5da6c5a498d2e862158814eddb973e1756d68aa"
+  },
+  {
+    "answer": "2400",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00011",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 43 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 24."
+      ]
+    },
+    "stem": "The number 100 x 24 + 43 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 24,
+      "rem": 43
+    },
+    "variant_signature": "31517c9d180841ec256847e5423f01065c4e0016214827cd5d3998dfa56d9330"
+  },
+  {
+    "answer": "2600",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00012",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 5 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 26."
+      ]
+    },
+    "stem": "The number 100 x 26 + 5 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 26,
+      "rem": 5
+    },
+    "variant_signature": "6b059372f0d795bbb89e215239b2235297c094b3b8324c353f52a88b237807ae"
+  },
+  {
+    "answer": "2700",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00013",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 18 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 27."
+      ]
+    },
+    "stem": "The number 100 x 27 + 18 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 27,
+      "rem": 18
+    },
+    "variant_signature": "2ae9118cd99dd9c8442cf80e74b31419ecca5ddb9c94b44ed36cb67c58e3e527"
+  },
+  {
+    "answer": "2800",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00014",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 30 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 28."
+      ]
+    },
+    "stem": "The number 100 x 28 + 30 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 28,
+      "rem": 30
+    },
+    "variant_signature": "c3c96c6ceb73ad6b1faf800f75ba093c3bbd4d4811ebbc3022d780bfb2e88f1d"
+  },
+  {
+    "answer": "2900",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00015",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 43 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 29."
+      ]
+    },
+    "stem": "The number 100 x 29 + 43 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 29,
+      "rem": 43
+    },
+    "variant_signature": "8bcb8c7888636d3c9d233e8baf9bc39b51cf677b555215cad943fdb95937c274"
+  },
+  {
+    "answer": "3100",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00016",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 5 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 31."
+      ]
+    },
+    "stem": "The number 100 x 31 + 5 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 31,
+      "rem": 5
+    },
+    "variant_signature": "bb102620d3a864cb6616513100ea4374f18bf5855d14465c458cacb4440dda2c"
+  },
+  {
+    "answer": "3200",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00017",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 18 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 32."
+      ]
+    },
+    "stem": "The number 100 x 32 + 18 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 32,
+      "rem": 18
+    },
+    "variant_signature": "8ca71581680698ce031978a19fe48696f2b596177af49cf1cf963c9998aa7e67"
+  },
+  {
+    "answer": "3300",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00018",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 30 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 33."
+      ]
+    },
+    "stem": "The number 100 x 33 + 30 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 33,
+      "rem": 30
+    },
+    "variant_signature": "525e9dc134fc86f86db8b4105912191435c9eab924b1be61e23274fb7ae9116c"
+  },
+  {
+    "answer": "3400",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00019",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 43 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 34."
+      ]
+    },
+    "stem": "The number 100 x 34 + 43 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 34,
+      "rem": 43
+    },
+    "variant_signature": "d22f189fc7e5c81def3e62153bde815a8717bbee2aa85e7aacd2cbf997cc28f1"
+  },
+  {
+    "answer": "3600",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00020",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 5 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 36."
+      ]
+    },
+    "stem": "The number 100 x 36 + 5 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 36,
+      "rem": 5
+    },
+    "variant_signature": "7fbd616f54aabb83996a102baa578c6afe09963343376aaf999d5fdf2b3b7455"
+  },
+  {
+    "answer": "3700",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00021",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 18 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 37."
+      ]
+    },
+    "stem": "The number 100 x 37 + 18 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 37,
+      "rem": 18
+    },
+    "variant_signature": "e5dbb5c19bd02783ca206171cfa335bcf63849210d5088e1fffce70f5a139ca9"
+  },
+  {
+    "answer": "3800",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00022",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 30 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 38."
+      ]
+    },
+    "stem": "The number 100 x 38 + 30 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 38,
+      "rem": 30
+    },
+    "variant_signature": "213f178027056b2c9cdff3d2b5cc374825f87228584c47c62dbf5bc8a420b8ce"
+  },
+  {
+    "answer": "3900",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00023",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 43 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 39."
+      ]
+    },
+    "stem": "The number 100 x 39 + 43 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 39,
+      "rem": 43
+    },
+    "variant_signature": "f6f37367c099ce4e02d8b428e8f365df8a6791b43e34ec6ccb67dd64352331bf"
+  },
+  {
+    "answer": "4100",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00024",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 5 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 41."
+      ]
+    },
+    "stem": "The number 100 x 41 + 5 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 41,
+      "rem": 5
+    },
+    "variant_signature": "35648bac5ea1ac9b372fc14a5d4c5a2ced9913731fa0b72e82619a6bd7b852f3"
+  },
+  {
+    "answer": "4200",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00025",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 18 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 42."
+      ]
+    },
+    "stem": "The number 100 x 42 + 18 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 42,
+      "rem": 18
+    },
+    "variant_signature": "e037b2db17b62bfe6ff37aae0ffe558cff4f896d90b056530263cd00e026cfd6"
+  },
+  {
+    "answer": "4300",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00026",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 30 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 43."
+      ]
+    },
+    "stem": "The number 100 x 43 + 30 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 43,
+      "rem": 30
+    },
+    "variant_signature": "b5ff98eaef6271ea323e575781f3f0ce88310f7b4b9b8752567b769f5d12bea1"
+  },
+  {
+    "answer": "4400",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00027",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 43 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 44."
+      ]
+    },
+    "stem": "The number 100 x 44 + 43 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 44,
+      "rem": 43
+    },
+    "variant_signature": "e158e7b84d4f6c1a7557f9b26d53904fa7edd3e35f94ea8675d01bb9c8e34592"
+  },
+  {
+    "answer": "4600",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00028",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 5 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 46."
+      ]
+    },
+    "stem": "The number 100 x 46 + 5 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 46,
+      "rem": 5
+    },
+    "variant_signature": "35e9bfdac2509ac67274db47f49d3c08018bde56405323eb2041019a4f3a1775"
+  },
+  {
+    "answer": "4700",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00029",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 18 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 47."
+      ]
+    },
+    "stem": "The number 100 x 47 + 18 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 47,
+      "rem": 18
+    },
+    "variant_signature": "d186da3f6c4f2f82a567e799a7cec259c257a28a23a54938dc386282c01acf8d"
+  },
+  {
+    "answer": "4800",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00030",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 30 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 48."
+      ]
+    },
+    "stem": "The number 100 x 48 + 30 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 48,
+      "rem": 30
+    },
+    "variant_signature": "4d162854f6ee0844ce4c21efdd675011c32516ec0a3fe683742b4ff2f60667f8"
+  },
+  {
+    "answer": "4900",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00031",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 43 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 49."
+      ]
+    },
+    "stem": "The number 100 x 49 + 43 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 49,
+      "rem": 43
+    },
+    "variant_signature": "b1725d05df5c2051f460f722de3816bee64102e2fdc75d22f41f25a39fec42ff"
+  },
+  {
+    "answer": "5100",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00032",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 5 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 51."
+      ]
+    },
+    "stem": "The number 100 x 51 + 5 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 51,
+      "rem": 5
+    },
+    "variant_signature": "66276d29790f2a0af5cab12333337a2f3390ee44a251855604631658cbdc5263"
+  },
+  {
+    "answer": "5200",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00033",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 18 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 52."
+      ]
+    },
+    "stem": "The number 100 x 52 + 18 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 52,
+      "rem": 18
+    },
+    "variant_signature": "f98b2a8612c8dc88c05a64765a14cb1a55d75bf25142c2fff7e2659b171f631c"
+  },
+  {
+    "answer": "5300",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00034",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 30 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 53."
+      ]
+    },
+    "stem": "The number 100 x 53 + 30 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 53,
+      "rem": 30
+    },
+    "variant_signature": "3e47b5583b9e13f79ea7183a50515a40c7cf6e88b19f64a718bb53ddcb0fee89"
+  },
+  {
+    "answer": "5400",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00035",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 43 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 54."
+      ]
+    },
+    "stem": "The number 100 x 54 + 43 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 54,
+      "rem": 43
+    },
+    "variant_signature": "5e11eaaf7285857d05b501ff0d0e461af4e57e98ffbb236771f1b9023431ac2f"
+  },
+  {
+    "answer": "5600",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00036",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 5 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 56."
+      ]
+    },
+    "stem": "The number 100 x 56 + 5 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 56,
+      "rem": 5
+    },
+    "variant_signature": "74e94728b8a33f84db27d2633593004aad938cca48487a2c5ee35cfe7c6a398f"
+  },
+  {
+    "answer": "5700",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00037",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 18 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 57."
+      ]
+    },
+    "stem": "The number 100 x 57 + 18 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 57,
+      "rem": 18
+    },
+    "variant_signature": "2fb9343950c6e5a1286f420ea1b8cff68f51fda7d24e8f1818dd669db3c8d89e"
+  },
+  {
+    "answer": "5800",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00038",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 30 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 58."
+      ]
+    },
+    "stem": "The number 100 x 58 + 30 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 58,
+      "rem": 30
+    },
+    "variant_signature": "35e7a8a50e0fca811b683f449083f074aa2dc25f4a54f0c4b8a195cdb05703c3"
+  },
+  {
+    "answer": "5900",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Is the remainder closer to 0 or to 100?",
+      "A remainder below 50 always rounds down."
+    ],
+    "item_instance_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001#v1#00039",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "numeric_entry",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "NUM.ESTIMATE"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "The remainder 43 is less than 50, so round down.",
+        "Rounded to the nearest 100, the number is 100 x 59."
+      ]
+    },
+    "stem": "The number 100 x 59 + 43 is rounded to the nearest 100. What is the result?",
+    "template_id": "TPL.NUM.ESTIMATE.ROUND100.DOWN.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "hundreds": 59,
+      "rem": 43
+    },
+    "variant_signature": "b13560f5049a17194a57b54d8ebca2f679e71a104594aeafb02207e6d88f5d14"
+  }
+]

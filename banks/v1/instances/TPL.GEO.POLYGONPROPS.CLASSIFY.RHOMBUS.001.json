@@ -1,0 +1,352 @@
+[
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.POLYGON.RHOMBUS-AS-SQUARE",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal sides alone don't tell you the corners are square \u2014 what else do you need to check?",
+      "Are 60 and 120 degrees ever equal to 90 degrees?"
+    ],
+    "item_instance_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001#v1#00000",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POLYGON.PROPS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Equal sides alone don't decide the corners \u2014 check the actual angles.",
+        "The corners measure 60 and 120 degrees, and neither of those is 90 degrees.",
+        "So none of its corners are square corners: the count is 0."
+      ]
+    },
+    "stem": "A shape has 4 sides, all exactly 3 cm long. Two of its corners measure 60 degrees and two measure 120 degrees. How many of its corners are square (90-degree) corners?",
+    "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "s": 3
+    },
+    "variant_signature": "624a247c4effcc6ce080812a6c65786d7735ee3f6b20c9ef6222c16d40adfcd0"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.POLYGON.RHOMBUS-AS-SQUARE",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal sides alone don't tell you the corners are square \u2014 what else do you need to check?",
+      "Are 60 and 120 degrees ever equal to 90 degrees?"
+    ],
+    "item_instance_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001#v1#00001",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POLYGON.PROPS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Equal sides alone don't decide the corners \u2014 check the actual angles.",
+        "The corners measure 60 and 120 degrees, and neither of those is 90 degrees.",
+        "So none of its corners are square corners: the count is 0."
+      ]
+    },
+    "stem": "A shape has 4 sides, all exactly 4 cm long. Two of its corners measure 60 degrees and two measure 120 degrees. How many of its corners are square (90-degree) corners?",
+    "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "s": 4
+    },
+    "variant_signature": "ec7bb1a8f939f3d2dcab001b6b2c69d1cdd756b50017faae91ab3b23612ef185"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.POLYGON.RHOMBUS-AS-SQUARE",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal sides alone don't tell you the corners are square \u2014 what else do you need to check?",
+      "Are 60 and 120 degrees ever equal to 90 degrees?"
+    ],
+    "item_instance_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001#v1#00002",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POLYGON.PROPS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Equal sides alone don't decide the corners \u2014 check the actual angles.",
+        "The corners measure 60 and 120 degrees, and neither of those is 90 degrees.",
+        "So none of its corners are square corners: the count is 0."
+      ]
+    },
+    "stem": "A shape has 4 sides, all exactly 5 cm long. Two of its corners measure 60 degrees and two measure 120 degrees. How many of its corners are square (90-degree) corners?",
+    "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "s": 5
+    },
+    "variant_signature": "2e8960cea2d2db99d43f302c5c26b1e6e31c36ef9cb8be9b4ba20207e4b04b02"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.POLYGON.RHOMBUS-AS-SQUARE",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal sides alone don't tell you the corners are square \u2014 what else do you need to check?",
+      "Are 60 and 120 degrees ever equal to 90 degrees?"
+    ],
+    "item_instance_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001#v1#00003",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POLYGON.PROPS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Equal sides alone don't decide the corners \u2014 check the actual angles.",
+        "The corners measure 60 and 120 degrees, and neither of those is 90 degrees.",
+        "So none of its corners are square corners: the count is 0."
+      ]
+    },
+    "stem": "A shape has 4 sides, all exactly 6 cm long. Two of its corners measure 60 degrees and two measure 120 degrees. How many of its corners are square (90-degree) corners?",
+    "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "s": 6
+    },
+    "variant_signature": "650c634c05549fbc81dff39cc3cb56e3846442bf44d43d30d3b90606e88c075d"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.POLYGON.RHOMBUS-AS-SQUARE",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal sides alone don't tell you the corners are square \u2014 what else do you need to check?",
+      "Are 60 and 120 degrees ever equal to 90 degrees?"
+    ],
+    "item_instance_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001#v1#00004",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POLYGON.PROPS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Equal sides alone don't decide the corners \u2014 check the actual angles.",
+        "The corners measure 60 and 120 degrees, and neither of those is 90 degrees.",
+        "So none of its corners are square corners: the count is 0."
+      ]
+    },
+    "stem": "A shape has 4 sides, all exactly 7 cm long. Two of its corners measure 60 degrees and two measure 120 degrees. How many of its corners are square (90-degree) corners?",
+    "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "s": 7
+    },
+    "variant_signature": "d4fdccdbb7dcce52377e9de19c189d51ca0b710ee84a4410badee0f1233e19f1"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.POLYGON.RHOMBUS-AS-SQUARE",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal sides alone don't tell you the corners are square \u2014 what else do you need to check?",
+      "Are 60 and 120 degrees ever equal to 90 degrees?"
+    ],
+    "item_instance_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001#v1#00005",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POLYGON.PROPS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Equal sides alone don't decide the corners \u2014 check the actual angles.",
+        "The corners measure 60 and 120 degrees, and neither of those is 90 degrees.",
+        "So none of its corners are square corners: the count is 0."
+      ]
+    },
+    "stem": "A shape has 4 sides, all exactly 8 cm long. Two of its corners measure 60 degrees and two measure 120 degrees. How many of its corners are square (90-degree) corners?",
+    "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "s": 8
+    },
+    "variant_signature": "bc52002a13d8d02ffb074496de482484e2aea2be114c98cfc17e3650e15e4e4f"
+  },
+  {
+    "answer": "0",
+    "bank_version": "v1",
+    "difficulty": 0.5,
+    "distractors": [
+      {
+        "misconception_id": "MISC.GEO.POLYGON.RHOMBUS-AS-SQUARE",
+        "unsimplified": false,
+        "value": "4"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "2"
+      },
+      {
+        "misconception_id": null,
+        "unsimplified": false,
+        "value": "1"
+      }
+    ],
+    "figures": null,
+    "graph_version": "1.0.0",
+    "hints": [
+      "Equal sides alone don't tell you the corners are square \u2014 what else do you need to check?",
+      "Are 60 and 120 degrees ever equal to 90 degrees?"
+    ],
+    "item_instance_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001#v1#00006",
+    "language": "en-IN",
+    "locale": "en-IN",
+    "question_type": "mcq_4",
+    "simplest_form_only": false,
+    "skill_ids": [
+      "GEO.POLYGON.PROPS"
+    ],
+    "solution_steps": {
+      "canonical": [
+        "Equal sides alone don't decide the corners \u2014 check the actual angles.",
+        "The corners measure 60 and 120 degrees, and neither of those is 90 degrees.",
+        "So none of its corners are square corners: the count is 0."
+      ]
+    },
+    "stem": "A shape has 4 sides, all exactly 9 cm long. Two of its corners measure 60 degrees and two measure 120 degrees. How many of its corners are square (90-degree) corners?",
+    "template_id": "TPL.GEO.POLYGONPROPS.CLASSIFY.RHOMBUS.001",
+    "template_version": "1.0.0",
+    "variables": {
+      "s": 9
+    },
+    "variant_signature": "89554e83bb0ebfd74ccce0382f0e6944b59beb11e80482560bc015032dfa29ce"
+  }
+]
