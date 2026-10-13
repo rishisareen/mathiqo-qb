@@ -72,7 +72,7 @@ import re
 import shutil
 import sys
 import uuid
-from dataclasses import dataclass
+from dataclasses import dataclass, field
 from itertools import product
 from pathlib import Path
 from typing import Mapping
@@ -127,6 +127,9 @@ class LocalePack:
     language: str
     categories: Mapping[str, list]
     source_path: Path
+    # Rewrites for non-language-keyed figure `unit` strings (e.g. a pictograph
+    # key's "rupees" -> "dollars"); empty for packs that need none.
+    unit_map: Mapping[str, str] = field(default_factory=dict)
 
     @classmethod
     def load(cls, path: Path) -> "LocalePack":
@@ -139,6 +142,7 @@ class LocalePack:
             language=str(data.get("language", data["locale"])),
             categories=categories,
             source_path=path,
+            unit_map={str(k): str(v) for k, v in (data.get("unit_map") or {}).items()},
         )
 
     def category_for(self, slot: str) -> str:
@@ -323,6 +327,19 @@ def _materialize_figure_node(
             _materialize_figure_node(item, values, substitutions, language, f"{path}[{index}]")
             for index, item in enumerate(node)
         ]
+    return node
+
+
+def _apply_unit_map(node: object, unit_map: Mapping[str, str]) -> object:
+    """Rewrite every materialized figure `unit` string the locale pack maps."""
+    if isinstance(node, Mapping):
+        return {
+            key: (unit_map.get(value, value) if key == "unit" and isinstance(value, str)
+                  else _apply_unit_map(value, unit_map))
+            for key, value in node.items()
+        }
+    if isinstance(node, list):
+        return [_apply_unit_map(item, unit_map) for item in node]
     return node
 
 
@@ -551,6 +568,8 @@ def materialize_instance(
     # Same substitutions dict as the stem, deliberately (KTD7): the figure and
     # the prose it accompanies must name the same child and the same food.
     figures = materialize_figures(template, values, substitutions, language)
+    if pack.unit_map:
+        figures = _apply_unit_map(figures, pack.unit_map)
 
     answer_value = item_verify.evaluate_expression(str(template["answer"]), values)
     answer = _fmt_rational(answer_value)

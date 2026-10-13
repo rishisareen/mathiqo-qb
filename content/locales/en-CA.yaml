@@ -1,0 +1,48 @@
+# Canadian English locale pack (Ontario, DRAFT).
+#
+# Authored text for this locale is derived from en-IN with
+# `python3 tools/add_locale.py --source en-IN --target en-CA --rules
+# content/locales/en-CA.yaml content/templates content/fractions`.
+# `text_rules` is read only by that tool; bank_build ignores it (it is not a
+# slot category).
+#
+# STATUS: mechanical draft. Every line the rules changed must be reviewed by a
+# named Ontario teacher before this pack is used to build a bank served to
+# children. Quantities were left alone, so money amounts that were plausible in
+# rupees (e.g. tiling at 40-200 per m2) may need re-ranging for dollars.
+locale: en-CA
+language: en-CA
+
+names:
+  - Liam
+  - Olivia
+  - Noah
+  - Amara
+  - Mateo
+  - Chloe
+  - Hassan
+  - Mei
+
+food:
+  - apple
+  - pancake
+  - bagel
+  - pizza
+  - muffin
+  - banana
+
+# Applied in order, on the text of each source-locale entry.
+text_rules:
+  - { pattern: '\bRs\s*(?=\{\{)', replace: '$' }
+  - { pattern: '\bRs\b\s*', replace: '$' }
+  - { pattern: 'rupees', replace: 'dollars' }
+  - { pattern: 'rupee', replace: 'dollar' }
+  - { pattern: 'Cricket', replace: 'Hockey' }
+  - { pattern: 'cricket', replace: 'hockey' }
+  - { pattern: 'Football', replace: 'Soccer' }
+  - { pattern: 'Meena', replace: 'Maya' }
+
+# Non-text figure fields (e.g. a pictograph key's `unit`) that are not
+# language-keyed in the template; bank_build rewrites these for this locale.
+unit_map:
+  rupees: dollars
