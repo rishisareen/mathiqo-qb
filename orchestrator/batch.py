@@ -270,7 +270,7 @@ FEEDBACK_LOCALE = "en-IN"  # matches the convention every content pack authors u
 
 
 def build_feedback_sidecar(
-    content: engine.ContentIndex, items: List[PlannedItem], locale: str = FEEDBACK_LOCALE
+    content: engine.ContentIndex, items: List[PlannedItem], locale: Optional[str] = None
 ) -> Dict[str, str]:
     """R18/AE8: every `misconception_id` reachable from any served
     distractor of any item in `items` must resolve to child-facing feedback
@@ -285,11 +285,14 @@ def build_feedback_sidecar(
             if misconception_id is None or misconception_id in sidecar:
                 continue
             entry = content.misconceptions.get(misconception_id)
-            text = entry.child_feedback_i18n.get(locale) if entry is not None else None
+            # Default: the instance's own language, so an en-CA bank resolves
+            # en-CA feedback; instances without one fall back to FEEDBACK_LOCALE.
+            want = locale or item.instance.get("language") or FEEDBACK_LOCALE
+            text = entry.child_feedback_i18n.get(want) if entry is not None else None
             if not text:
                 raise BatchPlanningError(
                     f"misconception {misconception_id!r} (served by a distractor of instance "
-                    f"{item.instance['item_instance_id']!r}) has no {locale!r} child_feedback_i18n "
+                    f"{item.instance['item_instance_id']!r}) has no {want!r} child_feedback_i18n "
                     "text in the misconception registry — AE8 requires every served distractor's "
                     "misconception to resolve to child-facing feedback"
                 )
